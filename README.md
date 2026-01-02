@@ -15,6 +15,18 @@ The pipeline automates the critical appraisal process by:
     *   Statistical Analysis and Reporting
 3.  **Output**: Generating high-quality, structured JSON reports containing ratings, verbatim evidence snippets, and expert reasoning.
 
+## 🔄 Workflow
+
+```mermaid
+graph TD
+    A[PDF Files] -->|marker_single| B[Markdown Files]
+    B -->|01__run_quips_scoring.py| C(LLM Assessment)
+    C -->|prompts/quips_assessment.md| C
+    C -->|Generates| D[JSON Scores]
+    D -->|02__convert_scores_to_tsv.py| E[TSV Summary]
+    F[misc/QUIPS_tool.json] -.-> E
+```
+
 ## 📁 Project Structure
 
 *   `00__run_quips_scoring.py`: The primary execution script for LLM assessment.
@@ -41,6 +53,16 @@ Create a `.env` file in the root directory and add your OpenRouter API key:
 ```env
 OPENROUTER_API_KEY=your_openrouter_key_here
 ```
+
+## 🔄 Preprocessing: PDF Conversion
+
+Before scoring, PDF papers must be converted to clean Markdown text. We use `marker_single` for high-quality local conversion that preserves layout logic without unnecessary image extraction overhead.
+
+**Command Example:**
+```bash
+marker_single /path/to/paper.pdf /output/dir_md --batch_multiplier 2 --max_pages 20 --langs English
+```
+*Note: Ensure the output directory contains the `.md` files for the scoring script.*
 
 ## 📈 Usage
 
