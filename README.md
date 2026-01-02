@@ -60,16 +60,20 @@ Before scoring, PDF papers must be converted to clean Markdown text. We use `mar
 
 **Command Example:**
 ```bash
-marker_single /path/to/paper.pdf /output/dir_md --batch_multiplier 2 --max_pages 20 --langs English
+./convert_pdfs.sh
 ```
-*Note: Ensure the output directory contains the `.md` files for the scoring script.*
+Or for a single file:
+```bash
+marker_single /path/to/paper.pdf --output_dir /output/dir_md --disable_image_extraction --batch_multiplier 2
+```
+*Note: The script processes all pages by default and auto-detects languages (including Spanish, Portuguese, and Chinese).*
 
 ## 📈 Usage
 
 To run the scoring agent:
 
 ```bash
-python run_quips_scoring.py
+python 01__run_quips_scoring.py
 ```
 
 The script will interactively ask for:
@@ -77,6 +81,15 @@ The script will interactively ask for:
 2.  **Output directory**: Where to save the JSON results (e.g., `outputs/1_Giuliano_2021`).
 
 Press **Enter** for both to use the default directories. The script is configured with `temperature=0.0` to ensure deterministic, high-fidelity results.
+
+### 📊 Summarizing Results
+
+After processing papers into JSON files, you can aggregate them into a single TSV file for analysis in R or Excel:
+
+```bash
+python 02__convert_scores_to_tsv.py
+```
+This script maps the complex JSON structure to a flat table with intuitive column names (e.g., `D1_Source_Rating`, `D1_Source_Evidence`) based on the master schema.
 
 ## 📊 Output Format
 

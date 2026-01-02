@@ -34,8 +34,10 @@ find "$SOURCE_DIR" -type f -name "*.pdf" | while read -r pdf_file; do
     
     # Execute marker_single
     # --disable_image_extraction: Prevents extracting images to separate files
-    # We output to the subdir. marker usually creates a folder named after the file inside output_dir.
-    marker_single "$pdf_file" --output_dir "$output_dir" --disable_image_extraction
+    # --batch_multiplier: Increases throughput (adjust based on VRAM/CPU)
+    # Note: We omit --max_pages to process the full document.
+    # Note: We omit --langs to allow marker to auto-detect (supports Spanish, Portuguese, Chinese, etc.)
+    marker_single "$pdf_file" --output_dir "$output_dir" --disable_image_extraction --batch_multiplier 2
     
     # Flatten the output:
     # Marker creates "$output_dir/$filename/" containing "$filename.md" (or similar).
