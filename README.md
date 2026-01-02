@@ -64,7 +64,7 @@ Before scoring, PDF papers must be converted to clean Markdown text. We use `mar
 ```
 Or for a single file:
 ```bash
-marker_single /path/to/paper.pdf --output_dir /output/dir_md --disable_image_extraction --batch_multiplier 2
+marker_single /path/to/paper.pdf --output_dir /output/dir_md --disable_image_extraction
 ```
 *Note: The script processes all pages by default and auto-detects languages (including Spanish, Portuguese, and Chinese).*
 
