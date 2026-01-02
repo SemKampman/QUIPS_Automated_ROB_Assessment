@@ -1,0 +1,312 @@
+{
+  "paper_metadata": {
+    "title": "Pattern-sensitive Epilepsy: Electroclinical Characteristics, Natural History, and Delineation of the Epileptic Syndrome",
+    "first_author": "Kurupath Radhakrishnan",
+    "year": "2004",
+    "analysis_timestamp": "2023-10-27 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study provides a clear description of the recruitment source (Mayo Clinic), the long recruitment period, and specific inclusion/exclusion criteria. While it is a retrospective referral-center cohort, the systematic screening of nearly all patients for pattern sensitivity since 1950 minimizes the selection bias typically found in studies that only test photosensitive individuals.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "73 (43 female and 30 male) patients in whom pattern-sensitive epilepsy was diagnosed at Mayo Clinic (Rochester, Minnesota, U.S.A.) from 1950 through 1999.",
+          "reasoning": "The source (Mayo Clinic) and basic demographics (sex, age at onset) are clearly defined."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "Since 1950... nearly all patients undergoing EEG examination at Mayo Clinic who are capable of cooperating are asked to scan at least one standard pattern.",
+          "reasoning": "The study used a systematic screening protocol for all EEG patients, which is superior to convenience sampling of only photosensitive patients."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "50-year period from 1950 through 1999",
+          "reasoning": "The timeframe is explicitly stated."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location) are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "Mayo Clinic (Rochester, Minnesota, U.S.A.)",
+          "reasoning": "The setting is a major tertiary referral center in the USA."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "Six patients were excluded from this study: three because of failure to elicit pattern sensitivity in the EEG laboratory, and three because of failure to give consent for participation. The remaining 73 patients included in the study exhibited epileptiform discharges in the scalp EEG during pattern viewing.",
+          "reasoning": "Criteria are based on objective EEG findings and consent."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Yes",
+          "evidence_snippet": "73 patients included... Six patients were excluded",
+          "reasoning": "The participation rate among identified eligible patients was very high (73/79, ~92%)."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "The mean age at onset of seizures was 12.6 ± 7.1 years... types and combinations of the seizures that occurred are listed in Table 1.",
+          "reasoning": "Age, sex, seizure types, and EEG characteristics are well-tabulated."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study achieved a long median follow-up (15.7 years), but 20.5% of the original cohort (15/73) were lost to follow-up or had less than 5 years of data for the primary outcome (remission). There is limited comparison between those lost to follow-up and those who completed the study, though the reasons for death were noted.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Partial",
+          "evidence_snippet": "Fifty-five patients were followed up for ≥5 years... Four patients were seen only once at Mayo Clinic, and neither they nor their relatives could be traced.",
+          "reasoning": "75% of the sample (55/73) provided long-term outcome data, which is acceptable for a 50-year retrospective study but introduces some risk."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "Yes",
+          "evidence_snippet": "We contacted the patients or their spouses, siblings, or children by letter or telephone to obtain the latest outcome results",
+          "reasoning": "The authors actively attempted to trace patients via multiple methods."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Partial",
+          "evidence_snippet": "Four patients were seen only once... Eleven patients died. Two deaths were seizure related, and the others were due to a progressive neurologic or systemic disease",
+          "reasoning": "Reasons for death are provided, but reasons for the other 4 untraceable patients are simply 'could not be traced'."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not provide a table comparing the baseline characteristics of the 55 completers vs. the 18 non-completers."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Without a comparative analysis of dropouts, it is impossible to determine if attrition was informative (e.g., if those with worse seizures were more likely to be lost)."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Attrition Summary",
+        "prompt": "Loss to follow-up (from baseline sample to study population analyzed) is not associated with key characteristics (i.e., the study data adequately represent the sample) sufficient to limit potential bias to the observed relationship between PF and outcome.",
+        "risk_of_bias": "Moderate"
+      }
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The prognostic factors (age of onset, family history, neurologic disease) are standard clinical variables. The defining factor (pattern sensitivity) was measured using a standardized, objective EEG protocol that remained consistent at the institution for decades.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "We defined a 'paroxysmal pattern response' as occurring at least twice when viewing the same pattern",
+          "reasoning": "The primary prognostic factor (the condition itself) is strictly defined by EEG criteria."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "All patients had scalp EEG evaluation with eight-channel recordings in the 1950s and 16 or more channels since that time... 21 electrodes placed according to the 10-20 system",
+          "reasoning": "EEG is the gold standard for this diagnosis; the use of the 10-20 system ensures reliability."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "The mean age at onset of seizures was 12.6 ± 7.1 years (median, 12.8 years; range, 0.6–32.9 years).",
+          "reasoning": "Age is reported as a continuous variable with mean/median/range."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Since 1951, the standard EEG recording at Mayo Clinic has included photic stimulation and pattern testing.",
+          "reasoning": "A standardized institutional protocol was applied to all patients."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "73 patients included in the study exhibited epileptiform discharges in the scalp EEG during pattern viewing.",
+          "reasoning": "All included patients had the primary PF confirmed."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "Yes",
+          "reasoning": "No imputation was needed as PF was an inclusion criterion.",
+          "evidence_snippet": "Not found in text"
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "PF Measurement Summary",
+        "prompt": "PF is adequately measured in study participants to sufficiently limit potential bias.",
+        "risk_of_bias": "Low"
+      }
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The primary outcome (remission) is clearly defined, but it relies on patient/family recall via telephone or letter, which is subject to recall bias. There was no objective verification (e.g., follow-up EEG) for the remission status.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "We defined 'remission' as seizure free for ≥5 years, regardless of anticonvulsant drug (AED) treatment status",
+          "reasoning": "The definition follows ILAE recommendations."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Partial",
+          "evidence_snippet": "We contacted the patients and their relatives by letter or telephone to obtain the latest seizure and quality-of-life outcomes.",
+          "reasoning": "Self-reporting is standard for long-term epilepsy follow-up but is less reliable than clinical examination or diary logs."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "We contacted the patients or their spouses, siblings, or children by letter or telephone",
+          "reasoning": "The same survey/interview method was applied to the follow-up cohort."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Outcome Measurement Summary",
+        "prompt": "Outcome of interest is adequately measured in study participants to sufficiently limit potential bias.",
+        "risk_of_bias": "Moderate"
+      }
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study identifies and analyzes several confounders (neurologic disease, family history). However, it does not use multivariable modeling to adjust for these factors simultaneously, relying instead on univariable associations (Fisher's exact test).",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Yes",
+          "evidence_snippet": "age at seizure onset, sex, seizure type or types, or precipitating factor or factors... AED therapy.",
+          "reasoning": "Key clinical and demographic variables were collected."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Partial",
+          "evidence_snippet": "Phenobarbital (PB; 37 patients), sodium valproate (VPA; 34 patients)...",
+          "reasoning": "Medications are listed, but specific doses and durations are not detailed for the analysis."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Demographic, clinical, and EEG data were ascertained through a review of medical records.",
+          "reasoning": "Medical records from a specialized center like Mayo are generally reliable for clinical confounders."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "All patients had scalp EEG evaluation... Demographic, clinical, and EEG data were ascertained through a review of medical records.",
+          "reasoning": "Standardized chart review was used for all."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text does not mention how missing clinical data (if any) was handled."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "This was a descriptive cohort study; no matching or stratification was used in the design."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Partial",
+          "evidence_snippet": "Associations of categorical variables with seizure remission rate were assessed by using χ2 tests or Fisher's exact test",
+          "reasoning": "The authors performed univariable analysis but did not perform multivariable logistic regression to adjust for confounding."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Confounding Summary",
+        "prompt": "Important potential confounders are appropriately accounted for, limiting potential bias with respect to the relationship between PF and outcome.",
+        "risk_of_bias": "Moderate"
+      }
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical methods are appropriate for the study's descriptive and exploratory nature. Kaplan-Meier analysis is correctly used for the time-to-remission outcome. Reporting is transparent regarding the cohort and the findings.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "We used the mean±standard deviation to define the dispersion... Kaplan–Meier plot of time from the date of the first seizure to the date of the last seizure.",
+          "reasoning": "The strategy is clearly outlined in the 'Statistical methods' section."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Partial",
+          "evidence_snippet": "Among the factors examined in relation to remission...",
+          "reasoning": "Variables were selected based on clinical relevance, but no complex model building (e.g., Cox regression) was performed."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "Kaplan–Meier plot of time for 53 patients from first seizure to remission",
+          "reasoning": "Survival analysis (Kaplan-Meier) is the correct approach for time-to-event data like seizure remission."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Table 5. Patient attributes significantly associated with seizure remission",
+          "reasoning": "The authors report both significant and non-significant associations (e.g., family history p=0.06)."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Statistical Analysis and Presentation Summary",
+        "prompt": "The statistical analysis is appropriate for the design of the study, limiting potential for presentation of invalid or spurious results.",
+        "risk_of_bias": "Low"
+      }
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/1_Giuliano_2021/Radhakrishnan_2005.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-01-02T13:00:03.218346"
+  }
+}

@@ -1,0 +1,287 @@
+{
+  "paper_metadata": {
+    "title": "Juvenile Myoclonic Epilepsy: A 5-Year Prospective Study",
+    "first_author": "C. P. Panayiotopoulos",
+    "year": "1993",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study provides a clear description of the recruitment setting and inclusion/exclusion criteria. However, it is a clinic-based sample (referral-based) rather than a population-based cohort, which may introduce selection bias. The participation rate of eligible non-participants is not explicitly stated.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "66 patients (10.2%) fulfilled the criteria for JME among 672 patients attending the epilepsy clinic",
+          "reasoning": "The source is clearly defined as patients attending a specific epilepsy clinic in Riyadh."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Partial",
+          "evidence_snippet": "Patients with seizures were referred from the hospital primary care physicians.",
+          "reasoning": "While the referral path is mentioned, the specific sampling frame (consecutive vs. convenience) is not explicitly detailed, though 'all patients diagnosed with JME were screened' suggests a consecutive approach."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "An epilepsy clinic was established in King Khalid University Hospital, Riyadh, in 1983... cumulative data from a 5-year prospective JME study.",
+          "reasoning": "The start date and the duration of the prospective study are provided."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "King Khalid University Hospital, Riyadh, Saudi Arabia",
+          "reasoning": "The specific hospital and city are clearly identified."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "Inclusion criteria for JME were (a) unequivocal clinical evidence of generalized seizures with myoclonic jerks mainly on awakening; (b) no evidence of neurologic or intellectual deficit...",
+          "reasoning": "Detailed clinical, EEG, and radiologic inclusion and exclusion criteria are listed."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not report how many eligible patients declined to participate or the total number of JME patients screened vs. enrolled."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Mean age of patients on referral was 22.1 ± 7 years (range 8–40 years)... Sex distribution was equal.",
+          "reasoning": "Age, sex, and seizure history at baseline are well-documented."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study reports a high follow-up rate for the primary analysis (50/66 patients for >3 years) and provides specific details on those who discontinued treatment, which is the primary prognostic event of interest.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "Fifty patients had follow-up >3 years.",
+          "reasoning": "75.7% (50/66) of the original sample had long-term follow-up, which is acceptable for a 5-year prospective study."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text does not describe specific efforts to re-contact the 16 patients not included in the 3-year follow-up group."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The reasons for the 16 missing patients are not explicitly stated."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is no comparison between the 50 completers and the 16 non-completers."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Insufficient data to determine if attrition was informative."
+        }
+      ]
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The prognostic factors (seizure types and EEG patterns) are defined using international standards and measured using objective tools (Video-EEG). The authors used a proactive clinical demonstration to ensure reliable reporting of myoclonic jerks.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "Inclusion criteria for JME were (a) unequivocal clinical evidence of generalized seizures with myoclonic jerks mainly on awakening...",
+          "reasoning": "The prognostic factors (seizure types) are clearly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Video-EEG studies were performed through a 16-channel Telefactor Modac 1... we had adopted the policy of physically demonstrating to our patients and their relatives mild myoclonic jerks",
+          "reasoning": "The use of Video-EEG and physical demonstration to improve recall reliability enhances measurement validity."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "Mean age ( ± SD) at onset was 10.5 ± 3.4 years... Absence predated myoclonic jerks by 3.9 ± 2.3 years",
+          "reasoning": "Ages and durations are reported as continuous means with standard deviations."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Patients who satisfied JME criteria were studied prospectively with a uniform protocol",
+          "reasoning": "A uniform protocol was applied to all enrolled patients."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "66 patients (10.2%) fulfilled the criteria... All patients underwent conventional EEGs",
+          "reasoning": "Baseline PF data appears complete for the cohort."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Missing data handling is not discussed, though the prospective nature suggests minimal missing baseline data."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The primary outcome (seizure freedom) is clinically relevant but relies on patient/parent self-reporting, which is subject to recall bias. However, the 3-year follow-up duration is robust for this condition.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "Eighty-eight percent of patients remained seizure-free for ≥3 years of follow-up.",
+          "reasoning": "Seizure freedom and the follow-up duration are clearly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Partial",
+          "evidence_snippet": "recording seizures, precipitating factors, circadian distribution, and family history.",
+          "reasoning": "Outcome measurement relies on clinical history/diaries. While standard in epilepsy, it lacks the objective verification of continuous monitoring."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "studied prospectively with a uniform protocol",
+          "reasoning": "The protocol for follow-up was standardized."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "High",
+      "risk_reasoning": "The study does not perform multivariable analysis to adjust for confounders. While it describes treatments (VPA, CZP), it does not statistically control for the effect of different drug dosages or baseline severity on the long-term prognosis.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Partial",
+          "evidence_snippet": "Effective treatment was achieved with valproate (VPA); control of myoclonic jerks was improved with clonazepam (CZP).",
+          "reasoning": "Treatment is documented, but other potential confounders like socioeconomic status or adherence are not."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Partial",
+          "evidence_snippet": "VPA ~300-500 mg twice daily (b.i.d.) as a starting dose... CZP 0.5-3 mg/day",
+          "reasoning": "Drug dosing ranges are provided, but individual-level exposure data is not detailed in the results."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Reliability of treatment adherence measurement is not discussed."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "uniform protocol",
+          "reasoning": "The clinical setting was consistent for all patients."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No mention of missing data management."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The study is a single-arm prospective cohort; no matching or stratification was used."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The analysis is purely descriptive (percentages and means); no multivariable modeling was performed."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The analysis is descriptive and appropriate for a clinical characterization study, but it lacks the inferential statistics required to establish independent prognostic factors. Reporting is transparent regarding relapses.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Values are mean ± SD.",
+          "reasoning": "The basic statistical approach is stated."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No statistical models (e.g., Cox regression) were developed."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Partial",
+          "evidence_snippet": "Prevalence was 10.2%... Eighty-eight percent of patients remained seizure-free",
+          "reasoning": "Descriptive statistics are adequate for prevalence and general outcome reporting, but inadequate for prognostic modeling."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "All 7 patients who discontinued medication relapsed",
+          "reasoning": "The authors report both successes and failures (relapses), suggesting balanced reporting."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/1_Giuliano_2021/Panayiotopoulos_1994.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-01-02T12:58:46.850198"
+  }
+}

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define source and destination directories
-SOURCE_DIR="data"
+SOURCE_DIR="data/2_Articles_per_systematic_review"
 DEST_DIR="data_md_converted"
 
 # Check if marker_single is installed
@@ -27,6 +27,12 @@ find "$SOURCE_DIR" -type f -name "*.pdf" | while read -r pdf_file; do
     # Construct the full output directory path
     output_dir="$DEST_DIR/$subdir"
     
+    # Skip if output already exists
+    if [ -f "$output_dir/$filename.md" ]; then
+        echo "Skipping: $filename.md already exists in $output_dir"
+        continue
+    fi
+
     # Create the output directory if it doesn't exist
     mkdir -p "$output_dir"
     

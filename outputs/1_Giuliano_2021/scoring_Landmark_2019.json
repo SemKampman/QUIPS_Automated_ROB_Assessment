@@ -1,0 +1,337 @@
+{
+  "paper_metadata": {
+    "title": "Treatment and challenges with antiepileptic drugs in patients with juvenile myoclonic epilepsy",
+    "first_author": "Cecilie Johannessen Landmark",
+    "year": "2019",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study utilized a population-based recruitment strategy covering 9% of the Norwegian population with a high participation rate (69% of all GGE patients), which is excellent for a prognosis/descriptive study. The inclusion/exclusion criteria and baseline characteristics are well-defined.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Drammen Hospital serves all patients with epilepsy in Buskerud County, covering 9% of the Norwegian population.",
+          "reasoning": "The geographic and demographic scope is clearly defined."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "Recruitment of patients was based on a search of medical records containing an International Classification of Diseases, 10th Revision (ICD-10) code of epilepsy (G40) at Drammen Hospital during 1999– 2013.",
+          "reasoning": "The use of ICD-10 codes and hospital records provides a systematic sampling frame."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "The clinical interviews were conducted between November 2016 and August 2018",
+          "reasoning": "The specific dates for data collection are provided."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "Drammen Hospital... Buskerud County, covering 9% of the Norwegian population.",
+          "reasoning": "The setting is a specific regional hospital serving a defined administrative area."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "We included patients who would most likely be diagnosed with JME within the period of the medical record search, i.e., those younger than 40 years and older than 14 years.",
+          "reasoning": "Age and diagnostic criteria (GGE/JME) are explicitly stated."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Yes",
+          "evidence_snippet": "All patients diagnosed with genetic generalized epilepsy (GGE) were invited to participate, where 69% accepted",
+          "reasoning": "A 69% participation rate is robust for this type of clinical study."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Ninety patients with defined JME diagnosis, 54/36 women/men aged 14-39 (mean: 25) years, were included.",
+          "reasoning": "Table 1 and the text provide age, gender, and seizure history."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study is primarily cross-sectional in its data collection (questionnaire/interview) based on a retrospective cohort. There is no evidence of significant loss to follow-up that would bias the results, as the analysis was performed on the recruited sample with confirmed records.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "Ninety patients were classified as having JME and included.",
+          "reasoning": "The analysis includes the full sample of those who consented and met criteria."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not explicitly detail the characteristics of the 31% who did not accept the invitation."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Reasons for non-participation are not listed."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No data provided on non-responders."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Comparison between participants and non-participants was not performed."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Attrition Summary",
+        "prompt": "Loss to follow-up (from baseline sample to study population analyzed) is not associated with key characteristics (i.e., the study data adequately represent the sample) sufficient to limit potential bias to the observed relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ],
+        "rating": "Low"
+      }
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The prognostic factors (AED use) were verified through medical records, which is a highly reliable method compared to self-report alone. The use of TDM (serum concentrations) adds an objective layer to the measurement of the prognostic factor.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "Data regarding AEDs were confirmed from medical records at Drammen Hospital, Norway (2007–2018).",
+          "reasoning": "AED use is clearly defined and verified via clinical records."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Each participant's hospital record was thoroughly reviewed in order to confirm information concerning medical history, including previous AED use.",
+          "reasoning": "Verification against medical records reduces recall bias."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "Adherence was measured using a 4-point Likert scale... A VAS score of ≥5.5 was characterized as good quality of life",
+          "reasoning": "Standardized scales and pre-defined cut-offs were used."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "A semistructured questionnaire designed for the purpose of this study was used",
+          "reasoning": "All patients underwent the same questionnaire and record review process."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "Eighty-four percent of the patients used 1–3 AEDs as their current therapy (Table 2).",
+          "reasoning": "Data appears complete for the primary prognostic factors."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Imputation is not mentioned; however, missing data seems minimal."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "PF Measurement Summary",
+        "prompt": "PF is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ],
+        "rating": "Low"
+      }
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The primary outcome (seizure freedom) relies on patient recall and self-reporting via questionnaire/interview. While this is standard in epilepsy research, it is inherently more prone to bias than objective measures, though the authors did attempt to verify history via records.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "The dependent variable was being without GTCS for more than one year (yes or no).",
+          "reasoning": "Seizure freedom is clearly defined with a specific timeframe."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Partial",
+          "evidence_snippet": "Information about... seizure outcome... was obtained directly from the patient.",
+          "reasoning": "Relies on self-report, which is subject to recall bias, though common in this field."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "A semistructured questionnaire designed for the purpose of this study was used",
+          "reasoning": "Standardized approach for all participants."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Outcome Measurement Summary",
+        "prompt": "Outcome of interest is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ],
+        "rating": "Moderate"
+      }
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study used multivariable logistic regression to account for age and gender when assessing the impact of AEDs on GTCS. However, other potential confounders like disease duration or specific EEG features were not included in the model.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Partial",
+          "evidence_snippet": "Independent variables in the model were current use of levetiracetam, current use of valproate, current use of lamotrigine, gender, and age.",
+          "reasoning": "Basic confounders (age, gender) were measured, but others (e.g., sleep deprivation, alcohol) were not in the quantitative model."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "Mean age was 26 years, 60% were women.",
+          "reasoning": "Age and gender are straightforward and well-defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "confirmed from medical records",
+          "reasoning": "Demographics and drug use were verified via records."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "The method and setting of measurement... is the same for all study participants.",
+          "reasoning": "Uniform data collection process."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No mention of imputation."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "This was an observational cohort, not a matched or stratified design."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "Direct logistic regression was performed to assess the impact of the three most commonly used drugs on the likelihood of experiencing GTCS... Independent variables in the model were... gender, and age.",
+          "reasoning": "Multivariable adjustment was performed for key demographic variables."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Confounding Summary",
+        "prompt": "Important potential confounders are appropriately accounted for, limiting potential bias with respect to the relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ],
+        "rating": "Moderate"
+      }
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical methods are appropriate for the study design. The authors used logistic regression for binary outcomes and checked for collinearity. Results are reported transparently, including non-significant findings.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Statistical analyses were performed with Statistical Package for the Social Sciences (SPSS) software, version 23.",
+          "reasoning": "The methods section clearly outlines the tests used (t-tests, Chi-square, Logistic Regression)."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "Independent variables in the model were current use of levetiracetam, current use of valproate, current use of lamotrigine, gender, and age.",
+          "reasoning": "The model includes the primary drugs of interest and standard demographic controls."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "Direct logistic regression was performed to assess the impact... Independent variables were checked for collinearity",
+          "reasoning": "Logistic regression is appropriate for the binary outcome of seizure freedom."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "No significant correlations between the use of AEDs... and seizure freedom were demonstrated.",
+          "reasoning": "The authors report both significant and non-significant results."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Statistical Analysis and Presentation Summary",
+        "prompt": "The statistical analysis is appropriate for the design of the study, limiting potential for presentation of invalid or spurious results.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ],
+        "rating": "Low"
+      }
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/1_Giuliano_2021/Landmark_2019.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-01-02T12:54:07.385780"
+  }
+}

@@ -1,0 +1,287 @@
+{
+  "paper_metadata": {
+    "title": "Myoclonic seizures subside in the fourth decade in juvenile myoclonic epilepsy",
+    "first_author": "B. Baykan",
+    "year": "2008",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study describes the source population and recruitment period well, but the sample size is relatively small (n=48) and derived from a tertiary referral center, which may introduce selection bias toward more severe or persistent cases, though the authors note many primary care admissions.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "retrospectively analyzed the files of 156 patients diagnosed with JME according to the criteria of International League Against Epilepsy7 between 1972 and 1996 in our epilepsy outpatient clinic.",
+          "reasoning": "The authors specify the diagnostic criteria (ILAE) and the clinical setting clearly."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Partial",
+          "evidence_snippet": "This epilepsy center is a part of a university hospital and a well-established tertiary referral center for patients with epilepsy in Turkey. On the other hand... admittance of the patients for primary neurology and emergency departments are also common.",
+          "reasoning": "While they describe the setting, the transition from 156 retrospective files to 51 enrolled patients suggests a selection process that isn't fully detailed regarding consecutive recruitment."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "The prospective evaluation began in 1997 and the analyses included all data retrospectively and prospectively collected between 1972 and 2006.",
+          "reasoning": "The dates for both retrospective and prospective phases are explicitly stated."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "Istanbul University, Istanbul Medical Faculty, Department of Neurology, Millet Cad, 34390, Capa, Istanbul, Turkey",
+          "reasoning": "The specific institution and geographic location are provided."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "The patients having a minimum follow-up duration of 7 years in our institution were included without any other exclusion criteria... 2 patients with progressive course who were diagnosed with Lafora disease... and one last patient having partial epilepsy... were excluded.",
+          "reasoning": "Inclusion (7-year follow-up) and specific exclusion criteria (misdiagnosis) are clearly listed."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Partial",
+          "evidence_snippet": "We initially had enrolled 51 patients... The remaining 48 patients were reevaluated in 2006.",
+          "reasoning": "The final sample (48) is a small subset of the original 156 files identified, raising questions about the representativeness of those who remained in long-term follow-up."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "We enrolled 48 patients (29 F, 19 M; aged 39.9 ± 9.5 years) followed up for a mean of 19.6 ± 5.7 years.",
+          "reasoning": "Table 1 provides comprehensive baseline data including age of onset, seizure types, and family history."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study maintained a very high retention rate for the enrolled cohort over a nearly 20-year follow-up, with active measures to re-engage patients who delayed visits.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "The remaining 48 patients were reevaluated in 2006.",
+          "reasoning": "48 out of 51 enrolled patients (94%) were analyzed; the 3 exclusions were due to diagnostic correction, not dropout."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "Yes",
+          "evidence_snippet": "If the patients delayed the scheduled visits for more than 1 year, they were invited to a subsequent visit with telephone calls or letters.",
+          "reasoning": "The authors describe proactive steps to minimize attrition."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Yes",
+          "evidence_snippet": "Two patients with JME were deceased during the follow-up.",
+          "reasoning": "The only 'losses' were due to death, and the causes were investigated and reported."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "One of them died due to an invasive thyroid cancer... the other was morbidly obese and had well-controlled JME with atypical psychosis.",
+          "reasoning": "Detailed characteristics of the deceased patients are provided in the footnotes."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Yes",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Since nearly the entire enrolled cohort was followed to the end, there is no significant 'non-completer' group to compare against."
+        }
+      ]
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The prognostic factors (age, seizure types, EEG) were measured using standard clinical protocols and reviewed by multiple experts, ensuring high reliability.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "The clinical and EEG features, antiepileptic drug (AED) treatment regimen, and systemic and psychiatric comorbid diseases were evaluated.",
+          "reasoning": "The factors are clearly listed and defined in the methods and Table 1."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "All available EEGs were reviewed by the experienced investigators... All patients were independently evaluated by at least two of the experienced epileptologists.",
+          "reasoning": "The use of independent evaluation by two experts increases the reliability of the PF measurement."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "Age at onset, y, mean ± SD, median 14.4 ± 2.9, 14",
+          "reasoning": "Variables like age and duration are reported as continuous means/medians."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Our routine EEG protocol established after 1990 included hyperventilation and intermittent photic stimulation as described in detail previously.",
+          "reasoning": "A standardized protocol was applied to the cohort."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "All but two patients (both with familial evidence of IGE) had at least one diagnostic EEG.",
+          "reasoning": "PF data (EEG, clinical history) was available for nearly 100% of the sample."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is no mention of imputation; however, missing data appears minimal."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The primary outcome (seizure remission/alleviation) relies heavily on patient self-reporting and retrospective recall of seizure frequency from decades prior, which is susceptible to recall bias.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "Remission was defined as ever being seizure-free for an individual seizure type... at least for 5 years... myoclonic seizures were rated as milder if patients' self-assessment was equal to 1 and monthly frequency was 50% less.",
+          "reasoning": "The authors provide explicit, quantifiable definitions for remission and alleviation."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Partial",
+          "evidence_snippet": "The patient's self-assessment was used basically to rate the myoclonus severity",
+          "reasoning": "While standard in epilepsy, self-reporting of myoclonic jerks (which can be subtle) is less reliable than objective measures."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "the changes in severity/frequency of myoclonia were systematically questioned.",
+          "reasoning": "A systematic questioning approach was applied to all participants."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study identifies and measures key confounders (AED types, psychiatric comorbidities, thyroid disease) and uses multivariable logic, but the small sample size limited the ability to perform robust multivariable adjustment (e.g., Cox regression).",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Yes",
+          "evidence_snippet": "Other evaluated features were seizure types... psychiatric involvement, comorbid diseases, and treatment and response to the AED with known aggravating effects",
+          "reasoning": "The study tracks AED changes, lifestyle, and comorbidities."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "The treatment regimen used in the last 5 years was grouped as follows: 1) no treatment, 2) VPA monotherapy...",
+          "reasoning": "Treatment categories and psychiatric diagnostic standards (DSM-IV) are defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "If the neurologists noted the existence of psychiatric problems, they were further seen by the psychiatry team to clarify the psychiatric diagnosis according to the Diagnostic and Statistical Manual of Mental Disorders–IV.",
+          "reasoning": "Psychiatric confounders were validated by specialists using standardized criteria."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Lifestyle (sleep patterns, alcohol use) and its changes were closely monitored during the follow-up.",
+          "reasoning": "Monitoring was consistent across the cohort."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No mention of missing confounder data management."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "Partial",
+          "evidence_snippet": "We used Fisher exact tests to compare categorical variables and Student t test to compare continuous variables.",
+          "reasoning": "The study uses stratification (Group I vs II) to compare confounders like psychiatric disorders, but does not use matching."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The analysis relies on univariable comparisons (Fisher exact). There is no multivariable adjustment to see if age-related remission is independent of AED changes."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical methods are appropriate for the descriptive and exploratory nature of the study, and the results are reported transparently, including a Kaplan-Meier analysis.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "A Kaplan–Meier curve evaluating the cumulative probability of achieving myoclonus freedom in relation to course was generated",
+          "reasoning": "The strategy for both categorical comparisons and time-to-event data is clear."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Partial",
+          "evidence_snippet": "The patients were labeled as having benign course (group I) whereas 8 patients... had resistant course (group II)",
+          "reasoning": "The grouping is clinically logical, but no complex multivariable model was built."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "We used Fisher exact tests to compare categorical variables and Student t test to compare continuous variables.",
+          "reasoning": "Given the small N, these tests are more appropriate than complex regressions."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "The table presents clinical, EEG, and other relevant findings of these patients with JME.",
+          "reasoning": "The authors report on all seizure types, deaths, and even 'pseudo-resistance', suggesting high transparency."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/1_Giuliano_2021/Baykan_2008.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-01-02T12:58:21.250649"
+  }
+}

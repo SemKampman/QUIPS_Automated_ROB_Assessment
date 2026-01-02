@@ -1,0 +1,287 @@
+{
+  "paper_metadata": {
+    "title": "Juvenile myoclonic epilepsy refractory to treatment in a tertiary referral center",
+    "first_author": "Gonçalo Cação",
+    "year": "2018",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study provides clear diagnostic criteria and baseline characteristics. However, it uses a convenience sample from a tertiary referral center, which the authors acknowledge likely over-represents refractory cases compared to the general JME population.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "we identified 1078 people with GGE from a subsample of 6600 individuals with epilepsy using an outpatient registry from the epilepsy clinic at the National Hospital for Neurology and Neurosurgery in London and the Chalfont Center in Chalfont St. Peter.",
+          "reasoning": "The source population is clearly defined as patients from specific specialized epilepsy clinics."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Partial",
+          "evidence_snippet": "We audited and reviewed clinical records of individuals diagnosed with JME identified via a sample of 6600 individuals in a clinical database from a specialized epilepsy clinic at a tertiary referral center.",
+          "reasoning": "While the identification method is clear (database audit), the use of a tertiary center introduces inherent referral bias."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text mentions the average follow-up duration but does not specify the calendar years during which the 6600 records were screened or when the audit took place."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "National Hospital for Neurology and Neurosurgery in London and the Chalfont Center in Chalfont St. Peter.",
+          "reasoning": "Specific clinical settings and locations are provided."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "We then reviewed individual records to identify those with JME according to the ILAE definition [4].",
+          "reasoning": "The study uses standardized ILAE criteria and provides a detailed box (Box 1) explaining the diagnostic requirements."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Yes",
+          "evidence_snippet": "We identified 1078 people diagnosed with GGE, 240 of whom met the criteria for JME and were included.",
+          "reasoning": "The study appears to include all patients meeting the criteria within the screened database subsample."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Clinical and demographic data collected included sex, age at seizure onset, age at diagnosis, coexisting seizure types, seizure facilitators, clinical phenotypes... past medical history, and family history of epilepsy.",
+          "reasoning": "Table 1 and the text provide a comprehensive list of baseline characteristics."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study reports a very low rate of loss to follow-up (approx 5%) and accounts for the status of almost all participants in the final analysis.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "One died and 11 were lost to follow-up.",
+          "reasoning": "Only 12 out of 240 patients (5%) were not available for the final outcome assessment, which is excellent for a retrospective study."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The study does not describe specific attempts to re-contact or find data for the 11 lost to follow-up."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Partial",
+          "evidence_snippet": "One died and 11 were lost to follow-up.",
+          "reasoning": "Death is a reason, but the specific reasons for the other 11 being 'lost' are not detailed."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "Partial",
+          "evidence_snippet": "Table 2: Lost to follow-up or death | 8 (7%) [Refractory] | 4 (3%) [Nonrefractory]",
+          "reasoning": "The study identifies which group the lost participants belonged to, but does not provide their specific baseline characteristics separately."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is no formal statistical comparison between the 12 lost participants and the 228 analyzed."
+        }
+      ]
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The prognostic factors (clinical phenotypes, age of onset) are defined using international standards and measured consistently across the cohort.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "clinical phenotypes (according to the 2006 [9] classification)",
+          "reasoning": "The study uses the Martinez-Juarez classification for phenotypes, which is a recognized standard."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "We then reviewed individual records to identify those with JME according to the ILAE definition [4].",
+          "reasoning": "Diagnosis and phenotype were confirmed by reviewing clinical records against ILAE standards."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "mean age at seizure onset of 14.2 years (SD: 4.5)",
+          "reasoning": "Continuous variables like age are reported as means with standard deviations."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "We audited and reviewed clinical records... using an outpatient registry from the epilepsy clinic",
+          "reasoning": "All data were extracted from the same clinical registry and hospital system."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1 and 2 show data for all 240 patients for primary PFs (phenotype, age).",
+          "reasoning": "Primary clinical data appears complete for the whole cohort."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The study does not mention imputation; it simply reports 'not available' for certain secondary tests like neuropsychology."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The outcome (refractoriness) is defined using the official ILAE consensus definition, which is the gold standard in epilepsy research.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "refractory epilepsy, defined by the ILAE as failure of adequate trials of two tolerated and appropriately chosen and used antiepileptic drug (AED) schedules",
+          "reasoning": "The study explicitly uses the ILAE consensus definition for the primary outcome."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "Those who had failled two appropriate AEDs on the grounds of efficacy were considered refractory.",
+          "reasoning": "The measurement relies on clinical record review of drug trials, which is standard for this definition."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Current and past treatments were reviewed along with seizure control over the previous years",
+          "reasoning": "The same record review process was applied to all participants."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "While the study compares many variables between groups, it relies on univariate analysis (Wilcoxon/Fisher) and does not perform multivariable adjustment to control for confounding between predictors.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Yes",
+          "evidence_snippet": "Clinical and demographic data collected included sex, age at seizure onset, age at diagnosis, coexisting seizure types, seizure facilitators, clinical phenotypes... past medical history, and family history of epilepsy.",
+          "reasoning": "A wide range of potential confounders were collected."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Partial",
+          "evidence_snippet": "Current and past treatments were reviewed",
+          "reasoning": "While drugs are listed, specific doses and durations of every trial are not provided in the text."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "We audited and reviewed clinical records",
+          "reasoning": "Confounders were measured via clinical records in a specialized center, which is generally reliable."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "The method and setting of measurement... is the same for all study participants.",
+          "reasoning": "All data came from the same registry audit."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No imputation was performed."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "No",
+          "evidence_snippet": "Demographic and clinical characteristics were compared between the group with refractory seizures and the group with nonrefractory seizures",
+          "reasoning": "The study is a retrospective cohort; it does not use matching or stratification in the design."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "No",
+          "evidence_snippet": "using the 2-tailed, Wilcoxon rank-sum test... and the Fisher exact test",
+          "reasoning": "The analysis is limited to univariate comparisons. No multivariable regression was performed to adjust for confounding."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The analysis is straightforward but limited. The lack of multivariable modeling and the admission that no correction for multiple comparisons was performed increases the risk of spurious findings.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Data processing and statistical analysis were performed with Microsoft Excel 2013® and IBM SPSS... Wilcoxon rank-sum test... and the Fisher exact test",
+          "reasoning": "The statistical methods are clearly stated."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "No",
+          "evidence_snippet": "No correction for multiple comparisons was performed",
+          "reasoning": "There was no multivariable model building; the study only performed individual tests for each variable."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Partial",
+          "evidence_snippet": "Wilcoxon rank-sum test for continuous variables with a non-normal distribution and the Fisher exact test for categorical variables.",
+          "reasoning": "The tests are appropriate for simple comparisons, but inadequate for identifying independent prognostic factors."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Table 2 characterizes and compares the group with refractory seizures and the group with nonrefractory seizures.",
+          "reasoning": "The study reports p-values for all comparisons made, including non-significant ones."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/1_Giuliano_2021/Cacao_2018.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-01-02T12:57:32.288544"
+  }
+}

@@ -1,0 +1,287 @@
+{
+  "paper_metadata": {
+    "title": "Prolonged epileptiform EEG runs are associated with persistent seizures in juvenile myoclonic epilepsy",
+    "first_author": "Vibeke Arntsen",
+    "year": "2017",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study uses a well-defined historical cohort with long-term follow-up, but the sample size is small (n=40) and represents a tertiary clinic population, which may introduce selection bias toward more severe or refractory cases.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "The study was based on 42 previously reported patients with JME, originally identified for a study on the association to human leukocyte antigens in 1992 (Moen et al., 1995).",
+          "reasoning": "The origin of the cohort is clearly linked to a specific previous study and geographic area (Sør-Trøndelag county)."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Partial",
+          "evidence_snippet": "originally identified for a study on the association to human leukocyte antigens in 1992",
+          "reasoning": "While the source is identified, the original recruitment method (consecutive vs. convenience) for the 1992 study is not detailed in this text."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "originally identified... in 1992 (Moen et al., 1995). In 2012, 40 of these patients were available for seizure outcome assessments",
+          "reasoning": "The timeline from initial identification to follow-up assessment is clearly stated."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location) are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "Most patients resided in the primary catchment area of the hospital, Sør-Trøndelag county, with only one neurological and EEG department",
+          "reasoning": "The geographic and institutional setting is explicitly described."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "The clinical diagnosis of JME was based on the ILAE-classification from 1989 (Commission, 1989).",
+          "reasoning": "Standardized diagnostic criteria were used to define the inclusion."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Yes",
+          "evidence_snippet": "In 2012, 40 of these patients were available for seizure outcome assessments 31 years (range 20–68 years) after epilepsy onset",
+          "reasoning": "40 out of 42 original patients (95%) participated in the follow-up, which is excellent."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Demographic and clinical data, as well as treatment characteristics are shown in Table 1.",
+          "reasoning": "Table 1 provides comprehensive baseline data including age of onset, sex, and initial treatment."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study maintained a very high retention rate (95%) over a multi-decade period, significantly minimizing the risk of attrition bias.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "40 of these patients were available for seizure outcome assessments",
+          "reasoning": "Only 2 patients from the original 42 were lost, which is a very low attrition rate."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text does not describe why the 2 patients were unavailable or if attempts were made to reach them."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No specific reasons for the loss of 2 patients are mentioned."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is no comparison between the 40 included and 2 excluded patients."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "With only 2 patients lost, differences are unlikely to be statistically significant, but they are not analyzed."
+        }
+      ]
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study used a standardized, blinded retrospective review of EEG data using the SCORE protocol, which is a robust method for reducing measurement bias.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "Prolonged epileptiform runs were defined as generalized epileptiform activity lasting ≥3 s",
+          "reasoning": "The primary prognostic factor (run duration) is explicitly defined with a clear threshold."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "EEG recordings were retrospectively reviewed with blinding for clinical outcome.",
+          "reasoning": "Blinding of the EEG reviewers to the clinical outcome is a major strength."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "lasting ≥3 s, as this duration is supposed to significantly impact cognitive function (Aldenkamp et al., 2005).",
+          "reasoning": "The 3-second cut-off was pre-specified based on existing literature, not derived from the study data."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "The international 10–20 system for electrode placement was used.",
+          "reasoning": "Standardized EEG protocols were applied across the sample."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "EEG-data on paper or in digital form was available for rescoring in 40 patients.",
+          "reasoning": "All 40 patients had at least one preserved recording for rescoring."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Imputation was not used; the study relied on available recordings, which varied in number per patient."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The outcome (seizure freedom) is clearly defined using a standard 5-year remission threshold, though it relies on clinical assessment/interview which is standard for long-term epilepsy studies.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "21 were in the seizure free (SF) group (in remission for more than 5 years) and 19 were in the persistent seizure (PS) group.",
+          "reasoning": "The outcome groups are clearly defined by a specific duration of remission."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "40 of these patients were available for seizure outcome assessments 31 years... after epilepsy onset",
+          "reasoning": "Clinical assessment after 31 years is a robust measure of long-term prognosis."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Information on seizure control after at least 20 years of clinical follow-up was available for 40 patients",
+          "reasoning": "All patients underwent the same clinical follow-up assessment protocol."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study acknowledges confounders like AED use and diurnal variation and performs some sub-analyses, but the small sample size limits the ability to perform complex multivariable adjustments.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Yes",
+          "evidence_snippet": "We have considered various potential confounders, such as the influence of AED treatment effects and the diurnal variation",
+          "reasoning": "The authors identified and measured key variables like medication and time of day."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Partial",
+          "evidence_snippet": "AED-use was not different among patients with and without long runs.",
+          "reasoning": "AED use is categorized by type, but specific dosages at the time of each EEG were not fully detailed."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Exact time of the day was known for 108 recordings",
+          "reasoning": "Confounders like time of day were pulled from objective EEG records."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "The distribution of patients across AEDs were similar in patients with and without prolonged runs",
+          "reasoning": "Confounders were assessed consistently across both outcome groups."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Missing confounder data (e.g., time of day for some EEGs) was simply excluded from that specific sub-analysis."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "Partial",
+          "evidence_snippet": "Medication effects could not be fully controlled for in this long-term retrospective study",
+          "reasoning": "The retrospective nature and small N made matching or stratification difficult."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Partial",
+          "evidence_snippet": "relative occurrence variables were also calculated as the sum of EEGs with each abnormal feature divided by the total number of EEGs",
+          "reasoning": "They adjusted for the varying number of EEGs per patient, but did not use multivariable regression to adjust for AEDs or age."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The analysis is appropriate for the sample size (using non-parametric tests), but the lack of multivariable modeling and the high number of comparisons without formal correction (e.g., Bonferroni) increases the risk of spurious findings.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "EEG features in the two prognostic patient groups... were compared using Fisher exact test... while the non-parametric Mann–Whitney test was used to compare numerical data",
+          "reasoning": "The statistical methods are clearly described and appropriate for the data types."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Partial",
+          "evidence_snippet": "Main EEG variables were selected based on previous reports regarding the prognostic significance of EEG in JME",
+          "reasoning": "Variable selection was based on literature, but no formal multivariable model was built."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "Data analysis was performed using SPSS version 21.",
+          "reasoning": "Univariable tests (Fisher, Mann-Whitney) are appropriate for a small sample of 40 patients."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "We found no statistically significant association between the prognostic groups and... focal slowing",
+          "reasoning": "The authors report both significant and non-significant findings transparently."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/1_Giuliano_2021/Arntsen_2017.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-01-02T12:57:55.843015"
+  }
+}

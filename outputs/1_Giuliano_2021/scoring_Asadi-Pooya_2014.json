@@ -1,0 +1,287 @@
+{
+  "paper_metadata": {
+    "title": "Predictors of seizure control in patients with juvenile myoclonic epilepsy (JME)",
+    "first_author": "Ali A. Asadi-Pooya",
+    "year": "2014",
+    "analysis_timestamp": "2023-10-27 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study provides a clear description of the clinical setting and diagnostic criteria. However, it is a clinic-based series from a single epileptologist, which the authors admit may not represent the full spectrum of JME. The participation rate of eligible individuals is not explicitly stated, though recruitment dates and location are clear.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "all patients with a clinical diagnosis of JME were recruited at the outpatient epilepsy clinic at Shiraz University of Medical Sciences from 2008 to 2012.",
+          "reasoning": "The source population is clearly defined as patients attending a specific university outpatient clinic."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Partial",
+          "evidence_snippet": "This was a clinic-based series and may not represent the full spectrum of JME.",
+          "reasoning": "While the recruitment site is clear, the authors acknowledge potential referral bias inherent in a specialized clinic setting."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "from September 2008 to November 2012.",
+          "reasoning": "Specific start and end dates for recruitment are provided."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "outpatient epilepsy clinic at Shiraz University of Medical Sciences",
+          "reasoning": "The specific institution and clinic type are identified."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "diagnosis of JME was made exclusively by the only epileptologist working at this institution (the first author) and based on clinical grounds and electroencephalographic findings, and all patients had to be under the care of the epileptologist at our institution for at least 18 months.",
+          "reasoning": "Criteria include clinical/EEG diagnosis and a minimum follow-up duration."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "During the study period, 116 patients with IME were eligible to enter into the study.",
+          "reasoning": "The text does not state how many patients were screened versus how many were eligible and eventually enrolled."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Age, gender, age at seizure onset, seizure type(s) and their frequencies, epilepsy risk factors... and EEG findings of all patients were registered routinely.",
+          "reasoning": "Table 1 and 2 provide comprehensive baseline data for the cohort."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study required a minimum of 18 months of follow-up for inclusion, effectively creating a cohort of completers. While this limits the assessment of those who dropped out early, the analysis is based on the 116 who met the follow-up criteria.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "all patients had to be under the care of the epileptologist at our institution for at least 18 months.",
+          "reasoning": "The inclusion criteria ensured that only those with complete follow-up data were analyzed."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The study does not describe the characteristics or number of patients who were lost to follow-up before the 18-month mark."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No data provided on reasons for attrition."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No comparison between completers and non-completers is provided."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Information regarding non-completers is entirely absent."
+        }
+      ]
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "Prognostic factors like drug adherence and medication type were recorded by a single specialist. While 'good drug adherence' is somewhat subjective, it was registered routinely in a clinical setting.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Partial",
+          "evidence_snippet": "The median dose of valproate was 800-1000 mg per day... Good drug adherence",
+          "reasoning": "Medication is well-defined, but 'good drug adherence' lacks a specific validated scale definition (e.g., Morisky)."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "registered routinely... diagnosis of JME was made exclusively by the only epileptologist",
+          "reasoning": "Measurements were performed by a single expert, ensuring consistency, though not blinded."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "Age of seizure onset 15.4 ± 4.6 years... Duration of follow-up 37.2 ± 8.4 months",
+          "reasoning": "Continuous variables are reported as means/SD without arbitrary categorization."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "all patients were recruited at the outpatient epilepsy clinic... registered routinely.",
+          "reasoning": "Standardized clinical environment for all participants."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "Demographic and clinical characteristics of these two groups of patients are shown and compared in Table 1.",
+          "reasoning": "Table 1 shows data for all 116 patients across most variables."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text does not mention missing data or imputation methods."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The outcome (seizure freedom) is clearly defined but relies on patient self-reporting to the physician, which is subject to recall bias. There is no mention of seizure diaries or objective verification.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "patients who were seizure free in the last 12 months of their follow-up period and those who had any seizures (i.e., generalized tonic-clonic, myoclonic or absences)",
+          "reasoning": "The outcome is explicitly defined by seizure type and a specific 12-month timeframe."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Partial",
+          "evidence_snippet": "those who had any seizures... registered routinely.",
+          "reasoning": "Outcome is based on clinical interview. While standard, it is not blinded and relies on patient recall."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "all patients were followed for at least 18 months... at the outpatient epilepsy clinic",
+          "reasoning": "Consistent follow-up protocol for all participants."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study used multivariable logistic regression to adjust for factors that were significant in univariable analysis, including lifestyle factors and clinical history.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Yes",
+          "evidence_snippet": "Age, gender, age at seizure onset, seizure type(s)... tobacco and alcohol consumption",
+          "reasoning": "A wide range of clinical and lifestyle confounders were captured."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Partial",
+          "evidence_snippet": "Tobacco consumption... Alcohol consumption",
+          "reasoning": "Factors are identified but 'consumption' is not quantified (e.g., packs per day)."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Partial",
+          "evidence_snippet": "registered routinely",
+          "reasoning": "Relies on clinical history/self-report, which is standard but has inherent reliability limits."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "registered routinely... at the outpatient epilepsy clinic",
+          "reasoning": "Standardized data collection for all patients."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No mention of missing data handling."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "No",
+          "evidence_snippet": "In this case–control study",
+          "reasoning": "The design was an observational cohort (labeled case-control) without matching or stratification at design."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "we performed binary logistic regression on the variables with significant P-values in univariate analysis",
+          "reasoning": "Multivariable adjustment was performed for significant univariable predictors."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical methods are appropriate for the study design, and the results are reported transparently with odds ratios and confidence intervals.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Statistical analyses were performed using Chi square, Fisher’s Exact and Mann-Whitney tests... binary logistic regression",
+          "reasoning": "The analytical path from univariable to multivariable analysis is clear."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "performed binary logistic regression on the variables with significant P-values in univariate analysis",
+          "reasoning": "Standard statistical approach for variable selection in prognostic studies."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "binary logistic regression",
+          "reasoning": "Logistic regression is appropriate for the binary outcome of seizure freedom."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1... Table 2",
+          "reasoning": "All measured variables appear to be reported in the tables, regardless of significance."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/1_Giuliano_2021/Asadi-Pooya_2014.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-01-02T13:01:39.208220"
+  }
+}
