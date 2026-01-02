@@ -88,7 +88,15 @@ def main():
     # 3. Process each file
     for file_path in md_files:
         filename = os.path.basename(file_path)
+        base_name = os.path.splitext(filename)[0]
+        output_filename = f"scoring_{base_name}.json"
+        output_filepath = os.path.join(OUTPUT_DIR, output_filename)
+
         print(f"\nProcessing: {filename}...")
+
+        if os.path.exists(output_filepath):
+            print(f"Skipping (already exists): {output_filename}")
+            continue
         
         md_content = read_file(file_path)
         
@@ -107,8 +115,6 @@ def main():
                 "processed_at": datetime.now().isoformat()
             }
             
-            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-            output_filename = f"scoring_{os.path.splitext(filename)[0]}_{timestamp}.json"
             save_json(result_json, output_filename)
         else:
             print(f"Failed to generate JSON for {filename}")

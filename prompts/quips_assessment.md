@@ -272,6 +272,7 @@ Evaluate every item defined in this structure:
     *   `rating`: Choose strictly from `["Yes", "Partial", "No", "Unsure"]`.
     *   `evidence_snippet`: **MANDATORY**. This must be a **direct, verbatim quote** from the text. If the information is missing, write "Not found in text". Do not paraphrase here.
     *   `reasoning`: **MANDATORY**. This is your expert synthesis. Explain *why* the evidence (or lack thereof) leads to the chosen rating. Connect the quote to the prompt criteria and methodological guidance.
+4.  **Completeness**: You must output a result for **EVERY** item in the schema. Do not skip any items. If information is missing in the text, use "Unsure" as the rating and state "Not found in text" for the evidence.
 
 ## Output JSON Template
 Follow this structure exactly:
