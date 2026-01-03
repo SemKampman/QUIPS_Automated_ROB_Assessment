@@ -1,0 +1,41 @@
+# Build outputs
+output/
+*.docx
+*.pdf
+*.html
+*.tex
+
+# Keep custom reference document
+!custom-reference.docx
+
+# Downloaded citation styles
+vancouver.csl
+apa.csl
+nature.csl
+*.csl
+
+# Temporary preprocessed files
+*_processed.md
+
+# R temporary files
+.Rhistory
+.RData
+.Rproj.user
+
+# Converted tables (auto-generated)
+tables/*.md
+
+# LaTeX auxiliary files
+*.aux
+*.log
+*.out
+*.toc
+*.bbl
+*.blg
+
+# macOS
+.DS_Store
+
+# Backups
+*~
+*.bak
