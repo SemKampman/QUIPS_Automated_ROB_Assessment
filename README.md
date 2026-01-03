@@ -68,6 +68,25 @@ marker_single /path/to/paper.pdf --output_dir /output/dir_md --disable_image_ext
 ```
 *Note: The script processes all pages by default and auto-detects languages (including Spanish, Portuguese, and Chinese).*
 
+## 🧠 Methodological Refinements
+
+To ensure rigorous and reproducible assessments, we have implemented specific refinements based on expert feedback and methodological literature:
+
+### 1. Distinction between "No" and "Unsure"
+To prevent hallucinations and enforce strict reporting standards, the LLM is instructed to apply the following logic:
+*   **"No" (Reporting Deficit):** Used for **reporting items** (e.g., "Is the source population described?"). If the text fails to describe the item, the rating is "No". This penalizes poor reporting.
+*   **"Unsure" (Judgment Uncertainty):** Used for **methodological judgment items** (e.g., "Is there adequate participation?"). If the text provides insufficient information to form a judgment, the rating is "Unsure". This acknowledges epistemic uncertainty rather than assuming a negative.
+
+### 2. Overall Risk of Bias Calculation
+Following the recommendation of **Grooten et al. (2019)** [PMID: 31093575], the Overall Risk of Bias for a paper is calculated **deterministically** during the post-processing phase (not by the LLM). This ensures consistency and avoids the subjectivity of "summated scores" which are generally discouraged in the original QUIPS documentation (Hayden et al., 2013).
+
+**Algorithm:**
+*   **Low Risk (Green):** All domains are Low Risk **OR** (Maximum 1 Moderate Risk **AND** 0 High Risk).
+*   **High Risk (Red):** ≥ 1 High Risk domain **OR** ≥ 3 Moderate Risk domains.
+*   **Moderate Risk (Yellow):** Any combination not meeting the criteria for Low or High.
+
+---
+
 ## 📈 Usage
 
 To run the scoring agent:
@@ -89,7 +108,9 @@ After processing papers into JSON files, you can aggregate them into a single TS
 ```bash
 python 02__convert_scores_to_tsv.py
 ```
-This script maps the complex JSON structure to a flat table with intuitive column names (e.g., `D1_Source_Rating`, `D1_Source_Evidence`) based on the master schema.
+This script:
+1.  Maps the complex JSON structure to a flat table with intuitive column names.
+2.  **Automatically calculates the 'Overall_Risk'** column based on the Grooten et al. (2019) criteria described above.
 
 ## 📊 Output Format
 

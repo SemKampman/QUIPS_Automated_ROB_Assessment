@@ -270,6 +270,9 @@ Evaluate every item defined in this structure:
 2.  **Schema Compliance**: The output structure must mirror the JSON above but populated with your assessment data.
 3.  **Required Fields for Each Item**:
     *   `rating`: Choose strictly from `["Yes", "Partial", "No", "Unsure"]`.
+    *   **Crucial Rule**: Distinguish carefully between "No" and "Unsure":
+        *   Use **"No"** for **reporting items** (e.g., "Is the study population described?") if the text **fails to describe** it. (i.e., "Not reported" = "No").
+        *   Use **"Unsure"** for **methodological judgment items** (e.g., "Is there adequate participation?") if the text provides **insufficient information** to make a judgment (i.e., "Not enough info to judge" = "Unsure").
     *   `evidence_snippet`: **MANDATORY**. This must be a **direct, verbatim quote** from the text. If the information is missing, write "Not found in text". Do not paraphrase here.
     *   `reasoning`: **MANDATORY**. This is your expert synthesis. Explain *why* the evidence (or lack thereof) leads to the chosen rating. Connect the quote to the prompt criteria and methodological guidance.
 4.  **Completeness**: You must output a result for **EVERY** item in the schema. Do not skip any items. If information is missing in the text, use "Unsure" as the rating and state "Not found in text" for the evidence.

@@ -62,6 +62,34 @@ COLUMN_MAPPING = {
     "D6_I4": "D6_Reporting"
 }
 
+def calculate_overall_risk(domain_risks: List[str]) -> str:
+    """
+    Calculates the Overall Risk of Bias based on Grooten et al. (2019).
+    
+    Criteria:
+    - Low Risk (Green): All domains Low OR (max 1 Moderate AND 0 High).
+    - High Risk (Red): >= 1 High OR >= 3 Moderate.
+    - Moderate Risk (Yellow): All other combinations.
+    """
+    # Normalize inputs to lowercase for comparison
+    risks = [r.lower() for r in domain_risks if r and r.lower() in ['low', 'moderate', 'high']]
+    
+    n_high = risks.count('high')
+    n_moderate = risks.count('moderate')
+    n_low = risks.count('low')
+    
+    # 1. Check for High Risk conditions
+    if n_high >= 1 or n_moderate >= 3:
+        return "High"
+        
+    # 2. Check for Low Risk conditions
+    # (Implicitly n_high is 0 here because of the check above)
+    if n_moderate <= 1:
+        return "Low"
+        
+    # 3. Everything else is Moderate
+    return "Moderate"
+
 def load_schema_structure(schema_path: str) -> List[str]:
     """
     Reads the QUIPS tool schema to generate the canonical list of column headers
@@ -103,6 +131,7 @@ def load_schema_structure(schema_path: str) -> List[str]:
 def flatten_quips_json(file_path: str, data: Dict[str, Any]) -> Dict[str, str]:
     """
     Flattens a hierarchical QUIPS JSON object into a single dictionary row.
+    Also calculates the Overall Risk of Bias.
     """
     row = {}
     
@@ -113,6 +142,9 @@ def flatten_quips_json(file_path: str, data: Dict[str, Any]) -> Dict[str, str]:
     row['year'] = meta.get('year', 'NA')
     row['title'] = meta.get('title', 'NA')
     
+    # Track domain risks for overall calculation
+    domain_risks = []
+
     # 2. Domains
     # Create a lookup for the domain data to access by domain number
     domain_map = {d.get('domain_number'): d for d in data.get('quips_assessment', [])}
@@ -137,8 +169,12 @@ def flatten_quips_json(file_path: str, data: Dict[str, Any]) -> Dict[str, str]:
             domain_data = domain_map.get(d_num, {})
             
             # Domain Level
-            row[f"{prefix}_Risk"] = domain_data.get('risk_of_bias', 'NA')
+            risk_val = domain_data.get('risk_of_bias', 'NA')
+            row[f"{prefix}_Risk"] = risk_val
             row[f"{prefix}_Risk_Reasoning"] = domain_data.get('risk_reasoning', 'NA').replace('\n', ' ').replace('\t', ' ')
+            
+            # Collect risk for overall calculation
+            domain_risks.append(risk_val)
             
             # Items
             # Create a lookup for items by their label or index? 
@@ -172,6 +208,9 @@ def flatten_quips_json(file_path: str, data: Dict[str, Any]) -> Dict[str, str]:
         print(f"Error populating row from schema: {e}")
         return {}
 
+    # Calculate Overall Risk
+    row['Overall_Risk'] = calculate_overall_risk(domain_risks)
+
     return row
 
 def main():
@@ -189,7 +228,7 @@ def main():
     
     # 2. Build Headers
     # Base metadata headers
-    fieldnames = ['filename', 'first_author', 'year', 'title']
+    fieldnames = ['filename', 'first_author', 'year', 'title', 'Overall_Risk']
     
     # Dynamic headers from schema
     schema_headers = load_schema_structure(SCHEMA_FILE)
