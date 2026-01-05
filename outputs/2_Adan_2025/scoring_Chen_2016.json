@@ -1,0 +1,296 @@
+{
+  "paper_metadata": {
+    "title": "The value of 24-hour video-EEG in evaluating recurrence risk following a first unprovoked seizure: A prospective study",
+    "first_author": "Tao Chen",
+    "year": "2016",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study describes the source population and recruitment period clearly. However, it is a single-center study at a tertiary hospital (West China Hospital), which may introduce referral bias. The participation rate of eligible individuals is not explicitly stated, making it difficult to assess if the sample is truly representative of all first-seizure patients in the community.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Clinic patients or outpatients who had experienced a single first unprovoked seizure were recruited from the West China Hospital of Sichuan University between January 2010 and January 2013.",
+          "reasoning": "The authors specify the setting (tertiary hospital) and the clinical condition (first unprovoked seizure)."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Partial",
+          "evidence_snippet": "Consecutively 134 patients with a first unprovoked epileptic seizure were recuited from West China Hospital",
+          "reasoning": "While 'consecutive' recruitment is mentioned, the referral patterns to this specific hospital are not detailed, which is relevant for a tertiary center."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "between January 2010 and January 2013.",
+          "reasoning": "The dates are clearly defined."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "West China Hospital, West China Medical School, Sichuan University, 17th, Wai Nan Guo Xue Lane, Chengdu 610041, China",
+          "reasoning": "The specific hospital and geographic location are provided."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "The diagnostic criteria for seizure were according to those formulated by the ILAE in 2005 [1]. ... Patients were excluded from our study if their first paroxysmal events were non-epileptic seizures, acute symptomatic seizures...",
+          "reasoning": "Detailed inclusion/exclusion criteria based on ILAE standards are provided, including a flowchart."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not provide the total number of eligible patients screened versus those who actually participated, so the participation rate cannot be calculated."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "sex, age, location, history of alcohol and tobacco use, marital status, educational level and profession, seizure type, presence/absence of nocturnal seizure, and any detrimental items in the medical history",
+          "reasoning": "Table 1 and the text provide a comprehensive list of baseline demographics and clinical characteristics."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study reports a clear follow-up strategy and ensures a minimum 24-month follow-up for those without recurrence. The use of survival analysis (Kaplan-Meier) appropriately handles censored data.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "Each patient had at least 24-month follow up. ... For the patients without recurrent seizures, the follow-up ultimately lasted until January 2015, ensuring that the shortest follow-up time was at least 2 years.",
+          "reasoning": "The study implies all 134 recruited patients were followed until recurrence or the 24-month mark."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "Yes",
+          "evidence_snippet": "We attempted to maintain contact with patients by phone or letter if they failed to return to our clinic.",
+          "reasoning": "The authors describe proactive measures to minimize loss to follow-up."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text does not explicitly state if any patients were lost to follow-up or provide reasons for such losses, though it implies high retention."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No description of dropouts is provided."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Since dropouts are not described, a comparison between completers and non-completers is impossible."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Attrition Summary",
+        "prompt": "Loss to follow-up (from baseline sample to study population analyzed) is not associated with key characteristics (i.e., the study data adequately represent the sample) sufficient to limit potential bias to the observed relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The primary prognostic factor (24-hour VEEG) is well-defined, measured using a standardized protocol, and interpreted by experts blinded to the study objectives.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "A 24-hour VEEG (EBNeuro S.p.A, Germany) was recorded for each patient within 7 days after the first unprovoked seizure. We used 24-channel digital recordings (international standard 10/20 system)...",
+          "reasoning": "The measurement tool, duration, and timing are precisely defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Two EEG experts who were blinded to the study analyzed the 24-hour VEEG results.",
+          "reasoning": "Blinding of the assessors and use of experts enhances reliability."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "The VEEG recordings were classified as either normal or abnormal. An abnormal VEEG was further categorized as either (a) non-epileptiform discharges... or (b) epileptiform discharges",
+          "reasoning": "The categorization follows standard clinical neurological practice."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "All patients underwent VEEG and magnetic resonance imaging (MRI) of the brain",
+          "reasoning": "The protocol was applied consistently to the entire cohort."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "The interictal VEEG was normal in 58 patients (43.3%) and abnormal in 76 (47.7%) patients.",
+          "reasoning": "VEEG data appears to be available for all 134 participants."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is no mention of missing PF data or imputation, suggesting complete data collection."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The outcome (seizure recurrence) is clearly defined, but its measurement relies on patient/witness report, which is subject to recall bias. While this is standard in epilepsy research, it is less objective than the PF measurement.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "If a seizure recurred, the follow-up was ceased... ensuring that the shortest follow-up time was at least 2 years.",
+          "reasoning": "Recurrence is the clear endpoint, with a defined minimum follow-up."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Partial",
+          "evidence_snippet": "The patients came to our outpatient clinic at follow-up times... We attempted to maintain contact with patients by phone or letter",
+          "reasoning": "Outcome measurement relies on clinical interview and self-reporting, which is standard but carries inherent risk of under-reporting or misclassification."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "The patients came to our outpatient clinic at follow-up times of 3, 6, 12, and 24 months",
+          "reasoning": "A standardized follow-up schedule was applied to all."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study measured a wide range of potential confounders (age, MRI, medical history) and used multivariable Cox regression to adjust for these factors, finding VEEG to be an independent predictor.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Yes",
+          "evidence_snippet": "sex, age, location, history of alcohol and tobacco use... seizure type, presence/absence of nocturnal seizure, and any detrimental items in the medical history... MRI",
+          "reasoning": "Major known risk factors for seizure recurrence were captured."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "Abnormal MRI scans included leukomalacia, gliosis, encephalomalacia... [detailed list]",
+          "reasoning": "Confounders like MRI abnormalities and detrimental history are explicitly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "MRI scans were reviewed by a radiologist and an epileptologist",
+          "reasoning": "Expert review of imaging ensures reliable measurement of structural confounders."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Upon study enrollment, patients received examinations including... MRI, and a 24-hour VEEG.",
+          "reasoning": "All participants underwent the same baseline diagnostic workup."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No missing data or imputation methods are reported."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "Yes",
+          "evidence_snippet": "agreed not to receive anti-epileptic drugs (AEDs) treatment until seizure recurrence.",
+          "reasoning": "The design controlled for the confounding effect of AED treatment on recurrence risk."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "multivariate analysis using the Cox regression model determined that only an abnormal VEEG was a statistically significant predictor",
+          "reasoning": "Multivariable adjustment was performed to isolate the effect of the VEEG."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical methods (Kaplan-Meier and Cox regression) are appropriate for time-to-event data. Results are reported transparently with RRs and 95% CIs.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Survival analysis was performed using Kaplan-Meier survival curves. The COX proportional hazard model was used in univariate analyses.",
+          "reasoning": "The analytical plan is standard and well-described."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "We used the chi-square test (T test) and logistics to evaluate whether relative risk factors were predictive factors for seizure recurrence in the bivariate analyses.",
+          "reasoning": "The authors used bivariate screening followed by multivariable modeling."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "The overall accumulated risks of recurrence were 8.2%, 16.4%, 29.9%, 46.3%, and 51.5% at 3, 6, 12, 24 and over 24 months",
+          "reasoning": "Cox regression and Kaplan-Meier are the gold standards for prognosis studies involving follow-up time."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1 Characteristics for demography and seizure, risks for recurrence.",
+          "reasoning": "The authors report results for all measured variables, including non-significant ones."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/2_Adan_2025/Chen_2016.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-01-05T11:10:14.862674"
+  }
+}

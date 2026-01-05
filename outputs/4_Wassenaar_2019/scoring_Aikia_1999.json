@@ -1,0 +1,287 @@
+{
+  "paper_metadata": {
+    "title": "Predictors of seizure outcome in newly diagnosed partial epilepsy: memory performance as a prognostic factor",
+    "first_author": "Marja Äikiä",
+    "year": "1999",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study recruited a consecutive sample of untreated adult patients with a clearly defined diagnosis. Inclusion and exclusion criteria are explicit, and baseline characteristics are well-described for both the study groups and a healthy control group.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Eighty-nine consecutive untreated adult patients, aged between 15 and 63 years, with newly diagnosed partial epilepsy were included in the study.",
+          "reasoning": "The population is clearly defined as adults with newly diagnosed partial epilepsy, including age range and treatment status."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "Eighty-nine consecutive untreated adult patients... were included in the study.",
+          "reasoning": "Use of consecutive recruitment in a clinical setting helps minimize selection bias."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "While the follow-up duration (2 years) is mentioned, the specific calendar years of recruitment are not provided."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "Kuopio University Hospital, POB 1777, 70211 Kuopio, Finland",
+          "reasoning": "The institutional and geographic setting is clearly identified in the author affiliations and methods."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "Patients with alcohol-related seizures, current alcohol or other drug abuse, progressive neurological disorders, mental retardation, severe psychiatric problems, or other severe medical disorders were excluded from the study.",
+          "reasoning": "Detailed exclusion criteria are provided to ensure a homogeneous sample of partial epilepsy."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not report the number of eligible patients who declined to participate, making it impossible to calculate a participation rate."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1 Baseline clinical and EEG variables in the seizure outcome groups... Table 2 Baseline demographic and neuropsychological variables",
+          "reasoning": "Comprehensive tables provide data on age, gender, education, etiology, seizure type, and EEG findings."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study reports on all 89 patients initially included, suggesting zero or negligible attrition over the 2-year follow-up period.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "Seventy-nine patients (89%) had satisfactorily controlled epilepsy (Group I)... Ten patients (11%) had refractory seizures (Group II).",
+          "reasoning": "The sum of Group I and Group II equals the initial 89 patients, indicating 100% follow-up."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "Yes",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Since there were no dropouts (89/89 accounted for), this item is technically satisfied by the lack of attrition."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Yes",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No subjects were lost to follow-up."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No subjects were lost to follow-up."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Yes",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Attrition was not an issue in this cohort."
+        }
+      ]
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "Prognostic factors (Memory, EEG, Clinical) were measured using standardized, validated tools (WMS, WAIS, ILAE classification) before treatment began, ensuring no influence of the outcome on the measurement.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "The List Learning Test was used to assess learning and recall of words. It is a modification of the Rey Auditory Verbal Learning Test (Lezak, 1995).",
+          "reasoning": "The memory tests and EEG scoring criteria are explicitly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "The same neurophysiologist (E.M.), without knowledge of the clinical details, scored the EEG using criteria presented by Engel (1984).",
+          "reasoning": "Standardized neuropsychological tests were used, and EEG scoring was blinded to clinical details."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "The patients were classified as having clinically significant memory impairment when memory test scores were falling two standard deviations below the mean performance of the control group",
+          "reasoning": "The study used a standard clinical threshold (2 SD) rather than an arbitrary data-driven cut-point."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Subjects underwent a full neurological examination... a comprehensive neuropsychological evaluation and electroencephalography (EEG) before starting antiepileptic drug treatment.",
+          "reasoning": "All patients underwent the same standardized protocol at baseline."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1 and Table 2",
+          "reasoning": "Data appears complete for the 89 patients analyzed."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Missing data is not explicitly mentioned, though the tables suggest complete data sets."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The outcome (refractory vs. controlled) is defined by seizure frequency, which relies on patient self-reporting (seizure diaries), introducing potential recall bias. However, the criteria for 'refractory' were clearly pre-specified.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "The seizure disorder was termed refractory if more than one generalized or more than four partial seizures occurred during 1 year.",
+          "reasoning": "The study provides a specific, quantitative definition for the primary outcome."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Partial",
+          "evidence_snippet": "Group I patients had satisfactorily controlled epilepsy (seizure free or only occasional seizures), and Group II patients had refractory seizure disorder",
+          "reasoning": "Outcome is based on clinical follow-up and seizure counts, which are standard but subject to patient reporting bias. Blinding of the outcome assessor to baseline memory scores is not explicitly stated."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "After a prospective 2-year follow-up period, the patients were divided into two groups",
+          "reasoning": "All patients were followed for the same 2-year duration using the same clinical criteria."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "While the study uses multivariable logistic regression to account for several key confounders (age, etiology, seizure type), the small number of events in the refractory group (n=10) limits the robustness of the adjustment and increases the risk of overfitting.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Yes",
+          "evidence_snippet": "The following clinical variables were included in the analyses... age at the time of the diagnosis; etiology of epilepsy... seizure type... pretreatment number of seizures... EEG data",
+          "reasoning": "Major known clinical prognostic factors were collected."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "etiology of epilepsy, classified as remote symptomatic or cryptogenic; seizure type, subjects were categorized as having experienced either generalized seizures alone, or having experienced partial complex or mixed seizure types",
+          "reasoning": "Confounders are categorized using standard neurological definitions."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Subjects underwent a full neurological examination, brain computed tomography and/or magnetic resonance imaging... electroencephalography (EEG)",
+          "reasoning": "Confounders were measured using objective diagnostic tools (MRI/CT/EEG)."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Subjects underwent a full neurological examination... before starting antiepileptic drug treatment.",
+          "reasoning": "All participants were assessed using the same protocol at the same time point (diagnosis)."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No mention of missing data or imputation methods."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "No",
+          "evidence_snippet": "Eighty-nine consecutive untreated adult patients... were included",
+          "reasoning": "The study is a prospective cohort; no matching or stratification was used in the design phase."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Partial",
+          "evidence_snippet": "A backward stepwise logistic regression analysis was performed for clinical, neuropsychological and EEG variables.",
+          "reasoning": "Multivariable adjustment was performed, but the small sample size of the refractory group (n=10) makes the model unstable (overfitting risk)."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The statistical approach is generally sound, but the authors acknowledge the limitation of the small sample size in the refractory group, which resulted in very wide confidence intervals for the odds ratios, reducing the precision of the findings.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "The data were analyzed by using SPSS/PC+... Logistic regression analysis is suitable for analyzing predictors of a binary outcome variable",
+          "reasoning": "The statistical methods are clearly described."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "Five clinical and EEG variables, identified from the literature, three verbal memory measures, identified by univariate analyses... were included in logistic regression analysis.",
+          "reasoning": "Variable selection was based on both prior literature and preliminary univariate findings."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "A backward stepwise logistic regression analysis was performed",
+          "reasoning": "Logistic regression is appropriate for the binary outcome (refractory vs. controlled)."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Table 3 Predictors of refractory seizure disorder after logistic regression analysis",
+          "reasoning": "The study reports both significant and non-significant findings, including odds ratios and confidence intervals."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/4_Wassenaar_2019/Aikia_1999.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-01-05T11:10:46.654428"
+  }
+}

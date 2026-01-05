@@ -1,0 +1,337 @@
+{
+  "paper_metadata": {
+    "title": "Initial outcomes in the Multicenter Study of Epilepsy Surgery",
+    "first_author": "S.S. Spencer",
+    "year": "2003",
+    "analysis_timestamp": "2023-10-27 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study provides a clear description of the recruitment centers, inclusion criteria, and baseline characteristics. However, there is a significant loss of potential participants between identification (n=788) and surgery (n=396), with 163 patients withdrawing or lost to follow-up before surgery. This high rate of pre-surgical attrition may introduce selection bias, as the final surgical cohort might not fully represent the broader refractory epilepsy population.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Patients aged 12 years and older were enrolled at one of seven participating centers (Yale University, New York University, Montefiore Medical Center, Columbia University, University of Rochester, Jefferson Medical College, and the Minnesota Comprehensive Epilepsy Program).",
+          "reasoning": "The study clearly identifies the geographic and institutional sources of the population."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Partial",
+          "evidence_snippet": "A total of 788 patients were initially identified to the study... 163 withdrew, were lost to follow-up, or had incomplete surgical information.",
+          "reasoning": "While the flow of patients is described, the high number of withdrawals (163/788) during the evaluation phase is not fully explained, which could bias the sample toward more motivated or compliant patients."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text mentions follow-up duration (1 to 5 years) but does not explicitly state the calendar years during which recruitment took place."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "enrolled at one of seven participating centers (Yale University, New York University, Montefiore Medical Center, Columbia University, University of Rochester, Jefferson Medical College, and the Minnesota Comprehensive Epilepsy Program).",
+          "reasoning": "The specific academic medical centers are listed."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "The inclusion criteria were as follows: 1) recurrent partial seizures... for at least 2 years at an average rate of one per month... 2) failure of at least two first-line antiepileptic drugs... 3) no prior epilepsy surgery.",
+          "reasoning": "The criteria are specific, including seizure frequency, duration, and prior treatment failure."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "163 withdrew, were lost to follow-up, or had incomplete surgical information.",
+          "reasoning": "The high withdrawal rate (20% of the total identified) makes it difficult to determine if the final participants are representative of all eligible individuals."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Table Characteristics of study sample (n 355)... Male, n (%)... Age at onset... Age at study entry... Duration of epilepsy... Mesial temporal resection, n (%).",
+          "reasoning": "Key demographic and clinical characteristics are provided in a dedicated table."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study followed 355 out of 396 surgical patients (90%) for at least one year. For the QOL analysis, the authors performed a sensitivity analysis comparing included and excluded patients, finding no significant differences in baseline scores or outcomes, although a sex difference was noted. The attrition rate is acceptable for a multi-year prospective study.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "Of 396 patients who underwent resective surgical procedures, 355 were followed for at least 1 year.",
+          "reasoning": "A 90% follow-up rate for the primary seizure outcome is high."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "rating": "No",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The study does not describe specific protocols used to re-engage or collect data from those who withdrew."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Partial",
+          "evidence_snippet": "163 withdrew, were lost to follow-up, or had incomplete surgical information.",
+          "reasoning": "General categories are provided, but specific reasons for withdrawal are not detailed."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "For the QOLIE as well as the Beck indices, there were generally no substantial or significant differences between included versus excluded patients with respect to presurgical scores, age at onset of epilepsy, age at surgical evaluation, education, and ultimate postsurgical seizure outcome.",
+          "reasoning": "The authors explicitly compared characteristics of those excluded from analysis due to missing data versus those included."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Yes",
+          "evidence_snippet": "The only difference found between excluded and included patients was that, of those excluded from analysis of each measure, 73% were men, versus 43% men among those included (p 0.03).",
+          "reasoning": "Aside from sex, no significant differences were found, suggesting attrition was largely non-informative."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Attrition Summary",
+        "prompt": "Loss to follow-up (from baseline sample to study population analyzed) is not associated with key characteristics (i.e., the study data adequately represent the sample) sufficient to limit potential bias to the observed relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ],
+        "rating": "Low"
+      }
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The primary prognostic factor (type of surgery: medial temporal vs. neocortical) is a clear, objective clinical event. The secondary predictors (baseline QOL and psychiatric scores) were measured using validated, standardized instruments (QOLIE-89, BDI, BAI).",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "Surgery was designated as medial temporal versus neocortical (any other neocortical resection including temporal neocortex).",
+          "reasoning": "The classification of the surgical prognostic factor is clearly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Evaluation included a series of studies to establish localization... seeking concordant electrophysiologic (scalp interictal and ictal EEG), structural (MRI), and functional (neuropsychological assessment, SPECT, PET) evidence.",
+          "reasoning": "The surgical site was determined by objective, multi-modal clinical evaluation."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "Recommended cutoffs were used to identify patients who had no or mild depression or anxiety (scores - 16) or moderate to severe depression or anxiety (scores 16).",
+          "reasoning": "The study used established, non-data-dependent cutoffs for the Beck inventories."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "evaluation for surgery followed a standardized protocol consistent with current clinical practice",
+          "reasoning": "A uniform protocol was applied across the seven centers."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "Full QOL data were available on 362 of the 382 adults (94%).",
+          "reasoning": "The vast majority of participants had complete baseline data for the prognostic factors."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "No",
+          "evidence_snippet": "Patients missing a presurgical instrument... were omitted from analysis of that particular instrument.",
+          "reasoning": "The study used complete-case analysis rather than imputation for missing prognostic factor data."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "PF Measurement Summary",
+        "prompt": "PF is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ],
+        "rating": "Low"
+      }
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "Outcomes were measured using standardized, validated tools (QOLIE-89, BDI, BAI) and a clear definition of seizure remission. Seizure data were collected via frequent (3-month) phone calls to minimize recall bias.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "Remission was considered a period of at least 1 year seizure-free with or without isolated auras. A relapse was defined as the occurrence... of any clinical seizure.",
+          "reasoning": "Seizure outcomes are explicitly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "The QOLIE-89 is a self-report, generic and disease specific, validated and reliable, overall health-related QOL measure",
+          "reasoning": "The study uses established, validated instruments for QOL and psychiatric outcomes."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Phone calls are made every 3 months to ascertain seizure outcomes. The QOLIE-89, BAI, and BDI are re-administered at 3 and 12 months after surgery and once a year thereafter",
+          "reasoning": "The follow-up schedule and measurement methods were standardized for the cohort."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Outcome Measurement Summary",
+        "prompt": "Outcome of interest is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ],
+        "rating": "Low"
+      }
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study accounts for several important confounders (age, sex, education) in the multivariable models. However, it does not fully account for changes in antiepileptic drug (AED) regimens post-surgery, which the authors acknowledge as a potential factor influencing QOL and relapse. The lack of a non-surgical control group also makes it difficult to isolate the effect of the surgery itself from other factors.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Partial",
+          "evidence_snippet": "In all analyses, sex, education, age at onset, and age at surgical evaluation were entered into the model as covariates.",
+          "reasoning": "Key demographic variables were measured, but post-surgical treatment changes (AEDs) were not systematically adjusted for in the models."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "The interview obtained information regarding seizure history, clinical and demographic characteristics, family information, employment, and daily activities.",
+          "reasoning": "Standard demographic and clinical history variables were defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "structured in-person interview administered by trained research associates",
+          "reasoning": "Data collection was performed by trained staff using structured tools."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "standardized protocol consistent with current clinical practice",
+          "reasoning": "The protocol was uniform across centers."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Imputation was not mentioned; complete-case analysis appears to have been used."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "No",
+          "evidence_snippet": "Because this was not a randomized trial...",
+          "reasoning": "The study is a prospective cohort without matching or a control group in the design phase."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "In all analyses, sex, education, age at onset, and age at surgical evaluation were entered into the model as covariates.",
+          "reasoning": "Multivariable regression was used to adjust for measured confounders."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Confounding Summary",
+        "prompt": "Important potential confounders are appropriately accounted for, limiting potential bias with respect to the relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ],
+        "rating": "Moderate"
+      }
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical methods are appropriate for the longitudinal data (mixed models, logistic regression, Kaplan-Meier). The authors are transparent about the limitations of their data (e.g., non-normal distribution of Beck scores) and adjust their strategy accordingly. Results are reported for all pre-specified outcomes.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Longitudinal multiple regression analysis was used to examine postsurgical changes in the QOLIE scores... Logistic regression was used to examine changes in depression and anxiety",
+          "reasoning": "The analytical plan is clearly described for each outcome."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "In all analyses, sex, education, age at onset, and age at surgical evaluation were entered into the model as covariates.",
+          "reasoning": "The models included standard clinical and demographic predictors."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "Because the depression (BDI) and anxiety (BAI) scores did not sufficiently follow the statistical assumptions needed for valid application of linear regression algorithms, our longitudinal analyses focused on a dichotomized version",
+          "reasoning": "The authors appropriately modified their statistical approach when data did not meet assumptions for linear models."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "QOL, anxiety, and depression all improved dramatically within 3 months... Anxiety and depression scores also gradually diverged... but differences were not significant.",
+          "reasoning": "Both significant and non-significant findings are reported transparently."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Statistical Analysis and Presentation Summary",
+        "prompt": "The statistical analysis is appropriate for the design of the study, limiting potential for presentation of invalid or spurious results.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ],
+        "rating": "Low"
+      }
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/5_West_2019/Spencer_2005.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-01-05T11:12:02.256992"
+  }
+}

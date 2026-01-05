@@ -1,0 +1,337 @@
+{
+  "paper_metadata": {
+    "title": "Epilepsy Surgery for Children With Low-Grade Epilepsy-Associated Tumors: Factors Associated With Seizure Recurrence and Cognitive Function",
+    "first_author": "Ara Ko",
+    "year": "2018",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study provides a clear description of the target population, recruitment setting (tertiary pediatric hospital), and specific inclusion/exclusion criteria. While it is a retrospective single-center study, the baseline characteristics are well-documented, and the sample appears representative of pediatric patients undergoing epilepsy surgery for LEATs.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "children less than 18 years of age who underwent epilepsy surgery due to histopathologically confirmed LEATs and had a minimum postoperative follow-up duration of 24 months.",
+          "reasoning": "The authors define the age, clinical condition (epilepsy), and pathological diagnosis (LEATs) clearly."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "A retrospective single-center study was conducted for children with LEATs who received surgical treatment... in Severance Children's Hospital between 2006 and 2015.",
+          "reasoning": "The study identifies all eligible patients within a specific timeframe at a major referral center."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "between 2006 and 2015",
+          "reasoning": "The 9-year recruitment window is explicitly stated."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "Severance Children's Hospital",
+          "reasoning": "The specific institution is identified."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "Inclusion criteria were as follows: (1) children less than 18 years of age with epilepsy; (2) who underwent surgery... (3) who exhibited histopathologically confirmed LEATs; and (4) who had a postoperative follow-up duration of more than 24 months.",
+          "reasoning": "Detailed inclusion and exclusion criteria (e.g., excluding second surgeries) are provided."
+        },
+        {
+          "label": "Adequate study participation",
+          "rating": "Unsure",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "As a retrospective chart review, the total number of 'eligible' patients who might have been excluded due to missing records is not stated, though 58 were included."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1. Clinical Characteristics of Patients and Seizure Outcomes After Surgery",
+          "reasoning": "Table 1 provides comprehensive data on age, sex, seizure type, AED use, and tumor location."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study requires a 24-month follow-up for inclusion, which inherently limits attrition bias for the primary outcome. However, there is significant missing data for the secondary outcome (postoperative FSIQ), with only 77.8% of the eligible sample analyzed, and no comparison between those with and without follow-up cognitive testing.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Partial",
+          "evidence_snippet": "The postoperative FSIQ scores were available for 42 (77.8%) of the 54 patients with preoperative FSIQ scores",
+          "reasoning": "While seizure outcome was available for 100% of the included cohort (due to inclusion criteria), cognitive follow-up was missing for over 20% of the sample."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The study does not describe attempts to retrieve data for the 12 patients missing postoperative FSIQ."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Reasons for missing cognitive data are not discussed."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is no comparison of baseline characteristics between those with and without postoperative FSIQ scores."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text does not provide enough information to determine if the missing cognitive data is 'missing at random'."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Attrition Summary",
+        "prompt": "Loss to follow-up (from baseline sample to study population analyzed) is not associated with key characteristics (i.e., the study data adequately represent the sample) sufficient to limit potential bias to the observed relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ],
+        "rating": "Moderate"
+      }
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "Prognostic factors (GTR, lead time, AED count) are clearly defined and measured using standard clinical methods (MRI, clinical history). The use of postoperative MRI to confirm the extent of resection (GTR) provides an objective measure.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "The extent of surgical resection —complete or incomplete—was evaluated via postoperative brain MRI.",
+          "reasoning": "The primary prognostic factor (GTR) is clearly defined by imaging."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Postoperative brain MRI was performed for every patient at mean of two (standard deviations [SD] 1.1) months postsurgery",
+          "reasoning": "MRI is the gold standard for assessing resection extent."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "Median lead time from seizure onset to surgery was 1.3 (IQR 0.3 to 5.3) years",
+          "reasoning": "Variables like lead time and age are treated as continuous in the regression models."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "All of the patients had undergone a presurgical evaluation in Severance Children's Hospital",
+          "reasoning": "Standardized protocols were used in a single center."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1",
+          "reasoning": "PF data appears complete for the 58 patients."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No imputation was mentioned; however, PF data appeared complete."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "PF Measurement Summary",
+        "prompt": "PF is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ],
+        "rating": "Low"
+      }
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "Seizure freedom is defined using a clear temporal threshold (24 months) and cognitive outcomes are measured using validated, age-appropriate psychometric scales (Wechsler/Bayley).",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "The seizure-free group included patients who did not show any clinical seizures from two weeks after the surgery through the last follow-up, for more than 24 months.",
+          "reasoning": "The outcome is precisely defined with a clear 'zero time' and follow-up duration."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "Full-scale intelligence quotient (FSIQ) or mental developmental index (MDI) was assessed using one of the following scales, based on the patient's age: Bayley... Wechsler",
+          "reasoning": "Validated standardized tools were used for cognitive assessment."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "All of the patients had undergone a presurgical evaluation in Severance Children's Hospital",
+          "reasoning": "Assessments were performed in a consistent clinical setting."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Outcome Measurement Summary",
+        "prompt": "Outcome of interest is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ],
+        "rating": "Low"
+      }
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study uses multivariable analysis to adjust for confounders. However, the small number of events (only 7 seizure recurrences) limits the statistical power and the number of variables that can be reliably adjusted for in the model, potentially leaving residual confounding.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Yes",
+          "evidence_snippet": "lead time, follow-up duration, number of AEDs, gross total resection, and multilobar involvement",
+          "reasoning": "Key clinical and surgical variables known to influence epilepsy outcomes were included."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "Lead time (years)... Number of AEDs before surgery",
+          "reasoning": "Confounders are clearly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "clinical history including current and past seizure semiology, scalp video-electroencephalography monitoring (V-EEG), brain MRI",
+          "reasoning": "Confounders were measured using standard clinical diagnostic tools."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "All of the patients had undergone a presurgical evaluation in Severance Children's Hospital",
+          "reasoning": "Consistent setting for all measurements."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No imputation was described."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "No",
+          "evidence_snippet": "A retrospective single-center study",
+          "reasoning": "The design did not include matching or stratification."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Partial",
+          "evidence_snippet": "Multivariate logistic regression was then used for selected parameters.",
+          "reasoning": "While multivariate analysis was performed, the low event rate (n=7) for the primary outcome makes the model potentially unstable (overfitting)."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Confounding Summary",
+        "prompt": "Important potential confounders are appropriately accounted for, limiting potential bias with respect to the relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ],
+        "rating": "Moderate"
+      }
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical methods are appropriate for the data types (logistic and linear regression). The authors report both univariate and multivariate results transparently. The limitations regarding the small sample size in the recurrence group are acknowledged.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Clinical characteristics of the seizure-free and seizure-recur groups were compared using univariate logistic regression. Multivariate logistic regression was then used for selected parameters.",
+          "reasoning": "The strategy is clearly outlined."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "multivariate analysis was performed with the parameters that demonstrated P values of <0.010",
+          "reasoning": "A standard p-value threshold was used for variable selection in the multivariate model."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "The Statistical Package for the Social Sciences (version 23.0; IBM, Armonk, NY) was used for all analysis.",
+          "reasoning": "Logistic and linear regressions are standard for these outcome types."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1, Table 2, Table 3",
+          "reasoning": "All analyzed variables and their associations (significant or not) are reported."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Statistical Analysis and Presentation Summary",
+        "prompt": "The statistical analysis is appropriate for the design of the study, limiting potential for presentation of invalid or spurious results.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ],
+        "rating": "Low"
+      }
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/3_Arfaie_2023/Ko_2019.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-01-05T11:11:40.843504"
+  }
+}

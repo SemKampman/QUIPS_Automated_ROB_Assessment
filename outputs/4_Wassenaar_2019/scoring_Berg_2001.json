@@ -1,0 +1,332 @@
+{
+  "paper_metadata": {
+    "title": "Early development of intractable epilepsy in children: A prospective study",
+    "first_author": "A.T. Berg",
+    "year": "2001",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study used active surveillance across multiple practice types (academic, private, community) to ensure a representative sample. Inclusion/exclusion criteria and baseline characteristics are clearly defined.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Children with newly diagnosed epilepsy (n 5 613) were prospectively identified from child neurology practices in Connecticut (1993–1997)",
+          "reasoning": "The geographic and clinical source is clearly stated."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "Active surveillance was used in each practice to identify all eligible children... recruited from academic centers, private practices, and community clinics",
+          "reasoning": "The use of active surveillance across diverse clinical settings minimizes recruitment bias."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "January 1993 through December 1997.",
+          "reasoning": "Specific dates are provided."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "participating physicians (including 16 of the 17 child neurologists and selected pediatricians and adult neurologists) in Connecticut",
+          "reasoning": "The setting and geographic scope (state-wide) are well-defined."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "Children had to experience the first unprovoked seizure between 1 month and 15 years of age, have at least two unprovoked seizures on separate days, and be newly diagnosed during the recruitment period",
+          "reasoning": "Clear age, diagnostic, and 'zero-time' (newly diagnosed) criteria are provided."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "While the study mentions recruiting from 16 of 17 neurologists, the exact number of eligible children who declined participation (participation rate) is not explicitly stated."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "The median age at onset was 5.3 years, and half were boys... Syndromic grouping and etiology were strongly correlated",
+          "reasoning": "Table 1 and the results section provide extensive baseline data on age, sex, syndrome, and etiology."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study maintained an exceptionally high follow-up rate (97.7%), which significantly limits the risk of attrition bias.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "Of the original 613, 599 (97.7%) have been followed for longer than 18 months",
+          "reasoning": "A 97.7% follow-up rate is excellent for a longitudinal prognosis study."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text does not describe specific protocols for tracing the 14 children lost to follow-up."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The reasons for the 2.3% loss are not detailed."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is no comparison provided between the 599 completers and the 14 dropouts."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Because characteristics of dropouts aren't reported, it's impossible to confirm they didn't differ, though the very low attrition rate makes this less likely to bias results."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Attrition Summary",
+        "prompt": "Loss to follow-up (from baseline sample to study population analyzed) is not associated with key characteristics (i.e., the study data adequately represent the sample) sufficient to limit potential bias to the observed relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "Prognostic factors were defined using international standards (ILAE) and assessed by specialists. Seizure frequency was calculated using a standardized ratio.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "Initial seizure frequency was defined as the ratio of the total number of unprovoked seizures since epilepsy diagnosis divided by the time between the dates of first unprovoked seizure and formal diagnosis.",
+          "reasoning": "The primary prognostic factor (seizure frequency) is mathematically defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Epilepsy syndromes and seizures were classified... according to International League Against Epilepsy's (ILAE) guidelines by three pediatric epilepsy specialists",
+          "reasoning": "Use of ILAE guidelines and expert consensus increases reliability."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "Log transformations were employed when necessary to normalize a highly skewed distribution.",
+          "reasoning": "The study treats seizure frequency as a continuous variable (log-transformed) rather than relying solely on arbitrary cut-points."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Trained staff members interviewed the parents. Investigators reviewed all pertinent medical records.",
+          "reasoning": "Standardized data collection protocols were applied to the whole cohort."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1 shows 'No. followed' for various factors, mostly matching the total n=599.",
+          "reasoning": "Missing data for prognostic factors appears minimal (e.g., neuroimaging in 477/599, but clinical factors are mostly complete)."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The study does not mention using imputation; it appears to use available-case analysis."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "PF Measurement Summary",
+        "prompt": "PF is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The outcome (Intractable Epilepsy) is clearly defined with objective criteria regarding drug failure, seizure frequency, and duration. Follow-up was frequent and systematic.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "failure, for lack of seizure control, of more than 2 first-line anti-epileptic drugs (AED) with an average of more than 1 seizure per month for 18 months",
+          "reasoning": "The definition is highly specific, including drug count, seizure frequency, and a time threshold."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "Drugs had to be pushed to maximum tolerated doses and noncompliance ruled out as determined through medical record review and follow-up calls",
+          "reasoning": "The outcome measurement included verification of drug dosing and compliance, reducing misclassification of 'pseudo-intractability'."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Study personnel conducted follow-up calls every 3 months. Medical records were reexamined at 6-month intervals.",
+          "reasoning": "A uniform follow-up schedule was applied to all participants."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Outcome Measurement Summary",
+        "prompt": "Outcome of interest is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study used multivariable Cox proportional hazards modeling to adjust for a wide range of potential confounders, including age, etiology, and EEG findings.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Yes",
+          "evidence_snippet": "We also examined age, sex, abnormal neuroimaging, history of neonatal seizures and febrile seizures... seizure types, and selected EEG characteristics",
+          "reasoning": "A comprehensive list of clinical and demographic confounders was captured."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "Remote symptomatic refers to the presence of an underlying neurologic condition or insult... Cryptogenic etiology refers to epilepsy that does not meet the criteria for an idiopathic syndrome",
+          "reasoning": "Etiological and syndromic confounders are defined according to ILAE standards."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Investigators reviewed all pertinent medical records... classification... by three pediatric epilepsy specialists.",
+          "reasoning": "Confounders were measured via medical record review and expert adjudication."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Trained staff members interviewed the parents. Investigators reviewed all pertinent medical records.",
+          "reasoning": "Standardized data collection was used for all participants."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Imputation was not mentioned."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "Partial",
+          "evidence_snippet": "Children were prospectively identified when first diagnosed",
+          "reasoning": "The design uses an inception cohort (newly diagnosed), which helps, but does not use matching or stratification at the design stage."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "Multivariable analysis with the proportional hazards model permitted assessment of the relative importance of several factors simultaneously.",
+          "reasoning": "The use of Cox regression is the standard for adjusting for confounding in time-to-event prognosis studies."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Confounding Summary",
+        "prompt": "Important potential confounders are appropriately accounted for, limiting potential bias with respect to the relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical methods are appropriate for the data type (survival analysis). The authors checked for interactions and provided both bivariate and multivariable results.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Chi-square and t-tests were used for bivariate comparisons... Multivariable analysis with the proportional hazards model",
+          "reasoning": "The strategy is clearly outlined."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "Statistical interactions were considered, as needed, during modeling procedures... A separate analysis examined predictors... in children with nonidiopathic, localization-related epilepsy.",
+          "reasoning": "The model building included interaction terms and subgroup analyses based on clinical relevance."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "proportional hazards model permitted assessment of the relative importance of several factors simultaneously.",
+          "reasoning": "Cox regression is appropriate for this prospective longitudinal design."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Table 3 and Table 6 show both significant and non-significant factors.",
+          "reasoning": "The authors report RRs and 95% CIs for all variables in the model, including those that lost significance after adjustment."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Statistical Analysis and Presentation Summary",
+        "prompt": "The statistical analysis is appropriate for the design of the study, limiting potential for presentation of invalid or spurious results.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/4_Wassenaar_2019/Berg_2001.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-01-05T11:14:12.042958"
+  }
+}

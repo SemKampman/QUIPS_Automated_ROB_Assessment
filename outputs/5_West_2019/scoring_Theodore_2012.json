@@ -1,0 +1,287 @@
+{
+  "paper_metadata": {
+    "title": "PET of Serotonin 1A Receptors and Cerebral Glucose Metabolism for Temporal Lobectomy",
+    "first_author": "William H. Theodore",
+    "year": "2012",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study provides a clear description of the target population (medically refractory TLE), recruitment source (NINDS), and inclusion criteria. Baseline characteristics are well-documented in Table 1.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "41 patients (22 women, 19 men; mean age 6 SD, 34.2 6 9.5 y) with medically refractory TLE, referred to the Clinical Epilepsy Section, National Institute of Neurologic Disorders and Stroke (NINDS), National Institutes of Health.",
+          "reasoning": "The authors specify the clinical condition, age, sex, and the specific tertiary referral center."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "referred to the Clinical Epilepsy Section... in a study including all patients who underwent 18F-FCWAY PET followed by temporal lobectomy from 2000 from 2010.",
+          "reasoning": "The study used a consecutive sampling approach over a 10-year period from a specialized referral center."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "from 2000 from 2010.",
+          "reasoning": "The decade-long recruitment window is explicitly stated."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "Clinical Epilepsy Section, National Institute of Neurologic Disorders and Stroke (NINDS), National Institutes of Health, Bethesda, Maryland.",
+          "reasoning": "The specific institution and geographic location are provided."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "medically refractory TLE... all patients who underwent 18F-FCWAY PET followed by temporal lobectomy... at least a 1-y follow-up.",
+          "reasoning": "Inclusion is based on the disease state, the specific intervention (PET), and a minimum follow-up duration."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not state how many eligible patients declined to participate or were excluded for reasons other than the stated criteria."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1 Clinical and Imaging Data in 41 Patients",
+          "reasoning": "Table 1 provides granular, patient-level data on EEG, MRI, and clinical history."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study reports on all 41 patients who met the inclusion criteria (surgery + PET). There is no evidence of loss to follow-up for the primary outcome.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "41 patients who had anterior temporal lobectomy with at least a 1-y follow-up.",
+          "reasoning": "The analysis includes the full cohort that met the surgical and follow-up criteria."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is no mention of dropouts; the study appears to be a retrospective analysis of a completed cohort."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Loss to follow-up is not explicitly discussed, though the inclusion criteria required at least 1 year of follow-up."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No data provided on patients who had surgery but did not reach the 1-year follow-up mark."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Comparison between completers and non-completers was not performed."
+        }
+      ]
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The prognostic factors (PET imaging) were measured using standardized, objective protocols. Crucially, the 18F-FCWAY data were masked during clinical decision-making, preventing bias in the surgical outcome.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "A 37-MBq (10-mCi) dose of 18F-FCWAY was injected over 60 s, and dynamic frames (1–5 min) were acquired in 3-dimensional mode for 120 min.",
+          "reasoning": "The PET protocol, including dose and timing, is precisely defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "18F-FCWAY but not 18F-FDG and MRI data were masked for surgical decisions and outcome assessment.",
+          "reasoning": "Masking of the primary PF (FCWAY) is a strong methodological safeguard against bias."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "asymmetry exceeding 2 SDs in 16 healthy volunteers",
+          "reasoning": "The study uses a pre-defined statistical threshold based on a control group rather than arbitrary data-driven cut-points."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "All patients underwent... PET was performed on an Advance Tomograph (GE Healthcare).",
+          "reasoning": "Standardized equipment and protocols were used for the entire cohort."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "One patient did not undergo 18F-FDG PET.",
+          "reasoning": "Data was nearly complete; only one patient missed the secondary PF (FDG), while all had the primary PF (FCWAY)."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Imputation was not mentioned; the one patient with missing FDG data was likely handled via listwise deletion in specific analyses."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "While the outcome (seizure freedom) is clearly defined, the assessment was performed by the clinical team at the same institution. Although FCWAY was masked, the clinicians were not masked to the FDG or MRI results which influenced the surgery itself.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "patients were classified as either free from seizures impairing consciousness (seizure-free) (1) or having persistent seizures (non–seizure-free).",
+          "reasoning": "The outcome is defined based on clinical standards (Engel/ILAE-like criteria) with a specified follow-up."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Partial",
+          "evidence_snippet": "18F-FCWAY but not 18F-FDG and MRI data were masked for surgical decisions and outcome assessment.",
+          "reasoning": "Outcome assessment was masked to the experimental PF (FCWAY) but not to the standard clinical data (FDG/MRI)."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "On postoperative evaluation, performed in the NINDS Clinical Epilepsy Section outpatient clinic",
+          "reasoning": "All patients were evaluated in the same clinical setting."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study used multivariable logistic regression to account for the relative contributions of MRI, FDG-PET, and FCWAY-PET, effectively addressing the main clinical confounders.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Yes",
+          "evidence_snippet": "MRI, 18F-FCWAY PET, and 18F-FDG PET... duration of epilepsy... invasive electroencephalographic studies",
+          "reasoning": "Key clinical and imaging variables known to influence surgical outcome were recorded."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "Each patient underwent 1.5-T or 3-T MRI... 18F-FDG PET was performed after injection of 185 MBq",
+          "reasoning": "The imaging confounders are defined by their technical parameters."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Neuroradiologists who were unaware of ictal electroencephalographic and PET data interpreted the MRI scans.",
+          "reasoning": "Blinding was used for the interpretation of the MRI confounder."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "All patients underwent... standard procedures",
+          "reasoning": "The clinical workup was standardized for the cohort."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No imputation methods were described for the single case of missing FDG data."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "Partial",
+          "evidence_snippet": "Surgery was tailored to individual preresection evaluations",
+          "reasoning": "The study is a cohort study where surgery (the intervention) is naturally confounded by the clinical workup."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "stepwise logistic regression with 3 categoric covariates: MRI, 18F-FCWAY PET, and 18F-FDG PET.",
+          "reasoning": "Multivariable modeling was used to determine the independent predictive value of the PFs."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical approach is robust, utilizing linear mixed models for regional data and logistic regression for outcome prediction. Results are reported transparently, including non-significant findings.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "A linear mixed model was used... stepwise logistic regression was performed using SAS",
+          "reasoning": "The statistical methods are clearly outlined and appropriate for the data structure."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "modeled on the clinical scan classification using a stepwise logistic regression",
+          "reasoning": "The model includes the three primary modalities used in surgical planning."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "linear mixed model... taking into account correlation among the 4 measurements",
+          "reasoning": "The use of mixed models correctly accounts for the nested/correlated nature of regional brain measurements."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Table 2... Table 3... Results: Twenty-six of 41 (63%)",
+          "reasoning": "The paper reports both significant and non-significant regional findings and provides comprehensive tables."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/5_West_2019/Theodore_2012.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-01-05T11:19:13.580391"
+  }
+}

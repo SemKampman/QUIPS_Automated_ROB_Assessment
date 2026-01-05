@@ -1,0 +1,287 @@
+{
+  "paper_metadata": {
+    "title": "Seizure outcomes and mesial resection volumes following selective amygdalohippocampectomy and temporal lobectomy",
+    "first_author": "Oren Sagher",
+    "year": "2012",
+    "analysis_timestamp": "2023-10-27 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study provides a clear description of the inclusion criteria and the source population from a single academic center. However, it is a retrospective convenience sample of patients who underwent surgery over a 6-year period. While baseline characteristics are provided, there is no information on the total number of eligible patients who were not recruited or the specific participation rate, which introduces potential selection bias.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "We retrospectively identified all patients who underwent temporal lobe resections for mesial temporal epilepsy at the University of Michigan between 2001 and 2007.",
+          "reasoning": "The source population is clearly defined as patients with medically refractory mesial temporal lobe epilepsy at a specific tertiary care center."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Partial",
+          "evidence_snippet": "We retrospectively identified all patients who underwent temporal lobe resections... All patients underwent an extensive presurgical workup that included interictal electroencephalographic recordings, neuropsychological evaluation, and speech and language testing",
+          "reasoning": "While the clinical workup is described, the specific sampling frame (how many were screened vs. how many were selected) is not detailed."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "between 2001 and 2007.",
+          "reasoning": "The dates for patient identification are explicitly stated."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "University of Michigan Health System, Ann Arbor, Michigan",
+          "reasoning": "The specific institution and location are provided."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "Patients with pathological entities suspected outside the mesial temporal lobe were excluded from the analysis... A minimum of 1 year of follow-up seizure data were available for all patients included in the analysis. Patients with shorter follow-ups were excluded.",
+          "reasoning": "The study lists both clinical/pathological exclusion criteria and a minimum follow-up requirement."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not state how many patients were eligible but declined surgery or were excluded for reasons other than those listed, making it impossible to calculate a participation rate."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Demographic data, duration of epilepsy, side of surgery, surgical technique, use of invasive monitoring, and pathological entity were recorded.",
+          "reasoning": "Table 2 provides a comprehensive breakdown of age, sex, handedness, epilepsy duration, and pathology."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study reports a loss to follow-up over time (e.g., 96 patients at 1 year, but only 56 at 3 years). While the authors state that all included patients had at least 1 year of data, the significant drop-off at later time points is not fully explained by systematic comparison of those lost vs. those remaining, which could lead to attrition bias in long-term outcomes.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Partial",
+          "evidence_snippet": "Ten of these patients had follow-up periods of less than 1 year and were excluded from the analysis... At 3 years postoperatively... 16 patients were unable to meet this period of follow-up.",
+          "reasoning": "While 90% (96/106) were available for the 1-year analysis, the sample size decreases significantly by year 3, and the 'response rate' for the full duration is not clearly defined."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text does not describe efforts to contact patients who did not return for follow-up visits."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "No",
+          "evidence_snippet": "Seven patients were either lost to follow-up or did not have the requisite follow-up periods.",
+          "reasoning": "The study notes patients were lost but does not provide specific reasons (e.g., moved, dissatisfied, deceased)."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is no table or text comparing the characteristics of those lost to follow-up versus those who completed the study."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Without a comparison of the two groups, it is impossible to determine if attrition was informative (biased)."
+        }
+      ]
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The primary prognostic factors (surgical technique and resection volume) are extremely well-defined. The use of volumetric MRI analysis with manual tracings and quality assurance by a second radiologist provides a high level of measurement reliability.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "Volumetric MRI analysis was used to quantify the mesial resection in both groups... manual tracings around respective mesial temporal structures as viewed on coronal slices to form 2D areas.",
+          "reasoning": "The prognostic factor (extent of resection) is defined with high technical specificity."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Randomly selected studies were analyzed by another author (D.G.H.) for quality assurance. The anatomical guidelines used for the identification of the hippocampus, amygdala, and entorhinal cortex have been previously described.",
+          "reasoning": "The use of standardized anatomical guidelines and inter-rater quality assurance increases reliability."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "The extent of resection of the mesial structures following ATL was slightly higher than for SelAH (98% vs 91%, p < 0.0001).",
+          "reasoning": "Resection volumes are treated as continuous percentages."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Volumetric MRIs were acquired using a 1.5-T scanner (GE Healthcare or Phillips Medical Systems)... High-resolution spoiled gradient–recalled acquisition sequences were acquired using a head coil",
+          "reasoning": "The imaging protocol was standardized across the cohort."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "In addition, the volumes of resected tissue in the mesial temporal lobe were determined in the regions of the amygdala, hippocampus, and entorhinal cortex",
+          "reasoning": "The text implies volumetric data was obtained for the analyzed cohort."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Imputation was not mentioned; however, the study appears to use complete-case analysis."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The primary outcome (seizure freedom) is measured using the Engel Classification, which is the gold standard in epilepsy surgery research. While seizure reporting is patient-dependent, the use of clinical notes from both neurosurgery and neurology visits mitigates some recall bias.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "We examined the seizure outcomes of these patients according to the Engel Classification (Table 1) at various follow-up intervals.",
+          "reasoning": "The Engel Classification is a well-validated and clearly defined scale for seizure outcomes."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Partial",
+          "evidence_snippet": "Outpatient clinic notes from both neurosurgical and neuroepilepsy follow-up visits were reviewed.",
+          "reasoning": "While the scale is valid, the assessment was retrospective and not blinded to the surgical technique used."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "At each point, we considered the occurrence of seizures in the prior 1-year period when determining the seizure outcome class",
+          "reasoning": "The same criteria and clinical review process were applied to both the ATL and SelAH groups."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study uses multivariable modeling (GEE) to account for several confounders like age, duration of epilepsy, and grid implantation. However, the surgical groups were not randomized and were determined by hemispheric dominance (ATL for nondominant, SelAH for dominant), which is a fundamental structural confounder that cannot be fully adjusted for in this design.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Yes",
+          "evidence_snippet": "Demographic data, duration of epilepsy, side of surgery, surgical technique, use of invasive monitoring, and pathological entity were recorded.",
+          "reasoning": "Key clinical and demographic variables known to influence epilepsy outcomes were collected."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 2: Characteristics in 96 patients... mean age at onset... mean epilepsy duration... w/ secondary generalization",
+          "reasoning": "Confounders are clearly defined and categorized."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "All patients underwent an extensive presurgical workup that included interictal electroencephalographic recordings... video electroencephalographic monitoring",
+          "reasoning": "Confounders like seizure type and pathology were determined using objective clinical standards."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "All patients underwent an extensive presurgical workup... All operations were performed by a single surgeon (O.S.).",
+          "reasoning": "The clinical environment and surgical provider were consistent for all patients."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No imputation methods were described."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "No",
+          "evidence_snippet": "Fifty-one patients who had nondominant temporal lobe epilepsy underwent standard ATL, and 45 patients with language-dominant temporal lobe epilepsy underwent transcortical SelAH.",
+          "reasoning": "The study design is inherently confounded by the side of surgery; there was no matching or randomization."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "Modeling by generalized estimating equations analysis was performed... Patient data were clustered according to follow-up, and seizure outcome (family variable) was set as binomial.",
+          "reasoning": "The authors used GEE modeling to adjust for multiple variables simultaneously."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical analysis is robust, using GEE to handle longitudinal data and ANOVA for group comparisons. The results are reported transparently, including both significant and non-significant findings across seizure, volumetric, and neuropsychological outcomes.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Comparisons of means and calculations of significance were performed using ANOVA... Modeling by generalized estimating equations analysis was performed using STATA v.10.",
+          "reasoning": "The statistical methods are clearly outlined and appropriate for the data types."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "Modeling with generalized estimating equations was used to determine the association of seizure outcome in the Engel class, with several factors as listed in Table 4.",
+          "reasoning": "The model includes clinically relevant predictors of surgical success."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "Patient data were clustered according to follow-up... correlations were performed in an exchangeable fashion.",
+          "reasoning": "GEE is an excellent choice for analyzing outcomes measured at multiple follow-up intervals."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Table 3: Seizure outcomes following operation... Table 4: Generalized estimating equations modeling... Fig 3: Neuropsychiatric parameters",
+          "reasoning": "The study reports on all pre-specified outcomes, including those that showed no significant difference."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/5_West_2019/Sagher_2012.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-01-05T11:14:29.427760"
+  }
+}

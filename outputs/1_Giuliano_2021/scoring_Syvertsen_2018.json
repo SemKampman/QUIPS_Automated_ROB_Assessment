@@ -10,7 +10,7 @@
       "domain_number": 1,
       "domain_name": "Study Participation",
       "risk_of_bias": "Low",
-      "risk_reasoning": "The study used a systematic search of medical records in a defined geographic region with a high participation rate (69%) and offered home visits to reduce selection bias. The sample is representative of the clinical population.",
+      "risk_reasoning": "The study used a systematic search of medical records in a defined geographic region (Buskerud county) covering 9.1% of the Norwegian population. The recruitment was consecutive and included home visits to minimize selection bias, achieving a 69% participation rate which is robust for this type of retrospective-to-interview design.",
       "items": [
         {
           "label": "Source of target population",
@@ -24,35 +24,35 @@
           "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
           "rating": "Yes",
           "evidence_snippet": "Recruitment of patients was based on a search of medical records at Drammen Hospital in the time period 1999‐2013. All medical records containing an International Classification of Diseases, 10th Revision (ICD‐10) code of epilepsy (G40) were reviewed.",
-          "reasoning": "The researchers used a comprehensive ICD-10 search and explained the referral patterns in the region to justify the sample's completeness."
+          "reasoning": "The study used a comprehensive ICD-10 search and explained the referral patterns (private neurologists/pediatricians referring to the hospital for EEG) to justify the sampling frame."
         },
         {
           "label": "Recruitment period",
           "prompt": "Period of recruitment is adequately described",
           "rating": "Yes",
           "evidence_snippet": "The clinical interviews were conducted between November 2016 and February 2018",
-          "reasoning": "The specific dates for the recruitment/interview phase are provided."
+          "reasoning": "The specific dates for the interview phase are provided."
         },
         {
           "label": "Place of recruitment",
-          "prompt": "Place of recruitment (setting and geographic location) are adequately described",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
           "rating": "Yes",
-          "evidence_snippet": "Drammen Hospital or in the participant's home.",
-          "reasoning": "The settings for data collection are explicitly stated."
+          "evidence_snippet": "Drammen Hospital, Norway... Buskerud county and four neighboring municipalities",
+          "reasoning": "The setting is a regional hospital in Norway with specific geographic coverage."
         },
         {
           "label": "Inclusion and exclusion criteria",
           "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
           "rating": "Yes",
           "evidence_snippet": "all patients with genetic generalized epilepsy (GGE) aged 14‐40 years were invited... Patients older than 40 years were not contacted... The definition of JME was based on the consensus on diagnosing and management of JME issued in 2013.",
-          "reasoning": "Age limits and specific clinical diagnostic criteria (ILAE/Consensus) are clearly defined."
+          "reasoning": "Age limits and diagnostic consensus criteria are explicitly stated."
         },
         {
           "label": "Adequate study participation",
           "prompt": "There is adequate participation in the study by eligible individuals",
           "rating": "Yes",
           "evidence_snippet": "We contacted 205 patients with GGE, of which 141 (69%) agreed to participate in the study.",
-          "reasoning": "A 69% participation rate is robust for a retrospective-to-prospective interview study, especially with the inclusion of home visits."
+          "reasoning": "A 69% participation rate is acceptable for a study requiring clinical interviews and home visits."
         },
         {
           "label": "Baseline characteristics",
@@ -66,43 +66,43 @@
     {
       "domain_number": 2,
       "domain_name": "Study Attrition",
-      "risk_of_bias": "Low",
-      "risk_reasoning": "As this is a cross-sectional interview based on a retrospective cohort, the primary attrition concern is the 31% who did not participate. However, the authors addressed this by including those who no longer attend the hospital.",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "While the study identifies the proportion of the baseline sample available (69%), it does not provide a detailed comparison of characteristics between those who participated and those who declined (31%). This leaves some uncertainty regarding informative censoring.",
       "items": [
         {
           "label": "Proportion of baseline sample available for analysis",
           "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
-          "rating": "Yes",
+          "rating": "Partial",
           "evidence_snippet": "141 (69%) agreed to participate in the study.",
-          "reasoning": "The majority of the identified sampling frame was successfully interviewed."
+          "reasoning": "69% is good, but nearly one-third of the identified population is missing."
         },
         {
           "label": "Attempts to collect information on participants who dropped out",
           "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
-          "rating": "Partial",
-          "evidence_snippet": "Those who declined a hospital visit were offered a home visit.",
-          "reasoning": "The authors describe attempts to minimize non-participation, but do not provide a detailed analysis of the 64 non-responders."
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The study does not describe attempts to characterize or follow up with the 64 patients who declined participation."
         },
         {
           "label": "Reasons and potential impact of subjects lost to follow-up",
           "prompt": "Reasons for loss to follow-up are provided.",
           "rating": "No",
           "evidence_snippet": "Not found in text",
-          "reasoning": "The specific reasons why 31% declined to participate are not detailed."
+          "reasoning": "Reasons for non-participation (declining the interview) are not detailed."
         },
         {
           "label": "Outcome and prognostic factor information on those lost to follow-up",
           "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
           "rating": "No",
           "evidence_snippet": "Not found in text",
-          "reasoning": "There is no comparison between the characteristics of participants and non-participants."
+          "reasoning": "No data is provided for the non-participants."
         },
         {
           "label": "",
           "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
           "rating": "Unsure",
           "evidence_snippet": "Not found in text",
-          "reasoning": "Without data on non-participants, it is impossible to confirm the absence of differences."
+          "reasoning": "Without data on non-participants, it is impossible to determine if the analyzed sample is biased."
         }
       ],
       "risk_of_bias_assessment": {
@@ -112,35 +112,36 @@
           "High",
           "Moderate",
           "Low"
-        ]
+        ],
+        "rating": "Moderate"
       }
     },
     {
       "domain_number": 3,
       "domain_name": "Prognostic Factor Measurement",
       "risk_of_bias": "Low",
-      "risk_reasoning": "The prognostic factors (age at onset, seizure types, EEG findings) were clearly defined and measured using standard clinical methods and validated scales (BIS, HADS).",
+      "risk_reasoning": "The prognostic factors (age at onset, seizure types, EEG features) were measured using standardized clinical interviews and verified against medical records and EEG recordings, ensuring high reliability.",
       "items": [
         {
           "label": "Definition of the PF",
           "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
           "rating": "Yes",
-          "evidence_snippet": "Variables potentially influencing AED self‐withdrawal were analyzed one by one... Age at first motor seizure... Parent with psychosocial difficulties... Total BIS score",
-          "reasoning": "The factors analyzed as predictors are clearly listed and defined."
+          "evidence_snippet": "Variables potentially influencing AED self‐withdrawal were analyzed one by one, as were variables potentially influencing the outcome of withdrawal.",
+          "reasoning": "Factors like age at first motor seizure, PPR in EEG, and psychosocial factors are clearly defined in Tables 2 and 3."
         },
         {
           "label": "Valid and Reliable Measurement of PF",
           "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
           "rating": "Yes",
-          "evidence_snippet": "the Hospital Anxiety and Depression Scale (HADS) and the Barratt Impulsiveness Scale (BIS) were administered.",
-          "reasoning": "The study used validated psychometric instruments for behavioral factors."
+          "evidence_snippet": "Patients were classified as JME or non‐JME based on information from the clinical interview, medical records, and EEG recordings.",
+          "reasoning": "Triangulation of interview data with medical records and objective EEG data increases reliability."
         },
         {
           "label": "",
           "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
           "rating": "Yes",
           "evidence_snippet": "Student's t tests were used for comparison of continuous variables",
-          "reasoning": "Continuous variables like age and BIS scores were analyzed as such without arbitrary categorization."
+          "reasoning": "Continuous variables like age and BIS/HADS scores were analyzed as such without arbitrary dichotomization."
         },
         {
           "label": "Method and Setting of PF Measurement",
@@ -154,14 +155,14 @@
           "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
           "rating": "Yes",
           "evidence_snippet": "Table 2 and 3",
-          "reasoning": "The tables indicate that data was available for the analyzed JME subgroups."
+          "reasoning": "The tables show N=87 for JME and N=35 for withdrawal, indicating complete data for the analyzed groups."
         },
         {
           "label": "Method used for missing data",
           "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
-          "rating": "Unsure",
+          "rating": "No",
           "evidence_snippet": "Not found in text",
-          "reasoning": "The text does not mention how missing data within the questionnaires was handled."
+          "reasoning": "Imputation was not mentioned; however, missing data appears minimal."
         }
       ],
       "risk_of_bias_assessment": {
@@ -171,35 +172,36 @@
           "High",
           "Moderate",
           "Low"
-        ]
+        ],
+        "rating": "Low"
       }
     },
     {
       "domain_number": 4,
       "domain_name": "Outcome Measurement",
       "risk_of_bias": "Moderate",
-      "risk_reasoning": "The outcome (seizure freedom) relies on patient recall during a clinical interview, which is subject to recall bias, although the independent nature of the research interview may have improved honesty regarding self-withdrawal.",
+      "risk_reasoning": "The primary outcome (seizure freedom after withdrawal) relied on patient recall during a one-time interview. While medical records were used for verification, the retrospective nature and reliance on self-reporting for 'self-withdrawal' events introduce potential recall bias.",
       "items": [
         {
           "label": "Definition of the Outcome",
           "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
           "rating": "Yes",
           "evidence_snippet": "Twelve of those who discontinued AEDs (34%) were free from generalized tonic‐clonic seizures (GTCS) and without antiepileptic drugs >1 year.",
-          "reasoning": "The outcome is clearly defined as GTCS freedom for at least one year post-withdrawal."
+          "reasoning": "The outcome is clearly defined as GTCS freedom for >1 year off medication."
         },
         {
           "label": "Valid and Reliable Measurement of Outcome",
           "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
           "rating": "Partial",
-          "evidence_snippet": "The clinical interviews were conducted... A semistructured questionnaire designed for the purpose of this study was used.",
-          "reasoning": "While a structured interview is better than a chart review, it still relies on self-report (recall) rather than prospective seizure diaries."
+          "evidence_snippet": "The clinical interviews were conducted... independent of regular clinical follow‐up. This probably contributed to more reliable answers",
+          "reasoning": "While independent interviews help, the outcome is still based on subjective recall of seizures."
         },
         {
           "label": "Method and Setting of Outcome Measurement",
           "prompt": "The method and setting of outcome measurement is the same for all study participants.",
           "rating": "Yes",
-          "evidence_snippet": "The clinical interviews were conducted between November 2016 and February 2018 at Drammen Hospital or in the participant's home.",
-          "reasoning": "The same interview process was applied to all participants."
+          "evidence_snippet": "A semistructured questionnaire designed for the purpose of this study was used.",
+          "reasoning": "Standardized interview for all participants."
         }
       ],
       "risk_of_bias_assessment": {
@@ -209,63 +211,64 @@
           "High",
           "Moderate",
           "Low"
-        ]
+        ],
+        "rating": "Moderate"
       }
     },
     {
       "domain_number": 5,
       "domain_name": "Study Confounding",
       "risk_of_bias": "High",
-      "risk_reasoning": "The study only performed univariable analyses. No multivariable adjustment (e.g., logistic regression) was performed to account for confounding between variables like age at onset, seizure type, and psychosocial factors.",
+      "risk_reasoning": "The study performed only univariable analyses (t-tests and chi-square). As noted by the authors, the sample size was too small for multivariable regression, meaning they could not adjust for potential confounders (e.g., adjusting the effect of 'age at onset' for 'seizure type').",
       "items": [
         {
           "label": "Important Confounders Measured",
           "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
           "rating": "Yes",
-          "evidence_snippet": "Variables potentially influencing AED self‐withdrawal were analyzed one by one... polytherapy, adverse effects, trigger factors, psychiatric health care, parent with psychosocial difficulties.",
-          "reasoning": "The authors identified and measured a wide range of relevant clinical and social confounders."
+          "evidence_snippet": "Variables potentially influencing AED self‐withdrawal were analyzed one by one... (Table 2 and 3)",
+          "reasoning": "The study measured age, duration, seizure types, and psychosocial factors."
         },
         {
           "label": "Definition of the confounding factor",
           "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
           "rating": "Yes",
           "evidence_snippet": "Polytherapy was defined as two or more AEDs used concomitantly. Self‐withdrawal was defined as intentional discontinuation...",
-          "reasoning": "Key variables are explicitly defined."
+          "reasoning": "Definitions for clinical and social variables are provided."
         },
         {
           "label": "Valid and Reliable Measurement of Confounders",
           "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
-          "rating": "Partial",
-          "evidence_snippet": "Parent with psychosocial difficulties like addiction or violent behavior (as reported by the patient)",
-          "reasoning": "Some confounders (like parental history) rely on subjective patient report without external verification."
+          "rating": "Yes",
+          "evidence_snippet": "HADS is scored on a 0‐42 point scale... Total BIS score may range from 30 to 120",
+          "reasoning": "Validated scales (HADS, BIS) were used for psychological confounders."
         },
         {
           "label": "Method and Setting of Confounding Measurement",
           "prompt": "The method and setting of confounding measurement are the same for all study participants.",
           "rating": "Yes",
-          "evidence_snippet": "A semistructured questionnaire designed for the purpose of this study was used.",
-          "reasoning": "Standardized data collection for all."
+          "evidence_snippet": "The clinical interviews were conducted between November 2016 and February 2018 at Drammen Hospital or in the participant's home.",
+          "reasoning": "Consistent setting and tools for all."
         },
         {
           "label": "Method used for missing data",
           "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
-          "rating": "Unsure",
+          "rating": "No",
           "evidence_snippet": "Not found in text",
-          "reasoning": "No mention of missing data handling."
+          "reasoning": "No imputation used."
         },
         {
           "label": "Appropriate Accounting for Confounding",
           "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
           "rating": "No",
           "evidence_snippet": "Not found in text",
-          "reasoning": "The study did not use matching or stratification in its design."
+          "reasoning": "The study did not use matching or stratification in the design."
         },
         {
           "label": "",
           "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
           "rating": "No",
-          "evidence_snippet": "Variables potentially influencing AED self‐withdrawal were analyzed one by one... Regression models would have been valuable... but restricted sample size, making sophisticated statistical methods like logistic regression less suitable.",
-          "reasoning": "The authors explicitly state they did not perform multivariable adjustment, which is a major source of potential confounding bias."
+          "evidence_snippet": "Variables potentially influencing AED self‐withdrawal were analyzed one by one... Regression models would have been valuable... but restricted sample size [made them] less suitable.",
+          "reasoning": "The authors explicitly state they did not perform multivariable adjustment."
         }
       ],
       "risk_of_bias_assessment": {
@@ -275,42 +278,43 @@
           "High",
           "Moderate",
           "Low"
-        ]
+        ],
+        "rating": "High"
       }
     },
     {
       "domain_number": 6,
       "domain_name": "Statistical Analysis and Reporting",
       "risk_of_bias": "Moderate",
-      "risk_reasoning": "The analysis is limited to univariable tests. While transparently reported, the lack of multivariable modeling limits the validity of the prognostic associations claimed.",
+      "risk_reasoning": "The analysis is transparent about its limitations, but the use of multiple univariable tests without adjustment for multiple comparisons or confounding increases the risk of spurious findings. Reporting is otherwise comprehensive.",
       "items": [
         {
           "label": "Presentation of analytical strategy",
           "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
           "rating": "Yes",
           "evidence_snippet": "Student's t tests were used for comparison of continuous variables, and chi‐square tests were used for comparison of categorical variables",
-          "reasoning": "The statistical methods are clearly stated."
+          "reasoning": "The statistical plan is clearly laid out."
         },
         {
           "label": "Model development strategy",
           "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
           "rating": "No",
           "evidence_snippet": "Variables potentially influencing AED self‐withdrawal were analyzed one by one",
-          "reasoning": "No multivariable model was built; variables were only tested individually."
+          "reasoning": "No multivariable model was built; analysis was limited to bivariate associations."
         },
         {
           "label": "",
           "prompt": "The selected statistical model is adequate for the design of the study.",
           "rating": "Partial",
-          "evidence_snippet": "Regression models would have been valuable... but restricted sample size",
-          "reasoning": "The authors acknowledge the limitation of their univariable approach."
+          "evidence_snippet": "restricted sample size, making sophisticated statistical methods like logistic regression less suitable.",
+          "reasoning": "While the authors justify the lack of regression due to sample size, univariable analysis is insufficient for prognostic modeling."
         },
         {
           "label": "Reporting of results",
           "prompt": "There is no selective reporting of results.",
           "rating": "Yes",
           "evidence_snippet": "Tables 2 and 3",
-          "reasoning": "The tables show all tested variables, including non-significant ones."
+          "reasoning": "The tables report on all variables mentioned in the methods, including non-significant results."
         }
       ],
       "risk_of_bias_assessment": {
@@ -320,13 +324,14 @@
           "High",
           "Moderate",
           "Low"
-        ]
+        ],
+        "rating": "Moderate"
       }
     }
   ],
   "processing_metadata": {
     "source_file": "data_md_converted/1_Giuliano_2021/Syvertsen_2018.md",
     "model": "google/gemini-3-flash-preview",
-    "processed_at": "2026-01-02T12:54:57.868779"
+    "processed_at": "2026-01-05T11:09:09.725285"
   }
 }

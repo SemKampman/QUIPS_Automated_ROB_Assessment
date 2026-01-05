@@ -10,56 +10,56 @@
       "domain_number": 1,
       "domain_name": "Study Participation",
       "risk_of_bias": "Low",
-      "risk_reasoning": "The study uses a well-defined historical cohort with clear diagnostic criteria (ILAE 1989). The participation rate is exceptionally high (88% interviewed, 95% total inclusion via records), minimizing selection bias.",
+      "risk_reasoning": "The study provides a clear description of the source population (consecutive patients from a specific university hospital), recruitment period, and inclusion criteria based on ILAE standards. The participation rate is exceptionally high (95% of the original cohort accounted for), which minimizes selection bias.",
       "items": [
         {
           "label": "Source of target population",
           "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
           "rating": "Yes",
           "evidence_snippet": "In 1992, consecutive patients with JME at Trondheim University Hospital were identified for recruitment in a study on the association with human leukocyte antigens.",
-          "reasoning": "The source is a hospital-based consecutive sample with baseline characteristics established in a previous study."
+          "reasoning": "The source is clearly defined as a consecutive clinical cohort from a specific tertiary center."
         },
         {
           "label": "Method used to identify population",
           "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
           "rating": "Yes",
           "evidence_snippet": "In 2012, we attempted to contact all 42 patients with a request for participation in a follow-up study.",
-          "reasoning": "The study attempted to reach the entire original cohort, reducing sampling bias."
+          "reasoning": "The study attempted to reach the entire original cohort, minimizing sampling bias within that frame."
         },
         {
           "label": "Recruitment period",
           "prompt": "Period of recruitment is adequately described",
           "rating": "Yes",
           "evidence_snippet": "In 1992, consecutive patients... In 2012, we attempted to contact all 42 patients.",
-          "reasoning": "The baseline and follow-up periods are clearly defined."
+          "reasoning": "The baseline and follow-up timeframes are explicitly stated."
         },
         {
           "label": "Place of recruitment",
           "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
           "rating": "Yes",
           "evidence_snippet": "Trondheim University Hospital",
-          "reasoning": "The specific tertiary care setting is identified."
+          "reasoning": "The specific hospital and city are identified."
         },
         {
           "label": "Inclusion and exclusion criteria",
           "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
           "rating": "Yes",
           "evidence_snippet": "The clinical diagnosis of JME was based on the 1989 classification of epilepsies and epileptic syndromes by the International League Against Epilepsy (ILAE).",
-          "reasoning": "Standardized international criteria were used for inclusion."
+          "reasoning": "Standardized international diagnostic criteria were used for inclusion."
         },
         {
           "label": "Adequate study participation",
           "prompt": "There is adequate participation in the study by eligible individuals",
           "rating": "Yes",
-          "evidence_snippet": "37 patients (88%) were available for a standardized semistructured telephone interview... In the remaining five, only medical records were available.",
-          "reasoning": "A 95% inclusion rate (40/42) for the primary outcome is excellent for a 20-year follow-up."
+          "evidence_snippet": "Of the 42 patients forming the basis of this study... 40 (95%) had known seizure outcome.",
+          "reasoning": "A 95% follow-up rate is excellent for a 20-year study, significantly exceeding the 80% threshold."
         },
         {
           "label": "Baseline characteristics",
           "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
           "rating": "Yes",
           "evidence_snippet": "Of the 42 patients forming the basis of this study, 25 (60%) were women. Forty patients (95%) had GTC and 12 (29%) had absences... Mean age at JME onset was 16 ± 3.2 years.",
-          "reasoning": "Key demographics and clinical seizure characteristics are provided."
+          "reasoning": "Key demographics and clinical seizure characteristics at baseline are provided."
         }
       ]
     },
@@ -67,42 +67,42 @@
       "domain_number": 2,
       "domain_name": "Study Attrition",
       "risk_of_bias": "Low",
-      "risk_reasoning": "Attrition is minimal. Only 2 patients were completely lost to follow-up (no fixed address), and the status of deceased patients was accounted for using medical records.",
+      "risk_reasoning": "Attrition is minimal (only 2 patients lost to follow-up). The study accounts for deceased patients using medical records, and the reasons for missing data are transparently reported. The high retention rate suggests that the analyzed sample is highly representative of the original cohort.",
       "items": [
         {
           "label": "Proportion of baseline sample available for analysis",
           "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
           "rating": "Yes",
-          "evidence_snippet": "In 40 patients seizure outcome was known at least 20 years after JME onset.",
-          "reasoning": "40 out of 42 patients (95%) is a very high retention rate for a long-term study."
+          "evidence_snippet": "In 2012, 37 agreed to a semi-structured interview. In the remaining five, only medical records were available... 40 (95%) had known seizure outcome.",
+          "reasoning": "95% of the cohort provided primary outcome data."
         },
         {
           "label": "Attempts to collect information on participants who dropped out",
           "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
           "rating": "Yes",
-          "evidence_snippet": "Two other deceased patients followed for more than 20 years were included based on their medical records. Two patients could not be contacted as they were currently registered with no fixed address; in one medical records were sufficient for inclusion.",
-          "reasoning": "The authors explicitly describe using medical records to supplement missing interview data."
+          "evidence_snippet": "Two patients could not be contacted as they were currently registered with no fixed address; in one medical records were sufficient for inclusion.",
+          "reasoning": "The authors describe the status of those not interviewed and used medical records to supplement data."
         },
         {
           "label": "Reasons and potential impact of subjects lost to follow-up",
           "prompt": "Reasons for loss to follow-up are provided.",
           "rating": "Yes",
           "evidence_snippet": "One patient could not be included as he died after only 13 years of follow-up... Two patients could not be contacted as they were currently registered with no fixed address.",
-          "reasoning": "Specific reasons (death before 20 years, lack of address) are provided."
+          "reasoning": "Specific reasons (death, lack of address) are provided for all non-participants."
         },
         {
           "label": "Outcome and prognostic factor information on those lost to follow-up",
           "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
           "rating": "Partial",
-          "evidence_snippet": "Not found in text",
-          "reasoning": "While reasons for loss are given, a detailed comparison of baseline characteristics between the 2 lost patients and the 40 included patients is not explicitly tabulated."
+          "evidence_snippet": "One of the patients with no fixed address and two of the deceased also had such problems [substance abuse].",
+          "reasoning": "Some information is provided for the few lost subjects, but a full baseline comparison between completers and non-completers is not explicitly tabulated."
         },
         {
           "label": "",
           "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
           "rating": "Yes",
           "evidence_snippet": "Beyond that, we found no association between drop-out from follow-up and social outcome.",
-          "reasoning": "The authors state they checked for associations with drop-out, though the sample size of drop-outs is too small for robust statistical comparison."
+          "reasoning": "The authors explicitly state they checked for associations between drop-out and outcomes."
         }
       ]
     },
@@ -110,28 +110,28 @@
       "domain_number": 3,
       "domain_name": "Prognostic Factor Measurement",
       "risk_of_bias": "Moderate",
-      "risk_reasoning": "Prognostic factors (seizure types and timing) were collected retrospectively via medical records and patient recall during interviews, which introduces potential recall bias for events occurring decades ago.",
+      "risk_reasoning": "While the prognostic factors (seizure types and timing) are clinically defined, the study relies on retrospective recall over a 20-year period via telephone interviews. This introduces a risk of recall bias, although the authors attempted to mitigate this by reviewing medical records.",
       "items": [
         {
           "label": "Definition of the PF",
           "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
           "rating": "Yes",
           "evidence_snippet": "MC habitually or occasionally preceding GTC (clonic–tonic–clonic seizure)... delay of more than one year between MC onset and first GTC.",
-          "reasoning": "The prognostic factors (seizure patterns) are clearly defined."
+          "reasoning": "Prognostic factors like seizure sequence and intervals are clearly defined."
         },
         {
           "label": "Valid and Reliable Measurement of PF",
           "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
           "rating": "Partial",
           "evidence_snippet": "37 patients (88%) were available for a standardized semistructured telephone interview... Medical records were reviewed for background information.",
-          "reasoning": "While medical records were used, much of the clinical history relies on patient recall over a 20-year span, which is subject to bias."
+          "reasoning": "The use of medical records improves reliability, but the heavy reliance on 20-year recall for seizure onset patterns is a limitation."
         },
         {
           "label": "",
           "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
           "rating": "Yes",
           "evidence_snippet": ">1 year between onset of myoclonic seizures and GTC",
-          "reasoning": "The 1-year cut-off is a standard clinical milestone in epilepsy history."
+          "reasoning": "The 1-year cut-point is a standard clinical milestone in epilepsy history taking."
         },
         {
           "label": "Method and Setting of PF Measurement",
@@ -144,15 +144,15 @@
           "label": "Proportion of data on PF available for analysis",
           "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
           "rating": "Yes",
-          "evidence_snippet": "In 40 patients seizure outcome was known",
+          "evidence_snippet": "In 40 patients seizure outcome was known at least 20 years after JME onset.",
           "reasoning": "Data was available for nearly the entire cohort."
         },
         {
           "label": "Method used for missing data",
           "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
-          "rating": "Unsure",
+          "rating": "No",
           "evidence_snippet": "Not found in text",
-          "reasoning": "Imputation is not mentioned; however, missing data was minimal."
+          "reasoning": "Imputation was not mentioned; however, missing data was minimal."
         }
       ]
     },
@@ -160,28 +160,28 @@
       "domain_number": 4,
       "domain_name": "Outcome Measurement",
       "risk_of_bias": "Moderate",
-      "risk_reasoning": "The primary outcome (seizure remission) is self-reported via telephone interview. While this is standard for long-term epilepsy follow-up, it lacks objective verification (e.g., EEG or diary) and is subject to recall bias.",
+      "risk_reasoning": "The primary outcome (seizure remission) is clearly defined using standard timeframes (5 and 10 years). However, the measurement relies on self-reporting via telephone, which is subjective and prone to under-reporting of minor seizures (MC), as acknowledged by the authors.",
       "items": [
         {
           "label": "Definition of the Outcome",
           "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
           "rating": "Yes",
-          "evidence_snippet": "21 were in remission for >5 years. Seven were off antiepileptic drugs (AEDs), four being seizure free for >10 years.",
-          "reasoning": "Remission is clearly defined by duration (5 and 10 years)."
+          "evidence_snippet": "The five and ten-year seizure remission rates for GTC and MC are shown in Table 2.",
+          "reasoning": "Remission is clearly defined by specific durations (5/10 years) and seizure types."
         },
         {
           "label": "Valid and Reliable Measurement of Outcome",
           "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
           "rating": "Partial",
-          "evidence_snippet": "standardized semistructured telephone interview, focusing on seizure types, seizure frequency, medication and psychosocial outcome.",
-          "reasoning": "Telephone interviews are common but less reliable than prospective diaries or witnessed accounts."
+          "evidence_snippet": "MC may sometimes be under-reported, as not all patients interpret single jerks as seizures. Like Baykan et al., we specifically asked for MC after describing such seizures carefully.",
+          "reasoning": "The authors used careful descriptions to improve reliability, but self-report remains less reliable than prospective diaries or EEG."
         },
         {
           "label": "Method and Setting of Outcome Measurement",
           "prompt": "The method and setting of outcome measurement is the same for all study participants.",
-          "rating": "Partial",
-          "evidence_snippet": "37 agreed to a semi-structured interview. In the remaining five, only medical records were available.",
-          "reasoning": "The majority were interviewed, but a small subset relied solely on record review, which is a different measurement setting."
+          "rating": "Yes",
+          "evidence_snippet": "37 patients (88%) were available for a standardized semistructured telephone interview.",
+          "reasoning": "The interview setting was consistent for the vast majority."
         }
       ]
     },
@@ -189,56 +189,56 @@
       "domain_number": 5,
       "domain_name": "Study Confounding",
       "risk_of_bias": "High",
-      "risk_reasoning": "The study primarily reports univariable associations (Chi-square/t-tests). There is no multivariable adjustment for potential confounders like AED type, dosage, or psychiatric comorbidity when assessing the relationship between PFs and seizure outcome.",
+      "risk_reasoning": "The study primarily uses univariable analyses (Chi-square and t-tests) to explore associations. There is no evidence of multivariable adjustment to account for potential confounders such as treatment changes, medication adherence, or socioeconomic status, which could significantly distort the relationship between prognostic factors and outcomes.",
       "items": [
         {
           "label": "Important Confounders Measured",
           "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
-          "rating": "Yes",
-          "evidence_snippet": "focusing on seizure types, seizure frequency, medication and psychosocial outcome... psychiatric comorbidity, seven with substance or alcohol abuse.",
-          "reasoning": "The authors measured medication use and psychiatric status, which are key confounders."
+          "rating": "Partial",
+          "evidence_snippet": "focusing on seizure types, seizure frequency, medication and psychosocial outcome.",
+          "reasoning": "Medication and some psychosocial factors were measured, but other confounders like lifestyle factors or detailed treatment history were not fully integrated."
         },
         {
           "label": "Definition of the confounding factor",
           "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
           "rating": "Partial",
-          "evidence_snippet": "Psychosocial outcome was assessed based on five elements: graduation from high school, disability or unemployment benefits, alcohol or illegal substance abuse...",
-          "reasoning": "Psychosocial factors are defined, but medication 'dose' and 'duration' are not detailed for all participants."
+          "evidence_snippet": "The second generation broad-spectrum AEDs, lamotrigine, levetiracetam and topiramate had been tried in a total of 21.",
+          "reasoning": "Medication classes are defined, but specific dosages or durations of all treatments are not detailed."
         },
         {
           "label": "Valid and Reliable Measurement of Confounders",
           "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
-          "rating": "Partial",
-          "evidence_snippet": "Social network, as well as perceived satisfaction with health, was simply graded as poor, sufficient or good",
-          "reasoning": "Subjective grading by the patient is less reliable than validated psychiatric scales."
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is no discussion on the validity/reliability of how confounding variables (like psychiatric history) were measured beyond 'medical records'."
         },
         {
           "label": "Method and Setting of Confounding Measurement",
           "prompt": "The method and setting of confounding measurement are the same for all study participants.",
           "rating": "Yes",
-          "evidence_snippet": "37 patients (88%) were available for a standardized semistructured telephone interview",
-          "reasoning": "The interview process was standardized for the main cohort."
+          "evidence_snippet": "37 patients (88%) were available for a standardized semistructured telephone interview.",
+          "reasoning": "Confounders were collected during the same standardized interview."
         },
         {
           "label": "Method used for missing data",
           "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
-          "rating": "Unsure",
+          "rating": "No",
           "evidence_snippet": "Not found in text",
-          "reasoning": "No mention of handling missing confounder data."
+          "reasoning": "No imputation methods were described."
         },
         {
           "label": "Appropriate Accounting for Confounding",
           "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
           "rating": "No",
-          "evidence_snippet": "Chi-square test and independent t-test were used for comparison of categorical and continuous variables, respectively.",
-          "reasoning": "The study design did not involve matching or stratification to control for confounding."
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The study design did not include matching or stratification for confounders."
         },
         {
           "label": "",
           "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
           "rating": "No",
-          "evidence_snippet": "p < 0.05 was considered significant.",
-          "reasoning": "Only univariable analyses were performed; no multivariable regression was used to adjust for confounders."
+          "evidence_snippet": "Chi-square test and independent t-test were used for comparison of categorical and continuous variables, respectively.",
+          "reasoning": "Only univariable tests were used; no multivariable regression or adjustment was performed."
         }
       ]
     },
@@ -246,35 +246,35 @@
       "domain_number": 6,
       "domain_name": "Statistical Analysis and Reporting",
       "risk_of_bias": "Moderate",
-      "risk_reasoning": "The analysis is simple and transparent, but the lack of multivariable modeling limits the validity of the prognostic claims. The small sample size (n=40) likely precluded complex modeling.",
+      "risk_reasoning": "The analysis is straightforward but limited to univariable comparisons. While the reporting is transparent regarding the results found, the lack of a pre-specified protocol or multivariable modeling increases the risk that the reported associations (e.g., MC preceding GTC) might be spurious or influenced by unmeasured factors.",
       "items": [
         {
           "label": "Presentation of analytical strategy",
           "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
           "rating": "Yes",
-          "evidence_snippet": "Chi-square test and independent t-test were used for comparison of categorical and continuous variables, respectively.",
-          "reasoning": "The strategy is simple and clearly stated."
+          "evidence_snippet": "Chi-square test and independent t-test were used for comparison of categorical and continuous variables, respectively. p < 0.05 was considered significant.",
+          "reasoning": "The statistical methods are clearly stated, though simple."
         },
         {
           "label": "Model development strategy",
           "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
           "rating": "No",
           "evidence_snippet": "Not found in text",
-          "reasoning": "There was no multivariable model building described."
+          "reasoning": "No multivariable models were built; the analysis was purely exploratory/univariable."
         },
         {
           "label": "",
           "prompt": "The selected statistical model is adequate for the design of the study.",
           "rating": "Partial",
-          "evidence_snippet": "Chi-square test and independent t-test",
-          "reasoning": "While appropriate for simple comparisons, these tests do not allow for the prognostic modeling usually expected in QUIPS (e.g., Cox regression)."
+          "evidence_snippet": "Chi-square test and independent t-test were used",
+          "reasoning": "While appropriate for simple comparisons, these tests do not account for the complex nature of prognostic data (confounding)."
         },
         {
           "label": "Reporting of results",
           "prompt": "There is no selective reporting of results.",
           "rating": "Yes",
           "evidence_snippet": "The relationship between various clinical characteristics and five-year seizure remission is shown in Table 3.",
-          "reasoning": "The authors report both significant and non-significant findings (e.g., p=0.069, p=0.464)."
+          "reasoning": "The authors report both significant and non-significant findings (e.g., p=0.069, p=0.464) transparently."
         }
       ]
     }
@@ -282,6 +282,6 @@
   "processing_metadata": {
     "source_file": "data_md_converted/1_Giuliano_2021/Syvertsen_2014.md",
     "model": "google/gemini-3-flash-preview",
-    "processed_at": "2026-01-02T12:59:10.696027"
+    "processed_at": "2026-01-05T11:13:11.626218"
   }
 }

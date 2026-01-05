@@ -1,0 +1,337 @@
+{
+  "paper_metadata": {
+    "title": "Clinical features and surgical outcome of medial temporal lobe epilepsy with a history of complex febrile convulsions",
+    "first_author": "J. Janszky",
+    "year": "2003",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study uses a consecutive sample from a specialized epilepsy center, which is appropriate for the research question. However, there is significant selection bias introduced by the exclusion of 66 patients with febrile convulsions of 'uncertain' nature, which may have excluded a specific subset of the population. Baseline characteristics are well-described for the included groups.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "In this retrospective study we included all patients who consecutively underwent presurgical evaluation at our center from 1994 to 2002 and had intractable temporal lobe epilepsy associated with HS.",
+          "reasoning": "The source population is clearly defined as patients with intractable TLE and HS undergoing presurgical evaluation at a specific center over an 8-year period."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "In this retrospective study we included all patients who consecutively underwent presurgical evaluation at our center from 1994 to 2002",
+          "reasoning": "Consecutive recruitment from a specialized center is a standard and transparent method for identifying this specific clinical population."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "from 1994 to 2002",
+          "reasoning": "The years of recruitment are explicitly stated."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "presurgical evaluation at our center... Epilepsy Center Bethel, Bielefeld, Germany",
+          "reasoning": "The clinical setting and geographic location are clearly identified."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "Our further inclusion criteria were: Complex partial seizures (CPS) proved by ictal video-EEG. Definitive interictal epileptiform discharges... Unilateral hippocampal sclerosis detected by high-resolution MRI.",
+          "reasoning": "The authors provide specific clinical, electrographic, and imaging criteria for inclusion."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Partial",
+          "evidence_snippet": "Of 102 patients with a history of febrile convulsions, 36 patients had highly probably CFC. It was uncertain whether the remaining patients... had had simple or complex febrile convulsions... Consequently, for the further evaluation we included only those 36 patients",
+          "reasoning": "While they started with 199 eligible patients, they excluded a large portion (66 patients) due to uncertainty in history, which might lead to a biased 'pure' sample that doesn't represent the full clinical spectrum."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1 shows the clinical features of the CFC and NFC groups. There was no difference with relation to the age at onset, epilepsy duration, gender, and seizure frequency.",
+          "reasoning": "Key demographics and clinical history variables are presented and compared between groups."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "There is a significant drop from the total sample (n=133) to the surgical outcome analysis (n=84). While the reasons for not undergoing surgery are common in this field, the study does not provide a detailed comparison of the characteristics of those who had surgery versus those who did not, leaving a risk of attrition bias.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Partial",
+          "evidence_snippet": "Of 133 patients who were included in the further evaluation, 84 had temporal lobe surgery and a 2-year postoperative follow-up.",
+          "reasoning": "Only 63% of the identified cohort was available for the primary outcome analysis (surgical prognosis)."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The study does not describe attempts to follow up with the 49 patients who did not have surgery or 2-year follow-up."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Partial",
+          "evidence_snippet": "Consequently, some patients might have refused the operation for this reason.",
+          "reasoning": "The authors speculate in the discussion that some patients with bitemporal spikes may have refused surgery, but specific reasons for the 49 missing patients are not systematically listed."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is no table or text comparing the 84 analyzed patients to the 49 who were excluded from the outcome analysis."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Without a comparison of the surgical vs. non-surgical groups, it is impossible to determine if the analyzed sample is biased."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Attrition Summary",
+        "prompt": "Loss to follow-up (from baseline sample to study population analyzed) is not associated with key characteristics (i.e., the study data adequately represent the sample) sufficient to limit potential bias to the observed relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ],
+        "rating": "Moderate"
+      }
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The prognostic factor (CFC) relies heavily on retrospective recall (heteroanamnesis) from parents or old medical records, which is prone to recall bias. However, the authors attempted to mitigate this by using a strict definition and excluding 'uncertain' cases.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "CFCs were defined if it was clear from medical records or from parents' heteroanamnesis that the febrile seizures lasted more than 15 min or showed focal ictal/postictal signs, or appeared as a status epilepticus.",
+          "reasoning": "A clear, standard clinical definition for 'Complex Febrile Convulsion' was used."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Partial",
+          "evidence_snippet": "The data regarding... the history and type of CFC... were derived from medical records registered at our center. At the admission... all patients and (if present) their parents were asked",
+          "reasoning": "While medical records were used, the reliance on parental recall for events occurring decades prior (mean age 33) introduces significant reliability concerns."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "lasted more than 15 min",
+          "reasoning": "The 15-minute cut-off is a standard clinical definition for CFC, not one derived from the study's own data."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "At the admission to the presurgical unit all patients and (if present) their parents were asked about the history and circumstances of febrile convulsions.",
+          "reasoning": "The protocol for history taking was standardized for all patients in the presurgical unit."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "No",
+          "evidence_snippet": "It was uncertain whether the remaining patients with a history of febrile convulsions had had simple or complex febrile convulsions (CFCs) mostly due to the lack of detailed medical records or heteroanamnesis.",
+          "reasoning": "A large number of patients with the factor of interest (febrile convulsions) had to be excluded because the specific data (CFC vs simple) was missing."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "No",
+          "evidence_snippet": "Consequently, for the further evaluation we included only those 36 patients who had had CFC... patients with febrile convulsions but with no certain history of CFC were excluded.",
+          "reasoning": "No imputation was used; missing data resulted in exclusion from the analysis."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "PF Measurement Summary",
+        "prompt": "PF is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ],
+        "rating": "Moderate"
+      }
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The outcome (seizure freedom) is clearly defined using the standard Engel scale and assessed at a consistent 2-year time point. While not explicitly stated as blinded, the objective nature of 'seizure freedom' in a clinical record reduces bias.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "Seizure-free outcome was defined if the patient was completely free of seizures or had non-disabling auras postoperatively (Engel's category Ia and Ib).",
+          "reasoning": "The study uses the validated Engel classification and specifies a 2-year follow-up period."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "84 had temporal lobe surgery and a 2-year postoperative follow-up.",
+          "reasoning": "The Engel scale is the gold standard for epilepsy surgery outcomes. Although blinding isn't mentioned, the outcome is relatively objective."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "In all surgical cases, anterior temporal lobectomy was performed... 2-year postoperative follow-up.",
+          "reasoning": "All patients were followed at the same center using the same clinical criteria."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Outcome Measurement Summary",
+        "prompt": "Outcome of interest is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ],
+        "rating": "Low"
+      }
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study performed a multivariable logistic regression to account for known confounders in TLE surgery (e.g., EEG findings, side of surgery, perinatal insult). This strengthens the finding that CFC is an independent predictor.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Yes",
+          "evidence_snippet": "unilateral interictal epileptiform discharges, tonic-clonic seizures, perinatal insult, or side of the surgery",
+          "reasoning": "The authors identified and measured the most common clinical predictors of surgical outcome."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Partial",
+          "evidence_snippet": "Unilateral interictal epileptiform discharges were defined if at least 95% of interictal discharges appeared over one temporal lobe.",
+          "reasoning": "Some confounders (like EEG) are well-defined, while others (like perinatal insult) are mentioned without specific diagnostic criteria."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "The analysis of seizure semiology and EEG data was based on the long-term video-EEG recordings.",
+          "reasoning": "Confounders like EEG and semiology were measured using high-quality, objective video-EEG data."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Patients underwent continuous video-scalp EEG monitoring lasting >2 days. A 64-channel computerized EEG was used.",
+          "reasoning": "Standardized diagnostic protocols were applied to all patients."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No imputation was mentioned; the study appears to use complete-case analysis for the regression."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "Yes",
+          "evidence_snippet": "we selected only patients with HS-associated TLE who had video-EEG seizure recording.",
+          "reasoning": "The study design controlled for the most significant confounder (presence of HS) by making it an inclusion criterion for both groups."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "A stepwise logistic regression analysis was performed to determine whether CFC, unilateral interictal epileptiform discharges, tonic-clonic seizures, perinatal insult, or side of the surgery influenced the postsurgical outcome.",
+          "reasoning": "Multivariable adjustment was used to isolate the effect of CFC."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Confounding Summary",
+        "prompt": "Important potential confounders are appropriately accounted for, limiting potential bias with respect to the relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ],
+        "rating": "Low"
+      }
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical methods are appropriate for the study design. The use of logistic regression to calculate Odds Ratios is standard, and the reporting of results is transparent, including both univariate and multivariate findings.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Two stepwise logistic regression analyses were designed... surgical outcome was the dependent variable, while the presence of CFC and other factors... were the independent variables.",
+          "reasoning": "The analytical plan is clearly described."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "In the second analysis, the surgical outcome was the dependent variable, while the presence of CFC and other factors which were thought to be predictive were the independent variables.",
+          "reasoning": "Variables were selected based on their known predictive value in existing literature."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "stepwise logistic regression analysis",
+          "reasoning": "Logistic regression is appropriate for a binary outcome (seizure-free vs. not)."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Only the history of CFC associated with the surgical outcome: odds ratio (OR) = 5.9, 95% confidence interval for OR = 1.26-27.7 (P = 0.023).",
+          "reasoning": "The authors report both the significant finding for CFC and the non-significant findings for other variables."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Statistical Analysis and Presentation Summary",
+        "prompt": "The statistical analysis is appropriate for the design of the study, limiting potential for presentation of invalid or spurious results.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ],
+        "rating": "Low"
+      }
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/5_West_2019/Janszky_2003.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-01-05T11:13:15.557296"
+  }
+}

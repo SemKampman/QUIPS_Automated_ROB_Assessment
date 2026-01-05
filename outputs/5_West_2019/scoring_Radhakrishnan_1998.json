@@ -1,0 +1,287 @@
+{
+  "paper_metadata": {
+    "title": "Predictors of outcome of anterior temporal lobectomy for intractable epilepsy: A multivariate study",
+    "first_author": "K. Radhakrishnan",
+    "year": "1998",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study used a consecutive cohort of 190 patients with clearly defined inclusion/exclusion criteria and a high participation rate (175/190, 92%). The baseline characteristics are thoroughly described in Table 1.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "190 patients underwent first-time ATL with amygdalohippocampectomy at the Mayo Clinic for control of medically intractable complex partial epilepsy.",
+          "reasoning": "The source is a specific clinical population at a major tertiary center with clear diagnostic indications."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "We studied 175 consecutive ATL patients who had at least 2 years of postsurgical follow-up.",
+          "reasoning": "Consecutive recruitment minimizes selection bias compared to convenience sampling."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "Between January 1, 1988, and June 30, 1991",
+          "reasoning": "Specific dates are provided."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "at the Mayo Clinic, Rochester, MN.",
+          "reasoning": "The specific institution and location are identified."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "Patients with extratemporal surgery were not included... ATL was considered and offered as a treatment option when presurgical evaluation localized the source of habitual seizures to one temporal lobe.",
+          "reasoning": "Clear anatomical and clinical criteria for inclusion and exclusion are stated."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Yes",
+          "evidence_snippet": "The cohort in this study was composed of 175 consecutive patients who had 2 or more years of postoperative follow-up... (Four patients with 2 or more years of follow-up had insufficient data for study.)",
+          "reasoning": "175 out of 190 eligible patients were analyzed, representing a 92% participation rate, which is well above the 80% threshold."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1 shows the characteristics of patients in our cohort, including demographics, presurgical history and factors of epilepsy, presurgical seizure frequency, and age at surgery.",
+          "reasoning": "Comprehensive demographic and clinical data are provided in a dedicated table."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study achieved a high follow-up rate through an intensive data collection program. Only 15 patients (7.8%) were lost to follow-up or had insufficient data, which is unlikely to introduce significant bias.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "The cohort in this study was composed of 175 consecutive patients who had 2 or more years of postoperative follow-up (mean 3.6 years, range 2 to 5.7).",
+          "reasoning": "175/190 (92%) is an excellent retention rate for a surgical follow-up study."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "Yes",
+          "evidence_snippet": "latest information was obtained by using an intensive program of data collection... Response rate was 72%. The Survey Research Center subsequently successfully contacted by phone 66% of the remaining patients.",
+          "reasoning": "The authors describe a multi-step process (mail and phone) to minimize attrition."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Partial",
+          "evidence_snippet": "Four patients with 2 or more years of follow-up had insufficient data for study.",
+          "reasoning": "While the number of patients with insufficient data is small, the specific reasons for the other 11 patients not reaching the 2-year follow-up mark are not explicitly detailed."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not provide a comparison of baseline characteristics between those who completed follow-up and those who did not."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Because characteristics of dropouts were not reported, it is impossible to definitively state there were no differences, though the low attrition rate (8%) makes significant bias unlikely."
+        }
+      ]
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "Prognostic factors (MRI and EEG) were measured using standardized, objective protocols. MRI volumetry and video-EEG are gold-standard methods in this field.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "brain MRI with temporal lobe volume protocol... prolonged EEG monitoring consisted of 32 channels of recording, including subtemporal chains of electrodes.",
+          "reasoning": "The technical parameters for MRI and EEG are well-defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Ictal video-EEG recording was used to confirm the location of ictal onset... MRI with temporal lobe volume protocol.",
+          "reasoning": "The study uses objective, validated diagnostic technologies rather than subjective reports."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "The rank sum test was used to evaluate the following continuous variables: age at seizure onset, age at surgery, duration of epilepsy history...",
+          "reasoning": "Continuous variables were analyzed as such in univariate analysis, and categorical PFs (like MRI atrophy) were based on clinical diagnostic standards."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "A multidisciplinary presurgical evaluation was performed, that included... [list of tests applied to the cohort].",
+          "reasoning": "The protocol was standardized for the consecutive cohort at a single center."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Partial",
+          "evidence_snippet": "Hippocampal volume assessment not performed in 32 patients; 15 of the 32 had sufficient studies for detection of other lesions.",
+          "reasoning": "There was some missing data for the primary MRI PF (approx 22% missing volumetry), though the authors attempted to account for this in the analysis."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "Yes",
+          "evidence_snippet": "Missing data were handled by creating two variables. The first variable was coded with the actual observed value... The second variable was coded as 0 if the information was present and as 1 if absent.",
+          "reasoning": "The authors used a dummy variable adjustment method to include all subjects in the multivariate model."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The outcome (seizure control) was measured using the validated Engel/Seizure Frequency Scoring System. The definition of 'excellent outcome' was clearly pre-specified and previously validated by the authors.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "Patients with a seizure frequency score of 0 to 4 at last follow-up were considered to have had an excellent outcome because they were either seizure free or had only nondisabling seizures.",
+          "reasoning": "The outcome is explicitly defined using a numerical scale and clinical description."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "We have previously validated this criterion for excellent outcome by demonstrating that it is associated with the best work outcome, with ability to drive...",
+          "reasoning": "The authors use a validated scoring system (Engel-based) and cite their own validation studies."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "routine postoperative follow-up visits were conducted on the first postoperative day and at 3 months, 1 year, and each year thereafter.",
+          "reasoning": "A standardized follow-up schedule was applied to all patients."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "While the study uses multivariable logistic regression to adjust for several factors, the inclusion of 'postsurgical factors' (seizure control in year 1) in the same model as 'presurgical factors' to predict 'latest outcome' is problematic as they are on the same causal pathway (mediators rather than confounders).",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Yes",
+          "evidence_snippet": "demographics, epilepsy history, and postoperative seizure frequency... age at seizure onset, age at surgery, duration of epilepsy history...",
+          "reasoning": "Standard clinical and demographic confounders were collected."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1 and the Methods section define variables like 'major brain trauma' and 'history of perinatal distress'.",
+          "reasoning": "Definitions for clinical history variables are provided in footnotes."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Partial",
+          "evidence_snippet": "Patient charts were reviewed to collect information on demographics, epilepsy history...",
+          "reasoning": "Retrospective chart review for history (e.g., febrile seizures) is subject to recall bias, though standard for this study type."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Patient charts were reviewed to collect information... [for the cohort].",
+          "reasoning": "The data collection process was uniform for the cohort."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "Yes",
+          "evidence_snippet": "Missing data were handled by creating two variables... [dummy variable method].",
+          "reasoning": "The same dummy variable method used for PFs was applied to other variables."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "This was a cohort study; no matching or stratification was used in the design phase."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Partial",
+          "evidence_snippet": "Multivariate analysis using stepwise logistic regression (stepping up) was performed on variables that were significant (p < 0.05) in univariate analysis.",
+          "reasoning": "While multivariable adjustment was performed, the model mixed baseline predictors with early outcome measures (1-year seizure control), which complicates the interpretation of 'prediction'."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical methods are appropriate for the study design. The use of stepwise logistic regression is standard for identifying independent predictors, and the results are presented transparently with Odds Ratios and Confidence Intervals.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Significant factors on univariate analyses were subjected to stepwise logistic regression analysis.",
+          "reasoning": "The strategy is clearly outlined."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "Multivariate analysis using stepwise logistic regression (stepping up) was performed on variables that were significant (p < 0.05) in univariate analysis.",
+          "reasoning": "A standard p-value driven stepwise approach was used."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "Logistic regression analysis revealed the following to be independently predictive...",
+          "reasoning": "Logistic regression is appropriate for the binary 'excellent vs non-excellent' outcome."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Table 3 shows univariate analysis of all factors... Results of the logistic regression are provided with OR and 95% CI.",
+          "reasoning": "Both significant and non-significant results from the univariate analysis are reported."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/5_West_2019/Radhakrishnan_1998.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-01-05T11:11:36.306370"
+  }
+}

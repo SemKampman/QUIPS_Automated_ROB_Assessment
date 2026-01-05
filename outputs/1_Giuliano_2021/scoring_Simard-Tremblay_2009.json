@@ -10,56 +10,56 @@
       "domain_number": 1,
       "domain_name": "Study Participation",
       "risk_of_bias": "Moderate",
-      "risk_reasoning": "The study provides clear inclusion/exclusion criteria and describes the setting well. However, it relies on a single neurologist's database (convenience sample) rather than a population-based registry, which may introduce referral bias. Participation rates of eligible vs. non-eligible patients are not reported.",
+      "risk_reasoning": "The study provides clear inclusion/exclusion criteria and describes the baseline characteristics well. However, it uses a convenience sample from a single neurologist's database across three specific settings, which may not fully represent the broader adolescent population (referral bias). Participation rates of eligible vs. non-eligible patients are not reported.",
       "items": [
         {
           "label": "Source of target population",
           "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
           "rating": "Yes",
-          "evidence_snippet": "Participants were identified via the standardized computerized database of a single pediatric neurologist (M.S.). Patients entered into this database were examined by the neurologist in 3 different clinical settings: (a) hospital-based ambulatory clinic, (b) hospital-based private neurology office (1991-1996), and (c) suburban private pediatric neurology clinic.",
-          "reasoning": "The source population is clearly defined as patients seen by a specific neurologist across three distinct clinical settings."
+          "evidence_snippet": "Patients entered into this database were examined by the neurologist in 3 different clinical settings: (a) hospital-based ambulatory clinic, (b) hospital-based private neurology office (1991-1996), and (c) suburban private pediatric neurology clinic.",
+          "reasoning": "The authors specify the clinical settings and the nature of the population (adolescents with first seizure)."
         },
         {
           "label": "Method used to identify population",
           "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
           "rating": "Partial",
-          "evidence_snippet": "The database was systematically searched for all patients with an onset of epilepsy between the age of 12 and 16 years.",
-          "reasoning": "While the search was systematic within the database, the database itself is a convenience sample of one physician's practice, which may not reflect the broader population due to referral patterns."
+          "evidence_snippet": "Participants were identified via the standardized computerized database of a single pediatric neurologist (M.S.).",
+          "reasoning": "While the database search is described, relying on a single neurologist's database introduces potential referral bias and may not capture the full spectrum of the target population."
         },
         {
           "label": "Recruitment period",
           "prompt": "Period of recruitment is adequately described",
           "rating": "Yes",
           "evidence_snippet": "initial intake and neurologic assessment for a suspected seizure between July 1, 1991, and June 30, 2006",
-          "reasoning": "The 15-year recruitment window is explicitly stated."
+          "reasoning": "The dates are explicitly provided."
         },
         {
           "label": "Place of recruitment",
           "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
           "rating": "Yes",
           "evidence_snippet": "Montreal Children's Hospital-McGill University Health Center, Montreal, Quebec, Canada",
-          "reasoning": "The geographic location and specific clinical settings are well-defined."
+          "reasoning": "The geographic location and specific clinical settings are clearly stated."
         },
         {
           "label": "Inclusion and exclusion criteria",
           "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
           "rating": "Yes",
-          "evidence_snippet": "The inclusion criteria consist of (a) initial intake and neurologic assessment for a suspected seizure between July 1, 1991, and June 30, 2006, (b) first afebrile seizure between 12 and 16 years, (c) presumptive diagnosis of epilepsy (at least 2 unprovoked seizures or treatment after the first seizure), and (d) minimum follow-up period of 24 months.",
-          "reasoning": "Criteria are specific, including age, diagnosis definition, and a 'zero time' (first afebrile seizure)."
+          "evidence_snippet": "The inclusion criteria consist of (a) initial intake and neurologic assessment for a suspected seizure between July 1, 1991, and June 30, 2006, (b) first afebrile seizure between 12 and 16 years, (c) presumptive diagnosis of epilepsy... All patients seen in the context of a second opinion were excluded.",
+          "reasoning": "Criteria are specific, including age ranges, clinical definitions, and a 'zero time' (first afebrile seizure)."
         },
         {
           "label": "Adequate study participation",
           "prompt": "There is adequate participation in the study by eligible individuals",
           "rating": "Unsure",
           "evidence_snippet": "Not found in text",
-          "reasoning": "The paper does not state how many patients were screened versus how many were included, making it impossible to determine the participation rate."
+          "reasoning": "The paper does not report how many patients were screened versus how many were included, nor does it discuss the participation rate of eligible individuals."
         },
         {
           "label": "Baseline characteristics",
           "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
           "rating": "Yes",
-          "evidence_snippet": "Table 1. Group Profile... Males, Females, Family history, Perinatal history, Prior febrile seizure, Comorbid psychiatric conditions, Physical examination.",
-          "reasoning": "Table 1 provides a comprehensive breakdown of the baseline demographic and clinical characteristics."
+          "evidence_snippet": "Table 1. Group Profile... Males, Females, Family history of epilepsy, Perinatal history, Prior febrile seizure, Comorbid psychiatric conditions",
+          "reasoning": "Table 1 provides a comprehensive breakdown of the demographic and clinical characteristics of the sample at entry."
         }
       ]
     },
@@ -67,85 +67,97 @@
       "domain_number": 2,
       "domain_name": "Study Attrition",
       "risk_of_bias": "Low",
-      "risk_reasoning": "The study required a minimum 24-month follow-up for inclusion, effectively creating a cohort of completers. While this limits the study to those who stayed, the retrospective nature and the specific inclusion of 'last visit' data suggest low risk of bias regarding the analyzed sample's outcomes.",
+      "risk_reasoning": "The study required a minimum 24-month follow-up for inclusion, effectively creating a retrospective cohort of completers. While this limits the ability to see those lost early, the analysis is based on the full sample meeting these criteria, and the follow-up duration is well-defined.",
       "items": [
         {
           "label": "Proportion of baseline sample available for analysis",
           "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
           "rating": "Yes",
-          "evidence_snippet": "minimum follow-up period of 24 months.",
-          "reasoning": "By requiring 24 months of follow-up for inclusion, the study ensures that all 65 analyzed patients have sufficient longitudinal data."
+          "evidence_snippet": "Sixty-five patients met all the inclusion and none of the exclusion criteria",
+          "reasoning": "The study only included those with a minimum 24-month follow-up, ensuring 100% of the analyzed sample had outcome data."
         },
         {
           "label": "Attempts to collect information on participants who dropped out",
           "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
           "rating": "No",
           "evidence_snippet": "Not found in text",
-          "reasoning": "The study does not describe patients who were excluded due to having less than 24 months of follow-up."
+          "reasoning": "Because the study is a retrospective database review with a minimum follow-up inclusion criterion, it does not describe attempts to reach those who dropped out before the 24-month mark."
         },
         {
           "label": "Reasons and potential impact of subjects lost to follow-up",
           "prompt": "Reasons for loss to follow-up are provided.",
           "rating": "No",
           "evidence_snippet": "Not found in text",
-          "reasoning": "No data is provided on the number or characteristics of patients lost to follow-up before the 24-month mark."
+          "reasoning": "Reasons for attrition prior to the 24-month inclusion threshold are not discussed."
         },
         {
           "label": "Outcome and prognostic factor information on those lost to follow-up",
           "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
           "rating": "No",
           "evidence_snippet": "Not found in text",
-          "reasoning": "There is no description of the characteristics of those who did not meet the 24-month follow-up inclusion criterion."
+          "reasoning": "No data is provided on patients who did not meet the 24-month follow-up requirement."
         },
         {
           "label": "",
           "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
           "rating": "Unsure",
           "evidence_snippet": "Not found in text",
-          "reasoning": "Without data on the excluded/lost patients, a comparison cannot be made."
+          "reasoning": "There is no comparison between the included cohort and those excluded due to insufficient follow-up."
         }
-      ]
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Attrition Summary",
+        "prompt": "Loss to follow-up (from baseline sample to study population analyzed) is not associated with key characteristics (i.e., the study data adequately represent the sample) sufficient to limit potential bias to the observed relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ],
+        "rating": "Low",
+        "evidence_snippet": "minimum follow-up period of 24 months.",
+        "reasoning": "The study design ensures that all analyzed subjects have the necessary follow-up, though it risks excluding those with very poor outcomes who might have dropped out early."
+      }
     },
     {
       "domain_number": 3,
       "domain_name": "Prognostic Factor Measurement",
       "risk_of_bias": "Low",
-      "risk_reasoning": "Prognostic factors (age, syndrome, seizure type) were derived from a standardized database and clinical charts using ILAE classifications. Measurement was consistent across the cohort.",
+      "risk_reasoning": "Prognostic factors (syndrome, age, seizure type) are standard clinical variables defined by ILAE criteria and measured consistently through a standardized database.",
       "items": [
         {
           "label": "Definition of the PF",
           "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
           "rating": "Yes",
-          "evidence_snippet": "The following information was obtained through systematic inpatient and outpatient chart review; gender, family history... seizure type... age at first suspected seizure... most abnormal electroencephalogram (EEG)...",
-          "reasoning": "The prognostic factors are clearly listed and defined."
+          "evidence_snippet": "presence of an epileptic syndrome as defined by the International League Against Epilepsy",
+          "reasoning": "The study uses internationally recognized ILAE definitions for the primary prognostic factors."
         },
         {
           "label": "Valid and Reliable Measurement of PF",
           "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
           "rating": "Yes",
-          "evidence_snippet": "According to the criteria of the latest International League against Epilepsy classification of epilepsy syndromes",
-          "reasoning": "The use of international standardized classifications (ILAE) and objective EEG data increases reliability."
+          "evidence_snippet": "The database contained 14 domains pertaining to demographic, diagnostic, and treatment windows with information entered at initial visit and updated at each follow-up visit.",
+          "reasoning": "Data was collected prospectively in a standardized database by a specialist, reducing recall bias."
         },
         {
           "label": "",
           "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
           "rating": "Partial",
           "evidence_snippet": "age ≤14.5 years at initial diagnosis",
-          "reasoning": "The cut-point of 14.5 years appears to be data-driven (post-hoc) rather than pre-specified, which can introduce bias."
+          "reasoning": "The cut-point of 14.5 years appears to be data-driven (post-hoc) rather than pre-specified, which can increase the risk of bias."
         },
         {
           "label": "Method and Setting of PF Measurement",
           "prompt": "The method and setting of measurement of PF is the same for all study participants.",
           "rating": "Yes",
           "evidence_snippet": "The medical charts of the patients previously identified were then reviewed by one investigator (E.S.-T.).",
-          "reasoning": "A single investigator reviewed all charts using a systematic approach, ensuring consistency."
+          "reasoning": "A single investigator reviewed all charts using a systematic approach."
         },
         {
           "label": "Proportion of data on PF available for analysis",
           "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
           "rating": "Yes",
           "evidence_snippet": "Information available for 63 patients... EEG available for 62 patients.",
-          "reasoning": "Missing data for prognostic factors was very low (approx. 3-5%)."
+          "reasoning": "Missing data for prognostic factors is minimal (approx. 3-5%)."
         },
         {
           "label": "Method used for missing data",
@@ -154,134 +166,182 @@
           "evidence_snippet": "Not found in text",
           "reasoning": "The study does not mention imputation; it appears to use available-case analysis."
         }
-      ]
+      ],
+      "risk_of_bias_assessment": {
+        "label": "PF Measurement Summary",
+        "prompt": "PF is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ],
+        "rating": "Low",
+        "evidence_snippet": "standardized computerized database of a single pediatric neurologist",
+        "reasoning": "The use of a standardized database and ILAE criteria provides high reliability for PF measurement."
+      }
     },
     {
       "domain_number": 4,
       "domain_name": "Outcome Measurement",
-      "risk_of_bias": "Moderate",
-      "risk_reasoning": "Outcomes like 'seizure control' and 'compliance' were determined by physician documentation in charts. This is subjective and prone to recall bias from patients/parents and recording bias by the physician, especially since the assessor was not blinded to the prognostic factors.",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "Outcomes (seizure control and medication status) are clearly defined and measured using standard clinical follow-up. While 'compliance' is subjective, the primary outcomes are objective clinical milestones.",
       "items": [
         {
           "label": "Definition of the Outcome",
           "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
           "rating": "Yes",
-          "evidence_snippet": "Excellent control was defined as no evident seizure in the prior year while on medication, whereas moderate or poor seizure control were respectively defined as 1 to 5 seizures and more than 6 seizures in the year preceding the last clinic visit",
-          "reasoning": "The primary outcomes (seizure control and medication status) are explicitly defined."
+          "evidence_snippet": "Excellent control was defined as no evident seizure in the prior year while on medication, whereas moderate or poor seizure control were respectively defined as 1 to 5 seizures and more than 6 seizures",
+          "reasoning": "The study provides explicit numerical definitions for seizure control categories."
         },
         {
           "label": "Valid and Reliable Measurement of Outcome",
           "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
-          "rating": "Partial",
-          "evidence_snippet": "identification of a compliance issue based on documentation in the chart by the physician (through questioning or sub-therapeutic serum drug levels)",
-          "reasoning": "While serum levels are objective, much of the outcome data relies on clinical notes and patient recall, which are less reliable than prospective diaries."
+          "rating": "Yes",
+          "evidence_snippet": "information entered at initial visit and updated at each follow-up visit.",
+          "reasoning": "Outcomes were tracked through regular clinical follow-up and recorded in a standardized database."
         },
         {
           "label": "Method and Setting of Outcome Measurement",
           "prompt": "The method and setting of outcome measurement is the same for all study participants.",
           "rating": "Yes",
           "evidence_snippet": "The medical charts of the patients previously identified were then reviewed by one investigator (E.S.-T.).",
-          "reasoning": "The retrospective chart review process was standardized for all participants."
+          "reasoning": "The review process was uniform across the cohort."
         }
-      ]
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Outcome Measurement Summary",
+        "prompt": "Outcome of interest is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ],
+        "rating": "Low",
+        "evidence_snippet": "Excellent control was defined as no evident seizure in the prior year",
+        "reasoning": "The definitions are clear and the measurement via a specialist database is appropriate for this field."
+      }
     },
     {
       "domain_number": 5,
       "domain_name": "Study Confounding",
       "risk_of_bias": "High",
-      "risk_reasoning": "The study only performed univariable analyses (Chi-square/Fisher exact). It did not use multivariable modeling to adjust for potential confounders (e.g., adjusting for epilepsy syndrome when looking at age), which is a major limitation in prognosis studies.",
+      "risk_reasoning": "The study relies on univariable analyses (Chi-square/Fisher exact). It does not perform multivariable adjustment to account for the interplay between prognostic factors (e.g., the relationship between JME and coexisting myoclonic seizures).",
       "items": [
         {
           "label": "Important Confounders Measured",
           "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
           "rating": "Yes",
-          "evidence_snippet": "comorbid conditions... seizure type... treatment... presence of an epileptic syndrome",
-          "reasoning": "The study measured most relevant clinical confounders."
+          "evidence_snippet": "gender, family history... comorbid conditions, seizure type... treatment, presence of an epileptic syndrome",
+          "reasoning": "The authors measured a wide range of potential confounders."
         },
         {
           "label": "Definition of the confounding factor",
           "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
           "rating": "Yes",
           "evidence_snippet": "Those disorders were all defined by their respective Diagnostic and Statistical Manual of Mental Disorders (Fourth Edition) criteria.",
-          "reasoning": "Comorbidities and syndromes were defined using standard diagnostic frameworks."
+          "reasoning": "Comorbidities and syndromes are defined using standard diagnostic manuals."
         },
         {
           "label": "Valid and Reliable Measurement of Confounders",
           "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
           "rating": "Yes",
-          "evidence_snippet": "standardized computerized database... systematic inpatient and outpatient chart review",
-          "reasoning": "The use of a standardized database for a single specialist's practice suggests consistent measurement."
+          "evidence_snippet": "standardized computerized database... updated at each follow-up visit.",
+          "reasoning": "Confounders were captured in the same reliable manner as PFs."
         },
         {
           "label": "Method and Setting of Confounding Measurement",
           "prompt": "The method and setting of confounding measurement are the same for all study participants.",
           "rating": "Yes",
-          "evidence_snippet": "The medical charts... were then reviewed by one investigator (E.S.-T.).",
-          "reasoning": "Consistency in measurement setting and personnel is maintained."
+          "evidence_snippet": "The medical charts... were then reviewed by one investigator",
+          "reasoning": "Uniform measurement across the sample."
         },
         {
           "label": "Method used for missing data",
           "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
           "rating": "No",
           "evidence_snippet": "Not found in text",
-          "reasoning": "No imputation methods were described."
+          "reasoning": "No imputation methods described."
         },
         {
           "label": "Appropriate Accounting for Confounding",
           "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
           "rating": "No",
-          "evidence_snippet": "The profile of children needing only 1 medication (group 1) and of children needing at least 2 medications to control their seizures (group 2) were then compared",
-          "reasoning": "The design was a simple cohort comparison without matching or stratification for confounders."
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The study design did not include matching or stratification to control for confounding."
         },
         {
           "label": "",
           "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
           "rating": "No",
-          "evidence_snippet": "Statistical analysis was performed using... Pearson χ2, Fisher exact, and Student t tests",
-          "reasoning": "The study did not perform multivariable analysis (e.g., Logistic Regression), meaning the reported associations are unadjusted and likely confounded."
+          "evidence_snippet": "compared using the Pearson χ2, Fisher exact, and Student t tests",
+          "reasoning": "The analysis is limited to univariable tests. No multivariable modeling (e.g., Logistic Regression) was used to adjust for confounding."
         }
-      ]
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Confounding Summary",
+        "prompt": "Important potential confounders are appropriately accounted for, limiting potential bias with respect to the relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ],
+        "rating": "High",
+        "evidence_snippet": "Pearson χ2, Fisher exact, and Student t tests",
+        "reasoning": "The lack of multivariable adjustment is a significant limitation in a prognosis study, as many PFs (like JME and seizure type) are highly correlated."
+      }
     },
     {
       "domain_number": 6,
       "domain_name": "Statistical Analysis and Reporting",
       "risk_of_bias": "Moderate",
-      "risk_reasoning": "The analysis is limited to univariable tests. While the results are reported transparently for the tests performed, the lack of a multivariable model and the potential for 'p-hacking' with the age cut-point (14.5 years) increase the risk of spurious findings.",
+      "risk_reasoning": "The analysis is straightforward but limited. There is a risk of 'p-hacking' or selective reporting due to the use of data-dependent cut-points (age 14.5) and the lack of a pre-specified statistical plan for multiple comparisons.",
       "items": [
         {
           "label": "Presentation of analytical strategy",
           "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
           "rating": "Yes",
-          "evidence_snippet": "compared using the Pearson χ2, Fisher exact, and Student t tests with a P value of .05 or less established a priori",
-          "reasoning": "The statistical tests used are clearly stated."
+          "evidence_snippet": "Statistical analysis was performed using SPSS Statistics (Version 17.0) software... compared using the Pearson χ2, Fisher exact, and Student t tests",
+          "reasoning": "The methods used are clearly stated, allowing for assessment."
         },
         {
           "label": "Model development strategy",
           "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
           "rating": "No",
           "evidence_snippet": "Not found in text",
-          "reasoning": "There was no multivariable model building strategy; only individual associations were tested."
+          "reasoning": "There was no multivariable model building strategy described."
         },
         {
           "label": "",
           "prompt": "The selected statistical model is adequate for the design of the study.",
           "rating": "Partial",
-          "evidence_snippet": "Pearson χ2, Fisher exact, and Student t tests",
-          "reasoning": "These tests are appropriate for simple associations but inadequate for identifying independent prognostic factors in a complex clinical cohort."
+          "evidence_snippet": "P value of .05 or less established a priori",
+          "reasoning": "While the tests are correct for univariable associations, they are insufficient for a comprehensive prognostic factor study."
         },
         {
           "label": "Reporting of results",
           "prompt": "There is no selective reporting of results.",
-          "rating": "Yes",
-          "evidence_snippet": "Table 5. Chi-Square and Fisher Exact Analysis",
-          "reasoning": "The study reports both significant and non-significant findings across the variables studied."
+          "rating": "Partial",
+          "evidence_snippet": "age ≤14.5 years at initial diagnosis... significantly associated",
+          "reasoning": "The use of a specific decimal cut-point (14.5) suggests the data was explored to find a significant threshold, which is a form of selective reporting."
         }
-      ]
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Statistical Analysis and Presentation Summary",
+        "prompt": "The statistical analysis is appropriate for the design of the study, limiting potential for presentation of invalid or spurious results.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ],
+        "rating": "Moderate",
+        "evidence_snippet": "Pearson χ2, Fisher exact, and Student t tests",
+        "reasoning": "The analysis is basic and prone to bias from multiple testing and lack of adjustment, but the results are presented transparently."
+      }
     }
   ],
   "processing_metadata": {
     "source_file": "data_md_converted/1_Giuliano_2021/Simard-Tremblay_2009.md",
     "model": "google/gemini-3-flash-preview",
-    "processed_at": "2026-01-02T13:14:43.818192"
+    "processed_at": "2026-01-05T11:16:33.523498"
   }
 }

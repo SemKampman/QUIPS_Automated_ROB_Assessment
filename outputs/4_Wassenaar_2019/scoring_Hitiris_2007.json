@@ -1,0 +1,332 @@
+{
+  "paper_metadata": {
+    "title": "Predictors of pharmacoresistant epilepsy",
+    "first_author": "Nikolas Hitiris",
+    "year": "2007",
+    "analysis_timestamp": "2023-10-27 10:15:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study uses a large, well-defined cohort of newly diagnosed, treatment-naive patients from a specific geographic region (West of Scotland) with clear inclusion/exclusion criteria and baseline descriptions.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "A total of 780 patients living in the West of Scotland diagnosed with epilepsy and prescribed their first AED in the Epilepsy Unit of the Western Infirmary in Glasgow, Scotland",
+          "reasoning": "The geographic location and clinical setting are clearly defined."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "diagnosed with epilepsy and prescribed their first AED in the Epilepsy Unit of the Western Infirmary in Glasgow, Scotland, between July 1982 and May 2001",
+          "reasoning": "The recruitment is based on a specific clinical unit over a defined 20-year period."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "between July 1982 and May 2001",
+          "reasoning": "Specific dates are provided."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "Epilepsy Unit of the Western Infirmary in Glasgow, Scotland",
+          "reasoning": "The specific hospital and unit are named."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "No patients had previously received treatment with an AED for any indication... Patients who did not return for review or were persistently non-adherent to their treatment regimen were excluded",
+          "reasoning": "Clear 'zero-time' (newly diagnosed/treatment-naive) and exclusion criteria (non-adherence) are stated."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not state how many eligible patients declined to participate or the total number of patients screened versus enrolled."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1: Male/female, Median age at diagnosis (years), Median duration of pre-treatment seizures (years), Median number of pre-treatment seizures",
+          "reasoning": "Key demographic and clinical characteristics are provided in Table 1."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "While the study excludes non-adherent patients and those lost to follow-up, it does not provide the exact number of these exclusions or compare their characteristics to the analyzed sample, creating a risk of attrition bias.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Unsure",
+          "evidence_snippet": "Patients who did not return for review or were persistently non-adherent to their treatment regimen were excluded from the analysis.",
+          "reasoning": "The text mentions exclusions but does not provide the denominator of the total eligible population to calculate the response rate."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is no mention of attempts to trace or collect data on those who did not return for review."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Partial",
+          "evidence_snippet": "did not return for review or were persistently non-adherent",
+          "reasoning": "General reasons are given, but not specific counts or detailed impact analysis."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No data is provided regarding the characteristics of the excluded/lost patients."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Without data on the dropouts, it is impossible to determine if they differed from the completers."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Attrition Summary",
+        "prompt": "Loss to follow-up (from baseline sample to study population analyzed) is not associated with key characteristics (i.e., the study data adequately represent the sample) sufficient to limit potential bias to the observed relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "Most factors are well-defined, but psychiatric comorbidity and recreational drug use relied on self-reporting and non-systematic assessment, which is prone to recall and social desirability bias.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "A positive family history was recorded when epilepsy was present in at least one first-degree relative... Recreational drugs included cocaine, amphetamines and cannabis.",
+          "reasoning": "Definitions for family history, drugs, and TBI are provided."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Partial",
+          "evidence_snippet": "This information was obtained from the patient's history and no systematic assessment of psychiatric comorbidity was undertaken.",
+          "reasoning": "Psychiatric data and drug use relied on self-report without validated tools, which is less reliable than clinical diagnosis or toxicology."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Partial",
+          "evidence_snippet": "Those reporting more than 10 seizures prior to initiation of therapy were more than twice as likely to develop refractory epilepsy.",
+          "reasoning": "The cut-point of 10 seizures is used, but it is not explicitly stated if this was pre-specified or data-driven."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "A structured protocol was employed at the initial consultation in which demographic and clinical parameters were recorded.",
+          "reasoning": "All patients underwent the same structured protocol at the same unit."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "Table 2",
+          "reasoning": "The table implies data was available for the full cohort of 780 patients for the primary PFs."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not mention missing data or imputation methods."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "PF Measurement Summary",
+        "prompt": "PF is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The outcome (seizure freedom for 12 months) is a standard, objective clinical endpoint in epilepsy research, measured consistently via diaries and clinical review.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "Response to treatment was defined as achieving seizure freedom for at least the last 12 months of follow-up.",
+          "reasoning": "The outcome is clearly defined with a specific timeframe."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "Outcomes were obtained from case notes and seizure diaries.",
+          "reasoning": "Seizure diaries are the standard clinical tool for outcome measurement in epilepsy."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Outcomes were followed until the end of December 2003... Outcomes were obtained from case notes and seizure diaries.",
+          "reasoning": "All patients were followed at the same unit using the same documentation methods."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Outcome Measurement Summary",
+        "prompt": "Outcome of interest is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study used multivariable logistic regression to adjust for multiple potential confounders simultaneously, and the factors included are clinically relevant.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Yes",
+          "evidence_snippet": "family history of epilepsy, history of febrile seizures, potential aetiological factors, intermittent recreational drug use and prior or current psychiatric comorbidity.",
+          "reasoning": "The study captures the major known clinical confounders for epilepsy prognosis."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "A positive family history was recorded when epilepsy was present in at least one first-degree relative... criteria outlined by Annegers et al. (1998).",
+          "reasoning": "Definitions are provided for the main variables."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Partial",
+          "evidence_snippet": "no systematic assessment of psychiatric comorbidity was undertaken.",
+          "reasoning": "As with PFs, the measurement of psychiatric and drug use confounders relied on non-systematic history taking."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "A structured protocol was employed at the initial consultation",
+          "reasoning": "Standardized intake for all participants."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Missing data handling is not discussed."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The study is a cohort study; confounding was handled in analysis rather than design (e.g., no matching)."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "Logistic regression... first individually in univariate models and then together in a multivariate logistic regression.",
+          "reasoning": "Multivariable adjustment was performed."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Confounding Summary",
+        "prompt": "Important potential confounders are appropriately accounted for, limiting potential bias with respect to the relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical methods are appropriate for the binary outcome, and both univariate and multivariate results are transparently reported with odds ratios and confidence intervals.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Logistic regression on the outcome ''seizure-free for the last 12 months? Yes/No'' was used to investigate covariates of interest",
+          "reasoning": "The strategy is clearly explained."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "investigate covariates of interest, first individually in univariate models and then together in a multivariate logistic regression.",
+          "reasoning": "Standard approach of univariate screening followed by multivariable modeling."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "Logistic regression... All analyses were undertaken with Minitab for Windows",
+          "reasoning": "Logistic regression is appropriate for the binary outcome defined."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Table 2",
+          "reasoning": "All variables tested in univariate analysis are reported in the multivariate model, including non-significant ones like gender and mental retardation."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Statistical Analysis and Presentation Summary",
+        "prompt": "The statistical analysis is appropriate for the design of the study, limiting potential for presentation of invalid or spurious results.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/4_Wassenaar_2019/Hitiris_2007.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-01-05T11:13:24.867346"
+  }
+}

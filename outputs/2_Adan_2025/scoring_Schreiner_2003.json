@@ -1,0 +1,332 @@
+{
+  "paper_metadata": {
+    "title": "Value of the Early Electroencephalogram After a First Unprovoked Seizure",
+    "first_author": "A. Schreiner",
+    "year": "2003",
+    "analysis_timestamp": "2023-10-27 10:15:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study provides a clear description of the target population, recruitment setting (Mannheim department), and specific inclusion/exclusion criteria. The sample is a prospective cohort of adults with a first unprovoked seizure, and baseline characteristics (age, sex, seizure type) are well-documented.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Since 1991 we have been following a cohort of 157 adult patients, who were admitted to our department, in Mannheim, after a certain first unprovoked seizure.",
+          "reasoning": "The authors specify the geographic location and the clinical nature of the cohort."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "The patients were older than 16 years, and the first EEG was obtained within 48hours ofthe first seizure (95% ofthe patients being seen within 24 hours).",
+          "reasoning": "Recruitment is prospective and hospital-based with a clear temporal link to the index event."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Partial",
+          "evidence_snippet": "Since 1991 we have been following a cohort of 157 adult patients",
+          "reasoning": "The start date is provided, but the specific end date of recruitment is not explicitly stated, though follow-up ranges are given."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "admitted to our department, in Mannheim",
+          "reasoning": "The clinical setting and city are identified."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "Patients were excluded from the primary analysis, if they (I) had a history suspicious of previous epileptic seizures, (II) presented with absence ormyoclonic seizures as initial seizure type, (III) if the first seizure was acute symptomatic, (IV) if they had a malignant brain tumor orMAIDS encephalopathy.",
+          "reasoning": "Detailed exclusion criteria are provided to ensure a clean 'first unprovoked seizure' cohort."
+        },
+        {
+          "label": "Adequate study participation",
+          "rating": "Unsure",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not report the number of eligible patients who declined participation or the total number of patients screened."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Mean age was 48.1 ± 20.3 years (range 17to84 years); 97 ofthe patients were male (61.8%).",
+          "reasoning": "Age, sex, and seizure types are clearly listed in the text and tables."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The attrition rate is very low (4.5%), which is well within the acceptable range for prognosis studies to limit bias.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "Seven patients were lost to follow-up.",
+          "reasoning": "7 out of 157 is a 4.5% loss, which is excellent for a long-term follow-up study."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not describe methods used to trace those lost to follow-up."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The reasons for the 7 losses are not specified."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is no comparison between the characteristics of those lost and those who completed the study."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The small number of losses makes significant bias unlikely, but the data to confirm this is missing."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Attrition Summary",
+        "prompt": "Loss to follow-up (from baseline sample to study population analyzed) is not associated with key characteristics (i.e., the study data adequately represent the sample) sufficient to limit potential bias to the observed relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The EEG (prognostic factor) was measured using a standardized protocol (10-20 system) and interpreted by two experienced neurophysiologists using a pre-defined 5-category scale. The timing (within 48 hours) was strictly controlled.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "All EEGs were recorded on 16-channel video-splitscreen instruments with both referential and bipolar recordings bymeans ofthe International 10-20 electrode placement System.",
+          "reasoning": "The measurement technique and classification system (Table 1) are explicitly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "EEGs were rated by two experienced neurophysiologists (the authors) according to a fixed protocol.",
+          "reasoning": "Use of a fixed protocol and experienced raters supports reliability."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "The findings were classified in 5 categories (Table 1).",
+          "reasoning": "The categories are standard clinical EEG classifications, not derived post-hoc from the data."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "All EEGs were performed with hyperventilation for 3 minutes and intermittent photic stimulation.",
+          "reasoning": "Standardized procedures were applied to all subjects."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "EEGs were performed on 157 adult patients",
+          "reasoning": "All patients in the cohort underwent the prognostic factor measurement."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "Yes",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Not applicable as there was no missing PF data for the analyzed cohort."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "PF Measurement Summary",
+        "prompt": "PF is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "While the outcome (seizure recurrence) is clearly defined, the method of ascertainment during the 34-month follow-up is not detailed (e.g., whether it was via patient diaries, phone calls, or clinical visits), which introduces potential recall bias.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "The cumulative risks ofrecurrence were determined by life-table-methods with event defined as an unprovoked seizure recurrence",
+          "reasoning": "Seizure recurrence is the standard outcome for this study type."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Partial",
+          "evidence_snippet": "The mean follow-up period was 34 months (range 3-88 months).",
+          "reasoning": "The duration is adequate, but the specific method of capturing the recurrence event (e.g., patient report vs. clinical observation) is not described."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text does not specify if all patients were followed up using the same schedule or modality."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Outcome Measurement Summary",
+        "prompt": "Outcome of interest is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study uses univariate analysis (Cox regression) to report risk ratios for EEG findings. While it mentions neuroimaging and clinical status, it does not appear to perform a multivariable analysis to adjust for these potential confounders (e.g., brain lesions) simultaneously.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Yes",
+          "evidence_snippet": "the neurologic status in40.1%, and CT-scan or MRI in 50.3%",
+          "reasoning": "Key confounders like age, neurological status, and imaging findings were measured."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Partial",
+          "evidence_snippet": "Neuroradiological examination revealed previously unknown cerebral lesions in 19 of these cases, mainly brain tumors (n=6), ischemic stroke (n=5)...",
+          "reasoning": "Imaging findings are categorized, but 'neurologic status' is not deeply defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "CT-scan or MRI in 50.3%",
+          "reasoning": "Imaging is an objective and reliable measure for structural confounders."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Standard EEG was more sensitive for detecting abnormalities compared to both clinical and neuroradiological examinations on admission.",
+          "reasoning": "Confounders were assessed at the same 'zero time' (admission) for the cohort."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No mention of how missing imaging or clinical data was handled."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "Partial",
+          "evidence_snippet": "The goal ofthis study was to keep patients untreated after their first seizure.",
+          "reasoning": "The design controlled for the confounding effect of medication by keeping the cohort largely untreated."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "No",
+          "evidence_snippet": "We used the proportional hazards model toestimate univariate rate ratios",
+          "reasoning": "The study relies on univariate analysis. There is no evidence of a multivariable model to adjust for the independent effect of EEG abnormalities versus structural lesions."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Confounding Summary",
+        "prompt": "Important potential confounders are appropriately accounted for, limiting potential bias with respect to the relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical methods (Kaplan-Meier and Cox regression) are appropriate for time-to-event data. The results are reported transparently with confidence intervals and p-values.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "The cumulative risks ofrecurrence were determined by life-table-methods... Univariate analysis (Kaplan-Meier survival curves) for each variable",
+          "reasoning": "The strategy for survival analysis is clearly laid out."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Partial",
+          "evidence_snippet": "Subgroup analysis revealed the highest recurrence rates for patients with focal epileptiform activ~",
+          "reasoning": "Subgroups are clinically relevant, but as noted in Domain 5, a multivariable strategy is missing."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "We used the proportional hazards model toestimate univariate rate ratios",
+          "reasoning": "Cox proportional hazards is the standard for prognostic studies."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Table 2: EEG results among patients with and without seizure recurrence",
+          "reasoning": "The paper reports on all EEG categories defined in the methods, including non-significant results."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Statistical Analysis and Presentation Summary",
+        "prompt": "The statistical analysis is appropriate for the design of the study, limiting potential for presentation of invalid or spurious results.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/2_Adan_2025/Schreiner_2003.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-01-05T11:10:41.300055"
+  }
+}

@@ -1,0 +1,287 @@
+{
+  "paper_metadata": {
+    "title": "Outcome of seizures in the general population after 25 years: a prospective follow-up, observational cohort study",
+    "first_author": "Gail S Bell",
+    "year": "2016",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study utilized a large, unselected community-based cohort recruited through a network of 275 general practitioners, which is highly representative of the target population. Inclusion/exclusion criteria and baseline characteristics are well-defined.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "The UK National General Practice Study of Epilepsy (NGPSE) is a prospective cohort study of people with newly diagnosed seizures set up in 1984 to determine the prognosis of people with new onset seizures.",
+          "reasoning": "The study clearly defines the target population as individuals in the community with newly diagnosed seizures."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "Between 1984 and 1987 UK general practitioners (GPs) registered people with newly suspected seizures.",
+          "reasoning": "Recruitment through a broad network of GPs (275) minimizes the referral bias typically found in hospital-based studies."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "Between 1984 and 1987 UK general practitioners (GPs) registered people with newly suspected seizures.",
+          "reasoning": "The specific years of recruitment are provided."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "The cohort was then recruited from the practices of 275 GPs over a three-year period... UK general practitioners.",
+          "reasoning": "The setting (primary care) and location (UK) are explicitly stated."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "GPs were asked to include all people in whom a new diagnosis of epilepsy, a single epileptic seizure or a febrile seizure (in children) was suspected... we excluded those with febrile seizures... excluded people with acute symptomatic seizures.",
+          "reasoning": "The study provides clear inclusion criteria and specific exclusions to refine the prognostic groups."
+        },
+        {
+          "label": "Adequate study participation",
+          "rating": "Yes",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "evidence_snippet": "In all, 1195 individuals were registered with the study. About fifteen percent (183 people) were excluded; on further inquiries 104 people were found to have a previous diagnosis of epilepsy... and 79 people were found not to have epilepsy.",
+          "reasoning": "The recruitment process was comprehensive across 275 practices, and exclusions were based on diagnostic verification rather than non-participation."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1: Sex male (%), Age at index seizure in years; median (IQR), Age <18 years at index seizure, Presumed aetiology.",
+          "reasoning": "Key demographic and clinical characteristics are presented in Table 1."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "While the study achieved remarkable 25-year follow-up for a large portion of the cohort, there is significant attrition in the seizure outcome analysis (only 327/695 had complete follow-up to 2009). The authors acknowledge that those lost to follow-up might differ, and legal changes in the UK restricted data collection for certain subgroups in the final wave.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Partial",
+          "evidence_snippet": "In 327 people with complete follow-up, 268 (82%, 95% CI 77% to 86%) were in terminal remission.",
+          "reasoning": "Only about 47% of the original unprovoked seizure cohort (327/695) had complete seizure data through 2009, though mortality data was more complete via national registries."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "Yes",
+          "evidence_snippet": "The study was registered with the National Health Service Central Register, to enable follow-up of individuals who moved and notification of deaths.",
+          "reasoning": "The authors used national registers to track participants and attempted GP questionnaires at multiple intervals."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Yes",
+          "evidence_snippet": "GPs were no longer able to release identifiable patient information without consent... Initial rejection of our application was followed by an appeal, at which exemption was allowed for people who had had no seizures... for all others, consent was required.",
+          "reasoning": "The authors provide a detailed explanation of how legislative changes (Data Protection Act) impacted the final follow-up wave."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not provide a formal comparison of baseline characteristics between those who completed the 25-year follow-up and those who were lost to follow-up for seizure outcomes."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Survival analysis assumes that any right censoring (loss to follow-up) is independent of survival, but those who were not followed-up may be in some way different.",
+          "reasoning": "The authors admit potential differences but cannot confirm them due to lack of data on the dropouts."
+        }
+      ]
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The primary prognostic factor (single seizure vs. epilepsy at presentation) is clearly defined and based on clinical assessment at the 'zero time' of study entry. Sensitivity analyses were performed to ensure the robustness of these definitions.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "analysed those with epilepsy (recurrent unprovoked seizures at presentation) and those with a single unprovoked seizure at presentation separately.",
+          "reasoning": "The prognostic factor (seizure status at presentation) is clearly dichotomized."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Six months after registration a diagnostic panel reviewed all 1195 registered using contemporaneous data.",
+          "reasoning": "A multi-disciplinary diagnostic panel reviewed cases to ensure correct classification, reducing measurement bias."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "The number of seizures prior to the index seizure was estimated and grouped... 1–5 seizures... 6–10 seizures... >10 seizures.",
+          "reasoning": "Pre-specified clinical groupings were used for seizure counts."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Once an individual was identified, the initial questionnaire was completed by the GP.",
+          "reasoning": "Standardized registration forms were used for all participants at baseline."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "one person was excluded from analyses as we could not determine whether the index seizure was the first.",
+          "reasoning": "Only one person had missing data for the primary prognostic factor (seizure status at presentation)."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Imputation was not used; cases with missing PF data were excluded (though this was only 1 case)."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "Mortality outcomes are highly reliable due to the use of national registries. However, seizure outcomes (remission/recurrence) rely on GP records and patient self-reporting to GPs, which may lead to under-reporting of minor seizures over a 25-year period.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "terminal remission (ie, no seizures for the last 5 years of follow-up)... SMR for the whole cohort with unprovoked seizures was estimated.",
+          "reasoning": "Outcomes (remission and mortality) are explicitly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Partial",
+          "evidence_snippet": "Some individuals may not have notified their GP of all seizures, or they may not have been recorded in the medical records; this applies to all seizure studies without direct observation.",
+          "reasoning": "Mortality is reliably measured via registries, but seizure outcomes are subject to reporting bias and lack of objective verification (e.g., EEG/video monitoring)."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Follow-up of those with epileptic seizures used postal questionnaires sent to all individuals' GPs approximately yearly.",
+          "reasoning": "A consistent methodology (GP questionnaires) was applied to the whole cohort."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study accounts for major confounders including age, sex, and aetiology. Multivariable analysis (Cox regression) and SMR calculations (adjusted for age, sex, and calendar year) were appropriately employed.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Yes",
+          "evidence_snippet": "Factors affecting seizure recurrence were determined using Cox regression... Expected numbers of deaths were estimated using age, sex and calendar year-specific death rates.",
+          "reasoning": "Key confounders (age, sex, aetiology, treatment status) were collected and used in analysis."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "idiopathic/cryptogenic seizures (1980s definition—no identified predisposing cause); remote symptomatic seizures (central nervous system lesions acquired postnatally).",
+          "reasoning": "Aetiological categories and age groups are clearly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Partial",
+          "evidence_snippet": "Doubtless with newer imaging techniques, many in the idiopathic/cryptogenic groups would be reclassified as having lesions.",
+          "reasoning": "While measured reliably for the era, the authors acknowledge that modern imaging would likely change the classification of the 'cryptogenic' confounder."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "The initial registration form contained details of medical history, family history, risk factors.",
+          "reasoning": "Baseline confounders were collected uniformly at registration."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No evidence of imputation for confounders; missing data resulted in exclusion from specific analyses."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "Yes",
+          "evidence_snippet": "analysed those with idiopathic/cryptogenic seizures and the group of people with remote symptomatic seizures... separately.",
+          "reasoning": "The study uses stratification by aetiology and seizure status at presentation."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "SMRs were also estimated for people with early remission... Expected numbers of deaths were estimated using age, sex and calendar year-specific death rates.",
+          "reasoning": "SMR calculations and Cox regression provide appropriate adjustment for measured confounders."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical methods are robust, including Kaplan-Meier survival curves, Cox regression, and competing risks analysis to account for the high mortality in this long-term study. Results are reported transparently with confidence intervals.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Kaplan-Meier analysis was used to investigate probability of seizure recurrence... Competing risks regression with probability of seizure recurrence as the outcome of interest and death as a competing interest was also performed.",
+          "reasoning": "The statistical methods are described in detail and are appropriate for the longitudinal data."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "Factors affecting seizure recurrence were determined using Cox regression, unless proportionality assumptions were not met, when the log rank test was used.",
+          "reasoning": "The choice of variables and models follows established prognostic modeling principles in epilepsy."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "Data were analysed using Stata V.13.1 (Texas, USA). CIs for binomial proportions (Wilson method) and differences between proportions (Newcombe method) were calculated.",
+          "reasoning": "The use of survival analysis and SMRs is the gold standard for this study design."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "As sensitivity analyses, the main analyses were repeated in the whole group... and in the subgroup with definite unprovoked epileptic seizures.",
+          "reasoning": "The inclusion of sensitivity analyses and reporting of both positive and negative findings (e.g., the counterintuitive mortality in single seizures) suggests transparent reporting."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/2_Adan_2025/Bell_2026.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-01-05T11:12:47.903624"
+  }
+}

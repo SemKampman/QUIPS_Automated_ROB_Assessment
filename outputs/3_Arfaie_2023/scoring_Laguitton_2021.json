@@ -1,0 +1,332 @@
+{
+  "paper_metadata": {
+    "title": "Intellectual outcome from 1 to 5 years after epilepsy surgery in 81 children and adolescents: A longitudinal study",
+    "first_author": "Virginie Laguitton",
+    "year": "2021",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study provides a clear description of the target population, recruitment setting (tertiary center), and explicit inclusion/exclusion criteria. The sample is representative of school-aged children with drug-resistant focal epilepsy undergoing resective surgery.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "children with refractory focal epilepsy followed in the Marseille tertiary epilepsy center by the multidisciplinary team... at the La Timone and Henri Gastaut hospitals in Marseille, France.",
+          "reasoning": "The authors specify the clinical condition and the specific healthcare setting."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "We included 81 patients who underwent surgical treatment from 2000 to 2018.",
+          "reasoning": "The study uses a consecutive cohort from a specialized multidisciplinary team over an 18-year period."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "from 2000 to 2018",
+          "reasoning": "The dates are explicitly stated."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "La Timone and Henri Gastaut hospitals in Marseille, France.",
+          "reasoning": "Specific hospitals and city are named."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "The inclusion criteria were : (a) operated before the age of 20 years... (b) having had an extensive evaluation... (c) multidisciplinary team discussion (d) intellectual skills... allowing reliable testing... We excluded patients who underwent extensive (hemispherotomy) or palliative surgery.",
+          "reasoning": "Detailed criteria including age, diagnostic workup, and surgery type are provided."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not state how many eligible patients were approached versus how many were included (participation rate)."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1 Demographic and clinical characteristics... Sex, Handedness, Age at epilepsy onset, Epilepsy localization, Epilepsy laterality, Abnormal brain MRI, ASM before the epilepsy surgery, Baseline intellectual assessment.",
+          "reasoning": "Comprehensive baseline data is provided in Tables 1 and 2."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study reports very low attrition (5/81) and accounts for patients who have not yet reached the 5-year mark due to the longitudinal nature. The use of Kaplan-Meier analysis appropriately handles censored data.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "Five patients were lost to neurological and neuropsychological follow up from post3... 8 patients have not yet arrived at post5.",
+          "reasoning": "The follow-up rate is >90% for the primary analysis period."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The authors do not describe specific efforts to re-contact or retrieve data for the 5 lost patients."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Partial",
+          "evidence_snippet": "Five patients were lost to neurological and neuropsychological follow up from post3, but were all noted to be seizure-free at their last assessment.",
+          "reasoning": "The clinical status at last contact is provided, but the specific reasons for dropout (e.g., moved, refused) are not."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "Partial",
+          "evidence_snippet": "were all noted to be seizure-free at their last assessment.",
+          "reasoning": "Only seizure status is mentioned for dropouts; other baseline characteristics for this subgroup are not separately listed."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "A formal comparison between completers and non-completers was not reported."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Attrition Summary",
+        "prompt": "Loss to follow-up (from baseline sample to study population analyzed) is not associated with key characteristics (i.e., the study data adequately represent the sample) sufficient to limit potential bias to the observed relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "Prognostic factors (seizure freedom, localization, age) are clearly defined and measured using standard clinical and surgical records. The use of Engel classification for seizure outcome is a validated standard.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "Postoperative seizure control was classified using Engel's classification criteria... patients were deemed \"seizure-free\" if they did not have a seizure since the surgery (Engel class Ia).",
+          "reasoning": "The primary prognostic factor (seizure freedom) is explicitly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Postoperative seizure control was classified using Engel's classification criteria.",
+          "reasoning": "Engel's classification is the gold standard in epilepsy surgery research."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "Age at surgery (year) 14 (6.5-20)",
+          "reasoning": "Continuous variables like age and ASM number are used appropriately in the regression models."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Each participant was tested individually. All assessments reported in this study were conducted by the same neuropsychologist (V.L).",
+          "reasoning": "Consistency is ensured by having a single assessor and standardized clinical follow-up."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "We analyzed a cohort of 81 school-aged children... Table 1-2.",
+          "reasoning": "Tables show complete data for the primary prognostic factors across the cohort."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text does not mention imputation; it appears they used available case analysis or censored data in KM curves."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "PF Measurement Summary",
+        "prompt": "PF is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The outcome (intellectual change) was measured using standardized, age-appropriate Wechsler scales. The definition of 'improvement' or 'decline' (10 points) was pre-specified to exceed the standard error of measurement.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "a patient was said to be \"improved\" if the change between pre-and post-surgery was greater than +10 points, \"decreased\" if the change was greater than - 10 points.",
+          "reasoning": "The threshold for significant intellectual change is clearly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "Age-appropriate Wechsler Intelligence Scales (WISC IV or WAIS-III) were used... inter-correlations between the different test versions were very high.",
+          "reasoning": "The Wechsler scales are validated, reliable instruments for IQ measurement."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "All assessments reported in this study were conducted by the same neuropsychologist (V.L).",
+          "reasoning": "A single assessor using standardized tests ensures high consistency."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Outcome Measurement Summary",
+        "prompt": "Outcome of interest is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "While the authors adjusted for several key variables (age, localization, ASM) in a multivariable model, the retrospective nature and the lack of a control group make it difficult to fully account for the 'practice effect' or natural maturation, despite the 10-point threshold.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Yes",
+          "evidence_snippet": "potential predictors of intellectual outcome were sex; age at epilepsy onset; age at surgery; epilepsy localization; epilepsy lateralization; baseline FSIQ; brain MRI (normal/ abnormal); use of SEEG; time to surgery... number of ASM and decrease of ASM.",
+          "reasoning": "A wide range of clinical and demographic confounders were captured."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1 and 2",
+          "reasoning": "Confounders like ASM number and age are clearly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "clinical data were collected as part of clinical care then repurposed for research.",
+          "reasoning": "Data comes from standardized clinical records in a tertiary center."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "followed in the Marseille tertiary epilepsy center by the multidisciplinary team.",
+          "reasoning": "All patients were managed within the same clinical protocol."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No mention of missing data handling for confounders."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "No",
+          "evidence_snippet": "a prospective longitudinal study with a control group... should be conducted",
+          "reasoning": "The study lacks a control group to account for natural developmental trajectories."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "Binomial logistic regression was performed to ascertain the predicting factors... Multivariate analysis (Table 4 B) revealed...",
+          "reasoning": "Multivariable adjustment was performed for key variables."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Confounding Summary",
+        "prompt": "Important potential confounders are appropriately accounted for, limiting potential bias with respect to the relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical approach is robust, using Kaplan-Meier for time-to-event data and multivariable logistic regression for predictors. Results are reported transparently, including both improvement and decline.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Section 2.3 Statistical analysis",
+          "reasoning": "The analytical plan is detailed and appropriate for the data type."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "Binomial logistic regression was performed... potential predictors... were sex; age at epilepsy onset; age at surgery; epilepsy localization...",
+          "reasoning": "Variables were selected based on clinical relevance."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "Kaplan-Meier survival analyses were used to investigate the difference in time to the emergence of intellectual improvement or decline.",
+          "reasoning": "KM is ideal for longitudinal data with varying follow-up lengths."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Results section and Tables 3-5.",
+          "reasoning": "The authors report on all five Wechsler indices and both positive and negative outcomes."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Statistical Analysis and Presentation Summary",
+        "prompt": "The statistical analysis is appropriate for the design of the study, limiting potential for presentation of invalid or spurious results.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/3_Arfaie_2023/Laguitton_2021.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-01-05T11:10:47.081280"
+  }
+}

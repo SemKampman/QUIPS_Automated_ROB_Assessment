@@ -1,0 +1,332 @@
+{
+  "paper_metadata": {
+    "title": "Long-term outcomes of behavior problems after epilepsy surgery in childhood",
+    "first_author": "Klajdi Puka",
+    "year": "2016",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study provides a clear description of the source population, recruitment period, and inclusion/exclusion criteria. The participation rate was approximately 71% (108/152), which is acceptable for a long-term follow-up study (4-11 years). Baseline characteristics were compared between participants and non-participants, showing no significant differences, which mitigates selection bias.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "All patients had undergone evaluations to determine potential candidacy for epilepsy surgery between 2002 and 2009 at the Hospital for Sick Children in Toronto, Ontario, Canada.",
+          "reasoning": "The source population is clearly defined as pediatric patients evaluated for epilepsy surgery at a specific tertiary center."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "Patients were deemed to be surgical candidates if a clear unilateral seizure focus could be identified... Patients who declined surgery or were not surgical candidates formed our nonsurgical comparison group.",
+          "reasoning": "The recruitment strategy for both the surgical and the non-surgical comparison group is well-defined based on clinical evaluation outcomes."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "between 2002 and 2009",
+          "reasoning": "The specific years for the baseline evaluation are provided."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "at the Hospital for Sick Children in Toronto, Ontario, Canada.",
+          "reasoning": "The specific institution and location are identified."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "exclusion criteria included hemispherectomy or corpus callosotomy procedures... exclusion criteria included the presence of an epilepsy syndrome that would not be treated with surgery, or epilepsy associated with neurodegenerative disorders.",
+          "reasoning": "Detailed inclusion and exclusion criteria are provided for both groups."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Yes",
+          "evidence_snippet": "One-hundred and fiftytwo individuals (92 surgical) met criteria for participation... Overall, 108 (71 surgical and 37 nonsurgical) patients participated",
+          "reasoning": "A participation rate of 71% is robust for a long-term follow-up study spanning up to 11 years."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1 shows the demographic and epilepsy characteristics of the four patient groups",
+          "reasoning": "Table 1 provides comprehensive baseline data including age, sex, age of onset, and IQ."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "While the overall participation was good, there was a significant amount of missing data for the longitudinal analysis (only 85/108 had baseline CBCL data). The authors did compare participants vs. non-participants and found no differences, but the lack of baseline data for 21% of the analyzed sample introduces some risk regarding the 'change over time' conclusions.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Partial",
+          "evidence_snippet": "Of these individuals, 85 (56 surgical) had CBCL data from baseline",
+          "reasoning": "While 108 participated at follow-up, only 85 had the necessary baseline data for longitudinal comparison, which is a subset of the eligible cohort."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "Yes",
+          "evidence_snippet": "17 (6 surgical) could not be contacted, 2 (1 surgical) were deceased, and 25 (14 surgical) declined participation or did not return questionnaires.",
+          "reasoning": "The authors account for the status of all individuals who met criteria but did not participate."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Yes",
+          "evidence_snippet": "17 (6 surgical) could not be contacted, 2 (1 surgical) were deceased, and 25 (14 surgical) declined participation",
+          "reasoning": "Reasons for non-participation are explicitly categorized."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "There were no significant differences among demographic, epilepsy-related variables, and baseline CBCL scores between patients who did and did not participate in the study",
+          "reasoning": "The authors performed a statistical comparison between participants and those lost to follow-up to check for systematic bias."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Yes",
+          "evidence_snippet": "There were no significant differences among demographic, epilepsy-related variables, and baseline CBCL scores between patients who did and did not participate in the study (all p values >.05).",
+          "reasoning": "Statistical analysis confirmed no significant differences in baseline characteristics."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Attrition Summary",
+        "prompt": "Loss to follow-up (from baseline sample to study population analyzed) is not associated with key characteristics (i.e., the study data adequately represent the sample) sufficient to limit potential bias to the observed relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The primary prognostic factors (surgical status and seizure freedom) are clearly defined and objectively measured. Seizure freedom was defined using a standard 12-month threshold. Missing data for PFs was minimal.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "For the purposes of this study, seizure freedom was defined as the absence of any seizures in the year preceding the follow-up assessment.",
+          "reasoning": "The definition of the primary prognostic factor (seizure freedom) is clear and follows clinical standards."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Study data were managed and stored using REDCap",
+          "reasoning": "While seizure status relies on clinical report/parental report, this is the standard in epilepsy research. Surgical status is an objective medical fact."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "seizure freedom was defined as the absence of any seizures in the year preceding the follow-up assessment.",
+          "reasoning": "The 1-year seizure-free cut-point is a standard clinical metric (Engel or ILAE-like) and not arbitrarily derived from this specific dataset's distribution."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Participants were subdivided into four groups based on surgical status and seizure status at the long-term outcome.",
+          "reasoning": "The criteria were applied uniformly across the cohort."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "108 (71 surgical and 37 nonsurgical) patients participated in the study by having data on the CBCL or ABCL at follow-up.",
+          "reasoning": "PF data (surgery and seizure status) was available for all 108 analyzed participants."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Imputation was not used; however, PF data was not missing for the analyzed sample."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "PF Measurement Summary",
+        "prompt": "PF is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study uses the CBCL/ABCL, which are highly validated, standardized instruments for assessing behavior. The same measurement method was used for all participants, and the transition from CBCL to ABCL for adults is the standard protocol for this tool.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "The parent-rated Child or Adult Behavior Checklist (CBCL/ ABCL) was used to document behavior... we focus primarily on externalizing and related symptomology",
+          "reasoning": "The outcome is defined by specific validated scales and subscales."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "We utilized a standardized measure of behavior that has been widely utilized in research... the Child Behavior Checklist (CBCL)",
+          "reasoning": "The CBCL is a gold-standard validated instrument in pediatric psychology."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Participants were given the option of completing questionnaires over the telephone, in person or at home and returning them by mail.",
+          "reasoning": "While the setting varied (home vs. clinic), the instrument and parent-report method were consistent for all."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Outcome Measurement Summary",
+        "prompt": "Outcome of interest is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The authors measured and adjusted for several key confounders (age, IQ, AED use) in their regression models. However, as an observational study, there is inherent risk of residual confounding. Specifically, the non-surgical group was not a randomized control, and differences in 'laterality of focus' were noted between groups.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Yes",
+          "evidence_snippet": "The following variables were entered into the regression analyses: current AED use (yes vs. no), seizure status, laterality (left vs. right), site (temporal vs. extratemporal) of epileptogenic focus, age at baseline, change in IQ",
+          "reasoning": "Key clinical and demographic confounders were identified and measured."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1 shows the demographic and epilepsy characteristics",
+          "reasoning": "Confounders like IQ and AED use are clearly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "comprehensive cognitive assessment, which included a measure of IQ, using the age-appropriate Wechsler Intelligence Scale",
+          "reasoning": "Validated tools (Wechsler scales) were used for key confounders like IQ."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "As part of the evaluations to determine candidacy for epilepsy surgery, patients underwent a comprehensive neuropsychological assessment",
+          "reasoning": "Standardized clinical protocols were used for all patients at baseline."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "No",
+          "evidence_snippet": "Missing variables were handled using pairwise deletion.",
+          "reasoning": "Pairwise deletion is generally less robust than multiple imputation, though common in clinical literature."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "Partial",
+          "evidence_snippet": "our sample was comprised of surgical and nonsurgical patients that were well matched on a number of demographic and seizure-related variables at baseline",
+          "reasoning": "While groups were similar, they were not formally matched, and some differences (e.g., laterality) existed."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "Multiple linear regressions were then used to evaluate the predictors of change from baseline to follow-up",
+          "reasoning": "Multivariable adjustment was performed to control for confounding."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Confounding Summary",
+        "prompt": "Important potential confounders are appropriately accounted for, limiting potential bias with respect to the relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical approach was appropriate for the data type (Mixed ANOVA for longitudinal data, Regression for predictors). The authors reported both group-level and individual-level changes. There is no evidence of selective reporting, as both significant and non-significant results for all subscales are presented.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "In evaluating behavior outcomes, we examined the impact of surgical status, seizure status, and time using a 2 x 2 x 2 mixed factor ANOVA.",
+          "reasoning": "The analytical plan is clearly described and matches the study's longitudinal design."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "The following variables were entered into the regression analyses: current AED use, seizure status, laterality, site... age at baseline, change in IQ, and baseline ratings",
+          "reasoning": "The variables selected for the model are clinically relevant and based on previous literature cited in the introduction."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "Rank-transformed data were used in evaluating the Aggressive Behavior subscale as the homogeneity of variance assumption was violated",
+          "reasoning": "The authors checked assumptions and used appropriate non-parametric alternatives where necessary."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "No significant effects were found for Rule-breaking Behavior... results from these subscales are not reported here [referencing previous paper]",
+          "reasoning": "The authors are transparent about what is being reported in this paper versus their previous publication on internalizing behaviors, and they report non-significant findings."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Statistical Analysis and Presentation Summary",
+        "prompt": "The statistical analysis is appropriate for the design of the study, limiting potential for presentation of invalid or spurious results.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/3_Arfaie_2023/Puka_2016.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-01-05T11:11:15.479735"
+  }
+}

@@ -1,0 +1,287 @@
+{
+  "paper_metadata": {
+    "title": "Long-term outcome of hemispheric surgery at different ages in 61 epilepsy patients",
+    "first_author": "Anita Althausen",
+    "year": "2013",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study provides a clear description of the source population and inclusion criteria. However, the use of a retrospective postal survey introduces potential selection bias, as the 75% return rate may be influenced by the success of the surgery (non-response bias).",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "From 1988 to 2007, 110 patients underwent hemispheric surgery for medically refractory epilepsy at our department.",
+          "reasoning": "The authors clearly define the source (Bonn department) and the clinical condition (refractory epilepsy requiring hemispheric surgery)."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "Inclusion criteria were a minimum age of 6 years at follow-up, a postsurgical interval of at least 1 year, and residence in Germany for postal availability.",
+          "reasoning": "The sampling frame is based on a consecutive surgical series with specific geographic and temporal constraints."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "From 1988 to 2007",
+          "reasoning": "The nearly 20-year recruitment window is explicitly stated."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "Department of Epileptology, University of Bonn Medical Centre, Bonn, Germany",
+          "reasoning": "The single-center setting is clearly identified."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "Inclusion criteria were a minimum age of 6 years at follow-up, a postsurgical interval of at least 1 year, and residence in Germany for postal availability.",
+          "reasoning": "Criteria are specific, including the 'zero time' (at least 1 year post-surgery)."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Partial",
+          "evidence_snippet": "Completed questionnaires were obtained from 61/81 patients/ families (75%).",
+          "reasoning": "While 75% is a strong response for a postal survey, it falls slightly below the 80% threshold typically used to denote low risk in QUIPS, and the reasons for the 25% non-participation are not fully explored."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Patient characteristics are shown in table 1.",
+          "reasoning": "Table 1 provides comprehensive baseline data including age at onset, duration, etiology, and pre-op IQ."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study lost 25% of the eligible sample. While the authors requested participation regardless of outcome, they do not provide a comparison of baseline characteristics between responders and non-responders to rule out informative censoring.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Partial",
+          "evidence_snippet": "return rate: 75%",
+          "reasoning": "75% is acceptable but leaves room for bias if non-responders had poorer outcomes."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text does not describe attempts to follow up with the 20 non-responders or the 5 who could not be located."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Partial",
+          "evidence_snippet": "Of 86 eligible patients, five could not be located.",
+          "reasoning": "Reasons for the 5 missing patients are given, but reasons for the 20 who did not return the survey are unknown."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is no table or description comparing the 61 participants to the 20 non-participants."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Without data on non-responders, it is impossible to determine if attrition was random or related to the prognostic factors/outcomes."
+        }
+      ]
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The primary prognostic factor (Age at Surgery) is objective and perfectly measured. However, the secondary prognostic factor (Presurgical Intelligence) relies on retrospective parental recall/ratings, which is subject to significant recall bias.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "age at surgery (early: <7 years/intermediate: 7–16 years/late: >16 years)",
+          "reasoning": "Age at surgery is clearly defined and categorized."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Partial",
+          "evidence_snippet": "Presurgical intelligence was estimated as below average for the majority of patients (45/57, 79%).",
+          "reasoning": "Age is reliable, but 'estimated' presurgical intelligence via retrospective questionnaire is less reliable than prospective psychometric testing."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "subgroups based on neurodevelopmental considerations. 18 25",
+          "reasoning": "The cut-points for age groups were based on established neurodevelopmental theory, not data-driven optimization."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Postsurgical outcome was assessed by means of a newly constructed 57-item questionnaire",
+          "reasoning": "All participants/parents received the same questionnaire."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "Preoperative intelligence (N=57)",
+          "reasoning": "Data was available for 57 out of 61 participants (93%)."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The study appears to use complete case analysis; no imputation methods are described."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "High",
+      "risk_reasoning": "The outcomes (seizure status, cognitive level) are measured via a non-validated, parent-reported questionnaire. This is highly susceptible to subjectivity and social desirability bias, especially given the long follow-up period (up to 19 years).",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "seizure outcome, cognitive-behavioural performance and psychosocial (including socioeconomic) achievement.",
+          "reasoning": "The domains of outcome are clearly stated."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "No",
+          "evidence_snippet": "newly constructed 57-item questionnaire (available upon request) requiring parental ratings",
+          "reasoning": "The tool is not validated, and parental ratings are subjective. There was no objective verification (e.g., EEG or formal neuropsychological testing) for the majority of the sample."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Questionnaires were submitted via postal mailing",
+          "reasoning": "The method was standardized across the cohort."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The authors used multivariable logistic regression to account for key confounders including etiology, side of surgery, and preoperative intelligence, which is appropriate for this study design.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Yes",
+          "evidence_snippet": "Age at surgery, side of surgery, aetiology (acquired, developmental, progressive), and preoperative intelligence were considered as factors",
+          "reasoning": "The study identifies and measures the most clinically relevant confounders."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "aetiology was classified as acquired (vascular insults/porencephaly: N=36), developmental... or progressive",
+          "reasoning": "Confounders like etiology are clearly categorized."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Additional data from the patient records were considered",
+          "reasoning": "Clinical confounders (etiology, side) were pulled from medical records, which is a reliable source."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Additional data from the patient records were considered with permission",
+          "reasoning": "Medical record review was the standard source for all."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No imputation was performed."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "Partial",
+          "evidence_snippet": "Age at surgery was not under experimental control for obvious ethical and practical reasons.",
+          "reasoning": "The groups were not matched (and could not be), but they were stratified by age."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "stepwise binary logistic regression analyses were conducted",
+          "reasoning": "Multivariable adjustment was used to isolate the effect of the prognostic factors."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical methods are well-described and appropriate for the data types. The authors report both significant and non-significant findings transparently.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Group differences were analysed by χ2 or Kruskal-Wallis tests... stepwise binary logistic regression analyses were conducted",
+          "reasoning": "The analytical plan is detailed and matches the study goals."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "Age at surgery, side of surgery, aetiology... and preoperative intelligence were considered as factors in all analyses.",
+          "reasoning": "Variable selection was based on clinical relevance and conceptual framework."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "Binary logistic regression identified better presurgical intelligence and higher age at surgery as positive predictors",
+          "reasoning": "Logistic regression is appropriate for the binary outcomes defined."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "As a non-significant trend, ES comprised the lowest proportion of patients with acquired (p=0.050)",
+          "reasoning": "The authors report p-values for non-significant trends and provide a comprehensive overview of all measured outcomes."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/5_West_2019/Althausen_2013.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-01-05T11:16:17.381072"
+  }
+}

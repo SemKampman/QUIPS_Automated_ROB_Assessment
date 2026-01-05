@@ -10,56 +10,56 @@
       "domain_number": 1,
       "domain_name": "Study Participation",
       "risk_of_bias": "Low",
-      "risk_reasoning": "The study used a consecutive sample of patients diagnosed by standard ILAE criteria. The setting and recruitment period are clear, and baseline characteristics are well-described, minimizing selection bias.",
+      "risk_reasoning": "The study uses a consecutive sample of patients diagnosed via standardized ILAE criteria. The recruitment setting and baseline characteristics are well-defined, and the sample size is typical for this specific epilepsy sub-study.",
       "items": [
         {
           "label": "Source of target population",
           "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
           "rating": "Yes",
-          "evidence_snippet": "We included 76 consecutive patients diagnosed with JME according to the ILAE criteria who had at least one year of follow-up",
-          "reasoning": "The authors specify the diagnostic criteria and the consecutive nature of the sample from a specialized neurology department."
+          "evidence_snippet": "We included 76 consecutive patients diagnosed with JME according to the ILAE criteria who had at least one year of follow-up and detailed EEG records available",
+          "reasoning": "The authors specify the diagnostic criteria (ILAE) and the nature of the cohort (consecutive patients)."
         },
         {
           "label": "Method used to identify population",
           "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
           "rating": "Yes",
-          "evidence_snippet": "We included 76 consecutive patients diagnosed with JME according to the ILAE criteria",
-          "reasoning": "Consecutive recruitment in a clinical setting is a standard method to reduce selection bias."
+          "evidence_snippet": "We included 76 consecutive patients diagnosed with JME... The data on gender, age at onset of epilepsy, seizure types... were retrospectively recorded in a standardized form.",
+          "reasoning": "Consecutive recruitment from a specialized epilepsy center reduces selection bias compared to convenience sampling."
         },
         {
           "label": "Recruitment period",
           "prompt": "Period of recruitment is adequately described",
-          "rating": "Partial",
+          "rating": "No",
           "evidence_snippet": "Not found in text",
-          "reasoning": "While the paper mentions the follow-up duration and the date the article was received (2012), the specific start and end dates for the recruitment of the 76 patients are not explicitly stated."
+          "reasoning": "While follow-up duration is mentioned, the specific calendar years during which patients were recruited are not explicitly stated."
         },
         {
           "label": "Place of recruitment",
-          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "prompt": "Place of recruitment (setting and geographic location) are adequately described",
           "rating": "Yes",
-          "evidence_snippet": "Bakirkoy Research and Training Hospital for Psychiatry, Neurology, Neurosurgery, Department of Neurology, Istanbul",
-          "reasoning": "The institutional setting and geographic location are clearly identified."
+          "evidence_snippet": "Bakirkoy Research and Training Hospital for Psychiatry, Neurology, Neurosurgery... Istanbul University, Istanbul Faculty of Medicine",
+          "reasoning": "The institutional affiliations and geographic location (Istanbul, Turkey) are clearly provided."
         },
         {
           "label": "Inclusion and exclusion criteria",
           "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
           "rating": "Yes",
           "evidence_snippet": "JME was diagnosed as a specific electroclinical syndrome with bilateral, single or repetitive, arrhythmic, irregular myoclonic jerks predominantly in the arms starting at puberty... The EEG should show rapid generalized and often irregular spike waves",
-          "reasoning": "The study uses standard ILAE diagnostic criteria and specifies a minimum follow-up of one year."
+          "reasoning": "Detailed clinical and electrographic inclusion criteria are provided based on ILAE standards."
         },
         {
           "label": "Adequate study participation",
           "prompt": "There is adequate participation in the study by eligible individuals",
-          "rating": "Yes",
-          "evidence_snippet": "We included 76 consecutive patients",
-          "reasoning": "The use of consecutive patients suggests that all eligible individuals seen at the clinic during the study period were included."
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not report how many eligible patients were excluded or refused to participate, making it impossible to calculate a participation rate."
         },
         {
           "label": "Baseline characteristics",
           "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
           "rating": "Yes",
-          "evidence_snippet": "The data on gender, age at onset of epilepsy, seizure types, febrile seizures, consanguinity, family history of epilepsy, response to anti-epileptic drugs (AEDs), comorbid conditions, MRI findings, and follow-up duration were retrospectively recorded",
-          "reasoning": "Table 1 provides a comprehensive breakdown of these characteristics across the three prognostic groups."
+          "evidence_snippet": "Table 1 shows the clinical and EEG findings in the study groups... Gender, Age at onset, Seizure types, Psychiatric comorbidity, Febrile seizure history, Family history, Consanguinity, Clinical photosensitivity",
+          "reasoning": "A comprehensive list of baseline clinical and demographic variables is provided in Table 1."
         }
       ]
     },
@@ -67,80 +67,71 @@
       "domain_number": 2,
       "domain_name": "Study Attrition",
       "risk_of_bias": "Moderate",
-      "risk_reasoning": "The study is retrospective and only includes patients with available EEG records and at least one year of follow-up. It does not account for patients lost to follow-up before the one-year mark, which could introduce attrition bias.",
+      "risk_reasoning": "The study requires a minimum 1-year follow-up, but it does not account for patients who might have been lost to follow-up before that 1-year mark, potentially introducing attrition bias.",
       "items": [
         {
           "label": "Proportion of baseline sample available for analysis",
           "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
           "rating": "Unsure",
-          "evidence_snippet": "Not found in text",
-          "reasoning": "The paper does not state how many patients were initially diagnosed but excluded due to lack of follow-up or missing EEG data."
+          "evidence_snippet": "We included 76 consecutive patients... who had at least one year of follow-up",
+          "reasoning": "It is unclear how many patients were initially diagnosed but did not reach the 1-year follow-up threshold."
         },
         {
           "label": "Attempts to collect information on participants who dropped out",
           "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
           "rating": "No",
           "evidence_snippet": "Not found in text",
-          "reasoning": "As a retrospective chart review, there is no mention of tracking patients who left the clinic's care."
+          "reasoning": "The study is retrospective and does not describe efforts to trace lost participants."
         },
         {
           "label": "Reasons and potential impact of subjects lost to follow-up",
           "prompt": "Reasons for loss to follow-up are provided.",
           "rating": "No",
           "evidence_snippet": "Not found in text",
-          "reasoning": "No data is provided on patients who did not meet the 1-year follow-up inclusion criterion."
+          "reasoning": "No information is provided regarding patients who dropped out."
         },
         {
           "label": "Outcome and prognostic factor information on those lost to follow-up",
           "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
           "rating": "No",
           "evidence_snippet": "Not found in text",
-          "reasoning": "There is no description of the characteristics of excluded patients."
+          "reasoning": "There is no description of the characteristics of patients lost to follow-up."
         },
         {
           "label": "",
           "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
           "rating": "Unsure",
           "evidence_snippet": "Not found in text",
-          "reasoning": "Comparison between completers and non-completers was not performed."
+          "reasoning": "Without data on dropouts, a comparison cannot be made."
         }
-      ],
-      "risk_of_bias_assessment": {
-        "label": "Study Attrition Summary",
-        "prompt": "Loss to follow-up (from baseline sample to study population analyzed) is not associated with key characteristics (i.e., the study data adequately represent the sample) sufficient to limit potential bias to the observed relationship between PF and outcome.",
-        "response_options": [
-          "High",
-          "Moderate",
-          "Low"
-        ]
-      }
+      ]
     },
     {
       "domain_number": 3,
       "domain_name": "Prognostic Factor Measurement",
       "risk_of_bias": "Low",
-      "risk_reasoning": "The prognostic factor (ECS) is clearly defined and measured using standardized EEG protocols. The retrospective re-evaluation by two investigators with consensus reaching helps ensure reliability.",
+      "risk_reasoning": "The prognostic factor (ECS) is clearly defined and measured using standardized EEG protocols with multiple eye closure trials and consensus re-evaluation by two investigators.",
       "items": [
         {
           "label": "Definition of the PF",
           "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
           "rating": "Yes",
           "evidence_snippet": "Generalized spike- or multispike-wave discharges in the resting EEG that appeared on at least two occasions after eye closure (excluding the IPS period) were accepted as ECS.",
-          "reasoning": "The authors provide a specific, operationalized definition of Eye Closure Sensitivity."
+          "reasoning": "The definition of Eye Closure Sensitivity is precise and includes frequency requirements."
         },
         {
           "label": "Valid and Reliable Measurement of PF",
           "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
           "rating": "Yes",
           "evidence_snippet": "All of the available EEG traces were re-evaluated retrospectively by two investigators, and consensus was reached in a joint session when needed.",
-          "reasoning": "The use of two expert reviewers and a consensus process increases the reliability of the EEG interpretation."
+          "reasoning": "The use of two investigators and a consensus process for EEG re-evaluation enhances reliability."
         },
         {
           "label": "",
           "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
           "rating": "Yes",
           "evidence_snippet": "appeared on at least two occasions after eye closure",
-          "reasoning": "The cut-point for ECS is based on established clinical descriptions rather than being derived from the study's own data distribution."
+          "reasoning": "The cut-point for ECS is based on established clinical definitions rather than being derived from the study's own data distribution."
         },
         {
           "label": "Method and Setting of PF Measurement",
@@ -153,180 +144,145 @@
           "label": "Proportion of data on PF available for analysis",
           "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
           "rating": "Yes",
-          "evidence_snippet": "detailed EEG records available for the re-evaluation of ECS... a total of 254 EEGs were re-analyzed",
-          "reasoning": "The study only included patients with available EEG data, ensuring 100% completion for the analyzed sample."
+          "evidence_snippet": "76 JME patients... and evaluated a total of 254 EEGs to obtain evidence of ECS.",
+          "reasoning": "All included patients had EEG data available for re-analysis."
         },
         {
           "label": "Method used for missing data",
           "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
-          "rating": "Yes",
+          "rating": "Unsure",
           "evidence_snippet": "Not found in text",
-          "reasoning": "Imputation was not required as only patients with complete EEG records were included."
+          "reasoning": "Missing data for the primary PF was not reported as an issue, so imputation was not discussed."
         }
-      ],
-      "risk_of_bias_assessment": {
-        "label": "PF Measurement Summary",
-        "prompt": "PF is adequately measured in study participants to sufficiently limit potential bias.",
-        "response_options": [
-          "High",
-          "Moderate",
-          "Low"
-        ]
-      }
+      ]
     },
     {
       "domain_number": 4,
       "domain_name": "Outcome Measurement",
+      "rating": "Low",
       "risk_of_bias": "Low",
-      "risk_reasoning": "The outcome (prognosis/drug resistance) is defined using clear clinical thresholds for seizure frequency and medication adherence, which are standard in epilepsy research.",
+      "risk_reasoning": "The outcome (prognosis) is defined using objective seizure frequency thresholds and treatment adherence, which is standard in epilepsy research.",
       "items": [
         {
           "label": "Definition of the Outcome",
           "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
           "rating": "Yes",
-          "evidence_snippet": "Patients experiencing more than one GTCS per year and/or more than five myoclonic or absence seizures/clusters per month despite the regular use of appropriately high doses of syndrome-specific AEDs were classified as the 'poor prognosis' group",
-          "reasoning": "The outcome is clearly operationalized with specific seizure frequency thresholds."
+          "evidence_snippet": "Patients experiencing more than one GTCS per year and/or more than five myoclonic or absence seizures/clusters per month despite the regular use of appropriately high doses... were classified as the 'poor prognosis' group",
+          "reasoning": "The study provides specific seizure frequency cut-offs for defining prognosis groups."
         },
         {
           "label": "Valid and Reliable Measurement of Outcome",
           "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
           "rating": "Partial",
           "evidence_snippet": "The data on... response to anti-epileptic drugs (AEDs)... were retrospectively recorded in a standardized form.",
-          "reasoning": "While the criteria are objective, the data relies on retrospective clinical records which may be subject to recall bias or inconsistent documentation."
+          "reasoning": "While standardized forms were used, the outcome relies on retrospective clinical records which may be subject to recall bias, and there is no mention of blinding to the PF status."
         },
         {
           "label": "Method and Setting of Outcome Measurement",
           "prompt": "The method and setting of outcome measurement is the same for all study participants.",
           "rating": "Yes",
           "evidence_snippet": "The prognosis was evaluated only if the duration of effective therapy lasted more than 12 months.",
-          "reasoning": "The same clinical criteria and minimum follow-up duration were applied to all patients."
+          "reasoning": "The same criteria for prognosis were applied to all patients in the cohort."
         }
-      ],
-      "risk_of_bias_assessment": {
-        "label": "Outcome Measurement Summary",
-        "prompt": "Outcome of interest is adequately measured in study participants to sufficiently limit potential bias.",
-        "response_options": [
-          "High",
-          "Moderate",
-          "Low"
-        ]
-      }
+      ]
     },
     {
       "domain_number": 5,
       "domain_name": "Study Confounding",
-      "risk_of_bias": "Moderate",
-      "risk_reasoning": "The study identifies several confounders (family history, focal EEG findings) but does not use multivariable analysis to adjust for them when assessing the independent effect of ECS on prognosis.",
+      "risk_of_bias": "High",
+      "risk_reasoning": "The study relies on univariable comparisons (Chi-square/Fisher exact tests) and does not perform multivariable adjustment to account for potential confounders like age of onset or seizure type.",
       "items": [
         {
           "label": "Important Confounders Measured",
           "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
           "rating": "Yes",
           "evidence_snippet": "The data on gender, age at onset of epilepsy, seizure types, febrile seizures, consanguinity, family history of epilepsy, response to anti-epileptic drugs (AEDs), comorbid conditions, MRI findings",
-          "reasoning": "The authors measured a wide range of clinical and demographic variables known to influence epilepsy prognosis."
+          "reasoning": "The authors measured a wide range of clinical variables that could act as confounders."
         },
         {
           "label": "Definition of the confounding factor",
           "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
-          "rating": "Yes",
-          "evidence_snippet": "Focal spikes/sharp waves or recurrent 2- to 7-Hz localized slow wave paroxysms were interpreted as a focal abnormality.",
-          "reasoning": "Confounders like focal abnormalities and pseudo-resistance are explicitly defined."
+          "rating": "Partial",
+          "evidence_snippet": "appropriately high doses of syndrome-specific AEDs... pseudo-resistant group (Group II) who irregularly used AEDs",
+          "reasoning": "While treatment and adherence are defined, specific 'high doses' are not quantified."
         },
         {
           "label": "Valid and Reliable Measurement of Confounders",
           "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
           "rating": "Partial",
-          "evidence_snippet": "retrospectively recorded in a standardized form",
-          "reasoning": "Reliability is limited by the retrospective nature of the data collection for clinical history (e.g., family history)."
+          "evidence_snippet": "retrospectively recorded in a standardized form.",
+          "reasoning": "Reliability is limited by the retrospective nature of the data collection."
         },
         {
           "label": "Method and Setting of Confounding Measurement",
           "prompt": "The method and setting of confounding measurement are the same for all study participants.",
           "rating": "Yes",
           "evidence_snippet": "The data... were retrospectively recorded in a standardized form.",
-          "reasoning": "A standardized form was used for all participants."
+          "reasoning": "A standardized form suggests uniform data collection across the sample."
         },
         {
           "label": "Method used for missing data",
           "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
-          "rating": "Yes",
+          "rating": "Unsure",
           "evidence_snippet": "Not found in text",
-          "reasoning": "No imputation was mentioned; missing data (like MRI) were simply reported as such."
+          "reasoning": "No mention of missing data handling or imputation."
         },
         {
           "label": "Appropriate Accounting for Confounding",
           "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
           "rating": "No",
           "evidence_snippet": "The patients were grouped according to their response to treatment, and these subgroups were compared",
-          "reasoning": "The study did not use matching or stratification in the design to control for confounders."
+          "reasoning": "The study did not use matching or stratification in its design to control for confounding."
         },
         {
           "label": "",
           "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
           "rating": "No",
           "evidence_snippet": "The Chi-square test was used to compare the differences in the categorical variables between the groups.",
-          "reasoning": "The analysis relied on univariable tests (Chi-square/Fisher exact). No multivariable regression was performed to adjust for confounders like family history or focal EEG findings."
+          "reasoning": "The analysis is limited to univariable tests. No multivariable regression was performed to adjust for confounding factors."
         }
-      ],
-      "risk_of_bias_assessment": {
-        "label": "Study Confounding Summary",
-        "prompt": "Important potential confounders are appropriately accounted for, limiting potential bias with respect to the relationship between PF and outcome.",
-        "response_options": [
-          "High",
-          "Moderate",
-          "Low"
-        ]
-      }
+      ]
     },
     {
       "domain_number": 6,
       "domain_name": "Statistical Analysis and Reporting",
       "risk_of_bias": "Moderate",
-      "risk_reasoning": "The statistical analysis is limited to univariable comparisons. While appropriate for the small sample size, it limits the ability to determine the independent prognostic value of ECS. Reporting is transparent regarding the findings.",
+      "risk_reasoning": "The analysis is straightforward but limited to univariable comparisons. While results are reported transparently, the lack of a multivariable model limits the strength of the prognostic conclusions.",
       "items": [
         {
           "label": "Presentation of analytical strategy",
           "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
           "rating": "Yes",
           "evidence_snippet": "The Chi-square test was used to compare the differences in the categorical variables between the groups. The SPSS 17.0 statistical software was used",
-          "reasoning": "The analytical plan is clearly stated."
+          "reasoning": "The statistical methods are clearly stated."
         },
         {
           "label": "Model development strategy",
           "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
           "rating": "No",
           "evidence_snippet": "Not found in text",
-          "reasoning": "No multivariable model was built."
+          "reasoning": "There was no multivariable model building strategy described."
         },
         {
           "label": "",
           "prompt": "The selected statistical model is adequate for the design of the study.",
           "rating": "Partial",
           "evidence_snippet": "The Chi-square test was used to compare the differences",
-          "reasoning": "Univariable tests are adequate for descriptive purposes but insufficient for prognostic modeling where multiple factors interact."
+          "reasoning": "Chi-square is appropriate for comparing proportions but inadequate for determining independent prognostic value in the presence of multiple variables."
         },
         {
           "label": "Reporting of results",
           "prompt": "There is no selective reporting of results.",
           "rating": "Yes",
           "evidence_snippet": "Table 1 shows the clinical and EEG findings in the study groups.",
-          "reasoning": "The authors report results for all measured variables, including those that were not statistically significant."
+          "reasoning": "The authors report on all variables mentioned in the methods, including non-significant findings for the primary factor of interest (ECS)."
         }
-      ],
-      "risk_of_bias_assessment": {
-        "label": "Statistical Analysis and Presentation Summary",
-        "prompt": "The statistical analysis is appropriate for the design of the study, limiting potential for presentation of invalid or spurious results.",
-        "response_options": [
-          "High",
-          "Moderate",
-          "Low"
-        ]
-      }
+      ]
     }
   ],
   "processing_metadata": {
     "source_file": "data_md_converted/1_Giuliano_2021/Guveli_2013.md",
     "model": "google/gemini-3-flash-preview",
-    "processed_at": "2026-01-02T12:59:36.602690"
+    "processed_at": "2026-01-05T11:13:35.713553"
   }
 }

@@ -1,0 +1,332 @@
+{
+  "paper_metadata": {
+    "title": "Long-Term Cognitive Improvement After Functional Hemispherectomy",
+    "first_author": "Xiao-Peng Qu",
+    "year": "2020",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study provides a clear description of the source population and inclusion/exclusion criteria. However, the final sample (n=23) is a small subset of the total eligible pool (n=61), and the exclusion of 24 patients due to age/assessment difficulty may introduce selection bias toward higher-functioning individuals.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Twenty-three patients from the patient follow-up database of the Epilepsy Center of Neurosurgery were selected for this retrospective study.",
+          "reasoning": "The source (Epilepsy Center database) and key characteristics (intractable epilepsy, hemispheric lesions) are defined."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Partial",
+          "evidence_snippet": "Since 2000, a total of 263 patients have undergone preoperative evaluations and epilepsy surgery at our research center, of whom 61 patients underwent functional hemispherectomies.",
+          "reasoning": "While the flow from 263 to 23 patients is described, the retrospective selection from a single center's database may not fully account for referral bias."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "Since 2000, a total of 263 patients have undergone preoperative evaluations...",
+          "reasoning": "The start date is provided, and the study was received in 2019, implying a nearly 20-year recruitment window."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location) are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "Department of Neurosurgery and Institute for Functional Brain Disorders, Tangdu Hospital, Fourth Military Medical University, Xi'an, China",
+          "reasoning": "The specific hospital and department are clearly identified."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "The inclusion criteria of the patients were functional hemispherectomy surgery, surgical age older than 6 years, patients able to complete the intelligence assessment, follow-up time not less than 2 years...",
+          "reasoning": "Criteria are explicit, including age, surgical type, and follow-up duration."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "In the end, 23 patients were included in the study... 38 cases did not meet the following inclusion criteria",
+          "reasoning": "Only 37% (23/61) of the hemispherectomy patients were included. The exclusion of 24 patients because they were 'younger and had inaccurate cognitive assessments' might bias the sample toward a specific subset of the population."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "The mean age at epilepsy onset was 6.1 ± 5.4 years... The mean age at hemispherectomy surgery was 15.7 ± 6.1 years... 11 females.",
+          "reasoning": "Table 2 and the results section provide detailed baseline data including age, sex, pathology, and seizure frequency."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study accounts for the flow of patients from the initial cohort to the final analysis. While 6 patients were excluded for 'insufficient follow-up data,' the reasons for exclusion are stated, and the remaining cohort had a 100% completion rate for the primary outcome (FSIQ).",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "In the end, 23 patients were included in the study... and availability of complete preoperative evaluation and postoperative follow-up data.",
+          "reasoning": "All 23 patients included in the final analysis had complete data for the primary outcome."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The study does not describe attempts to contact or retrieve data for the 6 patients excluded due to insufficient data."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Yes",
+          "evidence_snippet": "the follow-up time in 8 patients was less than 2 years, and the follow-up data in 6 patients were insufficient.",
+          "reasoning": "Reasons for exclusion from the final analysis are explicitly listed."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The characteristics of the 14 patients (8 + 6) excluded for follow-up reasons are not compared to the included cohort."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is no statistical comparison between the included 23 patients and the excluded 38 patients to rule out attrition bias."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Attrition Summary",
+        "prompt": "Loss to follow-up (from baseline sample to study population analyzed) is not associated with key characteristics (i.e., the study data adequately represent the sample) sufficient to limit potential bias to the observed relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The prognostic factors (age of onset, duration, EEG spikes, seizure status) are standard clinical metrics. They were measured using objective tools (EEG, clinical records) and are clearly defined.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "risk factors (age at epilepsy onset, duration of preoperative epilepsy, postoperative changes in the electroencephalogram, seizure status after surgery, and followup time) were analyzed.",
+          "reasoning": "The prognostic factors are clearly listed and defined in the methods and Table 3."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "The seizure outcomes were classified according to the International League Against Epilepsy criteria... 24-hour EEG",
+          "reasoning": "Standardized ILAE criteria and objective 24-hour EEG monitoring were used."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Partial",
+          "evidence_snippet": "Age at epilepsy onset, years... ≤1, >1; Duration of epilepsy, years... ≤5, >5",
+          "reasoning": "Cut-points were used for analysis (e.g., 1 year for onset, 5 years for duration), but it is not explicitly stated if these were pre-specified or data-driven."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Preoperative evaluations followed the standard protocol... All surgeries were performed by one neurosurgeon using the same technique",
+          "reasoning": "Standardized protocols and a single surgeon ensure consistency in measurement and intervention."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "availability of complete preoperative evaluation and postoperative follow-up data.",
+          "reasoning": "Completeness of data was an inclusion criterion."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Imputation was not used; patients with missing data were excluded."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "PF Measurement Summary",
+        "prompt": "PF is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The outcome (FSIQ) was measured using internationally recognized, validated scales (Wechsler) administered by professional researchers, minimizing measurement bias.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "Full Scale Intelligence Quotients (FSIQ) were calculated preoperatively and at the follow-up times for each patient.",
+          "reasoning": "FSIQ is a well-defined construct for cognitive function."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "The children group (14/23) and the adult group (9/23) were tested by the Wechsler Intelligence Scale for Children and the Wechsler Adult Intelligence Scale, respectively.",
+          "reasoning": "The Wechsler scales are the gold standard for IQ measurement."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Each participant was individually tested by a professional researcher.",
+          "reasoning": "The testing environment and administration were standardized."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Outcome Measurement Summary",
+        "prompt": "Outcome of interest is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "High",
+      "risk_reasoning": "The study relies on univariable analyses (Wilcoxon signed-rank and rank-sum tests) to identify predictors. It does not perform multivariable adjustment to account for the interplay between confounders (e.g., age at surgery vs. duration of epilepsy), which is a significant source of bias in prognosis studies.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Partial",
+          "evidence_snippet": "age at epilepsy onset, duration of preoperative epilepsy, postoperative changes in the electroencephalogram, seizure status after surgery, and followup time",
+          "reasoning": "Key clinical variables were measured, but others like 'adverse effects of antiepileptic drugs' mentioned in the intro were not explicitly adjusted for in the analysis."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "The mean duration of preoperative seizures was 9.57 ± 6.8 years... age at surgery was more than 6 years",
+          "reasoning": "Confounders are defined in standard units (years)."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Preoperative evaluations followed the standard protocol, which included neurologic, ophthalmologic, neuropsychologic assessment...",
+          "reasoning": "Confounders were measured using standard clinical protocols."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "All surgeries were performed by one neurosurgeon using the same technique",
+          "reasoning": "Consistency in treatment and setting was maintained."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No imputation was performed."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The study did not use matching or stratification in its design."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "No",
+          "evidence_snippet": "used the matching sample Wilcoxon symbol rank and test to conduct the analysis.",
+          "reasoning": "The study only used univariable non-parametric tests. No multivariable regression was performed to adjust for confounding."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Confounding Summary",
+        "prompt": "Important potential confounders are appropriately accounted for, limiting potential bias with respect to the relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The statistical methods are appropriate for the small sample size (non-parametric tests), but the lack of a multivariable model and the small N limit the robustness of the prognostic findings. Reporting is generally transparent regarding the results found.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "The FSIQ differences before and after the surgery were analyzed by the paired sample Wilcoxon signed-rank sum test.",
+          "reasoning": "The strategy is clearly stated."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There was no 'model building' (e.g., regression); only individual variable testing."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Partial",
+          "evidence_snippet": "SPSS 22.0 software was used for data collation and analysis, and used the matching sample Wilcoxon symbol rank and test",
+          "reasoning": "Wilcoxon tests are appropriate for small, non-normal samples, but insufficient for prognostic factor identification which requires adjustment."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "The detailed changes in FSIQ of the patients before and after functional hemispherectomy are listed in Table 2.",
+          "reasoning": "Individual patient data are provided in Table 2, which enhances transparency."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Statistical Analysis and Presentation Summary",
+        "prompt": "The statistical analysis is appropriate for the design of the study, limiting potential for presentation of invalid or spurious results.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/3_Arfaie_2023/Qu_2020.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-01-05T11:09:23.791777"
+  }
+}

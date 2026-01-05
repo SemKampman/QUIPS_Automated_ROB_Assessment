@@ -1,0 +1,287 @@
+{
+  "paper_metadata": {
+    "title": "Refractory epilepsy in a Chinese population",
+    "first_author": "Andrew C.F. Hui",
+    "year": "2007",
+    "analysis_timestamp": "2023-10-27 10:00:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study uses a consecutive, unselected sample from a regional hospital neurology clinic, which is well-described. However, as the authors acknowledge, hospital-based samples are subject to referral bias, potentially over-representing refractory cases compared to the general population. Baseline characteristics are provided, but the participation rate of eligible individuals is not explicitly stated.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "unselected patients over the age of 14 years with epilepsy from a Neurology clinic at a regional hospital, the Prince of Wales hospital in Hong Kong, China that caters for a population of 800,000.",
+          "reasoning": "The source population and its geographic/demographic context (Hong Kong, 97% ethnic Chinese) are clearly defined."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "Cases were referred to this institution from a number of different sources: primary care physicians, other hospital departments and the accident and emergency unit.",
+          "reasoning": "The recruitment pathways are explicitly listed, providing transparency on how patients entered the cohort."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "Patient data had been collected from a registry since 1997 [5].",
+          "reasoning": "The start date of the registry is provided, and the study was received for publication in early 2007."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "Neurology clinic at a regional hospital, the Prince of Wales hospital in Hong Kong, China",
+          "reasoning": "The specific clinical setting and hospital are named."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "Cases with single unprovoked seizures and situation-related seizures were excluded, as were those with a diagnosis other than epilepsy such as psychogenic seizures.",
+          "reasoning": "The study provides clear exclusion criteria and uses ILAE classifications for inclusion."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not provide the total number of eligible patients vs. those who consented/participated, making it impossible to calculate a participation rate."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "The series comprised 260 patients, 127 (49%) men and 133 (51%) women with a mean age of 34 years (range 15–79 years).",
+          "reasoning": "Table 1 and the results section provide a comprehensive breakdown of age, gender, aetiology, and syndrome."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study reports a mean follow-up of 7 years and provides outcome data for the full cohort of 260 patients. While specific details on dropouts are missing, the long-term follow-up and the use of a registry suggest high data retention for the primary outcome.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "The series comprised 260 patients... At the time of analysis 157 (60%) patients were in remission",
+          "reasoning": "The analysis includes the full sample of 260 patients described in the methods."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is no mention of patients who were lost to follow-up or how they were handled."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text does not discuss loss to follow-up."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No data provided for lost participants."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Since dropouts are not reported, a comparison between completers and non-completers is absent."
+        }
+      ]
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "Prognostic factors (MTS, mental retardation, etc.) were measured using standardized ILAE criteria and high-resolution MRI. The use of a single neurologist for data entry and a radiologist for MRI review ensures consistency.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "Epilepsy syndrome was classified as idiopathic, symptomatic, or cryptogenic, using electroclinical criteria as defined by the ILAE classification",
+          "reasoning": "The study uses internationally recognized ILAE definitions for the prognostic factors."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "MRI of the brain was performed using a high resolution 1.5 T Philips Gyroscan ACS-NT... MR films were interpreted and reviewed by a neurologist and a radiologist.",
+          "reasoning": "The use of high-resolution MRI and dual-specialist review (neurologist and radiologist) provides high reliability."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "Continuous data were compared using independent t-tests.",
+          "reasoning": "Age and number of drugs are treated appropriately as continuous or categorical variables without arbitrary post-hoc cut-points."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Relevant information was entered into a database by a single neurologist",
+          "reasoning": "Consistency is maintained by having a single clinician record the data for the registry."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "All patients with cryptogenic and localization-related epilepsies had cranial MRI performed except for those with severe mental retardation, claustrophobia or contraindication",
+          "reasoning": "The study accounts for almost all patients, using CT as a valid alternative when MRI was not possible."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Imputation was not mentioned; however, the dataset appears largely complete."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The outcome (refractory epilepsy) is clearly defined based on established clinical criteria (failure of 2 AEDs). Measurement was performed prospectively during routine clinic visits, which is standard for this type of study.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "Refractory epilepsy was defined as the presence of one or more seizures despite the use of two appropriate AEDs.",
+          "reasoning": "The definition is explicit and follows common clinical standards."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "at each visit, seizure frequency, response to drug therapy and compliance were routinely recorded.",
+          "reasoning": "Prospective recording of seizure frequency during clinical follow-up is the standard method for determining refractory status."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "In our clinic at each visit, seizure frequency, response to drug therapy and compliance were routinely recorded.",
+          "reasoning": "All patients were followed in the same neurology clinic using the same recording protocol."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study uses multivariable logistic regression to adjust for several key factors (age, sex, aetiology, mental retardation). However, the authors admit they could not accurately measure the number of seizures prior to treatment, which is a known major confounder in epilepsy prognosis.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Partial",
+          "evidence_snippet": "we were unable in all cases to determine accurately the number of seizures before treatment was started and therefore did not incorporate this variable into the analysis.",
+          "reasoning": "While age, sex, and aetiology were measured, a critical prognostic factor (pre-treatment seizure frequency) was omitted."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "Age, sex, epilepsy syndrome classification, aetiology, presence of mental retardation and the number of drugs used were compared",
+          "reasoning": "The variables used in the model are clearly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Relevant information was entered into a database by a single neurologist",
+          "reasoning": "The use of a single neurologist and standardized MRI protocols supports reliable measurement of confounders like MTS."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Relevant information was entered into a database by a single neurologist",
+          "reasoning": "Data collection was uniform across the cohort."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No imputation methods described."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "No",
+          "evidence_snippet": "We prospectively evaluated unselected patients",
+          "reasoning": "The study design was a prospective cohort; confounding was handled via analysis rather than design (e.g., no matching)."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "Significant variables in the univariate analyses were then submitted to a multivariate binomial logistic model",
+          "reasoning": "Multivariable adjustment was performed for the factors that were successfully measured."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical methods are appropriate for the study design. The use of univariate followed by multivariate logistic regression is standard. Results are reported transparently with Odds Ratios and Confidence Intervals.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Categorical data were analyzed using the -2-test; Fisher's Exact Method was used... Continuous data were compared using independent t-tests.",
+          "reasoning": "The analytical steps are clearly laid out."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "Significant variables in the univariate analyses were then submitted to a multivariate binomial logistic model",
+          "reasoning": "The strategy of screening variables via univariate analysis before multivariable modeling is a standard approach."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "Multivariate binomial logistic regression analysis showed that among the factors analysed...",
+          "reasoning": "Logistic regression is appropriate for the binary outcome (refractory vs. seizure-free)."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1 and Table 2",
+          "reasoning": "The tables provide both univariate and multivariate results for all variables considered, suggesting no selective reporting of only 'significant' findings."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/4_Wassenaar_2019/Hui_2007.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-01-05T11:11:11.323655"
+  }
+}

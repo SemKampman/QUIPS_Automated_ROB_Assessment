@@ -10,56 +10,56 @@
       "domain_number": 1,
       "domain_name": "Study Participation",
       "risk_of_bias": "Moderate",
-      "risk_reasoning": "The study clearly defines the source population and inclusion/exclusion criteria. However, it is a single-center study at a specialized reference center, which may introduce selection bias as patients at tertiary centers often have more severe disease than the general population. The participation rate of eligible individuals from the initial cohort is not fully transparent.",
+      "risk_reasoning": "The study provides a clear description of the inclusion/exclusion criteria and the recruitment setting (a specialized epilepsy center). However, it is a retrospective study using a convenience sample from a single tertiary center, which may not represent the general population of patients with JME. The participation rate of eligible individuals from the initial cohort is not explicitly detailed, though the final sample size is clear.",
       "items": [
         {
           "label": "Source of target population",
           "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
           "rating": "Yes",
-          "evidence_snippet": "pacientes con diagnóstico de epilepsia generalizada, atendidos entre diciembre de 2014 y noviembre de 2016, y tratados como mínimo durante un año por neurólogos especialistas en epilepsia del Instituto Neurológico de Colombia",
-          "reasoning": "The source population is clearly defined as patients from a specific neurological institute in Medellín, Colombia."
+          "evidence_snippet": "pacientes mayores de 14 años con diagnóstico de epilepsia mioclónica juvenil, con 12 meses de seguimiento en un programa de epilepsia",
+          "reasoning": "The target population is clearly defined by age, diagnosis, and follow-up duration."
         },
         {
           "label": "Method used to identify population",
           "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
-          "rating": "Partial",
-          "evidence_snippet": "Estudio de cohortes retrospectivo, donde se examinó un archivo de registros de pacientes con diagnóstico de epilepsia generalizada",
-          "reasoning": "While the source is clear, the retrospective nature and the use of a 'macro project' database suggest a convenience sample from existing records rather than consecutive recruitment."
+          "rating": "Yes",
+          "evidence_snippet": "se examinó un archivo de registros de pacientes con diagnóstico de epilepsia generalizada... tratados como mínimo durante un año por neurólogos especialistas en epilepsia del Instituto Neurológico de Colombia",
+          "reasoning": "The recruitment from a specific institutional registry and the role of the center as a reference point are described."
         },
         {
           "label": "Recruitment period",
           "prompt": "Period of recruitment is adequately described",
           "rating": "Yes",
           "evidence_snippet": "atendidos entre diciembre de 2014 y noviembre de 2016",
-          "reasoning": "The dates for patient inclusion are explicitly stated."
+          "reasoning": "The dates for the recruitment/data collection period are explicitly stated."
         },
         {
           "label": "Place of recruitment",
-          "prompt": "Place of recruitment (setting and geographic location) are adequately described",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
           "rating": "Yes",
           "evidence_snippet": "Instituto Neurológico de Colombia, centro especializado en entidades neuroquirúrgicas... en la ciudad de Medellín, Colombia",
-          "reasoning": "The specific institution and city are provided."
+          "reasoning": "The specific institution and city are identified."
         },
         {
           "label": "Inclusion and exclusion criteria",
           "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
           "rating": "Yes",
           "evidence_snippet": "Los criterios de inclusión fueron: diagnóstico clínico y electroencefalográfico de EMJ, edad mayor de 14 años, ausencia de lesión neurológica por historia clínica y neuroimagen, seguimiento al menos durante 12 meses... criterio de exclusión se tuvo en cuenta el estado de embarazo",
-          "reasoning": "Criteria are specific, including age, diagnostic methods, and follow-up duration."
+          "reasoning": "Detailed clinical and demographic criteria are provided."
         },
         {
           "label": "Adequate study participation",
           "prompt": "There is adequate participation in the study by eligible individuals",
-          "rating": "Partial",
+          "rating": "Unsure",
           "evidence_snippet": "De la cohorte inicial correspondiente a 762 pacientes con epilepsia, 145 pacientes tenían diagnóstico de epilepsia mioclónica juvenil y cumplieron con los criterios de selección.",
-          "reasoning": "It is unclear how many of the 762 patients had EMJ but were excluded due to missing data or lack of follow-up, which could bias the sample."
+          "reasoning": "While the flow is mentioned, the text does not specify how many of the 145 eligible JME patients were excluded due to missing data versus other reasons, making it hard to judge if participation was 'adequate' or biased."
         },
         {
           "label": "Baseline characteristics",
           "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
           "rating": "Yes",
-          "evidence_snippet": "Se tomaron datos como sexo, edad, escolaridad, estrato socioeconómico, número de crisis por mes en el ingreso al programa... edad de inicio de las crisis, presencia de factores precipitantes",
-          "reasoning": "Table I and the text provide a comprehensive list of baseline sociodemographic and clinical variables."
+          "evidence_snippet": "Se tomaron datos como sexo, edad, escolaridad, estrato socioeconómico, número de crisis por mes en el ingreso al programa... edad de inicio de las crisis, presencia de factores precipitantes...",
+          "reasoning": "Table I and the text provide a comprehensive list of baseline characteristics."
         }
       ]
     },
@@ -67,28 +67,28 @@
       "domain_number": 2,
       "domain_name": "Study Attrition",
       "risk_of_bias": "Moderate",
-      "risk_reasoning": "The study requires a 12-month follow-up for inclusion, which inherently excludes those lost to follow-up early. The authors admit that many patients were excluded due to incomplete information or insufficient follow-up, but they do not provide a flow diagram or comparison between included and excluded patients.",
+      "risk_reasoning": "The study requires a 12-month follow-up for inclusion, which inherently excludes those lost to follow-up early. The authors acknowledge that many patients were excluded due to incomplete information or insufficient follow-up, but they do not provide a comparison between those included and those excluded, raising a risk of attrition bias.",
       "items": [
         {
           "label": "Proportion of baseline sample available for analysis",
           "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
           "rating": "Partial",
-          "evidence_snippet": "muchos no fueron incluidos en el análisis por no tener la información completa y necesaria para ingresar, o no tener el seguimiento suficiente dentro del programa de epilepsia (12 meses)",
-          "reasoning": "The authors acknowledge significant exclusions but do not quantify the exact number of eligible patients lost."
+          "evidence_snippet": "muchos no fueron incluidos en el análisis por no tener la información completa y necesaria para ingresar, o no tener el seguimiento suficiente",
+          "reasoning": "The authors admit to significant exclusions due to missing data, but the exact proportion of the original eligible JME cohort that was lost is not quantified."
         },
         {
           "label": "Attempts to collect information on participants who dropped out",
           "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
           "rating": "No",
           "evidence_snippet": "Not found in text",
-          "reasoning": "As a retrospective registry study, there were no active attempts to recover data for those with incomplete records."
+          "reasoning": "As a retrospective registry study, there is no mention of attempts to contact or recover data for those with incomplete records."
         },
         {
           "label": "Reasons and potential impact of subjects lost to follow-up",
           "prompt": "Reasons for loss to follow-up are provided.",
           "rating": "Partial",
-          "evidence_snippet": "no tener la información completa... o no tener el seguimiento suficiente",
-          "reasoning": "General reasons are given (missing data/follow-up), but not specific clinical or social reasons for individual dropouts."
+          "evidence_snippet": "por no tener la información completa... o no tener el seguimiento suficiente dentro del programa de epilepsia (12 meses)",
+          "reasoning": "General reasons (missing data/short follow-up) are given, but not specific clinical or social reasons for individual dropouts."
         },
         {
           "label": "Outcome and prognostic factor information on those lost to follow-up",
@@ -102,31 +102,22 @@
           "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
           "rating": "Unsure",
           "evidence_snippet": "Not found in text",
-          "reasoning": "The data to make this comparison is not provided in the manuscript."
+          "reasoning": "The study does not provide the data necessary to determine if the analyzed sample is biased compared to the excluded patients."
         }
-      ],
-      "risk_of_bias_assessment": {
-        "label": "Study Attrition Summary",
-        "prompt": "Loss to follow-up (from baseline sample to study population analyzed) is not associated with key characteristics (i.e., the study data adequately represent the sample) sufficient to limit potential bias to the observed relationship between PF and outcome.",
-        "response_options": [
-          "High",
-          "Moderate",
-          "Low"
-        ]
-      }
+      ]
     },
     {
       "domain_number": 3,
       "domain_name": "Prognostic Factor Measurement",
       "risk_of_bias": "Low",
-      "risk_reasoning": "The prognostic factors (clinical and psychosocial) were measured using standardized clinical histories and a specific institutional survey. While the survey is unique to the center, the definitions are clear and applied consistently to all participants.",
+      "risk_reasoning": "The prognostic factors (clinical and psychosocial) were measured using standardized clinical histories and a specific institutional survey. While the survey is unique to the center, the definitions are clearly operationalized.",
       "items": [
         {
           "label": "Definition of the PF",
           "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
           "rating": "Yes",
-          "evidence_snippet": "Se compone de preguntas de respuesta dicotómica y evalúa aspectos que se definieron como riesgos para no lograr el control de crisis... Educativo, Económico, Ausencia de soporte familiar, Comorbilidades, Plan de salud, Acceso a medicamentos, Contexto domiciliario, Actitudes personales.",
-          "reasoning": "The authors provide detailed definitions for each psychosocial factor evaluated in their survey."
+          "evidence_snippet": "Se compone de preguntas de respuesta dicotómica y evalúa aspectos que se definieron como riesgos... Educativo, Económico, Ausencia de soporte familiar, Comorbilidades médicas, Plan de salud, Acceso a medicamentos, Contexto domiciliario, Actitudes personales.",
+          "reasoning": "The psychosocial factors are explicitly defined in the 'Pacientes y métodos' section."
         },
         {
           "label": "Valid and Reliable Measurement of PF",
@@ -147,44 +138,35 @@
           "prompt": "The method and setting of measurement of PF is the same for all study participants.",
           "rating": "Yes",
           "evidence_snippet": "La encuesta para la valoración de condicionantes para la recaída se realizó durante el ingreso del paciente en el proceso de atención clínico",
-          "reasoning": "All patients were assessed using the same protocol at the time of entry into the program."
+          "reasoning": "All patients underwent the same standardized intake process."
         },
         {
           "label": "Proportion of data on PF available for analysis",
           "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
           "rating": "Yes",
           "evidence_snippet": "145 pacientes... cumplieron con los criterios de selección.",
-          "reasoning": "The final sample only included those with complete data for the variables of interest."
+          "reasoning": "The final sample only included those with complete data for the analyzed factors."
         },
         {
           "label": "Method used for missing data",
           "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
           "rating": "No",
-          "evidence_snippet": "Not found in text",
-          "reasoning": "The study used complete case analysis; no imputation methods were described."
+          "evidence_snippet": "muchos no fueron incluidos en el análisis por no tener la información completa",
+          "reasoning": "The study used complete-case analysis (exclusion) rather than imputation."
         }
-      ],
-      "risk_of_bias_assessment": {
-        "label": "PF Measurement Summary",
-        "prompt": "PF is adequately measured in study participants to sufficiently limit potential bias.",
-        "response_options": [
-          "High",
-          "Moderate",
-          "Low"
-        ]
-      }
+      ]
     },
     {
       "domain_number": 4,
       "domain_name": "Outcome Measurement",
       "risk_of_bias": "Low",
-      "risk_reasoning": "The outcome (seizure control) is defined based on international ILAE standards and was assessed by specialists (epileptologists), which minimizes measurement bias.",
+      "risk_reasoning": "The outcome (seizure control) is defined based on international ILAE standards and was assessed by specialists, which minimizes measurement bias.",
       "items": [
         {
           "label": "Definition of the Outcome",
           "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
           "rating": "Yes",
-          "evidence_snippet": "control de crisis se definió como el paciente que no presentaba crisis una vez que se ha iniciado el tratamiento, cumpliendo un período de por lo menos tres veces el período intercrisis promedio de dicho paciente o un año tras el inicio del tratamiento",
+          "evidence_snippet": "control de crisis se definió como el paciente que no presentaba crisis una vez que se ha iniciado el tratamiento, cumpliendo un período de por lo menos tres veces el período intercrisis promedio de dicho paciente o un año",
           "reasoning": "The definition follows ILAE guidelines and specifies the timeframe."
         },
         {
@@ -192,59 +174,50 @@
           "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
           "rating": "Yes",
           "evidence_snippet": "Los pacientes fueron evaluados por epileptólogos, que se encargaron de otorgar el diagnóstico.",
-          "reasoning": "Outcome assessment by sub-specialists in a specialized center is considered a reliable method."
+          "reasoning": "Outcome assessment by specialists using standardized clinical records is a reliable method in this context."
         },
         {
           "label": "Method and Setting of Outcome Measurement",
           "prompt": "The method and setting of outcome measurement is the same for all study participants.",
           "rating": "Yes",
           "evidence_snippet": "Los datos se recogieron, de forma retrospectiva, a partir de dos fuentes de información secundaria del programa de epilepsia: la historia clínica estandarizada",
-          "reasoning": "All outcomes were extracted from the same standardized clinical records."
+          "reasoning": "The same clinical records and criteria were applied to all patients in the cohort."
         }
-      ],
-      "risk_of_bias_assessment": {
-        "label": "Outcome Measurement Summary",
-        "prompt": "Outcome of interest is adequately measured in study participants to sufficiently limit potential bias.",
-        "response_options": [
-          "High",
-          "Moderate",
-          "Low"
-        ]
-      }
+      ]
     },
     {
       "domain_number": 5,
       "domain_name": "Study Confounding",
       "risk_of_bias": "Moderate",
-      "risk_reasoning": "The study uses multivariable logistic regression to adjust for confounders. However, the authors admit that certain clinical variables (like specific AED treatments or EEG findings) were not included in the model due to the retrospective nature of the data, which could leave residual confounding.",
+      "risk_reasoning": "The study uses multivariable regression to adjust for several factors. However, important clinical confounders like the specific type of anti-epileptic drug (AED) used or dosage were not included in the model due to the retrospective nature of the data.",
       "items": [
         {
           "label": "Important Confounders Measured",
           "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
           "rating": "Partial",
-          "evidence_snippet": "variables que no pudieron tenerse en cuenta debido a la recogida de datos retrospectiva, como el tratamiento médico, la subclasificación de cada una de las crisis y los datos electroencefalográficos",
-          "reasoning": "The authors explicitly state that medication type and EEG data were missing, which are critical confounders in epilepsy prognosis."
+          "evidence_snippet": "variables que no pudieron tenerse en cuenta debido a la recogida de datos retrospectiva, como el tratamiento médico",
+          "reasoning": "The authors explicitly state that the specific medical treatment was not accounted for, which is a major potential confounder in seizure control."
         },
         {
           "label": "Definition of the confounding factor",
           "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
           "rating": "Yes",
           "evidence_snippet": "Se tomaron datos como sexo, edad, escolaridad, estrato socioeconómico... antecedentes psiquiátricos... antecedentes familiares",
-          "reasoning": "The variables that were measured are well-defined in the methods section."
+          "reasoning": "The variables that were measured are well-defined."
         },
         {
           "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
           "rating": "Yes",
           "evidence_snippet": "historia clínica estandarizada para epilepsia",
-          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
-          "reasoning": "Standardized clinical records in a specialized center provide reliable data for the variables captured."
+          "reasoning": "Confounders were extracted from standardized medical records."
         },
         {
           "label": "Method and Setting of Confounding Measurement",
           "prompt": "The method and setting of confounding measurement are the same for all study participants.",
           "rating": "Yes",
-          "evidence_snippet": "Todas las variables... se tomaron a partir de las definiciones estandarizadas por el grupo de epilepsia",
-          "reasoning": "Consistency in data collection is maintained across the cohort."
+          "evidence_snippet": "fuentes de información secundaria del programa de epilepsia",
+          "reasoning": "All data came from the same institutional source."
         },
         {
           "label": "Method used for missing data",
@@ -258,75 +231,57 @@
           "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
           "rating": "No",
           "evidence_snippet": "Estudio de cohortes retrospectivo",
-          "reasoning": "The design was purely observational without matching or stratification."
+          "reasoning": "The design did not include matching or stratification to control for confounding at the start."
         },
         {
           "label": "",
           "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
           "rating": "Yes",
           "evidence_snippet": "El análisis multivariado se efectuó mediante una regresión logística binaria",
-          "reasoning": "Multivariable adjustment was performed using appropriate statistical techniques."
+          "reasoning": "Multivariable adjustment was used to control for the variables available in the dataset."
         }
-      ],
-      "risk_of_bias_assessment": {
-        "label": "Study Confounding Summary",
-        "prompt": "Important potential confounders are appropriately accounted for, limiting potential bias with respect to the relationship between PF and outcome.",
-        "response_options": [
-          "High",
-          "Moderate",
-          "Low"
-        ]
-      }
+      ]
     },
     {
       "domain_number": 6,
       "domain_name": "Statistical Analysis and Reporting",
       "risk_of_bias": "Low",
-      "risk_reasoning": "The statistical methods are appropriate for the study design. The authors report both crude and adjusted ORs and provide a measure of the model's explanatory power (40%). There is no obvious evidence of selective reporting.",
+      "risk_reasoning": "The statistical methods are appropriate for the study design. The use of the Hosmer-Lemeshow criterion for variable selection and the reporting of ORs with CIs are standard. The authors are transparent about the limitations of their model (explaining 40% of the variance).",
       "items": [
         {
           "label": "Presentation of analytical strategy",
           "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
           "rating": "Yes",
-          "evidence_snippet": "Se realizó un análisis bivariado y multivariado mediante regresión logística binaria... criterio de Hosmer y Lemeshow (p < 0,25)",
-          "reasoning": "The strategy for variable selection and model building is clearly described."
+          "evidence_snippet": "Se realizó un análisis bivariado y multivariado mediante regresión logística binaria... programa SPSS v. 21.0.",
+          "reasoning": "The analytical steps and software are clearly described."
         },
         {
           "label": "Model development strategy",
           "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
           "rating": "Yes",
-          "evidence_snippet": "para la selección de las variables candidatas de ingreso al modelo se tuvo en cuenta el criterio de Hosmer y Lemeshow",
-          "reasoning": "A standard statistical threshold was used to select variables for the multivariable model."
+          "evidence_snippet": "para la selección de las variables candidatas de ingreso al modelo se tuvo en cuenta el criterio de Hosmer y Lemeshow (p < 0,25).",
+          "reasoning": "A standard statistical criterion was used for variable selection in the multivariable model."
         },
         {
           "label": "",
           "prompt": "The selected statistical model is adequate for the design of the study.",
           "rating": "Yes",
           "evidence_snippet": "regresión logística binaria",
-          "reasoning": "Logistic regression is appropriate for a binary outcome (control vs. no control)."
+          "reasoning": "Binary logistic regression is appropriate for a dichotomous outcome (control vs. no control)."
         },
         {
           "label": "Reporting of results",
           "prompt": "There is no selective reporting of results.",
           "rating": "Yes",
           "evidence_snippet": "Los resultados se presentaron mediante OR ajustadas con IC 95% y su valor p.",
-          "reasoning": "The authors report results for all variables included in the analysis, including those that lost significance in the multivariable model."
+          "reasoning": "The study reports results for all variables tested in the bivariate analysis and those included in the final model."
         }
-      ],
-      "risk_of_bias_assessment": {
-        "label": "Statistical Analysis and Presentation Summary",
-        "prompt": "The statistical analysis is appropriate for the design of the study, limiting potential for presentation of invalid or spurious results.",
-        "response_options": [
-          "High",
-          "Moderate",
-          "Low"
-        ]
-      }
+      ]
     }
   ],
   "processing_metadata": {
     "source_file": "data_md_converted/1_Giuliano_2021/Sanchez-Zapata_2019.md",
     "model": "google/gemini-3-flash-preview",
-    "processed_at": "2026-01-02T12:57:08.044820"
+    "processed_at": "2026-01-05T11:11:09.256472"
   }
 }

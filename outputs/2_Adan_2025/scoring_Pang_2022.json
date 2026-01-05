@@ -1,0 +1,332 @@
+{
+  "paper_metadata": {
+    "title": "Identification and Characterization of Pure Sleep Epilepsy in a Cohort of Patients With a First Seizure",
+    "first_author": "Elaine Pang",
+    "year": "2022",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study used a prospective, consecutive recruitment strategy from a specialized first-seizure clinic. The population is well-defined with clear inclusion/exclusion criteria and baseline characteristics are thoroughly reported.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "This was a prospective observational study of patients seen at a tertiary hospital—based first seizure clinic between 2000 and 2011. Adults with a first-ever unprovoked seizure from sleep were consecutively recruited.",
+          "reasoning": "The authors clearly define the source (tertiary clinic) and the specific population (adults with first-ever unprovoked sleep seizures)."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "Most (70%) patients were referred from emergency departments, with the remainder from general practitioners or other subspecialties.",
+          "reasoning": "The recruitment pathway and referral patterns are explicitly stated, providing transparency on the sampling frame."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "seen between 2000 and 2011",
+          "reasoning": "The 11-year recruitment window is clearly defined."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "Western Australian Adult Epilepsy Service (E.P., N.L., J.L.); and School of Medicine (J.D.), Royal Perth Hospital Unit",
+          "reasoning": "The setting is identified as a specific tertiary hospital unit in Western Australia."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "Adults with a first-ever unprovoked seizure from sleep were consecutively recruited... Patients with a seizure on awakening, if they could recall waking first, even if still in bed, were regarded as having an awake seizure and therefore excluded.",
+          "reasoning": "The study provides specific clinical definitions for inclusion and a clear distinction for exclusion (seizure on awakening)."
+        },
+        {
+          "label": "Adequate study participation",
+          "rating": "Unsure",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not provide the total number of eligible patients who declined participation or the 'screened vs. enrolled' ratio, though consecutive recruitment usually mitigates this."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "239 patients with a first-ever unprovoked seizure from sleep were identified (61% male, mean age 43 years, range 14–88 years). Most presented with a tonic-clonic seizure (98%).",
+          "reasoning": "Table 1 and the results section provide comprehensive baseline data including age, sex, seizure type, and EEG/imaging findings."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study achieved a very high follow-up rate with a long median duration (8.8 years). Only 3% of the cohort had less than one year of follow-up, and the methods for tracking patients (phone and state-based computer systems) were robust.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "The median duration of follow-up was 8.8 years (range 2 months–18 years; interquartile range 6.3 years). Seven patients (3%) had <1 year of follow-up",
+          "reasoning": "A 97% follow-up rate for at least one year in a long-term prognostic study is excellent."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "Yes",
+          "evidence_snippet": "For those not contactable by phone, the integrated state-based hospital computer system was checked for attendance at West Australian hospitals, and medical records were obtained",
+          "reasoning": "The authors used secondary data sources (hospital records) to minimize loss to follow-up."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Partial",
+          "evidence_snippet": "Patients who developed a new CNS process... were followed up until the time of CNS insult and then censored.",
+          "reasoning": "While censoring criteria are mentioned, specific reasons for the 3% lost before 1 year are not detailed individually."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not provide a comparison of baseline characteristics between those lost to follow-up and those who completed the study."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Because characteristics of the lost 3% are not reported, it is impossible to definitively say they did not differ, though the small percentage makes significant bias unlikely."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Attrition Summary",
+        "prompt": "Loss to follow-up (from baseline sample to study population analyzed) is not associated with key characteristics (i.e., the study data adequately represent the sample) sufficient to limit potential bias to the observed relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The primary prognostic factors (EEG and Imaging) were measured using standard clinical protocols. However, the study relies on witness/patient recall for the 'sleep' status of the seizure, which is prone to misclassification, as acknowledged by the authors.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "Potential risk factors for an awake seizure... included age, family history of epilepsy, seizure type, electroclinical syndrome, seizure etiology, time to recurrence, epileptogenic lesion on neuroimaging, epileptiform EEG abnormalities, and ASM treatment.",
+          "reasoning": "All prognostic factors are clearly listed and defined within the context of clinical neurology."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Partial",
+          "evidence_snippet": "Definition of a seizure from sleep was based on witness account when present and on patient recollection... The first EEG was analyzed and classified as being normal or abnormal",
+          "reasoning": "While EEG and MRI are objective, the classification of the index event as a 'sleep seizure' relies on subjective recall, which the authors admit may miss focal-to-awake transitions."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "Age, mean (range), y... Time to second seizure, mean (range), y",
+          "reasoning": "Continuous variables like age and time were used appropriately in Cox models."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "A 21-channel EEG of 20 to 30 minutes' duration... was performed in 97% of patients... Neuroimaging (CT or MRI) was obtained in all but 1 patient",
+          "reasoning": "Standardized clinical protocols were applied across the cohort."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "EEG... performed in 97% of patients. Neuroimaging... obtained in all but 1 patient.",
+          "reasoning": "Data completeness for the primary prognostic factors is very high."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Imputation was not mentioned; however, missing data was minimal (<3%)."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "PF Measurement Summary",
+        "prompt": "PF is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The outcome (awake seizure) is clinically significant but relies on patient/witness reporting during periodic follow-up (every 1-2 years). This introduces potential recall bias and the possibility of unrecognized seizures, though the use of hospital records for non-contactable patients provides a safety net.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "The primary outcome assessed was occurrence of an awake seizure, thereby defining the patient as not having PSE.",
+          "reasoning": "The outcome is clearly defined as the transition from sleep-only seizures to having at least one awake seizure."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Partial",
+          "evidence_snippet": "If there were no further seizures, patients were discharged and contacted by phone every 1 to 2 years until seizure recurrence or death.",
+          "reasoning": "The measurement relies on self-report/witness report during phone interviews, which is standard but less reliable than continuous monitoring or clinical observation."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "those not requiring regular clinical review were contacted every 1 to 2 years.",
+          "reasoning": "A consistent follow-up protocol was applied to the entire cohort based on their seizure status."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Outcome Measurement Summary",
+        "prompt": "Outcome of interest is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study used multivariable Cox proportional hazards models to adjust for a wide range of clinically relevant confounders, including age, EEG findings, imaging, and treatment status.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Yes",
+          "evidence_snippet": "included age, family history of epilepsy, seizure type, electroclinical syndrome, seizure etiology, time to recurrence, epileptogenic lesion on neuroimaging, epileptiform EEG abnormalities, and ASM treatment.",
+          "reasoning": "The authors identified and measured the standard prognostic variables used in epilepsy research."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "A positive family history was defined as a firstdegree family member with a history of seizures. Decisions about ASM initiation... were based on the clinician's opinion",
+          "reasoning": "Definitions for family history, etiology, and treatment are provided."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Neuroimaging abnormalities were defined as epileptogenic if a lesion was identified relevant to the cause of seizure. 10 A 21-channel EEG... was performed",
+          "reasoning": "Confounders were measured using standard diagnostic tools (MRI/EEG)."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Clinical data were obtained at enrollment.",
+          "reasoning": "Baseline confounders were collected uniformly at the time of entry into the first-seizure clinic."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No imputation was performed, but the high completeness of data (97% EEG, 99% imaging) makes this a minor issue."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "No",
+          "evidence_snippet": "This was a prospective observational study",
+          "reasoning": "The design was a cohort study; confounding was handled via analysis rather than design (e.g., no matching)."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "Variables significant at the 10% level in preliminary univariate analyses were included in the multivariate models.",
+          "reasoning": "Multivariable Cox regression was used to adjust for confounding factors."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Confounding Summary",
+        "prompt": "Important potential confounders are appropriately accounted for, limiting potential bias with respect to the relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical methods (Kaplan-Meier and Cox regression) are appropriate for time-to-event data. The authors reported both univariate and multivariate results and provided clear visualizations of the risks over time.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Time to first awake seizure was analyzed with Kaplan-Meier survival curves and log-rank statistics... Potential risk factors for an awake seizure were examined with Cox proportional hazards models",
+          "reasoning": "The analytical plan is standard for prognosis studies and clearly described."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "Variables significant at the 10% level in preliminary univariate analyses were included in the multivariate models.",
+          "reasoning": "The strategy for variable selection is transparent and follows common statistical practice."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "Cox proportional hazards models",
+          "reasoning": "Cox models are the gold standard for analyzing prognostic factors in longitudinal cohorts."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Univariate HRs for awake seizure recurrence are shown in Table 2... The only independent multivariate predictors... were family history of epilepsy... and epileptiform EEG abnormalities",
+          "reasoning": "The authors report both significant and non-significant findings for all pre-specified variables."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Statistical Analysis and Presentation Summary",
+        "prompt": "The statistical analysis is appropriate for the design of the study, limiting potential for presentation of invalid or spurious results.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/2_Adan_2025/Pang_2022.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-01-05T11:14:06.833135"
+  }
+}

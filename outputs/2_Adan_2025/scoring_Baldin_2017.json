@@ -1,0 +1,332 @@
+{
+  "paper_metadata": {
+    "title": "Stress is associated with an increased risk of recurrent seizures in adults",
+    "first_author": "Elisa Baldin",
+    "year": "2017",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study provides a clear description of the target population (Northern Manhattan/Harlem) and recruitment sites. However, there is a significant participation gap: only 136 of 225 identified subjects agreed to be interviewed, and further exclusions resulted in a final sample of 81. While the authors state no demographic differences between participants and non-participants, the high refusal rate (approx. 40%) in a low-income community introduces potential selection bias regarding stress levels and health-seeking behavior.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "We ascertained adult residents of Northern Manhattan and Harlem, New York City, with a first unprovoked seizure or newly diagnosed epilepsy (zip codes 10026, 10027, 10030, 10031, 10035, 10037, and 10039)",
+          "reasoning": "The geographic and clinical characteristics of the target population are explicitly defined."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "Cases were ascertained from Columbia Presbyterian Medical Center and its community hospital, the Allen Pavilion, St. Lukes-Roosevelt Hospital Center, and Mount Sinai Medical Center. Cases were drawn from emergency departments (EDs) at all hospitals, from Neurology and Epilepsy Clinics, and from electroencephalography (EEG) laboratories",
+          "reasoning": "The study used multiple hospital-based sources covering the specific catchment area, which is appropriate for identifying incident seizure cases."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "between December 2010 and January 2013.",
+          "reasoning": "The dates are clearly stated."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "Northern Manhattan and Harlem, New York City... emergency departments (EDs) at all hospitals, from Neurology and Epilepsy Clinics, and from electroencephalography (EEG) laboratories",
+          "reasoning": "The settings and geographic locations are well-defined."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "An unprovoked seizure was defined as a seizure or multiple seizures within a 24 h period without an identified proximate precipitant. Epilepsy was defined as recurrent unprovoked seizures. We excluded incident acute symptomatic seizures and incident or recurrent febrile seizures.",
+          "reasoning": "Standard clinical definitions and specific exclusion criteria are provided."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Partial",
+          "evidence_snippet": "Among the 225 subjects identified, 136 agreed to be interviewed and 85 of these were adults... About 40% of identified subjects refused to be interviewed",
+          "reasoning": "A 40% refusal rate is relatively high, which may affect the representativeness of the sample regarding the prognostic factors (stress/psychiatric history)."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1. Demographics, epilepsy-related characteristics, and psychiatric disorders in adults with single unprovoked seizure or newly diagnosed epilepsy",
+          "reasoning": "Table 1 provides comprehensive data on age, gender, ethnicity, race, income, and clinical status."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study maintained a high level of follow-up for the primary outcome. For subjects who could not be reached by phone, the authors utilized medical record abstraction to ensure seizure recurrence data was captured, minimizing informative censoring.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "All subjects were followed for 2 years for further seizures... If the subject indicated they did not want to be contacted, could not be contacted after repeated attempts, or had died prior to the contact, then the medical record was abstracted for the seizure information.",
+          "reasoning": "The use of medical records for those lost to phone follow-up ensures high data completeness for the primary outcome."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "Yes",
+          "evidence_snippet": "the medical record was abstracted for the seizure information.",
+          "reasoning": "The methodology explicitly describes using medical records as a secondary data source for dropouts."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Partial",
+          "evidence_snippet": "did not want to be contacted, could not be contacted after repeated attempts, or had died",
+          "reasoning": "General reasons are provided, though specific numbers for each reason are not detailed in the results."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text does not provide a specific comparison table between those who completed all phone interviews and those who were followed via medical records only."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Yes",
+          "evidence_snippet": "About 40% of identified subjects refused to be interviewed; however, their demographics did not differ from those who participated in the study interviews.",
+          "reasoning": "The authors explicitly state that demographic comparisons showed no significant differences between participants and non-participants."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Attrition Summary",
+        "prompt": "Loss to follow-up (from baseline sample to study population analyzed) is not associated with key characteristics (i.e., the study data adequately represent the sample) sufficient to limit potential bias to the observed relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study used validated, standardized instruments for measuring the primary prognostic factors (SCID-I for psychiatric disorders and Sampson's scale for collective efficacy). Measurements were taken at enrollment (baseline), and the use of trained research assistants under psychiatric supervision enhances reliability.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "The Structured Clinical Interview for DSM Disorders (SCID-I/P for DSM-IV... was administered at enrollment... Collective efficacy assesses neighborhood characteristics and incorporates social cohesion and informal social control.",
+          "reasoning": "The prognostic factors (stress markers and psychiatric disorders) are defined using established clinical scales."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "administered at enrollment by trained research assistants under the supervision of a psychiatrist... SCID-I/P for DSM-IV... Collective efficacy was measured using a 5-item Likert scale",
+          "reasoning": "The study uses the 'gold standard' structured interview for psychiatric diagnosis and a validated neighborhood efficacy scale."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Partial",
+          "evidence_snippet": "A cutoff of 34, the median value for all subjects, was used for the analysis; scores <34 indicated low levels",
+          "reasoning": "The use of a median split for collective efficacy is common but is technically data-dependent, which can be a minor source of bias compared to pre-specified clinical cutoffs."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "The assessment of seizure phenomenology was conducted by two trained research assistants (RAs) in person for 79 participants and over the phone for two participants.",
+          "reasoning": "While two participants were interviewed by phone, the vast majority and the protocol were standardized."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1... N=81",
+          "reasoning": "The analysis includes the full adult sample that completed the enrollment interview."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text does not explicitly mention imputation methods, suggesting they likely used complete-case analysis."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "PF Measurement Summary",
+        "prompt": "PF is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The outcome (seizure recurrence) was primarily self-reported via phone interviews every 4 months. While this is standard in epilepsy research, the authors acknowledge that subtle seizures (auras, absence) are frequently underreported by patients, potentially leading to misclassification of the 'recurrence' status.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "A recurrent seizure was defined as the first unprovoked seizure occurring >24 h after the first unprovoked seizure or epilepsy diagnosis. All subjects were followed for 2 years",
+          "reasoning": "The outcome and follow-up duration are clearly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Partial",
+          "evidence_snippet": "Follow-up information on seizure recurrence and medication adherence was collected based on self-report. Other studies have found that seizures are underreported if they are subtle",
+          "reasoning": "Self-report is prone to recall bias and underreporting of non-convulsive seizures, though the 4-month interval helps mitigate this."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "subjects were interviewed over the phone every 4 months about any new seizures",
+          "reasoning": "The follow-up protocol was standardized across the cohort."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Outcome Measurement Summary",
+        "prompt": "Outcome of interest is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study adjusted for key demographic factors (age, gender) and clinical status (epilepsy vs. single seizure). However, the authors admit they lacked data on psychological treatments/counseling, which could be a significant confounder for both the prognostic factor (stress) and the outcome (seizure control). The small sample size also limited the ability to adjust for multiple confounders simultaneously.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Partial",
+          "evidence_snippet": "We had no access to information on counseling or psychological treatments. Therefore, we were unable to include this information as a possible confounder.",
+          "reasoning": "While demographics and AED use were tracked, the lack of data on psychological interventions is a notable omission given the study's focus on stress."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "Age at diagnosis... was considered as a continuous variable. Race was categorized... Socioeconomic status at enrollment (SES) was ascertained by income, health insurance, and employment.",
+          "reasoning": "Measured confounders are well-defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Socioeconomic status at enrollment (SES) was ascertained by income, health insurance, and employment.",
+          "reasoning": "Standard demographic and socioeconomic metrics were used."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "At enrollment, we collected information about seizure phenomenology, demographics, clinical information, and measures of stress",
+          "reasoning": "Confounders were measured at the baseline interview for all participants."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No mention of handling missing data for confounders."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The study was a prospective cohort without matching or stratification in the design phase."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "Multivariable Cox models for all subjects were adjusted for age at the index date, gender, and epilepsy status",
+          "reasoning": "The authors used multivariable Cox regression to adjust for the most critical clinical and demographic variables."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Confounding Summary",
+        "prompt": "Important potential confounders are appropriately accounted for, limiting potential bias with respect to the relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical methods (Cox proportional hazards) are appropriate for time-to-event data. The authors tested the proportional hazards assumption and presented both univariate and multivariable models. Results are reported transparently, including effect sizes (HR) and confidence intervals.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Cox proportional hazard regression models were used to estimate the hazard ratios (HRs) of seizure recurrence... The proportional hazard assumption was tested graphically and by testing for interaction.",
+          "reasoning": "The analytical plan is well-described and includes necessary model diagnostics."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "The variables included in the models were those clinically relevant and significantly associated (p < 0.05) in the univariate analysis.",
+          "reasoning": "The strategy combines clinical relevance with statistical significance, which is a standard approach."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "Cox proportional hazard regression models were used",
+          "reasoning": "Cox models are the standard and appropriate choice for longitudinal seizure recurrence data."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Table 2... Table 3...",
+          "reasoning": "The tables show results for all primary hypothesized markers of stress, including those that were not significant in univariate analysis (e.g., stressful life events)."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Statistical Analysis and Presentation Summary",
+        "prompt": "The statistical analysis is appropriate for the design of the study, limiting potential for presentation of invalid or spurious results.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/2_Adan_2025/Baldin_2017.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-01-05T11:08:34.529388"
+  }
+}

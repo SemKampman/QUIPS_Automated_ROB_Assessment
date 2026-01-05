@@ -1,0 +1,287 @@
+{
+  "paper_metadata": {
+    "title": "Recurrence of First Afebrile Unprovoked Seizure and Parental Consanguinity: A Hospital-Based Study",
+    "first_author": "Miral A. Al Momani",
+    "year": "2020",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study provides a clear description of the setting, recruitment period, and inclusion/exclusion criteria. However, as a hospital-based retrospective study in a tertiary center, there is a risk of referral bias (more severe cases). The participation rate of eligible individuals is not explicitly stated, making it difficult to rule out selection bias.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Children aged from I month to 16 years old who attended the hospital between January 2013 to December 2017 were evaluated on the basis of medical records",
+          "reasoning": "The age range and clinical setting (pediatric clinic at a tertiary hospital) are clearly defined."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Partial",
+          "evidence_snippet": "A list of patients... was identified using the hospital database. The diagnosis... was confirmed by a consultant neurologist using the criteria and classification of the International League Against Epilepsy.",
+          "reasoning": "While the database search and diagnostic confirmation are described, the study does not address the potential bias of using a tertiary referral center (King Abdullah University Hospital) which may attract more complex cases."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "between January 1, 2013, and December 31, 2017",
+          "reasoning": "The dates are explicitly provided."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "King Abdullah University Hospital, the main tertiary referral center in the North of Jordan.",
+          "reasoning": "The specific institution and its regional role are identified."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "Children who had experienced previous neonatal seizures, febrile seizure, myoclonic seizures, absences, infantile spasms, epileptic encephalopathy, or diagnosed epilepsy were excluded.",
+          "reasoning": "Detailed exclusion criteria are provided to ensure the sample consists of first unprovoked seizures."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "During the study period, a total of 349 cases with first unprovoked seizure were identified. Fifty-nine cases were excluded... leaving 290 cases.",
+          "reasoning": "The text does not state how many eligible patients might have been missed or if any records were inaccessible, though the use of a database suggests high capture of those who attended."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1 outlines the demographics and clinical data of all included cases.",
+          "reasoning": "Table 1 provides comprehensive data on age, gender, consanguinity, seizure type, and comorbidities."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study utilized hospital records and supplemental phone calls to minimize missing data. The follow-up period was fixed at 12 months, and the analysis included nearly all identified eligible patients (284/290 for the primary outcome).",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "Of the 290 first unprovoked seizure cases, more than half (157/284; 55.3%) had a recurrent seizure during the first 12 months of follow-up.",
+          "reasoning": "284 out of 290 patients (98%) were accounted for in the recurrence analysis."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "Yes",
+          "evidence_snippet": "Phone calls with the parents were used to check for any missing information.",
+          "reasoning": "The authors proactively contacted parents to fill gaps in the retrospective records."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text does not explicitly state why 6 patients were missing from the final recurrence denominator (290 vs 284)."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is no description of the 6 patients who did not provide outcome data."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The number of lost participants is very small (2%), so impact is likely minimal, but no formal comparison was made."
+        }
+      ]
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "While the primary prognostic factor (consanguinity) is straightforward, other factors like seizure type relied on parental history, which is prone to recall bias. Additionally, EEG and neuroimaging were only performed in less than 50% of the sample, leading to significant missing data for those specific predictors.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Partial",
+          "evidence_snippet": "The data were collected for each patient on a structured specific form that included... parental consanguinity",
+          "reasoning": "Consanguinity is mentioned but not strictly defined (e.g., first-cousin vs second-cousin) within the methods, though the discussion references first-cousin marriages."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Partial",
+          "evidence_snippet": "Based on the history from parents, more than quarter of the patients (84/ 285; 29.5%) had a seizure with focal features.",
+          "reasoning": "Reliance on parental recall for seizure semiology (focal vs generalized) is a known source of misclassification bias."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "Continuous data were presented as median and interquartile range",
+          "reasoning": "Age was treated appropriately; most other PFs were categorical."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "The data were collected for each patient on a structured specific form",
+          "reasoning": "A standardized form was used for all medical record reviews."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Partial",
+          "evidence_snippet": "Electroencephalography (EEG) was done around the time of the first unprovoked seizure in fewer than half of patients (48.3%; 140/290)",
+          "reasoning": "While demographic data was complete, clinical PFs like EEG and Neuroimaging had >50% missing data."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "No",
+          "evidence_snippet": "Values were calculated based on the number of patients for whom data were available.",
+          "reasoning": "The study used complete-case analysis rather than imputation for missing clinical data."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The outcome (seizure recurrence) is clearly defined according to international standards (ILAE) and the follow-up period is appropriate for the study goals.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "Recurrence was defined as an unprovoked seizure occurring more than 24 hours after the first seizure... reviewed for 12 months",
+          "reasoning": "The definition and timeframe are explicit."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "The diagnosis... was confirmed by a consultant neurologist using the criteria and classification of the International League Against Epilepsy.",
+          "reasoning": "Expert clinical diagnosis using ILAE criteria is the gold standard for this outcome."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "The hospital records of these cases were reviewed for 12 months to determine the incidence of recurrence.",
+          "reasoning": "All patients were followed via the same hospital database and parental phone calls."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study adjusted for age and gender in the multivariate model. However, it did not adjust for other critical confounders like EEG or neuroimaging results in the final model, likely due to the high amount of missing data for those variables.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Partial",
+          "evidence_snippet": "variables: date of birth, sex, neurodevelopmental comorbidity... family history, neuroimaging study, EEG, history of febrile seizure",
+          "reasoning": "Most clinical confounders were measured, but treatment (starting AEDs after the first seizure) was not explicitly included in the analysis, which is a major confounder for recurrence."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Partial",
+          "evidence_snippet": "neurodevelopmental comorbidity (eg, developmental delay, speech/language and learning difficulties...)",
+          "reasoning": "Comorbidities are listed, but other factors like 'family history' are grouped broadly."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Partial",
+          "evidence_snippet": "Based on the history from parents...",
+          "reasoning": "As with PFs, many confounders relied on parental history, which is less reliable than clinical observation."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "The data were collected for each patient on a structured specific form",
+          "reasoning": "Standardized data collection was applied."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No imputation was performed; missing data resulted in exclusion from specific sub-analyses."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "No",
+          "evidence_snippet": "A retrospective, observational study",
+          "reasoning": "No matching or stratification was used in the design phase."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Partial",
+          "evidence_snippet": "Multivariate analysis adjusted for age and gender revealed...",
+          "reasoning": "Adjustment was limited to age and gender. Other significant factors (like EEG) were not in the final model, possibly due to missingness."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical methods are standard and appropriate for the study design. The authors reported both univariate and multivariate results transparently, including effect sizes (OR) and confidence intervals.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Univariate analysis... using t test or Mann-Whitney U test... and multivariate analysis using a binary logistic regression model",
+          "reasoning": "The statistical plan is clearly outlined."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "All variables with P < .2 on univariate analysis were included in the multivariate analysis",
+          "reasoning": "A standard p-value threshold was used for variable selection in the regression model."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "binary logistic regression model to determine factors that were independently associated with recurrent attacks.",
+          "reasoning": "Logistic regression is appropriate for the binary outcome of recurrence within a fixed timeframe."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Table 2. Univariable and Multivariate Analysis of Factors Affecting Recurrent Attack.",
+          "reasoning": "The authors report results for all variables tested in the univariate stage."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/2_Adan_2025/Al-Momani_2020.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-01-05T11:14:31.293948"
+  }
+}

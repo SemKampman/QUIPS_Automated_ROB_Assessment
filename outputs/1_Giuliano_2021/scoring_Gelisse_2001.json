@@ -10,21 +10,21 @@
       "domain_number": 1,
       "domain_name": "Study Participation",
       "risk_of_bias": "Moderate",
-      "risk_reasoning": "The study uses a consecutive sample from two specialized epilepsy centers, which is well-described. However, as a referral center population, it likely over-represents difficult-to-treat cases compared to the general JME population, potentially inflating the prevalence of resistance.",
+      "risk_reasoning": "The study uses a consecutive sample from referral centers, which is well-described. However, as the authors admit, referral centers likely attract more difficult cases, potentially overestimating the prevalence of resistance compared to the general JME population. Baseline characteristics are provided, but the 'eligible non-participants' are not discussed.",
       "items": [
         {
           "label": "Source of target population",
           "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
           "rating": "Yes",
           "evidence_snippet": "155 consecutive patients with newly diagnosed juvenile myoclonic epilepsy evaluated between 1981 and 1998 and followed up for at least 1 year",
-          "reasoning": "The authors specify the diagnosis, the consecutive nature of recruitment, and the timeframe."
+          "reasoning": "The authors define the source population by diagnosis, recruitment period, and setting (referral centers)."
         },
         {
           "label": "Method used to identify population",
           "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
           "rating": "Partial",
-          "evidence_snippet": "patients who had been referred for the first time between 1981 and 1998 to two epilepsy centers (Marseilles, Nice).",
-          "reasoning": "While the centers are named, the specific referral pathways are not detailed, and the authors acknowledge that referral centers may select for more difficult cases."
+          "evidence_snippet": "We retrospectively analysed the records of patients who had been referred for the first time between 1981 and 1998 to two epilepsy centres (Marseilles, Nice).",
+          "reasoning": "While the recruitment centers are named, the retrospective nature and referral-based sampling introduce potential selection bias toward more severe cases."
         },
         {
           "label": "Recruitment period",
@@ -37,22 +37,22 @@
           "label": "Place of recruitment",
           "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
           "rating": "Yes",
-          "evidence_snippet": "two epilepsy centers (Marseilles, Nice).",
+          "evidence_snippet": "two epilepsy centres (Marseilles, Nice).",
           "reasoning": "The specific clinical settings and cities are provided."
         },
         {
           "label": "Inclusion and exclusion criteria",
           "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
           "rating": "Yes",
-          "evidence_snippet": "diagnosis of juvenile myoclonic epilepsy was based on the criteria of the International Classification of Epilepsies and on classic treaties.",
-          "reasoning": "Standardized ILAE criteria were used for inclusion."
+          "evidence_snippet": "The diagnosis of juvenile myoclonic epilepsy was based on the criteria of the International Classification of Epilepsies and on classic treaties.",
+          "reasoning": "Standardized diagnostic criteria and a minimum follow-up requirement (1 year) are used."
         },
         {
           "label": "Adequate study participation",
           "prompt": "There is adequate participation in the study by eligible individuals",
-          "rating": "Yes",
-          "evidence_snippet": "Over a period of 17 years, we found 170 consecutive cases. Among them, only patients who had a minimum follow up of 1 year since seizure onset have been evaluated for this study. We found 155 patients",
-          "reasoning": "155 out of 170 identified cases were included (91%), which is a high participation rate."
+          "rating": "Unsure",
+          "evidence_snippet": "Over a period of 17 years, we found 170 consecutive cases. Among them, only patients who had a minimum follow up of 1 year since seizure onset have been evaluated for this study.",
+          "reasoning": "155 out of 170 cases were included. It is unclear if the 15 excluded cases differed significantly from the included ones."
         },
         {
           "label": "Baseline characteristics",
@@ -67,246 +67,221 @@
       "domain_number": 2,
       "domain_name": "Study Attrition",
       "risk_of_bias": "Low",
-      "risk_reasoning": "The study accounts for nearly all identified patients. The exclusion of 15 patients from the original 170 was due to the 1-year follow-up requirement, which is a design choice rather than attrition during the study.",
+      "risk_reasoning": "The study accounts for 155 out of 170 identified cases. The primary reason for exclusion was follow-up duration < 1 year. Given the long mean follow-up (13.5 years), the attrition risk for the analyzed cohort is low.",
       "items": [
         {
           "label": "Proportion of baseline sample available for analysis",
           "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
           "rating": "Yes",
           "evidence_snippet": "155 patients... who have been followed up for at least 1 year since seizure onset",
-          "reasoning": "The vast majority of the identified cohort was analyzed."
+          "reasoning": "91% of the identified consecutive cases were included in the final analysis."
         },
         {
           "label": "Attempts to collect information on participants who dropped out",
           "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
-          "rating": "Unsure",
+          "rating": "No",
           "evidence_snippet": "Not found in text",
-          "reasoning": "The text does not explicitly discuss efforts to reach the 15 excluded patients."
+          "reasoning": "The paper does not describe attempts to contact the 15 patients excluded for short follow-up."
         },
         {
           "label": "Reasons and potential impact of subjects lost to follow-up",
           "prompt": "Reasons for loss to follow-up are provided.",
           "rating": "Partial",
           "evidence_snippet": "Among them, only patients who had a minimum follow up of 1 year since seizure onset have been evaluated",
-          "reasoning": "The reason for exclusion was lack of follow-up duration, but specific reasons why those 15 lacked follow-up are not given."
+          "reasoning": "The reason for exclusion is stated (insufficient follow-up), but the reason *why* they lacked follow-up is not."
         },
         {
           "label": "Outcome and prognostic factor information on those lost to follow-up",
           "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
           "rating": "No",
           "evidence_snippet": "Not found in text",
-          "reasoning": "No data is provided for the 15 excluded patients to compare them to the 155 included."
+          "reasoning": "No data is provided regarding the characteristics of the 15 excluded patients."
         },
         {
           "label": "",
           "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
           "rating": "Unsure",
           "evidence_snippet": "Not found in text",
-          "reasoning": "Comparison between included and excluded patients was not performed."
+          "reasoning": "There is no comparison provided between the included and excluded groups."
         }
-      ],
-      "risk_of_bias_assessment": {
-        "label": "Study Attrition Summary",
-        "prompt": "Loss to follow-up (from baseline sample to study population analyzed) is not associated with key characteristics (i.e., the study data adequately represent the sample) sufficient to limit potential bias to the observed relationship between PF and outcome.",
-        "risk_of_bias": "Low"
-      }
+      ]
     },
     {
       "domain_number": 3,
       "domain_name": "Prognostic Factor Measurement",
       "risk_of_bias": "Moderate",
-      "risk_reasoning": "Psychiatric assessment was not prospective or systematic for all patients, relying on neurologist notes which were then investigated by a psychiatrist. This could lead to under-detection of psychiatric issues in the non-resistant group.",
+      "risk_reasoning": "While seizure types are well-defined, the measurement of psychiatric disorders was not prospective or systematic for all patients, relying on neurologist notes and retrospective psychiatric review, which may lead to under-detection in the non-resistant group.",
       "items": [
         {
           "label": "Definition of the PF",
           "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
           "rating": "Yes",
-          "evidence_snippet": "psychiatric diagnosis according to the DSM-IV.",
-          "reasoning": "The study uses the DSM-IV for psychiatric factors and clear clinical categories for seizure types."
+          "evidence_snippet": "The diagnosis of juvenile myoclonic epilepsy was based on the criteria of the International Classification of Epilepsies... psychiatric diagnosis according to the DSM-IV.",
+          "reasoning": "Prognostic factors like seizure types and psychiatric disorders are defined using international standards."
         },
         {
           "label": "Valid and Reliable Measurement of PF",
           "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
           "rating": "Partial",
           "evidence_snippet": "Patients were not systematically and prospectively evaluated by a psychiatrist... the consulting neurologist systematically noted the existence of psychological, psychiatric, or behavioural problems",
-          "reasoning": "The reliance on neurologist screening rather than universal psychiatric evaluation introduces potential measurement bias."
+          "reasoning": "The reliance on neurologist notes for initial screening of psychiatric issues in a retrospective design may miss subtle cases, though DSM-IV was used for confirmation."
         },
         {
           "label": "",
           "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
           "rating": "Yes",
-          "evidence_snippet": "combination of seizure types (Fischer's exact 2 by 4, p=0.0026).",
-          "reasoning": "Categorical variables for seizure types are standard clinical groupings."
+          "evidence_snippet": "age at onset of seizures (median 14 years in each group)",
+          "reasoning": "Continuous variables like age are reported with standard measures (mean/median)."
         },
         {
           "label": "Method and Setting of PF Measurement",
           "prompt": "The method and setting of measurement of PF is the same for all study participants.",
           "rating": "Yes",
-          "evidence_snippet": "whenever these had been mentioned in the medical record, they were further investigated by a psychiatrist",
-          "reasoning": "The protocol for psychiatric investigation was consistent, though triggered by neurologist notes."
+          "evidence_snippet": "the consulting neurologist systematically noted the existence of psychological, psychiatric, or behavioural problems",
+          "reasoning": "The same clinical protocol was applied to the records of all patients in the two centers."
         },
         {
           "label": "Proportion of data on PF available for analysis",
           "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
           "rating": "Yes",
-          "evidence_snippet": "We found 155 patients... all patients were analysed at the end of follow up",
-          "reasoning": "Data appears complete for the analyzed cohort."
+          "evidence_snippet": "We found 155 patients... all patients had myoclonic jerks jerks at awakening and irregular fast spike waves",
+          "reasoning": "The clinical and EEG data appear complete for the analyzed cohort."
         },
         {
           "label": "Method used for missing data",
           "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
-          "rating": "Unsure",
+          "rating": "No",
           "evidence_snippet": "Not found in text",
-          "reasoning": "Missing data handling is not discussed; it is implied that records were complete enough for the variables chosen."
+          "reasoning": "No imputation methods are mentioned; missing data is not explicitly addressed."
         }
-      ],
-      "risk_of_bias_assessment": {
-        "label": "PF Measurement Summary",
-        "prompt": "PF is adequately measured in study participants to sufficiently limit potential bias.",
-        "risk_of_bias": "Moderate"
-      }
+      ]
     },
     {
       "domain_number": 4,
       "domain_name": "Outcome Measurement",
       "risk_of_bias": "Low",
-      "risk_reasoning": "The outcome (drug resistance) is clearly defined and based on clinical response to gold-standard treatment (valproate), which is the standard in epilepsy research.",
+      "risk_reasoning": "The outcome (drug resistance) is clearly defined and distinguishes between true resistance and pseudoresistance, which is a methodological strength. Measurement was consistent across the cohort.",
       "items": [
         {
           "label": "Definition of the Outcome",
           "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
           "rating": "Yes",
           "evidence_snippet": "truly resistant defined as persisting seizures... despite adequate lifestyle and treatment that included adequate doses of valproate",
-          "reasoning": "The definition of resistance is explicit and includes treatment adequacy."
+          "reasoning": "The outcome is clearly defined with specific clinical criteria."
         },
         {
           "label": "Valid and Reliable Measurement of Outcome",
           "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
           "rating": "Yes",
-          "evidence_snippet": "All patients had myoclonic jerks jerks at awakening and irregular fast spike waves or poly spike waves at least on one EEG.",
-          "reasoning": "Outcome is based on clinical seizure recurrence and EEG, which are standard."
+          "evidence_snippet": "All these 40 patients were analysed at the end of follow up according to the response to their treatment and were classified into the three groups.",
+          "reasoning": "The classification into controlled, resistant, and pseudoresistant groups based on clinical response is a standard and reliable approach in epilepsy research."
         },
         {
           "label": "Method and Setting of Outcome Measurement",
           "prompt": "The method and setting of outcome measurement is the same for all study participants.",
           "rating": "Yes",
-          "evidence_snippet": "All these 40 patients were analysed at the end of follow up according to the response to their treatment and were classified into the three groups.",
-          "reasoning": "The classification system was applied uniformly to the cohort."
+          "evidence_snippet": "In this retrospective study, we only analysed the response to drugs at the end of follow up for each subject",
+          "reasoning": "The same criteria for 'controlled' vs 'resistant' were applied to all patients."
         }
-      ],
-      "risk_of_bias_assessment": {
-        "label": "Outcome Measurement Summary",
-        "prompt": "Outcome of interest is adequately measured in study participants to sufficiently limit potential bias.",
-        "risk_of_bias": "Low"
-      }
+      ]
     },
     {
       "domain_number": 5,
       "domain_name": "Study Confounding",
       "risk_of_bias": "Moderate",
-      "risk_reasoning": "The study identifies psychiatric problems and seizure types as independent factors, but it does not use multivariable regression to control for other potential confounders simultaneously. However, it does separate 'pseudoresistance' (compliance/lifestyle) from 'true resistance,' which is a major strength in controlling for the most significant confounder in epilepsy prognosis.",
+      "risk_reasoning": "The study identifies and measures several potential confounders (age, sex, family history). However, it relies on univariate comparisons (Chi-square, Fisher's) rather than multivariable modeling to confirm the independence of factors, although they do provide a stratified table to argue for independence.",
       "items": [
         {
           "label": "Important Confounders Measured",
           "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
           "rating": "Yes",
-          "evidence_snippet": "Family history of epilepsy, age at onset of seizures, sex, presence of photoparoxysmal response, results of conventional neuroimagings (CT and MRI), and delayed diagnosis",
-          "reasoning": "The authors measured and tested most standard prognostic variables in JME."
+          "evidence_snippet": "Family history of epilepsy... age at onset of seizures, sex, presence of photoparoxysmal response, results of conventional neuroimagings (CT and MRI), and delayed diagnosis",
+          "reasoning": "A wide range of clinical and demographic confounders were assessed."
         },
         {
           "label": "Definition of the confounding factor",
           "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
           "rating": "Partial",
-          "evidence_snippet": "Family history... age at onset... sex... presence of photoparoxysmal response",
-          "reasoning": "Basic variables are clear, but 'lifestyle' and 'compliance' definitions are somewhat subjective."
+          "evidence_snippet": "Family history of epilepsy among first and second degree relatives",
+          "reasoning": "Most confounders are standard clinical variables, though 'adequate lifestyle' is somewhat subjective."
         },
         {
           "label": "Valid and Reliable Measurement of Confounders",
           "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
           "rating": "Yes",
-          "evidence_snippet": "neuroimaging findings... CT and MRI",
-          "reasoning": "Objective measures like imaging and EEG were used for several confounders."
+          "evidence_snippet": "results of conventional neuroimagings (CT and MRI)",
+          "reasoning": "Objective measures like neuroimaging and EEG were used for several confounders."
         },
         {
           "label": "Method and Setting of Confounding Measurement",
           "prompt": "The method and setting of confounding measurement are the same for all study participants.",
           "rating": "Yes",
-          "evidence_snippet": "The table presents clinical features associated with poor seizure control despite adequate treatment, compared with patients with good control.",
-          "reasoning": "The comparative structure suggests uniform measurement across groups."
+          "evidence_snippet": "We retrospectively analysed the records of patients",
+          "reasoning": "Data was extracted from the same medical record systems for all participants."
         },
         {
           "label": "Method used for missing data",
           "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
-          "rating": "Unsure",
+          "rating": "No",
           "evidence_snippet": "Not found in text",
-          "reasoning": "No mention of missing data or imputation."
+          "reasoning": "No imputation was performed."
         },
         {
           "label": "Appropriate Accounting for Confounding",
           "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
-          "rating": "Yes",
-          "evidence_snippet": "15 cases were pseudoresistant... lack of compliance (eight), insuYcient treatment (three), abnormal lifestyle (four)",
-          "reasoning": "The exclusion of pseudoresistant patients from the primary analysis is a strong design-based control for confounding."
+          "rating": "Partial",
+          "evidence_snippet": "The comparison clearly shows that presence of psychiatric disorders and combination of seizure types are independent factors of resistance (table).",
+          "reasoning": "The authors used stratification in a table to show independence, but did not use matching or multivariable adjustment in the design phase."
         },
         {
           "label": "",
           "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
           "rating": "Partial",
-          "evidence_snippet": "The comparison clearly shows that presence of psychiatric disorders and combination of seizure types are independent factors of resistance",
-          "reasoning": "The authors claim independence based on stratified tables, but a formal multivariable logistic regression would have been more robust."
+          "evidence_snippet": "We used the ÷2 statistic and the Fisher's exact procedure to compare categorical variables",
+          "reasoning": "The analysis relies on univariate tests. While they stratified the data to check for independence, a multivariable logistic regression would have been the standard for 'adjustment'."
         }
-      ],
-      "risk_of_bias_assessment": {
-        "label": "Study Confounding Summary",
-        "prompt": "Important potential confounders are appropriately accounted for, limiting potential bias with respect to the relationship between PF and outcome.",
-        "risk_of_bias": "Moderate"
-      }
+      ]
     },
     {
       "domain_number": 6,
       "domain_name": "Statistical Analysis and Reporting",
-      "risk_of_bias": "Low",
-      "risk_reasoning": "The statistical methods are appropriate for the sample size and study type. The reporting is transparent, including negative results for several factors (age, sex, imaging).",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The analysis is straightforward and appropriate for the sample size, but the lack of multivariable modeling (e.g., logistic regression) to calculate Odds Ratios adjusted for all confounders simultaneously limits the strength of the 'independence' claim.",
       "items": [
         {
           "label": "Presentation of analytical strategy",
           "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
           "rating": "Yes",
           "evidence_snippet": "We used the ÷2 statistic and the Fisher's exact procedure to compare categorical variables and Student's t test to compare continuous variables.",
-          "reasoning": "The statistical tests used are clearly stated."
+          "reasoning": "The statistical methods are clearly stated."
         },
         {
           "label": "Model development strategy",
           "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
-          "rating": "Partial",
-          "evidence_snippet": "The comparison clearly shows that presence of psychiatric disorders and combination of seizure types are independent factors of resistance (table).",
-          "reasoning": "The 'model' is a series of univariate comparisons and stratified tables rather than a multivariable model."
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is no formal multivariable model building strategy described."
         },
         {
           "label": "",
           "prompt": "The selected statistical model is adequate for the design of the study.",
-          "rating": "Yes",
-          "evidence_snippet": "Fisher's exact 2 by 4, p=0.0026",
-          "reasoning": "Fisher's exact test is appropriate for the small cell counts in the resistance subgroups."
+          "rating": "Partial",
+          "evidence_snippet": "÷2 p<0.001... Fischer's exact 2 by 4, p=0.0026",
+          "reasoning": "Univariate tests are adequate for a short report, but insufficient for a definitive prognosis study requiring adjustment."
         },
         {
           "label": "Reporting of results",
           "prompt": "There is no selective reporting of results.",
           "rating": "Yes",
-          "evidence_snippet": "Family history... age at onset... sex... presence of photoparoxysmal response... were not significantly associated with drug resistance.",
-          "reasoning": "The authors report non-significant findings for several variables, reducing the risk of reporting bias."
+          "evidence_snippet": "Family history... age at onset... sex... were not significantly associated with drug resistance.",
+          "reasoning": "The authors report both significant and non-significant findings transparently."
         }
-      ],
-      "risk_of_bias_assessment": {
-        "label": "Statistical Analysis and Presentation Summary",
-        "prompt": "The statistical analysis is appropriate for the design of the study, limiting potential for presentation of invalid or spurious results.",
-        "risk_of_bias": "Low"
-      }
+      ]
     }
   ],
   "processing_metadata": {
     "source_file": "data_md_converted/1_Giuliano_2021/Gelisse_2001.md",
     "model": "google/gemini-3-flash-preview",
-    "processed_at": "2026-01-02T13:00:52.511111"
+    "processed_at": "2026-01-05T11:14:48.775634"
   }
 }

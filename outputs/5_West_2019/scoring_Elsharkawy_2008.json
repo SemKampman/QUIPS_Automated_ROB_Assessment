@@ -1,0 +1,337 @@
+{
+  "paper_metadata": {
+    "title": "OUTCOME OF EXTRATEMPORAL EPILEPSY SURGERY EXPERIENCE OF A SINGLE CENTER",
+    "first_author": "Alaa E. Elsharkawy",
+    "year": "2008",
+    "analysis_timestamp": "2023-10-27 10:15:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study describes a consecutive cohort of 218 adult patients from a single specialized center with clear inclusion/exclusion criteria and detailed baseline characteristics. While it is a single-center study, the recruitment process is transparent and representative of the target population of surgical candidates.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "We retrospectively studied the operative outcome in 218 consecutive adult patients with extratemporal lesions who underwent resective surgical treatment for intractable partial epilepsy in the Bethel Epilepsy Center, Bielefeld, Germany, between 1991 and 2005.",
+          "reasoning": "The population is clearly defined as adult patients with intractable extratemporal epilepsy at a specific clinical center."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "We retrospectively reviewed the records of all adult patients (16 yr of age) who underwent epilepsy surgery at the Bethel Epilepsy Center, Bielefeld, Germany, from 1991 to 2005. There were 243 consecutive patients.",
+          "reasoning": "The study uses a consecutive sampling method from medical records, which minimizes selection bias within that center."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "between 1991 and 2005.",
+          "reasoning": "The 14-year recruitment window is explicitly stated."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "Bethel Epilepsy Center, Bielefeld, Germany",
+          "reasoning": "The specific clinical setting and location are provided."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "We excluded patients who only underwent biopsy, patients with Rasmussen's encephalitis (a progressive disease with special criteria), patients who did not have electroencephalographic video monitoring, and patients who had unclear extratemporal resections.",
+          "reasoning": "Specific exclusion criteria are listed to ensure a homogeneous study population of resective surgery patients."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Yes",
+          "evidence_snippet": "Our study includes 218 patients divided into three groups according to the time period of operation",
+          "reasoning": "Out of 243 consecutive patients, 218 were included after logical exclusions, suggesting high participation of the eligible cohort."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "The clinical characteristics of these patients, as well as detailed differences among the groups, are summarized in Table 1.",
+          "reasoning": "Table 1 and the text provide age at onset, age at surgery, duration of epilepsy, seizure types, and pathology."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study reports very low attrition (4.5% missing data at 2 years) and accounts for deaths. The follow-up duration is sufficient for the outcome (prognosis after surgery).",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "In 10 patients (4.5%), the data were missing after 2 years' follow-up. Another five patients (2.25%) died",
+          "reasoning": "Over 95% of the sample was available for the primary 2-year outcome analysis."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "Partial",
+          "evidence_snippet": "Research data in this study were drawn from four main sources: the patient's medical records, the postoperative routine follow-up program, additional outpatient appointments, and telephone and mail questionnaires.",
+          "reasoning": "While multiple methods were used to capture data, specific attempts to re-engage the 10 missing patients are not detailed."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Partial",
+          "evidence_snippet": "In 10 patients (4.5%), the data were missing after 2 years' follow-up. Another five patients (2.25%) died: one (0.4%) died in status epilepticus, and four (1.8%) died as a result of other medical causes.",
+          "reasoning": "Reasons for death are provided, but the specific reasons for the 10 missing patients are not listed."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not provide a comparison of baseline characteristics between those lost to follow-up and those who completed it."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is insufficient information to determine if the 4.5% lost to follow-up differed significantly from the analyzed group."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Attrition Summary",
+        "prompt": "Loss to follow-up (from baseline sample to study population analyzed) is not associated with key characteristics (i.e., the study data adequately represent the sample) sufficient to limit potential bias to the observed relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ],
+        "rating": "Low"
+      }
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "Prognostic factors like MRI findings and pathology were assessed using standardized protocols and expert review. The use of a 1.5-T MRI scanner and visual re-evaluation by a multidisciplinary team limits measurement bias.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "Outcome in relation to preoperative MRI pathological findings was correlated with well-circumscribed lesions (neoplastic, vascular, and cystic lesions) or less-well-circumscribed lesions (cortical dysplasia, malformation of cortical development, and gliosis) based on the MRI shape of the lesions.",
+          "reasoning": "The primary prognostic factor (MRI lesion type) is clearly categorized."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "preoperative MRI was reevaluated visually in the case conference by two epileptologists and an epilepsy neurosurgeon to determine whether the appearance of a lesion was well circumscribed or less well circumscribed.",
+          "reasoning": "The use of a consensus panel of experts increases the reliability of the PF measurement."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Partial",
+          "evidence_snippet": "Duration of epilepsy (yr) 5 (n 37) (reference) 5 (n 181)",
+          "reasoning": "The study uses a 5-year cut-off for duration of epilepsy, but it is not explicitly stated if this was pre-specified or data-driven."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Partial",
+          "evidence_snippet": "Until 1998, a 1-T MRI scanner was used, and later a 1.5-T MRI scanner was available.",
+          "reasoning": "The technology changed over the 15-year period, which could introduce minor measurement bias across cohorts."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "In our analysis, there were pathological findings in the resected specimen in 209 cases (95.9%), and no pathological findings in 9 cases (4.1%).",
+          "reasoning": "Pathology and MRI data appear to be available for the entire analyzed cohort."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is no mention of imputation; missing data were likely handled by exclusion."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "PF Measurement Summary",
+        "prompt": "PF is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ],
+        "rating": "Low"
+      }
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study uses the Engel classification, which is the gold standard for epilepsy surgery outcomes. Follow-up was systematic, involving clinical visits and standardized questionnaires.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "Seizure outcome was classified by using the modified seizure classification of Engel. Engel Class I patients were seizure-free; or they had only nondisabling, simple, partial seizures...",
+          "reasoning": "The Engel classification is a well-defined and standard outcome measure in this field."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "Research data in this study were drawn from four main sources: the patient's medical records, the postoperative routine follow-up program, additional outpatient appointments, and telephone and mail questionnaires.",
+          "reasoning": "Multiple sources of data collection, including clinical evaluation and questionnaires, support the validity of the outcome measurement."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Postoperative inpatient evaluation routinely included MRI and electroencephalography after 6 months and 2 years.",
+          "reasoning": "A standardized follow-up protocol was applied to all patients."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Outcome Measurement Summary",
+        "prompt": "Outcome of interest is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ],
+        "rating": "Low"
+      }
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "While the study performs multivariable analysis, it does not explicitly account for changes in surgical technique or medical management over the 15-year period, which the authors themselves suggest influenced the results (improved patient selection).",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Partial",
+          "evidence_snippet": "The clinical characteristics of these patients... are summarized in Table 1.",
+          "reasoning": "Key clinical variables are measured, but specific postoperative medication changes (a major confounder in seizure studies) are not detailed."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1",
+          "reasoning": "Variables like age, duration of epilepsy, and seizure type are clearly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "the patient's medical records",
+          "reasoning": "Confounders were extracted from clinical records, which is standard for retrospective studies."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "The same surgical team carried out all operations.",
+          "reasoning": "The clinical setting and team remained consistent, though technology evolved."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No imputation methods were described."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "Partial",
+          "evidence_snippet": "Patients were divided into three groups according to the 5-year period in which the surgical procedure took place.",
+          "reasoning": "Stratification by time period was used to observe trends, but not to control for confounding in the primary association."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "In the Cox multivariate stepwise regression analysis, only the presence of a well-circumscribed lesion on the preoperative MRI scan could predict the long- and short-term outcome",
+          "reasoning": "Multivariable regression was used to adjust for factors significant in univariate analysis."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Confounding Summary",
+        "prompt": "Important potential confounders are appropriately accounted for, limiting potential bias with respect to the relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ],
+        "rating": "Moderate"
+      }
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical methods are appropriate for the study design, including univariate and multivariable (Cox regression) analyses. Results are reported transparently across different time points and subgroups.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Categorical data of patients were compared by using the two-tailed Fisher's exact test... Cox multivariate stepwise regression was used to evaluate the predictors",
+          "reasoning": "The statistical plan is clearly outlined."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "We additionally examined the independent effect of the variables as possible predictors of surgical outcome through binary logistic regression analysis",
+          "reasoning": "The model building followed standard procedures for identifying independent predictors."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "Cox multivariate stepwise regression",
+          "reasoning": "Cox regression is appropriate for time-to-event or longitudinal outcome data."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Table 2, Table 3, Table 4",
+          "reasoning": "The study reports outcomes for all groups, all time points, and both significant and non-significant predictors."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Statistical Analysis and Presentation Summary",
+        "prompt": "The statistical analysis is appropriate for the design of the study, limiting potential for presentation of invalid or spurious results.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ],
+        "rating": "Low"
+      }
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/5_West_2019/Elsharkawy_2008.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-01-05T11:17:37.631106"
+  }
+}

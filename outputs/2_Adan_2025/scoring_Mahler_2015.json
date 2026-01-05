@@ -1,0 +1,332 @@
+{
+  "paper_metadata": {
+    "title": "Unprovoked seizures after traumatic brain injury: A population-based case-control study",
+    "first_author": "Benno Mahler",
+    "year": "2015",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study uses a robust population-based registry (SIRE) and the Swedish National Inpatient Registry, covering a well-defined urban population of nearly 1 million. Recruitment was comprehensive, involving multiple reporting mechanisms and central EEG screening, ensuring the sample is highly representative of the target population.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "all patients identified with a first unprovoked seizure or epilepsy in Northern Stockholm, an urban region with 998,500 inhabitants, were included in the SIRE.",
+          "reasoning": "The geographic area and population size are explicitly defined."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "A reporting network was established, consisting of all neurologists, pediatricians, and geriatricians as well as nurses in nursing homes in the region. Because all electroencephalography (EEG) results from the region were read by one central EEG laboratory, all EEG requests were screened",
+          "reasoning": "The study used a multi-faceted approach including clinical networks, EEG screening, and ICD code searches to minimize missing cases."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "From September 1, 2000 through August 31, 2008",
+          "reasoning": "The start and end dates are clearly stated."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "Northern Stockholm, an urban region with 998,500 inhabitants",
+          "reasoning": "The specific geographic region is identified."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "Inclusion criteria was a newly diagnosed unprovoked seizure. All patients with a seizure or epilepsy diagnosis before September 1, 2000 were excluded... Seizures occurring <7 days after a TBI were defined as acute symptomatic and not included",
+          "reasoning": "Clear inclusion/exclusion criteria and 'zero time' (7 days post-TBI) are provided."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Yes",
+          "evidence_snippet": "Of approximately 19,500 EEG requests and 5,000 screened medical records, 1,885 cases were found to fulfill our inclusion criteria.",
+          "reasoning": "The systematic screening of all regional EEG and medical records suggests high capture of eligible individuals."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Demographic data and other characteristics of cases and controls are summarized in Table 1.",
+          "reasoning": "Table 1 provides age, sex, and various comorbidities for both cases and controls."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "As a registry-based case-control study using mandatory national registries (IPR), the risk of attrition is minimal. The study captures all hospitalized TBI events and incident seizures within the registry period without the traditional 'loss to follow-up' seen in prospective cohorts.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "the registry is considered complete nationwide since registration became mandatory by law in 1987.",
+          "reasoning": "The use of mandatory national registries ensures that data for the selected cases and controls are available."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "Yes",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "In this registry-based design, 'dropout' is not applicable in the same way as a cohort study; however, the use of the Population Register ensures tracking of the denominator."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Yes",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Attrition is not a significant factor in this registry-linkage design."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Not applicable for this study design."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Yes",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The study design effectively eliminates this bias by using comprehensive administrative data."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Attrition Summary",
+        "prompt": "Loss to follow-up (from baseline sample to study population analyzed) is not associated with key characteristics (i.e., the study data adequately represent the sample) sufficient to limit potential bias to the observed relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "While TBI is defined by ICD codes in a mandatory registry, the authors acknowledge that the severity categorization is 'crude and arbitrary' and relies on hospitalization. This likely misses non-hospitalized mild TBIs, potentially biasing the risk estimate for the 'mild' category.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "TBI was defined as a hospital discharge diagnosis of head injury including the following diagnoses: skull fracture (ICD-8, ICD-9: 800, 801, 803; ICD-10: S020, S021, S027, S029), mild TBI (concussion: ICD-8, ICD-9: 850; ICD-10: S060) and severe TBI (ICD-8, ICD-9: 851–854; ICD-10: S061–S069).",
+          "reasoning": "Specific ICD codes are provided for each TBI severity level."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Partial",
+          "evidence_snippet": "The TBI diagnoses rely on the accuracy of hospital discharge diagnoses and coding... our categorization of the severity of the TBI is crude and arbitrary, relying entirely on the selected ICD codes",
+          "reasoning": "While registry data is generally reliable, the lack of clinical markers (GCS, loss of consciousness duration) makes the measurement less precise."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "TBI was defined as a hospital discharge diagnosis... severe TBI was further subdivided into brain contusion... and intracranial, non-parenchymal hemorrhage",
+          "reasoning": "Categorization was based on established ICD groupings, not data-driven post-hoc cut-points."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Cases and controls were linked to this registry using the 10-digit personal identification number... to identify a history of in-hospital care for TBI",
+          "reasoning": "The same registry (IPR) was used for both cases and controls."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "the registry is considered complete nationwide since registration became mandatory by law in 1987.",
+          "reasoning": "Registry completeness ensures PF data is available for all included subjects."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text does not mention missing data or imputation, likely because registry data is assumed complete for the variables used."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "PF Measurement Summary",
+        "prompt": "PF is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The outcome (unprovoked seizure) was rigorously validated by a multi-disciplinary panel of experts reviewing medical records, which is the gold standard for epilepsy incidence studies.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "Potential cases were classified as confirmed unprovoked seizure, provoked seizure, nonepileptic seizure (including psychogenic), and cases uncertain whether unprovoked seizure or not.",
+          "reasoning": "The study uses ILAE definitions and a clear classification system."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "The medical records of all potential cases were evaluated... by a panel consisting of a neurologist, a neuropediatrician, a resident in neurology, a resident in pediatrics, and a trained research nurse.",
+          "reasoning": "Individual validation of cases by a specialist panel significantly reduces misclassification bias."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "All patients identified with a first unprovoked seizure or epilepsy in Northern Stockholm... were included in the SIRE.",
+          "reasoning": "The same registry and validation process were applied to all potential cases."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Outcome Measurement Summary",
+        "prompt": "Outcome of interest is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study matched controls by age, sex, and location. Furthermore, it performed a sensitivity analysis adjusting for major confounders (alcohol, stroke, dementia, psychiatric disease) and found they did not significantly alter the results.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Yes",
+          "evidence_snippet": "information on diagnoses related to alcohol abuse... psychiatric disease... stroke... brain tumor... or dementia was collected.",
+          "reasoning": "Major medical and lifestyle-related confounders that could lead to both TBI and seizures were identified."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "alcohol abuse (ICD-8: 291, 303, 571.00, 571.01, 577.10 ICD-9: 291, 303, 305A, 357F, 425F, 535D, 571A–D, 790D; ICD-10: E244, F10, G312, G621, G721, I426, K292, K70, K852, K860, O354, T51, Y90, Z714, Z721)",
+          "reasoning": "Confounders were defined using specific ICD code ranges."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Through the IPR, information on diagnoses... was collected.",
+          "reasoning": "The Inpatient Registry is a validated source for these clinical diagnoses."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Cases and controls were linked to this registry",
+          "reasoning": "The same registry was used for both groups."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Imputation was not mentioned; registry data was likely treated as complete."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "Yes",
+          "evidence_snippet": "Eight controls per case... matched by sex, catchment area, and year of diagnosis",
+          "reasoning": "Matching was used in the design phase for key demographic variables."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "To check for potential confounding factors... we excluded persons with prior hospital discharge diagnoses of cerebrovascular lesion (CVL), CNS tumor, dementia, alcohol-related diagnoses, or psychiatric diseases... This had only minor influence",
+          "reasoning": "Sensitivity analysis confirmed that these confounders did not bias the primary findings."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Confounding Summary",
+        "prompt": "Important potential confounders are appropriately accounted for, limiting potential bias with respect to the relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study uses appropriate conditional logistic regression for the matched case-control design. It provides detailed subgroup analyses (time since injury, TBI type) and reports confidence intervals for all major findings. There is no evidence of selective reporting.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "We used conditional logistic regression to calculate odds ratios (ORs) and 95% confidence intervals (95% CIs) for a first unprovoked seizure in relation to TBI, adjusting for age.",
+          "reasoning": "The statistical methods are clearly described and appropriate for the design."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "Analyses were stratified by sex and age... RRs and 95% CIs for different combinations of head injuries and within different time intervals after trauma... were studied in detail.",
+          "reasoning": "The model building followed clinical logic regarding TBI severity and latency."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "In this setting, it has been shown that the odds ratio (OR) provides a valid estimate of the incidence rate ratio and the relative risk (RR)",
+          "reasoning": "Conditional logistic regression is the standard for matched case-control studies."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "RRs and 95% CIs for different combinations of head injuries... were studied in detail.",
+          "reasoning": "The study reports on all pre-specified categories of TBI and time intervals, including non-significant results."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Statistical Analysis and Presentation Summary",
+        "prompt": "The statistical analysis is appropriate for the design of the study, limiting potential for presentation of invalid or spurious results.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/2_Adan_2025/Mahler_2015.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-01-05T11:11:35.097531"
+  }
+}

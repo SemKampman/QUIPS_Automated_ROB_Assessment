@@ -1,0 +1,347 @@
+{
+  "paper_metadata": {
+    "title": "Subtraction peri-ictal SPECT is predictive of extratemporal epilepsy surgery outcome",
+    "first_author": "T.J. O'Brien",
+    "year": "2000",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study used a consecutive sample of patients from a specialized center with clearly defined inclusion/exclusion criteria and baseline characteristics. The participation rate was high (111 surgical patients, 36 included after specific exclusions), and the sample appears representative of the target population of intractable extratemporal epilepsy patients.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "36 consecutive patients who had peri-ictal and interictal SPECT studies and extratemporal resective epilepsy surgery performed at Mayo Clinic Rochester between June 1993 and June 1997.",
+          "reasoning": "The source population is clearly defined as patients undergoing evaluation for intractable partial epilepsy at a major tertiary center."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "During the study period, 257 patients had ictal SPECT studies performed as part of the evaluation for intractable partial epilepsy. Of these patients, 111 subsequently had epilepsy surgery",
+          "reasoning": "The recruitment flow from the total pool of SPECT patients to the surgical cohort is transparently reported."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "between June 1993 and June 1997.",
+          "reasoning": "Specific dates are provided."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "Mayo Clinic Rochester",
+          "reasoning": "The clinical setting is explicitly stated."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "Of the extratemporal lobe group, five were excluded from the study because they did not have interictal SPECT performed, and five others were excluded because they did not have at least 12 months of postoperative follow-up.",
+          "reasoning": "Exclusion criteria are specific and related to the technical requirements of the prognostic factor (SISCOM) and the outcome (follow-up duration)."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Yes",
+          "evidence_snippet": "36 consecutive patients... Of the extratemporal lobe group, five were excluded... and five others were excluded",
+          "reasoning": "The study included 36 out of 46 potentially eligible extratemporal surgery patients (78%), which is close to the 80% threshold for low risk."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "23 male and 13 female patients, with a median age of 25 years at the time of surgery (range, 1.5 to 56 years). The site of cortical excision was frontal in 19 patients...",
+          "reasoning": "Age, sex, and surgical site/type are provided for the cohort."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study required a minimum of 12 months follow-up for inclusion. While 5 patients were excluded for lacking this follow-up, the final cohort of 36 had complete outcome data. Given the nature of surgical follow-up, the risk of informative censoring is low.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "All patients had at least 12 months of postoperative follow-up.",
+          "reasoning": "The analysis was conducted on the full included cohort of 36 patients."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not describe attempts to contact the 5 patients excluded for lack of follow-up."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Partial",
+          "evidence_snippet": "five others were excluded because they did not have at least 12 months of postoperative follow-up.",
+          "reasoning": "The reason is stated as lack of follow-up duration, but the underlying cause (e.g., moved away, dissatisfied) is not detailed."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Characteristics of the 10 excluded patients (5 missing interictal SPECT, 5 missing follow-up) are not compared to the study group."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Insufficient data to determine if those lost to follow-up had different prognostic profiles."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Attrition Summary",
+        "prompt": "Loss to follow-up (from baseline sample to study population analyzed) is not associated with key characteristics (i.e., the study data adequately represent the sample) sufficient to limit potential bias to the observed relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ],
+        "rating": "Low",
+        "evidence_snippet": "All patients had at least 12 months of postoperative follow-up.",
+        "reasoning": "The exclusion of 5 patients for follow-up is a small proportion of the surgical cohort, and the remaining 36 provide a robust sample for this type of surgical study."
+      }
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The prognostic factor (SISCOM) is defined with high technical detail. Measurement was performed by blinded reviewers, and the methodology for coregistration and thresholding was standardized and previously validated.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "Hyperperfusion SISCOM images were created as described previously... thresholded to one SD level and hypoperfusion images were thresholded to both one and two SD levels.",
+          "reasoning": "The technical parameters of the SPECT subtraction and MRI coregistration are well-defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "SISCOM images were independently reviewed for regional cortical localization by two primary reviewers (B.P.M., E.L.S.) who were blinded to the clinical data, results of other tests, and surgical outcome.",
+          "reasoning": "Blinding and the use of multiple reviewers with a tie-breaker ensure reliability."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "Hyperperfusion images were thresholded to one SD level and hypoperfusion images were thresholded to both one and two SD levels.",
+          "reasoning": "Standard deviation thresholds are used, which are standard in this field and not post-hoc optimized for this specific dataset."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "The SPECT images were acquired with the same scanner within 2 to 3 hours after the injection of radioisotope, using an identical protocol for both peri-ictal and interictal studies.",
+          "reasoning": "Protocols were standardized across the cohort."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "36 consecutive patients who had peri-ictal and interictal SPECT studies",
+          "reasoning": "All included patients had the necessary scans for SISCOM analysis."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "Yes",
+          "evidence_snippet": "five were excluded from the study because they did not have interictal SPECT performed",
+          "reasoning": "Missing data was handled by exclusion rather than imputation, which is appropriate for this type of diagnostic/prognostic study."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "PF Measurement Summary",
+        "prompt": "PF is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ],
+        "rating": "Low",
+        "evidence_snippet": "SISCOM images were independently reviewed... blinded to the clinical data, results of other tests, and surgical outcome.",
+        "reasoning": "The combination of technical standardization and blinded clinical review minimizes measurement bias."
+      }
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The outcome (seizure control) was measured using a validated 12-point scale. While the reviewers of the outcome were not explicitly stated to be blinded to the SPECT results, the outcome itself is relatively objective (seizure frequency) and the follow-up duration was sufficient.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "Outcome classification was based on the patients' state of seizure control at latest follow-up... classified according to a 12-point seizure frequency score",
+          "reasoning": "The 12-point scale (modified Engel) is a standard and well-defined metric in epilepsy surgery."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "We have previously validated this criterion for excellent outcome by demonstrating that it is associated with the best work outcome, with ability to drive",
+          "reasoning": "The authors use a previously validated scoring system."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Postsurgical outcome with respect to seizures was determined by review of the patients' medical records.",
+          "reasoning": "Standardized medical record review was used for all participants."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Outcome Measurement Summary",
+        "prompt": "Outcome of interest is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ],
+        "rating": "Low",
+        "evidence_snippet": "Outcome classification was based on the patients' state of seizure control at latest follow-up.",
+        "reasoning": "The use of a validated scale and a minimum 1-year follow-up provides a reliable outcome measure."
+      }
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study accounts for major confounders like MRI and EEG findings using multivariable logistic regression. However, other potential confounders such as duration of epilepsy, specific pathology (beyond lesional/non-lesional), and medication changes were not explicitly adjusted for in the models.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Partial",
+          "evidence_snippet": "SISCOM regional localization... preoperative MRI findings... and ictal scalp EEG findings",
+          "reasoning": "Key clinical variables (MRI, EEG) are measured, but others like epilepsy duration or surgical technique details are not included in the confounding analysis."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "MRI findings (lesional versus nonlesional), and ictal scalp EEG findings (localizing versus nonlocalizing)",
+          "reasoning": "The confounders used in the regression are clearly categorized."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Localizations by scalp EEG, intracranial EEG, and MRI were determined by retrospective review of the reports of the procedures.",
+          "reasoning": "Standard clinical reports from a specialized center are generally reliable."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "All patients had a seizure protocol MRI performed... Ictal scalp EEG was recorded for all patients",
+          "reasoning": "Standardized preoperative workup was applied to all."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "Yes",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No imputation was mentioned; complete case analysis appears to have been used for the regression."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The study was a cohort study without matching or stratification at the design stage."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "Logistic regression analysis was performed to determine the independent contributions of SISCOM, MRI, and ictal scalp EEG in predicting surgical outcome.",
+          "reasoning": "Multivariable adjustment was performed for the most critical clinical predictors."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Confounding Summary",
+        "prompt": "Important potential confounders are appropriately accounted for, limiting potential bias with respect to the relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ],
+        "rating": "Moderate",
+        "evidence_snippet": "Logistic regression models... using the SISCOM regional localization, preoperative MRI findings, and ictal scalp EEG findings",
+        "reasoning": "While the main clinical confounders were adjusted for, the small sample size (n=36) limits the number of variables that could be included in the model, potentially leaving some residual confounding."
+      }
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical methods are appropriate for the study design. The use of logistic regression to determine independent predictive value is correct, and the reporting of results is comprehensive, including both univariate and multivariate analyses.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "The Mann-Whitney U test (two-tailed) was used... Fisher's exact test was used for dichotomous variables... Logistic regression analysis was performed",
+          "reasoning": "The statistical plan is clearly laid out."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "determine the independent contributions of SISCOM, MRI, and ictal scalp EEG in predicting surgical outcome.",
+          "reasoning": "The model includes the three most relevant clinical tests used in surgical decision-making."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "Logistic regression analysis was performed using a maximal likelihood loss function.",
+          "reasoning": "Logistic regression is appropriate for the binary outcome (excellent vs. non-excellent)."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Results of the logistic regression analyses are summarized in table 7.",
+          "reasoning": "The authors report odds ratios, p-values, and coefficients for all variables in the model, not just the significant ones."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Statistical Analysis and Presentation Summary",
+        "prompt": "The statistical analysis is appropriate for the design of the study, limiting potential for presentation of invalid or spurious results.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ],
+        "rating": "Low",
+        "evidence_snippet": "SISCOM findings were predictive of postsurgical outcome, independently of MRI or scalp ictal EEG findings (p < 0.05).",
+        "reasoning": "The analysis directly addresses the study objectives using appropriate multivariate techniques."
+      }
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/5_West_2019/OBrien_2000.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-01-05T11:17:10.281143"
+  }
+}

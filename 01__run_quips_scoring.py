@@ -8,6 +8,7 @@ import os
 import json
 import time
 import glob
+import argparse
 from datetime import datetime
 from dotenv import load_dotenv
 from openai import OpenAI
@@ -19,19 +20,9 @@ MODEL_NAME = "google/gemini-3-flash-preview"
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
 PROMPT_FILE = "prompts/quips_assessment.md"
 
-# Interactive directory selection
-DEFAULT_INPUT = "data_md_converted/1_Giuliano_2021"
-DEFAULT_OUTPUT = "outputs/1_Giuliano_2021"
-
-INPUT_DIR = input(f"Enter input directory [{DEFAULT_INPUT}]: ").strip() or DEFAULT_INPUT
-OUTPUT_DIR = input(f"Enter output directory [{DEFAULT_OUTPUT}]: ").strip() or DEFAULT_OUTPUT
-
 if not OPENROUTER_API_KEY:
     print("Error: OPENROUTER_API_KEY environment variable not set.")
     exit(1)
-
-# Ensure output directory exists
-os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
@@ -42,8 +33,8 @@ def read_file(path):
     with open(path, 'r', encoding='utf-8') as f:
         return f.read()
 
-def save_json(data, filename):
-    filepath = os.path.join(OUTPUT_DIR, filename)
+def save_json(data, filename, output_dir):
+    filepath = os.path.join(output_dir, filename)
     with open(filepath, 'w', encoding='utf-8') as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
     print(f"Saved: {filepath}")
@@ -69,6 +60,16 @@ def process_paper(md_content, prompt_template):
         return None
 
 def main():
+    parser = argparse.ArgumentParser(
+        description="Run QUIPS scoring on markdown files. Example: python 01__run_quips_scoring.py -i data_md_converted/1_Giuliano_2021 -o outputs/1_Giuliano_2021"
+    )
+    parser.add_argument("-i", "--input", required=True, help="Input directory containing .md files")
+    parser.add_argument("-o", "--output", required=True, help="Output directory for .json files")
+    args = parser.parse_args()
+
+    # Ensure output directory exists
+    os.makedirs(args.output, exist_ok=True)
+
     # 1. Load System Prompt
     if not os.path.exists(PROMPT_FILE):
         print(f"Error: Prompt file not found at {PROMPT_FILE}")
@@ -78,9 +79,9 @@ def main():
     print(f"Loaded prompt from {PROMPT_FILE}")
 
     # 2. Find MD files
-    md_files = glob.glob(os.path.join(INPUT_DIR, "*.md"))
+    md_files = glob.glob(os.path.join(args.input, "*.md"))
     if not md_files:
-        print(f"No markdown files found in {INPUT_DIR}")
+        print(f"No markdown files found in {args.input}")
         return
 
     print(f"Found {len(md_files)} papers to process.")
@@ -90,7 +91,7 @@ def main():
         filename = os.path.basename(file_path)
         base_name = os.path.splitext(filename)[0]
         output_filename = f"scoring_{base_name}.json"
-        output_filepath = os.path.join(OUTPUT_DIR, output_filename)
+        output_filepath = os.path.join(args.output, output_filename)
 
         print(f"\nProcessing: {filename}...")
 
@@ -115,7 +116,7 @@ def main():
                 "processed_at": datetime.now().isoformat()
             }
             
-            save_json(result_json, output_filename)
+            save_json(result_json, output_filename, args.output)
         else:
             print(f"Failed to generate JSON for {filename}")
             

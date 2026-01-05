@@ -1,0 +1,296 @@
+{
+  "paper_metadata": {
+    "title": "EEG and clinical predictors of medically intractable childhood epilepsy",
+    "first_author": "Tae-Sung Ko",
+    "year": "1999",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study provides a clear description of the setting and inclusion/exclusion criteria. However, as a retrospective study from a tertiary referral center, there is a high risk of selection bias toward more severe cases, which the authors acknowledge. The participation rate of the original 1000-patient pool is not fully transparent, as many were excluded for 'inadequate follow-up' without detailed counts.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Medical records were received from approximately 1000 children (,18 years) currently followed in the Division of Epilepsy and Clinical Neurophysiology at Children's Hospital in Boston.",
+          "reasoning": "The source population is clearly defined as pediatric patients at a specific tertiary neurology division."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Partial",
+          "evidence_snippet": "Because our study was a retrospective study and Children's Hospital is a tertiary referral hospital, our patient population may be biased toward including patients with severe epilepsy.",
+          "reasoning": "While the recruitment method (chart review) is clear, the sampling frame is a convenience sample from a specialized center, which introduces inherent referral bias."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not specify the calendar years during which the patients were treated or when the records were reviewed."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "Division of Epilepsy and Clinical Neurophysiology at Children's Hospital in Boston.",
+          "reasoning": "The specific clinical setting and location are clearly stated."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "We included children who had been followed regularly for at least two years. Cases with shorter periods of follow-up or in which there was inadequate follow-up were excluded... We also excluded children who did not have EEGs as part of their initial evaluation.",
+          "reasoning": "The authors provide specific criteria regarding follow-up duration, diagnostic requirements (2+ seizures), and data availability."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "We collected 144 cases of intractable cases and 39 cases of well-controlled cases from the above review of charts. The excluded cases were those patients in which seizure control did not meet the deønition of either intractable or well-controlled cases or in whom there was inadequate follow-up.",
+          "reasoning": "It is unclear how many of the initial 1000 patients met the eligibility criteria versus how many were excluded due to missing data, making it difficult to assess participation bias."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 2 Characteristics of intractable and well-controlled group... Age of seizure onset (mean, year), Age of first EEG (mean, year), F/U duration (mean, year), Male sex (%).",
+          "reasoning": "Key demographic and clinical baseline characteristics are provided in Table 2."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study excludes a large portion of the initial cohort due to 'inadequate follow-up.' Because the characteristics of these excluded patients are not compared to the included sample, there is a risk of attrition bias, although the included patients had a stable mean follow-up of ~5 years.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "No",
+          "evidence_snippet": "Medical records were received from approximately 1000 children... We collected 144 cases of intractable cases and 39 cases of well-controlled cases.",
+          "reasoning": "Only 183 out of approximately 1000 records (18.3%) were included in the final analysis. This is a high rate of exclusion."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "Yes",
+          "evidence_snippet": "To obtain missing information, the child's neurologist was contacted.",
+          "reasoning": "The authors attempted to mitigate missing data by contacting the treating physicians."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Partial",
+          "evidence_snippet": "The excluded cases were those patients in which seizure control did not meet the deønition of either intractable or well-controlled cases or in whom there was inadequate follow-up.",
+          "reasoning": "General reasons are given (not meeting definitions or inadequate follow-up), but specific counts for each reason are missing."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is no description or table comparing the characteristics of the ~817 excluded patients to the 183 included patients."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Without data on the excluded group, it is impossible to determine if the analyzed sample is biased."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Attrition Summary",
+        "prompt": "Loss to follow-up (from baseline sample to study population analyzed) is not associated with key characteristics (i.e., the study data adequately represent the sample) sufficient to limit potential bias to the observed relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The prognostic factors (EEG and clinical features) are well-defined using standard neurological criteria (International 10-20 system, Blume 1982). While retrospective, the use of objective EEG data and standardized clinical definitions limits measurement bias.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "Diffuse slowing was deøned as slower than expected background frequencies for the patient's age (Blume, 1982)... Asymmetrical background was deøned as a 50% or greater difference in amplitude.",
+          "reasoning": "The authors provide explicit, quantitative definitions for the EEG prognostic factors."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Electroencephalogram recordings were obtained with a 21 channel electroencephalograph, employing scalp electrodes placed according to the international 10-20 system.",
+          "reasoning": "Standardized, internationally recognized methods for EEG recording and interpretation were used."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "Frequency of spikes or sharp waves was coded as greater or less than 1 per 60 s.",
+          "reasoning": "The authors used pre-defined cut-points for EEG frequencies and clinical ages."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Partial",
+          "evidence_snippet": "While the majority of children were initially evaluated at Children's Hospital, we included some cases who had their þrst EEG elsewhere if the clinical information and laboratory studies were reliable and adequate.",
+          "reasoning": "Most were done at one center, but some external EEGs were included, introducing slight potential for variability."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "We also excluded children who did not have EEGs as part of their initial evaluation.",
+          "reasoning": "The study design ensured that all included participants had the primary prognostic factor (EEG) available."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Imputation was not used; cases with missing data were simply excluded."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The outcome (intractability vs. well-controlled) is clearly defined based on clinical response to a specific number of AEDs and a minimum duration of seizure freedom. These are standard, though slightly arbitrary, clinical endpoints.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "Medical intractability was deøned as continued seizures despite adequate trials of 3 or more antiepileptic drugs (AEDs)... Well-controlled epilepsy was deøned as having no seizures for a minimum of one year.",
+          "reasoning": "The outcome categories are explicitly defined with clear clinical thresholds."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "A trial of AEDs was considered adequate if, in the opinion of the child's neurologist, the dosage was increased until there was either seizure control or signs of clinical or laboratory toxicity.",
+          "reasoning": "Outcome was determined by specialist neurologists based on clinical and laboratory data, which is the clinical standard."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Information was abstracted retrospectively from the child's medical records. To obtain missing information, the child's neurologist was contacted.",
+          "reasoning": "The same criteria and data collection methods were applied to both the intractable and well-controlled groups."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study uses multivariable logistic regression to adjust for several key confounders (age, etiology, seizure type). However, because it is a retrospective study, some potential confounders (like specific treatment protocols or socioeconomic factors) may not have been fully captured or adjusted for.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1 lists the electroencephalographic and clinical features... Age of seizure onset, Seizure types, Status epilepticus, Etiology, Brain MRI.",
+          "reasoning": "The study measured the most clinically relevant confounders for epilepsy prognosis."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "Epilepsy was deøned as two or more non-provoked seizures... Symptomatic etiology since it overlapped with an abnormal brain MRI.",
+          "reasoning": "The factors used in the models are standard clinical terms defined in the methods."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Information was abstracted retrospectively from the child's medical records.",
+          "reasoning": "Clinical records from a specialized pediatric hospital are generally reliable for these types of variables."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Data were analyzed with chi-square and the chi-square test for trend for univariate comparisons.",
+          "reasoning": "The data collection process was uniform across the cohort."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No imputation was performed."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "No",
+          "evidence_snippet": "We collected 144 cases of intractable cases and 39 cases of well-controlled cases.",
+          "reasoning": "The study did not use matching or stratification in the design phase; it relied on post-hoc statistical adjustment."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "Following univariate analysis we performed multivariate analysis to choose independently signiþrstant factors among the many signiþrstant factors in univariate analysis.",
+          "reasoning": "Multivariable logistic regression was used to adjust for confounding variables."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical methods are appropriate for the study design. The authors used both univariate and multivariate models and were transparent about excluding certain variables (like Lennox-Gastaut) from the multivariate model due to zero cells, which is a correct statistical practice.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Data analysis was obtained using SAS software. Data were analyzed with chi-square and the chi-square test for trend for univariate comparisons... Odds ratios, 95% conødence intervals, and Pvalues were computed.",
+          "reasoning": "The analytical plan is clearly described and standard for this type of study."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "Following univariate analysis we performed multivariate analysis to choose independently signiþrstant factors... We discarded some factors in performing the multivariate analysis because of a zero cell.",
+          "reasoning": "The transition from univariate to multivariate analysis is logical and accounts for statistical limitations (zero cells)."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "multivariate logistic regression models.",
+          "reasoning": "Logistic regression is the appropriate model for a binary outcome (intractable vs. controlled)."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Table 3 Description of Electroencephalographic features... Table 5 Description of clinical factors.",
+          "reasoning": "The authors report results for all factors listed in their methods, including those that were not statistically significant."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/4_Wassenaar_2019/Ko_2016.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-01-05T11:12:33.765862"
+  }
+}

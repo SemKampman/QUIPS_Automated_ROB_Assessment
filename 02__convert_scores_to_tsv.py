@@ -10,6 +10,7 @@ import os
 import json
 import csv
 import glob
+import argparse
 from typing import List, Dict, Any
 
 # --- Configuration ---
@@ -214,17 +215,21 @@ def flatten_quips_json(file_path: str, data: Dict[str, Any]) -> Dict[str, str]:
     return row
 
 def main():
-    # 1. Interactive Inputs
-    default_input = "outputs/1_Giuliano_2021"
-    default_output = "outputs/1_Giuliano_2021/quips_summary.tsv"
+    # 1. Argument Parsing
+    parser = argparse.ArgumentParser(
+        description="Convert QUIPS JSON scores to TSV. Example: python 02__convert_scores_to_tsv.py -i outputs/1_Giuliano_2021 -o outputs/1_Giuliano_2021/quips_summary.tsv"
+    )
+    parser.add_argument("-i", "--input", required=True, help="Input directory containing JSON files")
+    parser.add_argument("-o", "--output", required=True, help="Output TSV file path")
+    args = parser.parse_args()
     
-    input_dir = input(f"Enter input directory containing JSON files [{default_input}]: ").strip() or default_input
-    output_file = input(f"Enter output TSV file path [{default_output}]: ").strip() or default_output
+    input_dir = args.input
+    output_file = args.output
     
     # Ensure output directory exists
-    output_dir = os.path.dirname(output_file)
-    if output_dir:
-        os.makedirs(output_dir, exist_ok=True)
+    output_dir_path = os.path.dirname(output_file)
+    if output_dir_path:
+        os.makedirs(output_dir_path, exist_ok=True)
     
     # 2. Build Headers
     # Base metadata headers

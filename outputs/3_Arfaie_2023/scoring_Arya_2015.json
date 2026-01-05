@@ -1,0 +1,312 @@
+{
+  "paper_metadata": {
+    "title": "Long-term outcomes of resective epilepsy surgery after invasive presurgical evaluation in children with tuberous sclerosis complex and bilateral multiple lesions",
+    "first_author": "Ravindra Arya",
+    "year": "2014",
+    "analysis_timestamp": "2023-10-27 10:00:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study provides a clear description of the clinical characteristics and inclusion criteria for a specific subset of TSC patients (bilateral lesions). However, as a single-center retrospective study using an electronic database, there is a risk of selection bias. The participation rate of eligible vs. non-eligible patients is not explicitly stated, making it difficult to rule out convenience sampling.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Patients with multilesional TSC who underwent epilepsy surgery between 2007 and 2012 were identified from an electronic database.",
+          "reasoning": "The study specifies the disease (TSC), the clinical condition (medically refractory epilepsy), and the specific anatomical characteristic (bilateral multiple lesions)."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Partial",
+          "evidence_snippet": "patients were identified from an institutional epilepsy surgery electronic database.",
+          "reasoning": "While the database is identified, the specific referral patterns to this single center and the total number of TSC patients screened vs. those selected for surgery are not detailed."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "between January 2007 and December 2012",
+          "reasoning": "The start and end dates for patient identification are clearly stated."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "single-center retrospective chart review study... Cincinnati Children's Hospital Medical Center, Cincinnati, Ohio",
+          "reasoning": "The specific institution and location are provided."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "The diagnoses of TSC and medical refractoriness were based on conventional criteria.9,12 The patients were classified as having bilateral disease if the MRI study demonstrated tubers or areas of cortical signal abnormality consistent with cortical dysplasia in both hemispheres.",
+          "reasoning": "The study uses established clinical guidelines and specific imaging findings to define the cohort."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text does not provide the number of patients who were eligible but did not undergo surgery or were excluded from the database search."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1. Univariate comparison of demographic and other clinical variables... Mean age at seizure onset... Mean presurgery daily seizure frequency... Mean presurgery FSIQ",
+          "reasoning": "Table 1 and the Results section provide comprehensive baseline data including age, seizure frequency, IQ, and gender."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study reports outcomes for all 37 patients identified. While some secondary measures (like follow-up IQ) have missing data, the primary outcome (seizure freedom) appears to have been captured for the full cohort through electronic medical records.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "A total of 37 patients with TSC underwent resective surgery during the study period... After a mean follow-up of 5.68 ± 3.67 years, 56.8% achieved complete seizure freedom",
+          "reasoning": "The primary outcome is reported for the entire cohort of 37 patients."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is no mention of dropouts or specific attempts to contact patients lost to follow-up, likely because it was a retrospective chart review."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The study does not explicitly state if any patients were lost to follow-up; it implies the full cohort was analyzed."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No description of lost participants is provided."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Since loss to follow-up is not discussed, a comparison between completers and non-completers is absent."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Attrition Summary",
+        "prompt": "Loss to follow-up (from baseline sample to study population analyzed) is not associated with key characteristics (i.e., the study data adequately represent the sample) sufficient to limit potential bias to the observed relationship between PF and outcome.",
+        "risk_of_bias": "Low"
+      }
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The prognostic factors (age of onset, EEG patterns, imaging concordance) are measured using standardized clinical protocols (MRI, PET, MEG, Video-EEG). These are objective and consistent across the cohort.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "EEG ictal onset from a single or 2 ipsilateral contiguous head regions... SPM/PET concordance... SISCOM concordance... MEG concordance",
+          "reasoning": "The study clearly defines the prognostic factors being analyzed in Table 1."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Structural imaging consisted of an epilepsy protocol MRI study. Functional imaging comprised interictal FDG-PET, ictal and interictal SPECT, and magnetoencephalography (MEG) studies.",
+          "reasoning": "The measurements rely on objective, high-standard diagnostic technology and standardized visual/statistical analysis (SPM)."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "Mean age at seizure onset in mos... Mean presurgery daily seizure frequency",
+          "reasoning": "Continuous variables are reported as means/SDs without arbitrary or data-driven dichotomization."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "A comprehensive noninvasive presurgical evaluation... was individualized for all patients by the attending epileptologist",
+          "reasoning": "While individualized, all patients underwent the same core multimodality evaluation at the same institution."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Partial",
+          "evidence_snippet": "The preoperative FSIQ was available for 23 patients... SPM/PET concordance w/ ictal EEG (n = 26)",
+          "reasoning": "Some prognostic factors (IQ and functional imaging) were missing for a significant portion of the 37-patient cohort."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The study does not mention imputation; it appears to use available-case analysis."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "PF Measurement Summary",
+        "prompt": "PF is adequately measured in study participants to sufficiently limit potential bias.",
+        "risk_of_bias": "Low"
+      }
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The primary outcome (ILAE scale) is a validated, standard tool in epilepsy surgery research. Although seizure frequency is based on parental report (recall), this is the standard of care in pediatric epilepsy.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "Seizure outcome was classified according to the International League Against Epilepsy (ILAE) outcome scale.16",
+          "reasoning": "The ILAE scale is a well-defined, internationally recognized metric for seizure outcomes."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Partial",
+          "evidence_snippet": "Seizure frequency was ascertained from the patient's electronic medical record, where it is prospectively recorded at each follow-up visit by parental questioning.",
+          "reasoning": "While standard, parental report is subject to recall bias. There is no mention of blinding the outcome assessors to the prognostic factors."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "recorded at each follow-up visit by parental questioning.",
+          "reasoning": "The process for capturing seizure frequency was consistent across the cohort."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Outcome Measurement Summary",
+        "prompt": "Outcome of interest is adequately measured in study participants to sufficiently limit potential bias.",
+        "risk_of_bias": "Low"
+      }
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "High",
+      "risk_reasoning": "The study primarily relies on univariate comparisons (Table 1). It explicitly states it was underpowered to detect predictor variables, and no multivariable adjustment (e.g., Cox regression or logistic regression) was performed to account for confounding between factors like age, disease severity, and surgical type.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1... Mean age at seizure onset... Mean presurgery daily seizure frequency... Mean presurgery FSIQ... No. of AEDs",
+          "reasoning": "Key clinical confounders like age, seizure burden, and medication load were measured."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "The diagnoses of TSC and medical refractoriness were based on conventional criteria.9,12",
+          "reasoning": "Confounders like medical refractoriness and TSC diagnosis are defined by standard criteria."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "ascertained from the patient's electronic medical record",
+          "reasoning": "Confounders were extracted from clinical records, which is standard for retrospective studies."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "All patients with TSC who underwent resective epilepsy surgery between January 2007 and December 2012 were reviewed",
+          "reasoning": "Data collection was uniform for the cohort."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No imputation methods were described for missing confounder data (e.g., missing IQ scores)."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The study did not use matching or stratification in its design."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "No",
+          "evidence_snippet": "Univariate comparison of demographic and other clinical variables... Our study was likely underpowered to detect predictor variables at a statistical significance.",
+          "reasoning": "The analysis was limited to univariate tests (t-tests, Fisher's exact). No multivariable modeling was performed to adjust for confounding."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Confounding Summary",
+        "prompt": "Important potential confounders are appropriately accounted for, limiting potential bias with respect to the relationship between PF and outcome.",
+        "risk_of_bias": "High"
+      }
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The statistical methods for the descriptive and univariate analyses are appropriate and well-described. However, the lack of a multivariable model and the admission that the study is underpowered for predictor analysis limit the validity of the prognostic conclusions.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Means, medians, and proportions were compared using ttests for independent variables, Wilcoxon sign-rank test, and Fisher's exact test, respectively.",
+          "reasoning": "The statistical tests used are clearly listed."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There was no multivariable model building strategy described."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Partial",
+          "evidence_snippet": "Univariate comparison... Our study was likely underpowered to detect predictor variables",
+          "reasoning": "While univariate tests are okay for descriptive purposes, they are inadequate for definitive prognostic factor identification in a complex disease like TSC."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1... Table 2... Table 3... Table 4",
+          "reasoning": "The study reports on all pre-specified primary and secondary outcomes, including non-significant results for predictors."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Statistical Analysis and Presentation Summary",
+        "prompt": "The statistical analysis is appropriate for the design of the study, limiting potential for presentation of invalid or spurious results.",
+        "risk_of_bias": "Moderate"
+      }
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/3_Arfaie_2023/Arya_2015.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-01-05T11:09:51.328597"
+  }
+}
