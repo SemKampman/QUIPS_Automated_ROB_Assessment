@@ -2,7 +2,15 @@
 # Metadata wordt geladen uit metadata.yaml
 ---
 
-# Title here...
+# Can Large Language Models streamline risk of bias assessments in epilepsy systematic reviews? A pilot study
+
+Sem L Kampman MD 1
+Kees PJ Braun MD PhD 1
+Willem M Otte PhD 1
+
+1 Department of Child Neurology, UMC Utrecht Brain Center, Wilhelmina Children’s Hospital, University Medical Center Utrecht and Utrecht University, Utrecht, The Netherlands
+
+Corresponding author: Sem L. Kampman. Department of Child Neurology, UMC Utrecht Brain Center, University Medical Center Utrecht and Utrecht University, Heidelberglaan 100, 3584 CX Utrecht, The Netherlands
 
 ## Abstract
 
