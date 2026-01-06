@@ -1,0 +1,8 @@
+# A tibble: 5 × 2
+  Review    mean_kappa
+  <chr>          <dbl>
+1 Adan          0.307 
+2 Arfaie      NaN     
+3 Giuliani      0.0727
+4 Wassenaar     0.0235
+5 West          0.0883
