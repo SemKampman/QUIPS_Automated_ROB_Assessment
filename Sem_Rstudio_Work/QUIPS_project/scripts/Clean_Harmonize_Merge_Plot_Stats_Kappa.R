@@ -1,6 +1,6 @@
 #QUIPS_LLM_study
 #Creation Date: 5 jan 2026
-#Last Updated:6 jan 2026
+#Last Updated: 7 jan 2026
 #Owners: Sem Kampman, Wim Otte
 
 --------------------------------------------------------------------------------------------
@@ -21,6 +21,8 @@ library(psych)
 library (here)
 library(ggalluvial)
 
+setwd("/Users/sem.l.kampman/Documents/GitHub/quips/quips_private/Sem_Rstudio_Work/QUIPS_project")
+
 out_dirs <- list(
   plots  = here("output", "plots"),
   tables = here("output", "tables"),
@@ -34,7 +36,7 @@ purrr::walk(out_dirs, ~ dir.create(.x, recursive = TRUE, showWarnings = FALSE))
 #------------------------------------ STEP 1 - Import LLM datasets -----------------------------
 #-----------------------------------------------------------------------------------------------
 
-df_Adan <- read_tsv("~/Documents/GitHub/quips/quips_private/outputs/2_Adan_2025/quips_summary_Adan.tsv")
+df_Adan <- read_tsv("~/Documents/GitHub/quips/quips_private/outputs/2_Adan_2025/quips_summary_Adan_v2.tsv")
 df_Giuliani <- read_tsv("~/Documents/GitHub/quips/quips_private/outputs/1_Giuliano_2021/quips_summary_Giuliano.tsv")
 df_West <- read_tsv("~/Documents/GitHub/quips/quips_private/outputs/5_West_2019/quips_summary_West.tsv")
 df_Arfaie <- read_tsv("~/Documents/GitHub/quips/quips_private/outputs/3_Arfaie_2023/quips_summary_Arfaie.tsv")
