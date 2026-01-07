@@ -1,0 +1,332 @@
+{
+  "paper_metadata": {
+    "title": "EEG characteristics predict subsequent epilepsy in children with their first unprovoked seizure",
+    "first_author": "Hideaki Kanemura",
+    "year": "2015",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study provides a clear description of the target population, recruitment setting, and specific inclusion/exclusion criteria. The sample appears representative of pediatric patients presenting to a university hospital with a first unprovoked seizure.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Eligible candidates were children between 1 month and 15 years old who presented with their first unprovoked non-febrile seizure.",
+          "reasoning": "The age range and clinical presentation (first unprovoked non-febrile seizure) are clearly defined."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "Participants were recruited from the University of Yamanashi Hospital between July 1, 1997 and June 30, 2010",
+          "reasoning": "The recruitment source (University Hospital) and the method (review of records to verify residency and seizure cause) are described."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "between July 1, 1997 and June 30, 2010",
+          "reasoning": "Specific dates for the recruitment window are provided."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "University of Yamanashi Hospital",
+          "reasoning": "The specific hospital setting is identified."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "Exclusion criteria were ambiguous episodes, seizures occurring with acute encephalopathy... or the presence of organic brain lesions on magnetic resonance imaging (MRI)... children with status epilepticus... were also excluded",
+          "reasoning": "Detailed exclusion criteria are provided, including the exclusion of symptomatic seizures and status epilepticus to ensure a clean prognostic cohort."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "A total of 96 children met all entry criteria and underwent EEGs. Nine were excluded because no follow-up was obtained",
+          "reasoning": "While the flow of the 96 identified patients is clear, the paper does not state how many total eligible patients presented to the hospital during that 13-year period who may have declined participation."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "The clinical profiles of all patients are shown in Table 1.",
+          "reasoning": "Table 1 includes age, sex, perinatal history, family history, developmental delay, and seizure type."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The attrition rate was low (9.4%), and all remaining participants were followed for a sufficient duration (at least 4 years) to capture the outcome of interest.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "A total of 96 children met all entry criteria... Nine were excluded because no follow-up was obtained after the first unprovoked seizure. Data from 87 children... were analyzed.",
+          "reasoning": "87/96 (90.6%) of eligible participants were analyzed, which is above the 80% threshold generally considered low risk."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The study does not describe efforts made to contact the 9 patients lost to follow-up."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "No",
+          "evidence_snippet": "Nine were excluded because no follow-up was obtained",
+          "reasoning": "The text states they were excluded due to lack of follow-up but does not provide the reasons why follow-up was not obtained (e.g., moved away, withdrew consent)."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is no comparison of baseline characteristics between the 87 analyzed and the 9 lost to follow-up."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Because characteristics of the dropouts are not reported, it is impossible to determine if they differed systematically from the completers."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Attrition Summary",
+        "prompt": "Loss to follow-up (from baseline sample to study population analyzed) is not associated with key characteristics (i.e., the study data adequately represent the sample) sufficient to limit potential bias to the observed relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The prognostic factor (EEG) was measured using standardized protocols, interpreted by blinded experts, and required consensus, which significantly reduces measurement bias.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "EEG PAs were classified based on the presence of spikes, sharp waves, or spike-wave complexes, whether focal or generalized, that were considered abnormal for age and state.",
+          "reasoning": "The paper provides a clear definition of what constitutes a paroxysmal abnormality."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "EEG studies were coded by number and read independently by two pediatric epileptologists or neurologists blinded to the identity of the patients. Agreement regarding the presence of a PA was required",
+          "reasoning": "The use of two blinded independent readers and a consensus/third-opinion requirement ensures high reliability."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "EEG PAs were classified based on the presence of spikes, sharp waves, or spike-wave complexes",
+          "reasoning": "The PF is categorical by nature (presence/absence and localization), and standard clinical classifications were used."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Awake and sleep EEGs were performed on a 12- or 16-channel machine 7–20 days after a first unprovoked seizure. The duration of tracings was at least 20 min.",
+          "reasoning": "A standardized protocol was applied to all participants within a specific timeframe."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "A total of 96 children met all entry criteria and underwent EEGs.",
+          "reasoning": "All participants included in the analysis had the PF (EEG) measured."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "Yes",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Imputation was not necessary as all analyzed subjects had complete EEG data."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "PF Measurement Summary",
+        "prompt": "PF is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The outcome (epilepsy/recurrence) is clearly defined and the follow-up duration was sufficient to capture the majority of recurrences in this population.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "Epilepsy was considered present when unprovoked seizure recurrence was documented. ... All subjects were followed for more than 4 years.",
+          "reasoning": "The outcome is defined as a second unprovoked seizure, and the follow-up period is explicitly stated."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Partial",
+          "evidence_snippet": "The records of each participant were reviewed to document the occurrence of a seizure",
+          "reasoning": "While based on medical record review (standard practice), the paper does not explicitly state if the outcome assessors were blinded to the EEG results, which could introduce bias."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "All subjects were followed for more than 4 years. ... The records of each participant were reviewed",
+          "reasoning": "A consistent follow-up and record review process was applied to the cohort."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Outcome Measurement Summary",
+        "prompt": "Outcome of interest is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "While the study measures several important confounders and uses MRI to exclude organic lesions, the statistical analysis relies on univariable comparisons and odds ratios without multivariable adjustment for age or seizure type.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Yes",
+          "evidence_snippet": "clinical profiles, such as age at onset, history of neonatal period, family history of epilepsy, and developmental delay... seizure characteristic of focal seizure",
+          "reasoning": "Key clinical variables known to influence recurrence were collected."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Partial",
+          "evidence_snippet": "Etiology and seizure type were classified in accordance with International League Against Epilepsy criteria",
+          "reasoning": "Seizure types are defined by ILAE criteria, but other factors like 'neurological abnormalities' are less specifically defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "All patients were evaluated on referral with a standardized history and neurologic examination.",
+          "reasoning": "Standardized clinical examinations were used to collect baseline data."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "All patients were evaluated on referral with a standardized history and neurologic examination.",
+          "reasoning": "The evaluation was standardized for the whole cohort at the time of referral."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text does not mention missing baseline data or how it was handled."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "Partial",
+          "evidence_snippet": "Exclusion criteria were... the presence of organic brain lesions on magnetic resonance imaging (MRI)",
+          "reasoning": "The study accounts for the major confounder of 'remote symptomatic etiology' by excluding those patients via MRI."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "No",
+          "evidence_snippet": "Differences were evaluated using the Mann–Whitney U test, Chi-square test, Fisher's exact test, and Bonferroni corrections",
+          "reasoning": "The study did not perform multivariable regression to adjust for confounders like age or seizure type, which were shown to be significantly different between groups in Table 3."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Confounding Summary",
+        "prompt": "Important potential confounders are appropriately accounted for, limiting potential bias with respect to the relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The analysis is limited by the small sample size and the lack of multivariable modeling. The wide confidence interval for the primary finding (Frontal EEG PA) suggests instability in the estimate.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Differences were evaluated using the Mann–Whitney U test, Chi-square test, Fisher's exact test, and Bonferroni corrections",
+          "reasoning": "The statistical tests used are clearly listed."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "No",
+          "evidence_snippet": "the methodology used in this study did not allow stratification for multiple factors and proper consideration of these associations.",
+          "reasoning": "The authors admit that they did not use a multivariable model to account for multiple factors simultaneously."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Partial",
+          "evidence_snippet": "The odds ratio as estimated from the logistic model was used as a measure of association",
+          "reasoning": "While odds ratios are appropriate, the lack of adjustment in a prognostic study is a limitation. Additionally, the OR for frontal PAs (85.0) has an extremely wide 95% CI (4.5–1617.1), indicating low precision."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "The clinical profiles of all patients are shown in Table 1... Associations between the localizations of EEG PAs and subsequent development of epilepsy are shown in Table 4.",
+          "reasoning": "The study reports on all pre-specified localizations and clinical characteristics mentioned in the methods."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Statistical Analysis and Presentation Summary",
+        "prompt": "The statistical analysis is appropriate for the design of the study, limiting potential for presentation of invalid or spurious results.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/2_Adan_2025/Kanemura_2005.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-01-07T10:43:03.166240"
+  }
+}
