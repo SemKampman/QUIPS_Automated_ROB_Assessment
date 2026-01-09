@@ -20,6 +20,8 @@ library(rstatix)
 library(psych)
 library (here)
 library(ggalluvial)
+library (viridis)
+library(gt)
 
 setwd("/Users/sem.l.kampman/Documents/GitHub/quips/quips_private/Sem_Rstudio_Work/QUIPS_project")
 
@@ -37,7 +39,7 @@ purrr::walk(out_dirs, ~ dir.create(.x, recursive = TRUE, showWarnings = FALSE))
 #-----------------------------------------------------------------------------------------------
 
 df_Adan <- read_tsv("~/Documents/GitHub/quips/quips_private/outputs/2_Adan_2025/quips_summary_Adan_v2.tsv")
-df_Giuliani <- read_tsv("~/Documents/GitHub/quips/quips_private/outputs/1_Giuliano_2021/quips_summary_Giuliano.tsv")
+df_Giuliano <- read_tsv("~/Documents/GitHub/quips/quips_private/outputs/1_Giuliano_2021/quips_summary_Giuliano.tsv")
 df_West <- read_tsv("~/Documents/GitHub/quips/quips_private/outputs/5_West_2019/quips_summary_West.tsv")
 df_Arfaie <- read_tsv("~/Documents/GitHub/quips/quips_private/outputs/3_Arfaie_2023/quips_summary_Arfaie.tsv")
 df_Wassenaar<- read_tsv("~/Documents/GitHub/quips/quips_private/outputs/4_Wassenaar_2019/quips_summary_Wassenaar.tsv")
@@ -78,8 +80,8 @@ df_Arfaie_clean <- df_Arfaie_clean %>%
   relocate(Study_ID, Year, Review, .before = 1)|> 
   select (-filename, -year)
 
-Review_Giuliani <- "Giuliani"
-df_Giuliani_clean <- df_Giuliani |> 
+Review_Giuliano<- "Giuliano"
+df_Giuliano_clean <- df_Giuliano |> 
   select (filename, Overall_Risk, D1_Risk, D2_Risk, D3_Risk, D4_Risk, D5_Risk, D6_Risk) |> 
   mutate(clean = str_remove(filename, "^scoring_"),
          clean = str_remove(clean, "\\.json$")) %>%
@@ -87,10 +89,10 @@ df_Giuliani_clean <- df_Giuliani |>
   mutate(
     Study_ID = paste(author, year, sep = "_"),
     Year = as.integer(year),
-    Review = Review_Giuliani
+    Review = Review_Giuliano
   ) 
 
-df_Giuliani_clean <- df_Giuliani_clean %>%
+df_Giuliano_clean <- df_Giuliano_clean %>%
   relocate(Study_ID, Year, Review, .before = 1)|> 
   select (-filename, -year)
 
@@ -130,7 +132,7 @@ df_West_clean <- df_West_clean %>%
 #------------------------------------ STEP 3 - Merge and Harmonize LLM data --------------------
 #-----------------------------------------------------------------------------------------------
 
-df_merged_LLMs <- bind_rows (df_Adan_clean, df_Arfaie_clean, df_Giuliani_clean, df_Wassenaar_clean, df_West_clean)
+df_merged_LLMs <- bind_rows (df_Adan_clean, df_Arfaie_clean, df_Giuliano_clean, df_Wassenaar_clean, df_West_clean)
 
 df_merged_LLMs <- df_merged_LLMs |> 
   mutate (across (c(Overall_Risk, D1_Risk, D2_Risk, D3_Risk, D4_Risk, D5_Risk, D6_Risk), ~ factor (.x, levels = (c("Low", "Moderate", "High")), ordered = TRUE)))
@@ -159,6 +161,9 @@ df_merged_GS <- df_merged_GS |>
   relocate(LLM_source,Study_ID, Year, Review, .before = 1) |> 
   select (-year, -author)
   
+df_merged_GS <- df_merged_GS |> 
+  mutate(across(where(is.character), ~ gsub("Giuliani", "Giuliano", .)))
+
 df_merged_GS <- df_merged_GS |> 
   mutate (across (c(Overall_Risk, D1_Risk, D2_Risk, D3_Risk, D4_Risk, D5_Risk, D6_Risk), ~ factor (.x, levels = (c("Low", "Moderate", "High")), ordered = TRUE)))
 
@@ -194,7 +199,47 @@ df_merged_Kappa_long_numeric <- df_merged_Kappa_long %>%
 wilcox_test_saved <- df_merged_Kappa_long_numeric |> 
   group_by(Risk_Score) |> 
   wilcox_test(Score_num ~ LLM_source, paired = TRUE)
+
+wilcox_test_saved <- wilcox_test_saved |> 
+  mutate(
+    p_readable = case_when(
+      p < 0.001 ~ "< 0.001",
+      p < 0.01  ~ "< 0.01",
+      p < 0.05  ~ "< 0.05",
+      TRUE      ~ format(round(p, 3), nsmall = 3)
+    )
+  )
+
+wilcox_test_table <- wilcox_test_saved |>
+  select(Risk_Score, p_readable) |> 
+  # 1. Add agreement labels
+  mutate(
+    Risk_Score = gsub("_", " ", Risk_Score)
+  ) |>
+  # 3. Start GT table
+  gt() |>
+  fmt_number(columns = p_readable, decimals = 3) |>
+  cols_label(
+    Risk_Score = "Domain",
+    p_readable= "p-value"
+  ) |>
+  tab_header(title = "Wilcoxon signed-rank test by Domain") |>
+  
+  # 4. Bold the table title
+  tab_style(
+    style = cell_text(weight = "bold", size = px(18)),
+    locations = cells_title(groups = "title")
+  )
+
+wilcox_test_table 
+
 #D2, D3, D6 seem to be statistically significant!
+
+
+gtsave (
+  wilcox_test_table ,
+  file.path(out_dirs$tables, "wilcox_test_table.png")
+)
 
 write.csv(
   wilcox_test_saved,
@@ -215,16 +260,22 @@ saveRDS (
 
 stacked_proportions_plot <- ggplot(df_merged_Kappa_long, aes(x = factor(LLM_source), fill = Score)) +
   geom_bar(position = "fill") +             # stacked proportions
-  facet_wrap(~ Risk_Score, scales = "free_y") +  # one panel per risk score
+  facet_wrap(~ Risk_Score, scales = "free_y", labeller = as_labeller(c("D1_Risk" = "D1 Risk", "D2_Risk" = "D2 Risk", "D3_Risk" = "D3 Risk", "D4_Risk" = "D4 Risk", "D5_Risk" = "D5 Risk", "D6_Risk" = "D6 Risk", "Overall_Risk" = "Overall Risk"))) +  # one panel per risk score
   scale_y_continuous(labels = scales::percent_format()) +
+  scale_x_discrete(labels = c("0" = "Human", "1" = "LLM")) + #scale_x_discrete allows for labels
   labs(
-    x = "LLM_source",
+    x = "Source",
     y = "Percentage of Studies",
     fill = "Score"
   ) +
   theme_minimal() +
   scale_fill_manual(values = c("lightblue", "gold", "salmon")) +
-  ggtitle("Distribution of Ordinal Risk Scores by LLM Source")
+  ggtitle("Distribution of Risk Scores by Source") + 
+  theme (
+    strip.text = element_text(face="bold", size =12)
+  )
+
+stacked_proportions_plot
 
 ggsave(
   filename = file.path(out_dirs$plots, "stacked_proportions.png"),
@@ -233,15 +284,49 @@ ggsave(
 )
 
 #distribution with rank
-violin_plot <- ggplot(df_merged_Kappa_long_numeric, aes(x = factor(LLM_source), y = Score_num, fill = factor(LLM_source))) +
+
+violin_plot <- df_merged_Kappa_long_numeric |> 
+  filter(!is.na(Risk_Score)) |> 
+  ggplot(aes(
+    x = factor(LLM_source), 
+    y = Score_num, 
+    fill = factor(LLM_source)
+    )) +
   geom_violin(trim = FALSE, alpha = 0.5) +
   geom_boxplot(width = 0.2, position = position_dodge(0.9)) +
-  facet_wrap(~ Risk_Score, scales = "free_y") +
-  scale_y_continuous(breaks = 1:3, labels = c("Low", "Moderate", "High")) +
+  facet_wrap(~ Risk_Score, 
+             scales = "free_y", 
+             labeller = as_labeller(c(
+               "D1_Risk" = "D1 Risk",
+               "D2_Risk" = "D2 Risk",
+               "D3_Risk" = "D3 Risk",
+               "D4_Risk" = "D4 Risk",
+               "D5_Risk" = "D5 Risk",
+               "D6_Risk" = "D6 Risk",
+               "Overall_Risk" = "Overall Risk"
+               ))
+             ) +
+  scale_y_continuous(
+    breaks = 1:3, 
+    labels = c("Low", "Moderate", "High")
+    ) +
+  scale_x_discrete(
+    labels = c("0" = "Human", "1" = "LLM")
+    ) +
   labs(x = "LLM_source", y = "Score", fill = "LLM_source") +
-  scale_fill_manual(values = c("lightblue", "salmon")) +
+  scale_fill_manual(
+    values = c("0" = "lightblue", "1" = "salmon"),
+    labels = c("0" = "Human", "1" = "LLM"),
+    name = "Source") +
+  labs(x="Source", y="Score") +
+  ggtitle("Distribution of Risk Scores by Source") +
   theme_minimal() +
-  ggtitle("Distribution of Ordinal Risk Scores by LLM Source")
+  theme (
+    strip.text = element_text(face="bold", size =12)
+  )
+
+
+violin_plot
 
 ggsave(
   filename = file.path(out_dirs$plots, "violin_plot.png"),
@@ -249,6 +334,7 @@ ggsave(
   width = 6, height = 4, dpi = 300
 )
 
+#strange, at this stage ratings for kanemura in adan decay...
 
 df_merged_Kappa_wide <- df_merged_Kappa_long |> 
   select (Study_ID, Risk_Score, LLM_source, Score, Review) |> 
@@ -279,11 +365,60 @@ kappa_results <- df_kappa_ready %>%
     .groups = "drop"
   )
 
-write.csv(
-  kappa_results,
-  file.path(out_dirs$stats, "kappa_results.csv"),
-  row.names = FALSE
+library(gt)
+
+names (kappa_results)
+ 
+
+my_palette <- cividis(4)  # generates 4 distinct colors
+my_palette
+
+kappa_results_df <- kappa_results |>
+  # 1. Add agreement labels
+  mutate(
+    agreement = case_when(
+      kappa < 0.20 ~ "Poor",
+      kappa < 0.40 ~ "Fair",
+      kappa < 0.60 ~ "Moderate",
+      kappa < 0.80 ~ "Substantial",
+      TRUE         ~ "Almost perfect"
+    ),
+    # 2. Replace underscores in Risk_Score
+    Risk_Score = gsub("_", " ", Risk_Score)
+  ) |>
+  # 3. Start GT table
+  gt() |>
+  fmt_number(columns = kappa, decimals = 2) |>
+  cols_label(
+    Risk_Score = "Domain",
+    kappa      = "Cohen’s κ",
+    agreement  = "Agreement"
+  ) |>
+  tab_header(title = "Averaged inter-rater Agreement by Domain") |>
+  
+  # 4. Bold the table title
+  tab_style(
+    style = cell_text(weight = "bold", size = px(18)),
+    locations = cells_title(groups = "title")
+  ) |>
+  
+  # 5. Color the kappa column by value
+  data_color(
+    columns = kappa,
+    colors = scales::col_numeric(
+      palette = my_palette,
+      domain = c(min(kappa_results$kappa), max(kappa_results$kappa))
+    )
+  )
+
+kappa_results_df
+
+gtsave (
+  kappa_results_df,
+  file.path(out_dirs$tables, "kappa_table.png")
 )
+
+
 
 capture.output(
   kappa_results,
@@ -359,6 +494,189 @@ kappa_within_review <- df_kappa_ready %>%
   )
 
 kappa_within_review
+
+review_Adan <- "Adan 2025"
+review_West <- "West 2019"
+review_Giuliano <- "Giuliano 2021"
+review_Arfaie <- "Arfaie 2023"
+review_Wassenaar <- "Wassenaar 2013"
+
+kappa_table_Adan <- kappa_within_review |>
+  filter(Review == "Adan") |>
+  # Clean up domain names
+  mutate(Risk_Score = gsub("_", " ", Risk_Score)) |>
+  # Optional: add agreement labels
+  mutate(
+    agreement = case_when(
+      weighted_kappa < 0.20 ~ "Poor",
+      weighted_kappa < 0.40 ~ "Fair",
+      weighted_kappa < 0.60 ~ "Moderate",
+      weighted_kappa < 0.80 ~ "Substantial",
+      TRUE                  ~ "Almost perfect"
+    )
+  ) |>
+  select(Risk_Score, weighted_kappa, agreement, n_studies) |>
+  gt() |>
+  fmt_number(columns = weighted_kappa, decimals = 2) |>
+  cols_label(
+    Risk_Score     = "Domain",
+    weighted_kappa = "Cohen’s κ",
+    agreement      = "Agreement",
+    n_studies      = "# of studies"
+  ) |>
+  tab_header(title = review_Adan) |>
+  tab_style(
+    style = cell_text(weight = "bold", size = px(18)),
+    locations = cells_title(groups = "title")
+  )
+
+
+kappa_table_Giuliano <- kappa_within_review |>
+  filter(Review == "Giuliano") |>
+  # Clean up domain names
+  mutate(Risk_Score = gsub("_", " ", Risk_Score)) |>
+  # Optional: add agreement labels
+  mutate(
+    agreement = case_when(
+      weighted_kappa < 0.20 ~ "Poor",
+      weighted_kappa < 0.40 ~ "Fair",
+      weighted_kappa < 0.60 ~ "Moderate",
+      weighted_kappa < 0.80 ~ "Substantial",
+      TRUE                  ~ "Almost perfect"
+    )
+  ) |>
+  select(Risk_Score, weighted_kappa, agreement, n_studies) |>
+  gt() |>
+  fmt_number(columns = weighted_kappa, decimals = 2) |>
+  cols_label(
+    Risk_Score     = "Domain",
+    weighted_kappa = "Cohen’s κ",
+    agreement      = "Agreement",
+    n_studies      = "# of studies"
+  ) |>
+  tab_header(title = review_Giuliano) |>
+  tab_style(
+    style = cell_text(weight = "bold", size = px(18)),
+    locations = cells_title(groups = "title")
+  )
+
+kappa_table_West <- kappa_within_review |>
+  filter(Review == "West") |>
+  # Clean up domain names
+  mutate(Risk_Score = gsub("_", " ", Risk_Score)) |>
+  # Optional: add agreement labels
+  mutate(
+    agreement = case_when(
+      weighted_kappa < 0.20 ~ "Poor",
+      weighted_kappa < 0.40 ~ "Fair",
+      weighted_kappa < 0.60 ~ "Moderate",
+      weighted_kappa < 0.80 ~ "Substantial",
+      TRUE                  ~ "Almost perfect"
+    )
+  ) |>
+  select(Risk_Score, weighted_kappa, agreement, n_studies) |>
+  gt() |>
+  fmt_number(columns = weighted_kappa, decimals = 2) |>
+  cols_label(
+    Risk_Score     = "Domain",
+    weighted_kappa = "Cohen’s κ",
+    agreement      = "Agreement",
+    n_studies      = "# of studies"
+  ) |>
+  tab_header(title = review_West) |>
+  tab_style(
+    style = cell_text(weight = "bold", size = px(18)),
+    locations = cells_title(groups = "title")
+  )
+
+kappa_table_Arfaie <- kappa_within_review |>
+  filter(Review == "Arfaie") |>
+  # Clean up domain names
+  mutate(Risk_Score = gsub("_", " ", Risk_Score)) |>
+  # Optional: add agreement labels
+  mutate(
+    agreement = case_when(
+      weighted_kappa < 0.20 ~ "Poor",
+      weighted_kappa < 0.40 ~ "Fair",
+      weighted_kappa < 0.60 ~ "Moderate",
+      weighted_kappa < 0.80 ~ "Substantial",
+      TRUE                  ~ "Almost perfect"
+    )
+  ) |>
+  select(Risk_Score, weighted_kappa, agreement, n_studies) |>
+  gt() |>
+  fmt_number(columns = weighted_kappa, decimals = 2) |>
+  cols_label(
+    Risk_Score     = "Domain",
+    weighted_kappa = "Cohen’s κ",
+    agreement      = "Agreement",
+    n_studies      = "# of studies"
+  ) |>
+  tab_header(title = review_Arfaie) |>
+  tab_style(
+    style = cell_text(weight = "bold", size = px(18)),
+    locations = cells_title(groups = "title")
+  )
+
+kappa_table_Wassenaar <- kappa_within_review |>
+  filter(Review == "Wassenaar") |>
+  # Clean up domain names
+  mutate(Risk_Score = gsub("_", " ", Risk_Score)) |>
+  # Optional: add agreement labels
+  mutate(
+    agreement = case_when(
+      weighted_kappa < 0.20 ~ "Poor",
+      weighted_kappa < 0.40 ~ "Fair",
+      weighted_kappa < 0.60 ~ "Moderate",
+      weighted_kappa < 0.80 ~ "Substantial",
+      TRUE                  ~ "Almost perfect"
+    )
+  ) |>
+  select(Risk_Score, weighted_kappa, agreement, n_studies) |>
+  gt() |>
+  fmt_number(columns = weighted_kappa, decimals = 2) |>
+  cols_label(
+    Risk_Score     = "Domain",
+    weighted_kappa = "Cohen’s κ",
+    agreement      = "Agreement",
+    n_studies      = "# of studies"
+  ) |>
+  tab_header(title = review_Wassenaar) |>
+  tab_style(
+    style = cell_text(weight = "bold", size = px(18)),
+    locations = cells_title(groups = "title")
+  )
+
+
+kappa_table_Arfaie
+kappa_table_Adan
+kappa_table_Wassenaar
+kappa_table_West
+kappa_table_Giuliano
+
+gtsave (
+  kappa_table_Arfaie ,
+  file.path(out_dirs$tables, "kappa_table_Arfaie.png")
+)
+gtsave (
+  kappa_table_Adan ,
+  file.path(out_dirs$tables, "kappa_table_Adan.png")
+)
+gtsave (
+  kappa_table_Wassenaar ,
+  file.path(out_dirs$tables, "kappa_table_Wassenaar.png")
+)
+gtsave (
+  kappa_table_West ,
+  file.path(out_dirs$tables, "kappa_table_West.png")
+)
+
+gtsave (
+  kappa_table_Giuliano ,
+  file.path(out_dirs$tables, "kappa_table_Giuliano.png")
+)
+
+
 
 write.csv(
   kappa_within_review,

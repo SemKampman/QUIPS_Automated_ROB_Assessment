@@ -1,13 +1,13 @@
 # A tibble: 34 × 4
    Review Risk_Score   weighted_kappa n_studies
    <chr>  <chr>                 <dbl>     <int>
- 1 Adan   D1_Risk              0.0864        22
- 2 Adan   D2_Risk              0.189         22
- 3 Adan   D3_Risk              0.526         22
- 4 Adan   D4_Risk             -0.0288        22
- 5 Adan   D5_Risk              0.404         22
- 6 Adan   D6_Risk              0.646         21
- 7 Adan   Overall_Risk         0.337         22
+ 1 Adan   D1_Risk              0.0856        23
+ 2 Adan   D2_Risk              0.207         23
+ 3 Adan   D3_Risk              0.533         23
+ 4 Adan   D4_Risk             -0.103         23
+ 5 Adan   D5_Risk              0.415         23
+ 6 Adan   D6_Risk              0.621         23
+ 7 Adan   Overall_Risk         0.324         23
  8 Arfaie D1_Risk              0              7
  9 Arfaie D2_Risk              0.0541         7
 10 Arfaie D3_Risk              0              7

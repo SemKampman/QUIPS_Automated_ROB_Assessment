@@ -1,8 +1,8 @@
-"Risk_Score",".y.","group1","group2","n1","n2","statistic","p"
-"D1_Risk","Score_num","0","1",93,93,478,0.322
-"D2_Risk","Score_num","0","1",46,93,440,0.000567
-"D3_Risk","Score_num","0","1",93,93,1061,6.06e-08
-"D4_Risk","Score_num","0","1",93,93,513,0.391
-"D5_Risk","Score_num","0","1",73,93,421.5,0.233
-"D6_Risk","Score_num","0","1",92,93,776,1.7e-06
-"Overall_Risk","Score_num","0","1",93,93,763,0.118
+"Risk_Score",".y.","group1","group2","n1","n2","statistic","p","p_readable"
+"D1_Risk","Score_num","0","1",94,94,580.5,0.28,"0.280"
+"D2_Risk","Score_num","0","1",47,94,395,0.000485,"< 0.001"
+"D3_Risk","Score_num","0","1",94,94,1087,1.68e-07,"< 0.001"
+"D4_Risk","Score_num","0","1",94,94,500.5,0.312,"0.312"
+"D5_Risk","Score_num","0","1",74,94,453,0.293,"0.293"
+"D6_Risk","Score_num","0","1",94,94,838,2.32e-06,"< 0.001"
+"Overall_Risk","Score_num","0","1",94,94,916,0.119,"0.119"
