@@ -1,0 +1,337 @@
+{
+  "paper_metadata": {
+    "title": "Peak Neutrophil-to-Lymphocyte Ratio Correlates with Clinical Outcomes in Patients with Severe Traumatic Brain Injury",
+    "first_author": "Jigang Chen",
+    "year": "2018",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study provides clear inclusion/exclusion criteria and describes the setting and recruitment period. However, as a retrospective study from a single department, it is prone to selection bias. The participation rate of eligible vs. non-eligible patients is not reported, making it difficult to assess if the sample is truly representative of the broader sTBI population.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "patients admitted into our department between January 2013 and January 2017 for sTBI.",
+          "reasoning": "The source population is defined as sTBI patients at a specific neurosurgery department over a 4-year period."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Partial",
+          "evidence_snippet": "We retrospectively reviewed the clinical data of patients with sTBI who were treated in our department",
+          "reasoning": "While the recruitment source is clear, the retrospective nature and lack of detail on whether recruitment was consecutive or a convenience sample introduces potential bias."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "between January 2013 and January 2017",
+          "reasoning": "The start and end dates are explicitly stated."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "Department of Neurosurgery, Changzheng Hospital, Second Military Medical University, Shanghai, China",
+          "reasoning": "The specific hospital and department are identified."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "The inclusion criteria were as follows: (1) isolated head trauma; (2) an admission Glasgow Coma Scale (GCS) score less than 9; (3) age larger than 16; (4) time interval from injury to admission less than 24 h; (5) at least two consecutive NLRs over a period of 3 days or more.",
+          "reasoning": "Criteria are specific, including clinical (GCS), temporal (<24h), and data-availability requirements."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not report the total number of eligible patients during the period, only the final number included (316), so the participation rate cannot be calculated."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Collected data included age, gender, time interval from injury to admission, admission GCS score, injury mechanisms, vital signs (body temperature, heart rate), blood glucose level, surgery in the frst 24 h or not",
+          "reasoning": "Table 1 provides a comprehensive breakdown of baseline characteristics for the cohort."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study excludes patients with missing data or loss to follow-up but does not quantify these exclusions. This 'complete case analysis' approach in a retrospective design can lead to attrition bias if those lost to follow-up had different prognostic profiles than those included.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Unsure",
+          "evidence_snippet": "Missing data or loss to follow-up led to the exclusion of participants.",
+          "reasoning": "The authors state they excluded those with missing data but do not provide the denominator of how many were initially screened vs. excluded."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is no description of attempts to retrieve data for those excluded due to missingness."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Partial",
+          "evidence_snippet": "Missing data or loss to follow-up led to the exclusion of participants.",
+          "reasoning": "General reasons are given (missing data), but specific reasons (e.g., transferred, died early) are not detailed."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No data is provided comparing the characteristics of excluded patients to the included 316 patients."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Without data on the excluded group, it is impossible to determine if attrition was informative."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Attrition Summary",
+        "prompt": "Loss to follow-up (from baseline sample to study population analyzed) is not associated with key characteristics (i.e., the study data adequately represent the sample) sufficient to limit potential bias to the observed relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ],
+        "rating": "Moderate"
+      }
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The prognostic factor (Peak NLR) is based on objective laboratory data (automated blood counters) and is clearly defined. The use of a peak value over a 12-day window is well-described, though the frequency of testing varied slightly between patients.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "The NLR was calculated as the ratio of neutrophil count to lymphocyte count, and peak NLR was defned as the highest NLR during these 12 days.",
+          "reasoning": "The definition and calculation method are explicit."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "peripheral hemogram which was evaluated using venous blood samples by an automated blood counter (XN-10, Sysmex Inc., Japan).",
+          "reasoning": "The use of a standardized automated counter provides high reliability and limits measurement bias."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Partial",
+          "evidence_snippet": "An optimized peak NLR cutof value of 18.16 was identifed with a sensitivity of 74.3% and specifcity of 72.9% (Youden Index=0.472)",
+          "reasoning": "The cutoff was determined using the Youden Index (data-dependent), which can lead to overestimation of effect, though the primary analysis treated NLR as a continuous variable in the logistic regression."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "For the day 1 NLR, venous blood was obtained upon admission. For the NLRs on other days, blood samples were usually collected early in the morning.",
+          "reasoning": "The protocol for blood collection was standardized across the cohort."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "at least two consecutive NLRs over a period of 3 days or more.",
+          "reasoning": "The inclusion criteria ensured that only patients with sufficient data points to determine a 'peak' were included."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "No",
+          "evidence_snippet": "Missing data or loss to follow-up led to the exclusion of participants.",
+          "reasoning": "Imputation was not used; missing data resulted in exclusion."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "PF Measurement Summary",
+        "prompt": "PF is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ],
+        "rating": "Low"
+      }
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The outcome (GOS at 1 year) is a standard, validated measure in TBI research. While the paper doesn't explicitly mention blinding of the GOS assessors to the NLR values, the objective nature of the laboratory data makes differential measurement bias unlikely.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "Unfavorable outcome was defned as 1-year GOS score of less than 4.",
+          "reasoning": "The outcome and the time point (1 year) are clearly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "1-year Glasgow Outcome Scale (GOS) score.",
+          "reasoning": "GOS is a globally recognized and validated tool for TBI outcome assessment."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "On their 1-year follow-up, 257 (81.3%) patients had a GOS score of less than 4.",
+          "reasoning": "The follow-up interval was consistent for the cohort."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Outcome Measurement Summary",
+        "prompt": "Outcome of interest is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ],
+        "rating": "Low"
+      }
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study uses multivariable logistic regression to adjust for several key confounders (age, GCS, surgery). However, as noted in the limitations, the relationship between surgery and NLR was not fully explored, and other potential confounders (e.g., secondary infections, which significantly affect NLR) were not explicitly adjusted for in the model.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Partial",
+          "evidence_snippet": "Collected data included age, gender, time interval from injury to admission, admission GCS score, injury mechanisms, vital signs... blood glucose level, surgery in the frst 24 h",
+          "reasoning": "Major clinical confounders were measured, but systemic complications (like pneumonia) that influence NLR were not listed."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "admission Glasgow Coma Scale (GCS) score... blood glucose level (mmol/L)... In-hospital length (days)",
+          "reasoning": "Confounders are standard clinical metrics with clear units/scales."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "evaluated using venous blood samples by an automated blood counter... GCS score",
+          "reasoning": "Measurements rely on standard clinical and laboratory procedures."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Collected data included... [for all patients]",
+          "reasoning": "The retrospective chart review applied the same data collection protocol to all included patients."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "No",
+          "evidence_snippet": "Missing data... led to the exclusion of participants.",
+          "reasoning": "No imputation was performed."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The study design (retrospective cohort) did not use matching or stratification to control for confounding at the design stage."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "After adjusting for confounders in the multivariate logistic model, age, admission GCS score, surgery in the frst 24 h, length of hospital stay, and peak NLR remained to be signifcantly associated",
+          "reasoning": "Multivariable adjustment was performed for variables showing significance in univariate analysis."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Confounding Summary",
+        "prompt": "Important potential confounders are appropriately accounted for, limiting potential bias with respect to the relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ],
+        "rating": "Moderate"
+      }
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical methods are appropriate for the study design. The authors checked for multicollinearity (VIF), used multivariable regression, and performed ROC analysis. Results are reported transparently, including both univariate and multivariate findings.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "We performed the statistical analysis with SPSS (Version 22.0... Continuous data were either expressed as mean±standard deviation... or median and interquartile range",
+          "reasoning": "The statistical plan is well-detailed."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "conducted a multivariate logistic regression model analysis (Method=Forward: LR) with measures showing a statistical trend (P<0.1) in the univariate analysis.",
+          "reasoning": "The use of a p-value threshold for entry into a multivariable model is a standard (though sometimes criticized) approach in prognostic research."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "multivariate logistic regression model analysis",
+          "reasoning": "Logistic regression is appropriate for the binary outcome (favorable vs. unfavorable)."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1... Table 2... Table 3",
+          "reasoning": "The authors report all variables tested in univariate analysis and provide effect sizes (OR) and CIs for the final model."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Statistical Analysis and Presentation Summary",
+        "prompt": "The statistical analysis is appropriate for the design of the study, limiting potential for presentation of invalid or spurious results.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ],
+        "rating": "Low"
+      }
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/8_Ghozy_2022/Chen_2019.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T11:23:52.976992"
+  }
+}

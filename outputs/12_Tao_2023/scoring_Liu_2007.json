@@ -1,0 +1,287 @@
+{
+  "paper_metadata": {
+    "title": "Prediction of functional outcome of ischemic stroke patients in northwest China",
+    "first_author": "Xuedong Liu",
+    "year": "2007",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study provides a clear description of the target population, recruitment period, and setting. It uses consecutive sampling from a major regional center, which helps ensure representativeness for the northwest China region. Inclusion/exclusion criteria are explicit, and baseline characteristics are well-documented.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "The Xijing Hospital is an affiliated hospital of the Fourth Military Medical University within a metropolitan area of seven million inhabitants in Xi'an city, Shaanxi province. It is also the biggest general hospital with 1700 beds in northwest China.",
+          "reasoning": "The authors clearly define the geographic and demographic scope of the source population."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "Study subjects were recruited from consecutive patients, who admitted to neurological department of XiJing Hospital with ischemic stroke between January 2002 and June 2005.",
+          "reasoning": "Consecutive recruitment is the gold standard for limiting selection bias in prognosis studies."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "between January 2002 and June 2005.",
+          "reasoning": "The specific dates for the recruitment window are provided."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "Department of Neurology, Xijing Hospital, Fourth Military Medical University, Xi'an, China",
+          "reasoning": "The specific hospital and department are identified."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "The diagnosis of stroke was established according to World Health Organization criteria [10] by a neurologist and confirmed on CT, conventional MRI brain images, or both. Patients with hemorrhagic stroke... or reduced life expectancy... and TIA were excluded.",
+          "reasoning": "The study uses standardized WHO criteria and lists specific clinical exclusions."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Yes",
+          "evidence_snippet": "Seven hundred and eighty-one consecutively ischemic stroke patients were admitted... The remaining 489 ischemic stroke patients were entered into the study.",
+          "reasoning": "The flow of participants from total admissions to the final sample is clearly accounted for, with exclusions justified."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Baseline characteristics are summarized in Table 1.",
+          "reasoning": "Table 1 provides a comprehensive list of demographics, risk factors, and clinical severity scores."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The attrition rate is 11.2%, which is well within the acceptable range (<20%). Crucially, the authors performed a statistical comparison between those followed up and those lost, finding no significant differences in baseline characteristics, which minimizes the risk of informative censoring.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "The follow-up information was not available for 55 patients (11.2%). The remaining 434 patients were entered into analysis.",
+          "reasoning": "An 88.8% completion rate is considered high for a long-term follow-up study."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "Yes",
+          "evidence_snippet": "If the patient could not be reached via telephone, a follow-up letter was sent. If still no information of the patient outcome could be obtained, the patient was defined lost.",
+          "reasoning": "The authors describe a multi-step process (phone then letter) to minimize loss to follow-up."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "While the number of lost patients is reported, the specific reasons (e.g., moved, refused, deceased unknown) are not detailed."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 2 Patients' demographical and clinical characteristics between the follow-up group and the lost group",
+          "reasoning": "The authors explicitly compare the lost group to the analyzed group across 10 key variables."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Yes",
+          "evidence_snippet": "There were no significant differences in baseline characteristics between the follow-up group and the lost group (Table 2).",
+          "reasoning": "Statistical testing (p-values > 0.05) supports the similarity between groups."
+        }
+      ]
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "Prognostic factors were measured using standardized, validated scales (NIHSS, GCS) and objective laboratory tests. The measurement was consistent for all participants, and the authors used clinically accepted cut-points for categorization.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "Neurologic impairment was measured at admission by using standardized scales, such as the Glasgow Coma Scale (GCS) [11] and the National Institute of Health Stroke Scale (NIHSS) [12].",
+          "reasoning": "Standardized scales and laboratory reference values are clearly cited."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "The NIHSS is one of the most reliable and valid instruments of clinical measurement in stroke and is most extensively used.",
+          "reasoning": "The study utilizes internationally recognized, validated instruments for the primary prognostic factors."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "Laboratory data was categorized based on the reference value of our hospital... NIHSS score = 0 (≤3), 1 (4-15), 2 (>15).",
+          "reasoning": "Cut-points were based on clinical practice and hospital reference ranges rather than being optimized for the specific dataset."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "By review of the hospital records... collected with the use of a specially formulated questionnaire by the trained neurologists.",
+          "reasoning": "A standardized protocol and questionnaire were used for all subjects."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Partial",
+          "evidence_snippet": "Patients (n = 292) were excluded for the following reasons... missing data (n = 63).",
+          "reasoning": "A significant number of patients (63/781) were excluded due to missing data, which could introduce bias if data were not missing at random."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "No",
+          "evidence_snippet": "Case records with missing data were eliminated from the analysis.",
+          "reasoning": "The study used complete case analysis rather than imputation."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The outcome (mRS) is a standard, validated measure in stroke research. The assessment was performed by trained interviewers who were blinded to the baseline prognostic factors, and inter-rater reliability was high (kappa = 0.847).",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "Each patient's disability was assessed according to the modified Rankin Scale (mRS) and categorized as good outcome (score 0–2) or poor outcome (score 3–6).",
+          "reasoning": "The mRS is clearly defined and the binary categorization is standard."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "Clinical follow-up was performed strictly blinded to the patients' clinical features... the κ-value was 0.847.",
+          "reasoning": "Blinding and high inter-rater reliability (kappa) demonstrate measurement validity."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "All telephone interviewers were trained with content and method of interview... If the patient could not be reached via telephone, a follow-up letter was sent.",
+          "reasoning": "The protocol was standardized, though the mode of contact varied slightly (phone vs. letter) based on availability."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "While the study adjusted for many clinical and demographic variables, it is a retrospective study and may have missed important confounders not recorded in medical charts (e.g., rehabilitation intensity, post-discharge care, or specific imaging markers like infarct volume).",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Partial",
+          "evidence_snippet": "Twenty-one variables were enrolled, including sex, age... previous history... complication... NIHSS score... OCSP type.",
+          "reasoning": "Many clinical confounders were included, but post-stroke treatments and detailed imaging (TOAST classification) were omitted."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "Smoking was defined if smoking was more than 1 year noted in the medical records. The following comorbid conditions... were noted positive if they were recorded as positive in the medical notes.",
+          "reasoning": "Definitions for comorbidities and habits are provided."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Unsure",
+          "evidence_snippet": "The variables were those recorded in the medical records rather than being prospectively and selectively collected.",
+          "reasoning": "As a retrospective study, the reliability of confounder measurement depends on the quality of original medical charting, which is not independently verified."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "By review of the hospital records... collected with the use of a specially formulated questionnaire by the trained neurologists.",
+          "reasoning": "Data collection from records was standardized for the cohort."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "No",
+          "evidence_snippet": "Case records with missing data were eliminated from the analysis.",
+          "reasoning": "No imputation was performed; missing data led to exclusion."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The study did not use design-stage methods like matching or stratification."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "multivariate logistic regression analysis were carried out by using stepwise forward",
+          "reasoning": "Multivariable modeling was used to adjust for the 17 variables significant in univariate analysis."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical methods are appropriate for the study design. The authors used a liberal p-value for initial variable selection to avoid missing true predictors and checked model fit using the Hosmer-Lemeshow test. Results are reported transparently with Odds Ratios and Confidence Intervals.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Univariate and multivariate logistic regression analyses were performed... stepwise forward (probability of F to enter = 0.05 and probability of F to remove = 0.10).",
+          "reasoning": "The modeling strategy and entry/exit criteria are clearly stated."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "Selection of variables was based on a systematic literature review for independent prognostic factors for outcome after ischemic stroke.",
+          "reasoning": "Variable selection was grounded in existing literature rather than purely data-driven."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "The Hosmer and Lemeshow statistic indicated that the goodness fit of the model was good (p = 0.787).",
+          "reasoning": "Logistic regression is appropriate for the binary outcome, and model fit was verified."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Table 3 shows the results of the univariate analysis... Table 4 Results of multivariate logistic regression model",
+          "reasoning": "The authors report both univariate and multivariate results for all significant variables."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/12_Tao_2023/Liu_2007.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T10:43:47.130879"
+  }
+}

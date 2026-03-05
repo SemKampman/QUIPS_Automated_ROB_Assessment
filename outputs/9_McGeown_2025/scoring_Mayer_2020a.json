@@ -1,0 +1,332 @@
+{
+  "paper_metadata": {
+    "title": "Radiologic common data elements rates in pediatric mild traumatic brain injury",
+    "first_author": "Andrew R. Mayer",
+    "year": "2020",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study uses two large, independent, prospectively collected cohorts with clear recruitment from emergency departments and urgent care settings. The inclusion/exclusion criteria are well-defined, and the use of both healthy and orthopedically injured controls strengthens the representativeness of the sample.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "156 patients with pmTBI (8–18 years of age) were consecutively recruited from local emergency department (ED) and urgent care settings in Albuquerque, New Mexico (the NM sample)... A second cohort of 142 patients with mTBI and 75 OI (8–16 years of age) were consecutively recruited from EDs at Nationwide Children's Hospital in Columbus, Ohio, and Rainbow Babies and Children's Hospital in Cleveland (the OH sample).",
+          "reasoning": "The authors clearly define the age range, clinical setting (ED/Urgent Care), and geographic locations for both cohorts."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "patients with pmTBI (8–18 years of age) were consecutively recruited from local emergency department (ED) and urgent care settings",
+          "reasoning": "Consecutive recruitment from EDs is the gold standard for limiting selection bias in TBI prognosis studies."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "While the study mentions the primary study is 'ongoing' for the NM site and 'complete' for the OH site, specific calendar dates for the recruitment period are not provided."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "local emergency department (ED) and urgent care settings in Albuquerque, New Mexico... Nationwide Children's Hospital in Columbus, Ohio, and Rainbow Babies and Children's Hospital in Cleveland",
+          "reasoning": "Specific hospitals and cities are named."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "all patients with pmTBI experienced an external blow resulting in transmitted forces to the head with Glasgow Coma Scale score ≥13... Exclusion criteria for all participants included preexisting neurologic disorder, any surgical intervention following the qualifying head trauma...",
+          "reasoning": "Detailed clinical criteria (GCS, LOC, PTA) and extensive exclusion lists are provided."
+        },
+        {
+          "label": "Adequate study participation",
+          "rating": "Yes",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "evidence_snippet": "A total of 11 participants were excluded from the NM sample postenrollment... A total of 10 participants in the OH sample either refused the MRI procedures (9 participants) or had severe motion artifact.",
+          "reasoning": "The number of exclusions and refusals is low relative to the total enrolled, suggesting high participation among eligible individuals."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 5 Demographic and clinical information for each sample",
+          "reasoning": "Table 5 provides age, sex, history of head injury, and migraine history for all groups."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "Retention rates at 3-4 months were generally good (72% to 93%), but the study does not provide a detailed comparison of baseline characteristics between those who completed follow-up and those who dropped out, leaving a risk of informative censoring.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "101 patients with pmTBI (85.6% retention... completed their 4-month visit... 98 patients with pmTBI (72.1% retention... completed their 3-month visit.",
+          "reasoning": "Retention rates above 70-80% are generally considered acceptable in clinical prognosis studies."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text reports retention numbers but does not describe specific protocols used to re-engage or collect data from dropouts."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The study lists the number of participants who completed the visit but does not categorize reasons for those who did not (e.g., moved, withdrew consent, lost to contact)."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is no table or text comparing the demographics or injury severity of dropouts vs. completers."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Because the characteristics of dropouts are not reported, it is impossible to determine if attrition was biased."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Attrition Summary",
+        "prompt": "Loss to follow-up (from baseline sample to study population analyzed) is not associated with key characteristics (i.e., the study data adequately represent the sample) sufficient to limit potential bias to the observed relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The prognostic factors (rCDEs) are defined using established consensus criteria and measured using high-resolution 3T MRI. The use of blinded neuroradiologists for the NM site is a significant strength.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "rCDE were further subdivided into possible (i.e., WMH, enlarged Virchow-Robin spaces, ventriculomegaly, cavum septum pellucidum, and evidence of atrophy/encephalomalacia; table 3 and figure 2A) vs probable (e.g., skull fractures, contusions, hematoma, axonal injuries; table 4 and figure 2B) categories",
+          "reasoning": "The study uses the Haacke et al. and Broglio et al. consensus definitions for rCDEs."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "All incidental findings... were noted by board-certified neuroradiologists (C.P. and N.A.Z.), who were blinded to patient diagnosis (NM)",
+          "reasoning": "The use of board-certified neuroradiologists and blinding (at least for the NM site) ensures high measurement reliability."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "Based on radiologic expectations of 1 lesion per decade of life, WMH were further subdivided both on number of lesions (greater than 2 or less than or equal to 2...)",
+          "reasoning": "The cut-points for WMH were based on established radiologic heuristics rather than being derived from the study's own data distribution."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "All participants underwent structural imaging on a 3T Siemens (Munich, Germany) Trio scanner... or a 3.0T Phillips (Best, the Netherlands) Achieva",
+          "reasoning": "While scanners varied by site, within each site/cohort, the protocol was standardized for all participants."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "A total of 10 participants in the OH sample either refused the MRI procedures (9 participants) or had severe motion artifact.",
+          "reasoning": "Only a very small percentage of the sample was missing MRI data."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The study does not explicitly mention imputation for missing MRI data, likely because the missingness was negligible."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "PF Measurement Summary",
+        "prompt": "PF is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "Outcomes were measured using validated, age-appropriate standardized instruments (PedsQL, PCSI, HBI) at consistent time points.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "The Pediatric Quality of Life Inventory–Generic Core14 was collected... Postconcussive symptoms... were assessed with different inventories at the NM (Post-Concussion Symptom Inventory) and OH (Health and Behavior Inventory)",
+          "reasoning": "The outcomes (QoL and PCS) and the specific tools used to measure them are clearly identified."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "assessed with different inventories at the NM (Post-Concussion Symptom Inventory)15 and OH (Health and Behavior Inventory)16",
+          "reasoning": "The study uses validated scales with established psychometric properties in pediatric populations."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Both parent and child ratings were collected for all measures and total scores calculated.",
+          "reasoning": "The measurement protocol was standardized across participants within each site."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Outcome Measurement Summary",
+        "prompt": "Outcome of interest is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "While the study matched groups on age and sex and measured history of head injury and migraine, the primary analysis for outcomes used generalized linear models that did not appear to adjust for all potential confounders simultaneously in a multivariable model, and the low number of 'probable' rCDE cases limited the ability to control for injury severity.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Partial",
+          "evidence_snippet": "groups (pmTBI vs OI/HC) were compared on demographic measures... history of head injury... migraine history",
+          "reasoning": "Key demographics and relevant history were measured, but other potential confounders like socioeconomic status or specific acute treatments were not detailed."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 5 Demographic and clinical information for each sample",
+          "reasoning": "Definitions for age, sex, and history are standard and clear."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 5",
+          "reasoning": "Demographics and medical history are standard clinical data points."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "collected at both the NM and OH sites during the early chronic visit",
+          "reasoning": "Data collection was standardized across groups."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No mention of imputation for confounders."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "Yes",
+          "evidence_snippet": "matched healthy controls (HC; n = 106), and orthopedically injured (OI; n = 71) patients",
+          "reasoning": "The study used a matched-control design to account for age and sex."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Partial",
+          "evidence_snippet": "A 3 × 3 (group [pmTBI vs OI vs HC] × MRI classification [possible vs incidental vs normal]) generalized linear model was performed",
+          "reasoning": "The analysis accounts for group and MRI findings but does not explicitly show adjustment for other variables like history of previous injury in the outcome models."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Confounding Summary",
+        "prompt": "Important potential confounders are appropriately accounted for, limiting potential bias with respect to the relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical strategy is appropriate for the data types (GLMs for skewed outcome data). The authors are transparent about the limitations regarding sample size for certain sub-analyses and report results for all pre-specified hypotheses.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "The relationship between diagnosis and structural abnormalities was tested with generalized linear models with negative binomial, gamma, or normal distributions as appropriate.",
+          "reasoning": "The choice of models and distributions is well-justified given the nature of clinical symptom scores."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "A priori hypotheses included (1) a higher incidence of probable rCDE findings in pmTBI and (2) similar rates of incidental findings and possible rCDE across control and pmTBI samples.",
+          "reasoning": "The analysis is directly driven by the a priori hypotheses and the rCDE classification framework."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "generalized linear models with negative binomial, gamma, or normal distributions",
+          "reasoning": "GLMs are appropriate for handling the non-normal distribution of symptom and quality of life scores."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Results section covers all categories of rCDE (probable, possible, incidental) and their relationship to all outcomes (PCS, QoL).",
+          "reasoning": "The authors report both significant and non-significant findings across all domains."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Statistical Analysis and Presentation Summary",
+        "prompt": "The statistical analysis is appropriate for the design of the study, limiting potential for presentation of invalid or spurious results.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/9_McGeown_2025/Mayer_2020a.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T11:43:01.286512"
+  }
+}

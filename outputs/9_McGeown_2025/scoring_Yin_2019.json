@@ -1,0 +1,287 @@
+{
+  "paper_metadata": {
+    "title": "Longitudinal Changes in Diffusion Tensor Imaging Following Mild Traumatic Brain Injury and Correlation With Outcome",
+    "first_author": "Bo Yin",
+    "year": "2019",
+    "analysis_timestamp": "2023-10-27 10:15:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study provides a clear description of the target population, recruitment source (ED), and explicit inclusion/exclusion criteria based on WHO standards. The use of a matched control group and consecutive enrollment helps limit selection bias.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "All consecutive patients with non-contrast head CT due to acute head trauma enrolled from the local ED formed the initial population.",
+          "reasoning": "The source (Emergency Department) and the method of identification (consecutive patients with CT) are clearly stated."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "All consecutive patients with non-contrast head CT due to acute head trauma enrolled from the local ED formed the initial population.",
+          "reasoning": "Consecutive recruitment from a primary point of care (ED) is a robust method to minimize selection bias."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "While the follow-up intervals are described, the specific calendar dates or years during which recruitment took place are not mentioned."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Partial",
+          "evidence_snippet": "enrolled from the local ED... Ethical Committee of the Second Affiliated Hospital of Wenzhou Medical University",
+          "reasoning": "The clinical setting (ED) and the institution are identified, providing a general geographic context (Wenzhou, China), though specific catchment details are absent."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "Inclusion criteria for all mild TBI patients were based on the World Health Organization's Collaborating Centre for Neurotrauma Task Force (Borg et al., 2004): (i) Glasgow Coma Scale (GCS) score of 13–15... (ii) loss of consciousness (LOC) for less than 30 min...",
+          "reasoning": "The study uses validated, standardized criteria (WHO) and provides a detailed list of exclusion criteria including prior injury and substance abuse."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not provide a flow diagram or the total number of eligible patients screened versus those who consented, making it impossible to calculate the participation rate."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Thirty-three patients with mTBI and 31 sex-, age-, and education-matched HC participated in the study. All participants were right-handed... Table 1",
+          "reasoning": "Table 1 and the text provide age, gender, education, and a wide battery of baseline neuropsychological scores."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study reports zero attrition across three time points for both the patient and control groups, which is exceptional for a longitudinal study and eliminates attrition bias.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "DTI and neuropsychological assessments were acquired in the full dataset of 33 patients and 31 HC at all three time points.",
+          "reasoning": "100% retention rate reported."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "Yes",
+          "evidence_snippet": "DTI and neuropsychological assessments were acquired in the full dataset of 33 patients and 31 HC at all three time points.",
+          "reasoning": "Not applicable as there were no dropouts."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Yes",
+          "evidence_snippet": "DTI and neuropsychological assessments were acquired in the full dataset of 33 patients and 31 HC at all three time points.",
+          "reasoning": "Not applicable as there were no losses to follow-up."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "DTI and neuropsychological assessments were acquired in the full dataset of 33 patients and 31 HC at all three time points.",
+          "reasoning": "Not applicable as there were no losses to follow-up."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Yes",
+          "evidence_snippet": "DTI and neuropsychological assessments were acquired in the full dataset of 33 patients and 31 HC at all three time points.",
+          "reasoning": "Since all participants completed the study, there is no bias from differences between completers and non-completers."
+        }
+      ]
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The prognostic factors (DTI metrics) were measured using standardized, objective neuroimaging protocols. The timing of measurements was strictly controlled and consistent across the sample.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "DTI scan (b = 1,000 s/mm2) were acquired with 30 diffusion gradient orientations and the b = 0 repeated two times.",
+          "reasoning": "The technical parameters for the DTI (the prognostic factor) are clearly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Preprocessing of the raw DTI data was performed using FSL software... FA images were then created by fitting a tensor model... TBSS, a tool included in the FSL software",
+          "reasoning": "The study uses TBSS and FSL, which are standard, validated automated pipelines for DTI analysis, reducing subjective measurement bias."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "FA values were then created by fitting a tensor model... threshold FA value of 0.2.",
+          "reasoning": "FA is treated as a continuous variable, and the skeletonization threshold (0.2) is a standard convention in TBSS, not data-dependent."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "The MRI scans were acquired with the use of a 3.0-T MRI scanner (GE 750).",
+          "reasoning": "All subjects were scanned using the same 3T scanner and protocol."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "DTI and neuropsychological assessments were acquired in the full dataset of 33 patients and 31 HC at all three time points.",
+          "reasoning": "Complete data available for all participants."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "Yes",
+          "evidence_snippet": "DTI and neuropsychological assessments were acquired in the full dataset of 33 patients and 31 HC at all three time points.",
+          "reasoning": "No missing data, so imputation was not required."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "Outcomes were measured using a comprehensive battery of validated neuropsychological tests. The use of 'reliable change indices' demonstrates a high level of methodological rigor in assessing clinical change.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "Comprehensive NPTs were assessed: (i) Trail-making test part A (TMT-A)... WAIS-III Digit Symbol Coding score (DSC)... Rivermead postconcussion symptoms questionnaire (RPCS)...",
+          "reasoning": "The outcomes (cognitive performance and post-concussion symptoms) are explicitly defined using standardized scales."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "We have conducted the \"reliable change indices\" analysis for all of NPTs in the present study. This method provides an estimate of the probability that a given difference score would not be obtained by chance",
+          "reasoning": "The use of Reliable Change Indices (RCI) specifically addresses the reliability of the outcome measurements over time."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "NPTs were performed within 48 h of MRI... The HCs received the first scanning within the same time range as the patients and follow-up 1 month... and 3 months later.",
+          "reasoning": "The timing and setting of assessments were standardized for both groups."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "While the study matched for age, sex, and education, and excluded major comorbidities, the statistical models for the primary longitudinal analysis (ANOVA) did not include these as covariates. However, the authors did perform sensitivity analyses for microbleeds and white matter hyperintensities.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Partial",
+          "evidence_snippet": "31 sex-, age-, and education-matched HC participated... screened for litigation... history of a previous brain injury, neurological disease... excluded.",
+          "reasoning": "Key demographic and clinical confounders were used for matching or exclusion, but acute treatment/medication use during the 3-month period was not explicitly detailed."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1 | Demographic and neuropsychological data",
+          "reasoning": "Age, gender, and education years are clearly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "All participants were right-handed according to the Edinburgh Handedness Inventory",
+          "reasoning": "Standardized tools were used for baseline characteristics."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "The HCs received the first scanning within the same time range as the patients and follow-up 1 month... and 3 months later.",
+          "reasoning": "Baseline and follow-up measurements were identical for both groups."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "Yes",
+          "evidence_snippet": "DTI and neuropsychological assessments were acquired in the full dataset of 33 patients and 31 HC at all three time points.",
+          "reasoning": "No missing data reported."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "Yes",
+          "evidence_snippet": "31 sex-, age-, and education-matched HC participated in the study.",
+          "reasoning": "Matching was used in the study design to control for major demographic confounders."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Partial",
+          "evidence_snippet": "Longitudinal analysis, via repeated-measures ANOVA, was conducted... This analysis only included the group and time as terms with no further control variables.",
+          "reasoning": "The primary ANOVA did not adjust for covariates, although matching in the design partially mitigates this. Sensitivity analysis for WMH was performed separately."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical analysis is appropriate for the longitudinal design, utilizing repeated-measures ANOVA and Bonferroni corrections for multiple comparisons. The reporting is transparent, including both significant and non-significant findings.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Statistical analysis was performed using the \"randomize\" command in FSL. The number of permutations was set to 10,000, and correction for multiple comparisons was achieved using threshold-free cluster enhancement (TFCE) with a family-wise error (FWE) rate of P < 0.05.",
+          "reasoning": "The imaging and clinical statistical strategies are described in detail."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "We mainly focused on the main time effect of the structural integrity of white matter (WM) fibers and its relationship with the initial neuropsychological measures.",
+          "reasoning": "The model focuses on the hypothesized longitudinal changes and their correlation with clinical outcomes."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "Longitudinal analysis, via repeated-measures ANOVA, was conducted to examine changes in both neuropsychological assessments and imaging FA metric as a function of recovery.",
+          "reasoning": "Repeated-measures ANOVA is the standard approach for this 3-timepoint longitudinal design."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "The FA value of these three tracts presented no significant associations with the DSC at any specific time points (all for P > 0.2).",
+          "reasoning": "The authors report non-significant correlations and null findings alongside significant ones, suggesting a lack of reporting bias."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/9_McGeown_2025/Yin_2019.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T11:46:06.121845"
+  }
+}

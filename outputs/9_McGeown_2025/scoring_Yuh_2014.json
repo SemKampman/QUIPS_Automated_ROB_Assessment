@@ -1,0 +1,287 @@
+{
+  "paper_metadata": {
+    "title": "Diffusion Tensor Imaging for Outcome Prediction in Mild Traumatic Brain Injury: A TRACK-TBI Study",
+    "first_author": "Esther L. Yuh",
+    "year": "2014",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study uses a prospective multi-center design (TRACK-TBI) with clear inclusion/exclusion criteria based on standardized guidelines (ACEP/CDC). While it is a convenience sample from a specific hospital (SFGH), the baseline characteristics are thoroughly described and compared against a control group.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "mTBI patients were enrolled at San Francisco General Hospital (SFGH; San Francisco, CA) as part of the prospective multi-center TRACK-TBI (Transforming Research and Clinical Knowledge in Traumatic Brain Injury) pilot study.",
+          "reasoning": "The source (SFGH) and the larger study context (TRACK-TBI) are explicitly stated."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "The primary inclusion criterion for the TRACK-TBI pilot study was performance of noncontrast head CT to assess for evidence of acute TBI within 24 h of injury, based on criteria from the American College of Emergency Physicians/Centers for Disease Control (ACEP/CDC) evidence-based joint practice guideline",
+          "reasoning": "Recruitment was based on standardized clinical guidelines for CT performance in the ED, providing a clear sampling frame."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The specific calendar dates for the recruitment period are not provided in the text, though it mentions the MRI was performed within 3 weeks of injury."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "mTBI patients were enrolled at San Francisco General Hospital (SFGH; San Francisco, CA)",
+          "reasoning": "The specific hospital and city are identified."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "additional inclusion criteria were GCS 13-15 upon emergency department (ED) arrival, LOC < 30 min, PTA duration < 24 h, and age 18-55 years (inclusive); an additional exclusion criterion was any reported history of earlier TBI resulting in LOC > 5 min.",
+          "reasoning": "Detailed clinical and demographic criteria are provided, including 'zero time' (ED arrival)."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "Of 190 mTBI patients in the 18- to 55-year age range enrolled at SFGH for the TRACK-TBI pilot study, 87 patients did not undergo brain MRI.",
+          "reasoning": "A significant portion (87/190) did not undergo MRI. While reasons for exclusion of others are given, the high number of patients not receiving the index test (MRI) makes it difficult to judge if the final 76 are fully representative of the eligible 190."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1 summarizes demographic, socioeconomic, and clinical characteristics of participants and control subjects.",
+          "reasoning": "Table 1 provides a comprehensive list including age, education, gender, employment, and clinical history."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "Follow-up rates for the primary outcome (GOS-E) were approximately 92% at 3 months and 85% at 6 months. While these are generally acceptable, the study does not provide a detailed comparison of the characteristics of those lost to follow-up versus those who completed the study, leaving a risk of informative censoring.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "Three CT/MRI-negative mTBI and 3 CT/MRI-positive mTBI patients did not complete 3-month GOS-E evaluation. ... Five CT/MRI-negative mTBI and 6 CT/MRI-positive mTBI patients did not complete 6-month GOS-E",
+          "reasoning": "70/76 (92%) completed 3-month and 65/76 (85%) completed 6-month follow-up, which is above the common 80% threshold."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text lists the number of patients who did not complete evaluations but does not describe the methods used to attempt to contact them."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text states patients 'did not complete' the evaluation but provides no reasons (e.g., withdrawal, moved, deceased)."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is no table or text comparing the baseline characteristics of the 11 dropouts to the 65 completers."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Because the characteristics of dropouts are not reported, it is impossible to determine if they differed from completers."
+        }
+      ]
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The prognostic factor (DTI) is measured using a highly standardized 3T protocol with advanced post-processing (TBSS). The use of a control group to define 'abnormal' ROIs (2.2 SD threshold) provides an objective, non-data-dependent cut-point.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "Whole-brain DTI was performed with a multi-slice single-shot spin echo echoplanar pulse sequence (echo time [TE]=63 ms; repetition time [TR]=14 sec) using 55 diffusion-encoding directions... b=1000 sec/mm2",
+          "reasoning": "The technical parameters of the DTI sequence are described in detail."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Each CT and MRI was anonymized and reviewed by a board-certified neuroradiologist blinded to demographic, socioeconomic, and clinical data",
+          "reasoning": "Blinding of the neuroradiologist and use of standardized TBI-CDE definitions support validity."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "an abnormal ROI was then defined as one in which a DTI measure (FA, MD, AD, or RD) was more than 2.2 SDs below or above the control-group mean, based on the distribution of the DTI measure within the 50 control patients alone.",
+          "reasoning": "The cut-point was determined based on a healthy control distribution, not by optimizing the association with the outcome in the patient group."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "all MRI exams were performed on the same 3T GE Signa EXCITE scanner... using the same scanner software version.",
+          "reasoning": "Consistency in hardware and software across all subjects is confirmed."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "The final patient group for the current study therefore consisted of 76 mTBI patients... who underwent brain MRI",
+          "reasoning": "All 76 patients included in the analysis had the required MRI/DTI data."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "Yes",
+          "evidence_snippet": "5 had a technically inadequate brain MRI exam... were excluded",
+          "reasoning": "Missing or inadequate data resulted in exclusion rather than imputation, which is appropriate for this type of imaging study."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study uses the GOS-E, a well-validated and standard tool in TBI research. Assessors were trained and the measurement was standardized across the cohort.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "Outcome measures included the Extended Glasgow Outcome Scale (GOS-E) at 3 and 6 months postiniury... the 8-point GOS-E provides better discrimination among more subtle aspects of disability",
+          "reasoning": "The GOS-E and its timing (3 and 6 months) are clearly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "The GOS-E was obtained at 3 and 6 months postinjury through structured interview with each participant by research assistants trained to uniformly assess the GOS-E.",
+          "reasoning": "Use of trained assistants and structured interviews for a validated scale (GOS-E) ensures reliability."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "research assistants trained to uniformly assess the GOS-E.",
+          "reasoning": "The text implies a uniform assessment protocol for all participants."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study excels in this domain by measuring and adjusting for a wide range of potential confounders (age, education, neuropsychiatric history). It specifically addresses the confounding of pre-existing conditions by performing a sensitivity analysis on a 'clean' subset of patients.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "11 demographic (age, gender), socioeconomic (employment status, number of years of formal education), and clinical (history of major neuropsychiatric diagnosis, history of drug or alcohol abuse, GCS upon ED arrival, any PTA, PTA duration, any LOC, any history of mTBI...) predictors",
+          "reasoning": "A comprehensive list of potential confounders was collected."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1 summarizes demographic, socioeconomic, and clinical characteristics... Education (years, mean – standard deviation)",
+          "reasoning": "Confounders like education and PTA duration are defined with specific units or categories."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Partial",
+          "evidence_snippet": "history of drug or alcohol abuse... self-reported history",
+          "reasoning": "While clinical variables like GCS are objective, history of neuropsychiatric or substance abuse relies on self-report, which is subject to recall bias."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1 summarizes demographic, socioeconomic, and clinical characteristics of participants and control subjects.",
+          "reasoning": "The same baseline data collection was applied to all participants."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "Yes",
+          "evidence_snippet": "One CT/MRI-positive mTBI patient with unknown employment status was not included in this analysis.",
+          "reasoning": "The study used complete case analysis for specific variables rather than imputation, which is acceptable given the low rate of missingness."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "Yes",
+          "evidence_snippet": "we separately analyzed the subset of mTBI patients without such history [neuropsychiatric/substance abuse].",
+          "reasoning": "The use of a subset analysis is an excellent design-based approach to control for major confounders."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "We then performed multivariable logistic or linear regression of each outcome measure upon all predictors with which the outcome measure had demonstrated a statistically significant pairwise Spearman's correlation.",
+          "reasoning": "Multivariable models were used to adjust for age, education, and clinical history."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical strategy is sound, using univariable screening followed by multivariable modeling. The authors checked for collinearity and the proportional odds assumption, and they reported both inclusive and subset analyses, which enhances transparency.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "We calculated Spearman's correlation coefficients... We then performed multivariable logistic or linear regression... tests for parallel lines were performed and confirmed the proportional odds assumption",
+          "reasoning": "The steps and assumptions of the statistical plan are clearly articulated."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "The predictive (independent) variables in the model for each outcome measure were limited to only those predictors that had demonstrated a statistically significant Spearman's correlation with that outcome measure",
+          "reasoning": "A standard univariable-to-multivariable screening approach was used."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "For the ordinal logistic regression analyses, tests for parallel lines were performed and confirmed the proportional odds assumption",
+          "reasoning": "The choice of ordinal logistic regression for the GOS-E (an ordinal scale) is methodologically correct."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Table 5 shows the pair-wise Spearman's correlation coefficients... all predictors... were included.",
+          "reasoning": "The authors report both significant and non-significant findings, including the lack of DTI findings in the CT/MRI-negative group."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/9_McGeown_2025/Yuh_2014.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T11:33:35.853313"
+  }
+}

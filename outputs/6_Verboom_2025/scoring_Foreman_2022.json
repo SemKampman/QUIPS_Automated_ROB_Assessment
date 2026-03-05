@@ -1,0 +1,287 @@
+{
+  "paper_metadata": {
+    "title": "Seizures and Cognitive Outcome After Traumatic Brain Injury: A Post Hoc Analysis",
+    "first_author": "Brandon Foreman",
+    "year": "2021",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study uses a well-defined multicenter RCT cohort (INTREPID2566), but the post hoc nature and the significant differences between those who could and could not complete cognitive testing (younger, less severe injury in the analyzed group) introduce moderate selection bias regarding the representativeness of the broader TBI population.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Patients with nonpenetrating TBI and postresuscitation Glasgow Coma Scale scores 4–12 were included.",
+          "reasoning": "The study clearly defines the source population as patients with moderate to severe TBI from 20 US Level I trauma centers."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "multicenter randomized controlled phase 2 clinical trial conducted from 2010 to 2016 across 20 United States Level I trauma centers.",
+          "reasoning": "The recruitment process via a structured clinical trial across multiple centers is well-documented."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "conducted from April 2010 to January 2016",
+          "reasoning": "The specific dates for the recruitment period are provided."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "across 20 United States Level I trauma centers.",
+          "reasoning": "The setting (Level I trauma centers) and geographic scope (USA) are clear."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "Eligible patients were 18–70 years of age with nonpenetrating TBI, postresuscitation Glasgow Coma Scale (GCS) score 4–12... Exclusion criteria were spinal cord injury, significant bodily coinjuries...",
+          "reasoning": "Detailed inclusion and exclusion criteria are listed, including age, GCS, and specific comorbidities."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Partial",
+          "evidence_snippet": "A total of 261 patients with moderate to severe TBI were eligible for enrollment... 142 of 251 (57%) patients survived and were able to perform cognitive testing",
+          "reasoning": "While the trial enrollment was high, only 57% of the survivors provided the primary outcome data, which is below the 80% threshold for low risk."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "142 patients (age mean +/- standard deviation 32+/-13 years; 131 [92%] men) survived with a mean global cognition score of 81+/-15",
+          "reasoning": "Baseline demographics and injury severity markers are provided in the text and tables."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "High",
+      "risk_reasoning": "There is significant attrition bias. Only 142 of 251 survivors could complete cognitive testing. The authors explicitly state that those who completed testing were younger and had significantly less severe injuries (GCS, ISS, IMPACT scores) than those who did not, indicating informative censoring.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "No",
+          "evidence_snippet": "142 of 251 (57%) patients survived and were able to perform cognitive testing; 63 of 251 (25%) survived to assessment could not complete cognitive testing",
+          "reasoning": "A large portion of the surviving sample (25%) could not complete the primary outcome measure due to the severity of their condition."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "Partial",
+          "evidence_snippet": "63 of 251 (25%) survived to assessment could not complete cognitive testing, 24 (10%) died, and 15 (6%) were lost to follow-up",
+          "reasoning": "The study tracks the status of those who didn't complete testing but does not describe specific efforts to mitigate this loss for the cognitive outcome."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Yes",
+          "evidence_snippet": "survived to assessment could not complete cognitive testing, 24 (10%) died, and 15 (6%) were lost to follow-up",
+          "reasoning": "Reasons (death, inability to perform test, lost to follow-up) are clearly categorized."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Patients who were able to complete cognitive testing were younger... and more likely men... with better admission GCS... lower ISS... and lower IMPACT sum scores",
+          "reasoning": "The authors provide a detailed comparison between completers and non-completers, confirming systematic differences."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "No",
+          "evidence_snippet": "Patients who were able to complete cognitive testing were younger (32+/−13 years vs. 38+/−15 years; p<0.01)... lower ISS (median 22 [IQR 13–30] vs. median 26 [IQR 18–34]; p=0.03)",
+          "reasoning": "Significant differences exist; the analyzed sample is healthier/younger than the excluded sample."
+        }
+      ]
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The prognostic factor (IIC burden) was measured using standardized ACNS terminology by blinded experts. The use of a Core EEG lab and quantitative burden calculations minimizes measurement bias.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "severe IIC, defned as≥1.5 Hz lateralized rhythmic delta activity or generalized periodic discharges and any lateralized periodic discharges or ESz. We calculated the IIC burden based on IIC prevalence and frequency",
+          "reasoning": "The prognostic factor is precisely defined using frequency and duration (Hz-hours)."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "EEG was prospectively interpreted by a Core EEG laboratory consisting of a group of fve board-certifed EEG readers blinded to treatment allocation",
+          "reasoning": "The use of a blinded Core Lab and standardized ACNS terminology ensures high reliability."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "The burden of severe IIC patterns was positively skewed and therefore was log-transformed to approximate a normal distribution",
+          "reasoning": "The PF was treated as a continuous variable with appropriate statistical transformation."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Tirteen scalp electrodes were positioned based on the international 10–20 System... bedside cEEG initiated on admission",
+          "reasoning": "A standardized protocol for EEG electrode placement and initiation was used across sites."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Partial",
+          "evidence_snippet": "89 of 142 (63%) patients underwent cEEG",
+          "reasoning": "Only 63% of the cognitive-outcome cohort had the prognostic factor (EEG) measured, which is a significant limitation."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "No",
+          "evidence_snippet": "In a multiple variable regression model, including n=89 with both cognitive testing and EEG data",
+          "reasoning": "The study used complete case analysis for the EEG variable rather than imputation."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The outcome (RBANS) is a validated, objective neuropsychological tool administered by trained personnel blinded to the treatment allocation, ensuring low risk of measurement bias.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "Our primary outcome measure consisted of the Repeatable Battery for the Assessment of Neuropsychological Status (RBANS)... global cognition score, which ranges from 40 to 160",
+          "reasoning": "The outcome is a standardized psychometric battery with a clear scoring range."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "neuropsychological battery was performed by trained study personnel at each site blinded to study drug allocation per study protocol.",
+          "reasoning": "The use of trained personnel and blinding supports the validity of the measurement."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Follow-up occurred in person at 3 months following injury, and a neuropsychological battery was performed... at each site",
+          "reasoning": "The timing (3 months) and method (in-person battery) were standardized."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study performed robust multivariable adjustment, accounting for critical confounders including age, injury severity (GCS, ISS, Marshall CT), and importantly, estimated premorbid intelligence (NAART).",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Yes",
+          "evidence_snippet": "controlling for demographics, premorbid estimated intelligence, injury severity, sedatives, and antiepileptic drugs",
+          "reasoning": "The study identifies and measures the most relevant clinical and demographic confounders for TBI prognosis."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "Injury Severity Score [ISS], Marshall computed tomography [CT] classifcation... North American Adult Reading Test (NAART)",
+          "reasoning": "Standardized clinical scales and tests are used to define confounders."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Variables included in the International Mission for Prognosis and Analysis of Clinical Trials in TBI (IMPACT) score model were specifcally recorded",
+          "reasoning": "The use of the IMPACT model variables ensures the use of validated prognostic markers."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Clinical features were collected... Marshall computed tomography [CT] classifcation within the frst 24 h",
+          "reasoning": "Confounders were measured at standardized intervals (e.g., first 24h) for all participants."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text does not explicitly state how missing data for confounders (like NAART) were handled, though the final model N=89 suggests complete case analysis."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "Partial",
+          "evidence_snippet": "This was a post hoc analysis of the multicenter randomized controlled phase 2 INTREPID2566 clinical trial",
+          "reasoning": "While the original trial was randomized, this post hoc analysis relies on statistical adjustment rather than design-based control for the prognostic factor of interest."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "In multiple variable analysis, the log-transformed burden of severe IIC patterns was independently associated... after controlling for demographics, premorbid estimated intelligence, injury severity, sedatives, and antiepileptic drugs",
+          "reasoning": "A comprehensive multivariable model was used to adjust for confounding."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical approach is sound, using log-transformation for skewed data and backward selection for model building. Results are reported transparently, including both univariate and multivariate findings.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "A general linear model was constructed using backward selection with a prespecifed signifcance level to stay of 0.05",
+          "reasoning": "The modeling strategy and variable selection process are clearly described."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "controlling for demographics, premorbid estimated intelligence, injury severity, sedatives, and antiepileptic drugs",
+          "reasoning": "The model includes variables known to influence TBI outcomes (IMPACT variables, IQ)."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "general linear model... variance infation factor was used to verify variables exhibited no collinearity",
+          "reasoning": "The use of GLM with collinearity checks is appropriate for this continuous outcome."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "In an exploratory analysis, we conducted the same analyses with each of the RBANS domain-specifc subscores and the TMT.",
+          "reasoning": "The authors report on the primary outcome as well as secondary/exploratory domain-specific outcomes."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/6_Verboom_2025/Foreman_2022.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T11:11:13.561356"
+  }
+}

@@ -1,0 +1,287 @@
+{
+  "paper_metadata": {
+    "title": "Predicting intracerebral hemorrhage by baseline magnetic resonance imaging in stroke patients undergoing systemic thrombolysis",
+    "first_author": "C. Hobohm",
+    "year": "2014",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study provides clear inclusion/exclusion criteria and describes the setting well. However, it is a retrospective database review with a significant exclusion rate (20.5%) due to image quality, which may introduce selection bias if those with poor images differed clinically from those included.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "We screened our internal database containing patients admitted to the stroke unit of the University of Leipzig between January 2005 and December 2008 for eligible candidates.",
+          "reasoning": "The source is a specific university hospital stroke unit database with a defined timeframe."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "We screened our internal database containing patients admitted to the stroke unit... Inclusion criteria were the following: (i) Sudden onset of a focal neurological deficit... (ii) Systemic treatment with tPA... (iii) cerebral MRI containing at least DWI, FLAIR and T2*... (iv) cerebral CT performed within 24 h",
+          "reasoning": "The recruitment process from an internal database using specific clinical and imaging criteria is well-defined."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "between January 2005 and December 2008",
+          "reasoning": "The dates are explicitly stated."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "stroke unit of the University of Leipzig",
+          "reasoning": "The specific clinical setting and institution are provided."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "Inclusion criteria were the following: (i) Sudden onset of a focal neurological deficit... (ii) Systemic treatment with tPA... initiated within 3 h after symptom onset... (iii) cerebral MRI... ruling out primary hemorrhage... (iv) cerebral CT performed within 24 h",
+          "reasoning": "Criteria include clinical symptoms, treatment type, timing (zero time), and specific imaging requirements."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Partial",
+          "evidence_snippet": "Data from 25 patients had to be excluded because of poor quality of DWI and/or FLAIR sequences in baseline MRI (mostly motion artifacts)",
+          "reasoning": "25 out of 122 eligible patients (20.5%) were excluded due to technical issues. While common in MRI studies, this is a significant portion of the eligible sample."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Sex, age, cardiovascular risk factors (arterial hypertension, diabetes, hyperlipoproteinemia and nicotine abuse), history of previous stroke, preexisting disability (modified Rankin scale, mRS), severity of stroke symptoms... (NIHSS) and time from symptom onset to tPA administration.",
+          "reasoning": "Table 1 and the text provide a comprehensive list of relevant clinical and demographic baseline variables."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "As a retrospective study based on a completed database where the primary endpoint (CT within 24h) was an inclusion criterion, there was no loss to follow-up after the study period began.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "Data from 97 patients were evaluated.",
+          "reasoning": "Once the 97 patients met the inclusion criteria (which included having the follow-up CT), 100% were analyzed for the primary outcome."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The study does not describe the characteristics of the 25 excluded patients or attempts to include them, though they were excluded for technical reasons rather than dropout."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Yes",
+          "evidence_snippet": "mostly motion artifacts",
+          "reasoning": "The reason for exclusion (technical failure of MRI) is provided."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is no comparison provided between the 97 included and 25 excluded patients."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Without data on the excluded 25 patients, it is impossible to determine if their exclusion biased the results."
+        }
+      ]
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The prognostic factors (FLAIR and DWI) were measured using standardized MRI protocols and assessed by blinded independent raters with high inter-rater agreement.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "presence and size of FLAIRpositive lesions located within the area of restricted DWI also demonstrating lowered ADC values.",
+          "reasoning": "The prognostic factor is clearly defined based on specific MRI sequence characteristics."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Two neurologists examined – independently from each other and in a blinded manner... The overall inter-rater agreement for evaluation of cerebral imaging was similarly high for FLAIR status (0.76)",
+          "reasoning": "Blinded independent assessment and high Kappa scores support reliability."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "stratified to the following groups depending on the proportion of DWI-restricted area with reference to the whole supplying territory of the affected cerebral artery: <1/3 (n = 62), 1/3–2/3 (n = 18) and >2/3 (n = 17).",
+          "reasoning": "The 1/3 territory cut-off is a standard clinical metric in stroke (derived from ECASS/ASPECTS logic)."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Magnetic resonance imaging was performed on a 1.5 Tesla scanner (Siemens Symphony; Siemens, Erlangen, Germany) using a standardized time-saving scanning protocol",
+          "reasoning": "A standardized protocol and single scanner type were used for all."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "Data from 97 patients were evaluated.",
+          "reasoning": "All patients included in the final analysis had complete PF data."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Missing data resulted in exclusion rather than imputation."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The outcome (ICH) was defined using established international criteria (ECASS II) and assessed by blinded raters using objective CT imaging.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "classified first in the existence or non-existence of any ICH and second according to the ECASS II criteria: Hemorrhagic infarction 1... parenchymal hemorrhage... Clinical deterioration of at least four points at the NIHSS... was considered indicative of symptomatic ICH.",
+          "reasoning": "The study uses both radiologic (ECASS II) and clinical (NIHSS change) definitions for the outcome."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "Two neurologists examined... in a blinded manner... An independent neuroradiologist – also blinded to further patients' characteristics – reevaluated MRI or CT scans in cases of inconsistent ratings",
+          "reasoning": "Blinding and expert adjudication were used to ensure reliability."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "The follow-up CT scan... was performed as a 5 mm slice axial scan... on a 64-slice CT scanner",
+          "reasoning": "A standardized CT protocol was used for all participants."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "While the authors measured many potential confounders and performed multivariate regression, the small sample size (n=97) and even smaller number of FLAIR-positive cases (n=25) limit the robustness of the adjustment for all relevant factors.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Yes",
+          "evidence_snippet": "Sex, age, cardiovascular risk factors (arterial hypertension, diabetes, hyperlipoproteinemia and nicotine abuse), history of previous stroke, preexisting disability (mRS), severity of stroke symptoms (NIHSS) and time from symptom onset to tPA administration.",
+          "reasoning": "The study captures the major known clinical predictors of ICH in stroke."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Partial",
+          "evidence_snippet": "cardiovascular risk factors (arterial hypertension, diabetes, hyperlipoproteinemia and nicotine abuse)",
+          "reasoning": "While factors are listed, specific diagnostic thresholds for these risk factors (e.g., HbA1c for diabetes) are not detailed."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "from our internal database... severity of stroke symptoms prior to tPA treatment as assessed by the National Institute of Health stroke scale (NIHSS)",
+          "reasoning": "Standardized clinical scales (NIHSS, mRS) and medical records were used."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "From all patients included, the following characteristics were recorded",
+          "reasoning": "Data were extracted uniformly from the same clinical database."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No imputation was mentioned; patients with incomplete data were likely excluded."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "No",
+          "evidence_snippet": "single-center observational study",
+          "reasoning": "The design was a cohort study without matching or prospective stratification."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Partial",
+          "evidence_snippet": "Further, multiple regression analysis was utilized to identify potential confounder for the addressed MR imaging parameters.",
+          "reasoning": "Multivariate analysis was performed, but the small number of events (ICH) relative to the number of variables may lead to overfitting or limited power to adjust for all confounders simultaneously."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical methods are appropriate for the data type, and the results are reported transparently, including effect sizes (OR) and confidence intervals.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "statistical significance was verified either by the Mann–Whitney U-test... Pearson's chi-squared test... Fisher's exact test... multiple regression analysis... inter-rater agreement... by Cohen's κ.",
+          "reasoning": "The statistical plan is clearly laid out and covers all reported results."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "To test for possible influencing factors, baseline characteristics were analyzed between the FLAIR-positive and FLAIR-negative group... These findings were verified by multiple regression analysis",
+          "reasoning": "The authors checked for baseline imbalances and used regression to verify if these influenced the primary imaging findings."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "multiple regression analysis was utilized to identify potential confounder",
+          "reasoning": "Regression is appropriate for this observational prognostic study."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Relationships between FLAIR-positive lesions, DWI lesion size, proportion of FLAIR/DWI-positive lesions, and occurrence of bleeding were explored.",
+          "reasoning": "The authors report on all pre-specified relationships, including non-significant ones (e.g., FLAIR/DWI proportion)."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/13_Zhubi_2025/Hobohm_2014.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T10:52:56.323747"
+  }
+}

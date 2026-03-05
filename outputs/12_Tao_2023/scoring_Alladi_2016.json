@@ -1,0 +1,287 @@
+{
+  "paper_metadata": {
+    "title": "Impact of Bilingualism on Cognitive Outcome After Stroke",
+    "first_author": "Suvarna Alladi",
+    "year": "2016",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study utilized a large, consecutive stroke registry with clearly defined inclusion/exclusion criteria and a well-described baseline population. While it is a hospital-based sample, the recruitment process was systematic.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "The patients were participants in the Nizam's Institute of Medical Sciences stroke registry, initiated to study clinical profile and outcome in consecutive cases of acute stroke.",
+          "reasoning": "The source is a specific institutional registry in Hyderabad, India, covering consecutive acute stroke cases."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "Records of patients evaluated during 2006 to 2013 were reviewed. Patients with ischemic stroke >18 years and evaluated 3 to 24 months after stroke were included.",
+          "reasoning": "The recruitment period and the use of a registry for identification are clearly stated."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "evaluated during 2006 to 2013",
+          "reasoning": "The specific years of the registry review are provided."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "Nizam's Institute of Medical Sciences, Hyderabad, is a clinical research center well suited to explore this relationship.",
+          "reasoning": "The specific hospital and city are identified."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "Patients with ischemic stroke >18 years and evaluated 3 to 24 months after stroke were included. Patients with disabling stroke (modified Rankin Scale score>4), severe comorbidities, inadequate data, and preexisting dementia were excluded.",
+          "reasoning": "Both inclusion and exclusion criteria are explicitly listed, including the 'zero time' (3-24 months post-stroke)."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not provide the total number of eligible patients in the registry versus the number finally included (608), making it impossible to calculate a participation rate."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1. Clinical Characteristics and Cognitive Outcomes of Monolinguals and Bilinguals",
+          "reasoning": "Table 1 provides a comprehensive list of demographics, vascular risk factors, and stroke characteristics."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study is a retrospective review of a registry. While it defines the final sample, it does not account for patients lost to follow-up between the acute stroke and the 3-24 month assessment, which could introduce attrition bias if bilinguals were more likely to return for follow-up.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The denominator (total patients in registry meeting inclusion criteria) is not provided, only the final analyzed N=608."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "As a retrospective registry review, there is no mention of tracking or describing dropouts."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Reasons for attrition are not discussed."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No data is provided comparing those analyzed to those lost to follow-up."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Information regarding non-completers is entirely absent."
+        }
+      ]
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "Bilingualism is clearly defined and measured consistently across the sample. Although it relies on self-report/interview, this is standard for the field, and the study notes the lack of confounding by immigration.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "Bilingualism was defined as the ability to communicate in 2 or more languages in interaction with other speakers of these same languages.",
+          "reasoning": "A functional definition of the prognostic factor is provided."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Partial",
+          "evidence_snippet": "Bilingualism is common, without the confounding effect of immigration, and has been systematically studied.",
+          "reasoning": "While the study mentions systematic study, it does not detail the specific tool or scale used to verify proficiency levels, relying likely on clinical interview."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "monolinguals (n=255; 41.9%) | bilinguals (n=353; 58.1%)",
+          "reasoning": "The factor is treated as a categorical variable (monolingual vs. bilingual) based on the provided definition."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "All patients were evaluated with a detailed history and clinical evaluation by experienced behavioral neurologists... using a structured diagnostic protocol",
+          "reasoning": "The evaluation protocol was standardized for all registry participants."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "Of the 608 patients... (n=255; 41.9%) | (n=353; 58.1%)",
+          "reasoning": "The PF was determined for the entire analyzed sample."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Imputation was not mentioned; patients with 'inadequate data' were excluded."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "Outcomes were measured using validated, standardized tools (ACE-R, NINDS-AIREN) by trained professionals. The use of age and education-matched norms for cognitive impairment reduces measurement bias.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "VaD was diagnosed as fulfilling National Institute of Neurological Disorders and Stroke and Association Internationale pour la Recherche et l'Enseignement en Neurosciences (NINDS-AIREN) criteria... Vascular mild cognitive impairment was diagnosed in subjects with impairment in at least 1 cognitive domain subscore of ACE-R",
+          "reasoning": "Standardized clinical criteria and psychometric cut-offs were used to define outcomes."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "Cognitive evaluation was done using Addenbrooke's Cognitive Examination–Revised (ACE-R)... adapted for Telugu- and Hindi-speaking populations... ACE-R has been validated in large studies of stroke outcome.",
+          "reasoning": "The study used a validated and culturally adapted version of a recognized cognitive tool."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "All patients were evaluated with a detailed history and clinical evaluation by experienced behavioral neurologists... using a structured diagnostic protocol",
+          "reasoning": "The protocol was applied consistently to all patients."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study performed multivariable logistic regression to adjust for key confounders including age, education, occupation, and vascular risk factors. Bilingualism remained a significant predictor after adjustment.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1. Clinical Characteristics... Age, Men, Literates, Occupation, Hypertension, Diabetes, Cardiac disease, Smoking, Chronic alcoholism, Stroke characteristics",
+          "reasoning": "A wide range of demographic and clinical confounders were measured."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Partial",
+          "evidence_snippet": "Table 1... Hypertension, Diabetes mellitus, Cardiac disease, Smoking, Chronic alcoholism",
+          "reasoning": "While factors are listed, specific diagnostic thresholds for each (e.g., BP levels for hypertension) are not detailed in the text."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "All patients were evaluated with a detailed history and clinical evaluation by experienced behavioral neurologists... All patients underwent brain imaging",
+          "reasoning": "Confounders were assessed by specialists and supplemented by objective imaging."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "All patients were evaluated... using a structured diagnostic protocol",
+          "reasoning": "Standardized protocol ensures consistency."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "No",
+          "evidence_snippet": "Missing data n=67... Missing data n=85... Missing data n=63... Missing data n=46",
+          "reasoning": "The study reports missing data in Table 1 but does not use imputation; it appears to use available-case analysis."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "Partial",
+          "evidence_snippet": "Normal cognitive performance was defined as the absence of impairment... based on age and education-matched norms.",
+          "reasoning": "The outcome definition itself accounts for age and education, but the groups were not matched at assembly."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "To study whether bilingualism was independently associated with poststroke cognitive impairment, we performed a series of logistic regressions.",
+          "reasoning": "Multivariable logistic regression was used to adjust for age, education, occupation, and risk factors."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical approach was sound, using logistic regression and Bonferroni corrections for multiple testing. Results are reported transparently with Odds Ratios and Confidence Intervals.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Series of binary logistic regressions were conducted to investigate the effect of relevant variables (enter method in SPSS).",
+          "reasoning": "The analytical steps and software used are clearly described."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "The first logistic regression incorporated demographic variables, the second included stroke-related variables, and the third examined risk factors.",
+          "reasoning": "A logical, stepwise approach to model building was employed."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "The presence of cognitive impairment was the fixed factor for the logistic regression.",
+          "reasoning": "Binary logistic regression is appropriate for the categorical outcome of impairment vs. normal cognition."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Table 2. Factors Predicting Poststroke Cognitive Impairment in the Logistic Regression Model",
+          "reasoning": "The study reports both significant and non-significant predictors, including ORs and 95% CIs."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/12_Tao_2023/Alladi_2016.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T10:42:34.571596"
+  }
+}

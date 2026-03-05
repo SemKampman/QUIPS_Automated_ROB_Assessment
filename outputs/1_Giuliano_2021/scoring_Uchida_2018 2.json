@@ -1,0 +1,287 @@
+{
+  "paper_metadata": {
+    "title": "Prognosis of Juvenile myoclonic epilepsy with eye-closure sensitivity",
+    "first_author": "Carina Gonçalves Pedroso Uchida",
+    "year": "2018",
+    "analysis_timestamp": "2023-10-27 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study provides a clear description of the recruitment setting (tertiary center) and inclusion/exclusion criteria. However, it uses a convenience sample from a specialized clinic, which may not represent the general JME population, and the participation rate of eligible vs. non-eligible patients is not explicitly detailed.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "They have been followed in the outpatient clinic of a tertiary center (Epilepsy Section, Department of Neurology and Neurosurgery, Universidade Federal de São Paulo, São Paulo, Brazil).",
+          "reasoning": "The source population is clearly identified as patients from a specific tertiary epilepsy center."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Partial",
+          "evidence_snippet": "To determine the endophenotype of reflex traits in 133 JME patients, we used a semi-structured interview based on a questionnaire.",
+          "reasoning": "While the total number of screened patients is provided, the specific sampling frame (consecutive vs. convenience) within the clinic is not explicitly stated."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text mentions the follow-up duration (2-17 years) but does not specify the calendar dates for the recruitment period."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "Epilepsy Section, Department of Neurology and Neurosurgery, Universidade Federal de São Paulo, São Paulo, Brazil",
+          "reasoning": "The geographic and institutional setting is precisely described."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "Except for photosensitivity (PS), any other reflex traits occurrence, drugs/alcohol abuse intake, noncompliance, and Jeavons syndrome, were considered exclusion critoria.",
+          "reasoning": "The study lists specific clinical and EEG criteria for inclusion and several explicit exclusion criteria."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not provide a flow diagram or the number of eligible patients who declined to participate."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Groups were homogeneous with respect to gender, age, duration of epilepsy, previous use of inappropriate AEDs, neuropsychological findings, and circadian distribution of seizures (Table 1).",
+          "reasoning": "Table 1 and the text provide comprehensive baseline data including age, gender, IQ, and family history."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study reports a long-term follow-up with a mean of 8.21 years. While specific dropout counts aren't in a flow chart, the analysis compares baseline to 'current' status for the cohorts, and the methodology implies longitudinal tracking of the specific groups identified.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "All patients were followed-up for 2–17 years (mean = 8.21 yrs., SD= ± 5.044).",
+          "reasoning": "The study implies that the 22 and 20 patients identified for the groups were those with complete follow-up data."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is no mention of subjects who dropped out or efforts to retrieve their data."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text does not discuss loss to follow-up for the specific study cohorts."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No data provided on characteristics of dropouts."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Without data on dropouts, a comparison cannot be made."
+        }
+      ]
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The prognostic factor (ECS) was measured using a highly rigorous Video-EEG Neuropsychological Protocol (VNPP) which is superior to standard EEG. The criteria for ECS and EM were clearly defined and applied uniformly.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "Eye closure sensitivity (ECS) is a unique EEG phenomenon described as the non-incidental appearance of transient epileptic abnormalities following the closure of the eyes for 1–4s during a standard EEG recording",
+          "reasoning": "The study provides a precise definition of ECS and the clinical expression (EM)."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Group 1 included 22 JME patients with ECS and EM confirmed by VNPP... all patients had a 4–6 h video-EEG monitoring",
+          "reasoning": "The use of a 4-6 hour video-EEG protocol with specific activation tasks is a gold-standard approach for this condition."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "We considered activation as the increase by twice of the number of seizures or epileptic discharges (ED), in comparison to the baseline",
+          "reasoning": "The study uses a pre-defined, standard threshold for 'activation'."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "all patients had a 4–6 h video-EEG monitoring, comprehending a research protocol approved by our Ethics Committee.",
+          "reasoning": "The VNPP was applied consistently to all participants."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "Group 1 included 22 JME patients with ECS and EM confirmed by VNPP.",
+          "reasoning": "The PF was the basis for group assignment; all analyzed patients had this data."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Missing data for PF is not mentioned, likely because it was the inclusion criterion."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "Outcomes were measured using seizure diaries, which are standard but prone to recall bias. While the clinical follow-up was long, the study does not mention if the clinicians assessing the outcomes were blinded to the ECS status (Group 1 vs Group 2).",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "The frequency of seizures was monitored by standard seizure calendars... Freedom of all seizures [was assessed].",
+          "reasoning": "Seizure frequency and seizure freedom are clearly defined as the primary outcomes."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Partial",
+          "evidence_snippet": "The frequency of seizures was monitored by standard seizure calendars.",
+          "reasoning": "Seizure calendars are standard but subjective. There is no mention of blinding the outcome assessors to the prognostic factor."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "All patients were followed-up... The frequency of seizures was monitored by standard seizure calendars.",
+          "reasoning": "The same monitoring method (calendars) was used for both groups."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study measured several important confounders (age of onset, family history, psychiatric comorbidities) and used AED load to account for treatment intensity. However, it did not perform multivariable adjustment (e.g., Cox regression) to control for these factors simultaneously when assessing the independent effect of ECS on prognosis.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Yes",
+          "evidence_snippet": "Groups were homogeneous with respect to gender, age, duration of epilepsy, previous use of inappropriate AEDs... AED load was applied.",
+          "reasoning": "Key confounders like age, treatment (AED load), and comorbidities were measured."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "AED load... was calculated by summing the ratios between the prescribed dose and the World Health Organization defined doses",
+          "reasoning": "The study uses a validated method (AED load) to define treatment intensity."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Psychiatric comorbidity was also analyzed through Schedule Clinical Interview for DSM-IV... and the State-Trait Anxiety Inventory (STAI)",
+          "reasoning": "Validated scales were used for psychiatric confounders."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Comparison between Groups 1 and 2 was performed... [using the same clinical evaluation].",
+          "reasoning": "Both groups underwent the same baseline psychiatric and clinical screening."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No mention of missing data or imputation methods."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "Partial",
+          "evidence_snippet": "Groups were homogeneous with respect to gender, age, duration of epilepsy...",
+          "reasoning": "The study checked for homogeneity at baseline but did not use matching or stratification in the design."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "No",
+          "evidence_snippet": "Comparison between Groups 1 and 2 was performed by the nonparametric Mann-Whitney U test... The Fisher's exact test was applied",
+          "reasoning": "The analysis relied on univariable tests (Mann-Whitney, Fisher's) rather than multivariable models to adjust for confounders like age of onset."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical methods are appropriate for the sample size and data types. Results are reported transparently for all seizure types and both groups, including p-values and measures of variance.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Comparison between Groups 1 and 2 was performed by the nonparametric Mann-Whitney U test for quantitative variables. The Fisher's exact test was applied for qualitative variables.",
+          "reasoning": "The statistical plan is clearly stated and matches the data presented in tables."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Partial",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "As no multivariable models were built, there is no strategy for variable selection to evaluate."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "nonparametric Mann-Whitney U test... Fisher's exact test",
+          "reasoning": "These tests are appropriate for comparing two independent groups with relatively small sample sizes."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Results: Group 1 had a lower age at epilepsy onset... Psychiatric comorbidities were not different between groups.",
+          "reasoning": "The study reports on all seizure types and psychiatric outcomes mentioned in the methods, including non-significant results."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/1_Giuliano_2021/Uchida_2018 2.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T11:05:14.759778"
+  }
+}

@@ -1,0 +1,337 @@
+{
+  "paper_metadata": {
+    "title": "Connectivity of the insular subdivisions differentiates posttraumatic headacheassociated from nonheadache-associated mild traumatic brain injury: an arterial spin labelling study",
+    "first_author": "Fengfang Li",
+    "year": "2024",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study provides a clear description of the target population (mTBI patients), recruitment setting (Nanjing First Hospital), and explicit inclusion/exclusion criteria based on standardized guidelines (ACRM and ICHD-3). Baseline characteristics are well-matched between groups.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Right-handed mTBI patients were prospectively enrolled in this study. mTBI was defined according to the guidelines of the American Congress of Rehabilitation Medicine [22].",
+          "reasoning": "The population is clearly defined as right-handed adults with mTBI meeting specific clinical criteria."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "mTBI patients were prospectively enrolled in this study... All mTBI patients initially underwent MRI scans and clinical and neurological scale assessments within 7 days after injury (3.06±2.03 days).",
+          "reasoning": "Prospective recruitment within a specific timeframe following injury helps limit selection bias."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "While the timing relative to injury is described, the specific calendar dates (e.g., Jan 2021 to Dec 2022) are not provided."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "Department of Radiology, Nanjing First Hospital, Nanjing Medical University, No.68, Changle Road, Nanjing 210006, China",
+          "reasoning": "The specific hospital and geographic location are provided in the author affiliations and ethics section."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "The inclusion criteria were age 18 years or older, Glasgow Coma Scale (GCS) score of 13–15, posttraumatic amnesia lasting<24 h, and loss of consciousness<30 min. The exclusion criteria were as follows: (a) previous history of head injury or psychiatric/neurological disease...",
+          "reasoning": "Detailed clinical and demographic criteria are provided, including the 'zero time' (within 7 days of injury)."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not report the number of eligible patients who declined to participate or the total number screened, making it impossible to calculate a participation rate."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "The two groups were well matched for age (p=0.191), sex (p=0.409), and educational level (p=0.206). There was no significant difference in the MoCA score (p=0.364) between the groups.",
+          "reasoning": "Table 1 and the text provide a comprehensive breakdown of age, sex, education, and cognitive scores."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study reports that all 94 enrolled patients were included in the analysis. While it mentions a 3-month follow-up, the primary analysis focuses on the baseline imaging which appears to have 100% completion for the enrolled cohort.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "A total of 94 patients with mTBI were included in this study. The participants were divided into two groups: the mTBI+PTH group (mTBI patients with PTH, n=48) and the mTBI-PTH group (mTBI patients without PTH, n=46).",
+          "reasoning": "The analysis includes the full sample size described in the methods."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "Yes",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There were no dropouts reported for the primary analysis, so this item is satisfied by the lack of attrition."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Yes",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No loss to follow-up was reported for the cross-sectional imaging analysis."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Not applicable as no attrition occurred."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Yes",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Not applicable as all participants completed the baseline assessment."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Attrition Summary",
+        "prompt": "Loss to follow-up (from baseline sample to study population analyzed) is not associated with key characteristics (i.e., the study data adequately represent the sample) sufficient to limit potential bias to the observed relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ],
+        "rating": "Low"
+      }
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The prognostic factor (insular subdivision connectivity) is measured using standardized, objective MRI protocols (ASL) and validated software (SPM8, ASLtbx). The use of a priori coordinates for ROIs reduces the risk of data-driven bias.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "Six spherical seeds (radius=6 mm) were centred on the coordinates of each region of interest (ROI) in the MNI 152 space... right ventral anterior insula (R-vAI, red, MNI=32, 10, −6)...",
+          "reasoning": "The insular subdivisions are precisely defined using MNI coordinates."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "ASL data were collected using a 2D-pseudocontinuous ASL (pCASL) sequence... Data preprocessing was carried out using Statistical Parametric Mapping (SPM8...)",
+          "reasoning": "The study uses pCASL, a validated MRI technique, and standard preprocessing pipelines."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "Pearson's correlation was performed to estimate the voxelwise seed-to-voxel connectivity of each subject, and Fisher's r-to-z transformation was subsequently performed.",
+          "reasoning": "Connectivity is treated as a continuous variable (Z-scores)."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Data acquisition was carried out on a 3.0 T MRI scanner (Ingenia, Philips Medical Systems, Netherlands) using an 8-channel standard head coil.",
+          "reasoning": "All participants underwent the same imaging protocol on the same scanner."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "A total of 94 patients with mTBI were included in this study.",
+          "reasoning": "Complete imaging data was available for the entire analyzed cohort."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "Yes",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No missing data was reported, so imputation was not required."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "PF Measurement Summary",
+        "prompt": "PF is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ],
+        "rating": "Low"
+      }
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The outcome (PTH) is defined by the gold-standard ICHD-3 criteria. Clinical characteristics like intensity (VAS) and frequency are measured using validated scales, though these are inherently subjective.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "According to the diagnostic criteria of the ICHD-3 beta [23], mTBI patients were divided into two groups: mTBI with and without PTH.",
+          "reasoning": "The study uses the international standard for headache classification."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "Headache intensity was assessed using a visual analogue scale (VAS) [24], a numerical rating scale from 0 to 10...",
+          "reasoning": "VAS is a validated tool for pain intensity, and ICHD-3 is the standard for diagnosis."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "All mTBI patients initially underwent MRI scans and clinical and neurological scale assessments within 7 days after injury.",
+          "reasoning": "All patients were assessed using the same clinical scales in the same clinical setting."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Outcome Measurement Summary",
+        "prompt": "Outcome of interest is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ],
+        "rating": "Low"
+      }
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "While the study adjusts for age, sex, and education in the statistical models, it does not explicitly account for acute treatments (medications) or the presence of comorbid symptoms (e.g., sleep, depression) which are known to influence both pain and brain connectivity.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Partial",
+          "evidence_snippet": "The two groups were well matched for age (p=0.191), sex (p=0.409), and educational level (p=0.206).",
+          "reasoning": "Demographic confounders are measured, but clinical confounders like medication use or psychological comorbidities are not detailed."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "Age (years), Education (years), Gender (Female/ Male)",
+          "reasoning": "Standard demographic variables are clearly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Demographic characteristics and clinical data were compared between groups using two-sample t tests...",
+          "reasoning": "Demographic data collection is standard and reliable."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "All mTBI patients initially underwent MRI scans and clinical and neurological scale assessments...",
+          "reasoning": "All data were collected during the same clinical encounter."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "Yes",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No missing confounder data reported."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "Yes",
+          "evidence_snippet": "The two groups were well matched for age (p=0.191), sex (p=0.409), and educational level (p=0.206).",
+          "reasoning": "The study ensured groups were comparable at baseline for major demographics."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "...while controlling for age, sex, and educational level (Gaussian random field correction, clustering level p<0.05, voxel level p<0.001).",
+          "reasoning": "The statistical analysis explicitly adjusted for the measured confounders."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Confounding Summary",
+        "prompt": "Important potential confounders are appropriately accounted for, limiting potential bias with respect to the relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ],
+        "rating": "Moderate"
+      }
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study uses appropriate statistical methods for neuroimaging (GRF correction, Fisher's transformation) and provides ROC analysis to validate the findings. Results are reported transparently, including both positive and negative findings for different insular subdivisions.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Pearson's correlation was performed to estimate the voxelwise seed-to-voxel connectivity... Fisher's r-to-z transformation was subsequently performed.",
+          "reasoning": "The analytical steps are described in detail."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "Based on previous study [28], the identities and coordinates of the resulting six ROIs are as follows...",
+          "reasoning": "The choice of ROIs and the focus on the insula are grounded in existing literature on the 'pain matrix'."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "For each ROI, a 2-sample t test was conducted to compare the perfusion-based FC maps... (Gaussian random field correction, clustering level p<0.05, voxel level p<0.001).",
+          "reasoning": "The use of 2-sample t-tests with stringent multiple comparison correction is appropriate for this case-control design."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "No significant changes in the perfusion-based FC of the other insular subdivisions (L_vAI, R_PI, R_dAI) were found between two groups.",
+          "reasoning": "The authors report non-significant results for several subdivisions, suggesting a lack of selective reporting."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Statistical Analysis and Presentation Summary",
+        "prompt": "The statistical analysis is appropriate for the design of the study, limiting potential for presentation of invalid or spurious results.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ],
+        "rating": "Low"
+      }
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/9_McGeown_2025/Li_2024.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T11:44:46.292274"
+  }
+}

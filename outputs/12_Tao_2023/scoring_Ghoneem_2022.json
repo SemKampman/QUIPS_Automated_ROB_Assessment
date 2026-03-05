@@ -1,0 +1,287 @@
+{
+  "paper_metadata": {
+    "title": "Association of Socioeconomic Status and Infarct Volume With Functional Outcome in Patients With Ischemic Stroke",
+    "first_author": "Ahmed Ghoneem",
+    "year": "2022",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study used a large, prospective, consecutive cohort of stroke patients. While it is a single-center study, the recruitment process and inclusion/exclusion criteria are clearly defined. The baseline characteristics are well-described across SES quintiles, and the authors confirmed that those excluded due to lack of MRI did not differ significantly in SES from those included.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "This cohort study was conducted in a prospective, consecutive population (n = 1256) presenting with acute ischemic stroke who underwent magnetic resonance imaging (MRI) within 24 hours of admission.",
+          "reasoning": "The target population (acute ischemic stroke patients at a major hospital) is clearly defined."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "Patients were recruited in Massachusetts General Hospital, Boston, from May 31, 2009, to December 31, 2011.",
+          "reasoning": "The recruitment is consecutive and the setting is a high-volume tertiary center, which is well-described."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "recruited from May 31, 2009, to December 31, 2011.",
+          "reasoning": "Specific dates are provided."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "Massachusetts General Hospital, Boston",
+          "reasoning": "The specific institution and city are named."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "acute ischemic stroke within 72 hours of symptom onset based on clinical assessment and computed tomography findings... exclusion criteria were contraindications to MRI or lack of evaluable MRI images.",
+          "reasoning": "Criteria for both the parent study and the SES substudy are explicitly stated."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Yes",
+          "evidence_snippet": "A total of 1098 patients had imaging and SES data available",
+          "reasoning": "Out of 1256 eligible patients in the parent study, 1098 (87.4%) were included, which exceeds the 80% threshold for low risk."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1. Patient Characteristics... Age, Race and ethnicity, Sex, Hypertension, Diabetes, Hyperlipidemia, Atrial fibrillation, Current smoking, Coronary artery disease, Congestive heart failure, Prior stroke, Baseline mRS score, Prior TIA, Prestroke medications, Insurance, Time from symptom onset to admission",
+          "reasoning": "Extensive baseline data is provided and compared across SES quintiles."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study reports on 1098 patients from an initial 1256. The primary reason for exclusion was the lack of SES data or MRI, which the authors analyzed to ensure no systematic bias. Long-term outcome (90 days) was collected via multiple robust methods to minimize loss to follow-up.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "A total of 1098 patients had imaging and SES data available",
+          "reasoning": "The retention from the parent study to the analyzed cohort is high (87%)."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "Yes",
+          "evidence_snippet": "A blinded investigator performed outcome assessments through in-person evaluations, telephone interviews, or outpatient physician note review.",
+          "reasoning": "The use of multiple methods (phone, notes, in-person) indicates a high effort to capture outcome data for all participants."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Yes",
+          "evidence_snippet": "patients were excluded if their SES data could not be derived (ie, no US-based home address).",
+          "reasoning": "The reason for exclusion from the analyzed cohort is clearly stated."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "There was no difference in income for those who underwent MRI (included in the study) and those who did not (eMethods 6 in the Supplement).",
+          "reasoning": "The authors explicitly compared the included and excluded groups to check for bias."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Yes",
+          "evidence_snippet": "There was no difference in income for those who underwent MRI (included in the study) and those who did not",
+          "reasoning": "Statistical comparison suggests no significant difference in the primary exposure (SES) between groups."
+        }
+      ]
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The primary prognostic factor (SES) was measured using proxy data (zip code-derived income and ADI) rather than individual-level data. While the authors validated this using two different metrics (Income and ADI), proxy measurements inherently carry a higher risk of misclassification than direct individual measurements.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "The primary SES measure was local median household income using zip codes... The secondary SES measure was the area deprivation index (ADI), calculated at the census block group level",
+          "reasoning": "The prognostic factors are clearly defined and the source (US Census Bureau) is cited."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Partial",
+          "evidence_snippet": "Individual level SES data were not available, and they were derived at the zip code and Census block group levels.",
+          "reasoning": "While zip-code and ADI are validated research proxies, they are not as reliable as individual-level data, leading to potential ecological fallacy/misclassification."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "Median income... used as standardized continuous variables... comparisons across SES quintiles",
+          "reasoning": "The authors used both continuous analysis and standard quintiles."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Individual addresses were collected on admission from the medical records.",
+          "reasoning": "The same method of address collection and census-linking was used for all."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "A total of 1098 patients had imaging and SES data available",
+          "reasoning": "The vast majority of the cohort had available SES data."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "No",
+          "evidence_snippet": "Patients with missing data were excluded from corresponding analyses.",
+          "reasoning": "Imputation was not used; missing data resulted in exclusion. However, the amount of missing data was low."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The outcomes (Infarct Volume and mRS) were measured using standardized, objective, and validated tools. Importantly, the assessors of infarct volume and the 90-day functional outcome were blinded to the SES data, which significantly reduces the risk of measurement bias.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "Assessment of longterm disability was performed at a mean (SD) of 90 (15) days using the modified Rankin Scale score.",
+          "reasoning": "The outcome and the timing of follow-up are clearly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "Expert manual annotations of acute infarcts... generated by investigators blinded to SES data... A blinded investigator performed outcome assessments",
+          "reasoning": "Blinding of assessors and use of manual expert adjudication for MRI ensures high reliability."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "An MRI was obtained from each patient for clinical evaluation... Assessment of longterm disability was performed... using the modified Rankin Scale score.",
+          "reasoning": "Standardized protocols were applied to all participants."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study performed extensive multivariable adjustment for a wide range of potential confounders, including demographics, traditional risk factors, prestroke medications, and acute treatments (thrombolysis). They also conducted sensitivity analyses (e.g., excluding minor strokes) to address potential health-seeking behavior bias.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Yes",
+          "evidence_snippet": "Important covariables were determined a priori and included demographic factors... stroke risk factors... prestroke medications... discharge medications, stroke symptom duration, and insurance status.",
+          "reasoning": "A comprehensive list of clinical and socioeconomic confounders was captured."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1 and Statistical Analysis section",
+          "reasoning": "Standard clinical definitions were used for comorbidities and medications."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Clinical data were collected at presentation... Race and ethnicity data were derived from the medical record",
+          "reasoning": "Data were collected prospectively from medical records at the time of admission."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Clinical data were collected at presentation... using a standard data collection manual.",
+          "reasoning": "Standardized data collection was used for the entire cohort."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "No",
+          "evidence_snippet": "Patients with missing data were excluded from corresponding analyses.",
+          "reasoning": "Imputation was not used; complete case analysis was performed."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "Partial",
+          "evidence_snippet": "prospective, consecutive population",
+          "reasoning": "The design was a cohort study; confounding was primarily handled in the analysis rather than the design (e.g., no matching)."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "Linear regression was used... remaining significant through multivariable adjustments... adjusting for acute stroke therapies",
+          "reasoning": "The authors used robust multivariable linear and ordinal regression models to adjust for confounders."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical approach was highly appropriate, utilizing mediation analysis to specifically address the study's hypothesis. The authors provided detailed results for multiple models and sensitivity analyses, and the reporting follows STROBE guidelines.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Statistical analysis was performed using SPSS... Mediation analysis was performed to test whether SES exerts its association with poststroke disability via the hypothesized mediators",
+          "reasoning": "The analytical plan is detailed and matches the study objectives."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "Important covariables were determined a priori... Mediation analysis was performed to test whether SES exerts its association with poststroke disability via the hypothesized mediators",
+          "reasoning": "The model was based on a clear hypothesis of biological mediation."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "Linear regression... Mediation analysis... ordinal regression",
+          "reasoning": "The use of mediation analysis is the gold standard for the question of 'how' SES affects outcome."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Findings were similar when SES was alternatively assessed using ADI... Associations were observed between SES and infarct volume among individuals presenting with LAA and CE strokes, but not other stroke subtypes",
+          "reasoning": "The authors reported both significant and non-significant findings (e.g., for specific stroke subtypes)."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/12_Tao_2023/Ghoneem_2022.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T10:40:04.286213"
+  }
+}

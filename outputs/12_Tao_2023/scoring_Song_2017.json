@@ -1,0 +1,287 @@
+{
+  "paper_metadata": {
+    "title": "Is there a correlation between socioeconomic disparity and functional outcome after acute ischemic stroke?",
+    "first_author": "Tian Song",
+    "year": "2017",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study uses a large, multicenter prospective registry (CNSR) covering 80% of China's geographical area. However, the authors explicitly state that rural hospitals were excluded due to lack of equipment, which likely led to the exclusion of the most socioeconomically deprived individuals, potentially underestimating the association.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "The CNSR included up to 132 hospitals covering 27 provinces and 4 municipalities, which is equal to 80% geographical area of the whole China.",
+          "reasoning": "The source population is broadly defined as acute stroke patients across a vast geographical area of China."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "Well-trained research coordinators at each hospital reviewed medical records daily to identify, consent and enroll consecutive patients.",
+          "reasoning": "The use of consecutive enrollment by trained coordinators in a prospective registry is a high-quality recruitment method."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "multicenter and prospective registry of consecutive patients with acute cerebrovascular events from September 2007 to August 2008",
+          "reasoning": "The specific dates for the recruitment period are clearly stated."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "132 hospitals covering 27 provinces and 4 municipalities... direct admission to hospital from a physician's clinic or emergency department",
+          "reasoning": "The setting (hospitals) and geographic scope are well-defined."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "(1) age 18 years or older; (2) hospitalized with a primary diagnosis of acute ischemic stroke according to the World Health Organization (WHO) criteria; (3) stroke confirmed by head computerized tomography (CT) or brain magnetic resonance imaging (MRI)",
+          "reasoning": "The criteria are explicit, including age, diagnostic standards, and imaging confirmation."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "While the study mentions consecutive enrollment, it does not provide the total number of eligible patients vs. those who consented (participation rate)."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "demographics (age and gender); modified Rankin Scale (mRS); stroke risk factors: hypertension... diabetes mellitus... dyslipidemia... admission stroke severity based on the National Institutes of Health Stroke Scale (NIHSS) score",
+          "reasoning": "Comprehensive baseline clinical and demographic data are reported."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study flow diagram (Fig 1) indicates that out of 12,415 eligible ischemic stroke patients, 11,226 were included in the final analysis. This represents a follow-up rate of approximately 90.4%, which is high for a large registry study.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "A total of 11,226 patients were enrolled in the final statistical analysis (Fig 1)",
+          "reasoning": "The final sample size relative to the initial registry cohort suggests a low attrition rate (~10%)."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not describe specific efforts to trace or characterize those lost to follow-up."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text does not explicitly list reasons for attrition (e.g., death, refusal, untraceable)."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is no comparison provided between the characteristics of completers and non-completers."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Without data on the dropouts, it is impossible to determine if attrition was informative (biased)."
+        }
+      ]
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The prognostic factors (SES indicators) are clearly defined and categorized based on established literature. Multiple imputation was used to handle missing data for these factors, which strengthens the analysis.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "Educational levels were summarized into 3 categories... Patients' occupational classes were determined as 'non-manual workers', 'manual workers', 'no job' and 'retired'... Monthly income was categorized to 2 grades",
+          "reasoning": "The three SES indicators (education, occupation, income) are explicitly defined with clear thresholds."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Information on SES was collected through the registry... based on previous literature [14]",
+          "reasoning": "The use of standardized registry collection and literature-based definitions supports reliability."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "Educational levels were summarized into 3 categories according to years in full-time education: \">9 years... 6–9 years and <6 years\"",
+          "reasoning": "The cut-points for education and income are based on standard Chinese social structures rather than being data-driven for significance."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "In the CNSR network, a standardized case report form was used for data collection.",
+          "reasoning": "Standardized forms across all centers ensure consistency in measurement."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Partial",
+          "evidence_snippet": "Table 1 shows 'Unknown' categories for Education (9.2%), Occupation (3.6%), and Income (23.7%).",
+          "reasoning": "While education and occupation have high completion, nearly a quarter of the sample is missing income data."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "Yes",
+          "evidence_snippet": "missing values for education, occupational class and income level were imputed using multiple imputation techniques. We generated 5 imputed data sets",
+          "reasoning": "Multiple imputation is the gold standard for handling missing prognostic factor data."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The outcome (mRS) is a globally validated tool for stroke recovery. The assessment was conducted by a central team blinded to baseline SES data, which significantly reduces the risk of measurement bias.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "The mRS at 3 months after stroke was recorded to evaluate functional outcome, which is scaled to 6 points ranging from 0 (no symptoms) to 5 (severe disability).",
+          "reasoning": "The mRS and the 3-month timeframe are clearly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "A central follow-up team blinded to baseline information conducted telephone interview based on a standardized interview protocol.",
+          "reasoning": "Blinding of the outcome assessors to the prognostic factors (SES) is a key strength."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "A central follow-up team... conducted telephone interview based on a standardized interview protocol.",
+          "reasoning": "Centralized telephone follow-up ensures a uniform setting and method for all participants."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study performed extensive multivariable adjustment, including clinical severity (NIHSS), age, and acute care processes (stroke unit, medications). This addresses the most likely confounders that could explain the SES-outcome link.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Yes",
+          "evidence_snippet": "age, gender, hospital, risk factors, stroke subtype, NIHSS score on admission, stroke unit admission, swallow test, and medications.",
+          "reasoning": "The study accounts for demographics, disease severity, and in-hospital treatment factors."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "hypertension (history of hypertension or anti-hypertensive medication record), diabetes mellitus (history of diabetes mellitus or anti-diabetic medication record)...",
+          "reasoning": "Clinical confounders are defined by standard medical history or medication use."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Well-trained research coordinators at each hospital reviewed medical records daily",
+          "reasoning": "Medical record review by trained staff is generally reliable for clinical confounders."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "In the CNSR network, a standardized case report form was used for data collection.",
+          "reasoning": "Standardized forms ensure consistent measurement of confounders."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "Partial",
+          "evidence_snippet": "Missing values for other covariates were treated as a separate group in the models without imputation.",
+          "reasoning": "While SES factors were imputed, other covariates used the 'missing indicator' method, which is less robust than multiple imputation but common."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The study did not use matching or stratification in the design phase; it relied on statistical adjustment."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "The ORs were adjusted for potential confounding covariates, including age, gender, hospital, risk factors, stroke subtype, NIHSS score on admission...",
+          "reasoning": "The use of multinomial and ordinal logistic regression with comprehensive covariate sets is appropriate."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical approach is sophisticated, using both multinomial and ordinal regression to ensure the robustness of the findings. The reporting is transparent, including sensitivity analyses and subgroup results.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "we employed multinomial logistic regression models... we used ordinal logistic regression to estimate the association of SES indicators with functional outcome in a common OR.",
+          "reasoning": "The analytical plan is detailed and matches the study goals."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "The ORs were adjusted for potential confounding covariates... based on previous literature [8].",
+          "reasoning": "Variable selection was guided by existing literature and clinical relevance."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "ordinal logistic regression was used to estimate common OR which measured the likelihood for a shift in the direction of a poor outcome on the mRS.",
+          "reasoning": "Ordinal regression is the preferred method for analyzing the mRS to capture shifts across the entire scale."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Table 2, 3, 4, 5, and 6 provide various cuts of the data including combined effects and subgroup analyses.",
+          "reasoning": "The authors report both significant and non-significant findings (e.g., income) and provide extensive supplementary tables."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/12_Tao_2023/Song_2017.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T10:45:53.950926"
+  }
+}

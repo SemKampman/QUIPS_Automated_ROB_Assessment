@@ -1,0 +1,287 @@
+{
+  "paper_metadata": {
+    "title": "The Disability Rate of 5-Year Post-Stroke and Its Correlation Factors: A National Survey in China",
+    "first_author": "Yang Yang",
+    "year": "2016",
+    "analysis_timestamp": "2023-10-27 10:15:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study uses a large multicenter sample with clear inclusion criteria. However, the exclusion of patients unable to complete interviews at baseline and the significant differences between participants and non-participants (age and marital status) introduce a moderate risk of selection bias.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "At baseline, patients in 56 hospitals nationwide were consecutively recruited and enrolled if they were aged 18 years or older, had an acute stroke according to WHO criteria [11] confirmed by CT or MRI within 14 days",
+          "reasoning": "The source population is clearly defined as acute ischemic stroke patients across 56 hospitals in China."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "At baseline, patients in 56 hospitals nationwide were consecutively recruited",
+          "reasoning": "Consecutive recruitment across multiple sites helps limit selection bias."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The specific calendar dates for the baseline recruitment period are not explicitly stated in the text."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location) are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "56 hospitals nationwide [China]",
+          "reasoning": "The setting is clearly defined as a national hospital-based survey in China."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "enrolled if they were aged 18 years or older, had an acute stroke according to WHO criteria [11] confirmed by CT or MRI within 14 days... Patients with severe cognitive impairment and history of drug dependence were excluded.",
+          "reasoning": "Criteria are explicit, including the 'zero time' (within 14 days of stroke)."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "patients who could not complete a clinical interview were excluded at baseline, which could lead to potential selection bias.",
+          "reasoning": "The authors admit that excluding those unable to interview at baseline may bias the sample, and the initial participation rate of all eligible patients is not fully detailed."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1 shows the basic demographic and clinical characteristics of the whole sample",
+          "reasoning": "Comprehensive baseline data including age, sex, NIHSS, and comorbidities are provided."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "High",
+      "risk_reasoning": "There is a very high attrition rate (only 38.4% of the baseline sample was analyzed). Furthermore, there are significant differences between completers and non-completers (age), which the authors acknowledge likely leads to an underestimation of the disability rate.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "No",
+          "evidence_snippet": "Out of 2,324 ischemic stroke patients who fulfilled study entry criteria at baseline... Finally, data on 893 patients were included in the statistical analyses",
+          "reasoning": "A follow-up rate of 38.4% is well below the standard 80% threshold for low risk."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "Partial",
+          "evidence_snippet": "696 could not be located via the information recorded in medical records, and 474 refused or did not complete the telephone interview",
+          "reasoning": "The reasons for dropout are categorized, but specific 'attempts' to re-engage or find them are not detailed beyond the mention of telephone interviews."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Yes",
+          "evidence_snippet": "248 died, 696 could not be located... 474 refused or did not complete the telephone interview",
+          "reasoning": "Reasons are clearly quantified."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Compared to patients who completed the 5-year assessment, those who were excluded for any reasons were older and more likely to be single marital status (S1 Table).",
+          "reasoning": "The authors compared baseline characteristics of completers vs. non-completers."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "No",
+          "evidence_snippet": "those who were excluded for any reasons were older... the prevalence rate in our study could be an under-estimation.",
+          "reasoning": "Significant differences in age exist, which is a primary driver of the outcome (disability)."
+        }
+      ]
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "Prognostic factors were measured using validated, standardized scales (NIHSS, MMSE, DSM-IV) by qualified professionals, and the measurement methods were consistent across the cohort.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "Stroke severity was assessed at baseline by the National Institutes of Health Stroke Scale (NIHSS)... Cognition function was measured by the Mini Mental State Examination (MMSE)",
+          "reasoning": "All prognostic factors (NIHSS, MMSE, HRSD) are clearly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "supplemented by medical records review and a clinical interview by qualified neurologists... standardized instruments",
+          "reasoning": "Validated scales were used and administered by trained neurologists."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "Cognitive impairment was defined as the MMSE total score < 24 [17, 18].",
+          "reasoning": "The cut-point for MMSE is based on established literature, not data-driven."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Basic sociodemographic, clinical and neuro-imaging features at baseline were recorded using a standard form",
+          "reasoning": "Standardized forms and protocols were used across all 56 sites."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "missing data in several variables... percentages of less than 0.5%, except for hyperlipidemia (1.5%).",
+          "reasoning": "Missing data for the analyzed sample was very low."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "No",
+          "evidence_snippet": "due to significant missing data of medication used, this was not included for analyses.",
+          "reasoning": "The study excluded variables with high missingness rather than using imputation."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "While the mRS is a standard tool, it was assessed via telephone interview at 5 years, which relies on self-report or proxy-report and may be less accurate than in-person clinical assessment.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "Post-stroke functional status was assessed using the modified Ranking Score (mRS), with a score ≥ 2 as meeting the criteria for disability",
+          "reasoning": "The outcome and its threshold are clearly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Partial",
+          "evidence_snippet": "The 5-year assessments including stroke recurrence and physical disability were conducted via a telephone interview.",
+          "reasoning": "Telephone administration of mRS is common but carries a higher risk of misclassification than in-person assessment."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "The 5-year assessments... were conducted via a telephone interview.",
+          "reasoning": "All participants were assessed via the same telephone method."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study adjusted for many clinical and demographic factors. However, the authors acknowledge that key variables like rehabilitation therapy and infarct size were not included in the model due to unavailable data, which are significant potential confounders.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Partial",
+          "evidence_snippet": "several important variables, such as post-stroke rehabilitation therapy, treatment adherence and the size of infarcts... were not evaluated",
+          "reasoning": "Major confounders like rehabilitation and infarct size were missing."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "Current smoking was defined as at least 1 cigarette in the past month. Moderate/heavy drinking was defined as 2 standard drinks/day.",
+          "reasoning": "Confounders that were measured were well-defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "standardized instruments... medical records review",
+          "reasoning": "Measurements used standard clinical definitions and records."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "recorded using a standard form",
+          "reasoning": "Consistency was maintained across the study population."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No imputation was performed; missing data resulted in exclusion of variables."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The study was a prospective cohort without matching or stratification at design."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "Multiple logistic regression analysis used the \"enter\" method... adjusting for study site",
+          "reasoning": "Multivariable adjustment was performed for significant univariate factors and study site."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical methods are appropriate for the study design. The authors used multivariable logistic regression and reported both ORs and 95% CIs. They were transparent about the limitations and the high dropout rate.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Statistical analysis included chi-square tests, two independent samples t-tests, Mann-Whitney U test and multiple logistic regression analysis.",
+          "reasoning": "The analytical plan is clearly described."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "determine the independent relationships between disability at 5 years follow up and variables that significantly differed in the above univariate analysis.",
+          "reasoning": "A standard univariate-to-multivariate approach was used."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "Multiple logistic regression analysis used the \"enter\" method",
+          "reasoning": "Logistic regression is appropriate for the binary outcome (mRS <2 vs >=2)."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Table 2 shows the independent correlates of disability",
+          "reasoning": "All variables entered into the model are reported with their significance levels and effect sizes."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/11_Gallucci_2026/Yang_2016.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T10:32:01.887657"
+  }
+}

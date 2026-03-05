@@ -1,0 +1,287 @@
+{
+  "paper_metadata": {
+    "title": "Predictors of six-month inability to return to work in previously employed subjects after mild traumatic brain injury: A TRACK-TBI pilot study",
+    "first_author": "John K Yue",
+    "year": "2021",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study uses a prospective multicenter design with clear inclusion/exclusion criteria and well-described baseline characteristics. However, the use of convenience sampling and the lack of data on eligible non-participants (participation rate) introduces a moderate risk of selection bias.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Adult subjects from the prospective multicenter Transforming Research and Clinical Knowledge in Traumatic Brain Injury Pilot study with mTBI (Glasgow Coma Scale 13–15) who were employed at baseline",
+          "reasoning": "The target population (employed adults with mTBI) is clearly defined."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Partial",
+          "evidence_snippet": "Eligible subjects were enrolled by convenience sampling from years 2010–2012.",
+          "reasoning": "While the centers are described, convenience sampling is a non-probability method that can introduce bias compared to consecutive recruitment."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "enrolled by convenience sampling from years 2010–2012.",
+          "reasoning": "The years of recruitment are explicitly stated."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "conducted at three U.S. Level I trauma centers (University of California San Francisco (UCSF) - Zuckerberg San Francisco General Hospital (San Francisco, California), University of Pittsburgh Medical Center (Pittsburgh, Pennsylvania), University Medical Center Brackenridge (Austin, Texas))",
+          "reasoning": "Specific institutions and geographic locations are provided."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "Inclusion criteria for TRACK-TBI Pilot were acute external force trauma to the head and presentation to a participating center, and a clinically-indicated head computed tomography (CT) scan within 24 hours of injury. Exclusion criteria were pregnancy, ongoing life-threatening disease...",
+          "reasoning": "Detailed inclusion and exclusion criteria are listed, including the GCS range for mTBI."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not report the total number of eligible individuals or the participation rate, making it impossible to determine if the sample is representative of all eligible patients."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Mean age was 40.7 ± 15.0years, 73% were male, and 80.9% were Caucasian. Average years of education were 14.7 ± 2.6 and 72.4% were employed full-time at baseline.",
+          "reasoning": "Table 1 and the results section provide comprehensive baseline demographics and clinical characteristics."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study accounts for the flow of participants and performs a sensitivity analysis comparing included vs. excluded subjects, finding no significant differences in injury severity, which suggests attrition was not informative.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "For validity, we compared measures of injury severity in a separate analysis for adult mTBI patients in TRACK-TBI Pilot who were included vs. excluded from the current study, and there were no statistically significant differences",
+          "reasoning": "The authors verified that the analyzed sample did not differ significantly from the excluded sample in terms of injury severity."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text does not describe specific protocols used to re-engage or track participants who were lost to follow-up."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Partial",
+          "evidence_snippet": "The flowchart of included subjects is shown in Figure 1.",
+          "reasoning": "While Figure 1 (referenced) shows the flow, the specific qualitative reasons for dropout (e.g., moved, withdrew consent) are not detailed in the text."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "we compared measures of injury severity in a separate analysis for adult mTBI patients in TRACK-TBI Pilot who were included vs. excluded from the current study, and there were no statistically significant differences",
+          "reasoning": "The authors explicitly compared the characteristics of those included versus those excluded/lost."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Yes",
+          "evidence_snippet": "there were no statistically significant differences (data not shown).",
+          "reasoning": "The statistical comparison suggests that attrition was likely at random regarding the primary predictors."
+        }
+      ]
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The primary prognostic factors (ACE domains and 3-month RTW) are measured using validated, standardized tools (ACE and GOSE) applied consistently across the cohort.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "three-month PCS were evaluated using the Acute Concussion Evaluation (ACE)... contains 22 specific post-concussive symptoms classified into 4 domains: physical (10 symptoms), cognitive (4 symptoms), sleep (4 symptoms), and emotional (4 symptoms).",
+          "reasoning": "The prognostic factors are clearly defined by the ACE tool domains."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "It contains 22 specific post-concussive symptoms... demonstrates good item-total correlation... moderate to high internal consistency (Cronbach α = 0.82)",
+          "reasoning": "The authors provide psychometric evidence for the validity and reliability of the ACE tool."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "the corresponding domain was scored as positive/negative accordingly, where \"positive\" = \"symptom present\" and \"negative\" = \"symptom absent\".",
+          "reasoning": "The cut-points are based on the presence of symptoms within the validated tool, not derived post-hoc from the data distribution."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Subjects were assessed by in-person interview and medical record review... in accordance with the NINDS CDE version 1.",
+          "reasoning": "Standardized CDE protocols were used across all sites."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "subjects... who... completed the three-month Acute Concussion Evaluation (ACE), and had documented three- and six-month RTW status were included",
+          "reasoning": "The analysis was restricted to those with complete data for the primary PFs."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The study used a complete-case analysis approach rather than imputation for missing PF data."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The outcome (RTW) is measured using the GOSE, which is the gold standard in TBI research, and the specific question used (5A) is noted for its high reliability.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "Six-month RTW were assessed using question 5 A of the Glasgow Outcome Scale-Extended (GOSE), which assesses whether subjects were able to return to their baseline work capacity after TBI.",
+          "reasoning": "The outcome is clearly defined using a standardized instrument at a specific time point."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "The GOSE is considered the gold standard for TBI outcomes... reliably captures a wide-range of functional outcomes with good test-retest (kappa 0.92) and inter-rater reliability (kappa 0.84)",
+          "reasoning": "The authors justify the use of the GOSE and specifically question 5A based on established psychometric properties."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "In TRACK-TBI Pilot, three-month PCS were evaluated using the Acute Concussion Evaluation (ACE)... six-month RTW were assessed using question 5 A of the Glasgow Outcome Scale-Extended (GOSE)",
+          "reasoning": "Standardized tools were applied to all participants at the same follow-up intervals."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study identifies and adjusts for a comprehensive set of potential confounders (age, sex, education, psychiatric history, polytrauma) in multivariable models, which is appropriate for a prognostic study.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Yes",
+          "evidence_snippet": "controlling for known predictors from prior literature including age, sex, race, education, psychiatric history, and polytrauma",
+          "reasoning": "The study measures the most common confounders identified in TBI prognosis literature."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "polytrauma (defined as Abbreviated Injury Score (AIS) of ≥3 in any extracranial body system).",
+          "reasoning": "Definitions for complex confounders like polytrauma are explicitly provided."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "assessed by in-person interview and medical record review... in accordance with the NINDS CDE version 1.",
+          "reasoning": "Confounders were collected using standardized CDEs and medical record verification."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Subjects were assessed by in-person interview and medical record review... upon emergency department (ED) admission",
+          "reasoning": "Baseline confounders were collected uniformly at the time of enrollment."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No imputation was reported; the study appears to use complete-case analysis."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The study did not use matching or stratification in the design phase; it relied on statistical adjustment."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "Multivariable regressions were performed for sixmonth RTW, controlling for known predictors...",
+          "reasoning": "The use of multivariable logistic regression is the standard and appropriate method for adjusting for confounders in this study type."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical strategy is well-described, uses appropriate models (logistic regression), and reports both univariate and multivariable results with effect sizes (OR) and confidence intervals.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Univariate and multivariable analyses were performed for six-month RTW... Odds ratios (OR) and 95% confidence intervals [CI] were reported.",
+          "reasoning": "The analytical steps and reporting metrics are clearly outlined."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "controlling for known predictors from prior literature... Candidate predictors from univariate analyses with p < 0.10 were included in multivariable analyses.",
+          "reasoning": "The model building combined literature-based selection with a statistical screening step (p < 0.10)."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "Multivariable regressions were performed for sixmonth RTW",
+          "reasoning": "Logistic regression is appropriate for the dichotomous outcome of RTW (Yes/No)."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Univariate and multivariable odds ratios (OR) and associated 95% confidence intervals [95% CI] were reported for predictors.",
+          "reasoning": "The authors report results for all pre-specified domains and provide full tables for both univariate and multivariable models."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/10_Dery_2025/Yue_2021.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T10:29:22.848601"
+  }
+}

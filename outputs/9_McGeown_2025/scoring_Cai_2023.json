@@ -1,0 +1,296 @@
+{
+  "paper_metadata": {
+    "title": "Emotional Resilience Predicts Preserved White Matter Microstructure following Mild Traumatic Brain Injury",
+    "first_author": "Lanya T. Cai",
+    "year": "2024",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study uses a well-defined multicenter cohort (TRACK-TBI) with clear inclusion criteria. However, the specific analysis is restricted to a subset of patients who completed both 2-week and 6-month MRI scans (391 out of 1,132 eligible mTBI patients), which may introduce selection bias if those who returned for follow-up imaging differ from those who did not. Baseline characteristics show significant differences between ER and ND groups in sex and education, which are noted but not fully controlled for in the primary phenotype definition.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "The participants were enrolled between 2014 and 2018 at 11 academic Level 1 trauma centers across the United States within 24 hours of injury and were evaluated in the Emergency Department or hospital inpatient unit.",
+          "reasoning": "The study clearly defines the source population as mTBI patients presenting to Level 1 trauma centers."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "Of the 1,132 mTBI patients in the cohort, 391 from 17–60 years of age underwent MRI at both 2-week and 6-month time points.",
+          "reasoning": "The recruitment from the larger TRACK-TBI cohort is described, including the specific subset used for this analysis."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "The participants were enrolled between 2014 and 2018",
+          "reasoning": "The dates of enrollment are explicitly stated."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "at 11 academic Level 1 trauma centers across the United States",
+          "reasoning": "The setting and geographic scope are provided."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "mTBI defined as GCS score 13–15... Additional enrollment and inclusion criteria are reported in the supplements.",
+          "reasoning": "The paper specifies the GCS range and refers to supplemental materials for detailed criteria."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "Of the 1,132 mTBI patients in the cohort, 391 from 17–60 years of age underwent MRI at both 2-week and 6-month time points.",
+          "reasoning": "Only about 34% of the eligible mTBI cohort was included in the final analysis due to the requirement for two MRI scans. It is unclear if the participants differ systematically from the non-participants."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "The demographic, clinical, and CT results of the ER and ND patients are provided in Supplementary Table S1. There was no age difference... ND had twice as many women (43.6%) as ER (21.3%). ER had more years of education (14.9 ± 2.8) than ND (12.9 ± 2.1).",
+          "reasoning": "Key characteristics including age, sex, education, and injury severity markers are reported."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study requires participants to have completed both 2-week and 6-month MRIs. While the reasons for the initial drop from 1,132 to 391 are not fully detailed (likely due to the logistical demands of MRI), the study does not provide a detailed comparison of those lost to follow-up versus those who completed both scans, which is a risk for attrition bias.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Partial",
+          "evidence_snippet": "Of the 1,132 mTBI patients in the cohort, 391... underwent MRI at both 2-week and 6-month time points.",
+          "reasoning": "The retention for the specific imaging sub-study is relatively low compared to the total cohort, though typical for longitudinal MRI studies."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not describe specific efforts to retrieve data for those who missed the 6-month scan."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Specific reasons for attrition (e.g., withdrawal, contraindications, lost to contact) are not listed for the imaging subset."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is no table or text comparing the 391 included patients to the ~741 excluded patients from the original mTBI cohort."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Without a comparison of completers vs. non-completers, it is impossible to determine if attrition was informative."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Attrition Summary",
+        "prompt": "Loss to follow-up (from baseline sample to study population analyzed) is not associated with key characteristics (i.e., the study data adequately represent the sample) sufficient to limit potential bias to the observed relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The prognostic factor (ER vs ND phenotype) is defined using a sophisticated Latent Profile Analysis (LPA) based on a large battery of validated NIH Common Data Elements. The measurement is standardized and occurs at a consistent 'zero time' (2 weeks post-injury).",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "classified as ER and 78 were classified as ND based on the latent profile analysis of their responses to a comprehensive battery of neuropsychological assessments/inventories at two-weeks postinjury",
+          "reasoning": "The phenotypes are clearly defined based on a previously published and described LPA model."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "assessed using twelve different tests included in the NIH Common Data Elements",
+          "reasoning": "The use of NIH Common Data Elements ensures high validity and reliability of the underlying measurements."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "Using latent profile analysis, Brett et al. (2021) recently showed that 1,757 TBI participants... can be classified into clinically distinct phenotypes",
+          "reasoning": "The classification uses a mixture modeling approach (LPA) which is a statistically robust way to handle multiple variables rather than arbitrary cut-points."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Measures were standardized across sites by using a consistent acquisition protocol",
+          "reasoning": "The TRACK-TBI protocol enforces standardization across all 11 sites."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "94 were classified as ER and 78 were classified as ND",
+          "reasoning": "The analysis was restricted to those with complete phenotype and imaging data."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not explicitly mention imputation for the neuropsychological battery in this specific sub-study, though LPA generally handles missingness."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The outcome (DTI metrics) is measured using highly standardized protocols across multiple sites, including the use of a traveling phantom for calibration. The clinical outcomes (GOSE, RPQ) are also standard, validated TBI measures.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "DTI parameters (FA, MD, AD, and RD) were calculated... at 2 weeks and 6 months postinjury.",
+          "reasoning": "The imaging outcomes and time points are explicitly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "Measures were standardized across sites by using a consistent acquisition protocol and a calibration process with a traveling diffusion phantom and human volunteers",
+          "reasoning": "The use of a traveling phantom and standardized 3T protocols across sites demonstrates high reliability."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Whole-brain MRI with diffusion sequences were conducted using 3T MR scanners with phased-array head radiofrequency coils.",
+          "reasoning": "The technical parameters were consistent for all participants."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "While the study identifies significant differences in sex and education between the ER and ND groups, these were not used as covariates in the primary DTI analyses. The authors acknowledge this in the limitations, stating that sex differences cannot explain the longitudinal changes, but a formal multivariable adjustment for these confounders in the DTI models is not clearly presented.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Yes",
+          "evidence_snippet": "The demographic, clinical, and CT results of the ER and ND patients are provided in Supplementary Table S1.",
+          "reasoning": "Age, sex, education, and injury severity (GCS, CT findings) were measured."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "ER had more years of education (14.9 ± 2.8) than ND (12.9 ± 2.1).",
+          "reasoning": "Confounders like education and sex are standard and clearly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "enrolled... within 24 hours of injury and were evaluated in the Emergency Department",
+          "reasoning": "Clinical confounders were measured acutely by trained staff."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "standardized across sites",
+          "reasoning": "Data collection was uniform across the TRACK-TBI network."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not describe how missing confounder data was handled."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "Partial",
+          "evidence_snippet": "a demographically matched control group of 148 uninjured volunteers was enrolled",
+          "reasoning": "While controls were matched, the two mTBI phenotypes (ER vs ND) were not matched to each other and showed significant baseline differences."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "No",
+          "evidence_snippet": "sex differences cannot explain the different WM AD changes between ER and ND across the two timepoints.",
+          "reasoning": "The authors argue that sex/education don't explain the results, but they do not appear to have included them as covariates in the ANOVA or t-tests for DTI metrics."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical approach is rigorous, utilizing global, regional, and voxelwise analyses. They use appropriate corrections for multiple comparisons (FDR and TFCE). The results are presented transparently with effect sizes (Cohen's d).",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "For comparing global AD... (1) an unpaired t-test... (2) a paired t-test... (3) an unpaired t-test... regional DTI parameters... Cohen's d was computed",
+          "reasoning": "The analytical steps are clearly laid out for each level of spatial resolution."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "Axial diffusivity (AD) was selected as the primary DTI metric since it represents the component of WM microstructural integrity along the principal axonal fiber orientation.",
+          "reasoning": "The choice of AD is justified by biological and methodological rationale."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "repeated-measures ANOVA was performed with Time set as the within-subject factor, Phenotype set as the between-subject factor",
+          "reasoning": "Repeated-measures ANOVA is the standard and appropriate tool for longitudinal group comparisons."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1, 2, and 3 report... all major association, projection, and commissural tracts",
+          "reasoning": "The study reports on a comprehensive set of tracts and multiple DTI metrics (AD, FA, MD, RD), not just the significant ones."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/9_McGeown_2025/Cai_2023.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T11:37:26.307345"
+  }
+}

@@ -1,0 +1,332 @@
+{
+  "paper_metadata": {
+    "title": "Early Stage Longitudinal Subcortical Volumetric Changes following Mild Traumatic Brain Injury",
+    "first_author": "Jiachen Zhuo",
+    "year": "2021",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study clearly defines the source population (Shock Trauma Center), provides explicit inclusion/exclusion criteria (GCS 13-15, age, etc.), and describes baseline characteristics for both patients and controls. Recruitment was prospective, and the sample appears representative of the clinical mTBI population.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Patients presenting with mTBI were prospectively recruited form the R Adam Cowley Shock Trauma Center at the University of Maryland Medical Center.",
+          "reasoning": "The source is a specific, high-volume trauma center, and the population is defined by age and injury severity."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "Patients presenting with mTBI were prospectively recruited... Inclusion criteria for the mTBI group in this study included patients in the age range of 18–70, an admission Glasgow Coma Score (GCS) of 13–15",
+          "reasoning": "Prospective recruitment from a trauma center with clear GCS-based identification is a standard method to limit selection bias."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The specific calendar years or months of the recruitment period are not explicitly stated in the manuscript."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "R Adam Cowley Shock Trauma Center at the University of Maryland Medical Center.",
+          "reasoning": "The specific clinical setting and institution are clearly identified."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "Inclusion criteria... age range of 18–70, an admission Glasgow Coma Score (GCS) of 13–15, mechanism of injury consistent with trauma... Exclusion criteria included history of neurological and psychiatric illness, history of prior head injury",
+          "reasoning": "Detailed criteria are provided, including clinical scores and history-based exclusions."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "Fifty-six patients completed three visits",
+          "reasoning": "The text does not provide the total number of eligible patients screened versus those who consented, making it impossible to calculate the participation rate."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1. Participant demographic information and clinical indication for control and patients with mTBI at different visits (acute: < 10days, 1 month, 6 months).",
+          "reasoning": "Table 1 provides age, gender, education, GCS-related indicators, and imaging findings."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "There is a notable drop-off from the acute visit (N=53) to the 6-month visit (N=42), representing a 21% loss. While the reasons for loss are not detailed, the authors used linear mixed models to handle missing data, which partially mitigates bias, but the lack of comparison between completers and non-completers remains a concern.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Partial",
+          "evidence_snippet": "N=53 cases included in the acute visit, N = 51 cases included in the 1 month visit, and N = 42 cases in the 6 month visit.",
+          "reasoning": "79% of the initial sample reached the 6-month endpoint. This is borderline for 'adequate' in longitudinal neuroimaging."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The study does not describe efforts to follow up with those who missed visits."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text mentions exclusion due to motion artifacts but does not explain why 11 patients failed to return for the 6-month visit."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is no demographic or clinical comparison between those who completed the study and those lost to follow-up."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Without data on the dropouts, it is impossible to determine if attrition was informative (e.g., if more symptomatic patients dropped out)."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Attrition Summary",
+        "prompt": "Loss to follow-up (from baseline sample to study population analyzed) is not associated with key characteristics (i.e., the study data adequately represent the sample) sufficient to limit potential bias to the observed relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The prognostic factors (subcortical volumes) were measured using a standardized, automated, and validated pipeline (FreeSurfer). The use of a longitudinal pipeline to create an unbiased within-subject template significantly reduces measurement error.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "The regions examined in this analysis included thalamus, putamen, caudate, pallidum, amygdala, and hippocampus... converted the segmented sub-regions into volume measurements in mm3",
+          "reasoning": "The PFs are clearly defined as specific anatomical volumes measured in cubic millimeters."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "We used the FreeSurfer image analysis suite (version 5.3)... We used the Freesurfer longitudinal pipeline (28) to extract reliable volume estimates",
+          "reasoning": "FreeSurfer is a validated standard in the field, and the longitudinal pipeline is specifically designed to increase reliability."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "converted the segmented sub-regions into volume measurements in mm3",
+          "reasoning": "Volumes were treated as continuous variables."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Partial",
+          "evidence_snippet": "Due to an imaging protocol update in the middle of the study, the MPRAGE sequence had two variations",
+          "reasoning": "While the software was the same, the hardware/sequence change introduced potential variance, though the authors adjusted for 'sequence type' in their models."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "we excluded three patients due to motion artifacts in the 3D T1 images, resulting in N = 53 patients that were finally included",
+          "reasoning": "Only a small number of patients were excluded due to poor image quality."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "Yes",
+          "evidence_snippet": "Missing data were handled through listwise deletion followed by maximum likelihood estimation of model parameters.",
+          "reasoning": "Maximum likelihood estimation within linear mixed models is an appropriate statistical approach for missing longitudinal data."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "PF Measurement Summary",
+        "prompt": "PF is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "Outcomes were measured using well-established clinical scales (RPQ, GOSE, ANAM). The criteria for PCS were based on ICD-10, providing a standardized definition for the primary outcome.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "We grouped the patients to the PCS and No-PCS groups based on the International Classification of Disease tenth revision (ICD10) symptom criteria at their 6 month visit",
+          "reasoning": "The outcome (PCS) is clearly defined using international standards and a specific time point."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "Modified Rivermead Post-Concussion Symptoms Questionnaire (RPQ) (17)... Automated Neuropsychological Assessment Metrics (ANAM) battery",
+          "reasoning": "The study uses validated, standard neuropsychological and symptomatic assessments."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "All patients underwent neuropsychological and cognitive assessment at each time point",
+          "reasoning": "The assessment protocol was standardized across the patient cohort."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Outcome Measurement Summary",
+        "prompt": "Outcome of interest is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The authors adjusted for key confounders (age, sex, intracranial volume) and the technical confounder (MRI sequence). However, they acknowledge that other medical comorbidities (hypertension, diabetes) were not accounted for, and the impact of acute treatments was not analyzed.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Partial",
+          "evidence_snippet": "adjusting for age, sex, sequence type, and intracranial volume... medical comorbidities, such as hypertension, cardiovascular disease, or diabetes... was not obtained",
+          "reasoning": "Basic demographics and brain size were measured, but clinical comorbidities and specific treatments were not."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1. Participant demographic information",
+          "reasoning": "Age, sex, and education are standard and clearly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "extracted the total intracranial volume for each subject for volume normalization.",
+          "reasoning": "Intracranial volume (ICV) is a reliable anatomical confounder measured via the same FreeSurfer pipeline."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Control participants followed the same exclusion criteria as patients.",
+          "reasoning": "Confounders were collected consistently for patients and controls."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "Yes",
+          "evidence_snippet": "maximum likelihood estimation of model parameters.",
+          "reasoning": "The statistical model handles missingness in covariates appropriately."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "Yes",
+          "evidence_snippet": "recruited N = 34 neurologically intact healthy volunteers... Recruitment of control participants followed the same exclusion criteria",
+          "reasoning": "The use of a control group with similar exclusion criteria helps account for baseline population variance."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "We used ANCOVA for all group comparisons, adjusting for age, sex, sequence type, and intracranial volume.",
+          "reasoning": "The primary analysis used multivariable adjustment for the most critical confounders in neuroimaging."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Confounding Summary",
+        "prompt": "Important potential confounders are appropriately accounted for, limiting potential bias with respect to the relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical approach is robust, using linear mixed models for longitudinal data and FDR correction for multiple correlations. The results are presented transparently, including both significant and non-significant findings.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "For the longitudinal analysis... we used a linear mixed model with visit (acute, 1 month, 6 month) as the fixed effect, participant as the random effect, and age, sex and sequence type as covariates.",
+          "reasoning": "The analytical plan is described in detail, allowing for replication."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "We chose these regions because they have been previously implicated as vulnerable regions following TBI",
+          "reasoning": "Variable selection was based on prior literature and clinical relevance."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "linear mixed model... handles missing data through listwise deletion followed by maximum likelihood estimation",
+          "reasoning": "Linear mixed models are the gold standard for longitudinal datasets with missing observations."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "To correct for multiple comparisons, we pooled all p-values for correlations and used the False Discovery Rate (FDR) method.",
+          "reasoning": "The use of FDR correction and reporting of non-significant correlations (e.g., for caudate, pallidum) suggests transparent reporting."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Statistical Analysis and Presentation Summary",
+        "prompt": "The statistical analysis is appropriate for the design of the study, limiting potential for presentation of invalid or spurious results.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/9_McGeown_2025/Zhuo_2021.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T11:39:13.686057"
+  }
+}

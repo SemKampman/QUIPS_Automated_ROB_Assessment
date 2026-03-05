@@ -1,0 +1,332 @@
+{
+  "paper_metadata": {
+    "title": "Neurological complications during veno-venous extracorporeal membrane oxygenation: Does the configuration matter? A retrospective analysis of the ELSO database",
+    "first_author": "Roberto Lorusso",
+    "year": "2021",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study uses a massive, well-established international registry (ELSO) with clear inclusion/exclusion criteria. While it is a retrospective analysis of registry data, the sample size and description of the source population are robust.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "All adult patients included in the ELSO registry from 2011 to 2018 submitted to a single run of V-V ECMO were analyzed.",
+          "reasoning": "The authors clearly define the source as the ELSO registry, which covers approximately 800 centers globally."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "Data are collected using a standardized data collection form. Data user agreement between ELSO and member centers allows the use of deidentifed datasets for research",
+          "reasoning": "The use of a standardized registry with specific data user agreements ensures a systematic identification of the population."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "All adult patients included in the ELSO registry from 2011 to 2018",
+          "reasoning": "The timeframe is explicitly stated."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "The ELSO registry collects data on all ECMO cases from approximately 800 centers around the world",
+          "reasoning": "The setting is international and multi-center."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "Patients supported with V-A ECMO, those supported with VV-ECMO for cardiac indications, and those supported with multiple ECMO runs were excluded. Patients less than 18 years of age were also excluded.",
+          "reasoning": "Clear exclusion criteria are provided to isolate the population of interest (adult V-V ECMO for respiratory failure)."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Yes",
+          "evidence_snippet": "From a population of 6834 patients, the weighted propensity score matching included 6245 patients (i.e., 91% of the total cohort)",
+          "reasoning": "The study included 91% of the eligible registry population, which is well above the 80% threshold."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1 shows characteristics of the study population by cannulation type... age, gender, weight, cannulation type (SL vs. DL), total ECMO hours, pre-ECMO arrest, fraction of inspired oxygen (FiO2) before ECMO...",
+          "reasoning": "Extensive baseline characteristics are provided in Table 1."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study focuses on complications occurring during the ECMO run within a registry. Because the outcome is measured during the hospital stay, traditional 'loss to follow-up' is minimal, though the authors acknowledge potential under-reporting.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "the weighted propensity score matching included 6245 patients (i.e., 91% of the total cohort)",
+          "reasoning": "A very high percentage of the identified cohort was available for the final analysis."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "As a registry study, 'drop out' usually refers to missing data fields rather than physical loss to follow-up; the text does not explicitly describe attempts to recover missing registry data."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Partial",
+          "evidence_snippet": "neurologic events are likely to be under-reported in the ELSO database because neurologic events during ECMO are often unrecognized or not confirmed.",
+          "reasoning": "The authors discuss why data might be missing (under-reporting) but do not provide specific reasons for the 9% excluded during PS matching."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is no comparison provided between the 6,834 eligible patients and the 6,245 included in the final weighted analysis."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text does not provide data to confirm that the excluded 9% were similar to the included 91%."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Attrition Summary",
+        "prompt": "Loss to follow-up (from baseline sample to study population analyzed) is not associated with key characteristics (i.e., the study data adequately represent the sample) sufficient to limit potential bias to the observed relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The prognostic factor (cannula type) is a discrete, objective surgical variable (Single vs. Double Lumen) that is reliably recorded in the ELSO registry.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "cannulation type (SL vs. DL)",
+          "reasoning": "The factor is clearly defined as the configuration of the ECMO cannula."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Data are collected using a standardized data collection form.",
+          "reasoning": "Cannula type is an objective clinical fact recorded at the time of the procedure, minimizing recall bias."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "cannulation type (SL vs. DL)",
+          "reasoning": "The PF is categorical by nature."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "The ELSO registry collects data on all ECMO cases... using a standardized data collection form.",
+          "reasoning": "Standardized reporting across all centers ensures consistency."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "A total of 6,834 patients met the inclusion criteria; of those, 4367 (63.9%) had SL cannulation and 2467 (36.1%) had DL cannulation.",
+          "reasoning": "The PF was known for 100% of the included cohort."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "Yes",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Imputation was not required as the PF was a primary inclusion/grouping variable."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "PF Measurement Summary",
+        "prompt": "PF is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "While the definitions are standardized, the authors explicitly state that neurological events are likely under-reported due to the difficulty of performing imaging (CT/MRI) on ECMO patients, which could lead to measurement bias.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "ELSO registry categorizes \"neurologic injury\" as intracranial hemorrhage (ICH), acute ischemic stroke (AIS), seizures... and brain death (BD) that occur during the ECMO run.",
+          "reasoning": "The outcomes are clearly defined and categorized."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Partial",
+          "evidence_snippet": "All the cases are also confrmed, at least for ICH and AIS, by a neurologist and serial CT scans... neurologic events are likely to be under-reported",
+          "reasoning": "While confirmation methods are described, the authors admit that technical difficulties in imaging ECMO patients lead to potential under-recognition."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Data are collected using a standardized data collection form.",
+          "reasoning": "The registry format enforces a uniform reporting structure for outcomes across centers."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Outcome Measurement Summary",
+        "prompt": "Outcome of interest is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The authors used Propensity Score weighting to account for many baseline confounders. However, they explicitly list several critical unmeasured confounders (cannula size, anticoagulation levels, PaCO2 changes) that could significantly bias the results.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Partial",
+          "evidence_snippet": "ELSO database does not contain data on cannula size for all patients... some other factors, including changes in PaCO2 after ECMO implementation... were not available",
+          "reasoning": "While many clinical variables were measured, key factors like cannula size and anticoagulation were missing."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "age, gender, weight... total ECMO hours, pre-ECMO arrest, FiO2... peak inspiratory pressure... pH... PaCO2... PaO2... serum bicarbonate... intubation hours",
+          "reasoning": "The confounders that were available are well-defined clinical parameters."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Data are collected using a standardized data collection form.",
+          "reasoning": "Registry data for physiological parameters (pH, PaCO2) are generally reliable."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "The ELSO registry collects data on all ECMO cases... using a standardized data collection form.",
+          "reasoning": "Standardized registry protocols ensure consistent measurement settings."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text does not specify how missing values for individual confounders were handled prior to PS weighting."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "Yes",
+          "evidence_snippet": "Propensity score (PS) inverse probability of treatment weighting estimation for multiple treatments was used.",
+          "reasoning": "The use of IPTW is a robust method for addressing observed confounding in retrospective studies."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "The average treatment effect (ATE) was chosen as the causal effect estimate of outcome.",
+          "reasoning": "The statistical analysis specifically targeted the causal effect after adjusting for the propensity score."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Confounding Summary",
+        "prompt": "Important potential confounders are appropriately accounted for, limiting potential bias with respect to the relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical approach is sophisticated, using machine learning (GBM) for propensity scores and clearly reporting ATE. The results are presented transparently for both primary and secondary outcomes.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "A machine learning technique, generalized boosted model (GBM), was used to estimate the PS weights.",
+          "reasoning": "The analytical strategy is described in significant detail, including the specific R packages used."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "GBM estimation captures complex relationships between treatment assignment and pre-treatment variables without over-fitting data",
+          "reasoning": "The use of GBM for PS estimation is a validated approach to handle complex covariate relationships."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "The casual effect was estimated by ATE which takes into account summary statistics of the effects across populations of interest.",
+          "reasoning": "ATE via IPTW is appropriate for estimating population-level effects in registry data."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Table 2... Table 3... Fig 1.",
+          "reasoning": "The authors report on all components of the composite neurological outcome (ICH, AIS, Seizures, BD) as well as mortality."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Statistical Analysis and Presentation Summary",
+        "prompt": "The statistical analysis is appropriate for the design of the study, limiting potential for presentation of invalid or spurious results.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/14_Thiara_2024/Lorusso_2021.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T10:57:06.041181"
+  }
+}

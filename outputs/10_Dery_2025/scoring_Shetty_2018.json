@@ -1,0 +1,287 @@
+{
+  "paper_metadata": {
+    "title": "Clinical Findings in a Multicenter MRI Study of Mild TBI",
+    "first_author": "Teena Shetty",
+    "year": "2018",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study provides a clear description of the target population, inclusion/exclusion criteria, and baseline characteristics. However, it uses a convenience sample from three specific medical centers rather than a random or consecutive recruitment strategy, and the participation rate of eligible individuals who declined is not reported, introducing potential selection bias.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "One hundred and eleven patients (15–50 years old) were enrolled acutely after mTBI and followed with up to four standardized serial assessments over 3 months.",
+          "reasoning": "The age range and clinical condition (mTBI) are clearly defined as the population of interest."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Partial",
+          "evidence_snippet": "This study was conducted at three sites: Hospital for Special Surgery (HSS), University of California San Francisco (UCSF), and Houston Methodist Hospital (HM).",
+          "reasoning": "While the sites are listed, the specific recruitment method (e.g., consecutive ER visits vs. referrals) is not explicitly detailed to ensure a representative sample."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "111 mTBI patients were enrolled... between February 2014 and June 2015",
+          "reasoning": "The specific dates for the recruitment window are provided."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "Hospital for Special Surgery (HSS), University of California San Francisco (UCSF), and Houston Methodist Hospital (HM).",
+          "reasoning": "The three clinical sites and their locations are clearly identified."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "Inclusion criteria were age between 15 and 50 years and a clinical diagnosis of mTBI with Glasgow Coma Scale (GCS) ≥ 13... Patients were excluded for prior moderate or severe brain trauma, mTBI within the year, neurological or neuropsychological abnormalities",
+          "reasoning": "The study provides specific clinical (GCS), age, and history-based criteria for participation."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not report the number of eligible patients who were approached but declined to participate, making it impossible to calculate a participation rate."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1 | Subject and control demographics.",
+          "reasoning": "Table 1 provides a comprehensive breakdown of age, sex, education, ethnicity, race, smoking status, and injury history."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "High",
+      "risk_reasoning": "There is significant attrition over the four encounters (from 111 at baseline to 59 at the final encounter). The authors explicitly state that 'attrition limited longitudinal data analysis' and do not provide a detailed comparison of the characteristics of those lost to follow-up versus those who completed the study, raising a high risk of attrition bias.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "No",
+          "evidence_snippet": "The number of observations included in encounters 1 through 4 were 48, 99, 83, and 59, respectively.",
+          "reasoning": "Only 53% (59/111) of the baseline sample provided data at the final 3-month encounter, which is below the generally accepted 80% threshold."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The study does not describe any protocols or attempts to re-engage or collect data from participants who missed encounters."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text acknowledges attrition as a limitation but does not list the specific reasons (e.g., recovery, worsening symptoms, logistical issues) for dropout."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is no table or description comparing the baseline characteristics of dropouts versus completers."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Because the characteristics of dropouts are not reported, it is impossible to determine if the attrition was 'informative' or biased the results."
+        }
+      ]
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The prognostic factors (age, sex, psychiatric history) are objective and clearly defined. The measurement of these factors at baseline was standardized across sites.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "At enrollment, medical and family history were collected, including psychiatric disease, learning disability, previous mTBIs not within the last year, and migraines",
+          "reasoning": "The prognostic factors (demographics and history) are standard clinical variables."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Principal investigators assessed migraine by physician diagnosis.",
+          "reasoning": "The use of physician diagnosis and standardized intake forms supports reliability."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "In regard to age, the study population was analyzed in two groups: those aged ≥25 and those <25 years. This dichotomization was chosen based on the age when most brain structures typically reach developmental maturity",
+          "reasoning": "The age cut-point was based on biological rationale (brain maturity) rather than being post-hoc or data-driven."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "A uniform protocol was followed at each respective site to ensure standardization of data.",
+          "reasoning": "The study utilized a multicenter standardized protocol for all participants."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1 | Subject and control demographics.",
+          "reasoning": "Baseline data for prognostic factors appears complete for the enrolled sample (N=111)."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text does not mention missing baseline PF data or the need for imputation for these specific variables."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "Outcomes were measured using standardized, validated tools (SCAT2, BESS, MRI) and interpreted by experts (board-certified neuroradiologists) who were likely blinded to the clinical symptom scores during imaging reads.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "The total symptom severity score (SSS) captured ranges from 0 to 132... The CGSA also includes tests of specific cognitive domains... immediate memory (5-Word Recall), concentration (Digits Backward), and balance (modified BESS)",
+          "reasoning": "The primary outcomes (SSS and neuropsychological scores) are clearly defined with specific scales."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "Expert board certified neuroradiologists (AJT, PM) performed the safety reads and interpreted the structural imaging.",
+          "reasoning": "The use of validated tools (SCAT2/BESS) and expert interpretation of MRI data supports validity."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "The MR data was standardized by use of a uniform protocol, scanner manufacturer and model, radiofrequency (RF) coil, and sequences as well as centralized processing.",
+          "reasoning": "Strict standardization of imaging and clinical assessments was maintained across the three sites."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study accounts for several key confounders (age, sex, psychiatric history) in its multivariable models. However, it does not explicitly account for 'treatment' or 'rehabilitation' received during the 3-month follow-up, which could significantly confound the recovery (outcome) results.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Partial",
+          "evidence_snippet": "Demographic factors commonly explored include sex, age, previous concussions, learning disability, psychiatric history, and migraine/headache history",
+          "reasoning": "While history and demographics were measured, treatments/interventions during the recovery period were not listed as measured variables."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "Principal investigators assessed migraine by physician diagnosis... psychiatric disease, learning disability, previous mTBIs not within the last year",
+          "reasoning": "The confounders used in the analysis are clearly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "At enrollment, medical and family history were collected",
+          "reasoning": "Standardized medical history intake is generally considered reliable for these variables."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "A uniform protocol was followed at each respective site to ensure standardization of data.",
+          "reasoning": "Standardization was applied to all baseline measurements."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not discuss missing data for confounding variables."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "Yes",
+          "evidence_snippet": "Control subjects... were matched based on age, education level, sex, and handedness.",
+          "reasoning": "The study used matching for the control group to account for baseline differences."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "Evaluations of all outcomes were performed using generalized linear models... the model controlled for the missing data at each time point.",
+          "reasoning": "The use of linear mixed models and generalized linear models allowed for adjustment of age and sex."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The statistical methods (Linear Mixed Models) are appropriate for longitudinal data and handle missing observations well. However, the study is described as 'hypothesis generating' and 'pilot,' and the high attrition rate may lead to spurious results in the later time points (E4).",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Chi-square and linear mixed models were used to assess changes over time... Parameter estimates were reported using maximum likelihood estimates",
+          "reasoning": "The analytical approach is well-described and appropriate for the study design."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "This dichotomization was chosen based on the age when most brain structures typically reach developmental maturity",
+          "reasoning": "Variable selection (like age groups) was based on biological rationale."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "The modeling technique also allowed for all observations from all responders at each time point to be analyzed using maximum likelihood estimations (MLE).",
+          "reasoning": "Linear mixed models are the gold standard for longitudinal studies with missing data points."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Partial",
+          "evidence_snippet": "Our data was meant to be hypothesis generating by reporting observations, limiting statistical power analyses.",
+          "reasoning": "While results are reported for the main PFs, the 'hypothesis generating' nature and lack of a pre-registered protocol suggest a risk of selective reporting of significant findings."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/10_Dery_2025/Shetty_2018.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T10:27:42.436614"
+  }
+}

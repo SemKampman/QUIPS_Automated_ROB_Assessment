@@ -1,0 +1,287 @@
+{
+  "paper_metadata": {
+    "title": "Disruptions in Resting State Functional Connectivity and Cerebral Blood Flow in Mild Traumatic Brain Injury Patients",
+    "first_author": "Chandler Sours",
+    "year": "2015",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study provides a clear description of the recruitment source (Shock Trauma Center) and inclusion criteria (GCS 13-15). However, the final sample of 28 patients was derived from a 'larger imaging protocol' without a flow diagram or clear reporting of the total number of eligible patients screened, making the participation rate and potential selection bias difficult to fully ascertain.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "MTBI patients were prospectively recruited between March 2010 and May 2012 from the R Adam Cowley Shock Trauma Center at the University of Maryland Medical Center",
+          "reasoning": "The source (a specific trauma center) and the recruitment period are clearly defined."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Partial",
+          "evidence_snippet": "Patients were screened and excluded for history of neurological and psychiatric illness, history of stroke, history of brain tumors or seizures, and contraindications to MR.",
+          "reasoning": "While screening criteria are listed, the total number of patients screened versus those enrolled is not provided, which is necessary to assess recruitment bias."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "MTBI patients were prospectively recruited between March 2010 and May 2012",
+          "reasoning": "The dates are explicitly stated."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "R Adam Cowley Shock Trauma Center at the University of Maryland Medical Center",
+          "reasoning": "The specific clinical setting and institution are provided."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "Only those patients with an admission Glasgow Coma Score (GCS) of 13–15, mechanism of injury consistent with trauma, and either (1) a positive head CT or (2) altered mental status and/or loss of consciousness (LOC) were included",
+          "reasoning": "The study uses standard clinical definitions for mTBI and specifies exclusion criteria regarding prior neurological history."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not report the number of eligible patients who declined to participate, so the participation rate cannot be calculated."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Individual patient clinical characteristics, mechanisms of injury, and CT and MRI interpretation by board certified trauma radiologist (K.S.) are shown in S1 Table.",
+          "reasoning": "Demographics (age, sex, education) and clinical markers (GCS, CT/MRI findings) are well-documented."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study only includes patients who completed all three time points, which is a form of 'completer analysis' that may introduce bias if those who dropped out had different prognostic trajectories. While reasons for data exclusion (motion artifacts) are given, the initial number of patients who started the study but did not reach the 6-month mark is not explicitly detailed.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Partial",
+          "evidence_snippet": "For the analysis presented in this manuscript, only participants who completed longitudinal resting state fMRI across the three time points of interest were included resulting in a final patient population of 28 mTBI patients",
+          "reasoning": "The study uses a subset of a larger protocol. It is unclear how many patients were lost between the acute and chronic stages."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is no mention of follow-up attempts for those who did not complete the three visits."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Partial",
+          "evidence_snippet": "due to motion artifacts (translation greater than 3mm or rotation greater than 3 degrees), resting state data from 1 patient at the acute stage was excluded",
+          "reasoning": "Reasons for excluding specific data points are given, but reasons for total study dropout are not."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No data is provided comparing completers to non-completers."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Without data on dropouts, this comparison cannot be made."
+        }
+      ]
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The prognostic factors (rs-FC and CBF) are measured using standardized, objective neuroimaging protocols. The use of an independent control group for ROI selection helps mitigate data-dependent bias.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "Rs-FC and cerebral blood flow (CBF) within the nodes of the Default Mode Network (DMN) and Task Positive Network (TPN) were assessed",
+          "reasoning": "The prognostic factors are clearly defined as specific neuroimaging metrics."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "All imaging was performed on a Siemens Tim-Trio 3T MRI scanner using a 12 channel receive only head coil.",
+          "reasoning": "Standardized 3T MRI protocols and established toolboxes (SPM8, CONN) were used."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "ROIs were created using a 10mm sphere centered at the peak voxel... based the voxel wise group connectivity maps of the of an independent control group",
+          "reasoning": "The study avoids data-dredging by using independent coordinates for ROI definition."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "All imaging was performed on a Siemens Tim-Trio 3T MRI scanner",
+          "reasoning": "The protocol was identical for patients and controls."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "28 mTBI patients... completed longitudinal resting state fMRI across the three time points",
+          "reasoning": "The final analyzed sample had complete data for the primary imaging PFs."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The study excluded cases with missing or poor-quality data rather than using imputation."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The primary outcome (PCS) was defined using the RPQ and ICD-10 criteria, which are standard in the field. While self-reported, these are the clinical gold standards for this condition.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "Based on the International Classification of Disease tenth revision (ICD10) symptom criteria for PCS we defined PCS as reporting 3 or more of the following symptoms lasting for greater than three months",
+          "reasoning": "The outcome is explicitly defined using ICD-10 criteria and a specific questionnaire (RPQ)."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "Modified Rivermead Post-Concussion Symptoms Questionnaire (RPQ)",
+          "reasoning": "The RPQ is a validated and reliable tool for assessing post-concussive symptoms."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Patients underwent neuropsychological assessment at all three visits.",
+          "reasoning": "The assessment protocol was standardized across the patient cohort."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study matched controls for age and education and used age as a covariate in ANCOVA. However, the exploratory PCS analysis revealed a significant age difference between the PCS and No-PCS groups (p=0.03), which the authors acknowledge as a potential confounder that could influence CBF results.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Partial",
+          "evidence_snippet": "Twenty-eight neurologically intact participants... that were age and education matched served as the control population.",
+          "reasoning": "Age and education were measured, but other factors like litigation status or pre-injury psychiatric health were not explicitly controlled."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1. Participant Demographics.",
+          "reasoning": "Age and education are clearly defined and reported."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1. Participant Demographics.",
+          "reasoning": "Demographic data collection is standard and reliable."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Implicitly, demographic intake was identical for all participants."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No imputation was used."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "Yes",
+          "evidence_snippet": "Twenty-eight neurologically intact participants... that were age and education matched",
+          "reasoning": "Matching was used for the primary group comparison."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Partial",
+          "evidence_snippet": "tested using analysis of covariance (ANCOVAs) considering age as a covariate",
+          "reasoning": "Age was adjusted for, but the significant age difference in the PCS subgroup analysis remains a concern for that specific finding."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The statistical methods are generally sound, but the study reports uncorrected p-values for several comparisons and performs multiple exploratory analyses on a small sample (n=12 for PCS group), which increases the risk of spurious findings.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "The CONN-fMRI Functional Connectivity toolbox v13.h... was used to process the resting state data",
+          "reasoning": "The software and specific statistical tests (ANCOVA, t-tests) are well-described."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "investigated in an mTBI population in the context of the DMN Interference Hypothesis.",
+          "reasoning": "The analysis is grounded in a clear neurobiological hypothesis."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "Longitudinal changes... were determined using repeated measures analysis of covariance",
+          "reasoning": "Repeated measures ANCOVA is appropriate for the longitudinal design."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Partial",
+          "evidence_snippet": "Results shown are uncorrected for multiple comparisons.",
+          "reasoning": "While results are reported, the lack of correction for multiple comparisons in the ROI and CBF analyses suggests a risk of reporting 'p-hacked' or spurious associations."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/9_McGeown_2025/Sours_2015b.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T11:34:46.657322"
+  }
+}

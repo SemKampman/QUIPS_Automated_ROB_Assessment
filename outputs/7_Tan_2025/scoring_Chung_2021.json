@@ -1,0 +1,332 @@
+{
+  "paper_metadata": {
+    "title": "Postconcussion Symptoms After an Uncomplicated Mild Traumatic Brain Injury in Older Adults: Frequency, Risk Factors, and Impact on Quality of Life",
+    "first_author": "Jia-Wei Chung",
+    "year": "2022",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study uses convenience sampling from a single medical center, which limits generalizability. While inclusion/exclusion criteria are clear, the lack of information on the total number of eligible non-participants makes it impossible to determine the participation rate or potential selection bias.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Participants who met the following criteria were included in our study: (1) 65 years and older, (2) confirmed diagnosis of a TBI with an initial Glasgow Coma Scale (GCS) score of 13 to 15...",
+          "reasoning": "The target population (older adults with mTBI) is clearly defined by age and clinical severity markers."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Partial",
+          "evidence_snippet": "convenience sampling was applied to include participants in the emergency department and neurosurgical clinics of a medical center in northern Taiwan",
+          "reasoning": "The setting is described, but convenience sampling is inherently prone to bias, and the flow of patients from identification to enrollment is not detailed."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "between November 2019 and October 2020.",
+          "reasoning": "The specific dates for recruitment are provided."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "emergency department and neurosurgical clinics of a medical center in northern Taiwan",
+          "reasoning": "The clinical setting and geographic region are specified."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "Participants were excluded if they or their family had reported more than 1 TBI prior to the study or if they sustained a second head injury during the study period. Participants diagnosed as having dementia, cognitive impairment, or psychiatric disorders before their head injury... were also excluded.",
+          "reasoning": "Detailed clinical and demographic inclusion/exclusion criteria are provided, including 'zero time' (head injury event)."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not report the number of eligible patients who declined to participate, so the participation rate cannot be calculated."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1 summarizes the demographics and disease characteristics of the study participants. Participants had an average age of 76 years, and the major cause of head injuries was falling (80.2%).",
+          "reasoning": "Table 1 provides a comprehensive breakdown of age, sex, education, GCS, LOC, and comorbidities."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study maintained a very high follow-up rate (97%), which is well above the 80% threshold. The reasons for the few dropouts were provided and do not suggest informative censoring that would bias the prognostic relationship.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "Overall, 101 participants with mTBI were included in the current study. A total of 3 participants withdrew from the study in the sixth month.",
+          "reasoning": "98/101 (97%) completion rate is excellent for a 6-month longitudinal study."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The study does not describe attempts to retrieve data from the 3 dropouts, though it mentions using LOCF for missing data."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Yes",
+          "evidence_snippet": "The primary reasons for withdrawal were sustaining another head injury and lack of time for participation.",
+          "reasoning": "Specific reasons for the 3 withdrawals are clearly stated."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is no specific comparison of the baseline characteristics of the 3 dropouts versus the 98 completers."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "With only 3 dropouts, statistical comparison is difficult, and the authors do not explicitly state if these individuals differed from the rest of the cohort."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Attrition Summary",
+        "prompt": "Loss to follow-up (from baseline sample to study population analyzed) is not associated with key characteristics (i.e., the study data adequately represent the sample) sufficient to limit potential bias to the observed relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The primary prognostic factor (mCCI) and other covariates were measured using validated, standardized instruments. The methods were consistent across the cohort.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "Comorbidities were assessed using the modified Charlson Comorbidity Index (mCCI). The mCCI is a method of predicting mortality by classifying comorbidities.",
+          "reasoning": "The mCCI is a well-defined, standard prognostic tool in geriatric research."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "The mCCI is a method of predicting mortality by classifying comorbidities... The overall score was calculated by summing the individual's scores.",
+          "reasoning": "The study uses a validated index (mCCI) and cites its validity (Reference 15)."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "mCCI, mean (SD) 4.66 (2.01)",
+          "reasoning": "The mCCI is treated as a continuous variable in the GEE model, avoiding arbitrary cut-points."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "An information sheet was used to collect demographic and disease data... Comorbidities were assessed using the modified Charlson Comorbidity Index (mCCI).",
+          "reasoning": "The protocol implies a standardized data collection sheet for all participants at enrollment."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1 summarizes the demographics and disease characteristics of the study participants. (N=101)",
+          "reasoning": "Baseline PF data appears complete for the entire enrolled cohort."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "Partial",
+          "evidence_snippet": "Missing data were replaced using the last observations carried forward method.",
+          "reasoning": "LOCF was used for longitudinal data, but it is not explicitly stated if this was applied to baseline PF data (which is usually not missing in such designs)."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "PF Measurement Summary",
+        "prompt": "PF is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "Outcomes (PCS and QoL) were measured using internationally recognized, validated scales (RPQ and QOLIBRI). The timing of assessments was standardized.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "The measurement tools were the Rivermead Post-Concussion Symptoms Questionnaire and the Quality of Life after Traumatic Brain Injury. Measurements were performed on the seventh day, at the first month, and at the sixth month",
+          "reasoning": "Both outcomes and the follow-up schedule are explicitly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "The QOLIBRI was translated into the Chinese version in 2014, and has acceptable reliability and validity.",
+          "reasoning": "The authors use validated versions of the RPQ and QOLIBRI, citing specific validation studies."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Measurements were performed on the seventh day, at the first month, and at the sixth month after the head injury.",
+          "reasoning": "The protocol indicates a uniform assessment schedule for all participants."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Outcome Measurement Summary",
+        "prompt": "Outcome of interest is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "While the study adjusted for several key confounders (age, sex, LOC, medication) using GEE, the authors admit that pre-injury psychological status and litigation—known major confounders in PCS research—were not measured or included in the model.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Partial",
+          "evidence_snippet": "because several potential covariates (eg, preinjury psychological issues) and exact medication dosages were not investigated in the current study",
+          "reasoning": "The study measures age, sex, education, and LOC, but misses critical psychological and legal confounders."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "including age, gender, and initial GCS score... education level, time since head injury, loss of consciousness, comorbidities, medication history",
+          "reasoning": "The confounders that were included are well-defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "An information sheet was used to collect demographic and disease data",
+          "reasoning": "Standard clinical data collection was used for the included confounders."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "The method and setting of measurement of PF is the same for all study participants.",
+          "reasoning": "Baseline data collection was uniform."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "Unsure",
+          "evidence_snippet": "Missing data were replaced using the last observations carried forward method.",
+          "reasoning": "It is unclear if LOCF was applied to confounders or only to the longitudinal outcome variables."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "No",
+          "evidence_snippet": "In this prospective study, convenience sampling was applied",
+          "reasoning": "The study design did not use matching or stratification to control for confounding."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "We used a generalized estimating equation (GEE) to examine the risk factors of PCSs and the effects of PCSs on QoL after adjustment for potential confounders over time.",
+          "reasoning": "Multivariable adjustment was performed for the confounders that were measured."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Confounding Summary",
+        "prompt": "Important potential confounders are appropriately accounted for, limiting potential bias with respect to the relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The use of GEE is appropriate for longitudinal data with repeated measures. The results are reported transparently, including effect sizes (OR/B) and confidence intervals.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "A generalized estimating equation model was used for data analyses... The value of the quasi-likelihood under the independence model criterion (QIC) was used to select the best working correlation structure.",
+          "reasoning": "The statistical approach is well-described and appropriate for the data structure."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "after adjustment for potential confounders over time.",
+          "reasoning": "The model includes standard clinical predictors of PCS."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "GEE to examine the risk factors of PCSs and the effects of PCSs on QoL",
+          "reasoning": "GEE is the gold standard for analyzing correlated longitudinal data."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Overall, 32.7%, 4%, and 15.8% of the sample reported PCS after 7 days, 1 month, and 6 months... PCSs were an independent predictor of changes in postinjury quality of life (P < .001).",
+          "reasoning": "The authors report on all primary aims (frequency, risk factors, and QoL impact) with corresponding data."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Statistical Analysis and Presentation Summary",
+        "prompt": "The statistical analysis is appropriate for the design of the study, limiting potential for presentation of invalid or spurious results.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/7_Tan_2025/Chung_2021.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T11:17:01.825917"
+  }
+}

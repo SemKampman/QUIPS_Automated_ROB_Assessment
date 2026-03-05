@@ -1,0 +1,287 @@
+{
+  "paper_metadata": {
+    "title": "Development of a Prediction Model for Post-Concussive Symptoms following Mild Traumatic Brain Injury: A TRACK-TBI Pilot Study",
+    "first_author": "Maryse C. Cnossen",
+    "year": "2017",
+    "analysis_timestamp": "2023-10-27 10:00:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study uses a multi-center prospective design with clear inclusion/exclusion criteria. However, the use of 'convenience sampling' at Level I trauma centers may introduce selection bias, as it may not capture the full spectrum of mTBI patients seen in non-trauma settings.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "adult patients (age ≥16 years) presenting to one of the participating Level I trauma centers suffering external force trauma to the head with sufficient indications to triage to clinically indicated head computed tomography (CT) scan within 24 h of injury.",
+          "reasoning": "The target population is clearly defined by age, injury mechanism, and clinical triage requirements."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Partial",
+          "evidence_snippet": "Eligible subjects were enrolled upon presentation to the ED through convenience sampling at all three sites",
+          "reasoning": "While the sites are identified, 'convenience sampling' is a non-probability method that can introduce bias compared to consecutive recruitment."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "between April 2010 and June 2012.",
+          "reasoning": "The specific dates for recruitment are provided."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "three Level I trauma centers in the U.S.: San Francisco General Hospital (SFGH), University of Pittsburgh Medical Center (UPMC), and University Medical Center Brackenridge in Austin, Texas",
+          "reasoning": "The specific hospitals and their geographic locations are listed."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "Inclusion criteria for the TRACK-TBI Pilot study were adult patients (age ≥16 years)... Exclusion criteria were pregnancy, comorbid life-threatening disease, incarceration, serious psychiatric and neurologic disorders...",
+          "reasoning": "Both inclusion and exclusion criteria are explicitly detailed."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not provide the total number of eligible patients who were approached but declined to participate (participation rate)."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1. Baseline Characteristics of 277 Subjects Included in the Study... Age, Gender, Education, Pre-injury disorders, Prior TBI, Mechanism, BAL, GCS, CT, PTA, LOC, AIS.",
+          "reasoning": "Table 1 provides a comprehensive breakdown of baseline demographics and clinical variables."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "High",
+      "risk_reasoning": "There is a high rate of loss to follow-up (42%). While the authors compared baseline characteristics and found few differences, their own sensitivity analysis showed that if those lost to follow-up had unfavorable outcomes, the predictor estimates changed significantly, suggesting potential attrition bias.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "No",
+          "evidence_snippet": "277 subjects (58%) completed 6-month RPQ assessment and were included in the current analysis",
+          "reasoning": "A 42% loss to follow-up is generally considered high in prognosis studies, exceeding the common 20% threshold for low risk."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not describe specific protocols used to minimize or track reasons for dropout."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Specific reasons for the 199 missing participants are not detailed."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1... Subjects lost to follow-up (n = 199)... Included subjects had more years of education (median, 14) than those lost to follow-up (median, 13; p < 0.01).",
+          "reasoning": "The authors provide a comparison table of baseline characteristics for those lost to follow-up."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Partial",
+          "evidence_snippet": "Included subjects had more years of education... No other statistically significant differences existed",
+          "reasoning": "A significant difference in education was found, and the impact of missing outcome data remains a concern despite similar baseline profiles."
+        }
+      ]
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "Prognostic factors were based on NINDS Common Data Elements and collected via medical records and patient interviews at the time of injury, minimizing recall bias for the acute clinical variables.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "The following were chosen as candidate predictors: age, gender, years of education, pre-injury seizures... BAL >80 mg/dL... GCS score, CT abnormalities... PTA... LOC... prior TBI",
+          "reasoning": "All candidate predictors are explicitly listed and defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Information on candidate predictors was gathered through abstraction of medical records and from patient interviews during the index hospital visit.",
+          "reasoning": "The use of medical records for clinical variables (GCS, CT, BAL) is a reliable method."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "Age (/10y)... Years of education (/y)... BAL >80 mg/dL [U.S. legal limit]",
+          "reasoning": "Continuous variables were used as such or categorized based on established legal/clinical limits."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Information on candidate predictors was gathered... during the index hospital visit.",
+          "reasoning": "The protocol was standardized across the three centers using NINDS CDEs."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1... Missing [data for predictors ranged from 0 to 11 cases]",
+          "reasoning": "Missingness for predictors was very low (e.g., 11/277 for education)."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "Yes",
+          "evidence_snippet": "Missing data on candidate predictors were subsequently imputed with a single imputation technique",
+          "reasoning": "The authors addressed missing predictor data using regression-based imputation."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The outcome (RPQ) is a validated, standardized tool in TBI research. It was administered by trained personnel at a consistent time point (6 months).",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "subjects completed the RPQ at 6 months following injury... It is comprised of questions directed toward the following 16 symptoms",
+          "reasoning": "The outcome and the timing of assessment are clearly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "the RPQ is a sensitive and validated assessment tool for the presence of post-concussive symptoms and is a core level NINDS TBI CDE.",
+          "reasoning": "The RPQ is a standard, validated instrument in the field."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "subjects completed the RPQ... in person with trained study personnel... All study personnel were trained on outcome measure administration by a single neuropsychological outcomes coordinator",
+          "reasoning": "Standardized administration by trained personnel ensures consistency."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study accounted for major known confounders (age, education, pre-injury health) using multivariable linear regression and Lasso shrinkage, which is appropriate for the study's goals.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Yes",
+          "evidence_snippet": "candidate predictors: age, gender, years of education, pre-injury seizures, pre-injury migraine or headache, pre-injury psychiatric disorders, blood alcohol level... GCS score, CT abnormalities, post-traumatic amnesia, LOC, and extracranial injury.",
+          "reasoning": "The study includes a wide range of demographic, pre-injury, and injury-severity variables known to influence TBI recovery."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "Pre-injury psychiatric disorders**... **Includes anxiety, depression, sleeping disorders and bipolar disorder.",
+          "reasoning": "The authors provide definitions for the categorical confounders used."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Information on candidate predictors was gathered through abstraction of medical records and from patient interviews",
+          "reasoning": "Medical record abstraction is a reliable source for clinical confounders."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Information on candidate predictors was gathered... during the index hospital visit.",
+          "reasoning": "Confounders were measured at baseline for all participants."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "Yes",
+          "evidence_snippet": "Missing data on candidate predictors were subsequently imputed with a single imputation technique",
+          "reasoning": "Imputation was used to handle missingness in the predictor/confounder set."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "No",
+          "evidence_snippet": "prospective multi-center... observational study",
+          "reasoning": "As an observational study, confounding was not controlled by design (e.g., matching) but rather by analysis."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "To assess the adjusted effect of candidate predictors, we used multivariable linear regression models with all candidate predictors as independent variables.",
+          "reasoning": "Multivariable adjustment was the primary method for addressing confounding."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical methods are sophisticated and appropriate, including Lasso shrinkage to prevent overfitting and bootstrap validation to assess model optimism. Reporting is transparent and follows TRIPOD guidelines.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "This study was conducted and reported according to the criteria of the Transparent Reporting of a Multivariable Prediction Model for Individual Prognosis or Diagnosis (TRIPOD) statement.",
+          "reasoning": "The authors explicitly state adherence to TRIPOD and provide detailed statistical steps."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "The final prediction model was developed using least absolute shrinkage and selection operator shrinkage and bootstrap validation.",
+          "reasoning": "Lasso is an excellent choice for variable selection to minimize overfitting in a relatively small sample."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "Linear regression was utilized to determine the predictive value... Lasso shrinkage and bootstrap validation.",
+          "reasoning": "The use of linear regression for the continuous RPQ score, combined with shrinkage techniques, is methodologically sound."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Table 3... Table 4... Appendix B, C, D.",
+          "reasoning": "The authors report univariable, multivariable, and shrunken coefficients, as well as sensitivity analyses for attrition and different outcome definitions."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/10_Dery_2025/Cnossen_2017.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T10:27:17.242534"
+  }
+}

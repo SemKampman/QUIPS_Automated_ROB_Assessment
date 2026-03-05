@@ -1,0 +1,287 @@
+{
+  "paper_metadata": {
+    "title": "Longitudinal Changes in Resting State Connectivity and White Matter Integrity in Adolescents With Sports-Related Concussion",
+    "first_author": "Donna L. Murdaugh",
+    "year": "2018",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study provides a clear description of the source population and inclusion criteria. However, the sample size is small (n=16 SRC, n=12 controls), and the recruitment is limited to a single sports medicine department, which may introduce selection bias. The lack of information on the total number of eligible athletes vs. those who participated makes it difficult to assess the participation rate.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Thirty adolescent male football players (ages 14-18 years) were recruited from the Sports Medicine Department at Children's Healthcare of Atlanta to participate in this study.",
+          "reasoning": "The population is clearly defined by age, sex, sport, and clinical setting."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Partial",
+          "evidence_snippet": "Participants included 16 adolescents who had sustained a SRC and 14 adolescent controls who had never sustained a SRC. Each control participant was age-matched and from the same football team as the participant with SRC.",
+          "reasoning": "While the recruitment source is mentioned, the specific sampling frame (e.g., consecutive vs. convenience) is not explicitly stated."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The specific dates or duration of the recruitment period are not provided in the manuscript."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "recruited from the Sports Medicine Department at Children's Healthcare of Atlanta",
+          "reasoning": "The clinical setting and specific institution are clearly identified."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "Criteria used included having a Glasgow Coma Scale (GCS) score of 13-15 as well as having less than 5 min of loss of consciousness... excluded if they had ever been diagnosed with a seizure disorder or other neurological condition...",
+          "reasoning": "Detailed clinical criteria for concussion diagnosis and extensive exclusion criteria for comorbidities are provided."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not report the number of eligible individuals who declined to participate, making it impossible to calculate a participation rate."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1. Demographic information and ImPACT cognitive composite scores and total symptom score across all time points",
+          "reasoning": "Table 1 provides age, IQ, ethnicity, and baseline neurocognitive scores."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "Attrition was very low (only 1 participant lost to follow-up in the SRC group). Reasons for exclusion (incidental findings) were provided, and the impact on the small sample size was acknowledged.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "One participant with SRC did not return to the time 2 imaging scan and so was excluded from the analyses comparing time 1 and time 2.",
+          "reasoning": "15 out of 16 SRC participants (93.7%) completed the longitudinal follow-up."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text simply states the participant did not return; no mention of follow-up attempts is made."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Partial",
+          "evidence_snippet": "One participant with SRC did not return to the time 2 imaging scan... Two of the control participants had incidental findings on their neuroimaging scans and were excluded",
+          "reasoning": "Reasons for exclusion are provided, though the specific reason for the one SRC dropout is just 'did not return'."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is no comparison of the characteristics of the dropout vs. the completers."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "With only one dropout, statistical comparison is not possible, but no qualitative comparison was provided either."
+        }
+      ]
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The prognostic factor (SRC) was defined by clinical assessment and GCS scores. The timing of the 'acute' measurement was strictly controlled (<7 days), and standardized protocols were used for all participants.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "concussion diagnosis as determined by a sideline assessment by the athletic trainer... GCS score of 13-15 as well as having less than 5 min of loss of consciousness.",
+          "reasoning": "The definition of SRC is clinically specific and includes severity markers."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "imaging at time 1 was conducted within 7 days of the concussion and the participants endorsed at least two concussive symptoms",
+          "reasoning": "The use of both clinical diagnosis and symptom verification at the time of scan increases reliability."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "GCS score of 13-15",
+          "reasoning": "Standard clinical cut-points for mild TBI were used."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Both the control group and SRC group were imaged twice, 21 days apart (time 2) with the same imaging parameters.",
+          "reasoning": "Standardized imaging and clinical protocols were applied across groups."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "The final number of participants included in this study for imaging analyses was 16 participants with SRC",
+          "reasoning": "PF data was available for all included participants."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "Yes",
+          "evidence_snippet": "One participant with SRC did not return to the time 2 imaging scan and so was excluded from the analyses",
+          "reasoning": "Listwise exclusion was used rather than imputation, which is acceptable for this sample size and low attrition."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "Outcomes were measured using objective, automated neuroimaging (rs-fMRI, DTI) and a validated neurocognitive battery (ImPACT). The same parameters were used for all subjects, and the data-driven analysis (GICA) reduces assessor bias.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "investigate alterations in functional connectivity, white matter integrity, and cognitive abilities... at the acute phase (<7 days post-SRC) and at 21 days later",
+          "reasoning": "Outcomes and follow-up intervals are clearly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "rs-fMRI images were acquired using a single-shot T2*-weighted gradient-echo EPI pulse sequence... ImPACT neurocognitive battery (Lovell, 2015).",
+          "reasoning": "The study uses established neuroimaging sequences and a widely validated clinical tool (ImPACT)."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Both the control group and SRC group were imaged twice, 21 days apart (time 2) with the same imaging parameters.",
+          "reasoning": "Consistency in measurement setting and parameters is confirmed."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study matched controls by age and team, and excluded common comorbidities (ADHD, depression). However, the small sample size limited the ability to perform multivariable adjustment for other potential confounders like prior concussion history (which was present in 3 SRC participants but 0 controls).",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Partial",
+          "evidence_snippet": "Each control participant was age-matched and from the same football team... excluded if they had ever been diagnosed with a seizure disorder... ADHD, learning disability...",
+          "reasoning": "Key demographic and clinical confounders were used for matching or exclusion, but 'treatment' during the 21-day recovery was not detailed."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1. Demographic information... Age, WASI FSIQ, Ethnicity",
+          "reasoning": "Confounders used in the analysis are clearly defined in the results table."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "WASI FSIQ = Wechsler Abbreviated Scale of Intelligence Full Scale Intelligence Quotient",
+          "reasoning": "Standardized, validated tools were used to measure baseline intelligence."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "All participants were screened using a background history questionnaire filled out by the primary caregiver",
+          "reasoning": "Screening was uniform across the sample."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "Yes",
+          "evidence_snippet": "missing data are noted for four control participants... [in Table 1]",
+          "reasoning": "Missing data is transparently reported; no inappropriate imputation is mentioned."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "Yes",
+          "evidence_snippet": "Each control participant was age-matched and from the same football team as the participant with SRC.",
+          "reasoning": "Matching by team and age is a strong design choice to control for environmental and developmental factors."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Partial",
+          "evidence_snippet": "Independent t tests to assess between group differences",
+          "reasoning": "The analysis relied on t-tests and correlations rather than multivariable models (e.g., ANCOVA) to adjust for variables like IQ or prior concussions."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study used sophisticated, data-driven statistical methods (GICA, ICASSO, TOPUP) and corrected for multiple comparisons using FDR. The reporting is transparent regarding both significant and non-significant findings.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "GICA was conducted in three main steps... Stability analysis was conducted using ICASSO... corrected for multiple comparisons using a false discovery rate (FDR) cluster correction of p < .05.",
+          "reasoning": "The analytical pipeline for both fMRI and DTI is described in high detail."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "The advantage to our approach for analyzing rs-fMRI using GICA and group connectometry for DTI is both are data-driven approaches without the need for selecting a priori ROIs.",
+          "reasoning": "The use of data-driven approaches is justified as a way to avoid ROI bias."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "A series of two-sample t tests were conducted... Paired t tests were conducted to compare the SRC group at time 1... to time 2.",
+          "reasoning": "The use of paired and independent t-tests is appropriate for the longitudinal, two-group design."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "No differences between the SRC group and control group were seen at follow-up imaging.",
+          "reasoning": "The authors report null findings at Time 2 and provide supplementary data for exploratory analyses."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/9_McGeown_2025/Murdaugh_2018.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T11:44:16.039166"
+  }
+}

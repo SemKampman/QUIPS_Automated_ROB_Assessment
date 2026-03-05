@@ -1,0 +1,332 @@
+{
+  "paper_metadata": {
+    "title": "Education Level and Long-Term Mortality, Recurrent Stroke, and Cardiovascular Events in Patients With Ischemic Stroke",
+    "first_author": "Bizhong Che",
+    "year": "2020",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study utilizes a large sample from a well-defined multicenter trial (CATIS) with clear inclusion/exclusion criteria and high participation rates. Baseline characteristics are extensively described.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "This study was conducted among patients from the CATIS (China Antihypertensive Trial in Acute Ischemic Stroke), a multicenter, single-blind randomized controlled clinical trial performed among 4071 patients with acute ischemic stroke.",
+          "reasoning": "The source population is clearly identified as participants of the CATIS trial across 26 hospitals."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "Eligible participants were ≥22 years old, had ischemic stroke confirmed by computed tomography or magnetic resonance imaging within 48 hours of symptom onset, and had an elevated systolic blood pressure (BP) between 140 and <220 mm Hg.",
+          "reasoning": "Recruitment methods and diagnostic confirmation (CT/MRI) are explicitly stated."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "While the follow-up intervals (3, 12, 24 months) are mentioned, the specific calendar years of recruitment for the CATIS trial are not explicitly stated in the provided text."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "ethical committees at the 26 participating hospitals... in China",
+          "reasoning": "The study specifies a multicenter setting across 26 hospitals in China."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "The CATIS trial excluded patients with a BP ≥220/120 mm Hg, severe heart failure, acute myocardial infarction or unstable angina, atrial fibrillation, aortic dissection, serious cerebrovascular stenosis (≥70%), or resistant hypertension and those in a deep coma.",
+          "reasoning": "Detailed inclusion and exclusion criteria are provided, including clinical and diagnostic parameters."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Yes",
+          "evidence_snippet": "In the present analysis, we further excluded patients with ischemic stroke without educational data (n=14) or without available follow-up data (n=196); a total of 3861 participants were included.",
+          "reasoning": "Out of 4071 original trial participants, 3861 (94.8%) were included, which is well above the 80% threshold for low risk."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1. Characteristics of Participants According to Education Level",
+          "reasoning": "Table 1 provides a comprehensive list of demographic, socioeconomic, clinical, and medical history characteristics."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The loss to follow-up was minimal (less than 5%), and the authors performed sensitivity analyses and multiple imputations to handle missing data.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "we further excluded patients... without available follow-up data (n=196); a total of 3861 participants were included.",
+          "reasoning": "The attrition rate is approximately 4.8%, which is very low for a 2-year follow-up study."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text mentions the number of exclusions due to missing follow-up but does not detail the specific efforts made to contact those individuals."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text states participants were excluded for lack of follow-up data but does not provide specific reasons (e.g., moved, withdrew consent)."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "Partial",
+          "evidence_snippet": "In addition, most baseline characteristics of enrolled and excluded patients in this analysis were well balanced.",
+          "reasoning": "The authors claim characteristics were balanced between enrolled and excluded patients, though the specific data for the excluded group is not shown in a table."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Yes",
+          "evidence_snippet": "baseline characteristics of enrolled and excluded patients in this analysis were well balanced.",
+          "reasoning": "The authors explicitly state that there were no major differences, reducing the risk of attrition bias."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Attrition Summary",
+        "prompt": "Loss to follow-up (from baseline sample to study population analyzed) is not associated with key characteristics (i.e., the study data adequately represent the sample) sufficient to limit potential bias to the observed relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The prognostic factor (education) was measured using a validated questionnaire and categorized clearly. Sensitivity analyses using years of education as a continuous/tertile variable support the robustness of the measurement.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "educational level was categorized as illiteracy (without any formal education), primary school education, middle school education, and college education.",
+          "reasoning": "The categories are clearly defined and standard."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Information about educational level and exact years of education for all participants was collected using a validated questionnaire at baseline",
+          "reasoning": "The use of a validated questionnaire at baseline minimizes measurement bias."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "a sensitivity analysis was conducted by reclassifying participants according to tertiles of education years: <6 years of school, 6 to 9 years of school, >9 years of school",
+          "reasoning": "The study uses both categorical levels and years of education, showing consistency across different cut-points."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "collected using a validated questionnaire at baseline... according to a common protocol",
+          "reasoning": "Standardized protocols were used across all 26 hospitals."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "we further excluded patients with ischemic stroke without educational data (n=14)",
+          "reasoning": "Only 14 out of 4071 patients lacked PF data, which is negligible."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "Yes",
+          "evidence_snippet": "Multiple imputations for missing values of covariates were performed using the Markov chain Monte Carlo method.",
+          "reasoning": "The study used MCMC multiple imputation for missing covariate data, which is a robust statistical approach."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "PF Measurement Summary",
+        "prompt": "PF is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "Outcomes were defined using ICD-10 codes and adjudicated by a blinded committee, which is the gold standard for reducing measurement bias in prognosis studies.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "Study outcomes were all-cause mortality, stroke-specific mortality, recurrent stroke, and cardiovascular events within 2 years after ischemic stroke.",
+          "reasoning": "All outcomes and the follow-up duration (2 years) are explicitly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "A trial-wide outcomes assessment committee, blinded to treatment assignment, reviewed and adjudicated outcome events based on the criteria established.",
+          "reasoning": "Blinded adjudication by a committee ensures high reliability and validity."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Study participants were followed up at 3, 12, and 24 months after ischemic stroke onset to collect the study outcomes",
+          "reasoning": "The follow-up schedule and adjudication process were uniform for the entire cohort."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Outcome Measurement Summary",
+        "prompt": "Outcome of interest is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study adjusted for a wide range of potential confounders, including other SES indicators (income, occupation) and clinical severity (NIHSS), which are critical in this context.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Yes",
+          "evidence_snippet": "adjusted for age, sex, current smoking, alcohol consumption, occupation, and income... baseline National Institutes of Health Stroke Scale score, systolic BP, ischemic stroke subtype, treatment assignment... history of cardiovascular diseases",
+          "reasoning": "The study accounts for demographic, socioeconomic, and clinical confounders."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "Annual per capita family income was classified into 4 groups... Stroke severity was assessed using the National Institutes of Health Stroke Scale score",
+          "reasoning": "Confounders like income and stroke severity are clearly defined and categorized."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Three BP measurements were obtained at baseline interview by trained nurses according to a common protocol adapted from procedures recommended by the American Heart Association.",
+          "reasoning": "Clinical measurements like BP and NIHSS were performed by trained staff using standardized protocols."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Data on demographic characteristics... were collected at the time of enrollment.",
+          "reasoning": "Baseline data collection was standardized for all participants."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "Yes",
+          "evidence_snippet": "Multiple imputations for missing values of covariates were performed using the Markov chain Monte Carlo method.",
+          "reasoning": "MCMC is an appropriate and sophisticated method for handling missing covariate data."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "Partial",
+          "evidence_snippet": "The CATIS trial excluded patients with a BP ≥220/120 mm Hg... atrial fibrillation",
+          "reasoning": "While the design (RCT) controlled for some factors via exclusion, the primary control for confounding in this prognostic analysis was through statistical adjustment."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "In fully adjusted models that further adjusted for history of cardiovascular diseases and medications, HRs (95% CIs) of illiteracy versus college education were 2.79",
+          "reasoning": "The use of three hierarchical Cox models demonstrates thorough adjustment for confounding."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Confounding Summary",
+        "prompt": "Important potential confounders are appropriately accounted for, limiting potential bias with respect to the relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical methods are appropriate (Cox regression), assumptions were tested (Schoenfeld residuals), and multiple outcomes were corrected for (Bonferroni). The inclusion of a meta-analysis further strengthens the reporting.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Cox proportional hazards models were performed... The proportional hazards assumption of the Cox models was tested using Schoenfeld residuals",
+          "reasoning": "The analytical strategy is transparent and includes necessary assumption testing."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "We performed 3 multivariate proportional hazards models... adjusted for age, sex... clinical characteristics... history of cardiovascular diseases",
+          "reasoning": "The hierarchical approach to adjustment is logically structured based on known risk factors."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "Cox proportional hazards models were performed to estimate associations between education levels and outcomes",
+          "reasoning": "Cox regression is the standard and appropriate model for time-to-event prognostic data."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Within 2 years after ischemic stroke, there were 327 (8.5%) all-cause deaths, 264 (6.8%) stroke-specific deaths, 303 (7.9%) recurrent strokes, and 364 (9.4%) cardiovascular events",
+          "reasoning": "All pre-specified outcomes are reported with both crude rates and adjusted hazard ratios."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Statistical Analysis and Presentation Summary",
+        "prompt": "The statistical analysis is appropriate for the design of the study, limiting potential for presentation of invalid or spurious results.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/12_Tao_2023/Che_2020.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T10:50:27.566300"
+  }
+}

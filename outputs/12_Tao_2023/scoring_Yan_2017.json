@@ -1,0 +1,337 @@
+{
+  "paper_metadata": {
+    "title": "The influence of individual socioeconomic status on the clinical outcomes in ischemic stroke patients with different neighborhood status in Shanghai, China",
+    "first_author": "Han Yan",
+    "year": "2017",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study provides a clear description of the source population, recruitment period, and inclusion/exclusion criteria. However, it is a single-center retrospective study. While the flow of participants is described, the high number of excluded patients (121 not meeting requirements, 104 refused, 27 missing data) from the initial screen of 723 suggests potential selection bias, as those who refuse or have missing data may differ socioeconomically from those enrolled.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "All the participants had been hospitalized in the Department of Neurology, Shanghai Tenth People's Hospital, Tongji University School of Medicine.",
+          "reasoning": "The source population is clearly defined as patients hospitalized at a specific tertiary center in Shanghai."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Partial",
+          "evidence_snippet": "Among the 723 patients initially screened, 121 patients did not meet the requirements, 104 patients refused or expressed no interested, and 27 patients failed to provide essential data were excluded.",
+          "reasoning": "The study describes the flow of participants, but the high refusal rate (104/723) in a study about socioeconomic status is a concern for selection bias."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "From September 2012 to August 2015, a total of 471 first-ever ischemic stroke patients aged from 18 to 80 years were enrolled",
+          "reasoning": "The specific dates for the recruitment period are provided."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "Department of Neurology, Shanghai Tenth People's Hospital, Tongji University School of Medicine, Shanghai, 200072, China",
+          "reasoning": "The specific hospital and geographic location are clearly stated."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "Ischemic stroke was defined according to 2013 American Heart Association/ American Stroke Association Guidelines... We excluded intracerebral hemorrhage and subarachnoid hemorrhage... Patients with severe hepatic or renal failure were still not eligible",
+          "reasoning": "Detailed inclusion and exclusion criteria based on international guidelines are provided."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "104 patients refused or expressed no interested",
+          "reasoning": "It is unclear if the 104 patients who refused differ systematically from those who participated, which is critical in a study measuring SES."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "The demographic data, drug therapy and neighborhood status across the tertiles of individual SES were summarized in Table 1.",
+          "reasoning": "Table 1 provides a comprehensive list of baseline characteristics including age, gender, risk factors, and medications."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The attrition rate is very low (2.5%), and the authors explicitly state how lost participants were handled in the analysis. The reasons for loss are not detailed, but the small number makes significant attrition bias unlikely.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "12 patients were lost to follow-up during this period: 5 patients in the low tertile, 3 in the middle tertile, and 4 in the high tertile.",
+          "reasoning": "Only 12 out of 471 patients (2.5%) were lost, which is well within the acceptable range for low risk."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text does not describe specific attempts to re-contact or find information on the 12 lost patients."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The specific reasons for the 12 patients being lost to follow-up are not provided."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "Partial",
+          "evidence_snippet": "5 patients in the low tertile, 3 in the middle tertile, and 4 in the high tertile.",
+          "reasoning": "The text identifies which SES groups the lost patients belonged to, but does not provide their other baseline characteristics."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is no formal comparison between the 12 lost patients and the 459 who completed the study, though the small N suggests impact is low."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Attrition Summary",
+        "prompt": "Loss to follow-up (from baseline sample to study population analyzed) is not associated with key characteristics (i.e., the study data adequately represent the sample) sufficient to limit potential bias to the observed relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ],
+        "rating": "Low"
+      }
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The prognostic factor (SES) is measured using a multi-dimensional, pre-specified scoring system tailored to the Chinese context. The components (education, income, occupation, insurance) are clearly defined and applied consistently to all participants.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "The personal SES of each patient was evaluated using a summed score derived from his or her educational level, household income, occupation, and medical reimbursement rate.",
+          "reasoning": "The components and scoring system (0-4 for each) are explicitly detailed."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Each factor was categorized to five groups from low to high level, for which a gradually increasing score (0-4) was assigned",
+          "reasoning": "The use of a composite score is a standard approach in SES research, and the categories are objective."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "We divided the study population into three groups according to the tertiles of score distribution (Figure 1): Low (≤7), Middle (8-9), and High groups (≥10).",
+          "reasoning": "The use of tertiles is a standard, non-data-dependent method for grouping scores."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Patients documentation used for evaluation including demographic characteristics... socioeconomic factors... were collected.",
+          "reasoning": "The same data collection protocol was applied to all patients in the department."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "27 patients failed to provide essential data were excluded.",
+          "reasoning": "Patients with missing PF data were excluded at the start, and the final N=471 had complete data for the analysis."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "No",
+          "evidence_snippet": "27 patients failed to provide essential data were excluded.",
+          "reasoning": "Imputation was not used; missing data resulted in exclusion."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "PF Measurement Summary",
+        "prompt": "PF is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ],
+        "rating": "Low"
+      }
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "Outcomes are clearly defined using standard clinical criteria (mRS for disability, AHA/ASA for stroke). The follow-up process and the use of proxy relatives for mRS assessment are appropriate for this patient population.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "The primary outcomes were clinical adverse events including 1) death, 2) lone post-stroke disability, 3) lone recurrent nonfatal stroke, and 4) post-stroke disability + recurrent nonfatal stroke.",
+          "reasoning": "All outcomes are explicitly defined, including the use of the mRS scale."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "The mRS was used as a global standard for measurements of disability... confirmed as being to a cerebrovascular cause by CT/MRI.",
+          "reasoning": "Standardized tools (mRS) and objective imaging (CT/MRI) were used to confirm outcomes."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Prescribed medication, clinical symptoms, and medical history were all gathered and necessary examinations were performed at each follow-up.",
+          "reasoning": "A consistent follow-up protocol was described for all participants."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Outcome Measurement Summary",
+        "prompt": "Outcome of interest is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ],
+        "rating": "Low"
+      }
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study identifies and measures major clinical confounders (age, sex, CHD, hypertension, diabetes, etc.) and accounts for them using multivariable Cox regression models. It specifically addresses the interplay between individual SES and neighborhood status.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "The demographic data, drug therapy and neighborhood status across the tertiles of individual SES were summarized in Table 1.",
+          "reasoning": "Key clinical risk factors and medications were measured and reported."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "Hypertension was diagnosed when blood pressure was ≥140/90 mmHg or use of antihypertensive treatment. Diabetes mellitus was diagnosed according to a fasting plasma glucose ≥7.0 mmol/L...",
+          "reasoning": "Standard clinical definitions are provided for all measured confounders."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Patients documentation used for evaluation including... physical examinations, treatment records, neurology consultations, and computed tomography/magnetic resonance imaging (CT/MRI) reports were collected.",
+          "reasoning": "Confounders were measured using medical records and objective clinical data."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "All the participants had been hospitalized in the Department of Neurology, Shanghai Tenth People's Hospital",
+          "reasoning": "All data were collected within the same clinical setting."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "No",
+          "evidence_snippet": "27 patients failed to provide essential data were excluded.",
+          "reasoning": "Imputation was not used; cases with missing data were excluded."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "Partial",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The study did not use matching or stratification in the design phase (it is a retrospective cohort)."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "multivariate Cox regression analysis was performed with the first step adjusted for age, gender and cardiovascular risk factors (Model 1), and then the second step adjusted for Model 1 plus individual SES and neighborhood status (Model 2).",
+          "reasoning": "The analysis uses a robust two-step adjustment process to isolate the effect of SES."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Confounding Summary",
+        "prompt": "Important potential confounders are appropriately accounted for, limiting potential bias with respect to the relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ],
+        "rating": "Low"
+      }
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical methods (Kaplan-Meier, Cox regression) are appropriate for survival analysis. The reporting is transparent, including HRs and 95% CIs for multiple models. There is no evidence of selective reporting.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Statistical analyses were performed with the IBM SPSS version 20.0... Event-free survival curves were constructed using the Kaplan-Meier method and assessed using the log-rank test.",
+          "reasoning": "The analytical plan is clearly described and follows standard practices."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "multivariate Cox regression analysis was performed with the first step adjusted for age, gender and cardiovascular risk factors (Model 1), and then the second step adjusted for Model 1 plus individual SES and neighborhood status (Model 2).",
+          "reasoning": "The hierarchical model building is appropriate for testing the independent effect of SES."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "multivariable Cox proportional hazard models after adjusting for other covariates.",
+          "reasoning": "Cox models are the gold standard for time-to-event data in prognosis studies."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "The primary outcomes were clinical adverse events... The all-cause mortality was considered as the secondary endpoint.",
+          "reasoning": "Results for all pre-specified primary and secondary outcomes are reported in the tables."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Statistical Analysis and Presentation Summary",
+        "prompt": "The statistical analysis is appropriate for the design of the study, limiting potential for presentation of invalid or spurious results.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ],
+        "rating": "Low"
+      }
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/12_Tao_2023/Yan_2017.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T10:41:43.248809"
+  }
+}

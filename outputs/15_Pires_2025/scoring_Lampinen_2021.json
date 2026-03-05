@@ -1,0 +1,332 @@
+{
+  "paper_metadata": {
+    "title": "Time dependence in diffusion MRI predicts tissue outcome in ischemic stroke patients",
+    "first_author": "Björn Lampinen",
+    "year": "2021",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study provides clear inclusion/exclusion criteria and describes the baseline characteristics of the small sample. However, the sample size is extremely small (n=5), and it is unclear how many eligible patients were screened but not recruited, raising concerns about the representativeness of the sample.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Patients were recruited from the Department of Neurology at Skåne University Hospital, Lund, Sweden.",
+          "reasoning": "The source (neurology department of a specific university hospital) is clearly stated."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Partial",
+          "evidence_snippet": "Five acute stroke patients met the inclusion criteria (Table 1)",
+          "reasoning": "While the criteria are clear, the recruitment process (consecutive vs. convenience) is not explicitly detailed, and the final sample is very small."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The specific calendar dates or years during which recruitment took place are not mentioned."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "Department of Neurology at Skåne University Hospital, Lund, Sweden.",
+          "reasoning": "The specific clinical setting and city are provided."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "The inclusion criteria were (1) ischemic stroke with a known time of onset, (2) no reperfusion therapy given, (3) a (largest) lesion diameter of at least 3 cm, (4) an established region of ADC reduction at the first imaging time point, and (5) the ability and willingness of the patient to complete 3 months of follow-up.",
+          "reasoning": "The criteria are specific, including clinical, imaging, and follow-up requirements."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "Five acute stroke patients met the inclusion criteria",
+          "reasoning": "The text does not state how many patients were screened or the proportion of eligible patients who consented to participate."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "3 females and 2 males with an age of 47 ± 10 years (mean ± SD) at the first examination... Table 1: Patient and lesion characteristics",
+          "reasoning": "Age, sex, lesion size, location, and occluded vessel are provided for all participants."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "All five patients recruited completed all three imaging time points (Day 2, Day 9, and Day 100). There was no loss to follow-up in this small cohort.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "All patients underwent dMRI 1–4 days following stroke onset... 8–11 days following stroke onset... and 95–133 days following stroke onset.",
+          "reasoning": "100% of the recruited sample (5/5) completed the follow-up."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "Yes",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Not applicable as there were no dropouts."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Yes",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Not applicable as there was no loss to follow-up."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Not applicable."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Yes",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Not applicable as all participants completed the study."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Attrition Summary",
+        "prompt": "Loss to follow-up (from baseline sample to study population analyzed) is not associated with key characteristics (i.e., the study data adequately represent the sample) sufficient to limit potential bias to the observed relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The prognostic factor (k) is derived from a clearly defined mathematical model and standardized MRI acquisition. The same protocol was used for all participants, and the data were complete.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "To assess diffusion time dependence, the dMRI data were analyzed with the signal expression proposed by Ning et al... k is the rate of kurtosis change.",
+          "reasoning": "The mathematical model and the physical meaning of 'k' are explicitly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "dMRI data were acquired with a diffusion-weighted EPI sequence... corrected for eddy currents and subject motion using ElastiX32",
+          "reasoning": "Standardized MRI acquisition and validated post-processing toolboxes were used."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "k is referred to as the rate of kurtosis change... Continuous variables are presented with mean and inter-patient SD.",
+          "reasoning": "The PF is treated as a continuous variable in the analysis."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Magnetic resonance imaging acquisition of the brain was performed on an Achieva 3T system (Philips, Best, the Netherlands).",
+          "reasoning": "All patients were scanned on the same scanner with the same sequence parameters."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "The comparisons were based on average parameter values obtained by applying ROIs to the fitted maps",
+          "reasoning": "Complete data sets were available for all 5 patients."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "Yes",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Not applicable as there was no missing data."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "PF Measurement Summary",
+        "prompt": "PF is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The outcome (infarction vs. viability) was defined using an objective ADC threshold on chronic-stage imaging (Day 100), which is a standard approach in stroke research.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "infarction ROIs were created by applying the full lesion volume ROIs to the day 100 ADC maps and selecting the enclosed voxels with ADC > 1.2 μm2/ms",
+          "reasoning": "The outcome is defined by a specific ADC threshold at a specific time point (Day 100)."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "The manual review was performed by B.L. together with D.v.W., a senior neuroradiologist",
+          "reasoning": "The use of an objective ADC threshold combined with expert neuroradiological review ensures reliability."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "The lesion definitions were made on spatially aligned ADC maps and were applied to all time points",
+          "reasoning": "The same criteria and imaging modality were used for all participants."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Outcome Measurement Summary",
+        "prompt": "Outcome of interest is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "High",
+      "risk_reasoning": "The study did not account for potential confounders in the statistical analysis. Given the small sample size (n=5), multivariable adjustment was not possible, and factors like age, stroke severity, or collateral status were not controlled for.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Partial",
+          "evidence_snippet": "Table 1: Patient and lesion characteristics... no reperfusion therapy given",
+          "reasoning": "Basic characteristics and treatment status were recorded, but other physiological confounders were not."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1",
+          "reasoning": "Age, sex, and location are standard variables."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Standard clinical data collection is assumed to be reliable."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Standardized clinical intake was used."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "Yes",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No missing confounder data reported."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The study did not use matching or stratification."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "No",
+          "evidence_snippet": "paired t-tests compared the average values",
+          "reasoning": "Only univariable paired t-tests were used; no multivariable adjustment was performed."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Confounding Summary",
+        "prompt": "Important potential confounders are appropriately accounted for, limiting potential bias with respect to the relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The analysis is appropriate for the small sample size (paired t-tests), but the lack of multivariable modeling and the small N limit the robustness of the findings. Reporting is transparent regarding limitations.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "paired t-tests compared the average values of k, ADC, MK, and FA... Two-sided P < .05 was considered significant",
+          "reasoning": "The statistical methods are clearly described."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Partial",
+          "evidence_snippet": "Equation 1 is derived from a cumulant expansion of the two-compartment Kärger model",
+          "reasoning": "The signal modeling is based on a strong biophysical framework, but the statistical outcome model is simplistic (univariable)."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Partial",
+          "evidence_snippet": "paired t-tests compared the average values",
+          "reasoning": "While t-tests are acceptable for n=5, they cannot account for the complexity of prognostic factors."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Table 2... Table 3",
+          "reasoning": "Results for all measured diffusion parameters (k, ADC, MK, FA) are reported across all time points, including non-significant findings."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Statistical Analysis and Presentation Summary",
+        "prompt": "The statistical analysis is appropriate for the design of the study, limiting potential for presentation of invalid or spurious results.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/15_Pires_2025/Lampinen_2021.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T11:04:49.960992"
+  }
+}

@@ -1,0 +1,287 @@
+{
+  "paper_metadata": {
+    "title": "Cognitive functioning following traumatic brain injury in older adults: associations with social participation and health-related quality of life",
+    "first_author": "Laurence Caron",
+    "year": "2022",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study provides a clear description of the source population and recruitment setting. However, there is evidence of selection bias as participants who declined or were unreachable had significantly lower education levels than those who participated, potentially limiting the representativeness of the sample regarding cognitive outcomes.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "The sample included individuals who were hospitalized in a Level I trauma center (CHU de Québec) after a mild to severe TBI between May 2017 and February 2019. Participants had to be aged 65 years and over at the time of TBI",
+          "reasoning": "The authors clearly define the age, injury type, and clinical setting of the target population."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "At the trauma center (CHU de Québec), a nurse presented an information pamphlet to eligible participants and obtained their verbal consent to be contacted approximately 3 months post-TBI.",
+          "reasoning": "The recruitment process via a Level I trauma center is well-documented."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "between May 2017 and February 2019.",
+          "reasoning": "The specific dates for recruitment are provided."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "Level I trauma center (CHU de Québec)",
+          "reasoning": "The specific hospital and trauma level are identified."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "Those with concomitant spinal cord injury or stroke, with a past history of moderate or severe TBI or other neurological disorder, who were not fluent in French, had significant hearing difficulties, or were unable to provide informed consent were excluded.",
+          "reasoning": "Detailed exclusion criteria are listed to ensure the sample is specific to the study goals."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Partial",
+          "evidence_snippet": "135 individuals agreed to be contacted... 82 (61%) were enrolled... Among the 66 remaining participants one-year post-TBI, 52 (79%) were reached by phone and 40 (61%) agreed to take part in the current study",
+          "reasoning": "While the initial contact rate was high, the final participation rate for the cognitive sub-study was only 40 out of 66 (61%) of the longitudinal cohort, which is below the 80% threshold."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Sociodemographic and injury characteristics of participants are presented in Table 1.",
+          "reasoning": "Table 1 provides age, education, sex, TBI severity, and mechanism of injury."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "There is a significant difference in education levels between those who completed the study and those lost to follow-up, which suggests potential attrition bias as education is a known proxy for cognitive reserve.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Partial",
+          "evidence_snippet": "Among the 66 remaining participants one-year post-TBI, 52 (79%) were reached by phone and 40 (61%) agreed to take part in the current study",
+          "reasoning": "The final sample represents 61% of the available longitudinal cohort, which is moderate but not ideal."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "Yes",
+          "evidence_snippet": "Individuals who declined to participate or were unreachable (n = 26) had a significantly lower level of education... The groups did not differ on age, sex, mechanism of injury, or TBI severity",
+          "reasoning": "The authors explicitly compared the characteristics of dropouts versus participants."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Partial",
+          "evidence_snippet": "4 participants were excluded and 12 were lost. Among the 66 remaining participants one-year post-TBI, 52 (79%) were reached by phone",
+          "reasoning": "General reasons (excluded/lost/unreachable) are provided, but specific reasons for individual dropouts are not detailed."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Individuals who declined to participate or were unreachable (n = 26) had a significantly lower level of education (M =10.15, SD = 3.96 years) compared to participants of the current study (n = 40, M = 13.40, SD = 4.85)",
+          "reasoning": "The authors provide a statistical comparison of baseline characteristics for the attrition group."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "No",
+          "evidence_snippet": "Individuals who declined to participate or were unreachable (n = 26) had a significantly lower level of education... U = 244, p = 0.01, r = −0.32.",
+          "reasoning": "A significant difference in education was found, which is a key characteristic in cognitive studies."
+        }
+      ]
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The prognostic factors (objective and subjective cognitive functioning) were measured using validated, standardized tools appropriate for telephone administration in an elderly population.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "The Medical Outcomes Study Cognitive Functioning Scale (MOS-Cog)... The Telephone Interview for Cognitive Status-Modified (TICS-m)... The Alphaflex",
+          "reasoning": "All cognitive measures are clearly defined and referenced."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "The validated French version (F-TICS-m) used for the present study demonstrates higher sensitivity and specificity (33) than the Mini Mental State Examination",
+          "reasoning": "The study uses validated instruments with known psychometric properties."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "Significant cognitive difficulties were qualified as a total score lower than one SD below the mean of the 'cognitively normal' group of the validation sample",
+          "reasoning": "Cut-points were based on external validation studies, not the current study's data distribution."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "a trained graduate student in clinical neuropsychology (LC) contacted participants by phone 12 months post-TBI... Participants were asked to be alone in a non-distracting environment",
+          "reasoning": "Standardized telephone administration was used for all participants."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "40 participants completed the phone interview with the subjective and objective cognitive measures",
+          "reasoning": "All 40 participants in the sub-study provided cognitive data."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is no mention of missing data handling for the cognitive measures, though the sample size suggests complete cases were used."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "Outcomes (HRQoL and Social Participation) were measured using well-validated, population-specific tools (SF-12 and PART-O) with standardized scoring.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "The Medical Outcomes Study 12-Item Short Form Health Survey (SF-12) is a self-report questionnaire of HRQoL... The Participation Assessment with Recombined Tools-Objective (PART-O) (40) is a 17-item self-report questionnaire specifically developed for the TBI population.",
+          "reasoning": "Outcomes are clearly defined and the timing of assessment (12-15 months post-injury) is specified."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "Various studies have reported adequate validity and reliability of the SF-12 (39)... The PART-O presents good internal consistency as well as good convergent validity",
+          "reasoning": "The tools used are standard in the field with established reliability and validity."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "The SF-12 and PART-O were completed on average within 3 months of this cognitive assessment",
+          "reasoning": "Standardized questionnaires were used for all participants."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "While the study accounts for education and TBI severity in univariate analyses and includes them in the discussion, the small sample size limited the ability to perform robust multivariable adjustment for all potential confounders (e.g., pre-injury status, comorbidities).",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Partial",
+          "evidence_snippet": "Sociodemographic information such as age, sex, and level of education was collected... Mechanism of injury and TBI severity... were extracted",
+          "reasoning": "Key demographics and injury factors were measured, but pre-injury cognitive status and psychological comorbidities were not."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "Injury severity was determined by a physician... criteria include duration of loss of consciousness and post-traumatic amnesia, presence of neurological signs, brain imaging results, and initial score on the Glasgow Coma Scale GCS",
+          "reasoning": "TBI severity and demographics are well-defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "extracted from the medical files.",
+          "reasoning": "Clinical data were obtained from medical records rather than self-report, increasing reliability."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Sociodemographic information... was collected during the initial recruitment contact.",
+          "reasoning": "Data collection was standardized for the cohort."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No mention of missing data for confounders."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "No",
+          "evidence_snippet": "This cross-sectional study is part of a larger single-cohort longitudinal research project",
+          "reasoning": "The design is a single cohort without matching or stratification."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Partial",
+          "evidence_snippet": "Multiple hierarchical linear regressions were then conducted with variables that were correlated at p < 0.10",
+          "reasoning": "The authors used regression to account for some variables, but the small sample size (N=40) restricted the number of confounders that could be adjusted for simultaneously."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical methods are appropriate for the data distribution (non-parametric tests) and the sample size. The reporting is transparent regarding the limitations of the power and the exploratory nature of the regressions.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "As data were not normally distributed nonparametric exact Mann–Whitney U tests and Spearman correlations were preferred... Multiple hierarchical linear regressions were then conducted",
+          "reasoning": "The analytical plan is clearly laid out and justified based on data distribution."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "order of entry of predictors based on theoretical relevance and results of correlations.",
+          "reasoning": "The hierarchical approach is a standard method for testing the incremental validity of predictors."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "Assumptions of multiple regression were tested and parameters were within normal range",
+          "reasoning": "The authors verified regression assumptions (multicollinearity, residuals, etc.) before interpreting results."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Spearman correlations computed between cognitive functioning, HRQoL, and social participation measures are presented in Table 3.",
+          "reasoning": "The authors report all correlations, including non-significant ones, and provide effect sizes."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/7_Tan_2025/Caron_2022.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T11:17:55.797865"
+  }
+}

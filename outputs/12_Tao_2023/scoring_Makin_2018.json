@@ -1,0 +1,332 @@
+{
+  "paper_metadata": {
+    "title": "The impact of early-life intelligence quotient on post stroke cognitive impairment",
+    "first_author": "Stephen DJ Makin",
+    "year": "2018",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study recruited consecutive patients from a regional stroke service, providing a representative sample of minor stroke patients. Inclusion/exclusion criteria are well-defined, and baseline characteristics are thoroughly described.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "we recruited consecutive patients presenting with a minor stroke to the Lothian regional stroke service to which all patients presenting with a stroke in our catchment area are referred.",
+          "reasoning": "The source is a regional service covering a specific catchment area, ensuring a population-based recruitment strategy."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "We included consecutive adult patients (over 18 years), able to have Magnetic Resonance Imaging (MRI) to confirm stroke subtype, with the capacity to give consent themselves",
+          "reasoning": "Consecutive recruitment from a primary referral center for the region minimizes selection bias."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "While the submission and acceptance dates are listed (2017), the specific calendar years during which patients were recruited are not explicitly stated in the methods."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "Lothian regional stroke service to which all patients presenting with a stroke in our catchment area are referred.",
+          "reasoning": "The geographic location (Lothian, Scotland) and the clinical setting are clearly identified."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "We defined a 'minor stroke' as one with an National Institute of Health Stroke Scale (NIHSS) less than 7... We excluded patients who could not consent, for whatever reason including cognitive impairment or aphasia.",
+          "reasoning": "Criteria include NIHSS scores, age, MRI capability, and consent capacity."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "We recruited 208 patients... of whom 157 returned for formal cognitive testing at one to three months",
+          "reasoning": "The initial participation rate was 75% (157/208). While reasonable, the text does not detail the characteristics of the 51 who did not participate at the first time point compared to the total eligible pool."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "median age 66 (inter-quartile range 56–74) years, 36/157 (23%) patients had a Addenbrooke's Cognitive Examination–Revised score < 82",
+          "reasoning": "Table 1 and the results section provide comprehensive baseline data including age, sex, NIHSS, and vascular risk factors."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "There is significant attrition between recruitment (n=208) and 1-year follow-up (n=151). Importantly, those not tested were significantly older and more dependent, suggesting potential informative censoring where the most impaired patients were lost.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Partial",
+          "evidence_snippet": "151 (63 lacunar, 88 non-lacunar) at one year... Tested patients were younger and less likely to be dependent at one year (Table 1).",
+          "reasoning": "72% of the recruited sample completed the 1-year follow-up. This is acceptable but the systematic difference in those lost is a concern."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "Yes",
+          "evidence_snippet": "If patients could not attend for follow-up, we obtained information on recurrent stroke or TIA and mRS by telephone, postal questionnaire, or from their GP",
+          "reasoning": "The authors used multiple methods to capture at least functional and recurrence data for those unable to attend in person."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Yes",
+          "evidence_snippet": "Reasons not tested at 1 year: Declined repeat test 11, too unwell 10, deceased 1",
+          "reasoning": "Specific reasons for attrition are tabulated in Table 1."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Tested patients were younger and less likely to be dependent at one year (Table 1).",
+          "reasoning": "Table 1 explicitly compares tested vs. non-tested patients on age, sex, NIHSS, and mRS."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "No",
+          "evidence_snippet": "Age at stroke (IQR) [Tested] 66 (56–74) [Not tested] 73 (61–82) P <0.01",
+          "reasoning": "There were statistically significant differences in age and functional status (mRS) between those who completed the study and those who did not."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Attrition Summary",
+        "prompt": "Loss to follow-up (from baseline sample to study population analyzed) is not associated with key characteristics (i.e., the study data adequately represent the sample) sufficient to limit potential bias to the observed relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The primary prognostic factor (NART) is a validated, reliable tool for estimating pre-morbid IQ and was administered by trained personnel. Measurement was consistent across the cohort.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "pre-morbid IQ using the NART... uses the ability to pronounce irregular words as a proxy measure of peak IQ",
+          "reasoning": "The NART is clearly defined as the measure for the primary prognostic factor."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "The NART has been validated in the seventh and eighth decades against actual cognitive ability at age 11 in local subjects",
+          "reasoning": "The authors cite specific validation studies for the NART in the relevant age group."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "Lower National Adult Reading Test score (cognitive impairment per point on National Adult Reading Test odds ratio 0.91)",
+          "reasoning": "NART is treated as a continuous variable in the primary regression analysis."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "All tests were carried out in the hospital, as we did not have resources for home visits.",
+          "reasoning": "Standardized hospital setting for all participants."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "157 returned for formal cognitive testing at one to three months",
+          "reasoning": "PF data (NART) was available for all patients who underwent cognitive testing."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The study appears to use complete case analysis; there is no mention of imputation for missing PF data."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "PF Measurement Summary",
+        "prompt": "PF is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The outcome (ACE-R) is a standard, validated cognitive battery. The cut-off used (<82) is pre-specified based on known sensitivity/specificity for dementia, and a sensitivity analysis was performed.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "primary outcome measure was the Addenbrookes Cognitive Examination, Revised (ACE-R)... we defined cognitive impairment as an ACE-R score <82",
+          "reasoning": "The outcome and the specific threshold for impairment are clearly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "ACE-R... is of equivalent sensitivity to the MoCA in detecting MCI... sensitivity of 84%, specificity of 100% for dementia",
+          "reasoning": "The ACE-R is a validated tool with known diagnostic properties cited by the authors."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "A trained clinician (SM) carried out the ACE-R, and other cognitive tests. We measured depression using the Beck Depression Index (BDI), and premorbid IQ using the NART. All tests were carried out in the hospital",
+          "reasoning": "Consistent setting and single trained assessor for the cognitive battery."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Outcome Measurement Summary",
+        "prompt": "Outcome of interest is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study accounts for major confounders including age, education, stroke severity (NIHSS), and depression (BDI) in multivariable models. Imaging markers of SVD were also included.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Yes",
+          "evidence_snippet": "recorded clinical features, vascular risk factors, magnetic resonance imaging-detected stroke sub-type and small vessel disease burden... depression using the Beck Depression Index",
+          "reasoning": "Key prognostic factors and potential confounders (age, sex, SVD, depression) were captured."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "We rated white matter hyperintensities (WMH) using the Fazekas score... created a 'total SVD score' of combined SVD features using the validated scale",
+          "reasoning": "Confounders like SVD burden are defined using validated radiological scales (Fazekas, STRIVE)."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "An experienced neuroradiologist performed a structured quantification of the MRI findings, blind to clinical and cognitive data.",
+          "reasoning": "Blinding of the radiologist to clinical outcomes reduces measurement bias for imaging confounders."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "using the same 1.5 Tesla GE Signa HDxt scanner throughout.",
+          "reasoning": "Standardized imaging and clinical assessment for all participants."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No mention of imputation; complete case analysis appears to have been used."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "Partial",
+          "evidence_snippet": "to provide an alternative subtype of stroke of similar severity to the lacunar group... as a relevant comparison group",
+          "reasoning": "The study design included a comparison group of similar severity (minor non-lacunar stroke), though not strictly matched."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "relationship between functional outcome and cognitive impairment remained significant after correction for age, NIHSS score, NART and BDI",
+          "reasoning": "Multivariable logistic regression was used to adjust for key variables."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Confounding Summary",
+        "prompt": "Important potential confounders are appropriately accounted for, limiting potential bias with respect to the relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical approach is sound, using logistic regression with appropriate variable-to-event ratios. Sensitivity analyses and post-hoc explorations are clearly labeled.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "We used logistic regression to calculate the odds ratio (OR) and 95% confidence interval (CI) of an ACE-R <82... The number of exploratory variables was restricted to one variable per 10 subjects",
+          "reasoning": "The strategy for handling variables and the choice of models are well-described."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "The number of exploratory variables was restricted to one variable per 10 subjects in the smallest group to guard against over-fitting.",
+          "reasoning": "The authors followed standard rules of thumb for model stability (EPV)."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "We used logistic regression... We repeated the analysis using the ACE-R cut off of <88, as a sensitivity analysis.",
+          "reasoning": "Logistic regression is appropriate for the dichotomous outcome, and sensitivity analysis adds robustness."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Both unadjusted (Table 3) and adjusted (Supplementary Table) analyses show...",
+          "reasoning": "The authors report both unadjusted and adjusted findings, as well as non-significant results (e.g., stroke subtype differences)."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Statistical Analysis and Presentation Summary",
+        "prompt": "The statistical analysis is appropriate for the design of the study, limiting potential for presentation of invalid or spurious results.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/12_Tao_2023/Makin_2018.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T10:50:00.807774"
+  }
+}

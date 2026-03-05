@@ -1,0 +1,332 @@
+{
+  "paper_metadata": {
+    "title": "Prognostic Markers for Poor Recovery After Mild Traumatic Brain Injury in Older Adults: A Pilot Cohort Study",
+    "first_author": "Vicki L. Kristman",
+    "year": "2016",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study provides a clear description of the target population and recruitment setting. However, the participation rate was relatively low (55.7%), and there were noted differences between participants and non-participants (non-participants were older and more likely to be >85 years), which may limit generalizability to the 'oldest old'.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Participants included older adults (aged ≥65 years) visiting the emergency department (ED) of 1 of 3 hospitals (in Thunder Bay and Kingston, Ontario, Canada) for an MTBI.",
+          "reasoning": "The authors clearly define the age, geographic location, and clinical setting of the target population."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "All older adult patients meeting the inclusion/exclusion criteria between November 5, 2012, and November 13, 2013, were invited to participate.",
+          "reasoning": "The study used a consecutive recruitment strategy within a defined timeframe at specific ED sites."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "between November 5, 2012, and November 13, 2013",
+          "reasoning": "Specific dates for the recruitment window are provided."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "emergency department (ED) of 1 of 3 hospitals (in Thunder Bay and Kingston, Ontario, Canada)",
+          "reasoning": "The clinical setting and cities are explicitly named."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "Participants were invited to participate if they were at least 65 years of age, Ontario residents, and seen in the ED for MTBI within 72 hours of injury. We excluded individuals who did not speak English... unable to provide information because of poor health or incompetency",
+          "reasoning": "Detailed inclusion/exclusion criteria, including the 'zero time' (within 72 hours of injury), are provided."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Partial",
+          "evidence_snippet": "Fifty-four of 97 eligible individuals agreed to participate in the study (55.7% participation rate).",
+          "reasoning": "A 55.7% participation rate is below the preferred 80% threshold, introducing potential selection bias."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Participants were predominantly white, female, and married, with a mean age of 76.2 years (SD: 7.4)",
+          "reasoning": "Key demographics and clinical characteristics are reported in the text and supplemental tables."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The follow-up rate was high (90.2%), and the authors performed a detailed comparison of baseline characteristics between those followed up and those lost, concluding that significant bias was unlikely despite some differences in age and injury severity.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "Forty-six of the 51 were followed up at 6 months (90.2% follow-up rate).",
+          "reasoning": "A follow-up rate of >90% is considered excellent for limiting attrition bias."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "Yes",
+          "evidence_snippet": "We made 5 attempts to contact participants by phone at varying times of the day for each planned interview.",
+          "reasoning": "The protocol for minimizing loss to follow-up is clearly described."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "While the number of lost participants is provided, the specific reasons (e.g., withdrawal, death, untraceable) for the 5 individuals are not explicitly listed."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Those lost to follow-up at 6 months were older (mean age 85.6 [SD: 9.3]) than those completing the study... tended to report worse health prior to the injury but good health since the injury",
+          "reasoning": "The authors provide a comparative analysis of baseline characteristics for the attrition group."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Partial",
+          "evidence_snippet": "Those lost to follow-up were more likely to be older, have more concurrent injuries and comorbidities... Yet, they tended to have a good expectation for recovery and score higher on all recovery measures at baseline",
+          "reasoning": "There were differences (age, comorbidities), but the authors argue these likely lead to conservative estimates rather than systematic bias."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Attrition Summary",
+        "prompt": "Loss to follow-up (from baseline sample to study population analyzed) is not associated with key characteristics (i.e., the study data adequately represent the sample) sufficient to limit potential bias to the observed relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study used a combination of objective clinical chart data and validated self-report scales. Measurement was standardized across the cohort, and the definitions of prognostic factors were clear.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "Potential prognostic marker information was collected from both clinical chart data and self-reported measures... Depression was measured with the Centre for Epidemiological Studies-–Depression Scale.",
+          "reasoning": "Each prognostic factor (clinical and psychosocial) is defined by a specific tool or chart data point."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "The Centre for Epidemiological Studies-–Depression Scale has high test-retest reliability, good internal consistency... The Numerical Rating Scale has good validity and reliability",
+          "reasoning": "The authors cite the psychometric properties of the instruments used to measure predictors."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "Depression was measured with the Centre for Epidemiological Studies-–Depression Scale... scored from 0 to 60",
+          "reasoning": "Standard scoring systems for validated scales were utilized."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Participants completed a computerassisted telephone interview survey at baseline.",
+          "reasoning": "A standardized CATI (Computer-Assisted Telephone Interview) was used for all participants."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "All participants allowed access [to clinical charts]",
+          "reasoning": "The study reports high completion rates for baseline measures among participants."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is no mention of imputation methods; however, the small sample size and pilot nature likely precluded complex imputation."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "PF Measurement Summary",
+        "prompt": "PF is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study used multiple validated outcome measures (RPQ, GOSE, SF-12) and a global recovery question. The 6-month follow-up is a standard and appropriate timeframe for MTBI prognosis.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "Six months after the ED visit... we used 4 measures of recovery... Postconcussion symptoms (PCSs)... Glasgow Outcome Scale-–Extended version (GOSE)... SF-12... Self-assessment of recovery.",
+          "reasoning": "The outcomes and the follow-up duration are explicitly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "The GOSE has shown adequate test-retest, interobserver reliability, excellent validity, and good responsiveness.",
+          "reasoning": "The authors utilize and justify the use of validated clinical scales."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Six months after the ED visit, participants who had completed the baseline questionnaire were contacted to complete another computer-assisted telephone interview",
+          "reasoning": "Standardized telephone interviews were used for all participants at the 6-month mark."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Outcome Measurement Summary",
+        "prompt": "Outcome of interest is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "High",
+      "risk_reasoning": "As a pilot study with a small sample size (n=46 for analysis), the study was unable to perform multivariable adjustment. The reported associations are univariable (Risk Ratios), meaning the observed effects of prognostic markers could be confounded by other factors.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Yes",
+          "evidence_snippet": "Baseline preinjury and injury data collected included (1) sociodemographic characteristics; (2) psychological and mental health factors; (3) preinjury functional status... (5) comorbidities",
+          "reasoning": "The authors measured a wide range of potential confounders."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "The presence of comorbidities was measured with the Saskatchewan Comorbidity Scale",
+          "reasoning": "Confounders like comorbidities and depression were defined using validated scales."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "The Saskatchewan Comorbidity Scale... demonstrated to have good test-retest reliability over a 3-week period and adequate validity.",
+          "reasoning": "Validated tools were used for the measurement of potential confounders."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Participants completed a computerassisted telephone interview survey at baseline.",
+          "reasoning": "Standardized baseline assessment for all."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No imputation methods for confounders were described."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "No",
+          "evidence_snippet": "single-group prospective inception cohort study design",
+          "reasoning": "The design did not include matching or stratification to control for confounding."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "No",
+          "evidence_snippet": "the small sample size limited the statistical power and provided no control for confounding factors.",
+          "reasoning": "The authors explicitly state that no adjustment for confounding was performed in the analysis."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Confounding Summary",
+        "prompt": "Important potential confounders are appropriately accounted for, limiting potential bias with respect to the relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The statistical methods were appropriate for a pilot study (univariable associations), and the authors were transparent about the limitations of their power. However, the lack of multivariable modeling limits the validity of the prognostic markers identified.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Bivariate associations were determined using contingency tables and χ2 tests... Risk ratios and 95% confidence intervals were reported.",
+          "reasoning": "The analytical plan is clearly laid out."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "No",
+          "evidence_snippet": "Individual predictors for each outcome measure were assessed separately.",
+          "reasoning": "No multivariable model was built; analysis was limited to bivariate associations."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Partial",
+          "evidence_snippet": "All statistical analyses were conducted using Stata, version 13.0.",
+          "reasoning": "While bivariate tests are technically correct for the data type, they are insufficient for definitive prognostic modeling."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1 highlights potentially important prognostic markers... (data not shown) [for non-significant comparisons]",
+          "reasoning": "The authors report on multiple outcomes and provide supplemental tables for the full range of data, though some non-significant results are summarized in text."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Statistical Analysis and Presentation Summary",
+        "prompt": "The statistical analysis is appropriate for the design of the study, limiting potential for presentation of invalid or spurious results.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/7_Tan_2025/Kristman_2016.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T11:18:47.919489"
+  }
+}

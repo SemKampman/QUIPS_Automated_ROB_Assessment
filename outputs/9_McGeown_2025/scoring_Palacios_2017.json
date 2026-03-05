@@ -1,0 +1,296 @@
+{
+  "paper_metadata": {
+    "title": "Resting-State Functional Connectivity Alterations Associated with Six-Month Outcomes in Mild Traumatic Brain Injury",
+    "first_author": "Eva M. Palacios",
+    "year": "2017",
+    "analysis_timestamp": "2023-10-27 10:15:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study uses a well-defined prospective multicenter cohort (TRACK-TBI) with clear inclusion/exclusion criteria and a matched control group. The sample is representative of the mTBI population seen in emergency departments.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "A sample of 75 mTBI patients recruited at San Francisco General Hospital (SFGH) as part of the prospective multi-center Transforming Research and Clinical Knowledge in TBI (TRACK-TBI) pilot study was included in this investigation.",
+          "reasoning": "The source is a specific trauma center within a larger prospective study, providing a clear context for the target population."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "The inclusion criteria included CT scan to assess for evidence of acute TBI within 24 h of injury, Glasgow Coma Scale (GCS) score 13–15 (upon emergency department [ED] arrival), loss of consciousness (LOC) <30 min, post-traumatic amnesia (PTA) duration <24 h, and age 18–55 years (inclusive).",
+          "reasoning": "Recruitment was based on objective clinical criteria in an ED setting, which is standard for mTBI prognosis studies."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "While the study mentions it is part of the TRACK-TBI pilot, the specific calendar dates for recruitment are not explicitly stated in the provided text."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "recruited at San Francisco General Hospital (SFGH) as part of the prospective multi-center Transforming Research and Clinical Knowledge in TBI (TRACK-TBI) pilot study",
+          "reasoning": "The specific hospital and the multicenter nature are clearly identified."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "Exclusion criteria were: lack of fluency in English, contraindication for MRI, and a reported history of previous TBI resulting in LOC >5 min.",
+          "reasoning": "Both inclusion (GCS, LOC, PTA) and exclusion criteria are detailed and clinically appropriate."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text does not provide the total number of eligible patients screened versus those enrolled, making it impossible to determine the participation rate."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "mTBI patients were divided into two subgroups: 1) CT/MRI positive (n = 31; age: x = 34 ± 12.2 years)... and 2) CT/MRI negative (n = 44; age: x = 31 – 9.5 years).",
+          "reasoning": "Age, GCS distribution, and radiological findings are provided for the baseline sample."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "While the study reports 6-month outcomes, it does not explicitly state the number of patients lost to follow-up between the semiacute MRI and the 6-month assessment, nor does it compare dropouts to completers.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text mentions 75 patients were recruited and 4 were excluded for artifacts, but it does not explicitly state if all remaining 71 provided 6-month outcome data."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is no mention of follow-up attempts for missing participants."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Partial",
+          "evidence_snippet": "Four of the subjects were excluded because of artifacts in the rsfMRI data.",
+          "reasoning": "Reasons for exclusion from imaging analysis are given, but reasons for any loss to 6-month clinical follow-up are missing."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No data is provided regarding the characteristics of patients who did not complete the 6-month follow-up."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No comparison between completers and non-completers was performed or reported."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Attrition Summary",
+        "prompt": "Loss to follow-up (from baseline sample to study population analyzed) is not associated with key characteristics (i.e., the study data adequately represent the sample) sufficient to limit potential bias to the observed relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The prognostic factor (rsfMRI connectivity) is measured using standardized, state-of-the-art neuroimaging protocols and objective automated analysis (ICA/FIX), minimizing measurement bias.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "A 7 min. rsfMRI single shot gradient-echo echo planar imaging (EPI) sequence was acquired (repetition time [TR] = 2000 ms, echo time [TE] = 28 ms; flip angle = 90 grad; field of view [FOV] = 220 mm; voxel size = 3.4 x 3.4 x 4.0 mm).",
+          "reasoning": "The imaging parameters and the definition of functional connectivity are precisely described."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "We then used ICA-based Xnoiseifier artifact removal (FIX) to de-noise single subject data... a group-level ICA was performed in the new ''clean'' data",
+          "reasoning": "The use of validated FSL tools and FIX artifact removal ensures high reliability of the connectivity measures."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "each edge represents the connectivity between pairs of nodes, computed using full correlation.",
+          "reasoning": "Connectivity is treated as a continuous variable (Z-scores/correlations) rather than arbitrary categories."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "all MRIs were performed on the same 3T GE Signa EXCITE scanner... using the same scanner software version.",
+          "reasoning": "The study used a single scanner and identical protocol for all subjects, eliminating site/hardware bias."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "Four of the subjects were excluded because of artifacts in the rsfMRI data.",
+          "reasoning": "Only 4 out of 75 (5.3%) were excluded, which is a very low rate for fMRI studies."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text does not mention imputation; it appears they used complete-case analysis for those with valid scans."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "Outcomes were measured using standardized, validated neuropsychological instruments administered by trained personnel at a consistent time point (6 months).",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "The outcome measures included the Extended Glasgow Outcome Scale (GOS-E) at 6 months post-injury... Rivermead Postconcussion Symptoms Questionnaire (RPQ)... California Verbal Learning Test–Second Edition (CVLT-II)... and Trail Making Tests (TMT) A and B",
+          "reasoning": "Multiple validated outcome scales are defined with a clear 6-month follow-up window."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "A trained neuropsychologist administered the following behavioral and cognitive tests... research assistants trained to uniformly assess the GOS-E.",
+          "reasoning": "The use of trained personnel and standardized tests ensures measurement reliability."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "A trained neuropsychologist administered the following behavioral and cognitive tests to the mTBI patients 6 months after injury",
+          "reasoning": "The protocol implies a standardized assessment for all patients at the 6-month mark."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "While the study matched controls for age and education and accounted for radiological lesions, it did not explicitly include other potential confounders (e.g., pre-injury psychiatric status, medications) in the multivariable models.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Partial",
+          "evidence_snippet": "The control group consisted of 47 healthy subjects matched with the patients group by age... and education... without previous diagnosis of TBI, or neurological or psychiatric disorders.",
+          "reasoning": "Age and education are matched, but other confounders like acute treatments or litigation status are not mentioned."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "matched with the patients group by age (x = 28.8 – 9 years; ANOVA: F = 2.5 p = 0.08) and education (ANOVA: F = 2.5 p = 0.08)",
+          "reasoning": "Age and education are clearly defined and statistically compared between groups."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "The control group consisted of 47 healthy subjects matched with the patients group by age and education",
+          "reasoning": "Demographic variables are generally reliable."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "The MRI scanner and the scanning protocol used were the same for the group of patients and for the healthy control group.",
+          "reasoning": "The setting for both PF and potential technical confounders was identical."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No mention of missing confounder data or imputation."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "Yes",
+          "evidence_snippet": "The control group consisted of 47 healthy subjects matched with the patients group by age and education",
+          "reasoning": "Matching was used in the design phase to control for primary demographic confounders."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Partial",
+          "evidence_snippet": "GLM was used to find group differences and correlations with cognitive and clinical outcomes.",
+          "reasoning": "While GLM was used, the text does not explicitly state which covariates (besides group) were included in the final correlation models."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study uses sophisticated, non-parametric statistical methods (permutation testing, TFCE) that are robust to multiple comparisons and do not rely on arbitrary cluster thresholds.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Resting-state fMRI data were first preprocessed and then analyzed using probabilistic independent component analysis (ICA), implemented in MELODIC, followed by a network-based approach with FSLNets",
+          "reasoning": "The analytical pipeline is described in detail, including software and specific toolboxes."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "We identified 20 RSNs from the group ICA decomposition... by visual inspection and using templates available in the literature.",
+          "reasoning": "The selection of networks was based on established neuroscientific templates."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "we used nonparametric statistics based on permutation testing with a threshold-free cluster enhancement (TFCE) method to correct for multiple comparisons.",
+          "reasoning": "TFCE with permutation testing is the current gold standard for avoiding false positives in fMRI research."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "All results were corrected for multiple comparisons by using FWE correction at p < 0.05.",
+          "reasoning": "The authors report both positive and negative findings (e.g., no differences between mTBI subgroups) and use strict correction for multiple testing."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/9_McGeown_2025/Palacios_2017.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T11:31:47.305402"
+  }
+}

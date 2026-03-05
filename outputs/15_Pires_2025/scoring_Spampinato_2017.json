@@ -1,0 +1,287 @@
+{
+  "paper_metadata": {
+    "title": "Diffusional Kurtosis Imaging and Motor Outcome in Acute Ischemic Stroke",
+    "first_author": "M.V. Spampinato",
+    "year": "2017",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study provides clear inclusion/exclusion criteria and describes the recruitment setting and baseline characteristics well. While the sample size is small, the population is well-defined for a hypothesis-generation study.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Patients with first-ever ischemic stroke with various degrees of motor impairment were enrolled in this prospective observational study.",
+          "reasoning": "The target population is clearly defined as first-ever ischemic stroke patients with motor deficits."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Partial",
+          "evidence_snippet": "Patients... were enrolled in this prospective observational study.",
+          "reasoning": "While it states it is prospective, the specific referral pattern or consecutive nature of recruitment is not explicitly detailed."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The specific calendar dates for the recruitment period are not provided in the manuscript."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "Medical University of South Carolina, Charleston, South Carolina",
+          "reasoning": "The institutional setting and geographic location are clearly identified."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "Inclusion criteria were the following: 18-80 years of age; first-ever ischemic stroke involving only 1 hemisphere, confirmed by MR imaging; brain MR imaging, including DKI, performed between 1 and 4 days after stroke onset; prestroke mRS ≤ 1; and unilateral motor impairment at baseline with an FM-UE scale score of ≤ 56 of 66",
+          "reasoning": "Criteria are highly specific, including age, stroke type, timing (zero time), and baseline functional status."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "Twenty-one patients were recruited for this study.",
+          "reasoning": "The text does not provide the number of screened vs. enrolled patients to determine the participation rate."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1: Patient clinical characteristics and demographics (N = 17)",
+          "reasoning": "Table 1 provides comprehensive data on age, sex, race, comorbidities, and baseline clinical scores."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study reports a loss of 4 out of 21 patients (19%). While reasons are given, the small sample size makes even minor attrition potentially impactful, and characteristics of those lost are not compared to completers.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Partial",
+          "evidence_snippet": "Twenty-one patients were recruited... 17 patients were included in the analysis",
+          "reasoning": "81% of the recruited sample was analyzed. This is generally acceptable but borderline for a very small study."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "3 patients were excluded because they were lost to follow-up",
+          "reasoning": "The study does not describe efforts made to contact or retain these patients."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Yes",
+          "evidence_snippet": "3 patients were excluded because they were lost to follow-up and 3-month follow-up data were not available. One patient was excluded because the DKI dataset was degraded by artifacts",
+          "reasoning": "Reasons (lost to follow-up and data quality) are explicitly stated."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is no description or table comparing the characteristics of the 4 excluded patients with the 17 included patients."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Without data on the excluded patients, it is impossible to determine if attrition was informative (bias)."
+        }
+      ]
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The prognostic factors (DKI metrics) are measured using standardized, objective software and protocols. The use of the contralateral hemisphere as an internal control further strengthens this domain.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "Parametric maps for the following metrics were obtained from the DKI dataset: 1) diffusivity metrics... 2) kurtosis metrics... 3) white matter tract integrity metrics",
+          "reasoning": "All diffusion and kurtosis metrics are mathematically defined and the measurement method (DKI) is detailed."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Using Diffusional Kurtosis Estimator software (Version 2.6... implemented in Matlab... we calculated the diffusion and kurtosis tensors",
+          "reasoning": "The study uses established software and objective MR physics-based measurements, which are not subject to recall bias."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "Average diffusion values of the CST VOIs were computed for all diffusion metrics",
+          "reasoning": "Metrics are treated as continuous variables in the correlation analysis."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Brain MRIs were performed on a 1.5T MR imaging scanner... Imaging parameters of the diffusion sequence were the following...",
+          "reasoning": "A standardized imaging protocol and single scanner were used for all subjects."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "One patient was excluded because the DKI dataset was degraded by artifacts from bulk motion.",
+          "reasoning": "Only one patient was excluded due to PF measurement issues; the remaining 17 had complete data."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Imputation was not used; patients with missing or poor data were simply excluded."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The outcome (FM-UE) is a validated, reliable clinical scale. The assessment was performed by a trained neurologist, and the timing of the follow-up was consistent.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "During the 3-month follow-up examination, the FM-UE scale, NIHSS, and mRS scores were obtained. The FM-UE scale... represented the primary motor outcome variable",
+          "reasoning": "The primary outcome and the 3-month timeframe are explicitly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "The FM-UE scale, a motor assessment scale with excellent intra- and interrater reliability",
+          "reasoning": "The study uses a gold-standard, validated instrument for motor recovery."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "A detailed neurologic examination was performed by a stroke neurologist in the acute phase and at a 3-month follow-up visit.",
+          "reasoning": "The same clinical examination protocol was applied to all participants at the same time points."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "High",
+      "risk_reasoning": "The study relies primarily on univariable Spearman correlations. It does not perform multivariable adjustment for key confounders like age, baseline severity, or lesion volume, which is a significant limitation acknowledged by the authors.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1: Patient clinical characteristics... Age... Stroke etiology... rtPA... Hypertension... Median No. of days of rehabilitation therapy",
+          "reasoning": "The study measured a wide range of potential confounders including demographics, comorbidities, and therapy intensity."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Partial",
+          "evidence_snippet": "Median No. of days of rehabilitation therapy",
+          "reasoning": "While factors are listed, the 'dose' or 'intensity' of rehabilitation is only captured as 'days', which is a crude measure."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "The baseline examination included the FM-UE scale and the NIHSS",
+          "reasoning": "Clinical confounders were measured using standardized scales (NIHSS)."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "A detailed neurologic examination was performed by a stroke neurologist",
+          "reasoning": "Standardized clinical intake was used for all patients."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No imputation methods were described."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The study did not use matching or stratification in its design."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "No",
+          "evidence_snippet": "Associations between average CST diffusion metrics and the 3-month FM-UE scale were evaluated by using Spearman rank correlation tests.",
+          "reasoning": "The analysis is limited to univariable correlations. No multivariable modeling was performed to adjust for confounders like age or baseline NIHSS."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The analysis is appropriate for the stated goal of 'hypothesis generation' but is limited by the lack of correction for multiple comparisons and the small sample size, which increases the risk of spurious findings.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Comparisons... were performed by using the paired Wilcoxon signed rank test. Associations... were evaluated by using Spearman rank correlation tests.",
+          "reasoning": "The statistical tests used are clearly stated and appropriate for the data distribution (non-parametric)."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There was no multivariable model building; the study only looked at individual correlations."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Partial",
+          "evidence_snippet": "Because this study was designed largely to be one of hypothesis generation, P values were not corrected for multiple comparisons.",
+          "reasoning": "While Spearman correlations are adequate for simple association, the lack of correction for multiple testing in a study with many metrics increases the risk of Type I error."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Table 3: Correlations among the baseline FM-UE scale score, corticospinal tract diffusion metrics, and 3-month FM-UE scale score",
+          "reasoning": "The study reports results for all measured metrics (MD, FA, MK, etc.), not just the significant ones."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/15_Pires_2025/Spampinato_2017.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T11:04:23.233428"
+  }
+}

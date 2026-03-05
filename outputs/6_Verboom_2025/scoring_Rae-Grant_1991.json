@@ -1,0 +1,287 @@
+{
+  "paper_metadata": {
+    "title": "Development of a novel EEG rating scale for head injury using dichotomous variables",
+    "first_author": "Alexander D. Rae-Grant",
+    "year": "1991",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study describes the recruitment setting and criteria well, but it is a retrospective convenience sample of patients who received an EEG for clinical reasons (seizures, deterioration), which may not represent the entire head-injured population. Participation rates of eligible vs. non-eligible patients are not provided.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "patients admitted to the Shock Trauma Unit (STU) or Neurological Intensive Care Unit (NICU) of the Lehigh Valley Hospital Center",
+          "reasoning": "The source population is clearly defined as patients in specific high-acuity units at a named medical center."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Partial",
+          "evidence_snippet": "an EEG was performed on all patients to investigate seizures, focal neurological abnormalities, CNS deteriorations, or suspected brain death.",
+          "reasoning": "While the clinical reasons for EEG are listed, this creates a selection bias as only those with clinical indications for EEG were included, rather than a consecutive series of all head-injured patients."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "over 3 years (1987-March 1990).",
+          "reasoning": "The dates are explicitly stated."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "Lehigh Valley Hospital Center, Allentown, PA",
+          "reasoning": "The specific hospital and city are provided."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Partial",
+          "evidence_snippet": "We reviewed all EEG records performed on patients admitted to the Shock Trauma Unit (STU) or Neurological Intensive Care Unit (NICU)... A total of 57 first EEGs were scored",
+          "reasoning": "Inclusion is based on having an EEG and being in specific units. Explicit exclusion criteria (other than not having an EEG) are not detailed."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not state how many patients were eligible but did not receive an EEG or were excluded for other reasons, making it impossible to calculate a participation rate."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Table lit Demographic data of trauma patients. [Age, M:F, Mechanism of injury, Medications, CT scans]",
+          "reasoning": "A comprehensive table of demographics, injury mechanisms, and clinical status is provided."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "As a retrospective review of records for a short-term outcome (hospital discharge), the study accounted for all 57 patients in the analysis. There was no loss to follow-up for the primary outcome.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "Fifty-seven patients were scored using these scales... Outcome (discharge from acute care hospital) [Total N=57]",
+          "reasoning": "All 57 patients included in the EEG scoring had their outcomes recorded at discharge."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "Yes",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Not applicable as there were no dropouts reported for the retrospective cohort."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Yes",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Not applicable; the study reports outcomes for the full sample."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Not applicable."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Yes",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The entire sample was analyzed."
+        }
+      ]
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The EEG variables are clearly defined, measured using standardized equipment/guidelines, and assessed by two independent raters with high inter-rater reliability. Raters were blinded to the clinical outcome during the scoring process.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "The features scored were defined as follows: (1) 'Normal' alpha... (2) WAU/alpha coma... [etc]",
+          "reasoning": "The paper provides detailed definitions for all 20 EEG variables included in the scale."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "One electroencephalographer (ARG) scored each record twice (6 weeks apart) without reviewing the prior score or case record, while another (PB) scored the records once independently.",
+          "reasoning": "The use of independent raters and blinding to clinical records/prior scores ensures reliability."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "We then developed a scale which included each of these features in a present or absent dichotomy",
+          "reasoning": "The scale uses pre-defined dichotomous variables based on established literature rather than data-driven cut-points."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Portable and laboratory EEGs were performed according to American EEG Society Guidelines (1986)... standard referential and bipolar montages were used for a recording period of 30 min or more.",
+          "reasoning": "Standardized protocols were applied to all subjects."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "All studies could be scored using the dichotomous scale.",
+          "reasoning": "100% of the sample had complete PF data."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "Yes",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Not applicable as there was no missing data."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The outcome (GOS) is a standard tool, but it was assessed retrospectively from clinical notes at discharge. There is no mention of whether the person assessing the GOS was blinded to the EEG results, which could lead to bias.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "An assessment of Glasgow outcome scale (GOS) was then made (i.e., 1= death, 2 = vegetative state, 3 = severely disabled, 4 = moderately disabled, 5 = good outcome)",
+          "reasoning": "The GOS is a well-defined, standard prognostic outcome measure."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Partial",
+          "evidence_snippet": "Charts were retrospectively reviewed and the patient outcome assessed from clinical notes at discharge.",
+          "reasoning": "While GOS is valid, retrospective chart review is prone to error, and blinding of the outcome assessor to the EEG score is not confirmed."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "patient outcome assessed from clinical notes at discharge.",
+          "reasoning": "The timing (discharge) and method (chart review) were consistent for all participants."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "High",
+      "risk_reasoning": "The study does not perform multivariable analysis to account for major confounders such as age, CT scan findings, or the heavy use of sedative/paralyzing medications (which are listed but not adjusted for). The association reported is purely univariable.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Yes",
+          "evidence_snippet": "Sedative, paralyzing, anesthetic and narcotic medications were frequently used... CT scans were abnormal in 36/57 patients",
+          "reasoning": "The authors identified and measured age, medication, and CT findings."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Partial",
+          "evidence_snippet": "9 were on paralyzing agents at the time of the study, 26 on morphine, 25 on benzodiazepines",
+          "reasoning": "Medications are listed by class/type, but specific doses or durations are not provided."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Charts were retrospectively reviewed",
+          "reasoning": "Confounders were pulled from medical records, which is standard for this study type."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Charts were retrospectively reviewed",
+          "reasoning": "Consistent method for all subjects."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "Yes",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No missing data reported for confounders."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There was no matching or stratification in the study design to control for confounders."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "No",
+          "evidence_snippet": "A comparison between GOS at discharge and first EEG dichotomous score was made using Pearson correlation coefficients.",
+          "reasoning": "The analysis used simple Pearson correlations. No multivariable regression was performed to adjust for age, injury severity, or medications."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The statistical analysis is appropriate for a reliability study (Pearson's r), but the use of Pearson correlation for the ordinal GOS scale is technically suboptimal (Spearman would be preferred). The reporting is transparent, but the lack of multivariable modeling limits the prognostic validity.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Pearson's product moment correlation (r) was computed... a Bonferroni adjusted significance level of 0.005.",
+          "reasoning": "The statistical methods are clearly stated."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Partial",
+          "evidence_snippet": "Each variable was weighted according to its perceived prognostic value... based on the usual significance of the wave form",
+          "reasoning": "The weighting was based on prior literature, which is a conceptual framework, but the weights were not statistically derived from the current data."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Partial",
+          "evidence_snippet": "Pearson correlation coefficients.",
+          "reasoning": "Pearson correlation is used for GOS (an ordinal scale) and the EEG score. While common in 1991, non-parametric or ordinal regression would be more appropriate."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "All records were scored... All studies could be scored",
+          "reasoning": "The authors report results for the full scale and sub-analyses excluding extreme scores, suggesting transparent reporting."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/6_Verboom_2025/Rae-Grant_1991.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T11:11:39.057024"
+  }
+}

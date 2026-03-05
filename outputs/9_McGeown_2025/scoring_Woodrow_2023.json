@@ -1,0 +1,332 @@
+{
+  "paper_metadata": {
+    "title": "Acute thalamic connectivity precedes chronic post-concussive symptoms in mild traumatic brain injury",
+    "first_author": "Rebecca E. Woodrow",
+    "year": "2023",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study uses a large, multicenter prospective cohort (CENTER-TBI) with well-defined inclusion/exclusion criteria. The sample is representative of the target population (GCS 13-15, normal CT), and baseline characteristics are thoroughly described and compared with controls.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "We compared structural MRI and resting state functional MRI in 108 patients with a Glasgow Coma Scale (GCS) of 13-15 and normal CT, and 76 controls.",
+          "reasoning": "The target population is clearly defined by clinical severity (GCS) and imaging status (normal CT)."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "Data for the analyses in this manuscript were obtained from subjects recruited to the MRI sub-study of CENTER-TBI between December 2014 and December 2017",
+          "reasoning": "Recruitment is part of a large-scale, standardized European multicenter study with established protocols."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "between December 2014 and December 2017",
+          "reasoning": "Specific dates are provided."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "Matched healthy controls (n = 76) were recruited from the same centres as patients and contemporaneously imaged on the same MRI systems.",
+          "reasoning": "Recruitment occurred across multiple European centers participating in CENTER-TBI."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "Inclusion criteria were that subjects were aged 18–70 years with no medical history of previous concussion or neuropsychiatric disease. We included 108 patients who additionally sustained a mTBI [Glasgow Coma Scale (GCS) 13–15], required a head CT according to local criteria on initial presentation, showed no CT abnormalities",
+          "reasoning": "Criteria are explicit regarding age, prior history, and acute clinical presentation."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not explicitly state the total number of eligible patients screened versus those who consented/participated (participation rate)."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Demographic information for all mTBI patients according to the above criteria... is shown in Supplementary Table 1... Table 1 Baseline demographic, injury and outcome measures by clinical group",
+          "reasoning": "Age, sex, GCS, and injury cause are provided in Table 1."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "While 6-month outcome data was available for most of the primary cohort (98/108 for RPQ), the longitudinal imaging sub-cohort (n=31) showed significant differences from the main cohort, including higher rates of incomplete recovery and exclusively admitted patients, suggesting potential selection bias in the longitudinal analysis.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "6-Month PCS... n = 98",
+          "reasoning": "98 out of 108 patients (90.7%) provided the primary outcome data (RPQ), which is a high retention rate."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text does not describe specific efforts to reach those lost to follow-up."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Reasons for the 10 missing patients in the 6-month outcome are not detailed."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No comparison is provided between the 10 dropouts and the 98 completers."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "The serial imaging cohort... had higher incomplete recovery according to GOSE at 6 and 12 months... fewer female participants... and were exclusively from admission stratum",
+          "reasoning": "While the 6-month outcome cohort is largely intact, the longitudinal sub-analysis cohort is significantly different from the baseline, which the authors acknowledge as a limitation."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Attrition Summary",
+        "prompt": "Loss to follow-up (from baseline sample to study population analyzed) is not associated with key characteristics (i.e., the study data adequately represent the sample) sufficient to limit potential bias to the observed relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The prognostic factor (thalamic functional connectivity) is measured using state-of-the-art fMRI preprocessing (fmriprep) and standardized atlases. The use of NeuroCombat for site harmonization and rigorous motion scrubbing limits measurement bias.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "Three lines of thalamic functional connectivity were investigated... average thalamocortical connectivity... functional connectivity between thalamic ROIs... local brain-wide functional connectivity changes",
+          "reasoning": "The prognostic factors are clearly defined as specific fMRI-derived connectivity metrics."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Preprocessing of T1-weighted and rsfMRI data was largely performed using fmriprep (v1.5.4)... Functional data were then spatially smoothed (6 mm gaussian kernel) and denoised via signal regression",
+          "reasoning": "Standardized, validated pipelines and denoising techniques were used."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "For each participant, this provided beta maps of ROI-to-voxel connectivity",
+          "reasoning": "Connectivity is treated as a continuous variable in the linear models."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Acquisition protocols for CENTER-TBI are described in the central CENTER-TBI resources... efforts were made to statistically harmonize each data type across n = 14 sites/scanners using NeuroCombat",
+          "reasoning": "Standardized protocols were used across sites, and statistical harmonization was applied to address site-specific variance."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "We included 108 patients who... had both T1-weighted MRI and rsfMRI in the acute phase postinjury.",
+          "reasoning": "The analysis was restricted to those with complete imaging data."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "Yes",
+          "evidence_snippet": "Missing demographic data typical of large datasets were handled by multiple imputation using the Multivariate Imputation by Chained Equations algorithm",
+          "reasoning": "MICE was used for missing covariates, though PF data itself was required for inclusion."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "PF Measurement Summary",
+        "prompt": "PF is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "Outcomes are measured using internationally recognized, validated scales (GOSE and RPQ). The definition of Post-Concussive Symptoms (PCS) follows ICD-10 criteria, which is standard in the field.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "Six-month outcomes assessed functional and symptomatic recovery using the Glasgow Outcome Scale–Extended (GOSE) and Rivermead Postconcussion Symptom Questionnaire (RPQ).",
+          "reasoning": "Outcomes and the 6-month time point are clearly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "PCS groups were defined in accordance with the International Classification of Diseases 10th Revision",
+          "reasoning": "The study uses validated clinical instruments and standard diagnostic criteria (ICD-10)."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "These measures were binarized to 'complete' (GOSE-8) versus 'incomplete' (GOSE ≤7) recovery and post-concussive symptom-(PCS) positive or negative.",
+          "reasoning": "Standardized binarization and scoring were applied to all participants."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Outcome Measurement Summary",
+        "prompt": "Outcome of interest is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study rigorously accounts for confounding by including age, sex, GCS, and time since injury as covariates in the multivariable linear models. It also excludes patients with pre-existing neuropsychiatric disease or prior concussions to isolate the effect of the current mTBI.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Yes",
+          "evidence_snippet": "clinical group, age and sex were included in the model as covariates... further accounting for age, sex, time since injury and baseline GCS in the linear model.",
+          "reasoning": "Key demographic and clinical severity markers were recorded and used."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "age is hereafter treated as a continuous covariate... baseline GCS (Fisher's exact).",
+          "reasoning": "Confounders are clearly defined and categorized."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Baseline characteristics... are shown in Table 1",
+          "reasoning": "Standard clinical metrics (GCS) and demographics were used."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Matched healthy controls (n = 76) were recruited from the same centres as patients",
+          "reasoning": "Controls and patients were recruited and assessed in the same settings."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "Yes",
+          "evidence_snippet": "Missing demographic data... were handled by multiple imputation using the Multivariate Imputation by Chained Equations algorithm",
+          "reasoning": "MICE is a robust method for handling missing covariates."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "Yes",
+          "evidence_snippet": "Matched healthy controls (n = 76) were recruited from the same centres as patients and contemporaneously imaged",
+          "reasoning": "The study used a matched control group and excluded patients with prior history that would confound PCS reporting."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "controlling for covariates of sex and age... further accounting for age, sex, time since injury and baseline GCS in the linear model.",
+          "reasoning": "Multivariable adjustment was performed for all primary analyses."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Confounding Summary",
+        "prompt": "Important potential confounders are appropriately accounted for, limiting potential bias with respect to the relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical approach is sophisticated, utilizing FDR correction for multiple comparisons, NeuroCombat for site effects, and spin tests for spatial PET correlations. The reporting is transparent, including both significant and non-significant results (e.g., blood biomarkers).",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "All statistical analyses were conducted using R (v.4.1.2) at a false discovery rate (FDR)-corrected significance level of P ≤ 0.05",
+          "reasoning": "The strategy is detailed, including software versions and correction methods."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "models an expected biological value such as volume or connectivity as a linear combination of biological variables and site differences",
+          "reasoning": "The use of linear models with pre-specified covariates is appropriate for this prognostic study."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "linear model with type III sum of squares... two-way mixed-ANOVA",
+          "reasoning": "The models correctly account for the group comparisons and longitudinal nature of the sub-cohort."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "The remaining nonsignificant associations with PET maps are presented in Supplementary Table 3.",
+          "reasoning": "The authors report on all investigated nuclei, blood biomarkers (even though non-significant), and provide supplementary data for non-significant findings."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Statistical Analysis and Presentation Summary",
+        "prompt": "The statistical analysis is appropriate for the design of the study, limiting potential for presentation of invalid or spurious results.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/9_McGeown_2025/Woodrow_2023.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T11:47:01.418740"
+  }
+}

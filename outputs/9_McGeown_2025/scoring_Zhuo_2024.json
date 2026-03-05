@@ -1,0 +1,287 @@
+{
+  "paper_metadata": {
+    "title": "Longitudinal assessment of glymphatic changes following mild traumatic brain injury: Insights from perivascular space burden and DTI-ALPS imaging",
+    "first_author": "Jiachen Zhuo",
+    "year": "2024",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study provides a detailed description of the source population, recruitment setting (Shock Trauma Center), and explicit inclusion/exclusion criteria for both mTBI and control groups. The use of both orthopedic and healthy controls helps mitigate selection bias, and baseline characteristics are well-reported.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "mTBI and orthopedic control patients were recruited from the R Adam Cowley Shock Trauma Center (STC) at the University of Maryland Medical Center.",
+          "reasoning": "The source population is clearly defined as patients admitted to a specific level-1 trauma center."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "Participants in this study were prospectively recruited, which included mTBI patients, orthopedic control patients with no head injury, and healthy controls without mTBI or orthopedic injury.",
+          "reasoning": "The study uses prospective recruitment across three distinct groups to ensure a representative sample of the target population."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "While the paper mentions the study was received in June 2024, the specific calendar years of participant recruitment are not explicitly stated."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location) are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "recruited from the R Adam Cowley Shock Trauma Center (STC) at the University of Maryland Medical Center.",
+          "reasoning": "The specific clinical setting and institution are clearly identified."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "Inclusion criteria for the mTBI patients included (I1) an admission Glasgow Coma Score (GCS) of 13–15; (I2) a positive admission CT, or if negative CT, then with documented/reported loss of consciousness or amnesia...",
+          "reasoning": "The study provides highly specific clinical and diagnostic criteria for inclusion and a comprehensive list of exclusion criteria."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "A total of 63 mTBI patients, 31 orthopedic control patients (OC) and 20 healthy controls (HC) were enrolled in the study.",
+          "reasoning": "The paper does not report the total number of eligible individuals screened versus those enrolled, making it impossible to calculate the participation rate."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 2 Socio-demographic, symptoms, and imaging measures for control and mTBI patients at two visits (14Day and 6–12Mon).",
+          "reasoning": "Age, sex, education, race, BMI, and clinical severity (GCS) are all reported in detail."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "There is a notable attrition rate (approx. 27% of mTBI patients did not complete follow-up). While the authors acknowledge a potential selection bias toward those with persistent symptoms, they do not provide a detailed comparison of baseline characteristics between completers and non-completers.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Partial",
+          "evidence_snippet": "63 mTBI patients... enrolled... 46 mTBI patients came back for follow-up visits at 6months to 12months.",
+          "reasoning": "The follow-up rate for the primary mTBI group is roughly 73%, which is below the ideal 80% threshold but common in TBI research."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The study does not describe efforts to reach or collect data from those who did not return for the 6-12 month visit."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Specific reasons for dropout (e.g., moved, recovered, too ill) are not provided."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is no table or text comparing the 46 completers to the 17 non-completers."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "we did not observe significant symptom improvement in mTBI patients, possibly due to a selection bias favoring those with persistent symptoms.",
+          "reasoning": "The authors admit a possible bias where only symptomatic patients returned, but they do not provide the data to confirm or refute differences."
+        }
+      ]
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The prognostic factors (ePVS and DTI-ALPS) are measured using advanced, automated, and standardized MRI protocols. The methodology is well-validated and applied consistently across all participants.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "ePVS burden = 100% × ePVS volume/region volume... DTI-ALPS index was calculated using the method originally proposed (33).",
+          "reasoning": "Both imaging markers are mathematically defined and the measurement process is detailed."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "We employed a previously described method for automatic segmentation... Preprocessing steps included denoising (64), eddy-current correction and motion correction (65).",
+          "reasoning": "The study uses state-of-the-art automated pipelines (HCP, MRtrix3) and quality control (manual inspection) to ensure reliability."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "WM-ePVS burden and ALPS index were found to be significantly correlated with age... Logistic regression with stepwise selection was used to develop prediction models.",
+          "reasoning": "The PFs are treated as continuous variables in the primary analyses."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "All MRIs were acquired in a 3T Siemens Prisma scanner with a 64-channel head and neck coil.",
+          "reasoning": "Standardized equipment and protocols were used for all subjects."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "Data from two additional patients were excluded after manual inspection of data quality due to motion artifacts.",
+          "reasoning": "Only a very small number of subjects were excluded due to PF measurement issues."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The study appears to use complete-case analysis; no imputation methods are mentioned."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The outcomes (RPQ and PSQI) are self-reported, which introduces subjectivity and potential recall bias. However, these are validated and standard instruments in TBI research.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "Modified Rivermead Post-Concussion Symptoms Questionnaire (RPQ) (58) and the Pittsburgh Sleep Quality Index (PSQI) (59) at each study visit.",
+          "reasoning": "The outcomes are defined using established clinical scales with clear scoring ranges."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Partial",
+          "evidence_snippet": "Our study relied on self-reported symptoms, so an important next step is to use more objective memory tests.",
+          "reasoning": "While the scales are validated, the authors acknowledge the limitation of relying on self-reporting rather than objective neuropsychological testing."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Participants also completed self-reported symptoms... at each study visit.",
+          "reasoning": "The assessment protocol was uniform across the study groups."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study rigorously accounts for major confounders (age and sex) in all statistical models. It also considers education and clinical findings (CT/MRI) in the predictive modeling.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Partial",
+          "evidence_snippet": "Participant socio-demographic information included age, sex, years of education... other underlying health conditions (e.g., cardiovascular burden, blood pressure, diabetes)... may impact the glymphatic function.",
+          "reasoning": "Key demographics are measured, but the authors admit that comorbidities and treatments during the follow-up period were not fully accounted for."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "socio-demographic (Age, Sex, Education), clinical information (GCS, CT or MRI findings).",
+          "reasoning": "The confounders used in the models are standard and clearly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "All socio-demographic information was based on participant self-report. Patient clinical information included admission GCS...",
+          "reasoning": "Confounders were measured using standard clinical records and self-report."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "All participants underwent informed consent... socio-demographic information was based on participant self-report.",
+          "reasoning": "Data collection was consistent across groups."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No imputation mentioned."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "Yes",
+          "evidence_snippet": "37 controls, comprising both orthopedic patients and healthy individuals, were included for comparative analysis.",
+          "reasoning": "The inclusion of an orthopedic control group is a strong design choice to account for the confounding effect of general trauma."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "Associations of imaging measures with assessment scores were analyzed using multiple variable linear regression with age and sex as covariables.",
+          "reasoning": "Statistical models explicitly adjusted for the most critical confounders (age and sex)."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical approach is sophisticated, utilizing linear mixed models for longitudinal data and ROC analysis for prediction. The reporting is transparent, including both significant and non-significant findings.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Longitudinal analysis in mTBI patients was conducted using linear mixed model... Logistic regression with stepwise selection was used to develop prediction models.",
+          "reasoning": "The analytical plan is described in detail, allowing for replication."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "Stepwise selection selected two parameters for Model 1... and four parameters for Model 2.",
+          "reasoning": "The authors used a logical, stepwise approach to compare a basic clinical model against one augmented with glymphatic markers."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "linear mixed model with visit (14Day, 6–12Mon) as fixed effect, patient as a random effect, and age and sex as covariates.",
+          "reasoning": "Linear mixed models are the gold standard for analyzing longitudinal data with missing observations/attrition."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "No significant differences were observed in the glymphatic imaging markers between the controls and mTBI patients... No significant age-correlations were found for BG-ePVS burden.",
+          "reasoning": "The authors report null findings and negative results alongside their primary findings, suggesting a lack of reporting bias."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/9_McGeown_2025/Zhuo_2024.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T11:35:42.906094"
+  }
+}

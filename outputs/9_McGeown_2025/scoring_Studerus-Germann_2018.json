@@ -1,0 +1,287 @@
+{
+  "paper_metadata": {
+    "title": "Central nervous system microbleeds in the acute phase are associated with structural integrity by DTI one year after mild traumatic brain injury: A longitudinal study",
+    "first_author": "Aline M. Studerus-Germann",
+    "year": "2018",
+    "analysis_timestamp": "2023-10-27 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study uses a consecutive sampling method and provides clear inclusion/exclusion criteria. However, the sample size is small (n=30), and the control group was recruited from the community rather than the same clinical setting, which may introduce selection bias.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "The mTBI group included consecutive patients presenting to the emergency department between August 2012 and December 2013.",
+          "reasoning": "The source (Emergency Department) and the nature of the patients (mTBI) are clearly defined."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "The mTBI group included consecutive patients presenting to the emergency department between August 2012 and December 2013.",
+          "reasoning": "Consecutive recruitment is a standard method to minimize selection bias in clinical cohorts."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "between August 2012 and December 2013.",
+          "reasoning": "The dates are explicitly provided."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "emergency department... Cantonal Hospital St. Gallen, St. Gallen, Switzerland",
+          "reasoning": "The specific hospital and department are identified."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "mTBI was defined as an initial GCS of 13–15, loss of consciousness (LOC) lasting less than 30 min, posttraumatic amnesia (PTA) ofless than 24 h... Exclusion criteria were: patients under the influence of alcohol...",
+          "reasoning": "Detailed clinical parameters for inclusion and specific psychiatric/medical exclusions are listed."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not report the total number of eligible patients screened versus those who consented, making it impossible to determine the participation rate."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "30 mTBI patients (mean age: 35.0, SD: 13.4, range: 18–55 years, 16 males and 14 females)",
+          "reasoning": "Age, sex, and education are reported for the baseline sample."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "High",
+      "risk_reasoning": "There is a significant loss to follow-up (33% for MRI and NPA at 12 months). The authors acknowledge that dropouts were due to motivational reasons, but they do not provide a comparison of baseline characteristics between completers and non-completers to rule out informative censoring.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "No",
+          "evidence_snippet": "Complete MRI data of 30 patients and 20 patients were available at T1 and T3, respectively.",
+          "reasoning": "Only 20/30 (66%) of the original cohort completed the 12-month follow-up, which is below the generally accepted 80% threshold."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "Partial",
+          "evidence_snippet": "active telephone follow-ups, reimbursement of travel costs",
+          "reasoning": "The authors mention efforts to retain patients, but do not describe attempts to collect data from those who ultimately dropped out."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Yes",
+          "evidence_snippet": "Dropouts were mainly due to motivational reasons of the patients.",
+          "reasoning": "A general reason is provided, though not specific for each individual."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is no table or description comparing the characteristics of those lost to follow-up versus those who remained."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Without a comparison analysis, it is impossible to determine if the attrition was biased."
+        }
+      ]
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The prognostic factor (Microbleeds) was measured using standardized 3T MRI protocols and assessed by a neuroradiologist using clear, objective criteria to distinguish them from mimics.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "The neuroradiologist recorded the amount and localization of Mb (max 2–10 mm) on SWI.",
+          "reasoning": "The size and imaging modality (SWI) are clearly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "In order to exclude other possible lesions mimicking Mb, the expected Mb should not have a T2 hyperintense rim (edema), should not appear as a calcifications in CT...",
+          "reasoning": "The use of specific radiological exclusion criteria and a trained neuroradiologist enhances reliability."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "The amount of Mb at T1 correlated significantly with ten symptom values...",
+          "reasoning": "The authors used the raw count (amount) for correlations rather than arbitrary binary splits."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "MR-images were acquired... in the same 3T Siemens MAGNETOM Verio scanner",
+          "reasoning": "All patients were scanned using the same equipment and protocol."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "Complete MRI data of 30 patients... were available at T1",
+          "reasoning": "100% of the baseline cohort had the prognostic factor measured."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No imputation was used; the study relied on complete case analysis."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "Outcomes were measured using a comprehensive battery of validated neuropsychological tests and standardized scales (PCSS). The methods were consistent across all participants.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "assessed with a battery of validated neuropsychological measures within one week (T1), at three (T2) and twelve months (T3) post-injury.",
+          "reasoning": "The timing and specific tests (ImPACT, TAP, TMT, etc.) are explicitly listed."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "The following tests and questionnaires were included: Immediate Post-Concussion Assessment and Cognitive Testing (ImPACT)... Green's Medical Symptom Validity Test (MSVT)",
+          "reasoning": "The use of validated tools and a symptom validity test (MSVT) to exclude poor effort increases the reliability of the outcome data."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "All patients returning to FU were assessed with a battery of validated neuropsychological measures",
+          "reasoning": "The protocol was standardized for all participants."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "While the authors matched the control group for age and sex and used these as covariates in the DTI analysis, the primary analysis of microbleeds and neuropsychological outcomes (Tables 3 and 4) appears to use univariable tests (Mann-Whitney U) without adjusting for potential confounders like education or baseline injury severity.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Yes",
+          "evidence_snippet": "medical history, current medication, smoking habits and drug use was assessed... years of education and handedness.",
+          "reasoning": "The authors collected data on standard confounders."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Partial",
+          "evidence_snippet": "mean age: 35.0, SD: 13.4... years of education",
+          "reasoning": "Demographics are defined, but 'medication' and 'drug use' are not detailed in terms of dose or duration."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "neurosurgeon on call completed a standardized concussion evaluation form",
+          "reasoning": "Clinical data were collected by specialists using standardized forms."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "standardized concussion evaluation form... medical history... was assessed.",
+          "reasoning": "The assessment was uniform for the cohort."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No imputation was reported."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "Yes",
+          "evidence_snippet": "20 healthy age- and sexmatched individuals",
+          "reasoning": "The control group was matched for primary demographic confounders."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Partial",
+          "evidence_snippet": "Voxelwise general linear model (GLM) was designed with age and sex as covariates.",
+          "reasoning": "Adjustment was performed for DTI analysis, but the neuropsychological outcome comparisons (the main prognostic focus) used univariable tests."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The statistical analysis is generally appropriate, but the small sample size limits the power of the study. There is a risk of multiple comparison bias given the large number of neuropsychological tests performed without explicit correction (e.g., Bonferroni) for the non-imaging correlations.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Statistical analysis was conducted using SPSS 22.0... unpaired,two-tailed Student's t-tests or Mann–Whitney U test.",
+          "reasoning": "The tests used for each data type are clearly stated."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Partial",
+          "evidence_snippet": "Voxelwise general linear model (GLM) was designed with age and sex as covariates.",
+          "reasoning": "While DTI models included covariates, the prognostic relationship between Mb and NPA was explored via simple correlations/comparisons rather than multivariable modeling."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "randomized tests on skeletonized DTI images were conducted with threshold-free cluster enhancement (TFCE) procedure and 10,000 permutations",
+          "reasoning": "The DTI analysis uses state-of-the-art permutation methods to handle multiple comparisons."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Correlations were calculated with Pearson or Spearman correlation. P values <0.05 were considered statistically significant.",
+          "reasoning": "The authors report both significant and non-significant findings across multiple time points."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/9_McGeown_2025/Studerus-Germann_2018.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T11:53:27.497492"
+  }
+}

@@ -1,0 +1,287 @@
+{
+  "paper_metadata": {
+    "title": "The Neutrophil/Lymphocyte Count Ratio Predicts Mortality in Severe Traumatic Brain Injury Patients",
+    "first_author": "Dorota Siwicka-Gieroba",
+    "year": "2019",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study clearly defines the target population (severe TBI), recruitment setting (ICUs in Poland), and inclusion/exclusion criteria. While it is a retrospective analysis, it included consecutive patients, which minimizes selection bias.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Adult patients admitted for isolated TBI with Glasgow Coma Score lower than eight were included in the study.",
+          "reasoning": "The target population is clearly defined as adults with severe isolated TBI (GCS < 8)."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "This retrospective analysis of the NLCR was performed, including consecutive adult patients with isolated severe TBI admitted to the intensive care unit (ICU).",
+          "reasoning": "The use of consecutive patients in a specific clinical setting (ICU) reduces the risk of convenience sampling bias."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The specific years or dates during which the patients were recruited are not mentioned in the text."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "This study was approved by the Bioethics Committee of the Medical University in Lublin, Poland, and by the Bioethics Committees of Szczecin, Poland.",
+          "reasoning": "The study identifies the specific medical universities and cities in Poland where recruitment occurred."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "Patients aged below 18 years, pregnant women, patients with drug-overdoses, and patients with a history of neoplastic, cardiac, hepatic diseases, or renal diseases were excluded.",
+          "reasoning": "The study provides specific clinical and demographic exclusion criteria to ensure a homogenous sample of isolated TBI."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not provide the total number of eligible patients versus those actually included, making it impossible to calculate a participation rate."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "The main demographic data are presented in Table 2. The median admission GCS score was five (IQR: 3–6).",
+          "reasoning": "Table 2 and the results section provide age, sex, GCS, and injury type for the baseline sample."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "While the 28-day mortality (primary outcome) has 100% follow-up, the 6-month neurological outcome (GOSE) suffered from significant attrition, particularly in the ICH and DAI subgroups, which the authors acknowledge as a limitation.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Partial",
+          "evidence_snippet": "After 6 months, six patients were excluded from the study because they or their families did not agree to respond to the phone interview",
+          "reasoning": "The 28-day mortality data is complete (n=144), but the 6-month GOSE data has significant missingness in specific subgroups (e.g., only 9/19 ICH patients responded)."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "Yes",
+          "evidence_snippet": "at the phone interview... respondents to questionnaire",
+          "reasoning": "The authors describe using phone interviews to collect long-term follow-up data."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Yes",
+          "evidence_snippet": "six patients were excluded from the study because they or their families did not agree to respond to the phone interview",
+          "reasoning": "The reason (refusal/lack of agreement) is explicitly stated."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not compare the characteristics of those who responded to the 6-month interview versus those who did not."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is no statistical comparison provided to rule out informative censoring."
+        }
+      ]
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The prognostic factor (NLCR) is an objective laboratory value derived from standard full blood counts. The timing and method of calculation are clearly defined and consistent for all patients.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "NLCR was calculated as the ratio between the absolute neutrophil and lymphocyte count immediately after admission to the hospital",
+          "reasoning": "The calculation and timing of the measurement are explicitly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Blood samples were routinely collected for full blood count analysis",
+          "reasoning": "Automated full blood counts are standard, objective, and reliable laboratory measurements."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Partial",
+          "evidence_snippet": "The cut-off points for NLCR were calculated with the use of receiver operator characteristic (ROC) curves",
+          "reasoning": "The cut-point (15.63) was determined using ROC analysis within the study data, which is data-dependent, though continuous values were also analyzed."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Blood samples were routinely collected... for six consecutive days after admission to the ICU.",
+          "reasoning": "The protocol was standardized for all patients in the ICU setting."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "NLCR was calculated in 144 patients.",
+          "reasoning": "The full sample size was used for the primary NLCR analysis."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text does not mention how missing laboratory values (if any) were handled."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The outcomes (28-day mortality and GOSE) are standard in TBI research. Mortality is an objective endpoint, and GOSE is a validated scale, although the lack of mention of assessor blinding is a minor concern.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "the 8-point the Extended Glasgow Outcome Score (GOSE—Table 1) at 7, 28-days, and 6-months were collected.",
+          "reasoning": "The outcomes and time points are clearly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "GOSE—Table 1 [22]",
+          "reasoning": "The GOSE is a globally validated and reliable tool for TBI outcome assessment."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "GOSE... at 7, 28-days, and 6-months were collected.",
+          "reasoning": "The follow-up schedule was uniform for the cohort."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "High",
+      "risk_reasoning": "The study relies primarily on univariable comparisons (t-tests, Mann-Whitney U). There is no evidence of multivariable adjustment (e.g., Logistic Regression) to account for critical confounders like age or baseline GCS, which are known to influence both NLCR and mortality.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Yes",
+          "evidence_snippet": "Age, Sex, GCS... Patients were treated according to the latest Brain Trauma Foundation guidelines",
+          "reasoning": "Key confounders like age and GCS were measured and reported."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "Glasgow Coma Scale (GCS) at admission",
+          "reasoning": "Standard clinical definitions were used for confounders."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "The median admission GCS score was five",
+          "reasoning": "GCS is a standard, reliable clinical measurement."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "GCS at admission... demographic data are presented in Table 2",
+          "reasoning": "Confounders were measured at the same time point (admission) for all."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No mention of missing data management for confounders."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The study did not use matching or stratification in its design to control for confounding."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "No",
+          "evidence_snippet": "Student’s unpaired t-test was used... Non-parametric data were analyzed using the Wilcoxon single-rank test and the Mann–Whitney U test",
+          "reasoning": "The statistical methods described are entirely univariable. There is no multivariable modeling to adjust for confounders."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The analysis is straightforward but limited. While the ROC analysis and univariable tests are correctly applied, the lack of multivariable modeling and the small sample size in certain subgroups (acknowledged by authors) limit the robustness of the conclusions.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Data distribution was determined using the Kolmogorov–Smirnov test... Categorical variables were compared using the χ 2 and Fisher’s exact test",
+          "reasoning": "The authors provide a clear description of the statistical tests used."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No multivariable model was built; therefore, no strategy for variable selection was provided."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Partial",
+          "evidence_snippet": "The cut-off points for NLCR were calculated with the use of receiver operator characteristic (ROC) curves",
+          "reasoning": "ROC curves are appropriate for determining predictive cut-offs, but the lack of regression analysis to confirm independent association is a weakness."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Results: NLCR was calculated in 144 patients... Table 3. Changes in the mean value",
+          "reasoning": "The study reports on all time points and outcomes mentioned in the methods."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/8_Ghozy_2022/Siwicka-Gieroba_2022.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T11:25:28.698078"
+  }
+}

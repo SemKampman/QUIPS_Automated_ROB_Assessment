@@ -1,0 +1,296 @@
+{
+  "paper_metadata": {
+    "title": "Timing, Outcome, and Risk Factors of Intracranial Hemorrhage in Acute Respiratory Distress Syndrome Patients During Venovenous Extracorporeal Membrane Oxygenation",
+    "first_author": "Oliver Hunsicker",
+    "year": "2020",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study uses a large, well-defined cohort from a single ARDS referral center with clear inclusion/exclusion criteria and high participation (only 35/479 excluded). Baseline characteristics are thoroughly reported.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "ARDS referral center of the Department of Anesthesiology and Intensive Care Medicine, Charité – Universitätsmedizin Berlin, Campus Virchow-Klinikum, Berlin",
+          "reasoning": "The setting and population (ARDS patients requiring ECMO) are clearly defined."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "All adult patients who fulfilled the criteria of the Berlin Definition for ARDS (10) and who were treated with ECMO were eligible for the study.",
+          "reasoning": "The study uses a consecutive cohort from a specific clinical registry, minimizing selection bias."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "between January 2007 and December 2018",
+          "reasoning": "The 11-year recruitment window is explicitly stated."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "Campus Virchow-Klinikum, Berlin, between January 2007 and December 2018",
+          "reasoning": "Specific hospital and city are provided."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "Patients were excluded if they: 1) had ICH before ECMO initiation, 2) received venoarterial ECMO, 3) were converted from venovenous to venovenous arterial ECMO... 4) had incomplete datasets",
+          "reasoning": "Criteria are explicit and clinical relevant to the prognostic question."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Yes",
+          "evidence_snippet": "A total of 479 ARDS patients with ECMO were identified. Of those, 35 patients were excluded, so that a total of 444 patients with VV-ECMO were eligible for analysis",
+          "reasoning": "Participation rate is >90%, which is excellent for limiting selection bias."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Baseline characteristics of patients without and with ICH are shown in Table E2... age, gender, comorbidities, admissions scores, ARDS severity, ARDS etiology",
+          "reasoning": "Comprehensive baseline data is provided in the text and supplementary tables."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study is retrospective with very few exclusions for missing data (only 35 total exclusions including clinical reasons). The primary outcome (60-day mortality) is robustly captured via hospital records.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "444 patients with VV-ECMO were eligible for analysis",
+          "reasoning": "The vast majority of the identified cohort was analyzed."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "As a retrospective study using electronic records, 'drop out' is less applicable than in prospective trials, but the text doesn't explicitly discuss tracking patients who might have been transferred out."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Yes",
+          "evidence_snippet": "4) had incomplete datasets to evaluate the primary endpoint.",
+          "reasoning": "The reason for exclusion related to data availability is mentioned, though the number specifically for this reason isn't isolated from the 35 total."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The characteristics of the 35 excluded patients are not compared to the included cohort."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Insufficient data provided to compare excluded vs included patients."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Attrition Summary",
+        "prompt": "Loss to follow-up (from baseline sample to study population analyzed) is not associated with key characteristics (i.e., the study data adequately represent the sample) sufficient to limit potential bias to the observed relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The prognostic factor (ICH) was defined using standard radiological criteria and assessed by experts. While not all patients had routine scans, a high percentage (73.4%) of the control group was scanned, reducing the risk of misclassification.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "defined as occurrence of parenchymal hemorrhage, nonaneurysmal subarachnoid hemorrhage (SAH), or subdural hematoma (SDH).",
+          "reasoning": "The prognostic factor (ICH) is clearly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "All ICHs were diagnosed by an expert neuroradiologist.",
+          "reasoning": "Diagnosis by a specialist using CT imaging is the gold standard."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Partial",
+          "evidence_snippet": "Clinical cutoffs of risk factors were identified using a gray zone approach (13).",
+          "reasoning": "The study uses data-driven methods (Youden index/Gray zone) to find cutoffs, which is appropriate for exploration but can be data-dependent."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Partial",
+          "evidence_snippet": "A follow-up CCT scan was performed if a new neurologic symptom was observed... 73.4%... of the patients that were classified as patients without evidence for an ICH had a CCT scan",
+          "reasoning": "Not all patients received the same frequency of imaging; some were scanned based on symptoms, others incidentally."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "444 patients with VV-ECMO were eligible for analysis",
+          "reasoning": "The PF (ICH) was determined for the entire analyzed cohort."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Imputation was not mentioned; patients with incomplete datasets were excluded."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The outcome (60-day mortality) is objective and clearly defined, leaving little room for measurement bias.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "The primary objective was to assess the association of ICH with 60-day mortality.",
+          "reasoning": "Mortality at a specific time point is a clear, standard outcome."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "extracted from the two electronic patient data management systems",
+          "reasoning": "Death is an objective event recorded in hospital systems."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "All data required for this study were extracted from the two electronic patient data management systems",
+          "reasoning": "Standardized data extraction for all participants."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The authors adjusted for the RESP score and septic shock, which are major confounders. However, in a retrospective study, unmeasured confounders (e.g., specific anticoagulation nuances or provider-level variations over 11 years) may still exist.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Yes",
+          "evidence_snippet": "prognostic baseline characteristics and variables of the validated Respiratory ECMO Survival Prediction (RESP) Score were considered",
+          "reasoning": "The RESP score covers most critical prognostic factors in this population."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "Table E2 (Supplementary Digital Content 3... age, gender, comorbidities, admissions scores, ARDS severity",
+          "reasoning": "Confounders are standard clinical variables with clear definitions."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "routinely measured 8 hourly... extracted from the two electronic patient data management systems",
+          "reasoning": "Measurements were part of routine clinical care and recorded electronically."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "The method and setting of measurement of PF is the same for all study participants.",
+          "reasoning": "Standardized ICU monitoring protocols were used."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No imputation was performed; missing data led to exclusion."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "No",
+          "evidence_snippet": "Retrospective cohort study.",
+          "reasoning": "No matching or stratification was used in the design phase."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "After adjusting for septic shock and RESP score variables, ICH was independently associated with a three-fold increased chance for death",
+          "reasoning": "Multivariable logistic regression was used to adjust for key prognostic scores."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical methods are appropriate for the study design, including multivariable modeling and internal validation (C-index). Results are reported transparently with confidence intervals.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "multivariable logistic regression was performed using a backward variable selection procedure based on the Akaike information criterion (AIC).",
+          "reasoning": "The strategy is well-described and standard for this type of study."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "Baseline characteristics and variables of interest that were different in univariable analysis were included, as appropriate.",
+          "reasoning": "The model building followed a logical progression from univariable to multivariable analysis."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "multivariable logistic regression... Internal validation of the models demonstrated a good discrimination",
+          "reasoning": "Logistic regression is appropriate for binary outcomes like mortality."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "All data required for this study were extracted... analyses were considered to be nonconfirmatory.",
+          "reasoning": "The authors report both significant and non-significant findings and acknowledge the exploratory nature."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/14_Thiara_2024/Hunsicker_2021.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T10:55:51.801506"
+  }
+}

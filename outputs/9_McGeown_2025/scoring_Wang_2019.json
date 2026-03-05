@@ -1,0 +1,287 @@
+{
+  "paper_metadata": {
+    "title": "Cerebral blood flow in acute concussion: preliminary ASL findings from the NCAA-DoD CARE consortium",
+    "first_author": "Yang Wang",
+    "year": "2019",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study utilizes a well-defined sampling frame from a large-scale consortium (CARE). The inclusion of a matched contact control group from the same environment and the detailed description of baseline characteristics for both groups significantly limit selection bias.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Participants were recruited from an ongoing prospective CARE ARC study... 24 concussed athletes... 24 matched contact sport players.",
+          "reasoning": "The source (NCAA-DoD CARE Consortium) and the specific population (collegiate contact sport athletes) are clearly defined."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "Participants were recruited from an ongoing prospective CARE ARC study. A total 24 concussed athletes with useful ASL data are included in this report: 14 from one ARC study site (University of North Carolina at Chapel Hill; UNC) and 10 from another study site (University of Wisconsin-Madison; UW).",
+          "reasoning": "The recruitment from specific ARC sites within a structured consortium is well-documented."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "While the study mentions it is 'ongoing,' the specific calendar dates for the recruitment period of this cohort are not provided."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location) are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "University of North Carolina at Chapel Hill; UNC and University of Wisconsin-Madison; UW.",
+          "reasoning": "The specific academic institutions and sites are explicitly named."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Partial",
+          "evidence_snippet": "concussed contact sport athletes obtained at 24–48 h after injury... noninjured contact sport players (N = 24), referred to as the contact control (CC) group.",
+          "reasoning": "The 'zero time' (24-48h post-injury) is clear, but specific clinical diagnostic criteria for the concussion itself (e.g., GCS score or specific symptom thresholds for inclusion) are not detailed in this specific paper, though referenced via the CARE protocol."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "A total 24 concussed athletes with useful ASL data are included in this report",
+          "reasoning": "The text does not provide the total number of eligible athletes who declined to participate or were excluded due to poor image quality, making it impossible to calculate a participation rate."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1 summarizes the sample characteristics and degree of matching between the groups... age, gender, sport, and estimated premorbid level of intelligence.",
+          "reasoning": "Table 1 provides a comprehensive breakdown of age, sex, BMI, prior concussions, WTAR scores, and sport type."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "As this is a cross-sectional analysis of an acute time point (24-48h), attrition is less of a factor than in long-term longitudinal studies. The groups remained balanced, and the analysis focused on those with 'useful' data.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "A total 24 concussed athletes with useful ASL data are included in this report",
+          "reasoning": "The study reports on the full cohort intended for this preliminary analysis at the 24-48h window."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is no mention of dropouts or attempts to follow up with those who may have been excluded after recruitment."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Partial",
+          "evidence_snippet": "24 concussed athletes with useful ASL data are included",
+          "reasoning": "The phrase 'useful ASL data' implies some subjects might have been excluded due to image artifacts, but specific numbers and reasons for these exclusions are not provided."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No data is provided regarding the characteristics of individuals who were recruited but did not provide 'useful' data."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Without data on the excluded/lost participants, a comparison cannot be made."
+        }
+      ]
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The prognostic factor (concussion status) is clearly defined by the timing of the injury. The study uses standardized clinical tools (SCAT3, BESS, ImPACT) to characterize the injury state at the time of imaging.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "concussed contact sport athletes obtained at 24–48 h after injury",
+          "reasoning": "The factor is the occurrence of a sport-related concussion within a specific acute timeframe."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Post-injury testing for concussed players occurred 24–48 h after injury... included a demographics and health history interview, WTAR, Sport Concussion Assessment Tool–3 (SCAT3) symptom checklist",
+          "reasoning": "The use of the CARE consortium's standardized clinical protocol ensures a reliable classification of the concussed state."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "ImPACT produces four clinical composite scores... z-scored using the sample's baseline performance",
+          "reasoning": "Clinical scores are treated as continuous variables or standardized z-scores based on baseline, avoiding arbitrary data-driven cut-points."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "All participants completed a 90-min, preseason baseline clinical assessment protocol. Post-injury testing for concussed players occurred 24–48 h after injury.",
+          "reasoning": "The protocol was standardized across the two sites for all participants."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "Table 2... N=22 (SRC), N=23 (CC)",
+          "reasoning": "Most clinical data points are available for the majority of the 24-subject groups, though ImPACT was limited to one site."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The study does not mention imputation; it appears to use available case analysis."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The primary outcome (CBF) was measured using two different ASL techniques (2D PASL vs 3D pCASL) across two different scanner vendors. While the authors adjusted for 'site' as a covariate, the inherent differences in measurement technology introduce a moderate risk of measurement bias.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "quantitative CBF map in units of ml/100 g/min... relative CBF (rCBF) was calculated by normalizing CBF with mean GM CBF",
+          "reasoning": "The outcome (Cerebral Blood Flow) is physically defined and quantified."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Partial",
+          "evidence_snippet": "ASL data from UNC was acquired on a Siemens 3 T Trio system... 2D PASL... ASL data from UW were collected on General Electric Healthcare (GE) Discovery MR750... 3D pCASL",
+          "reasoning": "While ASL is a validated technique, the use of two different sequences (PASL vs pCASL) and vendors is a known source of variance in CBF quantification, despite the 'human phantom' validation mentioned."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "No",
+          "evidence_snippet": "Data were collected at two ARC sites: UNC and UW... different ASL protocols.",
+          "reasoning": "The measurement method was explicitly different between the two sites (2D PASL vs 3D pCASL)."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study effectively manages confounding through both design (matching controls by age, sex, sport, and IQ) and analysis (using site and prior concussions as covariates in the ANCOVA models).",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "age, gender, sport, and estimated premorbid level of intelligence... number of previous concussions",
+          "reasoning": "Key demographic and injury-history confounders were captured."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1 summarizes the sample characteristics... BMI, Prior concussions, WTAR standard score",
+          "reasoning": "Confounders are clearly defined and tabulated."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "WTAR, Sport Concussion Assessment Tool–3 (SCAT3) symptom checklist... Standardized Assessment of Concussion (SAC)",
+          "reasoning": "Standardized, validated clinical instruments were used to measure confounding variables."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "All participants completed a 90-min, preseason baseline clinical assessment protocol.",
+          "reasoning": "Baseline confounders were measured under identical conditions for all participants."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No imputation was reported."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "Yes",
+          "evidence_snippet": "CC group, were selected from the same study sites to closely match injured athletes based on age, gender, sport, and estimated premorbid level of intelligence.",
+          "reasoning": "The study used a matched-control design to handle primary confounders."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "we have included the site as a covariate in all analyses... also included the previous number of concussions as a covariate",
+          "reasoning": "Statistical adjustment (ANCOVA) was used for site and injury history."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical approach is robust, utilizing voxelwise analysis with appropriate multiple comparison corrections (Monte Carlo simulations). The reporting is transparent regarding the limitations of the two different ASL sequences and the preliminary nature of the findings.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "AFNI mixed-effects multilevel analysis tool was applied to perform an ANCOVA... height threshold was set at p < 0.05 and the spatial extent threshold was set at cluster volume > 137 voxels",
+          "reasoning": "The imaging and clinical statistical strategies are described in detail."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "Since two ARC sites included in this study have different ASL protocols, we have included the site as a covariate",
+          "reasoning": "The inclusion of 'site' and 'prior concussions' as covariates is logically driven by the study's multi-site design."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "ANCOVA models were utilized to compare the 24–48-h clinical assessment performance between groups (SRC, CC), using baseline performance as a covariate.",
+          "reasoning": "ANCOVA is the appropriate choice for comparing post-injury states while controlling for baseline variance."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Correlations were found between decreased CBF... and clinical assessments... also evaluated the results using a more conservative threshold of corrected p < 0.01",
+          "reasoning": "The authors report both significant and non-significant findings (e.g., SAC total) and provide sensitivity analyses with stricter thresholds."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/9_McGeown_2025/Wang_2019.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T11:41:35.679102"
+  }
+}

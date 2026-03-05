@@ -1,0 +1,332 @@
+{
+  "paper_metadata": {
+    "title": "Functional and Structural Network Recovery after Mild Traumatic Brain Injury: A 1-Year Longitudinal Study",
+    "first_author": "Patrizia Dall'Acqua",
+    "year": "2017",
+    "analysis_timestamp": "2023-10-27 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study uses a prospective design with clear diagnostic criteria (EFNS guidelines) and well-matched controls. The recruitment source (emergency departments) and baseline characteristics are thoroughly described, minimizing selection bias.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "The diagnosis of mTBI was given in accordance with the European Federation of Neurological Societies guidelines (Vos et al., 2012) using standardized criteria across the emergency departments of four hospitals in the German region of Switzerland.",
+          "reasoning": "The authors specify the clinical guidelines and the specific healthcare settings used to identify the population."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "A total of 60 patients with mTBI and 58 healthy controls matched for gender, age, and education were prospectively recruited between February 2012 and March 2014.",
+          "reasoning": "The recruitment period and matching strategy are explicitly stated."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "prospectively recruited between February 2012 and March 2014.",
+          "reasoning": "Specific dates are provided."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "across the emergency departments of four hospitals in the German region of Switzerland.",
+          "reasoning": "The setting (emergency departments) and geographic region are clear."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "Inclusion criteria comprised (1) a Glasgow Coma Scale (GCS) score of 13–15 at hospital admission; (2) a normal cranial computed tomography (CT); (3) at least one of the following characteristics: loss of consciousness <30 min... Exclusion criteria were as follows: history of neurologic or psychiatric disease...",
+          "reasoning": "Detailed clinical and demographic criteria are listed."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "While the final sample size is clear, the total number of eligible individuals who declined to participate (participation rate) is not reported."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1 summarizes the characteristics of the patients (n = 49) and of the healthy controls (n = 49) included in the final sample.",
+          "reasoning": "Table 1 provides age, gender, education, GCS, and neuropsychological scores."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study had an exceptionally high retention rate (96% for patients, 100% for controls), and the reasons for the two patient dropouts were non-informative (moving abroad, pregnancy).",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "Of the initial sample, 49 patients and all 53 controls returned for the follow-up visit",
+          "reasoning": "49 out of 51 eligible patients (96%) completed the 1-year follow-up."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The study does not describe attempts to collect data from the two dropouts, though the loss is minimal."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Yes",
+          "evidence_snippet": "(one patient moved abroad and another one was pregnant at Visit 2).",
+          "reasoning": "Specific, non-disease-related reasons are provided for the dropouts."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The baseline characteristics of the two dropouts are not specifically compared to the completers."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "With only 2 dropouts, a statistical comparison is likely not feasible, but it is not explicitly addressed."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Attrition Summary",
+        "prompt": "Loss to follow-up (from baseline sample to study population analyzed) is not associated with key characteristics (i.e., the study data adequately represent the sample) sufficient to limit potential bias to the observed relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The prognostic factor (mTBI status) is defined by international guidelines and measured using objective MRI and clinical criteria. The use of standardized neuroimaging preprocessing and motion correction limits measurement bias.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "The diagnosis of mTBI was given in accordance with the European Federation of Neurological Societies guidelines (Vos et al., 2012)",
+          "reasoning": "The study uses established clinical criteria for the prognostic factor."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Standard clinical MRI scans were evaluated at both time points by the same certified radiologist in order to detect intraparenchymal pathology",
+          "reasoning": "The use of a certified radiologist and standardized MRI protocols ensures reliability."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "Connectivity analyses were based on a 90-node whole-brain network constructed from the 90-region automated anatomical labeling atlas",
+          "reasoning": "The study uses a standard anatomical atlas (AAL) rather than data-driven ROI selection."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "control subjects completed the identical assessments as the patients, expect for the neurological examination",
+          "reasoning": "MRI protocols and neuropsychological batteries were identical across groups."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "Only participants who completed the entire investigation process across the two visits... were admitted for the longitudinal analysis",
+          "reasoning": "The analysis was restricted to those with complete data."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Imputation was not used; cases with missing data or artifacts were excluded."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "PF Measurement Summary",
+        "prompt": "PF is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "Outcomes (functional/structural connectivity and cognitive scores) were measured using objective, standardized tools. The longitudinal design and use of the same certified radiologist for all scans reduce measurement bias.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "We performed a prospective study with 49 mTBI patients at an average of 5 days and 1 year post-injury",
+          "reasoning": "The primary outcomes (connectivity metrics) and follow-up duration (1 year) are clearly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "NBS is a validated non-parametric method and a tool for identifying statistically significant subnetworks",
+          "reasoning": "The study uses validated statistical methods (NBS) and standardized neuropsychological tests."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "control subjects completed the identical assessments as the patients",
+          "reasoning": "The measurement environment and tools were consistent for both groups."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Outcome Measurement Summary",
+        "prompt": "Outcome of interest is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "While the study matched for age, gender, and education, and adjusted for brain volumes in correlations, the small sample size of the PCD subgroup (n=6) limits the ability to fully account for confounders in that specific analysis. Additionally, treatments received during the 1-year interval were not explicitly measured.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Partial",
+          "evidence_snippet": "matched for gender, age, and education... controlling for age, education, and total gray matter volume",
+          "reasoning": "Demographic and volumetric confounders were measured, but clinical treatments during the recovery year were not reported."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1 summarizes the characteristics... Age (years)... Education (years)",
+          "reasoning": "Standard definitions for demographic confounders are used."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "volumetric 3D T1-weighted MRI",
+          "reasoning": "Brain volumes (confounders) were measured using high-resolution MRI."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "control subjects completed the identical assessments",
+          "reasoning": "Confounder data collection was uniform."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No imputation was performed."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "Yes",
+          "evidence_snippet": "58 healthy controls matched for gender, age, and education were prospectively recruited",
+          "reasoning": "Matching was used in the study design to handle primary confounders."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "These correlations were conducted using partial correlations controlling for age, education, and total gray matter volume",
+          "reasoning": "Statistical adjustment was applied for key variables during correlation analyses."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Confounding Summary",
+        "prompt": "Important potential confounders are appropriately accounted for, limiting potential bias with respect to the relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The statistical analysis is robust (NBS, permutation testing), but the authors acknowledge that the brain-behavior correlations did not survive FDR correction, and the PCD subgroup analysis is underpowered. There is also a risk of bias from the 'selective interaction' approach which might miss non-acute changes.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Connectivity analyses were based on a 90-node whole-brain network... NBS is a validated non-parametric method",
+          "reasoning": "The analytical pipeline is described in detail, including software and thresholds."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "We then analyzed group × time interaction using NBS selecting exclusively the subnetwork identified as significant from the differences observed between groups at Visit 1 (selective interaction).",
+          "reasoning": "The strategy is logically derived from the acute findings, though the authors also include a whole-brain interaction to avoid bias."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "computed directly with NBS with the component extent option... 5,000 permutations per statistical test.",
+          "reasoning": "Permutation-based testing is appropriate for high-dimensional connectivity data."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Partial",
+          "evidence_snippet": "After the FDR adjustment tested across 30 correlations... uncorrected significances did not survive the FDR correction",
+          "reasoning": "The authors are transparent about the lack of significance after FDR correction, but they still emphasize the uncorrected results in the discussion."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Statistical Analysis and Presentation Summary",
+        "prompt": "The statistical analysis is appropriate for the design of the study, limiting potential for presentation of invalid or spurious results.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/9_McGeown_2025/Dallacqua_2017.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T11:39:42.053802"
+  }
+}

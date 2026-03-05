@@ -1,0 +1,287 @@
+{
+  "paper_metadata": {
+    "title": "SOCIOECONOMIC STATUS AND LIFESTYLE IN YOUNG ISCHAEMIC STROKE PATIENTS: A POSSIBLE RELATIONSHIP TO STROKE RECOVERY AND RISK OF RECURRENT EVENT",
+    "first_author": "David Franc",
+    "year": "2021",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study used a prospective, consecutive recruitment strategy within a defined age group (<50 years) at a comprehensive stroke center. Baseline characteristics are well-defined, and the sampling frame is clear.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "We analysed consecutive young IS patients < 50 years enrolled in the prospective HISTORY (Heart and Ischaemic STrOke Relationship studY) study",
+          "reasoning": "The target population is clearly defined by age and diagnosis within a specific prospective study framework."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "consecutive young IS patients <50 years, who were enrolled in the prospective single-centre observational HISTORY... study",
+          "reasoning": "Consecutive enrollment in a prospective study at a specialized center minimizes selection bias."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "between the years 2011 and 2020",
+          "reasoning": "The recruitment window is explicitly stated."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "Comprehensive Stroke Centre, Department of Neurology, Medical School, Palacký University Olomouc and University Hospital, Olomouc, Czech Republic",
+          "reasoning": "The specific clinical setting and geographic location are provided."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "young IS patients <50 years... All enrolled patients underwent an identical diagnostic protocol, which was published in detail previously",
+          "reasoning": "Criteria are based on age and diagnosis, with reference to a standardized protocol."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not provide the total number of eligible patients vs. those who consented/participated, making it impossible to calculate a participation rate."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "The demographic, baseline and clinical characteristics, and investigated parameters of SES and lifestyle of all enrolled patients are shown in Table 1.",
+          "reasoning": "Table 1 provides comprehensive baseline data including age, sex, BMI, and various SES/lifestyle factors."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "While the study reports a median follow-up of 25 months, it does not explicitly state the number of patients lost to follow-up or compare their characteristics to those who completed the study.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Unsure",
+          "evidence_snippet": "Data were obtained and analysed from 297... patients",
+          "reasoning": "It is unclear if 297 represents the total baseline sample or only those who completed the follow-up/questionnaire."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is no mention of dropout management or attempts to re-contact lost participants."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text does not discuss loss to follow-up or reasons for it."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No data provided on characteristics of non-completers."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Without data on dropouts, this comparison cannot be made."
+        }
+      ]
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study relies on self-reported questionnaires for SES and lifestyle, which introduces potential recall and misclassification bias, as acknowledged by the authors.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "The assessment of SES involved level of education, income, occupation, marital status, and place of residence.",
+          "reasoning": "The prognostic factors (SES and lifestyle) are categorized and defined in the methods and tables."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Partial",
+          "evidence_snippet": "Data were acquired from structured a self-evaluating multiple-choice questionnaire.",
+          "reasoning": "While structured, self-reporting is inherently prone to recall bias and lacks external validation."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "at least one hour per week; at least three times per day",
+          "reasoning": "The study uses pre-defined thresholds for lifestyle factors like sport and feeding."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Partial",
+          "evidence_snippet": "most patients fulfilled during the hospital stay. Some patients completed it after the discharge during the scheduled follow-up",
+          "reasoning": "The timing and setting of the questionnaire varied between the acute phase and follow-up."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "Data were obtained and analysed from 297... patients",
+          "reasoning": "The analysis appears to include the full sample described, though missingness per item isn't detailed."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is no mention of how missing data within the questionnaires were handled."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "Outcomes were measured using standardized clinical scales (mRS) by certified neurologists, and data processing was blinded.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "Clinical outcome was assessed using the Modified Rankin Scale (MRS) after 3 months with score 0–1 for excellent outcome.",
+          "reasoning": "The primary outcome and its timing are clearly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "assessed by an experienced certified neurologist... Subsequent data processing and analysing of patients' clinical parameters was done in a blinded form.",
+          "reasoning": "Use of certified assessors and blinded analysis enhances reliability."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "All enrolled patients underwent an identical diagnostic protocol",
+          "reasoning": "The protocol for assessment was standardized across the cohort."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "High",
+      "risk_reasoning": "The study is primarily descriptive and lacks multivariable adjustment. The authors explicitly state the lack of power for logistic regression, meaning observed associations are not adjusted for potential confounders like age or stroke severity.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Yes",
+          "evidence_snippet": "demographic characteristics including vascular risk factors and conditions, socioeconomic status, lifestyle",
+          "reasoning": "The study measured a wide range of potential confounders including NIHSS and age."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1. Comparison of selected demographic, baseline and clinical characteristics",
+          "reasoning": "Confounders are clearly categorized in the tables."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Partial",
+          "evidence_snippet": "self-evaluating multiple-choice questionnaire",
+          "reasoning": "While clinical factors were measured by neurologists, many confounders (lifestyle) were self-reported."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "All enrolled patients underwent an identical diagnostic protocol",
+          "reasoning": "Standardized protocol used for all participants."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No imputation methods described."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The study did not use matching or stratification in its design."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "No",
+          "evidence_snippet": "lack of power for logistic regression analysis, represents another limit.",
+          "reasoning": "The authors admit they did not perform multivariable adjustment, which is a major source of bias in prognosis studies."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The analysis is limited to univariable tests. While the reporting is transparent about these limitations, the lack of advanced modeling limits the validity of the prognostic conclusions.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "The Man-Whitney test was used for non-parametric values and the chi-square test and Fisher's exact test were used for parametric values.",
+          "reasoning": "The statistical tests used are clearly listed."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "No",
+          "evidence_snippet": "lack of power for logistic regression analysis",
+          "reasoning": "No prognostic model was actually built; only univariable associations were tested."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Partial",
+          "evidence_snippet": "SPSS software (version 22.0... was used for the statistical analysis.",
+          "reasoning": "The tests are appropriate for simple group comparisons but inadequate for determining independent prognostic factors."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Results: Data were obtained from 297... patients.",
+          "reasoning": "The results correspond to the objectives and methods described, including non-significant findings."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/12_Tao_2023/Franc_2021.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T10:41:15.559276"
+  }
+}

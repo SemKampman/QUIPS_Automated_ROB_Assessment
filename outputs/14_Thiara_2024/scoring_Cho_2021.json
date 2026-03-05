@@ -1,0 +1,287 @@
+{
+  "paper_metadata": {
+    "title": "Risk Factors of Ischemic and Hemorrhagic Stroke During Veno-Venous Extracorporeal Membrane Oxygenation: Analysis of Data from the Extracorporeal Life Support Organization Registry",
+    "first_author": "Sung-Min Cho",
+    "year": "2021",
+    "analysis_timestamp": "2023-10-27 10:00:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study uses a massive international registry (ELSO), which provides a large sample size. However, participation is voluntary, and the registry relies on ICD codes and voluntary reporting without central adjudication, which may lead to selection bias or under-reporting of the target population.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Data reported to the Extracorporeal Life Support Organization by 366 ECMO centers from 2013 to 2019.",
+          "reasoning": "The source is clearly defined as the ELSO registry, encompassing a global network of ECMO centers."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Partial",
+          "evidence_snippet": "The ELSO registry is a voluntary database that collects information on use, indications, complications, and outcomes of ECMO support in adults and children from 366 member centers worldwide.",
+          "reasoning": "While the registry is described, the 'voluntary' nature of reporting introduces potential bias as not all eligible patients globally or within centers may be captured."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "We carried out a retrospective analysis of the ELSO registry database from 2013 through 2019.",
+          "reasoning": "The timeframe is explicitly stated."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "366 ECMO centers from 2013 to 2019... member centers worldwide.",
+          "reasoning": "The setting (ECMO centers) and global scope are described."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "We included only patients 18 years and older who received one run of V-V ECMO support for respiratory failure. We excluded patients who underwent multiple runs... Patients treated with V-A ECMO were excluded.",
+          "reasoning": "Criteria are clearly defined to isolate the V-V ECMO population."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Because the registry is voluntary, the total number of eligible patients who were NOT reported to ELSO is unknown, making it impossible to determine the participation rate."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1. Baseline demographics and ECMO variables in V-V ECMO patients.",
+          "reasoning": "Table 1 provides comprehensive data on age, weight, sex, race, and clinical indications."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study focuses on in-hospital outcomes (stroke and mortality) within a registry that tracks patients until discharge or death. Attrition is minimal in this acute setting, though some missing data for specific variables exists.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "Overall in-hospital mortality was 36%... survival to hospital discharge.",
+          "reasoning": "The registry tracks patients through their hospital stay; the primary outcomes (stroke/death) are recorded for the cohort."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "As a retrospective registry study, there is no description of follow-up for patients once they leave the hospital or if they were transferred."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Loss to follow-up is not explicitly addressed, though the study is limited to in-hospital events."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No data provided on characteristics of patients who might have been lost to follow-up."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is no comparison between completers and non-completers."
+        }
+      ]
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "Prognostic factors (pre-ECMO and on-ECMO variables) are clearly defined, but the timing of measurement is limited to specific windows (e.g., 6 hours pre-cannulation), and there is missing data for several physiological variables.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "The pre-extracorporeal life support (ECLS) hemodynamics and arterial blood gas (ABG) values were measured no more than 6 hours before initiation of ECLS",
+          "reasoning": "The timing and nature of the prognostic factors (ABG, hemodynamics) are specified."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "ABG values were drawn between 18 and 30 hours after ECLS start time.",
+          "reasoning": "Standard clinical laboratory measurements (ABG) are generally reliable."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "Table 2... pH (OR 0.10), pO2 (per 10 mmHg).",
+          "reasoning": "The study uses continuous variables or standard clinical thresholds (e.g., Glucose < 40)."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Records stored in the registry include patient demographics... laboratory values collected before and during ECMO",
+          "reasoning": "Standardized ELSO reporting forms ensure similar data collection across centers."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Partial",
+          "evidence_snippet": "Missing values for some variables resulted in different denominators for the following variables: age (n=15,814)... mean blood pressure (n=10,627)",
+          "reasoning": "There is significant missing data for some physiological variables (e.g., ~33% missing for MAP)."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The study does not mention using imputation; it appears to use available-case analysis."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "High",
+      "risk_reasoning": "The primary outcome (stroke) is likely under-reported. Diagnosis was not protocolized (no mandatory CT/MRI), and the registry relies on voluntary reporting without central adjudication. Autopsy data cited in the paper suggests the true incidence is much higher.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "ischemic stroke is defined as central nervous system (CNS) infarction determined by ultrasound, CT, or magnetic resonance imaging (MRI). Hemorrhagic stroke is defined as intra- or extra-parenchymal CNS hemorrhage",
+          "reasoning": "Definitions are provided based on imaging and clinical criteria."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "No",
+          "evidence_snippet": "ELSO data is reported voluntarily without central or local adjudication of neurological diagnoses, and CT scans of the brain were not mandated",
+          "reasoning": "The lack of mandatory imaging and adjudication creates a high risk of misclassification and under-detection."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Partial",
+          "evidence_snippet": "it is unclear when and for which indications CT brain studies were performed",
+          "reasoning": "While the registry is the same, the clinical practice (when to scan a patient) varied by center and patient."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The authors used multivariable logistic regression to adjust for several clinical confounders. However, critical data such as anticoagulation intensity (INR, aPTT) and the presence of Patent Foramen Ovale (PFO) were missing from the registry and could not be adjusted for.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Partial",
+          "evidence_snippet": "the ELSO registry lacks several important explanatory variables... including anticoagulation data, occurrence of atrial fibrillation, patent foramen ovale, platelet counts",
+          "reasoning": "Key clinical confounders related to stroke (anticoagulation, PFO) were not available."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1... Hemolysis (plasma hemoglobin >50 mg/dL), Renal replacement therapy",
+          "reasoning": "Confounders that were measured are clearly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "laboratory values collected before and during ECMO",
+          "reasoning": "Standard clinical measurements were used for the confounders that were available."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Records stored in the registry include... complications that occur during ECMO support",
+          "reasoning": "Standardized reporting across the registry."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No imputation was performed for missing confounder data."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "No",
+          "evidence_snippet": "Retrospective analysis.",
+          "reasoning": "The study design did not include matching or stratification."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "We carefully selected clinically relevant variables... for inclusion in multivariable logistic regression analysis",
+          "reasoning": "Multivariable adjustment was performed for available variables."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical methods are appropriate for the study design. The authors used multivariable logistic regression and reported odds ratios with confidence intervals. They also acknowledged the limitations of their data and the potential for underestimation.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Odds ratios (ORs) with 95% confidence intervals (CIs) were calculated by logistic regression analysis. Akaike information criterion was calculated for selecting the best model.",
+          "reasoning": "The analytical strategy is well-described."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "We carefully selected clinically relevant variables that had biologically plausible associations or causality",
+          "reasoning": "Variable selection was based on clinical relevance and biological plausibility."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "multivariable logistic regression analysis to identify risk factors",
+          "reasoning": "Logistic regression is appropriate for binary outcomes (stroke vs. no stroke)."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Results are expressed as the mean with standard deviation... or as the median with quartiles... All analyses were carried out in STATA 15.",
+          "reasoning": "The authors report on all pre-specified outcomes (ischemic, hemorrhagic, brain death) and provide full tables of results."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/14_Thiara_2024/Cho_2021.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T10:57:30.749245"
+  }
+}

@@ -1,0 +1,287 @@
+{
+  "paper_metadata": {
+    "title": "Using the neutrophil-to-lymphocyte ratio to predict outcomes in pediatric patients with traumatic brain injury",
+    "first_author": "Rebekah Kimball",
+    "year": "2020",
+    "analysis_timestamp": "2023-10-27 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study provides a clear description of the target population, recruitment source (Trauma One registry), and specific inclusion/exclusion criteria. Baseline characteristics are well-tabulated, and the sample size is reasonable for a pediatric TBI study.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "188 pediatric patients (0–18 years) presenting to our institution with TBI from 2007 to 2017 were retrospectively reviewed.",
+          "reasoning": "The population is defined by age and clinical condition within a specific institutional setting."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "performed using our institution's Trauma One registry (Lancet Technology, Inc.; Boston, MA).",
+          "reasoning": "The use of a formal trauma registry suggests a systematic identification of cases."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "from January 1, 2007, to December 31, 2017",
+          "reasoning": "Specific dates for the retrospective review are provided."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "presenting to our institution... Memorial Healthcare System... Joe DiMaggio Children's Hospital",
+          "reasoning": "The specific hospital and healthcare system are identified."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "Inclusion criteria were age 0–18 years, diagnosis of an isolated TBI, and at least one complete blood cell (CBC) panel with differential taken within 84 h... Exclusion criteria included severe clinically diagnosed comorbidities; prior neurological disease...",
+          "reasoning": "Detailed criteria are provided, including specific medical exclusions that could confound NLR."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Yes",
+          "evidence_snippet": "A total of 199 records were reviewed, of which 188 patients met inclusion criteria.",
+          "reasoning": "The high percentage of reviewed records meeting criteria (94%) suggests minimal selection bias from the registry."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1 Demographic and Clinical Characteristics of 188 patients with TBI.",
+          "reasoning": "Table 1 lists age, sex, race, GCS, LOC, PTA, and survival."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "High",
+      "risk_reasoning": "There is significant attrition over the time points (from 156 patients at <12h to only 21 at 72h). The study acknowledges this as a limitation but does not provide a detailed comparison of characteristics between those with and without late-stage blood draws, creating a high risk of informative censoring.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "No",
+          "evidence_snippet": "N = 156 (< 12 h), 58 (24 h), 27 (48 h), and 21 (72 h).",
+          "reasoning": "The sample size drops precipitously (86% loss by 72h), which is inadequate for longitudinal prognostic assessment."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The study does not describe attempts to retrieve missing data for those without CBCs at later time points."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Partial",
+          "evidence_snippet": "The lack of statistical significance at later time points may be in part due to the decreased numbers of CBCs with differentials obtained at later time points",
+          "reasoning": "The study mentions the lack of data but doesn't explicitly state why CBCs weren't performed (e.g., discharge vs. clinical decision)."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is no table or description comparing the 21 patients at 72h to the 135 who were lost."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not perform a sensitivity analysis to compare completers vs. non-completers."
+        }
+      ]
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "NLR is an objective laboratory value calculated from standard CBCs. The measurement method is consistent and the definition is clear.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "Individual NLRs were calculated by dividing the absolute neutrophil count by the absolute lymphocyte count.",
+          "reasoning": "The calculation is explicitly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Absolute neutrophil and lymphocyte counts from a complete blood count (CBC) were used",
+          "reasoning": "CBC is a standardized, objective laboratory test."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "The average patient NLR was calculated for four time periods",
+          "reasoning": "NLR was treated as a continuous variable in the ANOVA and t-tests."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "The average patient NLR was calculated for four time periods based on time after injury",
+          "reasoning": "Standardized time windows were applied to all participants."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Partial",
+          "evidence_snippet": "N = 156 (< 12 h)",
+          "reasoning": "While 156/188 had admission data, the availability drops significantly for later time points."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "No",
+          "evidence_snippet": "If a patient did not have a particular variable documented... then they were excluded from that specific analysis.",
+          "reasoning": "The study used complete case analysis (exclusion) rather than imputation."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The outcome (GOS-E Peds) is a validated tool and was assessed by a blinded senior author. However, the timing of the outcome assessment was highly variable (median 86 days, range 1–1433 days), which introduces significant noise into the 'prognosis' being measured.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "Glasgow Outcome Scale Extended Pediatric Version (GOS-E Peds) with a median outcome span of 86 days.",
+          "reasoning": "The tool and the follow-up duration are specified."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "The GOS-E Peds score was determined from a chart review performed by the senior author (H.S.) for each patient... and blinded to NLR values.",
+          "reasoning": "Blinding of the outcome assessor to the prognostic factor is a key strength."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Partial",
+          "evidence_snippet": "based on the most recent information on functional outcome available at the time of chart review",
+          "reasoning": "While the tool was the same, the 'setting' (time since injury) varied wildly from 1 day to nearly 4 years."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "High",
+      "risk_reasoning": "The study relies primarily on univariable analyses (ANOVA, t-tests). It does not perform multivariable regression to adjust for critical confounders like age or injury severity (GCS), which are known to influence both NLR and outcome.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Partial",
+          "evidence_snippet": "Data points included Glasgow Coma Scale (GCS) on admission, presence of post-traumatic amnesia (PTA), loss of consciousness (LOC)",
+          "reasoning": "Key clinical confounders were measured, but treatments (e.g., surgery, medications) were not explicitly included in the analysis."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "TBI severity was classified based on admit GCS: mild (13–15), moderate (9–12), or severe (3–8).",
+          "reasoning": "Standard clinical definitions were used."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "PTA and LOC are recorded in the Trauma One Registry by trained registry personnel",
+          "reasoning": "Use of trained personnel and a formal registry increases reliability."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "GCS score on admission... PTA and LOC at the time of injury.",
+          "reasoning": "Measurements were taken at the same clinical time point (admission/injury)."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "No",
+          "evidence_snippet": "If a patient did not have a particular variable documented... then they were excluded",
+          "reasoning": "No imputation was used."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The study did not use matching or stratification in the design phase."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "No",
+          "evidence_snippet": "A one-way analysis of variance (ANOVA) was used to determine differences among outcome groups",
+          "reasoning": "ANOVA is a univariable technique. There is no evidence of multivariable adjustment for age or GCS."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The statistical methods are appropriate for the simple associations tested, and the authors are transparent about the limitations of their sample size. However, the lack of a multivariable model limits the validity of the prognostic claim.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Two-sample t-tests (twotailed) were performed... A one-way analysis of variance (ANOVA) was used",
+          "reasoning": "The strategy is clearly laid out."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No multivariable model was built; the study only looked at individual associations."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Partial",
+          "evidence_snippet": "A one-way ANOVA demonstrated statistically significant differences",
+          "reasoning": "ANOVA is adequate for comparing groups but insufficient for establishing NLR as an independent prognostic factor."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "No significant differences in NLR or neutrophils were observed at any time point based on GCS category",
+          "reasoning": "The authors reported non-significant findings as well as significant ones."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/8_Ghozy_2022/Kimball_2020.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T11:23:23.695023"
+  }
+}

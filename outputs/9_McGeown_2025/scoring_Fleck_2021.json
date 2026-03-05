@@ -1,0 +1,332 @@
+{
+  "paper_metadata": {
+    "title": "Predicting Post-Concussion Symptom Recovery in Adolescents Using a Novel Artificial Intelligence",
+    "first_author": "David E. Fleck",
+    "year": "2020",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study provides clear inclusion/exclusion criteria and describes the recruitment setting (ED). However, it uses a convenience sample from a single center and does not report the total number of eligible patients vs. those enrolled, making it difficult to assess the participation rate and potential selection bias.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "43 adolescents (11 to 16 years old) were enrolled prospectively from the ED within 6 h of a head or extremity injury.",
+          "reasoning": "The age range, setting (ED), and injury types are clearly defined."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Partial",
+          "evidence_snippet": "enrolled prospectively from the ED within 6 h of a head or extremity injury.",
+          "reasoning": "While the recruitment site is clear, the study does not specify if recruitment was consecutive or how many eligible patients were missed."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "conducted in a large tertiary children's hospital ED between March 2011 and January 2012.",
+          "reasoning": "The specific dates for the study period are provided."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "large tertiary children's hospital ED... University of Cincinnati College of Medicine, Cincinnati Children's Hospital Medical Center, Cincinnati, Ohio, USA.",
+          "reasoning": "The specific institution and department are identified."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "Concussion was defined as a head trauma involving either a blunt force or acceleration/deceleration injury with a Glasgow Coma Scale (GCS) score of 14 to 15... Adolescents with pre-existing neurological conditions, learning disabilities, behavioral disorders, or previous concussions were excluded.",
+          "reasoning": "Detailed clinical criteria for both the concussion and control (orthopedic) groups are provided, along with specific exclusion criteria."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not report the number of eligible patients who declined participation or were excluded after screening, so the participation rate cannot be calculated."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "mean age (12.9 years ± 1.5 vs. 12.9 years ± 1.8), male gender (21 [87.5%] vs. 15 [78.9%]), or African-American race (9 [37.5%] vs. 9 [52.9%]).",
+          "reasoning": "Demographics and baseline PCSS scores are compared between the recovered and non-recovered groups."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study appears to have complete follow-up for the analyzed sample of 43 participants. While it is a secondary analysis, the data used for the AI model required both baseline DTI and 1-week PCSS, and no significant loss to follow-up is mentioned for this specific cohort.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "Forty-three adolescents... were enrolled... The PCSS data for the index presentation to the ED and a follow-up clinic visit at one week were examined.",
+          "reasoning": "The analysis includes the full enrolled sample of 43, implying 100% follow-up for the primary outcome."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is no mention of dropouts or attempts to contact them, likely because the sample size reported is the final analyzed sample."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Reasons for attrition are not discussed."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No data provided on individuals who may have been lost between enrollment and the 1-week follow-up."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Comparison between completers and non-completers is not possible as non-completers are not described."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Attrition Summary",
+        "prompt": "Loss to follow-up (from baseline sample to study population analyzed) is not associated with key characteristics (i.e., the study data adequately represent the sample) sufficient to limit potential bias to the observed relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The prognostic factors (DTI and MRI metrics) are objective, measured using standardized protocols and software (FSL, TrackVis), and the timing of measurement (within 72-96 hours) is clearly defined and consistent across the sample.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "DTI measures including FA, mean diffusivity (MD), axial diffusivity (AD), and radial diffusivity (RD) were extracted... A total of 48 volumetric measures and 192 DTI measures were used.",
+          "reasoning": "The imaging parameters and specific metrics are explicitly listed."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Neuroimaging data were obtained on a 3T Phillips scanner... Head motion and eddy current artifact were corrected... using an affine transformation... implemented in the Functional MRI of the Brain (FMRIB) Software Library.",
+          "reasoning": "Standardized neuroimaging acquisition and validated software pipelines were used to ensure data quality."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "scalar DTI indices... 48 volumetric MRI inputs, and 192 DTI inputs",
+          "reasoning": "The AI model used continuous scalar values from the imaging data rather than arbitrary thresholds."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Neuroimaging data were obtained on a 3T Phillips scanner within 96 h of injury.",
+          "reasoning": "All participants underwent the same scanning protocol on the same equipment within a tight timeframe."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "The GFT system was trained using... 48 volumetric magnetic resonance imaging inputs, and 192 DTI inputs per participant",
+          "reasoning": "The text implies complete imaging data for all 43 participants included in the model."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Imputation is not mentioned; the study likely only included participants with complete imaging."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "PF Measurement Summary",
+        "prompt": "PF is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The outcome (PCSS) is a standard, validated tool in concussion research. While self-reported, the study used gender-specific cut-offs to define recovery, which is a recognized methodological approach to account for baseline symptom differences.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "primary outcome was symptomatic recovery, defined as a PCSS score at one week post-injury of ≤ 8 for girls and ≤ 6 for boys",
+          "reasoning": "The outcome is clearly defined with specific thresholds and a specific time point (1 week)."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "The PCSS is a 22-item inventory of symptoms associated with concussion and is graded on a seven-point Likert scale",
+          "reasoning": "The PCSS is a widely accepted and validated instrument for this population."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "PCSS data for the index presentation to the ED and a follow-up clinic visit at one week were examined.",
+          "reasoning": "All participants were assessed using the same tool at the same follow-up interval."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Outcome Measurement Summary",
+        "prompt": "Outcome of interest is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "High",
+      "risk_reasoning": "The study intentionally excluded clinical covariates from the AI model to focus on 'objective' measures. However, this means the model does not account for known confounders like injury severity (GCS), prior history (though excluded at baseline), or acute treatments. Furthermore, the mixing of concussion and orthopedic patients without adjusting for group membership in the primary model introduces significant confounding risk.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Partial",
+          "evidence_snippet": "groups were statistically similar in terms of mean age... male gender... or African-American race.",
+          "reasoning": "Basic demographics were measured, but clinical confounders like treatment received or specific injury mechanism were not included in the predictive model."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "mean age (12.9 years ± 1.5)... male gender (21 [87.5%])...",
+          "reasoning": "The demographic variables used for group comparison are standard and well-defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "baseline behavioral, emotional, and social capacity was assessed by the child behavior checklist (CBCL)",
+          "reasoning": "Validated tools like the CBCL were used to screen for baseline confounders."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "All participants were enrolled prospectively from the ED.",
+          "reasoning": "Baseline data collection was uniform."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No imputation methods described."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "Partial",
+          "evidence_snippet": "Adolescents with pre-existing neurological conditions... were excluded.",
+          "reasoning": "The study used exclusion criteria to control for some confounders but did not use matching or stratification."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "No",
+          "evidence_snippet": "no subjectively assessed clinical data were incorporated into the GFT model",
+          "reasoning": "The predictive model explicitly ignored clinical confounders to focus solely on imaging data, which is a significant methodological risk for prognosis studies."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Confounding Summary",
+        "prompt": "Important potential confounders are appropriately accounted for, limiting potential bias with respect to the relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study uses a sophisticated AI approach and compares it to other models. However, the sample size (n=43) is extremely small for a model with 240 inputs, creating a high risk of overfitting despite the use of validation sets. The 100% training accuracy is a hallmark of overfitting. Additionally, the 'pilot' nature of the study and the lack of an independent external validation cohort limit the reliability of the reported accuracy.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "The GFT system was trained using... 225 training runs. Each training run contained a randomly selected 80% of the total sample followed by a 20% validation run.",
+          "reasoning": "The cross-validation strategy and model architecture are described in detail."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Partial",
+          "evidence_snippet": "The model was constrained to five lateral levels... including one each for MRI volumetrics, FA, MD, AD, and RD DTI data.",
+          "reasoning": "The hierarchical structure is logical, but the inclusion of 240 variables for 43 subjects is statistically aggressive."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Partial",
+          "evidence_snippet": "fuzzy logic is robust in training for complex problems with small data sets.",
+          "reasoning": "While the authors justify the use of GFT for small samples, the extreme disparity between features and observations remains a concern for model stability."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Recovery prediction accuracy, sensitivity, and specificity were calculated... GFT was also compared with six common classification methods.",
+          "reasoning": "The study reports multiple performance metrics and includes comparisons where the primary model did not significantly outperform all others (e.g., SVM)."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Statistical Analysis and Presentation Summary",
+        "prompt": "The statistical analysis is appropriate for the design of the study, limiting potential for presentation of invalid or spurious results.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/9_McGeown_2025/Fleck_2021.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T11:46:33.386567"
+  }
+}

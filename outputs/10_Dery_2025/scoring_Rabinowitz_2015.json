@@ -1,0 +1,332 @@
+{
+  "paper_metadata": {
+    "title": "Prevalence and Predictors of Poor Recovery from Mild Traumatic Brain Injury",
+    "first_author": "Amanda R. Rabinowitz",
+    "year": "2014",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study clearly defines the target population (adolescents/young adults) and uses consecutive recruitment from Level-1 trauma centers. Inclusion/exclusion criteria are explicit, and baseline characteristics are well-described for all three groups (mTBI, OC, TD).",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Participants were adolescents and young adults aged 12–30 years... recruited as a consecutive series of admissions to EDs of three Level-1 trauma centers: Texas Children's Hospital, Memorial-Hermann Hospital, and Ben Taub General Hospital in Houston, Texas",
+          "reasoning": "The age range and clinical setting are clearly defined."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "MTBI and OC patients were recruited as a consecutive series of admissions to EDs... by study personnel according to a rotating schedule.",
+          "reasoning": "Consecutive recruitment with a rotating schedule helps minimize selection bias."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "Patient recruitment took place between 12/15/2008 and 4/30/2012.",
+          "reasoning": "Specific dates are provided."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "three Level-1 trauma centers: Texas Children's Hospital, Memorial-Hermann Hospital, and Ben Taub General Hospital in Houston, Texas",
+          "reasoning": "Specific hospitals and city are named."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "The diagnosis of mTBI was made by ED trauma physicians based in part on GCS scores between 13 and 15, loss of consciousness (LOC) less than 30 min, and post-traumatic amnesia (PTA) less than 24 h.",
+          "reasoning": "Standard clinical criteria for mTBI are used and described."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not report the total number of eligible patients who were approached but declined to participate (initial refusal rate)."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Demographic characteristics and summary statistics for cognitive and symptom variables are presented in Table 1.",
+          "reasoning": "Table 1 and the results section provide age, sex, race, and SCI."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "Retention was 76% for the mTBI group, which is slightly below the ideal 80% threshold. While the authors analyzed differences between completers and non-completers, they found that non-completers were significantly more likely to be African American, suggesting potential systematic bias in the remaining sample.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Partial",
+          "evidence_snippet": "Of 87 patients with mTBI screened at 96 h post-injury, 66 returned for follow-up at 3 months (76% retention rate).",
+          "reasoning": "76% is acceptable but below the preferred 80% for low risk."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The study does not describe efforts to reach those who did not return for the 3-month follow-up."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Specific reasons for dropout (e.g., moved, recovered, too ill) are not listed."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Patients with incomplete data were more likely to be African American (χ2(1) =6.76, p=0.0093). There were no other significant differences on demographic or 96-hour post-injury outcome variables",
+          "reasoning": "The authors explicitly compared completers and non-completers on baseline variables."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Partial",
+          "evidence_snippet": "Patients with incomplete data were more likely to be African American",
+          "reasoning": "A significant racial difference exists between those who stayed in the study and those who left."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Attrition Summary",
+        "prompt": "Loss to follow-up (from baseline sample to study population analyzed) is not associated with key characteristics (i.e., the study data adequately represent the sample) sufficient to limit potential bias to the observed relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "Prognostic factors (age, sex, SCI, acute symptoms) were measured using standardized tools and clear definitions. The timing of measurement (within 96 hours) was consistent across the sample.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "Socioeconomic Composite Index (SCI) scores were calculated based on annual family income, level of education... Initial Rivermead score was a significant predictor",
+          "reasoning": "Predictors like SCI and acute symptoms are defined and measured with validated scales."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "The Rivermead Post Concussion Symptoms Questionnaire and the Brief Symptom Inventory... were also collected",
+          "reasoning": "Standardized, validated instruments were used for the primary prognostic factors."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "Prediction models were built up using stepwise logistic regression. First the demographic and injury variables (age, sex, race, SCI, PTA, LOC, litigation, and method of injury) were entered",
+          "reasoning": "Variables were treated as continuous or categorical as appropriate for their nature."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Participants were evaluated with a neuropsychological test battery within 96 h post-injury",
+          "reasoning": "The protocol was standardized for all participants."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "Only study completers were included in subsequent analyses.",
+          "reasoning": "The analysis was restricted to those with complete follow-up and baseline data."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "No",
+          "evidence_snippet": "Only study completers were included in subsequent analyses.",
+          "reasoning": "The study used complete-case analysis rather than imputation."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "PF Measurement Summary",
+        "prompt": "PF is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "Outcomes were measured using a comprehensive battery of validated neuropsychological tests and self-report scales. The use of an orthopedic control group to define 'poor recovery' (90th/10th percentiles) provides a robust, non-arbitrary threshold for the population.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "Poor symptomatic outcome was defined as exhibiting a symptom score higher than 90% of the orthopedic control (OC) group, and poor cognitive outcome was defined as exhibiting cognitive performance poorer than 90% of the OC group.",
+          "reasoning": "The thresholds for 'poor recovery' are explicitly defined based on the control group."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "Neuropsychological measures included the Brief Visual Memory Test-Revised... Verbal Selective Reminding Test... and the Symbol-Digit Modalities Test",
+          "reasoning": "The study uses gold-standard neuropsychological assessments."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Participants were evaluated... again at 3 months post-injury.",
+          "reasoning": "Standardized follow-up timing and testing were applied to all groups."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Outcome Measurement Summary",
+        "prompt": "Outcome of interest is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study accounts for major confounders like age, sex, and SES in the multivariable models. However, it lacks data on pre-injury psychiatric history (anxiety/depression), which the authors acknowledge as a limitation and a known predictor of post-concussion symptoms.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Partial",
+          "evidence_snippet": "pre-injury anxiety and depression were not assessed, and these factors have been shown to influence outcomes in previous work.",
+          "reasoning": "The authors admit missing key psychological confounders."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "Socioeconomic Composite Index (SCI) scores were calculated based on annual family income, level of education... and occupational prestige.",
+          "reasoning": "SES and demographic variables are well-defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "SCI... has been associated with cognitive outcomes after pediatric TBI in previous work.",
+          "reasoning": "The SES measure used is a validated composite index."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "The group and subgroup comparisons were performed using the chi-square (χ2) test or Fisher exact test for categorical variables... and t test for continuous variables.",
+          "reasoning": "Confounders were collected uniformly at baseline."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "No",
+          "evidence_snippet": "Only study completers were included in subsequent analyses.",
+          "reasoning": "No imputation was performed."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "Yes",
+          "evidence_snippet": "The use of trauma patients with orthopedic injuries as a comparison group allows investigators to control for confounding factors",
+          "reasoning": "The study design uses a trauma control group to account for the general effects of injury/stress."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "Prediction models were built up using stepwise logistic regression... First the demographic and injury variables... were entered",
+          "reasoning": "Multivariable regression was used to adjust for measured confounders."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Confounding Summary",
+        "prompt": "Important potential confounders are appropriately accounted for, limiting potential bias with respect to the relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical approach is sound, using logistic regression for binary outcomes and reporting ROC/AUC for model performance. The authors are transparent about their model-building strategy and report both significant and non-significant findings.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Prediction models were built up using stepwise logistic regression... To assess performance of the prediction models, we used Hosmer-Lemeshow Goodness-of-Fit test... and area under the receiver operating characteristic (ROC) curve",
+          "reasoning": "The analytical plan is detailed and follows standard prognostic modeling guidelines."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "First the demographic and injury variables... were entered into the model... then the corresponding outcome measures within 96 h post-injury were entered",
+          "reasoning": "The hierarchical approach (demographics then acute clinical factors) is logically sound."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "All statistical models were performed in SAS version 9.3.",
+          "reasoning": "Logistic regression is appropriate for the binary 'poor recovery' outcome."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Initial performance on cognitive measures... did not improve prediction of prolonged elevated symptoms.",
+          "reasoning": "The authors report non-significant predictors as well as significant ones."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Statistical Analysis and Presentation Summary",
+        "prompt": "The statistical analysis is appropriate for the design of the study, limiting potential for presentation of invalid or spurious results.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/10_Dery_2025/Rabinowitz_2015.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T10:28:05.546424"
+  }
+}

@@ -1,0 +1,287 @@
+{
+  "paper_metadata": {
+    "title": "Factors affecting one year mortality and functional outcome after first ever ischemic stroke in the region of Antalya, Turkey (A Hospital-based study)",
+    "first_author": "Nehir SAMANCı",
+    "year": "2004",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study describes the source population and recruitment period well. However, it is a hospital-based study in a single center, which the authors admit may not represent the general population (selection bias). The participation rate of eligible individuals is not explicitly stated, though they mention 'consecutive' recruitment.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "patients with first-ever-in a life time ischemic stroke who were addressed to the Akdeniz University hospital, the only university hospital of the city of Antalya in the western mediterranean part of Turkey.",
+          "reasoning": "The authors clearly define the geographic and clinical source of the patients."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "Two-hundred and one consecutive patients with first-ever ischemic stroke who were addressed to the department of neurology of the Akdeniz University hospital",
+          "reasoning": "Consecutive recruitment from a specific department is a standard method to reduce selection bias in hospital-based studies."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "between October 1995 and July 2001",
+          "reasoning": "The specific dates for the recruitment window are provided."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "Akdeniz University hospital, the only university hospital of the city of Antalya in the western mediterranean part of Turkey.",
+          "reasoning": "The setting and location are explicitly stated."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "Exclusion criteria were : patients younger than 18 years, stroke due to subarachnoid hemorrhage or aneurism rupture, transient ischemic attacks only, cerebellar lesions, bilateral hemispheric lesions, history or CT finding of a previous symptomatic or asymptomatic stroke, and patients previously handicapped due to any other cause.",
+          "reasoning": "Detailed exclusion criteria are provided, including clinical and radiological parameters."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text does not provide the number of eligible patients who declined to participate or were missed, making it impossible to calculate a participation rate."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Demographic and socioeconomic variables, stroke risk factors, stroke subtype and neurological findings were noted. ... Table 1 Baseline characteristics of patients according to gender",
+          "reasoning": "Table 1 provides a comprehensive list of baseline characteristics including age, gender, education, and clinical severity."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "High",
+      "risk_reasoning": "There is a high rate of loss to follow-up (26.8%), and the authors do not provide a comparison of baseline characteristics between those who completed the study and those lost to follow-up. This creates a high risk of attrition bias.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "No",
+          "evidence_snippet": "Of the 201 patients enrolled, 54 (26.8%) were lost to follow up.",
+          "reasoning": "A loss to follow-up rate of nearly 27% is generally considered high in prognosis studies, exceeding the common 20% threshold for low risk."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The study does not describe any efforts (e.g., phone calls, registry searches) to locate or obtain data for the 54 lost patients."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The authors state they were 'lost to follow up' but do not provide specific reasons (e.g., moved away, withdrew consent)."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is no table or text describing the characteristics of the 54 patients who were lost."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Because the characteristics of the dropouts are not reported, it is impossible to determine if they differ from the completers."
+        }
+      ]
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The prognostic factors (socioeconomic and clinical) are clearly defined and measured using standard clinical methods. The same methods were applied to all participants.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "Educational level was categorised in 2 groups : 1) illiterate : No primary school diploma ; 2) Literate : Primary school graduate or higher. ... Urinary incontinence was diagnosed if patients did wet his or her bed or clothes or needed an indwelling catheter during hospitalisation.",
+          "reasoning": "The authors provide explicit definitions for both socioeconomic and clinical prognostic factors."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "A detailed history was obtained and neurological examination was noted for all patients. ... Cerebral infarction was defined as ... a CT scan showing a hypodense area",
+          "reasoning": "Measurements relied on clinical examination and objective imaging (CT/MRI), which are standard and reliable."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "Age (years) 63.26 ± 9.96 ... Educational level was categorised in 2 groups",
+          "reasoning": "Age is treated as continuous in some analyses and categorical in others; educational cut-points are based on standard social definitions (literacy/diploma)."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "A detailed history was obtained and neurological examination was noted for all patients.",
+          "reasoning": "The protocol implies a standardized assessment for all patients admitted to the neurology department."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1 ... Total (n=147)",
+          "reasoning": "The baseline characteristics table shows data for the full analyzed cohort of 147."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is no mention of imputation; the study appears to use complete-case analysis."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The outcomes (mortality and functional status) are well-defined. The use of the modified Rankin Scale (mRS) is a validated approach, and the same physician performed the assessments, reducing inter-rater variability.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "The modified Rankin Scale was used for evaluation of handicap. ... All patients were followed up for 1 year after their stroke or until death.",
+          "reasoning": "The outcomes (1-year mortality and functional dependence) are clearly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "Functional disability was measured by the modified Rankin scale which was applied on the day of attendance and at the end of one year by the same physician",
+          "reasoning": "The mRS is a validated tool. Having the same physician perform assessments ensures consistency, though blinding to prognostic factors is not mentioned."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "The modified Rankin scale which was applied ... at the end of one year by the same physician",
+          "reasoning": "The assessment protocol was uniform for all survivors."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study accounts for many clinical and socioeconomic confounders in a multivariable model. However, the authors acknowledge the lack of data on the cause of death and cognitive/psychological deficits, which are important potential confounders in stroke prognosis.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Partial",
+          "evidence_snippet": "Demographic and socioeconomic variables, stroke risk factors, stroke subtype and neurological findings were noted.",
+          "reasoning": "While many factors were measured, the authors admit they did not evaluate cognitive and psychological deficits, nor did they record specific treatments received during the year."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "History of hypertension was defined as documented treatment of hypertension or systolic blood pressure > 140 mm Hg... Diabetes mellitus was defined as usage of blood sugar lowering drugs...",
+          "reasoning": "The authors provide specific clinical thresholds for the confounders/risk factors measured."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Atrial fibrilation was diagnosed by ECG ... Hypercholesterolaemia was considered if one plasma cholesterol value was 240 mg/dl or higher",
+          "reasoning": "Confounders were measured using standard diagnostic tests (ECG, blood tests)."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "A detailed history was obtained and neurological examination was noted for all patients.",
+          "reasoning": "Standardized intake protocol was used for all participants."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No imputation methods are described."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The study did not use matching or stratification in the design phase; it relied on statistical adjustment."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "Multivariate logistic regression analysis showed that only illiteracy, being single or widowed and presence of urinary incontinence were significant predictors",
+          "reasoning": "The authors used multivariable logistic regression to adjust for variables that were significant in univariate analysis."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The statistical methods are generally appropriate, but the small sample size (n=147) and the high number of variables (19) entered into the analysis may lead to overfitting of the logistic regression model. Additionally, the high attrition rate is not addressed in the analysis (e.g., sensitivity analysis).",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Continuous data were analysed using the independent samples t tests, categorical data using the chi-square tests. Independent variables which were significant at the 0.05 level were entered into the multivariate logistic regression analysis.",
+          "reasoning": "The analytical steps are clearly laid out."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Partial",
+          "evidence_snippet": "Independent variables which were significant at the 0.05 level were entered into the multivariate logistic regression analysis.",
+          "reasoning": "The study uses a p-value-driven approach for variable selection rather than a purely conceptual framework, which can be prone to bias, especially with small samples."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "Multivariate logistic regression analysis ... Associations were presented as hazard ratios with their corresponding 95% confidence interval",
+          "reasoning": "Logistic regression is appropriate for the dichotomous outcomes (dead/alive, dependent/independent)."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Table 3 ... Table 5",
+          "reasoning": "The authors report both univariate and multivariate results for both primary outcomes."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/11_Gallucci_2026/Samanci_2004.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T10:35:49.996453"
+  }
+}

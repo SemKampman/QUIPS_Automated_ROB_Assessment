@@ -1,0 +1,287 @@
+{
+  "paper_metadata": {
+    "title": "Diffusion Tensor Imaging Reveals Elevated Diffusivity of White Matter Microstructure that Is Independently Associated with Long-Term Outcome after Mild Traumatic Brain Injury: A TRACK-TBI Study",
+    "first_author": "Eva M. Palacios",
+    "year": "2022",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study uses a large, multi-center prospective cohort (TRACK-TBI) with clearly defined inclusion/exclusion criteria and a demographically matched control group. While there is some attrition from the total enrolled sample to the MRI sub-sample, the authors demonstrate that the sub-sample is representative of the larger cohort.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "From Transforming Research and Clinical Knowledge in Traumatic Brain Injury (TRACK-TBI), a cohort study at 11 United States level 1 trauma centers, a total of 391 patients with acute mTBI ages 17 to 60 years were included",
+          "reasoning": "The source population is clearly defined as patients presenting to Level 1 trauma centers with mTBI."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "Participants were enrolled at 11 academic level 1 trauma centers in the United States within 24 h of injury, after evaluation in the Emergency Department (ED) or hospital inpatient unit for TBI",
+          "reasoning": "Recruitment methods and the sampling frame (ED/Inpatient) are explicitly stated."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "While the follow-up intervals are described, the specific calendar years of recruitment for this specific analysis are not explicitly stated in the main text."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location) are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "11 academic level 1 trauma centers in the United States",
+          "reasoning": "The setting and geographic scope are clearly defined."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "mTBI participants met inclusion criteria of admission GCS 13–15, had clinical head CT scans, and were enrolled within 24 h of injury... Children age <17 years and adults >60 years were excluded",
+          "reasoning": "Criteria include GCS scores, age limits, and timing from injury."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Partial",
+          "evidence_snippet": "Of 484 participants with mTBI in the target age range, 93 were excluded for incomplete DTI scans at one or both time points",
+          "reasoning": "While the sample is large, a significant portion of the eligible MRI-scanned cohort was excluded due to image quality/motion, though the authors argue the final sample remains representative."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "There were no significant group differences in age (mTBI: 34.6±12.5 years; FC: 33.6±11.4 years; p=0.35), sex (mTBI: 132 women, 259 men; FC: 48 women, 100 men; p=0.77), or years of education",
+          "reasoning": "Key demographics and clinical characteristics (GCS, CT findings) are provided."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "There is significant attrition from the initial enrollment (1132) to the final analyzed sample (391), largely due to the requirements for research MRI at two time points and image quality. However, the authors performed a sensitivity check showing the analyzed sample matches the broader cohort's outcome distribution.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Partial",
+          "evidence_snippet": "Of these mTBI participants, 592 underwent MRI at both two weeks... 391 patients were available for analysis, of whom 367 had GOSE scores recorded at six-month follow-up.",
+          "reasoning": "The drop from 592 eligible for MRI to 367 with complete data and outcomes represents a roughly 38% loss of the MRI-eligible sub-group."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not detail specific efforts to re-engage or collect data on those who missed the 6-month scan or outcome interview."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Yes",
+          "evidence_snippet": "93 were excluded for incomplete DTI scans at one or both time points—e.g., excessive motion during scan and/or visible image artifacts.",
+          "reasoning": "Technical reasons for exclusion from the analysis are provided."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "Unsure",
+          "evidence_snippet": "The characteristics of the imaged patients with mTBI are comparable to that of the entire enrolled sample, as previously published in Nelson and coworkers",
+          "reasoning": "The authors refer to a previous publication to justify representativeness but do not provide a direct table comparing those lost vs. those retained in this specific paper."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Yes",
+          "evidence_snippet": "53% of the imaged patients and 53% of the entire cohort manifesting GOSE <8 at long-term outcome. Therefore, there does not appear to be a major selection bias",
+          "reasoning": "The authors explicitly compare the outcome rates between the analyzed sample and the total cohort to rule out informative censoring."
+        }
+      ]
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The prognostic factors (DTI metrics) were measured using a highly standardized multi-center protocol with rigorous quality control, including phantoms and traveling volunteers to ensure cross-site reliability.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "Axial diffusivity (AD), fractional anisotropy (FA), mean diffusivity (MD), and radial diffusivity (RD) were the measures of WM microstructure.",
+          "reasoning": "The DTI metrics are standard and clearly identified."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Standardization of DTI measures across all 13 MR scanners at the 11 sites was achieved using both an isotropic diffusion phantom developed at the NIST and a traveling volunteer",
+          "reasoning": "The use of NIST phantoms and traveling volunteers is the gold standard for multi-center DTI reliability."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "Standardized score for each DTI measure was calculated using its mean and standard deviation from the analysis sample.",
+          "reasoning": "DTI metrics were treated as continuous variables (standardized scores) in the regression models."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Whole-brain DTI acquisition was performed with a multi-slice single-shot spin echo echoplanar pulse sequence using 64 diffusion-encoding directions... b=1300 s/mm²",
+          "reasoning": "A standardized pulse sequence was used across all 11 sites."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "391 patients were available for analysis",
+          "reasoning": "The analysis was restricted to those with complete, high-quality DTI data."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The study appears to use complete-case analysis for the DTI metrics rather than imputation."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The outcome (GOSE) is a validated, standard measure in TBI research. The assessment was performed at a fixed time point (6 months) and specifically focused on injury-related disability.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "The primary outcome was the Glasgow Outcome Scale Extended (GOSE) score of injury-related functional limitations across broad life domains at six months post-injury.",
+          "reasoning": "The outcome and its timing are clearly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "The GOSE was administered to capture disability related to the TBI only, with exclusion of disability associated with co-occurring polytrauma",
+          "reasoning": "The GOSE is a validated tool, and the study used central curation to ensure data quality."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "The six-month follow-up GOSE was administered... (range: 160–203 days).",
+          "reasoning": "The outcome was measured consistently for all participants within a specified window."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study used multivariable logistic regression to adjust for a comprehensive set of known confounders, including age, sex, education, psychiatric history, and prior TBI.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Yes",
+          "evidence_snippet": "adjusting for demographic and other known risk factors such as history of psychiatric illness, previous TBI, and CT imaging results",
+          "reasoning": "Key clinical and demographic confounders were collected."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 2. ... Age, Sex, Race, Ethnicity, Years of education, Injury mechanism, Psychiatric history, Prior TBI, Head CT",
+          "reasoning": "Confounders are clearly categorized and defined in the analysis table."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Within 24 h of injury, we collected demographic data, clinical characteristics, and cause of injury",
+          "reasoning": "Data were collected prospectively at the time of enrollment."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Participants were enrolled at 11 academic level 1 trauma centers... within 24 h of injury",
+          "reasoning": "Standardized intake across all sites."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not mention imputation for confounders; it likely used complete-case analysis."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "Yes",
+          "evidence_snippet": "Friends or family of the TBI-injured participants, demographically matched by age, sex, and education, served as the 'friend control' (FC) group",
+          "reasoning": "The control group was demographically matched to the TBI group."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "In multi-variable models of six-month GOSE <8 versus GOSE= 8 outcome, global AD remained significantly associated with outcome... independent of demographic, clinical, and CT factors",
+          "reasoning": "Multivariable adjustment was performed for all primary prognostic analyses."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical approach is robust, utilizing voxelwise analysis followed by ROI-based regression. The authors adjusted for multiple comparisons using the Benjamini-Hochberg method and checked for multicollinearity.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Tract-Based Spatial Statistics (TBSS) in FSL was used... bivariate and multi-variable... associations... were assessed using logistic regression models.",
+          "reasoning": "The analytical pipeline is described in detail."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "adjusting for demographic and other known risk factors such as history of psychiatric illness, previous TBI, and CT imaging results",
+          "reasoning": "Variables were selected based on known risk factors in TBI literature."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "logistic regression models... Benjamini-Hochberg (BH) method was used to adjust for multiple testing.",
+          "reasoning": "Logistic regression is appropriate for the dichotomized GOSE outcome, and BH adjustment controls the false discovery rate."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Global FA, MD, and RD at two weeks did not show significant bivariate associations with six-month GOSE.",
+          "reasoning": "The authors report both significant and non-significant findings for all four DTI metrics."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/9_McGeown_2025/Palacios_2022.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T11:29:03.767775"
+  }
+}

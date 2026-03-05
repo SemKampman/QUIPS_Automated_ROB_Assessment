@@ -1,0 +1,287 @@
+{
+  "paper_metadata": {
+    "title": "A guideline-based program may improve the outcome of stroke among illiterate patients",
+    "first_author": "Jun Ni",
+    "year": "2016",
+    "analysis_timestamp": "2023-10-27 10:15:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study uses a large, nationwide multicenter cohort with clearly defined inclusion/exclusion criteria and baseline characteristics. While there were some baseline differences between the SMART and usual care groups, these were acknowledged and adjusted for in the analysis.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "We enrolled 3722 patients with acute ischemic stroke from multicenter (n = 47) SMART cohort.",
+          "reasoning": "The source is a large multicenter cohort representing acute ischemic stroke patients in China."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "nationwide, multi-center and cluster-randomized controlled trial to assess the effectiveness of a guideline-based structured care program",
+          "reasoning": "The study identifies the population through a cluster-randomized trial framework across 47 centers."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The specific calendar dates for the recruitment period are not explicitly stated in this sub-analysis text, though the trial registration is provided."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "nationwide, multi-center... in China.",
+          "reasoning": "The setting is clearly defined as multiple centers across China."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "We excluded 99 patients with diagnosis of transient ischemic attack but not stroke, leaving 3722 patients for this sub-group analysis.",
+          "reasoning": "The criteria distinguish between TIA and acute ischemic stroke for inclusion."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not provide the total number of eligible patients who declined participation (participation rate)."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1. Demographics and baseline characteristics... Male sex, Age, Past medical history, Smoking, Education level, Toast classification, Mean NIHSS",
+          "reasoning": "Comprehensive baseline data is provided in Table 1."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The attrition rate is 16.5%, which is significant. However, the authors performed a sensitivity analysis comparing completers and non-completers, finding no significant differences in key characteristics, which mitigates the risk of attrition bias.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Partial",
+          "evidence_snippet": "A total of 614 patients (16.5% of the whole cohort) were lost to follow up at six-month after index stroke.",
+          "reasoning": "An 83.5% follow-up rate is acceptable but borders on the 20% threshold for high risk."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text does not describe specific methods used to re-contact or trace lost participants."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The reasons for the 614 losses (e.g., death, relocation, withdrawal) are not specified."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "after adjustment of age and gender, no difference between the patients with and without follow-up information was observed for the baseline demographic and clinical characteristics",
+          "reasoning": "The authors explicitly compared baseline characteristics of those lost to follow-up vs. those who completed the study."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Yes",
+          "evidence_snippet": "no difference between the patients with and without follow-up information was observed for the baseline demographic and clinical characteristics, not only in the whole cohort but in SMART and usual care group separately",
+          "reasoning": "Statistical comparison suggests no systematic difference between completers and non-completers."
+        }
+      ]
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The primary prognostic factor (educational level) is clearly defined and categorized using established standards. Measurement was consistent across groups.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "Patient's educational level was categorized as three: illiterate, 6th Grade or lower and 7th Grade or higher.",
+          "reasoning": "The prognostic factor (education) is clearly categorized."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Patient's educational level was categorized as three: illiterate, 6th Grade or lower and 7th Grade or higher.15",
+          "reasoning": "The study uses a referenced categorization method (Zhang et al. 2005) for education in the Chinese population."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "categorized as three: illiterate, 6th Grade or lower and 7th Grade or higher.",
+          "reasoning": "The cut-points are based on standard Chinese schooling levels rather than being data-driven."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "The baseline study sample... is adequately described... Education level (%)",
+          "reasoning": "Education was collected at baseline for all participants using the same protocol."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1... Education level (%) [reported for both groups]",
+          "reasoning": "Education data appears complete for the analyzed cohort."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text does not mention imputation; it appears they used complete case analysis for the PF."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The outcome (mRS) is a standard, validated tool in stroke research. The definition of 'poor outcome' is standard (mRS > 2).",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "Functional outcome at six-month post- stroke was assessed by Modified Rankin Scale (mRS) score and categorized as favorable (mRS: 0–2) or poor (mRS: 3–5).",
+          "reasoning": "The outcome, timing (6 months), and threshold for 'poor' are explicitly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "assessed by Modified Rankin Scale (mRS) score",
+          "reasoning": "mRS is the gold standard for functional outcome in stroke trials."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Functional outcome at six-month post- stroke was assessed by Modified Rankin Scale (mRS) score",
+          "reasoning": "The same scale and time point were used for all participants."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study adjusted for the most critical confounders in stroke prognosis, including age, baseline severity (NIHSS), and comorbidities (Diabetes).",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Yes",
+          "evidence_snippet": "adjusting for age, gender, stroke history, hypertension, diabetes, hyperlipidemia, educational level, and NIHSS",
+          "reasoning": "The study accounts for major clinical and demographic confounders."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "Hypertension was defined as receiving antihypertensive drugs or blood pressure- 140/90 mmHg... [definitions provided for DM and Hyperlipidemia]",
+          "reasoning": "Clinical definitions for comorbidities are clearly provided."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "NIHSS... medical records... fasting blood sugar",
+          "reasoning": "Confounders were measured using objective clinical scales and laboratory data."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "The baseline demographic and clinical characteristics are given in Table 1.",
+          "reasoning": "Baseline data collection was standardized across the cohort."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text does not specify how missing confounder data was handled."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "Yes",
+          "evidence_snippet": "cluster-randomized controlled trial",
+          "reasoning": "The parent study design was a randomized trial, which helps balance confounders."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "Binary logistic model, adjusting for age, gender, stroke history, hypertension, diabetes, hyperlipidemia, educational level, and NIHSS",
+          "reasoning": "Multivariable adjustment was performed for all key prognostic factors."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical methods are appropriate for the binary outcome. The authors provide clear ORs and CIs, and they address potential biases (like pre-stroke mRS) in the discussion.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Binary logistic regression model was respectively performed in SMART and usual care group.",
+          "reasoning": "The strategy is clearly described and results are presented in detailed tables."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "adjusting for age, gender, stroke history, hypertension, diabetes, hyperlipidemia, educational level, and NIHSS",
+          "reasoning": "The variables selected are established predictors in stroke literature."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "Binary logistic model... was respectively performed",
+          "reasoning": "Logistic regression is appropriate for the dichotomized mRS outcome."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Tables 2 and 3 [showing all adjusted variables]",
+          "reasoning": "The authors report the results for all variables included in the model, not just the significant ones."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/11_Gallucci_2026/Ni_2016.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T10:37:30.565322"
+  }
+}

@@ -1,0 +1,337 @@
+{
+  "paper_metadata": {
+    "title": "Neuroimaging of sport concussion: persistent alterations in brain structure and function at medical clearance",
+    "first_author": "Nathan W. Churchill",
+    "year": "2017",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study clearly defines the source population (varsity athletes) and uses a matched control design. Inclusion criteria and recruitment settings are well-described. While it is a single-center study, the characteristics of the sample are transparently reported.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Fifty-four (54) athletes were recruited from interuniversity (\"varsity\") teams at a single institution.",
+          "reasoning": "The target population is clearly identified as varsity athletes from a specific institutional setting."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "Twenty-seven (27) athletes were recruited following a physician diagnosis of concussion... Formal physician evaluation for suspected concussion was aligned with the standardized framework set forth by the Concussion in Sport Group",
+          "reasoning": "Recruitment followed a standardized clinical framework (CISG) and physician diagnosis, reducing selection bias."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The specific calendar dates or duration of the recruitment period are not explicitly stated in the methods."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "interuniversity (\"varsity\") teams at a single institution... Participants were imaged at St. Michael's Hospital, using an MRI system operating at 3 Tesla",
+          "reasoning": "The setting (varsity sports program) and the imaging location (St. Michael's Hospital) are clearly defined."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "physician diagnosis of concussion... aligned with the standardized framework set forth by the Concussion in Sport Group... Controls were exactly matched on sex and presence of multiple prior concussions, and showed no significant difference in age",
+          "reasoning": "Diagnostic criteria and matching criteria for controls are explicitly provided."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not report the total number of eligible athletes who declined to participate, making it impossible to calculate a participation rate."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1 summarizes athlete demographics, including symptom and cognitive scores for the Sport Concussion Assessment Tool 3 (SCAT3), at each assessment time-point.",
+          "reasoning": "Table 1 provides comprehensive baseline data including age, sex, previous concussions, and SCAT3 scores."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The attrition rate is very low (2 out of 27 concussed athletes), and the reasons for exclusion from specific analyses are transparently reported. The high completion rate (89% for longitudinal analysis) limits the risk of attrition bias.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "Two athletes with concussion were not imaged at RTP due to drop-out, while one athlete was scanned at RTP but did not have acute imaging, leaving 24 athletes with complete acute and RTP scans.",
+          "reasoning": "24/27 (89%) of the concussed cohort completed the longitudinal protocol, which is well above the 80% threshold."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The study does not describe efforts to follow up with the two athletes who dropped out."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Partial",
+          "evidence_snippet": "Two athletes with concussion were not imaged at RTP due to drop-out",
+          "reasoning": "The term 'drop-out' is used, but specific reasons (e.g., withdrawal of consent, scheduling) are not detailed."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is no specific comparison of the characteristics of the 3 excluded athletes versus the 24 included athletes."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The sample size of drop-outs is too small (n=3) for meaningful statistical comparison, and no data is provided for them."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Attrition Summary",
+        "prompt": "Loss to follow-up (from baseline sample to study population analyzed) is not associated with key characteristics (i.e., the study data adequately represent the sample) sufficient to limit potential bias to the observed relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ],
+        "rating": "Low"
+      }
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The prognostic factor (concussion) is defined by clinical diagnosis and the measurement tools (3T MRI) are objective, standardized, and described in high technical detail. The use of automated pipelines (FSL, AFNI) reduces subjective measurement bias.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "Twenty-seven (27) athletes were recruited following a physician diagnosis of concussion... Formal physician evaluation for suspected concussion was aligned with the standardized framework set forth by the Concussion in Sport Group",
+          "reasoning": "The prognostic factor (concussion) is defined by a standardized clinical consensus."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Participants were imaged at St. Michael's Hospital, using an MRI system operating at 3 Tesla (Magnetom Skyra, Siemens, Erlangen, Germany)... DTI and fMRI sequences were acquired",
+          "reasoning": "Advanced neuroimaging (3T MRI) is an objective and reliable method for measuring the biological state of the brain."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "Diffusion tensor imaging was used to measure fractional anisotropy (FA) and mean diffusivity (MD)... resting-state functional MRI was used to measure global functional connectivity (Gconn).",
+          "reasoning": "The study uses continuous neuroimaging metrics (FA, MD, Gconn) rather than arbitrary categorical cut-points."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "All participants were imaged at St. Michael's Hospital, using an MRI system operating at 3 Tesla (Magnetom Skyra, Siemens, Erlangen, Germany)",
+          "reasoning": "Standardized equipment and location were used for all subjects."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "24 athletes with complete acute and RTP scans.",
+          "reasoning": "The majority of the recruited cohort provided complete imaging data."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The study excluded subjects with missing data rather than using imputation, which is acceptable given the low attrition."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "PF Measurement Summary",
+        "prompt": "PF is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ],
+        "rating": "Low"
+      }
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The outcome (medical clearance/RTP) is defined by a multi-modal clinical protocol. While RTP is a clinical decision, the study uses it as a time-point to measure objective brain changes, and the criteria for that time-point are clearly specified.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "Medical clearance to RTP was determined by normal Sport Concussion Assessment Tool 3 (SCAT3) scores, along with successful completion of both a graded exercise protocol consistent with consensus guidelines and a computerized cognitive screening battery.",
+          "reasoning": "The outcome (RTP) is defined by a rigorous, multi-component clinical protocol."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "Medical clearance to RTP was determined by normal Sport Concussion Assessment Tool 3 (SCAT3) scores... and a computerized cognitive screening battery.",
+          "reasoning": "The use of standardized tools (SCAT3, cognitive battery) increases the reliability of the clinical outcome measurement."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Formal physician evaluation... was aligned with the standardized framework set forth by the Concussion in Sport Group",
+          "reasoning": "A standardized framework was applied to all concussed athletes."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Outcome Measurement Summary",
+        "prompt": "Outcome of interest is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ],
+        "rating": "Low"
+      }
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study matches controls for age, sex, and concussion history, which is a strength. However, it does not explicitly adjust for other potential confounders like medication use, sub-concussive impacts during the recovery period, or specific sport type in the multivariable models.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Partial",
+          "evidence_snippet": "Controls were exactly matched on sex and presence of multiple prior concussions, and showed no significant difference in age",
+          "reasoning": "Key demographic confounders were matched, but other factors like medication or specific sport intensity were not detailed."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1 summarizes athlete demographics, including symptom and cognitive scores... Number of previous concussions",
+          "reasoning": "Confounders like age, sex, and history are clearly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Controls were exactly matched on sex and presence of multiple prior concussions",
+          "reasoning": "Matching is a reliable way to handle these specific confounders."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Demographic and clinical information were also collected, including prior concussion history.",
+          "reasoning": "Data collection was uniform across the cohort."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No imputation was reported."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "Yes",
+          "evidence_snippet": "27 individually-matched control athletes were also scanned... Controls were exactly matched on sex and presence of multiple prior concussions",
+          "reasoning": "The study design uses individual matching to account for primary confounders."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Partial",
+          "evidence_snippet": "regression of motion parameters and linear-quadratic trends as nuisance covariates... regression of white matter signal",
+          "reasoning": "While technical MRI artifacts were adjusted for, the statistical models (PLS) did not explicitly include clinical confounders as covariates."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Confounding Summary",
+        "prompt": "Important potential confounders are appropriately accounted for, limiting potential bias with respect to the relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ],
+        "rating": "Moderate"
+      }
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study uses sophisticated multivariate techniques (PLS) and non-parametric bootstrapping, which are appropriate for neuroimaging data with small samples. The reporting is transparent, including both significant and non-significant findings.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Multivariate Partial Least Squares (PLS) analysis was performed for each of the MRI measures (FA, MD, Gconn)... Repeated-measures bootstrap resampling was used to generate empirical distributions",
+          "reasoning": "The analytical pipeline is described in detail, including software and statistical parameters."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "The first PLS component is reported for each of the analyzed MRI measures, which explains the greatest total covariance across groups.",
+          "reasoning": "The use of PLS to identify multivariate patterns is a standard and appropriate framework for this type of exploratory neuroimaging study."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "Repeated-measures bootstrap resampling was used... resampling units consisting of a subject's acute and RTP scans, along with their matched control.",
+          "reasoning": "The model correctly accounts for the longitudinal, matched-pair nature of the data."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Neither of the DTI measures showed significant association between brain changes at RTP... However, changes in Gconn were significantly related to time to RTP",
+          "reasoning": "The authors report both significant (Gconn) and non-significant (DTI) associations with recovery time, suggesting no selective reporting bias."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Statistical Analysis and Presentation Summary",
+        "prompt": "The statistical analysis is appropriate for the design of the study, limiting potential for presentation of invalid or spurious results.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ],
+        "rating": "Low"
+      }
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/9_McGeown_2025/Churchill_2017.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T11:40:38.620442"
+  }
+}

@@ -1,0 +1,287 @@
+{
+  "paper_metadata": {
+    "title": "Prediction of post-traumatic complaints after mild traumatic brain injury: early symptoms and biochemical markers",
+    "first_author": "J R de Kruijk",
+    "year": "2002",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study provides clear inclusion/exclusion criteria and describes the setting well. However, there is a significant risk of selection bias because only 107 out of 1125 eligible patients (approx. 9.5%) were enrolled. While the authors argue this was due to 'work strain' and unlikely to be selective, such a low participation rate in a convenience sample often introduces bias.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "The study was conducted at the University Hospital Maastricht, the Netherlands... Patients were eligible for this study if they were older than 15 years and presented to the emergency room (ER) within six hours after the trauma.",
+          "reasoning": "The source population (ER attendees at a specific university hospital) and their age/presentation timing are clearly defined."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Partial",
+          "evidence_snippet": "Between October 1996 and June 1999, approximately 1125 patients with MTBI were seen... One hundred and seven of these patients were enrolled in the study. The rest met the exclusion criteria, refused to be included, or were not asked by the attending specialist to participate.",
+          "reasoning": "While the timeframe and total pool are described, the recruitment was dependent on the 'attending specialist' asking, which led to a very small fraction of the total pool being included, suggesting a convenience sample."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "Between October 1996 and June 1999",
+          "reasoning": "The dates are explicitly stated."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "University Hospital Maastricht, the Netherlands",
+          "reasoning": "The specific hospital and city are provided."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "MTBI was defined as a blunt blow to the head resulting in (a) GCS of 14 or 15... (b) presence of post-traumatic amnesia (of less than one hour); (c) initial loss of consciousness lasting less than 15 minutes; and (d) absence of focal neurological signs. Patients were excluded if they suffered from multitrauma or acute alcohol intoxication...",
+          "reasoning": "The study uses very specific clinical criteria for MTBI and lists several relevant exclusion criteria (alcohol, psychiatric disorders, multitrauma)."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "No",
+          "evidence_snippet": "One hundred and seven of these patients were enrolled in the study [out of 1125].",
+          "reasoning": "Participation was less than 10% of the eligible population, which is well below the 80% threshold usually required for low risk."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 2: Demographic characteristics (Women %, Age range), Acute symptoms (Headache, Nausea, Dizziness, Neck pain, Vomiting), Serum markers.",
+          "reasoning": "Table 2 provides a comprehensive breakdown of the baseline characteristics of the enrolled sample."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study suffered from a 26% loss to follow-up at the primary 6-month endpoint (79/107). While the authors compared baseline characteristics between the 2-week and 6-month groups and found no major differences, the reasons for dropout were not detailed, and the loss is high enough to potentially bias the results if dropouts were related to outcome severity.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Partial",
+          "evidence_snippet": "After two weeks, 103 patients showed up for follow up examination (96%), versus 79 (74%) after six months.",
+          "reasoning": "74% follow-up at 6 months is acceptable but not ideal (usually >80% is preferred for low risk)."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text does not describe any attempts (e.g., phone calls, mailers) to reach those who did not attend the 6-month clinic visit."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The authors state the numbers lost but do not provide reasons (e.g., moved away, recovered, too ill to attend)."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Comparing patients showing up at two weeks and six months did not indicate selective loss to follow up.",
+          "reasoning": "Table 2 explicitly compares the characteristics of the 103 patients at 2 weeks vs the 79 at 6 months, showing they are similar."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Comparing patients showing up at two weeks and six months did not indicate selective loss to follow up.",
+          "reasoning": "While baseline characteristics were similar, we do not know if the 6-month outcomes of the dropouts differed from the completers (informative censoring)."
+        }
+      ]
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The prognostic factors (symptoms and biochemical markers) were measured using standardized methods within a strict timeframe (6 hours). The use of commercially available assays for NSE and S-100B and clear cut-off points limits measurement bias.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "The present study assessed the presence of symptoms at the ER (headache, dizziness, nausea, vomiting, and neck pain) and biochemical markers (NSE and S-100B) in serum taken within six hours after the trauma.",
+          "reasoning": "The PFs are clearly listed and the timing of measurement is specified."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "NSE and S-100B concentrations were measured using commercially available immunoluminometric assays (Pharmacia NSE RIA... and LIA-mat Sangtec 100).",
+          "reasoning": "Standardized laboratory assays were used for biochemical markers. Symptoms were recorded at the time of ER presentation, reducing recall bias."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "NSE and S-100B serum concentrations were defined as increased if they were higher than, respectively, 10 µg/l and 0.3 µg/l.",
+          "reasoning": "The authors used pre-defined cut-offs based on cited literature (29, 34) rather than deriving them from their own data."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "The presence of headache, neck pain, nausea, vomiting, and dizziness was recorded at first examination. Blood samples... were taken within six hours after the trauma.",
+          "reasoning": "All participants underwent the same ER assessment protocol."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "Eventually, serum markers were measured in 89 patients [out of 103/107].",
+          "reasoning": "Data was available for the vast majority of the analyzed sample."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "No",
+          "evidence_snippet": "Although biochemical marker data were missing for 11 patients, this did not seem to explain this finding...",
+          "reasoning": "The authors did not use imputation; they performed a complete-case analysis or discussed the missingness descriptively."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The outcome (PTC) was measured using a validated framework (Bohnen et al.) and a Visual Analogue Scale (VAS), which allows for granular assessment. The 6-month follow-up is a standard timeframe for MTBI prognosis.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "Outcome variables were the severity of 16 PTC six months after the trauma... measured on a visual analogue scales (VAS) with a range of 0–100 mm.",
+          "reasoning": "The outcome is clearly defined by 16 specific symptoms, a measurement tool (VAS), and a specific time point (6 months)."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "Selection of these PTC was based on a study of Bohnen et al. 13... The complaints assessed in the present study were very similar to the symptoms used in the Rivermead postconcussion symptoms questionnaire.",
+          "reasoning": "The study uses symptoms and categories derived from established literature and validated scales."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "At the follow up sessions (two weeks and six months), all patients were questioned at the outpatient clinic about the severity of PTC.",
+          "reasoning": "All patients were assessed in the same clinical setting using the same questionnaire."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study performed multivariable adjustment for key potential confounders including age, sex, and the intervention (bed rest). They also accounted for pre-injury symptom levels by defining 'full recovery' relative to pre-traumatic status.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Yes",
+          "evidence_snippet": "Age, sex, and intervention (bed rest within 10 days after the trauma) were considered to be possible confounders.",
+          "reasoning": "The study identifies and measures the most common confounders in MTBI prognosis."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 2: Demographic characteristics... Age range... intervention (bed rest within 10 days after the trauma).",
+          "reasoning": "Confounders are clearly defined and categorized."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Not explicitly detailed, but standard demographic and clinical data collection.",
+          "reasoning": "Age, sex, and treatment group are objective variables with low risk of measurement error."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Baseline data including demographics, acute clinical symptoms, and serum marker concentrations were summarised.",
+          "reasoning": "Data was collected uniformly at the ER visit."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is no mention of missing data for age, sex, or intervention group, nor any mention of imputation."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "Yes",
+          "evidence_snippet": "The study was conducted... as part of an intervention study on the efficacy of bed rest after MTBI.",
+          "reasoning": "The study design (nested within a trial) allowed for controlled intervention groups."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "Associations between PTC after six months and possible predictive variables were estimated by multiple linear regression analysis, adjusting for sex, age, and type of bed rest advice after trauma.",
+          "reasoning": "The authors used multivariable regression to adjust for the identified confounders."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical approach is sound, using log-transformation for non-normal outcome data and multivariable linear regression. The reporting is transparent, including both subgroup sums and specific symptoms, and the authors acknowledge the limitations of their sample size.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Associations... were estimated by multiple linear regression analysis... outcome scores were first transformed to their natural logarithms (ln).",
+          "reasoning": "The analytical steps, including data transformation and model type, are well-described."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "Selection of these PTC was based on a study of Bohnen et al... Three subgroups of intercorrelated items were selected by means of factor analysis.",
+          "reasoning": "The model building for outcomes was based on prior factor-analytical work, and predictors were chosen based on clinical relevance."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "multiple linear regression analysis, adjusting for sex, age, and type of bed rest advice",
+          "reasoning": "Linear regression is appropriate for the continuous VAS scores (post-transformation)."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Table 5 and 6 show both significant and non-significant associations.",
+          "reasoning": "The authors report on all pre-specified predictors and outcomes, including those that did not reach statistical significance (e.g., neck pain)."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/10_Dery_2025/DeKruijk_2002.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T10:31:06.672162"
+  }
+}

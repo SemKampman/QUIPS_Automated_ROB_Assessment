@@ -1,0 +1,287 @@
+{
+  "paper_metadata": {
+    "title": "Increased brain age and relationships with blood-based biomarkers following concussion in younger populations",
+    "first_author": "Andrew R. Mayer",
+    "year": "2023",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study uses two large, well-defined independent cohorts. The pediatric cohort used consecutive recruitment from emergency settings, and the athlete cohort (CARE) used a prospective multi-center design with clear inclusion/exclusion criteria and matched controls.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Pediatric mTBI patients (pmTBI; 8–18 years old) were consecutively recruited from local emergency department and urgent care settings... collegiate athletes with sport-related concussion and matched non-contact sport controls.",
+          "reasoning": "The paper clearly defines the two distinct populations (pediatric and collegiate athletes) and provides detailed demographic tables (Table 1 and 2)."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "pmTBI... were consecutively recruited from local emergency department and urgent care settings... athlete samples were derived from the Concussion Assessment, Research, and Education (CARE) Consortium.",
+          "reasoning": "Consecutive recruitment in the pediatric sample and the use of a established multi-center consortium (CARE) for athletes are robust methods to limit selection bias."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "initiated in July 2016",
+          "reasoning": "The start date for the pediatric cohort is explicitly mentioned."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "local emergency department and urgent care settings... University of New Mexico School of Medicine... Medical College of Wisconsin... University of Michigan... Indiana University.",
+          "reasoning": "The affiliations and settings (ED, Urgent Care, and specific Universities) provide clear geographic and clinical context."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "Inclusion criteria were a blend of the American Congress of Rehabilitation Medicine... Glasgow Coma Score≥13, post-traumatic amnesia... limited to 24 h, loss of consciousness... limited to 30 min.",
+          "reasoning": "The study uses standardized clinical definitions (ACRM, Zurich Group) and specific physiological thresholds for inclusion."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "While the final sample sizes are large (N=446 and N=184), the paper does not explicitly state the total number of eligible individuals screened versus those who consented (participation rate)."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1 and Table 2 provide Age, Sex, Tanner stage, Handedness, mTBI History, and Symptom scores.",
+          "reasoning": "Comprehensive baseline data is provided for both cohorts, including injury-specific characteristics like LOC and PTA."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "There is significant attrition between the acute and follow-up visits (e.g., 235 to 163 in pmTBI). While the authors compared characteristics of returners vs. non-returners and found few differences, the loss of ~30% of the sample introduces potential bias.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Partial",
+          "evidence_snippet": "235 pmTBI... for the SA visit. A total of 163 pmTBI... provided imaging data for the EC visit.",
+          "reasoning": "The retention rate is approximately 69% for the pediatric mTBI group, which is below the ideal 80% threshold but common in longitudinal TBI research."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not describe specific efforts made to re-engage or collect data from those who did not return for follow-up."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The specific reasons for dropout (e.g., moved, recovered, too ill) are not detailed."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "There were no differences in demographics or PCS severity for returning versus non-returning pmTBI or pHC participants.",
+          "reasoning": "The authors explicitly state they compared returners and non-returners on key baseline variables to assess for attrition bias."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Yes",
+          "evidence_snippet": "No differences in symptom burden were observed for returning versus non-returning SRC or NCA.",
+          "reasoning": "Statistical comparisons were performed, though some differences were noted in the CSA group (returning CSA were younger and had higher symptoms)."
+        }
+      ]
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The primary prognostic factor (concussion/mTBI) is well-defined using international standards. The secondary factors (blood biomarkers) used high-sensitivity platforms (Simoa, MSD) with clear quality control protocols.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "Inclusion criteria were a blend of the American Congress of Rehabilitation Medicine... and the Zurich Concussion in Sport Group.",
+          "reasoning": "The definition of the 'exposure' (concussion) is based on established clinical guidelines."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Multi-plex technology (Simoa™, Quanterix Corp.) quantifed UCH-L1, total tau, NFL, and GFAP... All markers were analyzed in duplicate.",
+          "reasoning": "The use of Simoa technology and duplicate analysis is the gold standard for blood-based neurological biomarkers."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "Log-transformations were used for all blood biomarker concentration values.",
+          "reasoning": "Biomarkers were treated as continuous variables with appropriate statistical transformation."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Longitudinal samples from the same individual were always run on the same plate, with the three groups randomly distributed across plates.",
+          "reasoning": "Standardized laboratory protocols and plate-randomization were used to prevent batch effects."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Partial",
+          "evidence_snippet": "The current investigation included only a sub-sample (~ 20% of previously published data) of participants with concurrent imaging data.",
+          "reasoning": "While the imaging data is complete for the analyzed sample, the blood biomarkers were only available for a subset of the CARE cohort."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "Yes",
+          "evidence_snippet": "Infammatory marker values below the lower limit of detection were replaced by the lower limit of detection and divided by the square root of 2.",
+          "reasoning": "The study uses a standard, scientifically accepted method for handling values below the limit of detection."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The primary outcome (Brain Age/PAD) was calculated using a validated deep learning algorithm (DeepBrainNet) applied to high-resolution 3T MRI. The process was automated and standardized across all participants.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "PAD was calculated by subtracting the actual subject age from the median value of all slice-wise predictions.",
+          "reasoning": "The outcome (Predicted Age Difference) is mathematically defined and the follow-up intervals (7 days, 4-6 months) are clear."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "Brain age was estimated using a deep learning network (DeepBrainNet) architecture... initially trained using a diverse cohort of 11,729 participants.",
+          "reasoning": "The use of a pre-trained, large-scale validated algorithm on standardized 3T MRI data ensures high reliability."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "High-resolution T1-weighted images (1 mm3) were acquired on a Siemens 3T scanner... or GE... Preprocessing steps... were the same for all cohorts.",
+          "reasoning": "Standardized MRI protocols and a single processing pipeline (AntsPy/DeepBrainNet) were used for all subjects."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study rigorously accounts for confounding by using age- and sex-matched control groups and including chronological age, scanner type, and intracranial volume as covariates in the statistical models.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Yes",
+          "evidence_snippet": "age, biological sex, scanner type, estimated intracranial volume, and chronological age.",
+          "reasoning": "The study identifies and measures the most critical confounders for brain morphology and brain age studies."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "Exposure was quantifed by semi-structured interviews based on participation in contact sports... by concussion history... and by years of contact sport exposure.",
+          "reasoning": "Confounders like 'exposure' are defined through multiple metrics (years, history, sport type)."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Partial",
+          "evidence_snippet": "semi-structured interviews based on participation... self-reported history of concussion.",
+          "reasoning": "While semi-structured interviews are standard, they still rely on participant recall for historical concussions, which is a known limitation."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "CSA and NCA were enrolled at preseason and followed at equivalent imaging and clinical time-points.",
+          "reasoning": "Control groups underwent identical assessment protocols as the injured groups."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not explicitly mention how missing covariate data (e.g., a missing Tanner stage) was handled, though it describes biomarker imputation."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "Yes",
+          "evidence_snippet": "Age- and sex-matched pediatric healthy controls (pHC)... matched non-contact sport controls.",
+          "reasoning": "The study design uses matching to ensure groups are comparable at baseline."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "GEE (group×visit) models with diagnostic status, MRI scanner type, visit and chronological age as covariates.",
+          "reasoning": "The statistical analysis includes appropriate multivariable adjustment for known confounders."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical approach is sophisticated, using GEE to account for longitudinal data and Bonferroni corrections for multiple biomarker comparisons. Results are reported transparently, including null findings.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Analyses were conducted with either generalized linear models (GLM) or generalized estimating equations (GEE)... appropriate distribution (Gaussian, gamma or negative binomial) determined by information criterion.",
+          "reasoning": "The authors provide a detailed rationale for their choice of statistical tests and distributions."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "inclusion of chronological age has been shown to reduce bias... intracranial volume... used as an additional covariate.",
+          "reasoning": "Variable selection is grounded in established neuroimaging methodology (e.g., correcting for the 'brain age bias' where PAD correlates with age)."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "GEE (group×visit) models",
+          "reasoning": "GEE is an appropriate choice for analyzing longitudinal data with missing observations and varying group sizes."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Results for this analysis were null (p>0.05)... association between NFL and brain age following SRC was only at a trend level.",
+          "reasoning": "The authors report all findings, including non-significant results and trend-level associations, suggesting a lack of reporting bias."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/9_McGeown_2025/Mayer_2023b.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T11:40:09.763390"
+  }
+}

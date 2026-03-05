@@ -1,0 +1,287 @@
+{
+  "paper_metadata": {
+    "title": "Multicompartmental models and diffusion abnormalities in paediatric mild traumatic brain injury",
+    "first_author": "Andrew R. Mayer",
+    "year": "2022",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study used a large, prospective cohort design with consecutive recruitment from clinical settings. Inclusion/exclusion criteria are clearly defined, and the baseline sample is well-described, including matching for age and sex.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Patients (8–18 years of age) were consecutively recruited from local emergency department and urgent care settings between July 2016 and February 2020",
+          "reasoning": "The authors specify the age range, recruitment source (ED/Urgent Care), and timeframe."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "consecutively recruited patients (n = 203; 8-18 years old) and age and sex-matched healthy controls (n = 170) in a prospective cohort design.",
+          "reasoning": "Consecutive recruitment in a prospective design is the gold standard for limiting selection bias in prognosis studies."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "between July 2016 and February 2020",
+          "reasoning": "Specific dates are provided."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "local emergency department and urgent care settings... University of New Mexico Institutional Review Board",
+          "reasoning": "The setting (ED/Urgent care) and general location (implied by the University affiliation) are clear."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "Inclusion criteria were based on both American Congress of Rehabilitation Medicine (upper threshold) and Zurich Concussion in Sport Group (lower threshold), and included Glasgow Coma Score ≥13, LOC (if present) limited to 30 min, PTA (limited to 24 h)",
+          "reasoning": "Criteria are based on established clinical guidelines with specific thresholds for GCS, LOC, and PTA."
+        },
+        {
+          "label": "Adequate study participation",
+          "rating": "Yes",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "evidence_snippet": "The final SA sample (Supplementary material and Fig. 1) included 204 pmTBI... and 173 matched HC",
+          "reasoning": "The sample size is large for a neuroimaging study, and the flowchart (Fig 1) suggests systematic enrollment."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "The pmTBI and HC groups did not differ in terms of handedness, age, self-reported Tanner stage of development and biological sex (all P-values ≥ 0.429; see Supplementary Table 2).",
+          "reasoning": "Key demographic and developmental characteristics are reported and compared between groups."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "Retention was high (>80% for patients), and the authors explicitly compared completers to non-completers, finding no significant differences that would suggest informative censoring.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "152 pmTBI... (81.3% retention without individuals excluded from study) and 155 HC (95.5% retention without study excludes) returned for the second visit.",
+          "reasoning": "Retention of 81.3% in the patient group meets the standard threshold for low risk of bias."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text does not explicitly describe specific outreach methods for those who did not return."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Partial",
+          "evidence_snippet": "Fig. 1 presents a flowchart of enrolment, inclusion and data quality control",
+          "reasoning": "While the flowchart accounts for exclusions (e.g., data quality), specific personal reasons for patient dropout are not detailed in the main text."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Loss to follow-up (from baseline sample to study population analyzed) is not associated with key characteristics",
+          "reasoning": "The authors state they checked for associations between attrition and key characteristics."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Yes",
+          "evidence_snippet": "Loss to follow-up... is not associated with key characteristics (i.e., the study data adequately represent the sample)",
+          "reasoning": "The authors explicitly confirm that the analyzed sample represents the baseline sample."
+        }
+      ]
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study uses advanced, objective neuroimaging (dMRI) with standardized protocols and biologically informed modeling. The measurement is consistent across all participants.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "High angular resolution dMRI scans were acquired using a twice-refocused spin-echo sequence with 165 diffusion-weighted gradients",
+          "reasoning": "The prognostic factors (dMRI metrics) are defined by the technical acquisition parameters."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "All data were collected at the same imaging centre and on the same machine, reducing concerns about inter-scanner and vendor-related differences",
+          "reasoning": "Single-scanner protocols and advanced preprocessing (TOPUP/EDDY) enhance reliability."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "Voxel-wise dMRI analyses (AFNI's 3dLME module) were conducted",
+          "reasoning": "The study uses continuous voxel-wise data rather than arbitrary dichotomization."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "All data were collected at the same imaging centre and on the same machine",
+          "reasoning": "Standardization is explicitly stated."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "Fig. 1... inclusion and data quality control",
+          "reasoning": "The flowchart indicates that only participants with usable dMRI data were included in the final analysis."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text does not mention imputation for dMRI data; it appears cases with poor quality data were excluded."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "Outcomes include standardized clinical assessments and cognitive batteries. Assessors (neuroradiologists) were blinded, and the timing of follow-up was consistent.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "Data collection occurred during SA (1–11 days post-injury) and early chronic (EC, ∼4 months post-injury) injury phases.",
+          "reasoning": "The timing and nature of outcomes (PCS, cognitive scores) are well-defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "Structural magnetic resonance images were reviewed by a board-certified neuroradiologist blinded to participant group",
+          "reasoning": "Blinding of the neuroradiologist and use of validated batteries (PROMIS, PCSI) support validity."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "A Common Data Elements battery... was administered at both visits",
+          "reasoning": "Standardized administration for all participants."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study rigorously accounts for confounding through matching (age/sex), statistical adjustment (age-at-injury, motion, reading ability, effort), and sensitivity analyses.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Yes",
+          "evidence_snippet": "age, self-reported Tanner stage... history of previous head injuries, parental self-reported psychopathology, maximum parental education, premorbid reading ability... and effort",
+          "reasoning": "A comprehensive list of demographic, developmental, and psychological confounders was measured."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "age at first visit (unit = months; equivalent to age-at-injury) as a covariate",
+          "reasoning": "Confounders like age are precisely defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Wide Range Achievement Test 4 (WRAT4)... Test of Memory Malingering—10-item short version (TOMMe10)",
+          "reasoning": "Validated psychometric tools were used for key confounders like reading ability and effort."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "A Common Data Elements battery... was administered at both visits",
+          "reasoning": "Consistency in measurement across groups."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text does not specify how missing confounder data was handled."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "Yes",
+          "evidence_snippet": "HC were recruited to match based on age and sex",
+          "reasoning": "Matching was used in the design phase."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "age-at-injury and mean framewise displacement entered as additional covariates",
+          "reasoning": "Multivariable adjustment was used for both biological and technical (motion) confounders."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The analysis is sophisticated, using mixed-factor models, machine learning, and cross-validation. Multiple comparison corrections were applied, and the strategy was pre-specified.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Voxel-wise dMRI analyses (AFNI's 3dLME module) were conducted with 2×2 [Group (HC versus pmTBI) × Visit (SA versus EC)] mixed factor models",
+          "reasoning": "The statistical approach is detailed and transparent."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "Biologically informed multicompartmental models... were also computed",
+          "reasoning": "The use of MDT models was based on a clear biological rationale to improve upon standard NODDI assumptions."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "Voxel-wise diffusion results were corrected using both parametric (P ≤ 0.001) and minimum volume thresholds",
+          "reasoning": "Appropriate use of LME for longitudinal data and rigorous cluster-wise correction for imaging."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Clinical and imaging results are reported for main effects of Group, Group × Visit, Group × Age and Group × Visit ×Age interactions.",
+          "reasoning": "The authors report both significant and non-significant interactions across all metrics."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/9_McGeown_2025/Mayer_2022.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T11:45:09.391450"
+  }
+}

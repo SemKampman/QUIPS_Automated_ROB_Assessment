@@ -1,0 +1,287 @@
+{
+  "paper_metadata": {
+    "title": "Investigating cognitive reserve, symptom resolution and brain connectivity in mild traumatic brain injury",
+    "first_author": "Natascha Ekdahl",
+    "year": "2023",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study provides a clear description of the source population and inclusion criteria. However, the sample size is very small (n=30), and there was a high refusal rate (99 individuals declined), which may introduce selection bias, particularly as the reasons for non-participation (time constraints) might correlate with symptom severity or cognitive reserve.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Patients were recruited from Danderyd University Hospital's emergency department, and all evaluations, including MRI scans, were performed on-site at the hospital.",
+          "reasoning": "The source (Emergency Department) and the nature of the population (mTBI and orthopedic controls) are clearly defined."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Partial",
+          "evidence_snippet": "For the patient group, consecutive patients with mTBI significant enough to warrant a CT scan was included.",
+          "reasoning": "While recruitment was consecutive, the high number of individuals who declined participation (99) suggests potential recruitment bias."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "The study was conducted between January 2015 and April 2016",
+          "reasoning": "The specific dates for the study duration are provided."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "Patients were recruited from Danderyd University Hospital's emergency department",
+          "reasoning": "The specific hospital and department are identified."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "The WHO Collaborating Center of Neurotrauma Task Force criteria were used to define mTBI... Exclusion criteria were as follows: Uncertain duration of loss of consciousness, Contraindications to magnetic resonance imaging (MRI)...",
+          "reasoning": "The study uses established WHO criteria and lists specific exclusion factors."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "No",
+          "evidence_snippet": "A total of 99 individuals declined participation, 17 with mTBI and 82 with orthopedic injuries",
+          "reasoning": "The number of refusers (99) significantly outweighs the number of participants (30), indicating a low participation rate among eligible individuals."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1 Information on education, premorbid IQ and self-rated anxiety/depression at baseline of the patients and controls",
+          "reasoning": "Key demographics including age, gender, education, and IQ are presented in Table 1."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study had a very low attrition rate (2 per group), and the authors checked for correlations between the variable follow-up times and the outcomes, finding no significant impact.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "At follow-up two individuals from both groups were lost.",
+          "reasoning": "26 out of 30 participants (87%) completed the follow-up, which is generally considered adequate."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text mentions they were lost but does not describe specific attempts to retrieve data from them."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "No",
+          "evidence_snippet": "At follow-up two individuals from both groups were lost.",
+          "reasoning": "The text states they were lost but does not provide specific reasons (e.g., moved, withdrew consent)."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is no specific comparison provided between the characteristics of the 4 dropouts and the 26 completers."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The sample size of dropouts is too small for statistical comparison, and no qualitative description is provided."
+        }
+      ]
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The primary prognostic factor (Cognitive Reserve) was measured using two validated methods: years of education and a standardized lexical decision test for premorbid IQ.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "The two measures of cognitive reserve, years of education and estimated premorbid IQ were highly correlated",
+          "reasoning": "The study explicitly defines the PF as cognitive reserve and specifies the two metrics used."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "The Swedish Lexical Decision Test was employed to evaluate the premorbid intelligence level... accounts for 48% of the variance in full-scale intelligence quote measured by the WAIS",
+          "reasoning": "The authors use a validated neuropsychological test with known psychometric properties."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "correlation analysis with Spearman's rho was used.",
+          "reasoning": "The PF was treated as a continuous variable in the correlation analysis, avoiding arbitrary cut-points."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "All participants underwent assessment at two time points... during the first assessment demographic data and data regarding prior medical and psychiatric history was obtained",
+          "reasoning": "The protocol was standardized across both the mTBI and OC groups."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1 Information on education, premorbid IQ... mTBI n=15, OC n=15",
+          "reasoning": "Baseline PF data appears complete for all recruited participants."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text does not mention missing PF data or imputation methods, though the small N suggests they likely used available cases."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "Outcomes were measured using standardized, validated questionnaires (RPQ, FSS) and objective neuropsychological tests (DSST). The same methods were applied to all participants.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "The Rivermead Post-Concussion Symptoms Questionnaire (RPQ, [20]) was employed to assess selfreported symptoms.",
+          "reasoning": "The primary outcome (post-concussion symptoms) is clearly defined by a validated scale."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "The RPQ has 16 items... widely used in chronic illness contexts, it is recognized for its strong psychometric properties",
+          "reasoning": "The study uses established clinical tools (RPQ, FSS, DSST) with known reliability."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "All evaluations, including MRI scans, were performed on-site at the hospital.",
+          "reasoning": "The setting and procedures were identical for both groups."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "While the study used an orthopedic control group to account for the trauma experience and measured several confounders (age, sex, psych history), the small sample size limited the ability to perform multivariable adjustment. The analysis relied on univariable correlations.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Partial",
+          "evidence_snippet": "There were no significant group differences in age... or gender... data regarding prior medical and psychiatric history was obtained",
+          "reasoning": "Key demographics and history were measured, but specific treatments received during the 3-month interval were not detailed."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1 Information on education, premorbid IQ and self-rated anxiety/depression",
+          "reasoning": "Confounders like anxiety/depression (HADS) and education are clearly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "The Hospital Anxiety and Depression Scale (HADS, [23, 24]) was used",
+          "reasoning": "Validated scales were used to measure potential psychological confounders."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "During the first assessment demographic data and data regarding prior medical and psychiatric history was obtained, using a structured interview.",
+          "reasoning": "Standardized interviews were used for all participants."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No mention of missing confounder data or imputation."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "Yes",
+          "evidence_snippet": "Orthopedic controls... have been proposed as a more appropriate comparison group for mTBI studies",
+          "reasoning": "The use of an orthopedic control group is a design-level attempt to control for the 'trauma' confounder."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "No",
+          "evidence_snippet": "correlation analysis with Spearman's rho was used.",
+          "reasoning": "The study did not use multivariable regression to adjust for confounders, likely due to the small sample size."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The analysis is appropriate for a pilot study (non-parametric tests, correlation), but the small sample size increases the risk of spurious findings. The authors acknowledge this as a pilot study and call for larger validation studies.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Descriptive statistics... computed using the Jamovi statistical software... Spearman's rho was used.",
+          "reasoning": "The statistical methods are clearly laid out in the 'Analysis' section."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Partial",
+          "evidence_snippet": "To analyze the relationship between recovery over time and cognitive reserve, correlation analysis with Spearman's rho was used.",
+          "reasoning": "The strategy is simple correlation rather than complex model building, which is appropriate for the N but limits depth."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "Mann–Whitney test for nonparametric data... Wilcoxon rank sum test.",
+          "reasoning": "Non-parametric tests are appropriate given the small sample size and likely non-normal distribution of symptom scores."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Neither improvement in RPQ-f nor DSST-f correlated with length of education... No significant correlations were found between measures of cognitive reserve... and functional connectivity",
+          "reasoning": "The authors report both significant and non-significant findings, reducing the risk of reporting bias."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/9_McGeown_2025/Ekdahl_2023.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T11:48:12.996288"
+  }
+}

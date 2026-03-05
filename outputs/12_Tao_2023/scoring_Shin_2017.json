@@ -1,0 +1,287 @@
+{
+  "paper_metadata": {
+    "title": "Cross-level interaction between individual socioeconomic status and regional deprivation on overall survival after onset of ischemic stroke: National health insurance cohort sample data from 2002 to 2013",
+    "first_author": "Jaeyong Shin",
+    "year": "2017",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study uses a large, stratified random sample from a national database covering the entire population, with clearly defined inclusion/exclusion criteria and baseline characteristics.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "This study used Korean National Health Insurance (NHI) cohort data... random-sample and stratified according to age, sex, region, health insurance type, income decile, and individual total medical costs from 2002 to 2013.",
+          "reasoning": "The source population is the entire Korean citizenry under a universal health system, with specific stratification variables listed."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "We selected newly diagnosed ischemic stroke patients from 2002 to 2013 using stratified representative sampling data of 1,025,340 subjects",
+          "reasoning": "The use of a 2.5% stratified random sample from a national database minimizes recruitment bias."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "A total of 37,044 patients over the 10 years from 2004 to 2013 had newly diagnosed stroke.",
+          "reasoning": "The recruitment window is explicitly stated."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "The municipal areas are geographical units covering all small areas in Korea.",
+          "reasoning": "The study covers the entire geographic area of South Korea via national insurance data."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "We conducted a cohort study of patients newly diagnosed with ischemic stroke (ICD-10 code: I.63)... 7511 patients with pre-existing ischemic stroke in 2002 and 2003 were removed",
+          "reasoning": "ICD codes and a clear 'washout' period to ensure incident cases are provided."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Yes",
+          "evidence_snippet": "All Korean citizens are obligated to join the National Health Security System",
+          "reasoning": "Because participation is mandatory by law for the source database, selection bias from non-participation is negligible."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Demographic characteristics, including age, sex, and area of residence were analyzed, as well as medical history of hypertension, diabetes, hyperlipidemia, atrial fibrillation, and ischemic heart disease.",
+          "reasoning": "Table 1 provides a comprehensive breakdown of baseline demographics and comorbidities."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The attrition rate is very low (approx 2.3%), and the use of national mortality records linked by unique IDs ensures high follow-up accuracy.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "Among the enrolled participants, 856 patients were lost to follow-up",
+          "reasoning": "856 out of 37,044 is a loss of ~2.3%, which is well below the 20% threshold for high risk."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "Yes",
+          "evidence_snippet": "these participants were censored at the end of the last year with an available medical record.",
+          "reasoning": "The study describes how it handled censored data in the survival analysis."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The specific reasons for the 856 losses (e.g., emigration) are not detailed."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is no table comparing those lost to follow-up versus those who completed the study."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "While the attrition rate is low, the paper does not explicitly test for differences between completers and non-completers."
+        }
+      ]
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The primary prognostic factors (Individual SES and Regional Deprivation) are measured using objective, validated administrative and census data.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "We categorized individual household incomes into three groups (Low, 0-30th percentile; Middle, 31st-70th percentile; High, 71st-100th percentile).",
+          "reasoning": "Individual SES is clearly defined via insurance premiums."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "We used a modified Carstairs index with census data from 2005... This modified index displays a significant association with health and has been shown to be robust",
+          "reasoning": "The study uses the Carstairs index, a validated tool for regional deprivation."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "The indexes were categorized into two groups, advantaged and disadvantaged regions, based on the median value",
+          "reasoning": "Median split is a standard, non-data-dependent cut-point."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "The values were derived for each area using 2% microdata from the 2005 Population and Housing Census",
+          "reasoning": "Standardized census and insurance data were applied uniformly."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "37,044 patients were enrolled... 856 patients were lost to follow-up",
+          "reasoning": "The vast majority of the sample has complete administrative data."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not mention how missing values within the administrative records were handled, though administrative data is usually complete."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The outcome (mortality) is objective and obtained from the National Statistical Office, which is the gold standard for survival data.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "We calculated hazard ratios (HR) of 12- and 36-month mortality using the Cox proportional hazard model",
+          "reasoning": "Mortality at specific time points is clearly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "unique anonymous numbers are linked to information on mortality obtained from the Korean National Statistical Office.",
+          "reasoning": "National death records are highly reliable and objective."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "unique anonymous numbers are linked to information on mortality obtained from the Korean National Statistical Office.",
+          "reasoning": "The same national database was used for all participants."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "While many clinical and hospital factors were adjusted for, the authors admit they could not measure stroke severity using standard scales (NIHSS) or adjust for lifestyle factors like education and exercise.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Partial",
+          "evidence_snippet": "there is a chance that other important covariates were omitted, such as education level, amount of regular exercise, and family structure.",
+          "reasoning": "The authors acknowledge missing lifestyle and socioeconomic confounders."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "medical history of hypertension, diabetes, hyperlipidemia, atrial fibrillation, and ischemic heart disease.",
+          "reasoning": "Clinical comorbidities are clearly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Partial",
+          "evidence_snippet": "we could not measure stroke severity. We tried to account for stroke severity using length of stay in the ICU",
+          "reasoning": "ICU stay is a proxy for severity but less reliable than clinical scales like NIHSS."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "The data include... a list of diagnoses according to the International Classification of Diseases version 10 (ICD-10)",
+          "reasoning": "Standardized ICD-10 coding was used across the cohort."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No mention of imputation methods for missing confounder data."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "Yes",
+          "evidence_snippet": "the data are random-sample and stratified according to age, sex, region, health insurance type, income decile",
+          "reasoning": "The sampling design itself accounts for major demographic confounders."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "we adjusted the individual, hospital, and regional characteristics as follows... (individual factors: sex, residential area, medical history... hospital factors... regional factor...)",
+          "reasoning": "Multivariable Cox regression was used to adjust for a wide array of factors."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study uses appropriate survival analysis (Cox shared frailty model) to account for the nested nature of the data and reports results transparently.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "We also estimated the adjusted hazard ratios (HRs) and 95% confidence intervals (CIs) by applying a Cox proportional-hazard regression model using a shared frailty model",
+          "reasoning": "The statistical methods are described in detail, including the model type."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "In this model, we adjusted the individual, hospital, and regional characteristics as follows",
+          "reasoning": "The model includes factors at multiple levels (individual, hospital, region) consistent with the study's cross-level hypothesis."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "shared frailty model that allows individuals to be nested within regions and the intercept to vary among regions.",
+          "reasoning": "The shared frailty model is the correct choice for multi-level survival data."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "The results of the Cox proportional hazards model for 12- and 36-month mortality are shown in Table 2.",
+          "reasoning": "All pre-specified time points (12 and 36 months) and interaction terms are reported regardless of significance."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/12_Tao_2023/Shin_2017.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T10:44:35.645549"
+  }
+}

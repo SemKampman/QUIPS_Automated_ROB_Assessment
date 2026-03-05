@@ -1,0 +1,287 @@
+{
+  "paper_metadata": {
+    "title": "Post-acute white matter microstructure predicts post-acute and chronic postconcussive symptom severity following mild traumatic brain injury in children",
+    "first_author": "Ashley L. Ware",
+    "year": "2020",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study provides a detailed description of the recruitment process, inclusion/exclusion criteria, and baseline characteristics. While there was some attrition between the ED and post-acute visit, the authors compared returners vs. non-returners and found few differences, though SES and race varied, which is common in clinical cohorts.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Children aged 8–16.99 years with mild TBI (n=132) or OI (n=69) were recruited at emergency department visits to two children's hospitals",
+          "reasoning": "The age range, injury types, and recruitment settings are clearly defined."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "recruited during emergency department (ED) visits within 24 h post-injury at Nationwide Children's Hospital (NCH) in Columbus, OH and Rainbow Babies and Children's Hospital (RBCH) in Cleveland, OH.",
+          "reasoning": "Prospective recruitment from EDs within a specific timeframe is a robust method for identifying acute injury cases."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "Recruitment occurred over a period of 48 months to accrue the desired sample size.",
+          "reasoning": "The duration of recruitment is explicitly stated."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "Nationwide Children's Hospital (NCH) in Columbus, OH and Rainbow Babies and Children's Hospital (RBCH) in Cleveland, OH.",
+          "reasoning": "Specific hospitals and cities are provided."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "Children with mild TBI were included if they experienced a blunt head trauma that resulted in at least one of the following: (1) an observed loss of consciousness for less than 30 min, (2) Glasgow Coma Scale... of 13 or greater...",
+          "reasoning": "Detailed clinical criteria for both TBI and OI groups are provided, including GCS and AIS scores."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Partial",
+          "evidence_snippet": "Of those, a total of 217 children, 143 (73%) with mild TBI and 74 (62%) with OI, returned for the post-acute assessment.",
+          "reasoning": "Participation rates (73% and 62%) are below the ideal 80% threshold, though the authors analyzed differences between participants and non-participants."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Sample characteristics and demographic data are presented in Table 1.",
+          "reasoning": "Table 1 includes age, IQ, SES, race, sex, and premorbid symptoms."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "There is significant attrition from the post-acute visit to the 6-month follow-up (from 201 to 134 participants). While the authors performed attrition analysis, they found that those who did not return at 6 months had higher post-acute cognitive symptoms, suggesting potential informative censoring.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Partial",
+          "evidence_snippet": "Of the 201 (mild TBI = 132, OI = 69) participants with usable diffusion-weighted MRI data... 134 (mild TBI = 92, OI = 42) completed the chronic assessment at 6 months post-injury.",
+          "reasoning": "Approximately 66% of the post-acute sample completed the 6-month follow-up, which is a moderate loss."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text does not describe specific efforts (e.g., phone calls, incentives) to re-engage dropouts."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper notes who did not return but does not provide specific reasons (e.g., moved, recovered, too ill)."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Participants who returned for the 6-month post-injury assessment did not significantly differ from those who did not in premorbid cognitive... symptoms ratings, SES... sex... race... age... acute symptoms... However, those who returned at 6 months did have significantly lower post-acute cognitive... PCS ratings",
+          "reasoning": "The authors provide a thorough comparison of baseline and post-acute characteristics between completers and non-completers."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "No",
+          "evidence_snippet": "those who returned at 6 months did have significantly lower post-acute cognitive (M = 10.20, SD = 8.77) PCS ratings than those who did not return (M = 13.25, SD = 8.71), F = 5.43, p = .021.",
+          "reasoning": "A significant difference in post-acute symptoms was found, suggesting that those with higher symptom burdens were more likely to drop out."
+        }
+      ]
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The prognostic factors (DTI metrics) were measured using standardized, automated protocols (AFQ) on 3T scanners. Quality control was rigorous, and the same methods were applied to all participants.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "Mean diffusivity (MD) and fractional anisotropy (FA) were derived from diffusion-weighted MRI using Automatic Fiber Quantification software.",
+          "reasoning": "The DTI metrics and the software used to derive them are clearly specified."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "All images were inspected for visual artifact by an expert who was blind to group membership... Automated global deterministic tractography was performed...",
+          "reasoning": "The use of automated software and blinded quality control reduces measurement bias."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "Statistical analyses were performed on FA and MD averaged across the 100 segments of each tract.",
+          "reasoning": "The study uses continuous DTI metrics rather than arbitrary thresholds."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "The same scanner was used for all studies at each site... MRI sequences were based on protocols recommended by the NINDS Common Data Elements group",
+          "reasoning": "Standardized protocols were used across all participants, with site treated as a covariate."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "Data from 15 participants who completed the post-acute MRI was excluded due to poor diffusionweighted MRI data quality... Of the 201 (mild TBI = 132, OI = 69) participants with usable diffusion-weighted MRI data",
+          "reasoning": "Only a small percentage (approx 7%) of scans were excluded due to quality issues."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text does not mention imputation for missing DTI data; it appears they used available case analysis."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The outcome (PCS) was measured using the Health and Behavior Inventory (HBI), a validated and standardized tool in pediatric TBI research. Measurements were taken at consistent intervals for all participants.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "post-injury PCS were rated by parents and children at each follow-up assessment, using the Health and Behavior Inventory (HBI)... yields separate scores for cognitive and somatic symptoms.",
+          "reasoning": "The outcome measure and its subscales are clearly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "The HBI has good internal consistency and inter-rater agreement, and has been adopted as a core measure in the Common Data Elements for Pediatric TBI",
+          "reasoning": "The authors cite the validity and reliability of the HBI."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "ratings were obtained at 3 and 6-months post-injury... Parent and child ratings... at each assessment.",
+          "reasoning": "The same assessment schedule and tools were used for all participants."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study rigorously accounts for confounding by including an orthopedic injury (OI) control group and adjusting for age, sex, site, and—most importantly—pre-injury (premorbid) symptoms in the multivariable models.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Yes",
+          "evidence_snippet": "age, sex, and premorbid symptoms included as covariates... site (i.e., NCH, RBCH) treated as a covariate.",
+          "reasoning": "Key demographic and clinical confounders were measured."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "A SES composite index was computed by averaging sample zscores for years of maternal education, median family income for census tract, and the Duncan Socioeconomic Index",
+          "reasoning": "Confounders like SES are well-defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "The two-subtest version of the Wechsler Abbreviated Scale of Intelligence - Second Edition (WASI-II) was used to estimate children's Full Scale IQ",
+          "reasoning": "Standardized tools were used for confounders like IQ."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Demographic information was collected during the post-acute assessment.",
+          "reasoning": "Data collection was uniform across the sample."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text does not specify how missing covariate data was handled."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "Yes",
+          "evidence_snippet": "A comparison group of children with mild OI not involving the head was included to distinguish the effects of mild TBI from injury in general",
+          "reasoning": "The use of an OI control group is a strong design choice to control for the experience of injury."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "Multiple multivariable linear and negative binomial regression models were used to test study aims... with age, sex, and premorbid symptoms included as covariates",
+          "reasoning": "The statistical models appropriately adjusted for key variables."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical approach is sophisticated, using negative binomial regression for symptom counts and FDR correction for multiple comparisons. The reporting is transparent regarding which results survived correction.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Multiple multivariable linear and negative binomial regression models were used to test study aims, with False Discovery Rate (FDR) correction for multiple comparisons.",
+          "reasoning": "The analytical plan is clearly laid out."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "Group, tract DTI metric (i.e., FA or MD), and their interaction were included as model predictors, with age, sex, and premorbid symptoms included as covariates",
+          "reasoning": "The model includes the primary predictor, the group interaction, and relevant covariates."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "negative binomial regression analyses were used to examine relations of DTI metrics... to post-acute and chronic... PCS ratings.",
+          "reasoning": "Negative binomial regression is appropriate for skewed symptom count data."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "None of the 20 white matter tracts after FDR correction... DTI metrics in several tracts robustly predicted PCS ratings... but only corpus callosum genu MD was significantly associated with post-acute PCS after FDR correction.",
+          "reasoning": "The authors report both nominally significant and FDR-corrected results, showing transparency."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/9_McGeown_2025/Ware_2020.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T11:49:57.447349"
+  }
+}

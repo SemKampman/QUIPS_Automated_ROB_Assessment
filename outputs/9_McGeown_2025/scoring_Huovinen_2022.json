@@ -1,0 +1,287 @@
+{
+  "paper_metadata": {
+    "title": "Return to work after mild traumatic brain injury: association with positive CT and MRI findings",
+    "first_author": "Antti Huovinen",
+    "year": "2022",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study uses a prospective consecutive recruitment strategy from a large catchment area with clearly defined inclusion/exclusion criteria and well-described baseline characteristics.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Patients from the catchment area of the Helsinki University Hospital, home to 2 million inhabitants, were prospectively recruited from 2015 to 2018",
+          "reasoning": "The source population is clearly defined geographically and by the specific healthcare setting."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "Our prospective cohort included 131 consecutive patients with MTBI (age 18–68 years) from the Traumatic Brain Injury Outpatient Clinic of Helsinki University Hospital.",
+          "reasoning": "Consecutive recruitment from a specialized clinic reduces selection bias compared to convenience sampling."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "prospectively recruited from 2015 to 2018",
+          "reasoning": "The timeframe is explicitly stated."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location) are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "Traumatic Brain Injury Outpatient Clinic of Helsinki University Hospital.",
+          "reasoning": "The specific clinical setting and institution are identified."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "We used the World Health Organization (WHO) definition of MTBI... patients with alcohol or drug dependence were excluded... previously diagnosed schizophrenia or schizoaffective disorder, contraindications for MRI imaging and not being a native Finnish speaker were also exclusion criteria.",
+          "reasoning": "Criteria are detailed, including the use of standardized WHO definitions and specific psychiatric/social exclusions."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not provide the total number of eligible patients who declined participation, making it impossible to calculate the participation rate."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Clinical characteristics of patients with uncomplicated vs. complicated MTBI are shown in Table 1.",
+          "reasoning": "Table 1 provides comprehensive data on age, gender, education, and injury severity."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study achieved a very high follow-up rate for the primary outcome (RTW) at one year, and the flow of patients is well-documented.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "Return to work was assessed with one-day accuracy up to one year after injury... patients' successful RTW was later verified by a structured telephone interview at one year after injury",
+          "reasoning": "The study reports outcomes for 113 out of 131 initially recruited patients, with the primary outcome (RTW) tracked for all included patients."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text does not describe attempts to contact or retrieve data for the 18 patients excluded from the initial 131."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Yes",
+          "evidence_snippet": "we also excluded patients who were not employed during the time of injury, and patients who underwent MRI imaging later than 17 days after injury.",
+          "reasoning": "The reasons for exclusion from the final analysis are clearly stated."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is no comparison of characteristics between the 113 included and the 18 excluded patients."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Without data on the excluded patients, it is impossible to determine if their absence introduces bias."
+        }
+      ]
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "Prognostic factors (CT/MRI findings) were measured using standardized protocols (CDE) and evaluated by a board-certified neuroradiologist, ensuring high reliability.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "Investigated traumatic intracranial lesions included extraaxial lesions (subdural hemorrhages [SDH], subarachnoid hemorrhages [SAH] and epidural hemorrhages [EDH]) and intraparenchymal lesions",
+          "reasoning": "The prognostic factors (lesion types) are explicitly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "all MRI scans were evaluated by a board certified neuroradiologist. Lesions were assessed systematically by using common data elements (CDE) for TBI neuroimaging",
+          "reasoning": "The use of a specialist and standardized CDE criteria ensures high measurement validity."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "The latter group was furthermore divided into those who had only one type of traumatic intracranial lesion (n=19), and those who had more than one type of traumatic intracranial lesions (n=19).",
+          "reasoning": "The categorization of lesions is based on clinical presence/absence and count, which are standard clinical thresholds."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "All imaging was performed with 3 T Siemens Magnetom Verio (Siemens, Erlangen) scanner with a 32-channel head coil.",
+          "reasoning": "Standardized equipment and protocols were used for all participants."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "All patients underwent brain MRI imaging within 3–17 days",
+          "reasoning": "The prognostic factor data (MRI) was available for 100% of the analyzed cohort."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "Yes",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Imputation was not required as there was no missing data for the prognostic factors in the analyzed sample."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The primary outcome (RTW) was measured using objective electronic records and verified via interview, providing high accuracy and low risk of bias.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "Full RTW was determined days from injury to the first day back to full-time work, with no further significant sick leave in the follow-up period.",
+          "reasoning": "The outcome is clearly defined with specific criteria for 'full' return."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "In Finland, the sick leaves are registered electronically thus considered reliable... RTW could be documented with one-day accuracy.",
+          "reasoning": "Reliance on electronic registries and telephone verification provides high reliability."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Return to work was assessed retrospectively with one-day accuracy using clinic records, and patients' successful RTW was later verified by a structured telephone interview",
+          "reasoning": "The same verification process was applied to the entire cohort."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "While the study measures many confounders and discusses them, the primary analysis (Kaplan-Meier) does not statistically adjust for these factors (e.g., age, extracranial injury), which differed between groups.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Yes",
+          "evidence_snippet": "Previous and current illnesses and medications were thoroughly assessed... other injuries were determined by Abbreviated Injury Scale and Injury Severity Score",
+          "reasoning": "The study measured age, education, comorbidities, and extracranial injuries."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "Extracranial Injury Severity Score... Years of education... Previous or current illness",
+          "reasoning": "Confounders are defined using standard scales or units."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "thoroughly assessed using hospital records and by conducting a structured interview.",
+          "reasoning": "The use of hospital records for medical history and standardized scores for injury severity is reliable."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "At one month after injury, patients were evaluated by a board certified neurologist... using the Neurological Outcome Scale for TBI",
+          "reasoning": "All patients underwent the same clinical evaluation protocol."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text does not mention missing data for confounders or the use of imputation."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "Partial",
+          "evidence_snippet": "In this study, patients with alcohol or drug dependence were excluded.",
+          "reasoning": "Some confounding was handled via exclusion criteria, but groups were not matched."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "No",
+          "evidence_snippet": "A Kaplan–Meier log-rank analysis was performed to analyze the differences in RTW.",
+          "reasoning": "The primary analysis used log-rank tests, which do not allow for multivariable adjustment of confounders like extracranial injury, which was significantly different between groups (p=0.024)."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical methods are appropriate for the data types, and the results are reported transparently, including both continuous and dichotomous outcomes.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Skewed distributions were reported as medians with interquartile range (IQR)... A Kaplan–Meier log-rank analysis was performed",
+          "reasoning": "The analytical plan is clearly described and matches the data presented."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Partial",
+          "evidence_snippet": "The main objective of this study was to compare RTW in complicated and uncomplicated MTBI",
+          "reasoning": "The strategy was simple group comparison rather than complex model building, which is appropriate for the sample size but limits exploration of interactions."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "Kaplan–Meier log-rank analysis was performed to investigate the time differences in RTW between groups.",
+          "reasoning": "Time-to-event analysis is the gold standard for return-to-work studies."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Results section and Tables 1-4.",
+          "reasoning": "The authors report on all pre-specified outcomes (RTW, RPQ, GOS-E) across all defined subgroups."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/9_McGeown_2025/Huovinen_2022.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T11:30:54.901132"
+  }
+}

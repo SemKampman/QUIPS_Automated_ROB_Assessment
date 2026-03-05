@@ -1,0 +1,287 @@
+{
+  "paper_metadata": {
+    "title": "Neighborhood socioeconomic disadvantage and mortality after stroke",
+    "first_author": "Arleen F. Brown",
+    "year": "2013",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study uses a well-established, population-based longitudinal cohort (CHS) with random sampling from Medicare lists. While the participation rate (57%) is moderate, the baseline characteristics and recruitment methods are extensively described, and the sample size is large enough to represent the target elderly population.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "participants were randomly sampled from Medicare eligibility lists in 4 US communities: Forsyth County, North Carolina; Washington County, Maryland; Sacramento County, California; and Pittsburgh (Allegheny County), Pennsylvania.",
+          "reasoning": "The authors clearly define the geographic and demographic source (Medicare enrollees in four specific US counties)."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "The 'initial cohort' (n 5 5,201) was recruited between 1989 and 1990, and an additional African American 'new cohort' (n 5 687) was recruited from the North Carolina, California, and Pennsylvania counties in 1992.",
+          "reasoning": "The recruitment strategy, including the specific addition of a minority cohort to improve representativeness, is well-documented."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "The 'initial cohort' (n 5 5,201) was recruited between 1989 and 1990, and an additional African American 'new cohort' (n 5 687) was recruited from the North Carolina, California, and Pennsylvania counties in 1992.",
+          "reasoning": "Specific years for both recruitment phases are provided."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "4 US communities: Forsyth County, North Carolina; Washington County, Maryland; Sacramento County, California; and Pittsburgh (Allegheny County), Pennsylvania.",
+          "reasoning": "The four specific geographic sites are explicitly named."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "Eligible participants were 65 years or older at the time of the examination, not institutionalized, and did not require a proxy respondent at baseline... Participants with prevalent strokes (n 5 205) at baseline were excluded.",
+          "reasoning": "Age, institutional status, and baseline health status (no prior stroke) are clearly defined as criteria."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Partial",
+          "evidence_snippet": "Approximately 57% of those eligible were enrolled in the study.",
+          "reasoning": "A 57% participation rate is acceptable for a large longitudinal study but falls below the 80% threshold often used for 'Low' risk in this specific item."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1: Neighborhood SES, Stroke type, Age, Female, White, Education, Income, Behaviors, Biologic factors.",
+          "reasoning": "Table 1 provides a comprehensive breakdown of the study sample across all relevant prognostic and confounding variables."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study maintains a high follow-up rate over a long period (11.5 years). While some participants were excluded due to geocoding issues, the authors performed sensitivity analyses and provided data on the analyzed vs. excluded sample, suggesting attrition was not informative regarding the PF-outcome relationship.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "4,701 participants (80% of participants with available data) remained. Of these participants, 806 (19.8%) had an incident stroke during the mean 11.5 years of follow-up.",
+          "reasoning": "80% of the eligible sample was successfully geocoded and followed for the primary analysis."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "Yes",
+          "evidence_snippet": "Incident strokes were ascertained through interviews at annual visits, interim telephone contacts, notification of events by participants, and review of Medicare hospitalization and cause of death data.",
+          "reasoning": "The use of multiple surveillance methods (interviews + Medicare data) ensures high capture even for those who stop attending clinical visits."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Yes",
+          "evidence_snippet": "We excluded from the analyses 947 participants whose addresses were not geocoded or whose addresses matched to block groups with [specific criteria]... prevalent stroke (n 5 205) and 'other' race/ethnicity (n 5 35).",
+          "reasoning": "The authors explicitly state why participants were excluded from the final analysis set."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "Partial",
+          "evidence_snippet": "those who participated in the study were generally younger, were more educated, reported fewer chronic conditions, and had better health status than those who did not participate.",
+          "reasoning": "The authors acknowledge differences between participants and non-participants, though detailed tables for those lost specifically after baseline are not provided."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "While they compare participants to non-participants, a specific comparison of characteristics between those who completed the 11.5-year follow-up vs. those lost to follow-up (attrition) is not explicitly detailed."
+        }
+      ]
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The primary prognostic factor (NSES) is a validated composite index based on objective US Census data. The use of z-scores and quartiles is a standard, non-data-dependent approach in social epidemiology.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "NSES index... constructed by summing the z scores of 6 census-derived SES indicators: 1) median household income; 2) median value of housing units; 3) percent households with interest, dividend, or rental income; 4) percent of residents... with a high school degree; 5) percent... with a college degree; and 6) percent... in executive, managerial, or professional specialty occupations.",
+          "reasoning": "The composite index components and calculation method are clearly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "baseline home addresses were geocoded to identify the residential census tract defined in the 1990 US decennial Census.",
+          "reasoning": "Census data is an objective, gold-standard source for area-level socioeconomic measurement."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "Quartile 1 represented the highest residential NSES scores (least disadvantaged neighborhoods), and quartile 4, the lowest scores.",
+          "reasoning": "The use of quartiles is a standard approach and not based on outcome-dependent thresholds."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "CHS participants' baseline home addresses were geocoded to identify the residential census tract defined in the 1990 US decennial Census.",
+          "reasoning": "All participants were geocoded using the same 1990 Census framework."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "4,701 participants (80% of participants with available data) remained.",
+          "reasoning": "80% of the sample had geocodable addresses and complete NSES data."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "No",
+          "evidence_snippet": "We excluded from the analyses 947 participants whose addresses were not geocoded",
+          "reasoning": "The study used complete case analysis (exclusion) rather than imputation for missing PF data."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "Outcomes (mortality and stroke) were adjudicated by an expert committee using standardized criteria and multiple data sources (medical records, imaging, death certificates), minimizing misclassification.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "The main outcome of these analyses is mortality hazard, or time to death after incident stroke, examined at 30 days and 1 year.",
+          "reasoning": "The outcome and the specific time horizons (30 days, 1 year) are clearly stated."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "All suspected strokes were adjudicated by a cerebrovascular disease endpoint committee... Information on fatal events... obtained from death certificates, autopsy and coroner's reports, hospital records.",
+          "reasoning": "Adjudication by a committee using objective records is the highest standard for stroke studies."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Incident strokes were ascertained through interviews at annual visits, interim telephone contacts, notification of events by participants, and review of Medicare hospitalization and cause of death data.",
+          "reasoning": "Standardized surveillance protocols were applied to the entire cohort."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study rigorously accounts for a wide range of individual-level confounders, including demographics, behaviors, and biologic risk factors. The use of multilevel (frailty) models specifically addresses the clustering of individuals within neighborhoods.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Yes",
+          "evidence_snippet": "adjusted for sociodemographic characteristics, stroke type, and behavioral and biologic risk factors... age, sex, race, income, education, smoking, physical activity, alcohol, diet, BMI, BP, diabetes, lipids, AF, subclinical CVD.",
+          "reasoning": "A very comprehensive list of potential confounders was measured and included."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "Hypertension was defined as systolic blood pressure (SBP) $160 mm Hg, diastolic blood pressure (DBP) $95 mm Hg, or both a reported diagnosis... diabetes as a fasting blood glucose $126 mg/dL.",
+          "reasoning": "Clinical confounders are defined using standard medical thresholds (ADA, etc.)."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Blood pressure measurements were made in a standardized manner during the clinical examination... Fasting lipid panels... were measured in the study.",
+          "reasoning": "Measurements were performed during standardized clinical exams rather than relying solely on self-report."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "CHS collected survey and clinical data on study participants at regular intervals until 1999.",
+          "reasoning": "Standardized CHS clinical protocols were used for all participants."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "Partial",
+          "evidence_snippet": "Missing income [category in Table 1]",
+          "reasoning": "The authors included a 'missing' category for income but did not use advanced imputation (like MICE) for other variables, though missingness appears low."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The study did not use design-stage control (like matching); it relied entirely on statistical adjustment."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "Multilevel Cox proportional hazard models were constructed... adjusted for sociodemographic characteristics, stroke type, and behavioral and biologic risk factors.",
+          "reasoning": "Multivariable adjustment in a multilevel framework is the appropriate statistical method for this data structure."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical approach is sophisticated and appropriate for the data (multilevel Cox models). The authors tested the proportional hazards assumption and performed relevant sensitivity analyses (clinic site, dietary factors, longitudinal measurements).",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "we constructed multilevel Cox proportional hazards models, or 'frailty' models... The base model was adjusted for... The full model was...",
+          "reasoning": "The modeling strategy is described in detail, including the transition from base to full models."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "To assess whether the association between NSES and death after a stroke was mediated by individual behavioral or biologic characteristics, we compared the results of the base model with the full model.",
+          "reasoning": "The model building was driven by a clear hypothesis regarding mediation by biologic/behavioral factors."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "we tested the validity of the proportional hazards models... and found that the global tests of validity for both models were not significant.",
+          "reasoning": "The authors verified the underlying assumptions of the Cox model."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Table 2 Significant multivariable risk factors... [and] table e-2.",
+          "reasoning": "The authors report both significant and non-significant findings, as well as 30-day vs 1-year comparisons as pre-specified."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/12_Tao_2023/Brown_2013.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T10:42:07.990138"
+  }
+}

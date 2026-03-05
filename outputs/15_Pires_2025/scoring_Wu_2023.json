@@ -1,0 +1,287 @@
+{
+  "paper_metadata": {
+    "title": "White Matter Microstructural Alterations over the Year after Acute Ischemic Stroke in Patients with Baseline Impaired Cognitive Functions",
+    "first_author": "Bingyuan Wu",
+    "year": "2023",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study uses a consecutive recruitment strategy with clearly defined inclusion/exclusion criteria. The target population (AIS patients with baseline cognitive impairment) is well-described, and the use of a matched healthy control group strengthens the representativeness.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Sixty patients showing impaired cognitive functions within 3 days after AIS (baseline) and 25 healthy controls underwent diffusion kurtosis imaging scan and cognitive assessment at baseline and 1 year.",
+          "reasoning": "The authors specify the clinical condition (AIS), the timing (within 3 days), and the cognitive status (impaired) required for the source population."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "A consecutive study was approved by the Medical Research Ethics Committee and conducted at the corresponding hospital between 2018 and 2020.",
+          "reasoning": "Consecutive recruitment is the gold standard for limiting selection bias in prognosis studies."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "conducted at the corresponding hospital between 2018 and 2020.",
+          "reasoning": "The specific years of recruitment are provided."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "Department of Radiology, Beijing Chao-Yang Hospital, Capital Medical University, Beijing 100020, China",
+          "reasoning": "The specific hospital and city are identified."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "The inclusion criteria included: (1) diagnosis of the first AIS, clinical assessment, and MRI within 3 days after stroke onset; (2) National Institutes of Health Stroke Scale (NIHSS) score at admission between 1 and 15...",
+          "reasoning": "Detailed criteria including NIHSS scores, education levels, and specific MRI scores (MTA) are provided."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "Eighty-five participants were enrolled after excluding poor imaging quality and incomplete clinical information.",
+          "reasoning": "While the final number is clear, the total number of eligible patients screened versus those who declined to participate is not reported, making it difficult to calculate a participation rate."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Baseline characteristics and clinical data of participants are presented in Table 1.",
+          "reasoning": "Table 1 provides a comprehensive list of demographics, vascular risk factors, and cognitive scores."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study reports on 60 patients at both baseline and 1 year, implying a 100% follow-up rate for the enrolled cohort. However, the exclusion of participants due to 'poor imaging quality' or 'incomplete clinical information' occurred at the enrollment phase, and there is no mention of dropouts during the 1-year interval, which is unusual for a stroke cohort.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "All 60 original patients... 25 were diagnosed as PSCI and 35 recovered to normal cognition",
+          "reasoning": "The text suggests all 60 patients who met the final enrollment criteria completed the 1-year follow-up."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is no mention of any participants dropping out between baseline and 1 year, nor any description of attempts to reach them."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The study does not report any loss to follow-up, which may indicate a highly selected sample or under-reporting of attrition."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No data provided for excluded or lost participants."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Since no dropouts were reported, a comparison between completers and non-completers was not performed."
+        }
+      ]
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The prognostic factors (KFA and MK) are measured using advanced, objective MRI techniques (DKI) with standardized processing (FSL, TBSS). The use of a 3.0T scanner and blinded evaluation of other radiological markers further reduces bias.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "DKE software was applied to calculate the FA, KFA, and MK. The TBSS method was performed on the previous parameters for statistical analysis.",
+          "reasoning": "The prognostic factors (KFA/MK) are clearly defined within the context of Diffusion Kurtosis Imaging."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "MRI data were acquired using the same 3.0 T brain MRI (Achieva; Philips Healthcare, Best, Netherlands).",
+          "reasoning": "The use of high-field MRI and established software (FSL/DKE) ensures high reliability."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "The FA-threshold for the skeleton was >0.2 to include all major WM tracts",
+          "reasoning": "The study uses standard, non-data-dependent thresholds for TBSS analysis."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Patients and the HC group were scanned once at admission and again at 1 year. MRI data were acquired using the same 3.0 T brain MRI",
+          "reasoning": "All participants underwent the same imaging protocol on the same equipment."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "Eighty-five participants were enrolled after excluding poor imaging quality and incomplete clinical information.",
+          "reasoning": "The final analysis only included those with complete, high-quality data."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The study excluded cases with incomplete data rather than using imputation."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The outcome (PSCI) is defined using validated clinical scales (MMSE, MoCA) administered by experienced neurologists. The 1-year follow-up is an appropriate timeframe for assessing chronic cognitive status post-stroke.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "PSCI was diagnosed according to the cognitive performance 1 year after stroke... MoCA score <26 indicated CI.",
+          "reasoning": "The outcome is clearly defined by specific scores at a specific time point (1 year)."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "neuropsychological assessments at baseline and 1 year by two experienced neurologists... including the mini-mental state examination (MMSE) and Montreal Cognitive Assessment (MoCA).",
+          "reasoning": "MMSE and MoCA are validated tools, and assessment by two experienced clinicians increases reliability."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "All participants in the AIS and HC groups underwent two neuropsychological assessments at baseline and 1 year",
+          "reasoning": "The protocol was identical for both patients and controls."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study accounts for several key confounders (age, education, NIHSS) in the statistical models. However, while it mentions 'strategic brain region infarct' as an independent risk factor, it is unclear if the primary DKI analysis (TBSS) was fully adjusted for the specific location of the acute infarct in every voxel-wise comparison.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Partial",
+          "evidence_snippet": "The models were corrected for gender, age, education, and NIHSS score.",
+          "reasoning": "Key demographic and clinical severity markers were measured, but specific acute treatments (e.g., thrombolysis/thrombectomy) were not explicitly listed as confounders."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1... Hypertension, Hyperlipemia, Diabetes, History of smoking",
+          "reasoning": "Vascular risk factors and clinical scores are clearly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "The Severity of WM hyperintensity (WMH) and MTA in patients and HC group were blindly evaluated by two radiologist",
+          "reasoning": "Blinded evaluation by two experts for radiological confounders ensures high reliability."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "All participants... underwent two neuropsychological assessments... MRI data were acquired using the same 3.0 T brain MRI",
+          "reasoning": "Confounders were assessed using the same tools and settings for all."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Imputation was not used; cases with incomplete information were excluded."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "Yes",
+          "evidence_snippet": "Twenty-five healthy controls (HC)... matched with patients according to age, gender, and education were recruited",
+          "reasoning": "The study design used matching for the control group to handle primary demographic confounders."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "The models were corrected for gender, age, education, and NIHSS score.",
+          "reasoning": "Multivariable adjustment was performed in the voxel-wise analysis."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical approach is robust, using FWE correction for multiple comparisons in the imaging analysis and appropriate longitudinal models (Two-way repeated measures ANOVA). The results are presented transparently with MNI coordinates and voxel counts.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Skeletonized DKI maps obtained from the TBSS approach were analyzed using the general linear model... Randomized function in FSL was used for voxel-wise statistical tests.",
+          "reasoning": "The analytical steps for both clinical and imaging data are well-documented."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "Multivariate logistic regression analysis indicated that strategic brain region infarct... was an independent risk factor",
+          "reasoning": "The authors used both univariate and multivariate approaches based on clinical relevance."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "Two-way repeated measures analysis of variance (ANOVA) were used to assess the difference in the evolution of WM tract integrity",
+          "reasoning": "Repeated measures ANOVA is the correct choice for longitudinal data with two groups."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Table 3 and Table 4",
+          "reasoning": "The study reports both significant and non-significant findings (e.g., no difference at baseline) across multiple parameters (KFA, MK)."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/15_Pires_2025/Wu_2023.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T11:03:33.569555"
+  }
+}

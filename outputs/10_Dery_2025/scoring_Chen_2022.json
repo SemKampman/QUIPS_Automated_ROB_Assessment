@@ -1,0 +1,287 @@
+{
+  "paper_metadata": {
+    "title": "Personalized Prediction of Postconcussive Working Memory Decline: A Feasibility Study",
+    "first_author": "Yung-Chieh Chen",
+    "year": "2022",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study provides a clear description of the target population (mTBI), recruitment setting (Taipei Medical University Hospital), and explicit inclusion/exclusion criteria. The baseline sample is well-characterized and compared with a matched control group.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "70 right-handed patients with mTBI and 48 age-, sex-, and education-matched right-handed HCs consented to participate in the study at Taipei Medical University Hospital.",
+          "reasoning": "The source population and key demographics (age, sex, education) are explicitly listed."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "Between September 2015 and August 2020... patients with closed-head injuries manifesting in a loss of consciousness lasting for <30 min, initial Glasgow Coma Scale score > 13, and normal findings in computed tomography.",
+          "reasoning": "The recruitment period and clinical identification methods are clearly stated."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "enrolled between September 2015 and August 2020.",
+          "reasoning": "The specific dates for recruitment are provided."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "at Taipei Medical University Hospital.",
+          "reasoning": "The specific hospital setting is identified."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "The exclusion criteria were prior neuropsychiatric illnesses or symptoms, brain injury history, any coexisting or previous neurological illnesses... Inclusion criteria for the control group were the same, except for a negative assessment for mTBI.",
+          "reasoning": "Detailed clinical and history-based criteria are provided for both groups."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not report the total number of eligible patients screened versus those who consented, making it impossible to calculate the participation rate."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Table S2 lists the basic demographic characteristics of both groups. No significant between-group differences in terms of age, sex, and education were observed.",
+          "reasoning": "Key characteristics are summarized and statistically compared."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "There is a high dropout rate (only 34% of the initial cohort completed the 1-year follow-up). While the authors performed a sensitivity analysis showing no demographic differences between completers and non-completers, the risk of informative censoring remains as patients with better or worse outcomes might have been more likely to drop out.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "No",
+          "evidence_snippet": "In total, 24 patients (38.6%) completed the baseline and all four follow-up sessions.",
+          "reasoning": "A completion rate of 38.6% is significantly below the 80% threshold usually considered low risk."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The study does not describe specific efforts to retrieve data from those who missed sessions."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Yes",
+          "evidence_snippet": "The patients dropped out during follow-up visits mainly because of a failure to keep in touch through phone calls or e-mails or a change in residence or job.",
+          "reasoning": "General reasons for attrition are provided."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "Partial",
+          "evidence_snippet": "no significant within-group differences were observed in the demographics between patients who completed the 1-year follow-up and those who completed only the baseline assessment.",
+          "reasoning": "The authors compared demographics but did not provide a detailed table of characteristics for the dropout group specifically."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Yes",
+          "evidence_snippet": "no significant within-group differences were observed in the demographics between patients who completed or did not complete the five visits.",
+          "reasoning": "Statistical comparison suggests no major demographic bias in attrition."
+        }
+      ]
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The prognostic factors (fMRI biomarkers and neuropsychological tests) are measured using standardized, objective protocols (3T MRI, WAIS-IV). The methods are consistent across all participants.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "The percentage signal change extracted from the ROIs for the WM task performed by each participant was used for the N-back WM fMRI features.",
+          "reasoning": "The fMRI features and neuropsychological measures are clearly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "MRI data were obtained using a 3T MRI scanner (Siemens MAGNETOM Prisma... Standard single-shot gradient-echo echo planar imaging-based fMRI.",
+          "reasoning": "Standardized 3T MRI and validated WAIS-IV tests are reliable instruments."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "The percentage signal change value of each participant's WM condition at each ROI was then extracted.",
+          "reasoning": "Continuous fMRI signal data were used."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "MRI data were obtained using a 3T MRI scanner... Neuropsychological assessments... were conducted by a clinical psychologist on the same days.",
+          "reasoning": "The protocol was identical for all participants."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "24 patients who completed the baseline and all four follow-up sessions were selected.",
+          "reasoning": "The analysis was restricted to those with complete data."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The study used a complete-case analysis rather than imputation."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The outcome (Working Memory Index) is a standardized neuropsychological measure (WAIS-IV) administered by a clinical psychologist. The definition and measurement methods are robust.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "The working memory (WM) ability was assessed using the WM index (WMI)... follow-ups were conducted at 6 weeks, 3 months, 6 months, and 1 year.",
+          "reasoning": "The outcome and follow-up intervals are clearly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "conducted by a clinical psychologist... Wechsler Adult Intelligence Scale, fourth edition (WAIS-IV).",
+          "reasoning": "WAIS-IV is a gold-standard validated tool for cognitive assessment."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Neuropsychological assessments... were conducted by a clinical psychologist on the same days as the initial and follow-up MRI scans.",
+          "reasoning": "The setting and method were standardized."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "While the study accounts for age, sex, and education, and excludes patients on medications affecting WM, the small sample size (n=24) limits the ability to adjust for a wide range of potential confounders in the SVM model without overfitting.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Partial",
+          "evidence_snippet": "demographic data (namely age, sex, education year, and score on the GOSE) were treated as the potential... features.",
+          "reasoning": "Basic demographics were measured, but other factors like pre-injury IQ or specific rehabilitation treatments during the year were not detailed."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "age, sex, education year, and score on the GOSE.",
+          "reasoning": "Standard demographic variables are used."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Table S2 lists the basic demographic characteristics.",
+          "reasoning": "Demographics are reliably collected via medical records/interviews."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "The method and setting of measurement of PF is the same for all study participants.",
+          "reasoning": "Standardized intake for all participants."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No imputation was performed."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "Yes",
+          "evidence_snippet": "48 age-, sex-, and education-matched right-handed HCs.",
+          "reasoning": "The study used a matched control group design."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Partial",
+          "evidence_snippet": "The selected features included two demographic (age and sex).",
+          "reasoning": "Age and sex were included in the SVM models, but the small N limits the number of confounders that can be adjusted for simultaneously."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study uses appropriate machine learning techniques (SVM with k-fold cross-validation) for a small sample. However, the selection of features based on correlation with the outcome within the same dataset (univariate filtering) before SVM can lead to optimistic bias (overfitting), despite cross-validation.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "The support vector machine classifier was trained using these potential features and estimated changes in WM... with k-fold cross-validation (k = 10).",
+          "reasoning": "The ML strategy is well-documented."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Partial",
+          "evidence_snippet": "candidate fMRI, demographic, and neuropsychological features were selected if there was a significant correlation with the estimated changes in the WMI.",
+          "reasoning": "Selecting features based on correlation with the outcome in the whole sample before cross-validation can introduce 'data leakage' and over-optimistic results."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "SVM classifier with k-fold cross-validation (k = 10 in this study) for each prediction to achieve a reliable and unbiased estimate.",
+          "reasoning": "SVM is appropriate for high-dimensional, low-sample size data."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Satisfactory predictions were achieved for patients whose WM function did not recover at 3 months... 6 months... and 1 year.",
+          "reasoning": "Results for all pre-specified time points are reported."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/10_Dery_2025/Chen_2022.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T10:25:56.053383"
+  }
+}

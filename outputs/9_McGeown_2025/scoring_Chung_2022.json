@@ -1,0 +1,332 @@
+{
+  "paper_metadata": {
+    "title": "Investigating Brain White Matter in Football Players with and without Concussion Using a Biophysical Model from Multishell Diffusion MRI",
+    "first_author": "S. Chung",
+    "year": "2022",
+    "analysis_timestamp": "2023-10-27 10:00:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study uses a well-defined registry (CARE Consortium) and describes inclusion/exclusion criteria clearly. However, the sample size is relatively small (n=78) and represents a specific subset of a larger cohort, which may introduce selection bias. The participation rate of eligible vs. non-participating athletes is not explicitly stated.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "The study included 78 collegiate athletes (24 football players with sports-related concussion, 26 football players with repetitive head impacts, and 28 non-contact-sport control athletes), available through the Federal Interagency Traumatic Brain Injury Research registry.",
+          "reasoning": "The source (FITBIR registry/CARE Consortium) and the specific groups (SRC, RHI, HC) are clearly defined."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Partial",
+          "evidence_snippet": "Available data through the Federal Interagency Traumatic Brain Injury Research registry from the National Collegiate Athletic Association-Department of Defense Concussion Assessment, Research and Education (CARE) Consortium study were used in this study.",
+          "reasoning": "While the registry is named, the specific recruitment process for this sub-study (how these 78 were selected from the larger consortium) is not detailed."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "Athletes with SRC within 48 hours and those without SRC during the 2016 to 2018 football seasons were studied.",
+          "reasoning": "The years and specific sports seasons are provided."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location) are adequately described",
+          "rating": "Partial",
+          "evidence_snippet": "National Collegiate Athletic Association-Department of Defense Concussion Assessment, Research and Education (CARE) Consortium study",
+          "reasoning": "The consortium is national (USA), but specific sites or geographic distribution of the 78 participants are not listed."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "Inclusion criteria for this study were male football players as well as asymptomatic, non-contact-sport control athletes who had available multishell diffusion MR imaging data obtained on a 3T Magnetom Prisma scanner (Siemens).",
+          "reasoning": "Criteria include sex, sport type, clinical status (asymptomatic for controls), and technical requirements (MRI availability)."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not provide the total number of eligible athletes versus those who consented/participated, making it impossible to calculate a participation rate."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "1) 24 football players within 48 hours of SRC (19.7 [SD, 1.1] years of age), 2) twenty-six football players with RHI exposure... (19.3 [SD, 1.2] years of age), and 3) twenty-eight non-contact-sport control athletes... (19.7 [SD, 1.4] years of age).",
+          "reasoning": "Age, sex (all male), and group-specific clinical status (SCAT3 scores) are provided."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study acknowledges smaller sample sizes at later time points, which suggests attrition. However, it does not provide a flow diagram or specific numbers of dropouts per time point, nor does it compare the characteristics of those lost to follow-up with those who completed the study.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Partial",
+          "evidence_snippet": "The study includes relatively small sample sizes, which can reduce statistical power, particularly at later time points (time points 3 and 4).",
+          "reasoning": "The authors admit to reduced power at later stages, implying attrition, but do not provide the exact denominator for each time point."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is no mention of follow-up attempts for those who missed subsequent scans."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Reasons for attrition (e.g., withdrawal, scheduling, technical failure) are not specified."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No data is provided regarding the characteristics of the athletes who did not complete all four time points."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Without data on dropouts, a comparison cannot be made to rule out informative censoring."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Attrition Summary",
+        "prompt": "Loss to follow-up (from baseline sample to study population analyzed) is not associated with key characteristics (i.e., the study data adequately represent the sample) sufficient to limit potential bias to the observed relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The prognostic factors (SRC and RHI exposure) are well-defined using clinical standards (SCAT3) and sport participation history. The measurement of these factors is consistent across the cohort.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "1) 24 football players within 48 hours of SRC... 2) twenty-six football players with RHI exposure without a history of SRC during the study period... 3) twenty-eight non-contact-sport control athletes.",
+          "reasoning": "The groups are clearly categorized by exposure type and timing."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "For all groups, symptom severity was assessed using the Sport Concussion Assessment Tool 3 (SCAT3).",
+          "reasoning": "SCAT3 is a validated clinical tool for concussion assessment."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "asymptomatic (SCAT3 < 10)",
+          "reasoning": "A standard clinical cut-point for the SCAT3 was used to define the control group."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "For all groups, symptom severity was assessed using the Sport Concussion Assessment Tool 3 (SCAT3).",
+          "reasoning": "The assessment protocol was standardized across all three groups."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "The study included 78 collegiate athletes... available through the Federal Interagency Traumatic Brain Injury Research registry.",
+          "reasoning": "The analysis was performed on the subset that had complete PF and imaging data."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not mention imputation; it appears to use a complete-case analysis for the available registry data."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "PF Measurement Summary",
+        "prompt": "PF is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The outcomes are objective MRI diffusion metrics. The acquisition was standardized on a single scanner type (Siemens Prisma) to reduce hardware bias, and the processing pipeline (TBSS/WMTI) is a recognized standard in the field.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "parameter maps of DTI (FA, mean/axial/radial diffusivities), DKI (mean/axial/radial kurtosis [MK/AK/RK]), and WMTI metrics (AWF, Daxon, De,l, De,⊥).",
+          "reasoning": "The biophysical and diffusion metrics are explicitly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "Preprocessing steps included Marchenki-Pastur principal component analysis (MP-PCA) denoising, Gibbs correction, eddy current distortion, and motion correction and outlier detection.",
+          "reasoning": "State-of-the-art preprocessing and denoising were used to ensure data quality."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Scanner type was restricted to minimize data variability attributable to scanner hardware and software... all acquired on 3T Magnetom Prisma scanners.",
+          "reasoning": "Standardization of the scanner hardware is a major strength for reliability."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Outcome Measurement Summary",
+        "prompt": "Outcome of interest is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study accounts for age and sex (all male) and restricts the scanner type. However, other potential confounders like prior concussion history (before the study period), position played, or academic load were not explicitly adjusted for in the multivariable models.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Partial",
+          "evidence_snippet": "19.7 [SD, 1.1] years of age... male football players.",
+          "reasoning": "Age and sex are measured/controlled, but other factors like cumulative years of play or genetic factors are not mentioned."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "male football players as well as asymptomatic, non-contact-sport control athletes.",
+          "reasoning": "The primary confounder (sport type/contact level) is clearly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "SCAT3 total symptom severity scores",
+          "reasoning": "Clinical symptoms (a potential confounder for imaging findings) were measured with a validated tool."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "For all groups, symptom severity was assessed using the Sport Concussion Assessment Tool 3 (SCAT3).",
+          "reasoning": "Standardized assessment across groups."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No mention of missing confounder data or imputation."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "Yes",
+          "evidence_snippet": "For comparison, the RHI and HC groups underwent MR imaging at similar time intervals matched with the subjects with SRC.",
+          "reasoning": "The study used a matched-interval design for the control groups."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Partial",
+          "evidence_snippet": "ANOVA was used to test group differences... with a Tukey post hoc pair-wise test.",
+          "reasoning": "While ANOVA compares groups, it is unclear if age was included as a covariate in the TBSS/voxelwise models (though the groups were age-matched)."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Confounding Summary",
+        "prompt": "Important potential confounders are appropriately accounted for, limiting potential bias with respect to the relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical methods are robust, utilizing permutation testing and family-wise error correction for multiple comparisons. The reporting is transparent regarding the lack of significant DTI findings compared to previous larger studies.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "TBSS was used for voxelwise analyses... statistical tests were conducted with 5000 random permutations... corrected for multiple comparisons by controlling the family-wise error rate.",
+          "reasoning": "The analytical pipeline is described in detail, including software and specific statistical parameters."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "WMTI metrics... can be derived from a straightforward, recently described standard model of multishell diffusion imaging to disentangle intra- and extra-axonal environments.",
+          "reasoning": "The use of the WMTI biophysical model is grounded in established neuroimaging theory."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "ANOVA was used to test group differences... Tukey post hoc pair-wise test... threshold-free cluster enhancement option.",
+          "reasoning": "The choice of ANOVA for group comparisons and TFCE for voxelwise analysis is appropriate for this study design."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "In this restricted cohort, we found no significant differences in conventional DTI metrics such as FA or MD that were present in previous studies.",
+          "reasoning": "The authors transparently report null findings for conventional metrics, which suggests a lack of reporting bias."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Statistical Analysis and Presentation Summary",
+        "prompt": "The statistical analysis is appropriate for the design of the study, limiting potential for presentation of invalid or spurious results.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/9_McGeown_2025/Chung_2022.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T11:42:30.770859"
+  }
+}

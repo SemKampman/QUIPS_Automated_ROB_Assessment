@@ -1,0 +1,332 @@
+{
+  "paper_metadata": {
+    "title": "New-Onset Atrial Arrhythmias Are Independently Associated With In-Hospital Mortality in Veno-Venous Extracorporeal Membrane Oxygenation",
+    "first_author": "Cecilia Li",
+    "year": "2021",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study provides a clear description of the target population, recruitment period, and setting. Inclusion/exclusion criteria are explicit, and the baseline characteristics are well-documented, showing a representative sample of VV-ECMO patients in a quaternary care setting.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Patients with respiratory failure requiring VV-ECMO for >24 hours between January 1, 2016, and January 1, 2019.",
+          "reasoning": "The population is clearly defined as adult patients with respiratory failure requiring specific ECMO support at a quaternary center."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "Patients were identified through an institutional ECMO database, and data were extracted from electronic medical records.",
+          "reasoning": "The use of a comprehensive institutional database for a specific time period suggests a consecutive sampling approach, minimizing selection bias."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "between January 1, 2016, and January 1, 2019",
+          "reasoning": "The three-year recruitment window is explicitly stated."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location) are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "Quaternary care academic medical center... University of Maryland Medical Center",
+          "reasoning": "The specific institution and its nature (quaternary academic) are provided."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "All patients 18 years and older who were treated with VV-ECMO... Patients also were excluded if they were cannulated or converted to venoarterial (VA) or veno-arteriovenous (VA-V)-ECMO... or were treated with ECMO for fewer than 24 hours.",
+          "reasoning": "Criteria are detailed, including age, ECMO type, duration, and baseline rhythm status."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Yes",
+          "evidence_snippet": "During the study period, 247 patients were screened, of whom 219 met study inclusion criteria.",
+          "reasoning": "The flow chart and high inclusion rate (88.6% of screened) suggest minimal bias from non-participation."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1 Baseline Characteristics... Age, Male, Race, BMI, Medical history, Organ failure, RESP score...",
+          "reasoning": "Table 1 provides a comprehensive list of demographics, comorbidities, and severity scores."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "As a retrospective study focused on in-hospital mortality, the 'follow-up' is the hospital stay. Only one patient was lost due to transfer, and four due to missing data, which is negligible in a sample of 247.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "4 patients lacked complete data, and 1 patient was transferred to another hospital post-cannulation",
+          "reasoning": "Only 5 out of 247 screened patients (2%) were lost due to data/attrition issues."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The study does not describe attempts to recover data for the 4 patients with missing data, though the impact is likely low."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Yes",
+          "evidence_snippet": "4 patients lacked complete data, and 1 patient was transferred to another hospital post-cannulation",
+          "reasoning": "Reasons are explicitly listed in the results section and flow chart."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The characteristics of the 5 excluded patients are not compared to the analyzed cohort."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "While the number is small, there is no statistical comparison to confirm they didn't differ systematically."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Attrition Summary",
+        "prompt": "Loss to follow-up (from baseline sample to study population analyzed) is not associated with key characteristics (i.e., the study data adequately represent the sample) sufficient to limit potential bias to the observed relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The definition of the prognostic factor (atrial arrhythmia) is clinically relevant but relies on retrospective chart review of notes and ECGs, which the authors admit likely leads to underrepresentation (measurement bias).",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "New-onset atrial arrhythmias were defined as either atrial fibrillation or atrial flutter that began after cannulation... and resulted in rapid ventricular rate (>100 bpm) or systemic hypotension (<65 mmHg).",
+          "reasoning": "The study provides a very specific clinical definition including hemodynamic thresholds."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Partial",
+          "evidence_snippet": "captured from documentation in ICU progress notes, clinical event notes, or via electrocardiograms uploaded into the patient's chart.",
+          "reasoning": "While ECGs are objective, reliance on progress notes for 'clinically significant' events in a retrospective design can lead to missing data."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "heart rate >100 beats per minute... mean arterial pressure <65 mmHg",
+          "reasoning": "The cut-points used are standard clinical definitions for tachycardia and hypotension."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Data were extracted from electronic medical records... for all patients.",
+          "reasoning": "All patients were monitored in the same ICU setting using the same EMR system."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "219 met study inclusion criteria... 4 patients lacked complete data",
+          "reasoning": "The vast majority of the sample had the necessary data for PF classification."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "No",
+          "evidence_snippet": "4 patients lacked complete data [and were excluded]",
+          "reasoning": "Imputation was not used; patients with missing data were simply excluded."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "PF Measurement Summary",
+        "prompt": "PF is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The primary outcome is in-hospital mortality, which is an objective, unambiguous endpoint with low risk of measurement bias.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "The study's primary outcome was in-hospital mortality.",
+          "reasoning": "In-hospital mortality is a standard, well-defined clinical outcome."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "data were extracted from electronic medical records.",
+          "reasoning": "Mortality status in a hospital EMR is highly reliable and not subject to assessor interpretation."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "All patients... were included... data were extracted from electronic medical records.",
+          "reasoning": "The outcome was assessed via the same EMR for the entire cohort."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Outcome Measurement Summary",
+        "prompt": "Outcome of interest is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study used a multivariable logistic regression model adjusting for the RESP score (a validated composite of 12 variables), renal failure, and vasopressor load, which covers the most critical confounders in this population.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Yes",
+          "evidence_snippet": "RESP score (a composite score of 12 variables previously associated with VV-ECMO mortality), acute renal failure, total norepinephrine dose administered (in mg/kg), and total cannulation time",
+          "reasoning": "The authors identified and measured key clinical confounders including severity of illness and treatment intensity."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "Acute renal failure was defined as the need for renal replacement therapy... RESP score... methods of which previously have been described.",
+          "reasoning": "Confounders are defined either within the text or by reference to validated scoring systems."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Baseline characteristics were used to calculate Respiratory Extracorporeal Membrane Oxygenation Survival Prediction (RESP) scores",
+          "reasoning": "The use of a validated score (RESP) increases the reliability of the confounding adjustment."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Data were extracted from electronic medical records... for all patients.",
+          "reasoning": "Standardized EMR extraction was used for all variables."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "No",
+          "evidence_snippet": "4 patients lacked complete data [and were excluded]",
+          "reasoning": "Imputation was not used; cases with missing data were excluded."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "No",
+          "evidence_snippet": "Retrospective observational cohort study.",
+          "reasoning": "The study did not use matching or stratification in the design phase."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "multivariate logistic regression model to control for important confounders... RESP score, acute renal failure, total norepinephrine dose, and total cannulation time",
+          "reasoning": "Statistical adjustment was performed using a model with high discriminative power (AUROC 0.81)."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Confounding Summary",
+        "prompt": "Important potential confounders are appropriately accounted for, limiting potential bias with respect to the relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical methods are appropriate for the data type and study design. The authors report effect sizes with confidence intervals and provide model diagnostics (AUROC, Hosmer-Lemeshow).",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Categorical variables were compared using the χ2 test... multivariate logistic regression model... Hosmer-Lemeshow Test was used to assess goodness-of-fit",
+          "reasoning": "The statistical plan is detailed and follows standard reporting guidelines (STROBE)."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "selected a priori as relevant covariates that would be included in the final model.",
+          "reasoning": "Variables were selected based on clinical relevance and prior literature, not just p-values."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "multivariate logistic regression analysis... AUROC for this model was 0.81.",
+          "reasoning": "Logistic regression is appropriate for the binary outcome of mortality."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "The study's primary outcome was in-hospital mortality. Secondary outcomes were a composite of thrombotic events...",
+          "reasoning": "All outcomes mentioned in the methods are reported in the results, including non-significant findings for secondary outcomes."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Statistical Analysis and Presentation Summary",
+        "prompt": "The statistical analysis is appropriate for the design of the study, limiting potential for presentation of invalid or spurious results.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/14_Thiara_2024/Li_2022.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T10:56:16.786406"
+  }
+}

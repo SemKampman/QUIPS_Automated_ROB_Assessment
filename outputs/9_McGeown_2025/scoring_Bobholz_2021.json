@@ -1,0 +1,296 @@
+{
+  "paper_metadata": {
+    "title": "Prospective study of the association between sport-related concussion and brain morphometry (3T-MRI) in collegiate athletes: A study from the NCAA-DOD CARE Consortium",
+    "first_author": "Samuel A. Bobholz",
+    "year": "2021",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study uses a large, multi-site prospective design with clearly defined inclusion/exclusion criteria and a robust matching algorithm for controls. The source population (collegiate athletes) is well-described, and the recruitment process through the CARE Consortium is standardized.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Contact sport athletes from football, ice hockey, lacrosse, and soccer were enrolled during the preseason.",
+          "reasoning": "The paper specifies the types of sports and the collegiate setting clearly."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "The current study involves athletes enrolled in the CARE Consortium Advanced Research Core (ARC), which includes four sites where neuroimaging protocols are performed",
+          "reasoning": "Recruitment through a established consortium across multiple universities is described."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "While the study mentions 'preseason' enrollment, the specific calendar years of recruitment are not explicitly stated in this text."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "University of Wisconsin-Madison (UW), University of North Carolina at Chapel Hill (UNC), University of California Los Angeles (UCLA), and Virginia Tech (VT).",
+          "reasoning": "The specific academic institutions serving as recruitment sites are listed."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "We excluded athletes with a history of moderate/severe traumatic brain injury or seizure disorder, acute findings on MRI identified during a clinical overread by radiology, or poor scan quality",
+          "reasoning": "Both clinical and technical (MRI quality) exclusion criteria are provided."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not provide the total number of eligible athletes who declined participation, making it impossible to calculate a participation rate."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Group demographics, medical history, and injury information are provided in Table 1.",
+          "reasoning": "Table 1 provides comprehensive data on age, sex, race, BMI, and concussion history."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "There is significant attrition by the 6-month visit (e.g., SRC group drops from 99 at baseline to 60 at 6 months). While the authors performed sensitivity analyses to check for bias in those lost to follow-up, the ~40% loss rate warrants a moderate risk rating.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Partial",
+          "evidence_snippet": "No. at each Visit Acute/Asymp./P-RTP/6-month ... SRC: 76/76/61/60",
+          "reasoning": "The 6-month follow-up rate for the SRC group is approximately 60% (60/99), which is below the ideal 80% threshold."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text does not describe specific efforts made to re-contact or retain participants who missed visits."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Partial",
+          "evidence_snippet": "Recruitment for several post-injury visits was limited to athletes who clinically recovered; thus, results may not generalize to the small subset of athletes that do not recover",
+          "reasoning": "The authors mention clinical recovery as a factor for visit completion, but specific reasons for individual dropouts are not listed."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "sensitivity analyses demonstrated that acute symptom severity and duration of symptoms did not differ in injured athletes with missing data compared to those that completed all visits",
+          "reasoning": "The authors explicitly compared characteristics of those with missing data to those who completed the study."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Yes",
+          "evidence_snippet": "suggesting that results were not systematically biased by differences in acute injury.",
+          "reasoning": "Statistical comparison showed no significant differences in injury severity between completers and non-completers."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Attrition Summary",
+        "prompt": "Loss to follow-up (from baseline sample to study population analyzed) is not associated with key characteristics (i.e., the study data adequately represent the sample) sufficient to limit potential bias to the observed relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The prognostic factor (concussion) is defined using a standardized consensus definition and confirmed by medical professionals. The use of matched controls further strengthens the measurement of the 'exposure'.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "Concussion was defined per the US Department of Defense consensus as \"a change in brain function following a force to the head...\"",
+          "reasoning": "A standardized clinical definition is used."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Potential concussions were identified by qualified healthcare professionals (e.g., certified athletic trainers, physicians) and diagnosis of concussion was confirmed by team physicians",
+          "reasoning": "Diagnosis was made by clinical experts, reducing misclassification."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "Concussed athletes (SRC) were assessed at 24–48 hours post-injury (Acute)...",
+          "reasoning": "The PF is categorical (Concussed vs Control), which is appropriate for this study design."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "diagnosis of concussion was confirmed by team physicians in accord with the definition provided above.",
+          "reasoning": "The same diagnostic criteria were applied across all sites."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "The final sample included 99 SRC, 91 CC, and 95 NCC athletes that completed at least a single visit",
+          "reasoning": "The PF status is known for all participants included in the analysis."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "Yes",
+          "evidence_snippet": "The mixed effects models employed, however, account for missingness under the missing at random assumption.",
+          "reasoning": "Linear mixed-effects models are appropriate for handling missing longitudinal data without requiring simple imputation."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "Outcomes (brain morphometry) were measured using objective 3T MRI and processed with a validated, automated pipeline (FreeSurfer). Quality control steps (manual grading) were implemented to ensure data integrity.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "Subcortical volumes (amygdala, hippocampus, thalamus, dorsal striatum) and vertex-wise measurements of cortical thickness/volume were computed using FreeSurfer.",
+          "reasoning": "The anatomical outcomes are precisely defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "Prior work has demonstrated test-retest reliability and segmentation accuracy using the longitudinal Freesurfer pipeline",
+          "reasoning": "The study uses a validated automated tool and cites its reliability."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "High resolution T1-weighted images (1 mm × 1 mm × 1 mm) were acquired on 3T MRI scanners at each site.",
+          "reasoning": "Standardized imaging protocols were used across all sites, and site was used as a covariate."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study used both a matched control design and statistical adjustment for a wide range of potential confounders, including age, sex, BMI, site, and prior concussion history.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Yes",
+          "evidence_snippet": "Additional covariates included prior concussion history (coded as 0, 1+), years of participation in primary sport, age, sex, BMI, estimated intracranial volume...",
+          "reasoning": "Key demographic and clinical confounders were captured."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "Athletes self-reported the number of prior concussions and years of participation in their primary sport.",
+          "reasoning": "Definitions for history and exposure are provided."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Partial",
+          "evidence_snippet": "Athletes self-reported the number of prior concussions and years of participation",
+          "reasoning": "Self-reporting of concussion history is subject to recall bias, though standard in this field."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Demographic and health history information were collected at baseline visits during the preseason",
+          "reasoning": "Standardized baseline collection for all groups."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "Yes",
+          "evidence_snippet": "The mixed effects models employed, however, account for missingness",
+          "reasoning": "LME handles missingness in longitudinal covariates/outcomes appropriately."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "Yes",
+          "evidence_snippet": "Non-injured contact sport athletes matched using an algorithm based on variables of institution, sport, sex, race/ethnicity...",
+          "reasoning": "A sophisticated matching algorithm was used for the control groups."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "controlling for intracranial volume (or mean thickness) and demographic variables (including prior concussions and sport exposure).",
+          "reasoning": "Multivariable adjustment was performed in the LME models."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical approach (LME) is appropriate for longitudinal data. The authors corrected for multiple comparisons (FDR) and reported both significant and non-significant findings transparently.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Linear mixed-effects (LME) models were fit to assess changes in morphometry across visits as a function of group",
+          "reasoning": "The analytical plan is detailed and standard for this type of data."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "Additional covariates included... based on the vulnerability of these regions to brain injury",
+          "reasoning": "Variable selection was based on prior literature and biological plausibility."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "Participant was modeled as a random factor.",
+          "reasoning": "LME is the gold standard for handling repeated measures with missing data."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Analyses for sport-related concussion effects were null for subcortical volume and cortical volume and thickness.",
+          "reasoning": "The authors reported null results for their primary hypotheses, suggesting low risk of publication/reporting bias."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/9_McGeown_2025/Bobholz_2021.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T11:47:50.981540"
+  }
+}

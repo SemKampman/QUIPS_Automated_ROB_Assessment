@@ -1,0 +1,347 @@
+{
+  "paper_metadata": {
+    "title": "Multiparametric MRI changes persist beyond recovery in concussed adolescent hockey players",
+    "first_author": "Kathryn Y. Manning",
+    "year": "2017",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study provides a clear description of the target population (adolescent hockey players) and recruitment setting. However, it uses a small convenience sample (n=17) from specific leagues, and there is no information on the total number of eligible players or the participation rate, which increases the risk of selection bias.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Players were recruited from Bantam hockey leagues in which body checking is first introduced (male, age 11–14 years).",
+          "reasoning": "The authors specify the age, sex, sport, and specific league level of the target population."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Partial",
+          "evidence_snippet": "Players diagnosed with a mild traumatic brain injury or concussion (age 13.3 6 0.6 years) were assessed within 24 to 72 hours of their injury",
+          "reasoning": "While the diagnosis and timing are clear, the specific recruitment mechanism (e.g., which clinics or teams) is not fully detailed in the main text."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The specific calendar years or seasons during which recruitment took place are not mentioned in the provided text."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "Fowler Kennedy Sport Medicine; and Paediatrics Critical Care Medicine (D.D.F.), London Health Sciences Centre, London, Ontario, Canada.",
+          "reasoning": "The affiliations and locations in London, Ontario, are clearly stated."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "Players diagnosed with a mild traumatic brain injury or concussion... assessed within 24 to 72 hours of their injury... Data with excessive motion (.1-mm maximum displacement or .0.5-mm relative mean displacement) were excluded",
+          "reasoning": "The study defines the injury type, the 'zero time' (24-72h post-injury), and technical exclusion criteria for imaging."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not report how many eligible athletes were approached versus how many agreed to participate (participation rate)."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "concussed adolescent male hockey players... (age 13.3 6 0.6 years)... independent group of healthy, age-matched, nonconcussed male hockey players (n 5 26, age 13.0 6 1 years).",
+          "reasoning": "Age and sex are provided for both the concussed and control groups."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study reports a high follow-up rate (14/17, ~82%) at 3 months. While reasons for the 3 dropouts aren't explicitly detailed, the retention is sufficient for this type of pilot imaging study.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "assessed within 24 to 72 hours of their injury (n 5 17) and again 3 months later (n 5 14).",
+          "reasoning": "82% of the initial cohort was followed up at the 3-month mark, which is generally considered adequate."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is no mention of attempts to contact or collect data from the 3 participants who did not return for the 3-month scan."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text lists the change in 'n' but does not explain why those 3 individuals were lost."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is no comparison provided between the 14 completers and the 3 dropouts."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The sample size is too small to statistically determine if dropouts differed significantly from completers, and no such analysis was reported."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Attrition Summary",
+        "prompt": "Loss to follow-up (from baseline sample to study population analyzed) is not associated with key characteristics (i.e., the study data adequately represent the sample) sufficient to limit potential bias to the observed relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ],
+        "rating": "Low",
+        "evidence_snippet": "n 5 17... and again 3 months later (n 5 14)",
+        "reasoning": "The attrition rate is low (18%), and in a longitudinal imaging study of this nature, this level of retention is typically sufficient to maintain the representativeness of the initial cohort."
+      }
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The prognostic factor (concussion) was diagnosed clinically by specialists, and the timing of the 'exposure' was strictly controlled (24-72 hours).",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "Players diagnosed with a mild traumatic brain injury or concussion... assessed within 24 to 72 hours of their injury",
+          "reasoning": "The PF is a clinical diagnosis of concussion with a specific acute time window."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "L.F.: overall project design, patient evaluation. K.A.: patient evaluation. ... Primary Care Sport Medicine (L.F., K.A.)",
+          "reasoning": "The diagnosis was performed by sports medicine physicians, which is the clinical standard."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "Clinical measures, diffusion metrics, resting-state network and region-to-region functional connectivity patterns, and magnetic resonance spectroscopy absolute metabolite concentrations were analyzed",
+          "reasoning": "The study uses continuous metrics for the imaging and clinical scores rather than arbitrary binary cut-offs."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "All participants... assessed within 24 to 72 hours of their injury",
+          "reasoning": "The protocol for diagnosis and initial assessment was standardized for the concussed group."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "The numbers of included participants for each portion of the study are summarized in table e-1.",
+          "reasoning": "The study accounts for all participants in the analysis of the prognostic factor."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No imputation was used; the study appears to use complete-case analysis for the longitudinal components."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "PF Measurement Summary",
+        "prompt": "PF is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ],
+        "rating": "Low",
+        "evidence_snippet": "Players diagnosed with a mild traumatic brain injury or concussion... within 24 to 72 hours",
+        "reasoning": "The PF is well-defined and measured using standard clinical expertise within a tight temporal window."
+      }
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "Outcomes were measured using objective, multiparametric MRI techniques (DTI, fMRI, MRS) with standardized automated processing pipelines, minimizing subjective bias.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "diffusion metrics, resting-state network and region-to-region functional connectivity patterns, and magnetic resonance spectroscopy absolute metabolite concentrations... 3 months later",
+          "reasoning": "The outcomes are clearly defined as specific MRI-derived metrics at a 3-month follow-up."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "RS-fMRI data were analyzed with FSL... Diffusion tensor and tractography analysis... MRS analysis... Spectra were postprocessed with in-house software",
+          "reasoning": "The study uses established, sophisticated neuroimaging analysis software (FSL, CONN) and validated MRS processing techniques."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "MRI acquisition parameters are outlined in appendix e-2.",
+          "reasoning": "All participants underwent the same imaging protocol on the same equipment."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Outcome Measurement Summary",
+        "prompt": "Outcome of interest is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ],
+        "rating": "Low",
+        "evidence_snippet": "multiparametric MRI data... analyzed from an independent, age-matched control group... and longitudinally in concussed athletes",
+        "reasoning": "The use of objective MRI metrics and standardized processing significantly limits measurement bias."
+      }
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "While the study used an age-matched control group and regressed for age in DTI analysis, the small sample size limits the ability to adjust for multiple confounders (e.g., prior concussion history, academic load, or medication) in a multivariable model.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Partial",
+          "evidence_snippet": "independent, age-matched control group of hockey players",
+          "reasoning": "Age and athletic status are controlled for, but other factors like previous concussion history or specific treatments are not detailed."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Partial",
+          "evidence_snippet": "age-matched... (age 13.0 6 1 years)",
+          "reasoning": "Age is clearly defined, but other potential confounders are not."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "age-matched control group of hockey players (n 5 26)",
+          "reasoning": "Basic demographic matching is reliable."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "independent, age-matched control group of hockey players were assessed and acted as our controls",
+          "reasoning": "Controls and cases were assessed using the same framework."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No imputation was reported."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "Yes",
+          "evidence_snippet": "independent, age-matched control group of hockey players",
+          "reasoning": "The study design uses an age-matched control group of the same sex and sport to account for primary confounders."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Partial",
+          "evidence_snippet": "spatially quantify where the greatest changes occurred along those tracts while regressing for age.",
+          "reasoning": "Age was regressed in the DTI analysis, but the small 'n' likely precluded more complex multivariable adjustment."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Confounding Summary",
+        "prompt": "Important potential confounders are appropriately accounted for, limiting potential bias with respect to the relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ],
+        "rating": "Moderate",
+        "evidence_snippet": "independent, age-matched control group... regressing for age",
+        "reasoning": "Primary confounders (age/sex/sport) are handled, but the small sample size leaves the study vulnerable to residual confounding from unmeasured factors."
+      }
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical approach is rigorous, utilizing multiple-comparison corrections (Bonferroni, FDR) and relating different imaging modalities through correlation, which strengthens the validity of the findings.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Statistical analysis was performed with a multivariate analysis of variance with Tukey post hoc testing... Pearson correlation analysis was explored between data that had a significant effect for group (p , 0.05 after false discovery rate correction).",
+          "reasoning": "The analytical steps, including post-hoc tests and error corrections, are well-described."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "we hypothesized that there would be persistent MRI-detectable neuronal changes... we were able to directly relate resting-state (RS-fMRI) changes with underlying structural abnormalities",
+          "reasoning": "The analysis is hypothesis-driven and seeks to integrate structural, functional, and metabolic data."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "FSL randomize permutation-testing tool... threshold-free cluster enhancement and multiple-comparison Bonferroni-corrected p values",
+          "reasoning": "The use of permutation testing and TFCE is the gold standard for handling the multiple comparison problem in neuroimaging."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Results are shown for the (A) default mode network... (B) occipital pole... (C) cerebellar... (D) sensorimotor... no significant differences were found within the executive control network",
+          "reasoning": "The authors report both significant and non-significant findings across the networks investigated."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Statistical Analysis and Presentation Summary",
+        "prompt": "The statistical analysis is appropriate for the design of the study, limiting potential for presentation of invalid or spurious results.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ],
+        "rating": "Low",
+        "evidence_snippet": "multiple-comparison Bonferroni-corrected p values (p , 0.001)... false discovery rate correction",
+        "reasoning": "The use of stringent corrections for multiple comparisons and the integration of multiple MRI modalities suggests a robust statistical approach."
+      }
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/9_McGeown_2025/Manning_2017.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T11:41:06.460709"
+  }
+}

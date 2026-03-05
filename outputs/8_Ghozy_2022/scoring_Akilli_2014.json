@@ -1,0 +1,287 @@
+{
+  "paper_metadata": {
+    "title": "Prognostic importance of neutrophil-lymphocyte ratio in critically ill patients: short- and long-term outcomes",
+    "first_author": "Nazire Belgin Akilli",
+    "year": "2014",
+    "analysis_timestamp": "2023-10-27 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study clearly defines the target population (critically ill patients in the ED), provides explicit inclusion/exclusion criteria, and describes the recruitment setting and period. Baseline characteristics are well-documented.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Critically ill adult patients were included in the study and were defined as patients accepted by the emergency department who had 2 of the 4 systemic inflammatory response syndrome criteria... as well as systolic blood pressure below 90 mm Hg or 2 of the systemic inflammatory response syndrome criteria and a lactate level above 4 mmol/L",
+          "reasoning": "The authors provide a specific physiological definition for the 'critically ill' population of interest."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "This prospective, observational cohort study was conducted in a regional academic hospital emergency department that provides tertiary care in Konya.",
+          "reasoning": "The recruitment setting and the nature of the hospital (tertiary care) are clearly stated."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "The study was conducted between January 1, 2013, and August 10, 2013.",
+          "reasoning": "Specific dates for the recruitment period are provided."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "regional academic hospital emergency department that provides tertiary care in Konya.",
+          "reasoning": "The geographic location and type of facility are specified."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "Exclusion criteria were age younger than 18 years, pregnancy, known hematologic disease, previous chemotherapy treatment (within the last month), blood transfusion (within the last 2 weeks), chronic hepatic disease, trauma, or poisoning.",
+          "reasoning": "Detailed exclusion criteria are listed to minimize confounding from conditions that directly affect WBC counts."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not provide a flow diagram or the number of eligible patients who were not included (participation rate), making it impossible to determine if selection bias occurred at the point of enrollment."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Demographics and clinical characteristics of the patients are provided in Table 1.",
+          "reasoning": "Table 1 provides a comprehensive list of age, sex, comorbidities, and severity scores (APACHE II, SOFA)."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study reports outcomes for all 373 patients included. For the 6-month follow-up, they utilized phone calls to ensure data completion, suggesting minimal loss to follow-up.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "A total of 373 patients were included in the study... In-hospital and 6-month mortalities of the patients were determined from medical records. In the cases where data were not available from the records, data were obtained via phone call.",
+          "reasoning": "The text implies that follow-up was completed for the cohort, using phone calls to fill gaps."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "Yes",
+          "evidence_snippet": "In the cases where data were not available from the records, data were obtained via phone call.",
+          "reasoning": "The authors explicitly mention using phone calls to capture outcome data for those not in the immediate records."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The study does not explicitly state if any patients were truly lost to follow-up; it suggests they attempted to reach everyone."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No description of lost participants is provided as the study implies a near-complete follow-up."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Since the number of dropouts (if any) is not reported, a comparison between completers and non-completers is missing."
+        }
+      ]
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "NLR is an objective laboratory value calculated from standard automated hematology analyzers. The method is consistent for all patients and the definition is clear.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "The NLR was calculated after the whole blood count NLR.",
+          "reasoning": "NLR is a standard ratio of absolute neutrophil to lymphocyte counts."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Complete blood counts were performed with an autoanalyzer (SIEMENS ADVİA 120 hematology analyzer; SIEMENS, Eschborn, Germany).",
+          "reasoning": "The use of a standardized automated analyzer ensures high reliability and limits measurement bias."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Partial",
+          "evidence_snippet": "The cutoff value for mortality obtained using the ROC curve was 11.9",
+          "reasoning": "The authors used a data-dependent cutoff (Youden's index from ROC) for the regression model, which can over-estimate effect sizes, though they also analyzed by quartiles."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Vital findings upon emergency department admission, laboratory findings, and neutrophil and lymphocyte values from whole blood counts were taken.",
+          "reasoning": "All measurements were taken at the time of ED admission for all participants."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "A total of 373 patients were included in the study... median (IQR) NLR was 6.72 (10.3).",
+          "reasoning": "The results suggest NLR was available for the full cohort."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Imputation is not mentioned; however, the prospective nature and standard lab protocol likely minimized missing data."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "Mortality is an objective, hard endpoint. The methods for determining mortality (records and phone calls) are standard and unlikely to be influenced by the PF level.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "The primary end point was in-hospital mortality and 6-month mortality; secondary end points were sepsis, ventilator-associated pneumonia, and MOF",
+          "reasoning": "Outcomes and follow-up durations (in-hospital and 6 months) are explicitly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "In-hospital and 6-month mortalities of the patients were determined from medical records.",
+          "reasoning": "Medical records and death registries are reliable sources for mortality data."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "In-hospital and 6-month mortalities of the patients were determined from medical records. In the cases where data were not available from the records, data were obtained via phone call.",
+          "reasoning": "The protocol for outcome ascertainment was applied consistently across the cohort."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "While the authors adjusted for several key confounders (APACHE II, age, comorbidities) in a multivariable model, the use of a data-derived cutoff for NLR in the model and the lack of adjustment for specific treatments received in the ICU may leave some residual confounding.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Partial",
+          "evidence_snippet": "Age, sex, congestive heart failure, coronary artery disease, diabetes mellitus, malignancy, corticosteroid treatment, creatinine, hematocrit, WBC, APACHE II score, and SOFA scores were included in this model.",
+          "reasoning": "Major clinical confounders were measured, but specific ICU interventions (e.g., vasopressors, specific antibiotics) were not explicitly included in the adjustment."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Partial",
+          "evidence_snippet": "APACHE II, Sepsis-related Organ Failure Assessment, Glasgow Coma Score",
+          "reasoning": "Standardized scores are used, but definitions for individual comorbidities (e.g., 'malignancy') are not detailed."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "APACHE II [14], Sepsis-related Organ Failure Assessment (SOFA) [15], and Glasgow Coma Score (GCS) scores were calculated.",
+          "reasoning": "The study uses validated clinical scoring systems for severity adjustment."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Vital findings upon emergency department admission, laboratory findings... were taken.",
+          "reasoning": "Confounders were measured at the same 'zero time' (ED admission) for all patients."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No mention of handling missing data for confounders."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "No",
+          "evidence_snippet": "This prospective, observational cohort study",
+          "reasoning": "The study did not use matching or stratification in the design phase."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "In the multivariable Cox regression model... Age, sex, congestive heart failure... APACHE II score, and SOFA scores were included",
+          "reasoning": "A multivariable Cox regression was performed to adjust for baseline differences."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The analysis is generally appropriate, but the selection of the NLR cutoff (11.9) was based on the current data (ROC/Youden index) rather than a pre-specified or external value, which can introduce bias. Reporting is transparent regarding the variables used.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Univariate and multivariate Cox regression models were used to evaluate the independent relationships... Kaplan-Meier survival estimates were calculated.",
+          "reasoning": "The statistical methods are clearly described and appropriate for time-to-event data."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "Age, sex, congestive heart failure... APACHE II score, and SOFA scores were included in this model.",
+          "reasoning": "The variables included are clinically relevant to mortality in the critically ill."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "multivariable Cox regression model",
+          "reasoning": "Cox regression is the gold standard for analyzing prognostic factors with survival data."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "The patients were followed up for sepsis, ventilator-associated pneumonia, multiorgan failure, in-hospital mortality, and 6-month mortality.",
+          "reasoning": "All outcomes mentioned in the methods are reported in the results section, including non-significant findings."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/8_Ghozy_2022/Akilli_2014.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T11:25:51.558490"
+  }
+}

@@ -1,0 +1,332 @@
+{
+  "paper_metadata": {
+    "title": "Bleeding and thrombotic events in adults supported with venovenous extracorporeal membrane oxygenation: an ELSO registry analysis",
+    "first_author": "Jose I. Nunez",
+    "year": "2022",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study uses a large, international registry (ELSO) which captures a broad and representative sample of the target population. Inclusion/exclusion criteria are clearly defined, and the baseline characteristics are thoroughly described. While it is a retrospective registry analysis, the scale and systematic reporting of ELSO limit selection bias.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "The international ELSO registry includes data voluntarily reported from over 400 centers [1] including patient clinical characteristics, circuit components, cannulation configurations, and clinical outcomes.",
+          "reasoning": "The source (ELSO registry) and the nature of the data collected are explicitly stated."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "We queried the Extracorporeal Life Support Organization registry for adults supported with VV-ECMO from 2010 to 2017.",
+          "reasoning": "The sampling frame is the entire ELSO registry for the specified period, which is the standard for this type of prognostic research."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "We included adults (≥ 18 years old) receiving VV-ECMO support from 1/1/2010 through 12/31/2017.",
+          "reasoning": "Specific dates for the study period are provided."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location) are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "The international ELSO registry includes data voluntarily reported from over 400 centers",
+          "reasoning": "The setting is international and multi-center, covering over 400 ECMO centers."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "We excluded patients with a pre-cannulation diagnosis of coagulopathy or disseminated intravascular coagulation, gastrointestinal or airway bleeding, or stroke (Supplemental Table 1), multiple VV-ECMO runs, and those with missing data for core variables",
+          "reasoning": "Detailed exclusion criteria are provided to ensure the 'zero time' (baseline) is free of the outcomes of interest."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "The international ELSO registry includes data voluntarily reported from over 400 centers",
+          "reasoning": "Because reporting to ELSO is voluntary, it is unclear what proportion of all global VV-ECMO cases are captured, though it is the largest database of its kind."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1 Demographics, clinical characteristics and type of event by category of bleeding and thrombotic events",
+          "reasoning": "Table 1 provides a comprehensive list of demographics, comorbidities, and pre-ECMO physiological parameters."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study focuses on in-hospital mortality, meaning the outcome is known for all patients who do not leave the hospital. The authors performed sensitivity analyses to compare the excluded patients (due to missing data) with the analytic cohort, finding them similar, which mitigates bias from missing data.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Partial",
+          "evidence_snippet": "Among 11,880 adults treated with VV-ECMO between 2010 and 2017, 7579 met study criteria (Fig. 1).",
+          "reasoning": "A significant number (approx 36%) were excluded, largely due to missing data, which is common in registries but requires scrutiny."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "As a retrospective registry study, there is no 'follow-up' in the traditional sense; patients are either discharged or die in-hospital."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Yes",
+          "evidence_snippet": "We excluded patients... with missing data for core variables including age, sex, weight, race, cannulation site, and duration and year of ECMO.",
+          "reasoning": "The reason for exclusion (missing data) is explicitly stated."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "To assess for any selection bias resulting from exclusion of patients with missing data on core variables, we compared the clinical features of the total cohort and analytic cohort.",
+          "reasoning": "The authors explicitly compared the excluded group to the included group to check for systematic differences."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Yes",
+          "evidence_snippet": "The characteristics of the total cohort were very similar to the analytic cohort (Supplemental Table 4).",
+          "reasoning": "The authors confirm that the excluded patients did not differ significantly from the analyzed sample."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Attrition Summary",
+        "prompt": "Loss to follow-up (from baseline sample to study population analyzed) is not associated with key characteristics (i.e., the study data adequately represent the sample) sufficient to limit potential bias to the observed relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The prognostic factors (BTEs) are defined using ICD codes and registry-specific categories. While standard, registry data can be prone to under-reporting or misclassification, especially for non-lethal events like circuit clotting versus medical bleeding.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "BTEs were classified as surgical bleeding (cardiac tamponade, cannulation, and surgical site bleeding), medical bleeding (pulmonary, gastrointestinal, or intracranial hemorrhage), and thrombotic events...",
+          "reasoning": "The prognostic factors (BTEs) are clearly categorized and defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Partial",
+          "evidence_snippet": "Clinical diagnoses and co-morbidities are reported with International Classification of Diseases, 9th and 10th Revision, Clinical Modification (ICD-9/10-CM) codes.",
+          "reasoning": "ICD codes are standard but known to have variable sensitivity and specificity in registry data."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "Based on the observed non-linear relationships seen with ΔPaO2, it was included in the multivariable models as a two-level continuous variable with a cutoff point at 80 mmHg.",
+          "reasoning": "The authors used spline curves to determine appropriate cut-points for continuous physiological variables."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "The international ELSO registry includes data voluntarily reported from over 400 centers [1] including patient clinical characteristics...",
+          "reasoning": "All data comes from the same standardized ELSO reporting system."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "Among 7579 VV-ECMO patients meeting criteria, 40.2% experienced ≥ 1 BTE.",
+          "reasoning": "The analysis was restricted to those with complete core data."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "Yes",
+          "evidence_snippet": "total cohort analyses with multiple imputation for missing data produced similar findings to the analytic cohort.",
+          "reasoning": "Multiple imputation was used as a sensitivity check."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "PF Measurement Summary",
+        "prompt": "PF is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The primary outcome is in-hospital mortality, which is an objective, unambiguous event that is reliably recorded in clinical registries.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "The primary outcome was the association of BTEs with in-hospital mortality.",
+          "reasoning": "In-hospital mortality is clearly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "In-hospital mortality occurred in 2648 (34.9%) patients.",
+          "reasoning": "Mortality is an objective endpoint with negligible measurement error."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "The international ELSO registry includes data... including clinical outcomes.",
+          "reasoning": "Outcome measurement is standardized across the registry."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Outcome Measurement Summary",
+        "prompt": "Outcome of interest is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The authors adjusted for a wide range of clinical confounders. However, as they admit, the registry lacks granular data on anticoagulation protocols (e.g., heparin doses, PTT targets), which is a major potential confounder in the relationship between BTEs and mortality.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Partial",
+          "evidence_snippet": "Crucial details of the anticoagulation strategy and laboratory coagulation parameters are not available",
+          "reasoning": "While many clinical variables were measured, the lack of anticoagulation data is a significant omission for a study on bleeding and thrombosis."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "AKI was defined as the presence of an ICD 9/10 code for acute kidney injury and/or renal replacement therapy within 24 h prior to ECMO initiation.",
+          "reasoning": "Definitions for measured confounders like AKI and cannulation strategy are provided."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Partial",
+          "evidence_snippet": "The ELSO registry does not require secondary diagnoses prior to ECMO support, so co-morbidities and concomitant organ failures are likely underreported.",
+          "reasoning": "The authors acknowledge that registry-based measurement of comorbidities may be less reliable than prospective data."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "The international ELSO registry includes data voluntarily reported from over 400 centers",
+          "reasoning": "Standardized reporting across all centers."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "Yes",
+          "evidence_snippet": "total cohort analyses with multiple imputation for missing data produced similar findings",
+          "reasoning": "Imputation was used to validate the primary analysis."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "No",
+          "evidence_snippet": "We conducted a retrospective analysis",
+          "reasoning": "The study did not use matching or stratification in the design phase."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "Models were adjusted for ECMO duration and the following pre-ECMO characteristics: age, sex, white race, weight, year of support, single-site cannulation, chronic lung disease, AKI, primary diagnoses for VV-ECMO, vasopressor use, cardiac arrest, pH, PaCO2, and the ratio of PaO2 to FiO2 (P/F).",
+          "reasoning": "Extensive multivariable adjustment was performed."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Confounding Summary",
+        "prompt": "Important potential confounders are appropriately accounted for, limiting potential bias with respect to the relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical methods are robust, including multivariable logistic regression, spline curves for non-linear relationships, and sensitivity analyses. The results are reported transparently, including effect sizes (OR) and confidence intervals for all studied factors.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Multivariable logistic regression modeling was used to assess the association between BTEs and in-hospital mortality and the predictors of BTEs.",
+          "reasoning": "The analytical plan is clearly described in the Methods section."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "Models were adjusted for ECMO duration and the following pre-ECMO characteristics... [list of variables]",
+          "reasoning": "Variables were selected based on clinical relevance and prior literature."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "Multivariable logistic regression was used to identify risk factors",
+          "reasoning": "Logistic regression is appropriate for the binary outcome of in-hospital mortality."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "The association between the primary diagnosis for VV-ECMO and the occurrence of any BTE was analyzed... [results provided in text and supplements]",
+          "reasoning": "The authors report on all pre-specified categories of BTEs and their associations."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Statistical Analysis and Presentation Summary",
+        "prompt": "The statistical analysis is appropriate for the design of the study, limiting potential for presentation of invalid or spurious results.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/14_Thiara_2024/Nunez_2022.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T10:54:14.382062"
+  }
+}

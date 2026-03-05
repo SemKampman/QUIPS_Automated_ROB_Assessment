@@ -1,0 +1,287 @@
+{
+  "paper_metadata": {
+    "title": "Development and validation of a clinical model (DREAM-LDL) for poststroke cognitive impairment at 6 months",
+    "first_author": "Yi Dong",
+    "year": "2021",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study used a multicenter approach with consecutive recruitment of patients with a clearly defined diagnosis (AIS). Inclusion/exclusion criteria and baseline characteristics are well-documented, and the sample size is adequate for the analysis performed.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "records of consecutive patients with confirmed AIS treated at 4 regional stroke centers from June 2017 to February 2018 were retrospectively reviewed.",
+          "reasoning": "The authors specify the clinical setting (4 regional stroke centers) and the specific patient population (AIS)."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "The records of consecutive patients with confirmed AIS treated at 4 regional stroke centers... were retrospectively reviewed.",
+          "reasoning": "Consecutive recruitment is the gold standard for reducing selection bias in prognosis studies."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "from June 2017 to February 2018",
+          "reasoning": "The specific dates for the recruitment window are provided."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "4 stroke centers in Shanghai",
+          "reasoning": "The geographic location and type of facilities are clearly stated."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "AIS was diagnosed by a neurologist according to the World Health Organization definition... Patients with pre-existing cognitive impairment before AIS according to their medical records and patients with severe cognitive impairment or aphasia who might be unable to undertake MoCA assessment were excluded.",
+          "reasoning": "The study provides both positive inclusion criteria (WHO definition) and specific exclusion criteria (pre-existing dementia, aphasia)."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "While the study mentions 'consecutive' patients, it does not provide a flow diagram showing how many patients were screened versus how many were excluded to calculate a participation rate."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Demographics and baseline characteristics of the PSCI and non-PSCI patients at 6 months were described in Table 1.",
+          "reasoning": "Table 1 provides a comprehensive list of age, sex, BMI, education, stroke severity (NIHSS), and comorbidities."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study only includes patients who completed both the baseline and 6-month MoCA. While the reasons for exclusion (aphasia/severe impairment) are noted, the retrospective nature makes it difficult to determine if those lost to follow-up differed significantly from those who completed the study.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not state the total number of AIS patients admitted during the period, only the 383 who were 'included' because they had both assessments."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "As a retrospective record review, there is no mention of attempts to contact patients who missed their 6-month follow-up."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The study does not report the number or reasons for patients who had a baseline MoCA but failed to return for the 6-month assessment."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No data is provided comparing completers to non-completers."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The lack of data on non-completers makes this impossible to verify."
+        }
+      ]
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The primary prognostic factor (baseline MoCA) and other predictors (LDL-C, NIHSS, Glucose) are objective clinical measurements or validated scales, measured consistently across centers.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "MoCA assessment both within 2 weeks after AIS onset (baseline MoCA)... NIHSS score... LDL-C level.",
+          "reasoning": "All predictors in the DREAM-LDL model are clearly defined with standard units or scales."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "As a screening tool, the Montreal Cognitive Assessment (MoCA) is sensitive in detecting early PSCI.",
+          "reasoning": "The study uses the MoCA and NIHSS, which are internationally validated and reliable instruments in stroke research."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Partial",
+          "evidence_snippet": "A scoring system (point 1-3) was used to score each risk factor in the model based on their OR and 95% CI.",
+          "reasoning": "While some cut-points (like LDL-C <1.8) are based on clinical guidelines, others (like Age >63) appear to be derived from the study's own median/distribution, which is data-dependent."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Patients with AIS were provided with a MoCA assessment both within 2 weeks after AIS onset (baseline MoCA) and 6 months after AIS",
+          "reasoning": "The protocol was standardized across the 4 centers."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "total of 383 AIS patients were included in this study. They had a median age... NIHSS... LDL-C",
+          "reasoning": "The final analysis cohort only included those with complete data for the model variables."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The study appears to use complete-case analysis; no imputation methods are described."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The outcome (PSCI) is defined using a validated scale (MoCA) at a standardized time point (6 months). The use of a specific cut-off (<22) is justified by literature.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "a patient with a 6-month MoCA score <22 was diagnosed as PSCI",
+          "reasoning": "The outcome is clearly defined by a specific score on a specific scale at a specific time."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "the MoCA test is still the commonly used bedside screening tool for PSCI.",
+          "reasoning": "MoCA is a validated tool for this specific outcome."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "MoCA assessment... 6 months after AIS (6-month MoCA)",
+          "reasoning": "The timing and instrument were consistent for all participants."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study used multivariable logistic regression to adjust for key confounders including age, education, and stroke severity. They also performed external validation, which strengthens the reliability of the adjusted associations.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Partial",
+          "evidence_snippet": "demographic, baseline characteristics and clinical information such as the National Institutes of Health Stroke Scale (NIHSS) score, the subtype of stroke classification and the Oxfordshire Community Stroke Project (OCSP) classification were also collected",
+          "reasoning": "Most clinical confounders were measured, but specific acute treatments (e.g., thrombolysis or thrombectomy) which could influence recovery were not explicitly included in the model."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1. Patient demographic and baseline characteristics.",
+          "reasoning": "Confounders like FBG, LDL-C, and NIHSS are standard clinical metrics."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "AIS was diagnosed by a neurologist according to the World Health Organization definition.",
+          "reasoning": "Measurements were performed by clinical experts using standard definitions."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "The records of consecutive patients... were retrospectively reviewed.",
+          "reasoning": "Data was extracted from standardized medical records across the centers."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No imputation was mentioned."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "No",
+          "evidence_snippet": "This study was a multicenter retrospective study",
+          "reasoning": "The design was a retrospective cohort; confounding was handled via analysis rather than design."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "risk factors were identified by multivariate logistic regression analysis.",
+          "reasoning": "The authors used multivariable models to adjust for the effects of multiple predictors simultaneously."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical approach is robust, including model derivation, internal validation (bootstrapping), and external validation in a separate cohort. The reporting is transparent regarding the variables included and the model's performance (AUC).",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "The model's discriminatory ability was assessed with receiver operating characteristic (ROC) analysis... internal cross-validation... based on 1,000 bootstrap replicates.",
+          "reasoning": "The analytical steps are clearly laid out, including calibration and discrimination tests."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "We put most variables with p<0.1 into the multivariate logistic regression and interactions would be tested before.",
+          "reasoning": "The strategy follows standard prognostic modeling procedures (univariate screening followed by multivariable inclusion)."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "Multivariate logistic regression analysis",
+          "reasoning": "Logistic regression is appropriate for the binary outcome (PSCI vs. non-PSCI)."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "The results were presented as odds ratios (ORs) with 95%CI.",
+          "reasoning": "The authors report on all variables tested in the multivariable model, including those that were not statistically significant."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/12_Tao_2023/Dong_2021.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T10:47:53.206934"
+  }
+}

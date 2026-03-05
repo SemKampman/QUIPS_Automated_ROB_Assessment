@@ -1,0 +1,287 @@
+{
+  "paper_metadata": {
+    "title": "Investigation of Multiple Frequency Ranges Using Discrete Wavelet Decomposition of Resting-State Functional Connectivity in Mild Traumatic Brain Injury Patients",
+    "first_author": "Chandler Sours",
+    "year": "2015",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study provides clear inclusion/exclusion criteria and describes the source population. However, it uses a convenience sample from a larger imaging protocol without specifying the total number of eligible patients screened versus those enrolled, making it difficult to assess the participation rate and potential selection bias.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Thirty-two mTBI patients (41.7 – 17.1 years, 21M:11F) were prospectively recruited as part of a larger imaging protocol... Thirty-one neurologically intact subjects (37.3 – 17.1 years, 17M:14F) served as a control population.",
+          "reasoning": "The authors define the age, sex, and clinical status (mTBI vs. control) of the participants."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Partial",
+          "evidence_snippet": "Patients were screened and excluded for history of neurological and psychiatric illnesses... Inclusion criteria consisted of an admission Glasgow Coma Scale of 13–15 and mechanism of injury consistent with trauma.",
+          "reasoning": "While criteria are listed, the specific recruitment setting (e.g., specific ER or clinic) and the flow of participants from screening to enrollment are not detailed."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text does not provide the calendar dates or the duration of the recruitment period."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Partial",
+          "evidence_snippet": "This study received approval from the Institutional Review Board... University of Maryland School of Medicine, Baltimore, Maryland.",
+          "reasoning": "The institutional affiliation is clear, but the specific clinical setting (e.g., Emergency Department vs. Outpatient) is not explicitly stated."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "Inclusion criteria consisted of an admission Glasgow Coma Scale of 13–15 and mechanism of injury consistent with trauma and a positive admission head CT or altered mental status and/or loss of consciousness.",
+          "reasoning": "The study uses standard clinical definitions (GCS, CT status) and defines 'zero time' as the date of injury."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not report the number of eligible patients who declined to participate, so the participation rate cannot be calculated."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Participant demographics and clinical characteristics are noted in Table 1.",
+          "reasoning": "Table 1 provides age, education, sex, and days post-injury for all subgroups."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study reports longitudinal data for all 32 mTBI patients at both acute and chronic time points. While some patients could not complete the neuropsychological assessment (ANAM) due to clinical condition, the primary prognostic factor and outcome (fMRI connectivity) appear to have 100% follow-up.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "All 32 mTBI patients received rs-fMRI *10 days... and 6 months postinjury.",
+          "reasoning": "The study maintained the full cohort for the primary imaging analysis."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "Yes",
+          "evidence_snippet": "All 32 mTBI patients received rs-fMRI... 6 months postinjury.",
+          "reasoning": "There were no dropouts for the primary imaging outcome."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Yes",
+          "evidence_snippet": "Due to the poor clinical condition of patients during the acute time points, 12 mTBI patients (7 PCS + , 5 PCS-) were unable to complete the ANAM.",
+          "reasoning": "The authors explain why secondary behavioral data was missing for some participants."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "12 mTBI patients (7 PCS + , 5 PCS-) were unable to complete the ANAM.",
+          "reasoning": "The characteristics (PCS status) of those missing behavioral data are identified."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Yes",
+          "evidence_snippet": "All 32 mTBI patients received rs-fMRI",
+          "reasoning": "Since all patients completed the primary imaging follow-up, attrition bias for the main outcome is negligible."
+        }
+      ]
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The prognostic factor (PCS status at 6 months) is defined using the ICD-10 criteria and the Rivermead Postconcussion Symptoms Questionnaire, which are standard in the field. The measurement was applied consistently.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "According to the ICD10 clinical definitions, mTBI patients can only be classified as PCS + if they report three or more of the following symptoms for a period greater than 3 months postinjury",
+          "reasoning": "The definition of the prognostic group (PCS+ vs PCS-) is explicitly based on international standards."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Based on self-reported symptoms from the Modified Rivermead Postconcussion Symptoms Questionnaire (RPQ) (King et al., 1995) at the 6-month time point",
+          "reasoning": "The RPQ is a validated and widely used tool for assessing post-concussive symptoms."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "PCS + if they report three or more of the following symptoms",
+          "reasoning": "The cut-point is based on ICD-10 criteria, not determined by the study's own data distribution."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "All 32 mTBI patients received rs-fMRI... Based on self-reported symptoms from the Modified Rivermead Postconcussion Symptoms Questionnaire (RPQ)... at the 6-month time point",
+          "reasoning": "All patients were assessed using the same questionnaire at the same follow-up interval."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "Based on this classification, 15 mTBI patients were classified as PCS + ... and 17 were classified as PCS-.",
+          "reasoning": "All 32 patients were successfully classified."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "Yes",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No imputation was necessary as there was no missing data for the PF."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The outcome (functional connectivity) was measured using objective fMRI data with standardized preprocessing and wavelet decomposition. The same protocol was applied to all participants.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "The strength of ROI i is defined as the mean value of ith column of the connectivity matrix. The diversity of ROI i is defined as the variance",
+          "reasoning": "The mathematical definitions of the primary outcomes (strength and diversity) are clearly provided."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "Using the MATLAB modwt.m function, a maximal overlap discrete wavelet transform analysis was performed... The LA(8) wavelet filter was selected",
+          "reasoning": "The study uses established signal processing techniques and references previous reliability studies for wavelet decomposition."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "All imaging was performed on a Siemens Tim Trio 3T MRI scanner using a 12-channel receive-only head coil.",
+          "reasoning": "The hardware and sequences were identical for all subjects."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The authors identified a significant age difference between the PCS+ and PCS- groups. While they adjusted for age in their ANCOVA models, other potential confounders (e.g., medication use, litigation status, or baseline psychological distress) were not measured or accounted for.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Partial",
+          "evidence_snippet": "There was a significant difference in age among the three groups (F=4.450; p=0.016).",
+          "reasoning": "Age and education were measured, but other clinical confounders like medication or pre-injury status were not."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1. Patient Demographic and Clinical Characteristics",
+          "reasoning": "Age and education are clearly defined in the table."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Demographic variables like age are generally considered reliable measurements."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Demographics were collected uniformly during the intake process."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "Yes",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No missing demographic data was reported."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "No",
+          "evidence_snippet": "There was a significant difference in age among the three groups",
+          "reasoning": "The groups were not matched or stratified by age at the design stage."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "For each SF, we performed individual analysis of covariance (ANCOVA) with age included as a covariate",
+          "reasoning": "The authors used statistical adjustment to address the age imbalance."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical strategy is well-described, including the use of ANCOVA for group comparisons and repeated measures for longitudinal analysis. The authors also performed sensitivity analyses for head motion, which is a major potential bias in fMRI studies.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "For each SF, we performed individual analysis of covariance (ANCOVA) with age included as a covariate... Post hoc tests used Fisher's least significant difference (LSD) test",
+          "reasoning": "The analytical steps are logically laid out and transparent."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "The global signal from the mean BOLD time series... and the six motion correction parameters were included in the model as regressors",
+          "reasoning": "The model includes standard fMRI nuisance regressors and the primary covariate of interest (age)."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "repeated measures ANCO-VAs, including age as a covariate and using visit as the within-subject factor",
+          "reasoning": "Repeated measures ANCOVA is the correct choice for a longitudinal study with group comparisons and a continuous covariate."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "While subtle group differences are demonstrated... no group differences in overall strength or diversity of DMN were noted for SF2, SF3, and SF4",
+          "reasoning": "The authors report both significant and non-significant results across all frequency scales analyzed."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/9_McGeown_2025/Sours_2015a.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T11:45:37.244032"
+  }
+}

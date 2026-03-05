@@ -1,0 +1,287 @@
+{
+  "paper_metadata": {
+    "title": "Cognitive reserve impacts on disability and cognitive deficits in acute stroke",
+    "first_author": "Roza M. Umarova",
+    "year": "2019",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study provides clear inclusion/exclusion criteria and describes the source population (stroke unit in Freiburg). However, the sample size is small (n=36) and the authors explicitly acknowledge a selection bias toward patients with less severe deficits who were capable of completing neuropsychological testing in the acute phase.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "patients were recruited from the stroke unit of the Department of Neurology, University Medical Centre Freiburg, Germany",
+          "reasoning": "The geographic and institutional source is clearly defined."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Partial",
+          "evidence_snippet": "As part of a large study (Freiburg Large Scale Project), patients were recruited from the stroke unit... in the period from September 2014 to December 2015.",
+          "reasoning": "While the timeframe and source are clear, the specific sampling method (e.g., consecutive vs. convenience) within that frame is not explicitly stated."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "in the period from September 2014 to December 2015.",
+          "reasoning": "The dates are explicitly provided."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location) are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "stroke unit of the Department of Neurology, University Medical Centre Freiburg, Germany",
+          "reasoning": "The clinical setting and city are specified."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "An inclusion criterion was a first-ever territorial ischemic right middle cerebral artery stroke. Exclusion criteria were (i) conditions compromising study participation... (ii) pre-stroke neurological or psychiatric conditions... (iii) left-handedness",
+          "reasoning": "Detailed clinical and demographic criteria are provided to define the cohort."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not provide the total number of eligible patients screened versus those enrolled, making it impossible to calculate the participation rate."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Thirty-six patients aged 66.4±14.6 years (mean±SD) were included (Table 1).",
+          "reasoning": "Table 1 provides comprehensive baseline data including age, gender, risk factors, and lesion volume."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "While the study is cross-sectional in its primary neuropsychological assessment, there is missing data for specific tests due to patient fatigue or compliance. The authors acknowledge this bias, noting that the sample excludes those with the most severe deficits.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Partial",
+          "evidence_snippet": "In case of missing data, the remaining number of patients is provided additionally.",
+          "reasoning": "Table 1 shows that for several tests (e.g., IQ, Alertness, Fugl-Meyer), data was missing for 5-16 patients out of 36."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The study does not describe attempts to follow up with those who could not complete the testing."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Yes",
+          "evidence_snippet": "some tests (i–vi above) were not feasible for all patients due to a number of factors including fatigue and limited compliance.",
+          "reasoning": "The authors provide specific clinical reasons for missing data points."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is no systematic comparison between those who completed all tests and those with missing data."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "the patient sample is relatively small and biased towards the exclusion of patients with severe stroke deficits",
+          "reasoning": "The authors admit a bias exists, suggesting those who couldn't complete tests likely had worse outcomes/higher severity."
+        }
+      ]
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The primary prognostic factor (years of education) is a standard proxy for cognitive reserve. It was validated against a second measure (crystallized intelligence) with high correlation, and the measurement was consistent across the sample.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "As proxy for 'cognitive reserve', we used years of education",
+          "reasoning": "The proxy is clearly defined and quantified."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Years of education correlated strongly with crystalised intelligence (Pearson correlation, MWT-IQ, r=0.820, p<0.001, n=19).",
+          "reasoning": "The authors validated the primary proxy against a standardized IQ test."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "The measure 'years of education' was used as a proxy... the sample was divided along its median of 13 years of education",
+          "reasoning": "The primary analysis used continuous data (partial correlation), and the secondary analysis used a median split."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "All patients underwent standard treatment... Clinical scoring... was performed routinely by physicians",
+          "reasoning": "The data collection was standardized within the clinical project protocol."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1",
+          "reasoning": "Education data appears complete for the 36 patients included in the primary analysis."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No imputation was mentioned; the authors used available-case analysis."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "Outcomes were measured using validated clinical scales (mRS, NIHSS) and standardized neuropsychological batteries (MoCA, Digit Span). The timing of assessments was clearly defined and consistent.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "Neuropsychological testing was performed at 4.9±2.1 days post-stroke and consisted of the following variables: (i) global cognition... (ii) tonic alertness... (iii) Working memory...",
+          "reasoning": "All outcome measures and the timing of assessment are explicitly detailed."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "global cognition, which was assessed using the Montreal Cognitive Assessment (MoCA, max 30, norm≥26 points) [19].",
+          "reasoning": "The study uses widely accepted, validated instruments for all outcomes."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Neuropsychological testing was performed at 4.9±2.1 days post-stroke",
+          "reasoning": "The protocol was uniform for all participants."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study rigorously accounts for the most critical confounders in stroke prognosis: age and lesion volume. They used multivariable partial correlations and a matched-pair validation analysis to ensure the effect of education was independent of these factors.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Yes",
+          "evidence_snippet": "we applied a partial correlation analysis that was adjusted for age and relative lesion size... the time interval between stroke onset and examination could have had a significant influence on the results; therefore, it was also introduced into the model.",
+          "reasoning": "Key confounders (age, lesion size, time) were measured and included."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "As proxy for the severity of stroke damage, we used relative lesion volume, which was calculated as ratio between lesion volume and total brain volume",
+          "reasoning": "Confounders like lesion volume are precisely defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Lesion mapping was performed semiautomatically... using a customised region-of-interest toolbox implemented in SPM8",
+          "reasoning": "Objective MRI-based lesion quantification was used."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "All patients underwent an MRI examination within the first week of admission",
+          "reasoning": "Standardized imaging protocol for all."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No imputation was performed."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "Yes",
+          "evidence_snippet": "we compared groups with similar age and lesion load, but different education levels.",
+          "reasoning": "The study used both statistical adjustment and a matched-group design."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "partial correlation analysis adjusted for lesion size, age, and the time interval",
+          "reasoning": "Multivariable adjustment was the primary analytical strategy."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical approach is robust, using FDR correction for multiple comparisons and validating findings with a secondary matching method. The reporting is transparent regarding both significant and non-significant results.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "we, therefore, employed parametric statistical analyses... applied the false discovery rate (FDR) correction for multiple comparisons",
+          "reasoning": "The statistical methods are described in detail."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "According to our main working hypothesis that cognitive reserve impacts stroke deficit severity besides premorbid brain reserve and stroke damage [4]",
+          "reasoning": "The model is based on the established 'Cognitive Reserve' framework."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "partial correlation analysis... two-way repeated measure ANOVA",
+          "reasoning": "The models appropriately handle the continuous and group-comparison aspects of the data."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "In contrast, education years did not play any significant role in the severity of either upper limb paresis or spatial neglect",
+          "reasoning": "The authors report both positive and negative findings transparently."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/11_Gallucci_2026/Umarova_2019.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T10:38:15.639004"
+  }
+}

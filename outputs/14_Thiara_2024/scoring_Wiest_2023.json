@@ -1,0 +1,332 @@
+{
+  "paper_metadata": {
+    "title": "Intracranial hemorrhage in a large cohort of patients supported with veno-venous ECMO. A retrospective single-center analysis",
+    "first_author": "Clemens Wiest",
+    "year": "2024",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study describes a large consecutive cohort from a single center with clear inclusion/exclusion criteria. However, there is significant selection bias potential because 159 patients (22% of the eligible cohort) were excluded solely due to the lack of cerebral imaging, which the authors admit may have led to missed subclinical ICB cases.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "We used the ECMO database of the University Hospital Regensburg (UKR) for this retrospective analysis. The database records important clinical information on all ECMO patients (patient-related data, ECMO characteristics, ventilator settings, medication, hemodynamic data, laboratory values and complications).",
+          "reasoning": "The source is a specific university hospital database covering all ECMO patients with comprehensive clinical data points listed."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "All consecutive patients supported with V-V ECMO at the UKR between December 2006 and March 2019 were eligible for this analysis.",
+          "reasoning": "The study uses a consecutive sampling method over a defined 13-year period, which is the gold standard for reducing selection bias in retrospective cohorts."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "between December 2006 and March 2019",
+          "reasoning": "The start and end dates are explicitly stated."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "University Hospital Regensburg (UKR)",
+          "reasoning": "The specific tertiary care center and location are provided."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "All patients included met the following inclusion criteria: availability of at least one cerebral imaging (cerebral computed tomography (cCT) or cerebral magnetic resonance imaging (cMRI)) obtained during or after ECMO support. Patients were excluded if there was evidence of cerebral bleeding prior to ECMO or ICB due to trauma.",
+          "reasoning": "Criteria are clearly defined, including the requirement for imaging and specific exclusion of pre-existing or traumatic bleeds."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Partial",
+          "evidence_snippet": "Among 722 patients (739 V-V ECMO runs) during the study period, 182 runs did not meet the inclusion criteria due to: (a) no cerebral imaging obtained during ECMO support (159 runs)",
+          "reasoning": "While the study captures a large number, the exclusion of 159 patients (approx 22%) due to lack of imaging creates a 'convenience' subset of those stable enough or clinically indicated for imaging, potentially biasing the incidence and risk factor associations."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Baseline characteristics and laboratory values before the start of V-V ECMO treatment are shown in Table 1.",
+          "reasoning": "Table 1 provides extensive baseline data including age, sex, SOFA score, indication, and various laboratory/ventilator parameters."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "As a retrospective database study focused on in-hospital outcomes (ICB detection and hospital discharge), the 'attrition' is essentially zero for the primary endpoint. The flow of patients is well-accounted for.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "In total, 556 patients were included in the analysis (Figure 1).",
+          "reasoning": "The study analyzes the full cohort of patients who met the inclusion criteria through to hospital discharge or death."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "Yes",
+          "evidence_snippet": "Survival is defined as survival to hospital discharge.",
+          "reasoning": "Because the study is limited to the hospital stay, there are no 'dropouts' in the traditional longitudinal sense."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Yes",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There was no loss to follow-up as the study concluded at hospital discharge/death."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Not applicable for this study design."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Yes",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "All 556 included patients were followed to the clinical endpoint."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Attrition Summary",
+        "prompt": "Loss to follow-up (from baseline sample to study population analyzed) is not associated with key characteristics (i.e., the study data adequately represent the sample) sufficient to limit potential bias to the observed relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "Prognostic factors (platelets, paCO2, etc.) were measured using standard laboratory and blood gas techniques. The timing (pre-ECMO and 2h post) is clearly defined and consistent for the cohort.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "All patients undergo arterial blood gas analysis (ABG) before V-V ECMO cannulation (pre-ECMO values) and 2 h after initiation. Each morning... hematological, biochemical, and coagulative blood markers are recorded.",
+          "reasoning": "The PFs are standard clinical lab values with clear timing of measurement."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "The database records important clinical information... laboratory values",
+          "reasoning": "Standardized hospital laboratory and ABG machines provide high reliability and validity."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Partial",
+          "evidence_snippet": "To calculate ORs, variables were dichotomized using the ICB group median before V-V ECMO as the cut-off point.",
+          "reasoning": "The use of the 'ICB group median' as a cut-off is data-dependent, which can lead to overestimation of effect sizes compared to pre-specified clinical thresholds."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "The standard of care at our institution is... aPTT and dose of UFH/argatroban are monitored and adjusted daily",
+          "reasoning": "Measurements were part of a standardized institutional protocol for all ECMO patients."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1. Patient characteristics before starting V-V ECMO... N=556",
+          "reasoning": "The table suggests near-complete data for the analyzed cohort."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text does not explicitly state how missing laboratory data points were handled (e.g., exclusion or imputation)."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "PF Measurement Summary",
+        "prompt": "PF is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "While the definition of ICB is clear and based on imaging, the lack of a systematic screening protocol for all patients (and the exclusion of those without imaging) introduces a risk that the 'outcome' was not measured identically or at the same frequency for all participants.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "Formal radiologists' description and reports of cerebral imaging were screened to identify evidence of cerebral pathology, namely: intraparenchymal hemorrhage, subarachnoid hemorrhage, subdural hemorrhage, or epidural hemorrhage.",
+          "reasoning": "The outcome (ICB) is clearly defined by radiological subtypes."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "Reports describing ICB were reviewed and reevaluated in collaboration with a radiologist.",
+          "reasoning": "The use of CT/MRI and expert re-evaluation by a radiologist ensures high validity."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Partial",
+          "evidence_snippet": "screening was performed, but no systematic or standardized protocol was used... 159 ECMO runs... were excluded due to missing cerebral imaging.",
+          "reasoning": "The authors admit the lack of a standardized protocol. Some patients were screened early, others only upon clinical suspicion, and many were excluded entirely because they never received imaging."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Outcome Measurement Summary",
+        "prompt": "Outcome of interest is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study used multivariable logistic regression to adjust for key confounders including disease severity (SOFA score), age, and various physiological parameters, which is appropriate for this study type.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Yes",
+          "evidence_snippet": "Factors included in the calculation of risk factors were... creatinine, aPTT, platelets, blood-urea, LDH, paCO2, norepinephrine, ASAT, SOFA score, pH",
+          "reasoning": "The study measured a wide array of clinical and laboratory variables known to influence ICB risk."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "Impaired kidney function before ECMO was defined as a creatinine level higher than 1.5 mg/dl. KDIGO criteria defined acute kidney failure.",
+          "reasoning": "Definitions for key confounders like renal failure are provided."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "The database records... ventilator settings, medication, hemodynamic data, laboratory values",
+          "reasoning": "Confounders were measured using objective hospital monitoring and laboratory systems."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Each morning during V-V ECMO support, ABG, ventilator settings, as well as hematological, biochemical, and coagulative blood markers are recorded.",
+          "reasoning": "Standardized daily recording for all patients in the ICU/ECMO setting."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not describe the handling of missing data for confounding variables."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "As a retrospective cohort, no matching or stratification was performed at the design stage."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "Multivariable analysis revealed low platelets, high paCO2 before ECMO, and rapid drop in paCO2 after V-V ECMO initiation as significant risk factors",
+          "reasoning": "The authors used multivariable regression to adjust for the SOFA score and other significant univariate factors."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Confounding Summary",
+        "prompt": "Important potential confounders are appropriately accounted for, limiting potential bias with respect to the relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical methods are standard and well-described. The use of AIC for model selection and adherence to TRIPOD guidelines suggests a robust analytical approach, despite the exploratory nature of the study.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Univariate and multivariable logistic regression analyses were used to identify risk factors... Akaike Information Criterion (AIC) was used to compare multivariable models.",
+          "reasoning": "The strategy for moving from univariate to multivariable modeling is clearly explained."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "The multivariable regression model included all factors with a p-value < 0.1 in the univariable analysis. According to the TRIPOD Statement, assumed risk factors were not predefined in this exploratory analysis.",
+          "reasoning": "The strategy is transparent and follows established reporting guidelines (TRIPOD) for exploratory prognostic studies."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "Statistical analyses were performed using IBM SPSS Statistic software version 25.0",
+          "reasoning": "Logistic regression is the appropriate model for a binary outcome (ICB vs. No ICB)."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "The results are summarized in Table 3... Additional multivariable models, univariable calculations and number of patients at risk are summarized in Supplementary Table S6.",
+          "reasoning": "The authors report both significant and non-significant findings and provide extensive supplementary data."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Statistical Analysis and Presentation Summary",
+        "prompt": "The statistical analysis is appropriate for the design of the study, limiting potential for presentation of invalid or spurious results.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/14_Thiara_2024/Wiest_2023.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T10:53:21.568571"
+  }
+}

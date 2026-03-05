@@ -1,0 +1,287 @@
+{
+  "paper_metadata": {
+    "title": "Longitudinal Brain Perfusion and Symptom Presentation Following Pediatric Concussion: A Pediatric Concussion Assessment of Rest and Exertion+MRI (PedCARE+MRI) Substudy",
+    "first_author": "Veronik Sicard",
+    "year": "2024",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study provides a highly detailed description of the target population, recruitment setting (ED), and explicit inclusion/exclusion criteria. The use of an orthopedic injury (OI) comparison group recruited from the same setting helps mitigate selection bias common in 'healthy control' designs.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Patients ages 10.00-17.99 years presenting to the ED within 48 h of a head injury and diagnosed with a concussion according to the Berlin consensus statement definition were invited to participate.",
+          "reasoning": "The population is clearly defined by age, clinical setting, and specific diagnostic criteria."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "A total of 776 potential participants were approached for Ped-CARE. Of those, 449 were screened for PedCARE+MRI (213 concussion and 236 OI participants).",
+          "reasoning": "The recruitment flow is transparently reported, showing the transition from the parent trial to the substudy."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "completed at CHEO from May 2018 to February 2020",
+          "reasoning": "Specific dates for the recruitment period are provided."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "completed at CHEO from May 2018 to February 2020, an adjunct study to the PedCARE study.",
+          "reasoning": "The setting (Children's Hospital of Eastern Ontario) is clearly identified."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "The concussion diagnosis was confirmed using physician judgment and an adapted version of the Centers for Disease Control and Prevention tiered framework... Exclusion criteria were: 1) not fluent in English; 2) Glasgow Coma Scale score £13...",
+          "reasoning": "Extensive and specific inclusion/exclusion criteria are listed for both groups."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Partial",
+          "evidence_snippet": "imaging data were obtained from 105 (75 concussion and 30 OI participants), and successfully analyzed in 99 (70 concussion and 29 OI participants).",
+          "reasoning": "While the final sample is analyzed, the drop from 449 screened to 105 scanned suggests a high rate of non-participation or exclusion, which is common in MRI studies but warrants caution."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1. Participant Demographics... Age (years), Mean±SD... Female sex, n (%)... History of previous concussion...",
+          "reasoning": "Table 1 provides a comprehensive breakdown of demographics and clinical history."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study maintained a high retention rate from the initial scan to the 4-week follow-up, and the reasons for exclusion (motion artifacts) are standard for neuroimaging and unlikely to be related to the prognostic relationship.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "imaging data were obtained from 105... and successfully analyzed in 99",
+          "reasoning": "The retention rate for analysis is very high (94%) once the imaging was obtained."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text does not explicitly detail efforts to re-contact those who did not attend the 4-week scan, though the flow suggests longitudinal follow-up was pre-scheduled."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Yes",
+          "evidence_snippet": "The decision to exclude participants based on motion considered both motion correction using mcflirt and visual inspection of the ASL and structural images.",
+          "reasoning": "Exclusions were primarily due to technical data quality (motion), which is clearly stated."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The study does not provide a comparison of characteristics between those included in the final analysis and those excluded due to motion or drop-out."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Without a comparison table for drop-outs, it is impossible to definitively say no differences exist."
+        }
+      ]
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The prognostic factor (Brain Perfusion) was measured using standardized, objective MRI protocols (ASL) with rigorous quality control for motion and incidental findings.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "ASL was performed using a 3D GRASE pulsed ASL (PASL) sequence with FAIR QII... resolution: 1.8 x 1.8 x 5.0 mm; slices = 28...",
+          "reasoning": "The technical parameters for the ASL sequence are described in detail."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Acquisition and analyses were performed by team members blinded to relevant characteristics of the participants",
+          "reasoning": "Blinding of the imaging analysts and the use of objective MRI data ensure high reliability."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "Voxel-wise perfusion estimates were calculated in units of mL/100 g/min... preset threshold of z-score ≥ 2.5 or ≤ -2.5",
+          "reasoning": "The study uses both continuous data and pre-specified z-score thresholds based on prior literature."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Participants were scanned at the Brain Imaging Centre at the Royal Ottawa Mental Health Centre on a 3 Tesla MRI system",
+          "reasoning": "All participants used the same scanner and protocol."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "successfully analyzed in 99 (70 concussion and 29 OI participants).",
+          "reasoning": "The vast majority of scanned participants provided usable PF data."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "No",
+          "evidence_snippet": "any scans that failed were automatically excluded.",
+          "reasoning": "The study used listwise exclusion for failed scans rather than imputation, which is standard for neuroimaging but technically means imputation was not used."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The outcome (symptoms) was measured using the HBI, a validated and recommended tool in pediatric concussion research, with clear definitions for symptomatic status.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "Symptoms were assessed two ways: symptom burden (post-concussion HBI total score) and symptomatic status (symptomatic vs. asymptomatic).",
+          "reasoning": "The outcome is clearly defined using both continuous scores and a binary status based on reliable change indices."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "The HBI is a validated and reliable assessment for children and adolescents, 34,35 and is recommended as a common data element for concussion by the National Institutes of Health.",
+          "reasoning": "The study uses a gold-standard validated tool for the population."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "completion of the Health Behavior Inventory (HBI) to measure symptoms... at each visit",
+          "reasoning": "The protocol was standardized across all participants and time-points."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "While the study adjusted for age, sex, and motion, the symptomatic status analysis (Analysis 4) was described as exploratory and did not adjust for age and sex due to sample size constraints, introducing potential confounding in that specific sub-analysis.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Yes",
+          "evidence_snippet": "Power's FD values, age, and sex as covariates... History of previous concussion, Learning disability, ADHD...",
+          "reasoning": "Key demographic and clinical confounders were collected and reported."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1. Participant Demographics",
+          "reasoning": "Confounders are standard clinical variables with clear definitions."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "The retrospective HBI is similar in structure to the HBI and is completed by a parent/guardian.",
+          "reasoning": "Baseline symptom levels (confounder for change) were measured using a structured retrospective tool."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "All participants were screened and assessed using the same demographic and clinical forms.",
+          "reasoning": "Standardized data collection was used for all participants."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is no mention of imputation for missing confounder data; cases with missing data appear to have been excluded from specific analyses (e.g., 'one missing HBI at 4 weeks')."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "Partial",
+          "evidence_snippet": "The OI group served only as an observational comparison group for the neuroimaging component.",
+          "reasoning": "The use of an OI group is a design strength to control for 'injury' effects, but groups were not matched."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Partial",
+          "evidence_snippet": "Age and sex were not adjusted for in the analyses [Analysis 4], despite prior research having identified them as moderators",
+          "reasoning": "While primary analyses adjusted for age and sex, the exploratory symptomatic status analysis did not, which is a limitation noted by the authors."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical approach is sophisticated, using GEEs and ANCOVAs with appropriate corrections for multiple comparisons (Bonferroni, FDR, FWE). The reporting is transparent regarding both significant and non-significant findings.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Analysis 1: Comparing global and adjusted perfusion... Analysis 2: Patterns of abnormal brain perfusion... Analysis 3: Association between perfusion and symptom burden...",
+          "reasoning": "The analytical plan is broken down into four distinct, logical steps."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "Global gray matter perfusion, age, sex, and Power's FD values were controlled to examine adjusted perfusion",
+          "reasoning": "The choice of covariates is standard and appropriate for neuroimaging analysis."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "Within-group series of generalized estimating equations with negative binomial distribution were conducted",
+          "reasoning": "GEEs are appropriate for longitudinal data with potential non-normal distributions (cluster counts)."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "No Group effect or interaction of Group · Time survived Bonferroni correction... The association... did not survive the Bonferroni correction.",
+          "reasoning": "The authors transparently report results that failed to meet significance after correction, reducing the risk of reporting bias."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/9_McGeown_2025/Sicard_2024.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T11:51:44.864746"
+  }
+}

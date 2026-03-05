@@ -1,0 +1,332 @@
+{
+  "paper_metadata": {
+    "title": "Association of Socioeconomic Status With Ischemic Stroke Survival",
+    "first_author": "Rosa Maria Vivanco-Hidalgo",
+    "year": "2019",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study is a nationwide population-based cohort using a comprehensive registry of all insured persons in Catalonia (7.5 million). The sampling frame is clearly defined, and the use of administrative data for all public hospital admissions minimizes selection bias.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "The Catalan Central Registry of Insured Persons collects sociodemographic information of all residents of Catalonia (7.5 million people) and identifies them with a unique healthcare ID code.",
+          "reasoning": "The source population is the entire region of Catalonia, and the registry details are well-described."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "Using the CMBD-HA dataset, we identified first ischemic stroke patients (ICD, Ninth Revision, codes 433.x1, 434.xx, and 436.5) hospitalized from January 1, 2015, to December 31, 2016.",
+          "reasoning": "The study uses standardized ICD codes from a mandatory hospital discharge database, ensuring high coverage of the target event."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "hospitalized from January 1, 2015, to December 31, 2016.",
+          "reasoning": "Specific dates are provided."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "nationwide population-based cohort study in Catalonia, Spain. We included all patients with first ischemic stroke admitted to a public hospital",
+          "reasoning": "The geographic and institutional settings are clearly defined."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "first ischemic stroke patients (ICD, Ninth Revision, codes 433.x1, 434.xx, and 436.5)... A total of 426 cases were excluded because of missing copayment data.",
+          "reasoning": "Inclusion is based on specific ICD codes and 'first' event status; exclusions are quantified."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Yes",
+          "evidence_snippet": "As in Catalonia, there is a universal healthcare coverage, and >90% of the population uses the public system, we would estimate a low number of lost cases.",
+          "reasoning": "The use of a universal registry and public hospital data captures the vast majority of the eligible population."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1 shows patients' characteristics at admission according to their individual socioeconomic status and by PCSA index quartiles.",
+          "reasoning": "Table 1 provides a detailed breakdown of age, sex, comorbidities, and treatments."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "Attrition is minimal because the study relies on a centralized registry that tracks deaths for all residents. The follow-up is passive through administrative records, which typically results in very low loss to follow-up in this setting.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "We followed-up 16 344 patients for a median follow-up time of 18 months... until death or until October 1, 2018 (end of follow-up).",
+          "reasoning": "The study analyzed 16,344 out of 16,790 identified cases (97.3%)."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Because it is a registry-based study, 'dropout' usually refers to moving out of the region, which is not explicitly discussed."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text does not explicitly state if any patients were lost to follow-up due to migration or other reasons."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No description of lost participants is provided."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Comparison between completers and non-completers was not performed."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Attrition Summary",
+        "prompt": "Loss to follow-up (from baseline sample to study population analyzed) is not associated with key characteristics (i.e., the study data adequately represent the sample) sufficient to limit potential bias to the observed relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The individual SES is based on pharmacy copayment categories, which is a proxy for income rather than a direct measure. While reliable (administrative data), it lacks granularity (e.g., the >18k category is very broad).",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "Individual socioeconomic status was derived from the information used to calculate the levels of copayment... exempts; <€18 000; €18 000 to €100 000; >€100 000.",
+          "reasoning": "The categories and the source (copayment levels) are clearly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Partial",
+          "evidence_snippet": "individuals are assigned to a particular copayment group on the basis of the income stated in individual income tax declarations.",
+          "reasoning": "While reliable as it comes from tax data, it is a proxy for SES and may not capture wealth or household dynamics."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "categories predefined in the Catalan Central Registry of Insured Persons",
+          "reasoning": "The cut-points were predefined by the health system, not derived from the study data."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "The healthcare ID code allows for keeping track of Catalan residents across several health administration databases",
+          "reasoning": "All participants were assessed using the same registry system."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "A total of 426 cases were excluded because of missing copayment data.",
+          "reasoning": "Only 2.5% of the sample had missing PF data."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "No",
+          "evidence_snippet": "A total of 426 cases were excluded",
+          "reasoning": "Missing data were handled by exclusion rather than imputation."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "PF Measurement Summary",
+        "prompt": "PF is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The outcome (all-cause mortality) is objective and obtained from a centralized registry that is periodically audited. This is the gold standard for survival studies in large cohorts.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "all-cause case fatality rates... short- (30 days) and the long-term (3 years)",
+          "reasoning": "The outcome and timeframes are explicitly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "The registry has an automated data validation system to check consistency of data and identify potential errors, and external audits are performed periodically",
+          "reasoning": "The use of a validated, audited central registry for death dates is highly reliable."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "identifies them with a unique healthcare ID code. This healthcare ID code allows for keeping track of Catalan residents across several health administration databases",
+          "reasoning": "The same registry was used for all participants."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Outcome Measurement Summary",
+        "prompt": "Outcome of interest is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study adjusts for many important confounders (age, sex, comorbidities, risk factors). However, the lack of data on stroke severity (NIHSS) is a significant limitation for short-term survival, although the authors attempted a sensitivity analysis to address this.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Partial",
+          "evidence_snippet": "We did not have data regarding initial stroke severity—an important predictor of acute survival",
+          "reasoning": "While age, sex, and comorbidities are included, stroke severity is a critical missing confounder."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "hypertension ICD-10 codes I10 and I15.9; dyslipidemia ICD-10 codes E78– 78.9...",
+          "reasoning": "Confounders are clearly defined using ICD-10 and ATC codes."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "The registry has an automated data validation system... external audits are performed periodically",
+          "reasoning": "Administrative data for diagnoses and pharmacy claims are generally reliable in this system."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "The healthcare ID code allows for keeping track of Catalan residents across several health administration databases",
+          "reasoning": "Uniform measurement across the cohort."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text does not specify how missing data for confounders (like AMG index) were handled, though Table 1 suggests very few missing values."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "No",
+          "evidence_snippet": "We performed a nationwide population-based cohort study",
+          "reasoning": "No matching or stratification was used in the design phase."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "We fitted 4 a priori models including potential confounding variables in successive steps",
+          "reasoning": "Multivariable adjustment was performed using logical, sequential models."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Confounding Summary",
+        "prompt": "Important potential confounders are appropriately accounted for, limiting potential bias with respect to the relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical approach is robust, using mixed-effects models to account for clustering and sequential modeling to explore the impact of mediators/confounders. Results are reported transparently.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "We used mixed-effects logistic and survival models to estimate odds ratios and hazard ratios",
+          "reasoning": "The strategy is well-described and appropriate for the data structure."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "We fitted 4 a priori models including potential confounding variables in successive steps",
+          "reasoning": "The use of a priori models based on clinical relevance is superior to automated variable selection."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "mixed-effects logistic and survival models, which take into account random effects because of clustering of patients in PCSA.",
+          "reasoning": "Accounting for clustering within primary care areas is methodologically sound."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Tables 3 and 4 show the adjusted odds ratios and hazard ratios for all-cause case fatality at 30 days and overall",
+          "reasoning": "All pre-specified models and timepoints are reported."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Statistical Analysis and Presentation Summary",
+        "prompt": "The statistical analysis is appropriate for the design of the study, limiting potential for presentation of invalid or spurious results.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/12_Tao_2023/Vivanco_2019.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T10:40:30.398020"
+  }
+}

@@ -1,0 +1,296 @@
+{
+  "paper_metadata": {
+    "title": "Neuroanatomical restoration of salience network links reduced headache impact to cognitive function improvement in mild traumatic brain injury with posttraumatic headache",
+    "first_author": "Hui Xu",
+    "year": "2023",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study provides a clear description of the target population, recruitment source (emergency department), and specific diagnostic criteria for MTBI and PTH. Baseline characteristics are well-documented, and a power analysis was performed to ensure the sample size was sufficient.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Patients were recruited from the local emergency department of the local hospital. The diagnosis of MTBI was established by two experienced neurologists in accordance with the guidelines of the World Health Organization's Collaborating Centre for Neurotrauma Task",
+          "reasoning": "The source (hospital ED) and the clinical definition of the population are explicitly stated."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "A total of seventy right-handed participants enrolled in this study, including 36 MTBI patients with PTH and 34 matched healthy controls (HCs).",
+          "reasoning": "The recruitment process from the ED and the use of matched controls are described."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The specific calendar dates or duration of the recruitment period are not mentioned in the text."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Partial",
+          "evidence_snippet": "local emergency department of the local hospital.",
+          "reasoning": "The setting (ED) is clear, but the specific geographic location or name of the hospital is omitted (likely for blinded review or privacy)."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "To be included in this study, patients had to have fulfilled the following: (1) with Glasgow Coma Scale score of 13-15; (2) one or more of the following: loss of consciousness (if present) < 30 min... Those with a history of neurological diseases... were all excluded",
+          "reasoning": "Detailed clinical criteria for both inclusion and exclusion are provided."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not report the number of eligible patients who declined to participate, making it impossible to calculate a participation rate."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Demographic and clinical data for patients and HCs are summarized in Table 1. No signifcant diferences in age, sex, and years of education were observed between groups",
+          "reasoning": "Age, sex, education, and baseline clinical scores (GCS, HIT, DSC) are provided."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study implies a 100% completion rate for the analyzed sample, as the N=36 for patients and N=34 for controls are consistent across the acute and subacute phases in the results and tables.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "A total of seventy right-handed participants enrolled in this study, including 36 MTBI patients with PTH and 34 matched healthy controls (HCs).",
+          "reasoning": "The analysis uses the full enrolled sample for both time points, suggesting no attrition."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Since no dropouts were reported, no description of attempts to follow up was necessary."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Yes",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Rated 'Yes' because there were no losses to follow-up reported in the final analysis group."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Not applicable as there was no reported attrition."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Yes",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Not applicable as there was no reported attrition."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Attrition Summary",
+        "prompt": "Loss to follow-up (from baseline sample to study population analyzed) is not associated with key characteristics (i.e., the study data adequately represent the sample) sufficient to limit potential bias to the observed relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The prognostic factors (neuroanatomical measures) were measured using standardized, objective MRI protocols and validated software (FreeSurfer). The measurement was consistent across all participants.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "Surface-based morphometry was conducted to get cortical thickness (CT) and cortical surface area (CSA) of neuroanatomical regions which were defned by the Desikan atlas.",
+          "reasoning": "The PFs (CT and CSA) are clearly defined and anatomically localized."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Structural T1-weighted MRI data of every participant was processed with FreeSurfer v7.2.0 software package... The details of surface-based morphology analysis were documented in previous studies",
+          "reasoning": "FreeSurfer is a gold-standard validated tool for surface-based morphometry."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "CT was calculated at each vertex in the cortex by measuring the distance between the pial and gray-white matter surfaces.",
+          "reasoning": "The study uses continuous anatomical measurements rather than arbitrary cut-points."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "The MRI scanning for participants was conducted using a 3.0 T MRI scanner (GE 750 Medical Systems).",
+          "reasoning": "All participants underwent the same imaging protocol on the same scanner."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "During preprocessing, all outputs were inspected for accuracy, and manual corrections were made where needed.",
+          "reasoning": "The text implies all 70 participants had usable MRI data."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "Yes",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No missing data was reported; manual corrections were used to ensure data quality."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "Outcomes (headache impact and cognitive function) were measured using validated clinical scales (HIT and DSC) by an assessor blinded to the clinical status of the patients.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "Digit Symbol Coding (DSC) task for the assessments of cognitive function... short-form Headache Impact Test (HIT) for a measure of trauma-induced headache impact",
+          "reasoning": "The outcomes are clearly defined using standard neuropsychological and clinical tools."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "All neuropsychological and clinical symptom assessments were performed by an experienced clinical psychologist blinded to the clinical data of patients.",
+          "reasoning": "Blinding of the assessor and use of validated scales (DSC, HIT) minimize measurement bias."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "The HCs underwent MRI scanning and neuropsychological tests at the same time points",
+          "reasoning": "The protocol was identical for both groups."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "While the study adjusted for age, sex, and education in correlations, and used a matched control group, it acknowledges that it did not account for previous head trauma or specific types of brain injury, which are significant potential confounders in MTBI prognosis.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Partial",
+          "evidence_snippet": "after stratifying for age, sex, and education level as covariates... this study did not consider potential confounders such as previous head trauma and type of brain injury",
+          "reasoning": "Basic demographics were measured, but injury-specific confounders were missed."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "independent two samples t-test was conducted to evaluate group diferences in age and education level",
+          "reasoning": "Demographic confounders are standard and well-defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "summarized in Table 1",
+          "reasoning": "Demographic data collection is standard and reliable."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "All participants underwent magnetic resonance imaging scans and were assessed with clinical measures",
+          "reasoning": "Data collection was uniform."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "Yes",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No missing confounder data was reported."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "Yes",
+          "evidence_snippet": "36 MTBI patients with PTH and 34 matched healthy controls (HCs).",
+          "reasoning": "The study used a matched control group design."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Partial",
+          "evidence_snippet": "after stratifying for age, sex, and education level as covariates.",
+          "reasoning": "Adjustments were made for demographics, but not for clinical confounders like injury severity or prior TBI."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study used appropriate statistical models (Mixed ANOVA and Mediation analysis) and reported effect sizes (eta squared). The analytical strategy was based on a clear conceptual framework (Salience Network).",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "mixed analysis of variance models were performed... mediation efects models were built... eta squared (η2 ) was calculated",
+          "reasoning": "The statistical methods are described in detail, including effect size measures."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "substantiating that the salience network plays an important role in modulating headache impact and cognitive function",
+          "reasoning": "The choice of regions (ACC, Insula) was driven by the Salience Network framework."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "mixed ANOVA model with two factors: groups (patients and HCs) as the between-subjects factor and timepoints (acute and subacute phases) as the within-subjects factor.",
+          "reasoning": "Mixed ANOVA is the correct choice for a longitudinal case-control design."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "There was no signifcant interaction efect (η2 ≈ 0) with CT (Table S1) and CSA (Table S2) in other neuroanatomical regions.",
+          "reasoning": "The authors reported non-significant results in supplementary tables, indicating comprehensive reporting."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/9_McGeown_2025/Xu_2023.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T11:38:48.969702"
+  }
+}

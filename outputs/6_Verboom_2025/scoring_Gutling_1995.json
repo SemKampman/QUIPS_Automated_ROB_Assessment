@@ -1,0 +1,287 @@
+{
+  "paper_metadata": {
+    "title": "EEG reactivity in the prognosis of severe head injury",
+    "first_author": "Eva Gütling",
+    "year": "1995",
+    "analysis_timestamp": "2023-10-27 10:00:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "While the study recruited consecutive patients and clearly defined inclusion/exclusion criteria, the final sample (n=50) is a small subset of the original 158 admitted patients. The exclusion of 108 patients based on criteria like 'pretraumatic knowledge of German' and 'domicile within 100 km' introduces potential selection bias, as these factors are not clinically related to head injury severity but may correlate with socioeconomic status or access to care.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "158 consecutively admitted patients, comatose subsequent to severe, non-missile head injury.",
+          "reasoning": "The source population is clearly defined as consecutive admissions for severe head injury."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "EEG and SEP recording was performed in 158 consecutively admitted patients",
+          "reasoning": "Consecutive recruitment from a university hospital setting is a standard method to limit bias."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The specific calendar years or duration of the recruitment period are not mentioned."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "Departments of Neurology (Drs. Gütling and Gonser) and Surgery (Dr. Imhof), University Hospital, Zürich",
+          "reasoning": "The setting is clearly identified as a University Hospital in Zurich."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "selection criteria for this study were age between 14 and 55 years, no known drug abuse, no history of psychiatric disease or of prior cerebral damage, pretraumatic knowledge of German, and a domicile within 100 km",
+          "reasoning": "Criteria are explicit, though some are logistical rather than clinical."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Partial",
+          "evidence_snippet": "The 50 patients fulfilling these criteria had a mean age of 30 years",
+          "reasoning": "Only 50 out of 158 patients (31.6%) were included. While they met criteria, the high exclusion rate for non-clinical reasons (language/domicile) reduces the representativeness."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "mean age of 30 years and a mean coma duration of 13 days... Twenty-two patients were admitted with a Glasgow Coma Scale (GCS) score of 3 to 4, 16 with a GCS score of 5 to 6, and 12 with a GCS score of 7 to 8",
+          "reasoning": "Age, coma duration, and GCS scores are provided for the included sample."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study accounts for all 50 patients. Mortality is treated as a 'bad outcome' rather than loss to follow-up, and the remaining 40 survivors all underwent the 1.5-year follow-up examination. This represents 100% follow-up of the baseline cohort.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "Ten patients died within 1 month after trauma. Eighteen months after trauma, the remaining 40 patients underwent a complete neurologic examination",
+          "reasoning": "All 50 patients were accounted for in the final analysis (10 deaths + 40 examined)."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "Yes",
+          "evidence_snippet": "the remaining 40 patients underwent a complete neurologic examination",
+          "reasoning": "There were no dropouts; all survivors were examined."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Yes",
+          "evidence_snippet": "Ten patients died within 1 month after trauma.",
+          "reasoning": "The only 'loss' was due to death, which is a primary outcome in prognosis studies."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Ten patients died within 1 month after trauma.",
+          "reasoning": "The characteristics of those who died are included in the baseline GCS/EEG/SEP data tables."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Yes",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Not applicable as there was no attrition other than the outcome of interest (death)."
+        }
+      ]
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The measurement of EEG reactivity was well-standardized, used independent raters blinded to outcome, and employed a clear protocol for resolving discordance (rating as 'doubtful').",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "Reactivity was assessed using external auditory (loud click) and pain (nasal septum) stimulation.",
+          "reasoning": "The stimuli and the categories of response are clearly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Analysis of EEG reactivity was done by visual inspection of the paper recording by two independent raters who had not examined the patients clinically... raters thus had no knowledge of the final outcome.",
+          "reasoning": "Blinding and independent dual-rating ensure high reliability."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "Reactivity was rated according to one of four categories: occurrence of slow waves (figure 1A), flattening of the tracing (figure 1B), no reactivity (figure 1C), and doubtful.",
+          "reasoning": "Categorical scales were pre-defined based on established EEG patterns."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "EEG and SEPs were recorded during coma within the first 48 to 72 hours after trauma.",
+          "reasoning": "Timing and setting were standardized for all patients."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "In 50 patients... we measured EEG reactivity and CCT",
+          "reasoning": "Complete data was available for all 50 included patients."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "Yes",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No missing data reported for the prognostic factors."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The outcome was measured at a consistent time point (1.5 years) using the Glasgow Outcome Scale, which is a validated tool. The assessment was performed by specific investigators, ensuring consistency.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "Based on the neurologic and the mental status findings obtained 1.5 years after trauma, the patients were assigned either to a group with good outcome (Glasgow Outcome Score [GOS]: good recovery [GR] or moderate disability [MD]) or to one with bad outcome (severe disability, vegetative state, or death).",
+          "reasoning": "The outcome (GOS) and the time point (1.5 years) are explicitly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "remaining 40 patients underwent a complete neurologic examination (always performed by E.G.) and mental status examination (always performed by A.G.).",
+          "reasoning": "The use of the same examiners for all patients increases reliability, and GOS is a standard validated tool."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Eighteen months after trauma, the remaining 40 patients underwent a complete neurologic examination",
+          "reasoning": "The protocol was identical for all survivors."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study controlled for sedation (midazolam) and excluded barbiturates, which is critical for EEG. However, the statistical analysis (discriminant analysis) was relatively simple and did not explicitly adjust for other potential confounders like age or specific injury types (e.g., hematoma vs. diffuse axonal injury) in a multivariable model beyond the three main predictors.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Partial",
+          "evidence_snippet": "At the time of recording, all patients were sedated with midazolam; none received barbiturates.",
+          "reasoning": "Sedation, the most critical confounder for EEG, was controlled. However, other clinical confounders like injury mechanism or ICP were not detailed."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Partial",
+          "evidence_snippet": "all patients were sedated with midazolam; none received barbiturates.",
+          "reasoning": "The type of sedative is mentioned, but doses are not specified."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is no mention of how sedation levels were monitored or standardized beyond the drug name."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "At the time of recording, all patients were sedated with midazolam",
+          "reasoning": "The clinical protocol for sedation appears uniform."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "Yes",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No missing data for the variables mentioned."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "Partial",
+          "evidence_snippet": "selection criteria for this study were age between 14 and 55 years, no known drug abuse, no history of psychiatric disease",
+          "reasoning": "The study used restrictive inclusion criteria to control for age and pre-existing conditions."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "No",
+          "evidence_snippet": "Discriminant analysis (SPSS/PC+, V3.1) used the two outcome groups as the dependent variable and EEG reactivity, CCT, and GCS as predictors.",
+          "reasoning": "The analysis only included the primary predictors and did not adjust for other potential confounders like age or injury type."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical methods are appropriate for the study's aim of classification. The results are presented transparently with a clear breakdown of how each variable contributed to the predictive accuracy.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Discriminant analysis (SPSS/PC+, V3.1) used the two outcome groups as the dependent variable and EEG reactivity, CCT, and GCS as predictors.",
+          "reasoning": "The strategy is clearly stated and the coding of variables is explained."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "Because EEG reactivity and SEPs depend on different anatomic structures, thus possibly providing additional prognostic information, we evaluated EEG reactivity and compared its prognostic value",
+          "reasoning": "The inclusion of variables is based on a clear neuroanatomical rationale."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "Using discriminant analysis, EEG reactivity correctly classified 92%",
+          "reasoning": "Discriminant analysis is appropriate for classifying patients into discrete outcome groups."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "The individual GOS scores in relation to the initial EEG reactivity, CCT, and GCS group are displayed in table 1.",
+          "reasoning": "Table 1 provides a comprehensive raw data breakdown, preventing selective reporting."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/6_Verboom_2025/Gutling_1995.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T11:13:47.573316"
+  }
+}

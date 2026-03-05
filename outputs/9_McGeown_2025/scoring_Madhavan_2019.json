@@ -1,0 +1,332 @@
+{
+  "paper_metadata": {
+    "title": "Longitudinal Resting State Functional Connectivity Predicts Clinical Outcome in Mild Traumatic Brain Injury",
+    "first_author": "Radhika Madhavan",
+    "year": "2019",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study provides a clear description of the target population, recruitment sites, and detailed inclusion/exclusion criteria. While the exact participation rate of all eligible individuals is not explicitly stated, the baseline characteristics and recruitment period are well-defined.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "A total of 91 mTBI patients were included in the study after obtaining informed consent from three sites (Hospital for Special Surgery, New York; Houston Methodist Hospital, Houston, Texas; and University of California at San Francisco).",
+          "reasoning": "The authors specify the clinical settings and geographic locations of the source population."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "For this study, we recruited patients with closed-head injuries including sports accidents (non-professional and professional), accidental falls, automobile accidents, and bicycle accidents.",
+          "reasoning": "The recruitment mechanism and types of injury are clearly listed."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text describes the follow-up intervals (E1-E4) but does not state the calendar years/months during which recruitment took place."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "three sites (Hospital for Special Surgery, New York; Houston Methodist Hospital, Houston, Texas; and University of California at San Francisco).",
+          "reasoning": "Specific hospitals and cities are provided."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "Exclusion criteria included any of the following: (1) loss of consciousness >15 min after injury, (2) post-traumatic amnesia lasting >24 h after TBI event, (3) scoring <13 on the Glasgow Coma Scale (GCS)...",
+          "reasoning": "The study provides 14 detailed exclusion criteria including GCS scores and medical history."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not provide a flow diagram or the number of eligible patients who declined to participate, making it impossible to calculate a participation rate."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1. Demographics of Included Participants... M/F, Age, Score",
+          "reasoning": "Table 1 and the text describe age, gender, education, and initial symptom severity scores."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "There is significant attrition from E1 (n=28) to E4 (n=41), though the total patient pool was 91. The prediction analysis only used 53 subjects. Reasons for dropouts are not fully detailed, and characteristics of those lost to follow-up are not compared to completers.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Partial",
+          "evidence_snippet": "The number of subjects used for this predictive analysis was 53 (Table 1, only included subjects with imaging data at early encounter and SSS at the late encounter).",
+          "reasoning": "Only 53 out of 91 patients (58%) were available for the primary longitudinal prediction analysis, which is below the preferred 80% threshold."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The authors do not describe efforts to reach patients who missed later encounters."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Partial",
+          "evidence_snippet": "Twelve encounters from mTBI patients and controls were not included in the analysis due to excessive motion.",
+          "reasoning": "Technical reasons (motion) are provided for some exclusions, but clinical/personal reasons for missing entire encounters are not."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is no table or text comparing the baseline characteristics of those who completed all 4 encounters versus those who did not."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Without a comparison of completers vs. non-completers, the risk of informative censoring cannot be ruled out."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Attrition Summary",
+        "prompt": "Loss to follow-up (from baseline sample to study population analyzed) is not associated with key characteristics (i.e., the study data adequately represent the sample) sufficient to limit potential bias to the observed relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The prognostic factor (rs-fMRI connectivity) is measured using a highly standardized, objective protocol with advanced multi-band sequences. The methods for pre-processing and motion correction are rigorous.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "rsfMRI was acquired using multi-band (acceleration factor = 3) two-dimensional (2D) echo-planar imaging (EPI), repetition time (TR)/echo time (TE) = 900/30 msec...",
+          "reasoning": "The imaging parameters and the definition of fALFF/SBC are technically precise."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "To assess repeatability in healthy controls, test-retest analysis was conducted for healthy controls showing repeatability (intra-class coefficient [ICC] = 0.68...)",
+          "reasoning": "The authors explicitly tested and reported the reliability (ICC) of their measurement tool."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "fALFF was calculated from pre-processed rs-fMRI data as the ratio of power in low-frequency band (0.01–0.1 Hz) to power of the entire frequency range (0–0.55 Hz).",
+          "reasoning": "The PF is treated as a continuous variable in the primary correlation and prediction models."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Identical MRI scanners and coils were used at each location with identical scanning protocols, and were tested for uniformity.",
+          "reasoning": "The study ensured cross-site standardization of the measurement environment."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "For fALFF and SBC analysis a subset of the data that had all the necessary information was included...",
+          "reasoning": "While some subjects were excluded for motion, the majority of the recruited sample provided usable PF data."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "No",
+          "evidence_snippet": "subjects whose behavioral or physiological measures were missing were discarded from analysis that required these variables",
+          "reasoning": "The study used complete-case analysis (discarding subjects) rather than imputation."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "PF Measurement Summary",
+        "prompt": "PF is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The outcome (SSS) is a self-reported questionnaire (SCAT-2), which is inherently subjective. However, it is a standard clinical tool, and the timing of measurement was consistent across the cohort.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "At each session, the patient completed the Sport Concussion Assessment Tool-2 (SCAT-2), a questionnaire administered by physicians and clinical staff.",
+          "reasoning": "The outcome is clearly defined as the Symptom Severity Score (SSS) from the SCAT-2."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Partial",
+          "evidence_snippet": "SCAT-2 is a questionnaire that might be affected by patient reporting. Future studies will include objective measurements of symptoms in addition to SCAT-2.",
+          "reasoning": "The authors acknowledge the subjectivity of the self-reported outcome, which is a known limitation in mTBI research."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "At each session, the patient completed the Sport Concussion Assessment Tool-2 (SCAT-2)...",
+          "reasoning": "The same tool was used at all sites and all encounters."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Outcome Measurement Summary",
+        "prompt": "Outcome of interest is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study rigorously accounts for major confounders including age, gender, education, and physiological variables (BP, pulse) in the multivariable models. They also controlled for the correlation between early and late SSS.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Yes",
+          "evidence_snippet": "Age, gender, years of education, blood pressure (systolic/diastolic), and pulse rate were used as co-variates of no-interest in the model.",
+          "reasoning": "Key demographic and physiological confounders were captured."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1. Demographics... Age, M/F, Score",
+          "reasoning": "Standard definitions for age, gender, and education were used."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Physiological measures of pulse rate and blood pressure were also taken at each session.",
+          "reasoning": "Confounders were measured using objective clinical instruments."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Identical MRI scanners and coils were used at each location with identical scanning protocols...",
+          "reasoning": "The clinical assessment protocol was standardized across the three sites."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "No",
+          "evidence_snippet": "subjects whose behavioral or physiological measures were missing were discarded from analysis",
+          "reasoning": "No imputation was performed; missing data led to exclusion."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "Yes",
+          "evidence_snippet": "The mTBI patients and healthy control participants were age and gender matched (Table 1).",
+          "reasoning": "The study used matching in the design phase for the control group comparison."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "Early SSS was added as a ''covariate of no interest'' in the GLM.",
+          "reasoning": "The analysis adjusted for baseline symptom severity to ensure the PF had independent predictive value."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Confounding Summary",
+        "prompt": "Important potential confounders are appropriately accounted for, limiting potential bias with respect to the relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical approach is sophisticated, using linear mixed models for repeated measures and correcting for multiple comparisons using both SPM cluster-thresholding and permutation testing. Results are reported transparently.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Repeat measurements... were adjusted using linear mixed models shown in Figure 2. Age, gender, years of education... were used as co-variates...",
+          "reasoning": "The analytical pipeline is described in detail, including software and specific models."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "For each network, correlation of functional connectivity z-score with concurrent SSS was computed for only one encounter for each subject... to avoid non-unique measurements.",
+          "reasoning": "The authors made specific methodological choices to handle the longitudinal nature of the data and avoid bias."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "P-values cited in text and Figure 3 are after Bonferroni correction used to correct for multiple comparisons.",
+          "reasoning": "Appropriate corrections for multiple testing in neuroimaging were applied."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "We did not detect significant connectivity associated with SSS in networks other than those mentioned in Table 3.",
+          "reasoning": "The authors report both significant and non-significant findings (e.g., WM fALFF, ICA within-network connectivity)."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Statistical Analysis and Presentation Summary",
+        "prompt": "The statistical analysis is appropriate for the design of the study, limiting potential for presentation of invalid or spurious results.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/9_McGeown_2025/Madhavan_2019.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T11:50:51.842121"
+  }
+}

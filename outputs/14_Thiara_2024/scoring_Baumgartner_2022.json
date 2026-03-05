@@ -1,0 +1,337 @@
+{
+  "paper_metadata": {
+    "title": "Major Bleeding and Thromboembolic Events in Veno-Venous Extracorporeal Membrane Oxygenation-Patients With Isolated Respiratory Failure",
+    "first_author": "Simon Baumgartner",
+    "year": "2022",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study provides a very clear description of the target population (isolated respiratory failure) and uses a rigorous flowchart to show how the final sample was derived from a larger registry. Inclusion/exclusion criteria are explicit and clinical characteristics are well-defined.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "This analysis included all adult patients (≥ 18 years) requiring vvECMO for severe respiratory failure (PaO2/FiO2 < 85 mmHg or refractory respiratory acidosis with pH < 7.25 on optimized positive end-expiratory pressure, usually ≥ 15 mm Hg)",
+          "reasoning": "The authors define the specific clinical parameters (PaO2/FiO2, pH, PEEP) that characterize the population of interest."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "Patient data have been derived from the Regensburg ECMO-Registry.",
+          "reasoning": "The use of a comprehensive institutional registry (Regensburg ECMO-Registry) for a specific time period is clearly stated."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "from March 2009 to October 2017",
+          "reasoning": "The start and end dates are explicitly provided."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "at the University Hospital Regensburg, Germany.",
+          "reasoning": "The specific tertiary care center and location are identified."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "Exclusion criteria for this analysis predisposing for bleeding and thromboembolic were defined as: Hepatic impairment... Kidney-failure... Patients suffering from polytrauma... Heparin-induced thrombocytopenia...",
+          "reasoning": "The study lists specific clinical and laboratory-based exclusion criteria to isolate the population of interest."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Yes",
+          "evidence_snippet": "Of 601 patients, 123 patients... were eligible for the analysis.",
+          "reasoning": "The flowchart (Figure 1) accounts for all patients in the registry, ensuring no unexplained exclusions."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "The mean age and days on ECMO were similar in both groups... isolated respiratory failure cohort had a lower body mass index... fewer male patients... Lower Sepsis-related Organ Failure Assessment (SOFA) score at baseline",
+          "reasoning": "Key demographics and clinical severity scores (SOFA) are reported for the study sample."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "As a retrospective registry-based study of ICU patients, the 'follow-up' is the duration of the ECMO run/hospital stay. The study accounts for almost all patients for the primary outcomes, though there is a slight drop-off in thromboembolic evaluation (92%) which is explained by the timing of the diagnostic test (post-decannulation).",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "Of 123 included patients, 113 (92%) have been evaluated for the occurrence of thromboembolic events as defined.",
+          "reasoning": "92% completion for the thromboembolic outcome is high; 100% appear to have been assessed for bleeding."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text does not explicitly describe attempts to follow up on the 10 patients missing thromboembolic data, likely because they died before decannulation."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Partial",
+          "evidence_snippet": "routine duplex sonography was conducted after decannulation, thus affecting our rates of thromboembolism in those surviving and nonsurviving.",
+          "reasoning": "The authors acknowledge that the 8% missing data for thromboembolism is due to the timing of the test relative to death/decannulation."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is no specific table comparing the characteristics of the 10 patients missing thromboembolic data vs. the 113 analyzed."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "the rate of thromboembolic events in deceased patients must be considered underreported",
+          "reasoning": "The authors admit a potential systematic difference (survivors vs. non-survivors) in who received the thromboembolic assessment."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Attrition Summary",
+        "prompt": "Loss to follow-up (from baseline sample to study population analyzed) is not associated with key characteristics (i.e., the study data adequately represent the sample) sufficient to limit potential bias to the observed relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ],
+        "rating": "Low"
+      }
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The prognostic factors (laboratory values like aPTT, Platelets, PaCO2) are measured using standardized, automated laboratory equipment. The methods are consistent for all patients.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "Laboratory parameters such as aPTT, D-dimers, Quick, fibrinogen level, and platelet count were assessed daily.",
+          "reasoning": "The prognostic factors are standard clinical laboratory parameters."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "All tests were provided by the company Siemens, Munich, Germany, and the analyzing system was the Siemens BCS XP.",
+          "reasoning": "Standardized commercial assays and automated analyzers were used, ensuring high reliability."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "Quantitative data are expressed as median (25th–75th percentile)",
+          "reasoning": "The study treats laboratory values as continuous variables rather than arbitrary categories."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Laboratory parameters... were assessed daily... The following laboratory methods have been used: 'Pathromtin SL' for aPTT...",
+          "reasoning": "A uniform protocol was applied to all patients in the ICU setting."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "Laboratory parameters... were assessed daily.",
+          "reasoning": "Daily assessment in an ICU registry typically results in high data density."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is no mention of imputation; however, for this type of registry study, complete case analysis is standard."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "PF Measurement Summary",
+        "prompt": "PF is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ],
+        "rating": "Low"
+      }
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "While bleeding definitions are standardized (ELSO), the thromboembolic outcome measurement is subject to bias because duplex sonography was performed after decannulation, potentially missing events in patients who died on ECMO.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "Major bleeding events were defined following the recommendations of the Extracorporeal Life Support Organization anticoagulation guidelines... Thromboembolic events were assessed by duplex sonography within 3 days after decannulation or CT scan",
+          "reasoning": "The study uses established international guidelines (ELSO, Schulman et al.) for bleeding and specific imaging criteria for thrombosis."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Partial",
+          "evidence_snippet": "Duplex sonography was performed by specially trained physicians. Diagnosis was based on incompressibility of the vein, absence of flow, and presence of thrombus.",
+          "reasoning": "While the imaging method is valid, there is no mention of blinding the assessors to the prognostic factors (e.g., aPTT levels)."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "The method and setting of measurement of PF is the same for all study participants.",
+          "reasoning": "The protocol for daily bleeding assessment and post-decannulation ultrasound was standardized."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Outcome Measurement Summary",
+        "prompt": "Outcome of interest is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ],
+        "rating": "Moderate"
+      }
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study attempts to control for confounding by selecting a very specific 'isolated respiratory failure' cohort (design-based control). However, the multivariable analysis is limited, and some clinical factors (like platelet function or anti-Xa) were not measured.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Partial",
+          "evidence_snippet": "adjusting for demographics (age, sex, body mass index) and severity of critical illness (SOFA)",
+          "reasoning": "Basic confounders were measured, but the authors admit that anti-Xa and platelet function were not."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "SOFA score at baseline... body mass index",
+          "reasoning": "Standard clinical definitions are used for the included confounders."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Patient data have been derived from the Regensburg ECMO-Registry.",
+          "reasoning": "Registry data from a university hospital is generally reliable for objective measures like BMI and SOFA."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "The method and setting of measurement of PF is the same for all study participants.",
+          "reasoning": "Standardized registry collection ensures consistency."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No imputation described."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "Yes",
+          "evidence_snippet": "Exclusion criteria for this analysis predisposing for bleeding and thromboembolic were defined as: Hepatic impairment... Kidney-failure...",
+          "reasoning": "The study uses a very strong restrictive design (isolated respiratory failure) to eliminate major confounders like multi-organ failure."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Partial",
+          "evidence_snippet": "In a multivariate model adjusting for demographics (age, sex, body mass index) and severity of critical illness (SOFA)",
+          "reasoning": "Adjustment was performed for bleeding, but the analysis for thromboembolic events and specific lab parameters remained largely univariable."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Confounding Summary",
+        "prompt": "Important potential confounders are appropriately accounted for, limiting potential bias with respect to the relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ],
+        "rating": "Moderate"
+      }
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical methods are appropriate for the data types. The authors provide a clear account of their analytical strategy, including how they handled the temporal relationship between aPTT and bleeding (analyzing aPTT *until* the event).",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Nominal data were analyzed using χ2 test... Quantitative data were tested for normal distribution using Kolmogorov-Smirnov test.",
+          "reasoning": "The statistical plan is standard and transparently described."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "In a multivariate model adjusting for demographics (age, sex, body mass index) and severity of critical illness (SOFA)",
+          "reasoning": "The model includes clinically relevant variables for the population."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "All reported p values were two-sided and a p value ≤0.05 was considered statistically significant.",
+          "reasoning": "The use of non-parametric tests (Mann-Whitney U) for non-normal data is appropriate."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "An allocation of all major bleeding events across the used definition is reported in Table (Supplemental Digital Content 2)",
+          "reasoning": "The authors report both significant and non-significant findings and provide extensive supplemental data."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Statistical Analysis and Presentation Summary",
+        "prompt": "The statistical analysis is appropriate for the design of the study, limiting potential for presentation of invalid or spurious results.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ],
+        "rating": "Low"
+      }
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/14_Thiara_2024/Baumgartner_2022.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T10:58:47.476983"
+  }
+}

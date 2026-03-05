@@ -1,0 +1,287 @@
+{
+  "paper_metadata": {
+    "title": "Nível de escolaridade e dependência funcional em sobreviventes de acidente vascular cerebral isquêmico",
+    "first_author": "Tiótrefis G. Fernandes",
+    "year": "2012",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study provides a clear description of the target population, recruitment setting (University Hospital of São Paulo), and specific inclusion/exclusion criteria. The use of consecutive sampling and the WHO STEPwise approach strengthens the representativeness of the sample.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "The University Hospital is a teaching community hospital (260 beds) in Butantan, a neighborhood on the west side of the city with 424,377 inhabitants (2009).",
+          "reasoning": "The authors provide detailed demographic and geographic context for the source population."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "We evaluated data from 355 consecutive ischemic stroke survivors older than 35 years of age who were admitted, up until December 2009.",
+          "reasoning": "Consecutive recruitment from a specific community hospital minimizes selection bias compared to convenience sampling."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "ongoing since April 2006... admitted, up until December 2009.",
+          "reasoning": "The start and end dates for recruitment are explicitly stated."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "University Hospital of São Paulo University (Hospital Universitário, Universidade de São Paulo)... in Butantan, a neighborhood on the west side of the city",
+          "reasoning": "The specific facility and its geographic/socioeconomic context are well-defined."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "All individuals for whom functional status information was available at 28 days and at six months after an acute event were included in this analysis. We evaluated data from 355 consecutive ischemic stroke survivors older than 35 years of age",
+          "reasoning": "Criteria include age, diagnosis (ischemic stroke), and availability of follow-up data."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "While 678 were enrolled and 160 died, the text does not explicitly state how many eligible survivors refused to participate at the very start (participation rate of the total eligible pool)."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "The baseline characteristics are shown in Table 1. Among ischemic stroke survivors, 52.4% were male and their mean age was 67.9 years.",
+          "reasoning": "Table 1 provides a comprehensive list of demographics, comorbidities, and clinical characteristics."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "There is a significant loss to follow-up (163 out of 518 survivors, ~31%). However, the authors performed a robust attrition analysis comparing baseline characteristics of those followed vs. those lost, finding no significant differences, which mitigates the risk of informative censoring.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Partial",
+          "evidence_snippet": "A complete follow-up was possible with 355 out of 518 survivors",
+          "reasoning": "The follow-up rate is approximately 68.5%, which is below the ideal 80% threshold but common in stroke cohorts."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text mentions it was 'not possible' to carry out follow-ups but does not describe the specific attempts (e.g., number of phone calls, mailings) made to reach them."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "No",
+          "evidence_snippet": "It was not possible to carry out 28 day and/or 180 day follow-ups in a total of 163 cases.",
+          "reasoning": "The specific reasons (e.g., moved, refused, wrong phone number) are not detailed."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "We compared the 355 cases included in the analysis with the 163 missing cases, regarding: age... gender... years of education... event stroke... history of high blood pressure.",
+          "reasoning": "The authors explicitly list and compare the characteristics of the lost participants against the analyzed sample."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Yes",
+          "evidence_snippet": "Thus, there are no statistically significant differences between the groups.",
+          "reasoning": "Statistical testing (p-values provided) showed no significant differences in age, gender, education, or hypertension."
+        }
+      ]
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The primary prognostic factor (education) is a stable, well-defined variable. Other factors like stroke subtype were confirmed via imaging (CT), and data completeness for these factors appears high.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "we categorized educational levels in the following categories: 0 or < 1 year, 1 to 7 years, and ≥ 8 years.",
+          "reasoning": "The categorization of the primary prognostic factor is clearly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Data collection was performed by trained interviewers and medical researchers according to the instructions in the STEPwise approach to stroke surveillance manual",
+          "reasoning": "The use of a standardized WHO protocol and trained researchers supports reliability."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "we categorized educational levels in the following categories: 0 or < 1 year, 1 to 7 years, and ≥ 8 years.",
+          "reasoning": "The cut-points for education are standard for the Brazilian context and not derived from the data distribution of this specific study."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "We performed the analysis from the in-hospital phase (step 1) of the EMMA study... Data collection was performed by trained interviewers",
+          "reasoning": "All baseline PF data were collected during the hospital phase using the same protocol."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1... Years of education (%) ... Total (n = 355; 100.0%)",
+          "reasoning": "Table 1 indicates that education data was available for all 355 participants in the analysis."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text does not mention how missing data for individual prognostic factors (if any) were handled, though the final N matches the total sample."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The outcome (mRS) was measured via telephone interview, which the authors acknowledge is less reliable than in-person assessment. However, they mitigated this by dichotomizing the scale, which is a standard methodological safeguard for telephone-based mRS.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "The functional outcomes at 28 days and at six months after the stroke event were assessed using the mRS... dichotomized into an independent state (rankin score of 0-2) and a dependent state (rankin score of 3-5).",
+          "reasoning": "The outcome, timing, and dichotomization thresholds are explicitly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Partial",
+          "evidence_snippet": "Although the mRS has been shown to be less reliable when performed by telephone, its use is recommended for dichotomized data analyses",
+          "reasoning": "The authors use a validated scale but acknowledge the reliability limitations of telephone administration."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "The functional outcomes... were assessed using the mRS 6 by telephone interview.",
+          "reasoning": "The method (telephone) was consistent for the follow-up assessments."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study performed multivariable adjustment for key confounders including age, stroke severity (via TACI/subtype), and comorbidities. They also performed a sensitivity analysis including deaths (Table 4) to ensure that survival bias did not distort the findings.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Yes",
+          "evidence_snippet": "socio-demographic data (gender, age, educational level, and marital status), acute stroke information (stroke subtype... pre-stroke clinical conditions), hospital care",
+          "reasoning": "Key confounders like age, stroke severity (subtype), and comorbidities were captured."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "The pre-stroke clinical data was based on self-reported history of the following cerebrovascular risk factors (yes/ no): high blood pressure, diabetes mellitus, heart disease, current smoking, and alcohol consumption.",
+          "reasoning": "Confounders are defined, though mostly as binary variables."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Self-reported history of high blood pressure and diabetes mellitus... were further confirmed by medical record.",
+          "reasoning": "The use of medical records to validate self-reported history increases the reliability of confounder measurement."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Data collection was performed by trained interviewers and medical researchers according to the instructions in the STEPwise approach",
+          "reasoning": "Standardized protocol used for all participants during the in-hospital phase."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text does not describe the handling of missing confounder data."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The study was a cohort study and did not use matching or stratification in the design phase."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "Multivariable adjustment by age, years of education, length of stay in hospital, stroke subtype by area computed tomography, high blood pressure and recurrent stroke.",
+          "reasoning": "The authors used multivariable logistic regression to adjust for the most relevant clinical and demographic confounders."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical strategy is sound, using age-adjusted models followed by multivariable models. The use of the Hosmer-Lemeshow test for model fit and the inclusion of a sensitivity analysis (including deaths) demonstrates a rigorous approach to reporting.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "We performed multivariate regression considering all variables that were significant at p < 0.10 in the age-adjusted analysis... Results were expressed as odds ratio (OR), and 95% confidence intervals",
+          "reasoning": "The analytical steps and reporting metrics are clearly described."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "In the final model, we retained all of the variables that allowed a better fit according to the Hosmer-Lemeshow test.",
+          "reasoning": "The strategy used a combination of statistical significance (p<0.10) and goodness-of-fit testing."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "SPSS software, version 16.0 (SPSS Inc., Chicago, USA) was used for the statistical analyses.",
+          "reasoning": "Logistic regression is appropriate for the dichotomized outcome (dependent vs. independent)."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Table 2... Table 3... Table 4",
+          "reasoning": "The authors report both univariable (age-adjusted) and multivariable results for both time points (28 days and 6 months), including a sensitivity analysis."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/11_Gallucci_2026/Fernandes_2012.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T10:37:05.702281"
+  }
+}

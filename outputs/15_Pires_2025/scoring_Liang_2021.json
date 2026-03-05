@@ -1,0 +1,287 @@
+{
+  "paper_metadata": {
+    "title": "The association between White matter microstructure alterations detected by Diffusional kurtosis imaging in Neural circuit and post-stroke depression",
+    "first_author": "Weijing Liang",
+    "year": "2021",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study provides clear inclusion/exclusion criteria and describes the source population (acute ischemic stroke patients). However, it is a small convenience sample (n=58 total) from a single center, and there is no information on the total number of eligible patients versus those who participated, making it difficult to rule out selection bias.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Thirty-eight patients with acute cerebral infarction who were hospitalized at the Second Hospital of Shanxi Medical University were enrolled, following the Guidelines for the Diagnosis and Treatment of acute ischemic stroke in China 2016",
+          "reasoning": "The source (hospitalized stroke patients) and the diagnostic guidelines used to define them are clearly stated."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Partial",
+          "evidence_snippet": "Thirty-eight patients with acute cerebral infarction who were hospitalized at the Second Hospital of Shanxi Medical University were enrolled",
+          "reasoning": "While the hospital is identified, the specific recruitment method (e.g., consecutive vs. convenience) is not explicitly stated."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "From May 2017 to December 2017",
+          "reasoning": "The specific months and year of recruitment are provided."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "the Second Hospital of Shanxi Medical University",
+          "reasoning": "The specific hospital and university affiliation are provided."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "first-episode patients with onset time less than 7 days... Exclusion criteria: Severe physical diseases... Communication difficulties... Any neuropsychiatric diseases",
+          "reasoning": "Detailed inclusion (first episode, <7 days) and exclusion (comorbidities, communication issues) criteria are listed."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not report the number of eligible patients who declined to participate or were excluded before enrollment, so the participation rate cannot be calculated."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "There was no significant difference in age, gender, marriage status, educational level, family history of psychiatric disorders among control, non-PSD and PSD groups (Table 1).",
+          "reasoning": "Table 1 and Table 2 provide comprehensive baseline demographic and clinical (stroke location/side) data."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study appears to be a cross-sectional assessment of a cohort at a specific time point (2 weeks post-stroke). There is no mention of dropouts between the 7-day enrollment and the 2-week assessment, suggesting all enrolled participants completed the DKI and HAMD evaluations.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "Thirty-eight patients... were enrolled... Fifty-eight participants were divided into different groups: control group (n=20), stroke patients without depression (Non-PSD, n=21) and PSD group (n=17).",
+          "reasoning": "The number of patients analyzed (21+17=38) matches the number of patients enrolled, indicating 100% retention for the analysis."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No dropouts were reported, so no description of attempts to follow up was necessary."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No loss to follow-up was reported."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No loss to follow-up was reported."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Yes",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Since all enrolled participants were analyzed, there is no bias from differences between completers and non-completers."
+        }
+      ]
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The prognostic factors (DKI parameters) were measured using standardized, objective MRI protocols. Technicians were blinded to the clinical status of the patients, which significantly reduces measurement bias.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "selected the mean kurtosis (MK), radial kurtosis (RK), axial kurtosis (AK) as the DKI parameters.",
+          "reasoning": "The parameters are clearly defined and the technical MRI settings (TR, TE, b-values) are provided."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "All imaging technicians were blind to the group distribution of research subjects.",
+          "reasoning": "Blinding of the technicians and the use of objective 3.0T MRI data ensure high reliability."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "The quantitative data are expressed as mean ±standard deviation.",
+          "reasoning": "DKI parameters were treated as continuous variables in the analysis."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "MRI scans were performed using a GEMR750W 3.0 T magnetic resonance scanner... The DKI scan uses Axial scanning parameters:repetition time (TR) 6500 ms...",
+          "reasoning": "A standardized protocol was applied to all participants using the same equipment."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "All were taken DKI scans.",
+          "reasoning": "The text implies all participants successfully underwent the imaging protocol."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Missing data was not mentioned, so imputation methods were not described."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The outcome (PSD) was defined using a validated clinical scale (HAMD-24) administered by trained professionals. While the paper doesn't explicitly state if the neurologists were blinded to the DKI results, the use of a standardized scale at a fixed time point (2 weeks) is robust.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "Two weeks after stroke onset, Hamilton Depression Scale-24 (HAMD-24) was used... PSD: met the diagnostic criteria of PSD and HAMD score ≥8",
+          "reasoning": "The outcome is clearly defined by a specific scale and cutoff score at a specific time point."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "Hamilton Depression Scale-24 (HAMD-24) was used by two well-trained neurologists to evaluate the depression status",
+          "reasoning": "The HAMD-24 is a gold-standard tool, and its administration by two trained specialists increases reliability."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Two weeks after stroke onset, Hamilton Depression Scale-24 (HAMD-24) was used... to evaluate the depression status of all subjects.",
+          "reasoning": "All subjects were evaluated using the same scale at the same post-stroke interval."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "High",
+      "risk_reasoning": "This is the weakest domain. While the authors compared baseline demographics and stroke characteristics between groups and found no differences, they did not perform multivariable adjustment (e.g., logistic regression) to control for potential confounders. The analysis relies on univariable correlations and ANOVA, which cannot account for the simultaneous influence of multiple factors.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Partial",
+          "evidence_snippet": "age, gender, marriage status, educational level, family history of psychiatric disorders... location, side and numbers of stroke",
+          "reasoning": "Key demographics and stroke characteristics were measured, but other potential confounders like stroke severity (NIHSS) or pre-stroke functional status were not explicitly listed."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1 and Table 2",
+          "reasoning": "The categories for gender, education, and stroke location are clearly defined in the tables."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "All subjects were confirmed by cranial CT or MRI examinations",
+          "reasoning": "Stroke characteristics were confirmed via objective imaging."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Demographic data and stroke characteristics were collected at the time of admission.",
+          "reasoning": "Data collection was standardized for all patients at admission."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No missing data or imputation was reported."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "Partial",
+          "evidence_snippet": "The demographic data among these groups are comparable.",
+          "reasoning": "The authors checked for group comparability but did not use matching or stratification in the design."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "No",
+          "evidence_snippet": "One-way analysis of variance (ANOVA) was used... Pearson or Spearman correlation",
+          "reasoning": "The study only used univariable tests (ANOVA, correlation). No multivariable modeling was performed to adjust for confounders."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The statistical methods are generally appropriate for the data types, but the authors admit to a lack of correction for multiple comparisons (e.g., Bonferroni), which increases the risk of Type I errors (false positives) given the large number of ROIs tested.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "The statistical analyses were performed with SPSS 22.0... One-way analysis of variance (ANOVA) was used... Pearson or Spearman correlation",
+          "reasoning": "The statistical plan is clearly laid out in section 2.4."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Partial",
+          "evidence_snippet": "The white matter of bilateral superior frontal gyrus... were selected as the regions of interest (ROI)",
+          "reasoning": "The selection of ROIs was based on the LCSPT circuit hypothesis, but no multivariable model was actually built."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Partial",
+          "evidence_snippet": "in the statistical method, there was no correction for multiple comparison",
+          "reasoning": "While ANOVA is appropriate for three-group comparisons, the failure to correct for multiple testing across many brain regions is a significant limitation."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "MK/RK/AK detected by DKI in different groups were compared... there was no significant difference in AK",
+          "reasoning": "The authors report both significant (MK, RK) and non-significant (AK) results for all parameters across the ROIs."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/15_Pires_2025/Liang_2021.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T11:03:58.656608"
+  }
+}

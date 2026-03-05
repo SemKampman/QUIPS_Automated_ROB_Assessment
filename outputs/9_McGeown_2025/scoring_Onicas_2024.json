@@ -1,0 +1,332 @@
+{
+  "paper_metadata": {
+    "title": "Longitudinal Functional Connectome in Pediatric Concussion: An Advancing Concussion Assessment in Pediatrics Study",
+    "first_author": "Adrian I. Onicas",
+    "year": "2024",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study utilizes a large, multi-site prospective cohort (A-CAP) with clearly defined inclusion/exclusion criteria for both concussion and a robust orthopedic injury (OI) control group. While there is some evidence of selection bias in the MRI sub-sample (younger and more male), the overall representation of the target population is high.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Study recruitment occurred in the emergency department of five children's hospitals that are all members of the Pediatric Emergency Research Canada (PERC) network",
+          "reasoning": "The source population is clearly defined as children presenting to pediatric emergency departments across multiple Canadian sites."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "A total of 6449 children were screened in the ED, 3051 were eligible, and 979 were consented and enrolled",
+          "reasoning": "The recruitment flow is transparently reported, showing a systematic screening process in the ED."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "While the publication date is 2024, the specific start and end dates for the recruitment of the A-CAP cohort are not explicitly stated in this manuscript."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "Alberta Children's Hospital (Calgary), Children's Hospital of Eastern Ontario (Ottawa), Centre Hospitalier Universitaire Sainte-Justine (Montreal), Stollery Children's Hospital (Edmonton), and British Columbia Children's Hospital (Vancouver).",
+          "reasoning": "Specific hospitals and geographic locations are listed."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "consistent with the World Health Organization definition of mild TBI: (1) observed loss of consciousness, (2) Glasgow Coma Scale score of 13–14, or (3) at least one acute sign or symptom of concussion",
+          "reasoning": "Criteria are based on established WHO definitions and specific clinical parameters."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Partial",
+          "evidence_snippet": "of 3075 eligible children, 967 consented to participate",
+          "reasoning": "The participation rate is approximately 31%, which is common for neuroimaging studies but lower than the ideal 80% threshold for low risk."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 2. Sample Demographic and Injury Characteristics",
+          "reasoning": "Table 2 provides a comprehensive breakdown of age, sex, education, race, and injury mechanism."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "Attrition rates are significant (up to 28% at 6 months). While the authors analyzed differences between returners and non-returners, finding only parental education differences at 6 months, the loss of nearly 30% of the sample introduces potential for informative censoring.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Partial",
+          "evidence_snippet": "Overall study attrition rates were 15%, 25%, and 28% for the post-acute, 3-month, and 6-month assessments, respectively",
+          "reasoning": "Attrition is within expected ranges for longitudinal TBI research but exceeds 20%, which warrants caution."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text does not describe specific efforts to re-engage or collect data from dropouts."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Partial",
+          "evidence_snippet": "Orthodontia and scheduling difficulties were the most common reasons that MRI was not completed.",
+          "reasoning": "Reasons for missing MRI scans are provided, but specific reasons for general study attrition (the 28%) are not detailed."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Children who returned at follow-ups did not differ significantly from those who did not return in age, sex, race, or parental education, except at 6 months",
+          "reasoning": "The authors explicitly compared characteristics of those lost to follow-up versus those who remained."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Partial",
+          "evidence_snippet": "at 6 months, when children who returned had higher parental education than those who did not return.",
+          "reasoning": "A significant difference in parental education was noted at the final time point, which could bias results related to socioeconomic factors."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Attrition Summary",
+        "prompt": "Loss to follow-up (from baseline sample to study population analyzed) is not associated with key characteristics (i.e., the study data adequately represent the sample) sufficient to limit potential bias to the observed relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The primary prognostic factor (concussion vs. OI) is well-defined. The secondary factor (symptom persistence) uses a validated tool (HBI) and a statistically rigorous Reliable Change Index (RCI) to categorize participants.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "A reliable change index z-score comparing total 1-month post-injury symptom scores to pre-morbid scores was calculated",
+          "reasoning": "The definition of persistent symptoms is mathematically defined using RCI."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "The Health and Behavior Inventory was used to assess cognitive and somatic symptoms. This measure has good internal consistency and test–retest reliability",
+          "reasoning": "The HBI is a validated instrument in pediatric TBI research."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "classify children with concussion into two groups using a critical z-score >1.65 (one-tailed p<0.05)",
+          "reasoning": "The cut-point for symptom persistence is based on standard statistical thresholds (z > 1.65)."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Total pre-morbid (pre-injury) symptoms were rated by parents during the post-acute visit, and total post-injury symptoms were rated by both parents and children weekly",
+          "reasoning": "Standardized timing and methods were used for all participants."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "Of the children who completed MRI, 661 completed at least one resting state functional magnetic resonance imaging (rs-fMRI) scan",
+          "reasoning": "A high proportion of the MRI-eligible sample provided usable data."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text does not explicitly mention imputation methods for missing symptom data; it appears they used available-case analysis within the mixed-effects models."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "PF Measurement Summary",
+        "prompt": "PF is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The outcome (functional connectome) was measured using advanced rs-fMRI with rigorous quality control, denoising, and harmonization across sites. The use of graph theory metrics is a standard, objective approach.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "Graph theory metrics were derived from 918 resting-state functional MRI scans... Global and regional (nodal) level metrics included clustering coefficient, small-worldness, efficiency, betweenness centrality, and degree centrality.",
+          "reasoning": "Outcomes are clearly defined as specific graph theory metrics."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "Each functional run was denoised using AFNI's 3dTproject... network metrics were harmonized for site (scanner) differences using ComBAT",
+          "reasoning": "Extensive technical steps (denoising, motion correction, ComBAT harmonization) were taken to ensure measurement reliability."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "At all sites, children were asked to keep their eyes open, not think of anything, and look at a cross presented on a screen.",
+          "reasoning": "The rs-fMRI protocol was standardized across all five sites."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Outcome Measurement Summary",
+        "prompt": "Outcome of interest is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study design uses an OI control group to control for general injury factors. The statistical analysis uses linear mixed-effects models that adjust for age, sex, and site (via ComBAT), which are the primary confounders in this population.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Yes",
+          "evidence_snippet": "Group, time (days) postinjury, age at injury, and sex were included in the covariate matrix",
+          "reasoning": "Key demographic and injury-related confounders were captured."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 2. Sample Demographic and Injury Characteristics",
+          "reasoning": "Confounders like age and sex are clearly defined and reported."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "A demographic questionnaire, were collected at the post-acute follow-up.",
+          "reasoning": "Standard demographic collection methods were used."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Standardized case report forms and demographic questionnaires were used across sites.",
+          "reasoning": "The multi-site protocol ensured consistency."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text does not specify how missing covariate data were handled, though mixed models handle missingness in the dependent variable well."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "Yes",
+          "evidence_snippet": "including an OI group instead of a healthy control group can account for pre-morbid factors related to risk of injury generally.",
+          "reasoning": "The choice of an OI control group is a strong design-level control for confounding."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "investigate the relations of group... age at injury, sex, and group by time by age, group by time by sex... controlling for the random effect of participant.",
+          "reasoning": "The statistical models explicitly adjusted for age, sex, and time."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Confounding Summary",
+        "prompt": "Important potential confounders are appropriately accounted for, limiting potential bias with respect to the relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The analysis is sophisticated, using linear mixed-effects models to handle longitudinal data and FDR correction for multiple comparisons. The authors are transparent about the lack of pre-registration for this specific sub-analysis but follow a published protocol.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Multiple linear mixed-effects models were computed in RStudio using the lmerTest package",
+          "reasoning": "The analytical steps, including software and packages, are well-described."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "The final model is given by the following formulas for global and nodal metrics",
+          "reasoning": "The model structure is explicitly provided and includes relevant interaction terms."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "Linear mixed-effects modeling was performed to assess group differences over time, correcting for multiple comparisons.",
+          "reasoning": "Mixed-effects models are the gold standard for longitudinal data with missing time points."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "To correct for multiple comparisons, the false discovery rate (FDR) at corrected threshold of p < 0.05... was used",
+          "reasoning": "The use of FDR correction and reporting of both significant and non-significant interactions suggests a lack of selective reporting."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Statistical Analysis and Presentation Summary",
+        "prompt": "The statistical analysis is appropriate for the design of the study, limiting potential for presentation of invalid or spurious results.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/9_McGeown_2025/Onicas_2024.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T11:27:13.208989"
+  }
+}

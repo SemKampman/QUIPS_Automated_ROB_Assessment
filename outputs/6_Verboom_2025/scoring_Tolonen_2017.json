@@ -1,0 +1,288 @@
+{
+  "paper_metadata": {
+    "title": "Quantitative EEG Parameters for Prediction of Outcome in Severe Traumatic Brain Injury: Development Study",
+    "first_author": "Antti Tolonen",
+    "year": "2017",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study provides a clear description of the target population (severe TBI in ICU), recruitment period, and setting. Inclusion and exclusion criteria are explicit, and baseline characteristics are reported. While the sample size is small (n=28), the recruitment process appears systematic for the setting.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "All patients with severe TBI, arriving at the ICU of Turku University Hospital during the study period January 2012 to November 2013, were recruited to the study unless they fulfilled the exclusion criteria.",
+          "reasoning": "The source population is clearly defined as severe TBI patients admitted to a specific tertiary ICU."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "All patients with severe TBI... were recruited to the study unless they fulfilled the exclusion criteria.",
+          "reasoning": "The study used a consecutive recruitment strategy at a single center, which is standard for this type of ICU-based prognostic study."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "during the study period January 2012 to November 2013",
+          "reasoning": "The dates are explicitly stated."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "ICU of Turku University Hospital",
+          "reasoning": "The specific hospital and unit are identified."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "The exclusion criteria for the study were: age less than 18 years at study entry; severely injured scalp... patient gained consciousness before the monitoring could be started... inability to live independently due to preinjury brain disease",
+          "reasoning": "Detailed inclusion (severe TBI by GCS) and exclusion criteria are provided."
+        },
+        {
+          "label": "Adequate study participation",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not state the total number of eligible patients during the period, only that 31 were recorded and 28 analyzed. The participation rate of eligible patients is unknown."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 2. Patient Characteristics in Unfavorable Outcome... and Favorable Outcome Groups... Age, Sex, GCS at admission, Marshall CT classification, Injury mechanism, Surgery, Medication dosages",
+          "reasoning": "Table 2 provides a comprehensive breakdown of baseline clinical and demographic data."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The attrition rate is low (approx 10%) and the reasons for exclusion (missing follow-up) are clearly stated. Given the severity of the condition, the follow-up rate is acceptable.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "Altogether, EEG was recorded from 31 patients. Three patients did not arrive to the 6-month follow-up visit and were excluded from the study.",
+          "reasoning": "28/31 (90.3%) of the recruited sample completed the study, which is high for a TBI population."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The study does not describe attempts to reach the 3 patients who missed the follow-up."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Yes",
+          "evidence_snippet": "Three patients did not arrive to the 6-month follow-up visit",
+          "reasoning": "The reason is stated as non-attendance at the follow-up clinic."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Characteristics of the 3 excluded patients are not compared to the analyzed sample."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Insufficient data provided to determine if those lost to follow-up differed from the study group."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Attrition Summary",
+        "risk_of_bias": "Low"
+      }
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The QEEG parameters are defined with high technical precision. The measurement is objective, automated, and standardized across all participants, minimizing measurement bias.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "We computed the mean power spectral density (PSD) for each 1-minute period... The power spectrum of the EEG was divided into following frequency bands: delta (1-3.5 Hz), theta (3.5-8 Hz)...",
+          "reasoning": "The technical definitions of the 59 QEEG parameters are very detailed."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "rating": "Yes",
+          "evidence_snippet": "The cEEG was recorded using NicoletOne monitoring device... international 10-20 electrode placement system was used with Ag-AgCl subcutaneous wire electrodes",
+          "reasoning": "Standard clinical equipment and validated electrode placement were used."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "For each QEEG parameter we computed the area under the receiver operating characteristic curve (AUC)",
+          "reasoning": "The study treats the parameters as continuous variables for the primary AUC analysis."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "rating": "Yes",
+          "evidence_snippet": "The montage used while computing all the EEG parameters was longitudal bipolar montage consisting of 16 derivations... for all study participants.",
+          "reasoning": "The measurement protocol was standardized, though some patients had fewer electrodes due to injury."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "rating": "Yes",
+          "evidence_snippet": "All the QEEG parameters, except the parameters measuring EEG asymmetry were computed for all the subjects in the study",
+          "reasoning": "Complete data was available for the primary parameters in all 28 patients."
+        },
+        {
+          "label": "Method used for missing data",
+          "rating": "Yes",
+          "evidence_snippet": "Periods that contained less than 3 hours of EEG were ignored.",
+          "reasoning": "The study used a threshold for data inclusion rather than imputation, which is appropriate for this signal-processing context."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "PF Measurement Summary",
+        "risk_of_bias": "Low"
+      }
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The GOS is a standard, validated tool for TBI outcome. The timing of assessment (6-12 months) is appropriate for severe TBI.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "rating": "Yes",
+          "evidence_snippet": "The outcomes of the patients were assessed using the Glasgow Outcome Scale (GOS) evaluated between 6 and 12 months from the injury at a follow-up visit.",
+          "reasoning": "The outcome and its timing are clearly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "rating": "Yes",
+          "evidence_snippet": "The outcome was dichotomized to favorable (GOS 4 and 5) and unfavorable (GOS 1-3).",
+          "reasoning": "GOS is the gold standard for TBI prognosis studies."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "rating": "Yes",
+          "evidence_snippet": "evaluated between 6 and 12 months from the injury at a follow-up visit.",
+          "reasoning": "The setting (follow-up visit) was consistent for all participants."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Outcome Measurement Summary",
+        "risk_of_bias": "Low"
+      }
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study accounts for age (a major confounder) and monitors sedation, but the small sample size limits the ability to perform robust multivariable adjustment for other clinical factors (e.g., injury severity, specific treatments).",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "rating": "Yes",
+          "evidence_snippet": "Table 2. Patient Characteristics... Age, Sex, GCS, Marshall CT, Medication dosages",
+          "reasoning": "Key clinical confounders were recorded."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "rating": "Yes",
+          "evidence_snippet": "Medication dosages (mean ± SD)... Propofol (mg/kg/h), Midazolam (mg/kg/h)...",
+          "reasoning": "Confounders like sedation are precisely defined by dosage."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "rating": "Yes",
+          "evidence_snippet": "Medication dosages... obtained from the ICU records.",
+          "reasoning": "Clinical records and standard scales (GCS, Marshall) provide reliable data."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "rating": "Yes",
+          "evidence_snippet": "The method and setting... same for all study participants.",
+          "reasoning": "Standard ICU monitoring was used for all."
+        },
+        {
+          "label": "Method used for missing data",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No mention of missing confounder data or imputation."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "rating": "Partial",
+          "evidence_snippet": "we also computed the AUC for each QEEG after removing the correlation to age using linear regression.",
+          "reasoning": "Age was adjusted for, but other factors (sedation, GCS) were only compared between groups without multivariable adjustment."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Partial",
+          "evidence_snippet": "The best QEEG parameters had a statistically significant correlation to the outcome also after removing the correlation to the age",
+          "reasoning": "Adjustment was limited to age; the small sample size (n=28) precluded more complex modeling."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Confounding Summary",
+        "risk_of_bias": "Moderate"
+      }
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The analysis is appropriate for an 'explorative' or 'development' study. However, the high number of parameters (59) tested against a small sample (n=28) increases the risk of false-positive findings (multiple testing), which the authors acknowledge.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "rating": "Yes",
+          "evidence_snippet": "For each QEEG parameter we computed the area under the receiver operating characteristic curve (AUC)... computed the P value for rejecting the null hypothesis... using the 2-sided Mann-Whitney U test",
+          "reasoning": "The statistical plan is clearly laid out."
+        },
+        {
+          "label": "Model development strategy",
+          "rating": "Partial",
+          "evidence_snippet": "This explorative study... studying a wide range of fully automatically extracted QEEG parameters.",
+          "reasoning": "The strategy is exploratory rather than hypothesis-driven, which is acceptable for a development study but carries higher bias risk."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "AUC is equal to the probability that a patient with favorable outcome will have a higher parameter value than patient with unfavorable outcome.",
+          "reasoning": "AUC is an appropriate non-parametric measure for prognostic discrimination."
+        },
+        {
+          "label": "Reporting of results",
+          "rating": "Yes",
+          "evidence_snippet": "The entire list of QEEG parameters and the associated statistics can be found in the electronic supplementary material.",
+          "reasoning": "The authors provide the full results for all 59 parameters, reducing the risk of selective reporting."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Statistical Analysis and Presentation Summary",
+        "risk_of_bias": "Moderate"
+      }
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/6_Verboom_2025/Tolonen_2017.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T11:08:43.437782"
+  }
+}

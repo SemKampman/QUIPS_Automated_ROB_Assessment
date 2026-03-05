@@ -1,0 +1,287 @@
+{
+  "paper_metadata": {
+    "title": "Resting-State Power and Regional Connectivity After Pediatric Mild Traumatic Brain Injury",
+    "first_author": "David D. Stephenson",
+    "year": "2020",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study utilized consecutive recruitment from emergency and urgent care settings, providing a representative sample of the target population. Inclusion/exclusion criteria are clearly defined, and the baseline sample is well-characterized with an age- and sex-matched control group.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Participants with pmTBI were consecutively recruited from local emergency department and urgent care settings between April 2016 and July 2019",
+          "reasoning": "The source (ED/Urgent Care) and the recruitment method (consecutive) are explicitly stated."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "pmTBI (N = 105; 8–18 years old) and age- and sex-matched healthy controls (HC; N = 113).",
+          "reasoning": "The study describes the recruitment of both the clinical and control groups, including matching strategies."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "between April 2016 and July 2019",
+          "reasoning": "The specific dates for the recruitment window are provided."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "local emergency department and urgent care settings... University of New Mexico Institutional Review Board",
+          "reasoning": "The setting (ED/Urgent care) and geographic context (New Mexico) are clear."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "Inclusion criteria were based on the American Congress of Rehabilitation Medicine and the Zurich Concussion in Sport Group guidelines. Specifically, pmTBI were enrolled if they experienced a closed head injury with Glasgow Coma Score ≥13...",
+          "reasoning": "Detailed clinical criteria for inclusion and a comprehensive list of psychiatric/neurological exclusions are provided."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "While the paper mentions consecutive recruitment, it does not explicitly state the total number of eligible patients who declined to participate initially (participation rate)."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "See Table 1 for full demographic and clinical/cognitive performance metrics",
+          "reasoning": "Table 1 provides a thorough breakdown of age, sex, history, and baseline clinical scores."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study reports a high retention rate (81.6% for pmTBI) and provides a detailed accounting of reasons for exclusion at follow-up (motion, drug tests, etc.). The use of GEE models helps handle longitudinal data effectively.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "129 pmTBI (81.6% retention) and 127 HC (94.1% retention) returned for their 4-month visit.",
+          "reasoning": "Retention is above the 80% threshold generally considered low risk."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "No attempt was made to bring these participants back for a second visit",
+          "reasoning": "The authors explicitly state they did not attempt to follow up with those who withdrew during the first visit."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Yes",
+          "evidence_snippet": "did not complete the MRI portion of the experiment for various reasons (new braces, pregnancy, etc.), were missing key clinical data... or tested positive for tetrahydrocannabinol",
+          "reasoning": "Specific reasons for exclusion from the final analysis are listed."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "See Table S1 in the Supplemental Material for demographic information across groups at each eligibility phase of the study.",
+          "reasoning": "The authors provide supplemental data comparing the characteristics of those at different phases of the study."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Yes",
+          "evidence_snippet": "Table S1 in the Supplemental Material",
+          "reasoning": "The inclusion of Table S1 suggests the authors checked for attrition bias, though the main text focuses on the final analyzed sample."
+        }
+      ]
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The prognostic factor (pmTBI vs HC) is well-defined by clinical guidelines. The study uses objective MRI metrics (fALFF/ReHo) with standardized processing pipelines and motion correction, which are reliable and valid.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "pmTBI were enrolled if they experienced a closed head injury with Glasgow Coma Score ≥13, loss of consciousness (if present) limited to 30 minutes...",
+          "reasoning": "The definition of the injury (the prognostic factor) is based on standardized clinical criteria."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Inclusion criteria were based on the American Congress of Rehabilitation Medicine and the Zurich Concussion in Sport Group guidelines.",
+          "reasoning": "The use of international consensus guidelines for diagnosis ensures validity."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "individual HC and pmTBI PCSI data at the EC visit were summed, base 10 log-transformed... (ZHC[persistent-PCS] > 1.64).",
+          "reasoning": "The cut-point for persistent-PCS was based on the distribution of the control group (Z > 1.64), which is a standard statistical threshold."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "All participants were scanned with a 3T Trio system (Siemens; Erlangen, Germany) with a 32-channel head coil.",
+          "reasoning": "Standardized equipment and protocols were used for all subjects."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "final sample with usable imaging data for both visits included 105 pmTBI... and 113 HC",
+          "reasoning": "The majority of the recruited sample provided usable data for the primary analysis."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "No",
+          "evidence_snippet": "were missing key clinical data (five pmTBI, three HC)... excluded from analyses.",
+          "reasoning": "The study used listwise deletion (exclusion) rather than imputation for missing data."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "Outcomes (fALFF and ReHo) are objective physiological markers. Clinical outcomes were measured using validated scales (PCSI, PedsQL). The timing of follow-up (4 months) was consistent across the cohort.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "examine potential abnormalities in fractional amplitude of low-frequency fluctuations (fALFF) or regional homogeniety (ReHo) during resting-state fMRI",
+          "reasoning": "The primary outcomes are clearly defined as specific fMRI metrics."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "AFNI's 3dRSFC program was used to generate fALFF... AFNI's 3dREHO program calculated Kendall's concordance coefficient",
+          "reasoning": "The study uses established, validated software and mathematical algorithms for the outcome measures."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "All participants were scanned with a 3T Trio system... Resting-state data were acquired over a 5-minute period",
+          "reasoning": "The imaging protocol was identical for all participants."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study rigorously controlled for major confounders. Age and sex were matched at recruitment, and head motion (FD) and age were included as covariates in the statistical models. Retrospective symptom ratings were also used to control for pre-injury status.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Yes",
+          "evidence_snippet": "mean framewise displacement (FD)... and age-at-injury entered as covariates... Retrospective ratings (ie, estimation for 1 month ago) of symptoms were also acquired",
+          "reasoning": "Key confounders in neuroimaging (motion, age) and clinical recovery (pre-injury symptoms) were measured."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "mean framewise displacement (FD), which is the average of frame-by-frame translational and rotational head motion",
+          "reasoning": "Confounders like FD are technically defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Six motion parameters, their derivatives, average white matter, and cerebral spinal fluid (CSF) signals were regressed",
+          "reasoning": "Standard fMRI preprocessing steps were used to ensure reliable measurement of nuisance variables."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "All participants were scanned with a 3T Trio system",
+          "reasoning": "Confounders derived from the scan (motion) were measured identically for all."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Imputation was not used; participants with missing data were excluded."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "Yes",
+          "evidence_snippet": "age- and sex-matched HC were recruited",
+          "reasoning": "Matching was used in the study design phase."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "FD and age-at-injury entered as covariates.",
+          "reasoning": "Multivariable adjustment was performed in the GLM/GEE models."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical approach is robust, using GEE for longitudinal clinical data and AFNI's 3dMVM for voxelwise imaging. They applied stringent false-positive corrections (Monte Carlo simulations) and reported both group-level and subject-specific analyses.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Statistical Analysis section describes GEE, GLM, and 3dMVM in detail.",
+          "reasoning": "The analytical steps are transparently documented."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "2 × 3 GLM (Group [HC vs. pmTBI] × Time [SA vs. EC])... based on a conceptual framework",
+          "reasoning": "The models directly address the study's two primary aims."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "generalized estimating equations (GEE; Group × Visit), using gamma or negative binomial distributions",
+          "reasoning": "GEE is appropriate for longitudinal data with non-normal distributions."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Results section reports on all primary and secondary measures, including null findings for ReHo.",
+          "reasoning": "The authors report both significant and non-significant results for all pre-specified metrics."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/9_McGeown_2025/Stephenson_2020.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T11:53:01.880037"
+  }
+}

@@ -1,0 +1,287 @@
+{
+  "paper_metadata": {
+    "title": "Cerebral Blood Flow after Mild Traumatic Brain Injury: Associations between Symptoms and Post-Injury Perfusion",
+    "first_author": "Jaclyn A. Stephens",
+    "year": "2017",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study provides clear inclusion/exclusion criteria and describes the source population (teenage athletes). However, the sample size is very small (n=15 per group), and it is unclear if these participants represent the broader population of concussed adolescents or if there was a selection bias toward those seeking clinical care (recruited from clinical encounters).",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Fifteen adolescents, ages 13 to 17, with SRC were recruited from clinical encounters (e.g., concussion clinic) and enrolled in this study.",
+          "reasoning": "The authors specify the age range, injury type (SRC), and the clinical setting of the recruitment."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Partial",
+          "evidence_snippet": "recruited from clinical encounters (e.g., concussion clinic)... Fifteen never-concussed adolescent athletes... recruited using flyers, word-of-mouth, and radio advertisements",
+          "reasoning": "While the recruitment methods are stated, the use of clinical encounters for the SRC group versus advertisements for controls may introduce recruitment bias."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The specific calendar dates or duration of the recruitment period are not mentioned in the paper."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "Kennedy Krieger Institute, Baltimore, Maryland... Department of Pediatrics, Johns Hopkins School of Medicine, Baltimore, Maryland.",
+          "reasoning": "The institutional affiliations and city are clearly provided."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "Inclusion criteria for the concussion group included: presence of a recent concussion (a witnessed blow to the head or body that occurred during organized sport participation with subsequent onset of at least two concussion-induced symptoms)...",
+          "reasoning": "Detailed criteria including GCS scores, loss of consciousness duration, and amnesia limits are provided."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not report the number of eligible individuals who declined to participate, making it impossible to calculate a participation rate."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "At Visit 1, the SRC group included 12 participants (mean age: 15.6 [SD=1.2]; four females [33%]). The control group included 15 participants (mean age: 15.2, [SD=1.7]; five females [33%]).",
+          "reasoning": "Age and sex are reported and compared between groups."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "Attrition was minimal and reasons were provided. While the sample size is small, the follow-up rate for the longitudinal component was high (14/15 at Visit 2).",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "Neuroimaging data were acquired from 14 of the 15 eligible adolescents at Visit 2",
+          "reasoning": "A 93% follow-up rate for the second visit is considered excellent."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "one participant did not return for testing.",
+          "reasoning": "The text mentions the dropout but does not describe attempts to re-engage or collect data from that individual."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Yes",
+          "evidence_snippet": "two participants did not complete neuroimaging because of scanner malfunction, and one participant did not complete neuroimaging because of scheduling constraints.",
+          "reasoning": "Specific reasons (technical and scheduling) are provided for missing data at Visit 1 and Visit 2."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is no specific demographic or clinical breakdown of the single participant who did not return for Visit 2."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "With only one dropout, a statistical comparison is not feasible, and the authors do not provide a qualitative comparison."
+        }
+      ]
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The prognostic factor (mTBI/SRC status) is well-defined by clinical criteria, and the timing of measurement (2 and 6 weeks) is clearly standardized.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "presence of a recent concussion (a witnessed blow to the head or body that occurred during organized sport participation with subsequent onset of at least two concussion-induced symptoms)",
+          "reasoning": "The definition of the prognostic factor (concussion) is explicit."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "recruited from clinical encounters (e.g., concussion clinic)... Glasgow Coma Scores... of 13 to 15.",
+          "reasoning": "Diagnosis was confirmed via clinical encounter and objective scales (GCS), reducing misclassification."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "mean: 8.8 days post-injury; standard deviation [SD]: 3.4",
+          "reasoning": "Time since injury is reported as a continuous variable with mean and SD."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Adolescents with SRC were evaluated at two time points... Controls participants were evaluated at a single time point.",
+          "reasoning": "The protocol for identifying and timing the PF was consistent across the SRC group."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "Neuroimaging data were acquired from 12 of the 15 eligible adolescents at Visit 1... 14 of the 15... at Visit 2",
+          "reasoning": "The majority of the sample had complete data for the primary analysis."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The authors did not use imputation; they analyzed available data (complete case analysis)."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The outcome (rCBF) was measured using standardized, automated neuroimaging pipelines (ASL-MRICloud), which minimizes subjective bias. Symptom reporting used a validated tool (ImPACT).",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "relative cerebral blood flow (rCBF)... normalized by the whole-brain average",
+          "reasoning": "The outcome is clearly defined as a relative physiological measure."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "PCASL data were processed to generate CBF maps using the fully automated ASL-MRICloud tool.",
+          "reasoning": "The use of an automated, cloud-based pipeline reduces human error and subjective interpretation."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Imaging was performed on a 3T MR system (Philips Medical System, Best, The Netherlands) using the body coil for transmission and an eight-channel head coil for reception.",
+          "reasoning": "All participants were scanned using the same hardware and parameters."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study matched controls for age and sex and used ANCOVA to adjust for age. However, other potential confounders (e.g., caffeine intake, exercise prior to scan, or specific medications) were not explicitly controlled for in the analysis, which is relevant for CBF studies.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Partial",
+          "evidence_snippet": "never-concussed age- and sex-matched peers... current use of narcotic pain medicine [exclusion]",
+          "reasoning": "Age and sex were measured and matched. Some medications were excluded, but other CBF-influencing factors like caffeine or sleep were not reported."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "mean age: 15.6 [SD=1.2]; four females [33%]",
+          "reasoning": "Age and sex are standard, well-defined variables."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "structured parent interview.",
+          "reasoning": "Demographics and medical history were collected via structured interviews."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Both the SRC group and control group were asked to report symptoms on the ImPACT.",
+          "reasoning": "The same tools were used for both groups."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No imputation was performed for confounders."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "Yes",
+          "evidence_snippet": "comparison cohort of never-concussed age- and sex-matched peers.",
+          "reasoning": "Matching was used in the study design."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "univariate ANCOVAs (to account for age)",
+          "reasoning": "Statistical adjustment for age was performed."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The statistical methods are generally sound, including FWE correction for multiple comparisons. However, the very small sample size (n=12-14) increases the risk of spurious results or lack of power, and the 'a posteriori' analysis of controls suggests some data-driven exploration.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "The voxel-level threshold was established at p < 0.001, and family-wise error (FWE) correction was used for multiple comparisons at a cluster-level threshold of p < 0.05.",
+          "reasoning": "The authors provide clear thresholds and correction methods."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Partial",
+          "evidence_snippet": "As a posteriori analysis, we also evaluated rCBF in the left dorsal ACC in controls who were divided into physical symptoms present",
+          "reasoning": "While the primary analysis was planned, some secondary analyses were 'a posteriori' (post-hoc), which increases the risk of reporting bias."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "SPM12 second-level analyses... independent sample t tests... univariate ANCOVAs",
+          "reasoning": "The models used are standard for neuroimaging and group comparison studies."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Partial",
+          "evidence_snippet": "ANCOVA analyses did not reach the established model threshold of p <= 0.003 when comparing rCBF... of controls and SRC subgroups divided by any symptom category",
+          "reasoning": "The authors report non-significant findings for several symptom categories, which reduces the risk of selective reporting, though the small sample size remains a concern for the stability of these results."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/9_McGeown_2025/Stephens_2018.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T11:49:00.776034"
+  }
+}

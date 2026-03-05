@@ -1,0 +1,287 @@
+{
+  "paper_metadata": {
+    "title": "The Rivermead Post-Concussion Questionnaire score is associated with disability and selfreported recovery six months after mild traumatic brain injury in older adults",
+    "first_author": "Jennifer Asselstine",
+    "year": "2019",
+    "analysis_timestamp": "2023-10-27 10:15:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study provides clear inclusion/exclusion criteria and describes the recruitment setting. However, the participation rate is low (55.7%), and there is a notable difference in age distribution between participants and non-participants (e.g., 10.9% vs 23.3% for age >= 85), suggesting potential selection bias.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "All individuals aged 65 or older who had visited a participating ED between 5 November 2012 and 13 November 2013 for mTBI were potentially eligible for inclusion in the study.",
+          "reasoning": "The target population (older adults with mTBI in Ontario) and their characteristics are clearly defined."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "the study was carried out in three emergency departments (ED) located in Ontario, Canada... individuals were contacted by phone within 10 days of their hospital visit and invited to participate.",
+          "reasoning": "The recruitment process from specific EDs and the contact method are well-described."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "between 5 November 2012 and 13 November 2013",
+          "reasoning": "Specific dates for the recruitment window are provided."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "three emergency departments (ED) located in Ontario, Canada.",
+          "reasoning": "The setting and geographic location are explicitly stated."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "To be eligible, the individual had to be an Ontario resident and seek medical attention within 72 h of sustaining an mTBI... Individuals with a CT scan that revealed large intracranial bleeds... were excluded.",
+          "reasoning": "Detailed inclusion and exclusion criteria, including the WHO definition of mTBI, are provided."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Partial",
+          "evidence_snippet": "Of 97 eligible participants, 54 agreed to participate (55.7% participation rate).",
+          "reasoning": "A 55.7% participation rate is relatively low, increasing the risk that participants differ from non-participants."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Available baseline characteristics of the participants, nonparticipants, and those lost to follow-up are displayed in Table 1.",
+          "reasoning": "Table 1 provides a comprehensive breakdown of age, sex, education, income, and other key demographics."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "High",
+      "risk_reasoning": "While the total loss to follow-up was small (n=5), those lost to follow-up had significantly higher baseline RPQ scores (mean 14.4) compared to those who completed the study (mean 3.20). This indicates 'informative censoring' where the most symptomatic individuals were more likely to drop out, likely biasing the results toward the null.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "Of these 54, five were lost to follow-up. An additional three participants were removed due to the occurrence of another head trauma... The final sample available for analysis included 46 persons.",
+          "reasoning": "The retention rate of the enrolled sample was high (85%+)."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "Yes",
+          "evidence_snippet": "If after five attempts, we were still unable to contact a participant; he or she was considered lost to follow-up.",
+          "reasoning": "The authors describe a protocol of five contact attempts before declaring loss to follow-up."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Yes",
+          "evidence_snippet": "Reasons for the five lost to follow-up included one who did not want to respond further, two had poor health and moved to a long-term care facility, one’s spouse had recently died, and for the last, a reason was not provided.",
+          "reasoning": "Specific reasons for dropout are listed for 4 out of 5 participants."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "the mean baseline RPQ score for the five lost to follow-up was 14.4",
+          "reasoning": "The authors explicitly compare the baseline prognostic factor (RPQ) between completers and dropouts."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "No",
+          "evidence_snippet": "the mean baseline RPQ score for the followed sample (n = 46) was 3.20 while the mean baseline RPQ score for the five lost to follow-up was 14.4",
+          "reasoning": "There is a massive difference in baseline symptom severity between those who stayed and those who left, which is a major source of bias."
+        }
+      ]
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The RPQ is a validated tool, and the measurement process (CATI within 10 days) was standardized for all participants. The scoring method was clearly defined.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "We used the RPQ to measure baseline post-concussion syndrome symptomatology... the RPQ was determined as a score out of 16, representing the number of symptoms on which the patient was considered to be 'non-recovered'.",
+          "reasoning": "The prognostic factor and its scoring method are clearly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "The RPQ is a valid test commonly used in the clinical setting... Several other studies have indicated strong reliability and validity of this questionnaire",
+          "reasoning": "The authors cite literature supporting the validity and reliability of the RPQ."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "individuals scoring 0 or 1... were considered 'recovered', and individuals scoring 2, 3, or 4... were considered 'non-recovered'",
+          "reasoning": "The cut-points used for the RPQ items are standard in the literature and not derived from the study's own data."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "The test was administered by the research team over the phone",
+          "reasoning": "A standardized CATI method was used for all participants."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "The final sample available for analysis included 46 persons.",
+          "reasoning": "The analysis was restricted to those with complete data, and baseline PF was collected for all enrolled."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "No",
+          "evidence_snippet": "Individuals who were missing outcome measures at the 6-month follow-up were removed from the analysis.",
+          "reasoning": "No imputation was used; missing data resulted in exclusion (complete case analysis)."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study used established, validated scales (GOSE, SF-12) for the primary outcomes. The timing of measurement (6 months) was consistent.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "Recovery measures were determined at 6 months post-injury. These measures of disability included the Glasgow Outcome Scale Extended (GOSE), the Short Form-12 physical and mental components (SF-12 PCS and MCS) and self-reported recovery.",
+          "reasoning": "All outcomes and the follow-up timeframe are clearly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "The GOSE has shown adequate test-retest, inter-observer reliability, validity... The SF-12 has been tested for reliability and has been deemed to be valid in older adults",
+          "reasoning": "The authors use validated instruments and cite supporting evidence."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "At 6 months post-injury, participants were contacted to complete another CATI survey to assess their recovery.",
+          "reasoning": "Standardized telephone interviews were used for all participants at the same time point."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The authors identified and adjusted for several key confounders (depression, LOC, prior health). However, the small sample size (n=46) limited the number of variables that could be included in the multivariable models, and some potential confounders (comorbidities, interim health events) were not measured.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Partial",
+          "evidence_snippet": "we do not have details regarding participants’ health, hospital admissions and co-morbidities between the baseline and sixmonth follow-up.",
+          "reasoning": "While key baseline confounders were measured, interim events and specific comorbidities were missed."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "The CES-D is a twenty question self-report survey... Health 1 year before injury... rating their change in health on a Likert scale",
+          "reasoning": "The confounders used in the models are well-defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "The CES-D is a validated and reliable self-report tool",
+          "reasoning": "Validated tools were used for key confounders like depression."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Participants completed a baseline computerassisted telephone interview (CATI) survey within 10 days of ED visit.",
+          "reasoning": "Confounders were measured during the standardized baseline interview for all."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The study used complete case analysis; no imputation for missing confounders is mentioned."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "No",
+          "evidence_snippet": "This study used a prospective cohort design",
+          "reasoning": "No matching or stratification was used in the study design phase."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "Each potential confounder was added to the crude model and those whose addition resulted in a 10% change in effect size were included in a final model.",
+          "reasoning": "The authors used a systematic change-in-estimate approach for multivariable adjustment."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical methods (linear/logistic regression with bootstrapping) were appropriate for the data and sample size. Results were reported for all pre-specified outcomes, and model diagnostics were performed.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Linear and logistic models adjusted for confounding factors were estimated using 200 bootstrapped samples.",
+          "reasoning": "The analytical strategy is clearly laid out in the Methods section."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "Potential confounding variables were identified from a previous study as those highly associated with the outcome of interest",
+          "reasoning": "The model building was based on prior evidence and a 10% change-in-estimate rule."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "Simple linear regressions were conducted to determine the association between SF-12 PCS and MCS... Logistic regression was used to determine the risk of overall disability",
+          "reasoning": "The choice of linear vs. logistic regression matches the continuous vs. categorical nature of the outcomes."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Table 3. Unadjusted and adjusted associations between baseline RPQ scores and various recovery outcomes",
+          "reasoning": "Results for all four outcomes (GOSE, SF-12 PCS, SF-12 MCS, Self-reported recovery) are reported regardless of significance."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/7_Tan_2025/Asselstine_2019.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T11:22:09.446709"
+  }
+}

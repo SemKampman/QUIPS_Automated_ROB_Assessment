@@ -1,0 +1,287 @@
+{
+  "paper_metadata": {
+    "title": "Sleep Features on Continuous Electroencephalography Predict Rehabilitation Outcomes After Severe Traumatic Brain Injury",
+    "first_author": "Danielle K. Sandsmark",
+    "year": "2016",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study provides a clear description of the source population and inclusion criteria. However, it is a retrospective review of a convenience sample (patients who received cEEG for clinical reasons), which introduces potential selection bias as these patients likely represent a more severe or clinically complex subset of the TBI population.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "patients who had suffered a TBI and were treated in the neurological or trauma intensive care unit at a single academic level 1 trauma center.",
+          "reasoning": "The setting and general population are clearly defined."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Partial",
+          "evidence_snippet": "This study was a retrospective chart review... All patients received cEEG monitoring either for clinical concerns for seizure activity or for unexplained poor mental status.",
+          "reasoning": "While the method is described, the use of a clinical indication for cEEG as a filter for inclusion creates a convenience sample rather than a consecutive or random sample of all TBI patients."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The specific years or dates during which the chart review was conducted are not mentioned in the manuscript."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "treated in the neurological or trauma intensive care unit at a single academic level 1 trauma center. Review of medical records for research purposes was approved by the Hospital of the University of Pennsylvania institutional review board.",
+          "reasoning": "The specific institution and unit types are identified."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "Patients were included if they were 18 years of age or older, suffered a moderate-severe TBI defined as imaging findings of TBI... and underwent 24 or more hours of cEEG monitoring within the first 14 days after their injury.",
+          "reasoning": "Criteria are specific regarding age, injury severity (imaging and GCS), and the timing/duration of the prognostic factor measurement (cEEG)."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not report how many patients were screened versus how many were included, making it impossible to determine the participation rate."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1 summarizes the major cEEG findings... Gender (M:F) 53:11, Age (range) 50.3 (15-97), Mechanism of injury... GCS score... Marshall score... Rotterdam score...",
+          "reasoning": "Table 1 provides a comprehensive breakdown of demographics, injury severity, and clinical status."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "As a retrospective study focusing on in-hospital outcomes (discharge disposition), the attrition is minimal. All 64 patients included had outcome data recorded.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "Sixty-four patients met the inclusion criteria for the study... Patient outcomes at hospital discharge ranged from mild disability (mRS = 2) to death (mRS = 6; Table 1).",
+          "reasoning": "The study reports outcomes for the full cohort of 64 patients."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "Yes",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Not applicable as there were no dropouts reported for the primary in-hospital outcomes."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Yes",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No loss to follow-up occurred for the primary outcome measures."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Not applicable."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Yes",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Not applicable as the entire cohort was analyzed."
+        }
+      ]
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The prognostic factor (sleep features on cEEG) is well-defined and measured using standard clinical criteria. The use of a blinded independent reviewer for ambiguous cases significantly reduces measurement bias.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "EEG reports were reviewed for the presence of sleep elements (vertex waves, sleep spindles, and K complexes)",
+          "reasoning": "The specific electrographic elements constituting 'sleep' are explicitly listed."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "In any case where the EEG report was ambiguous, the clipped EEG record was reviewed by an independent epileptologist who was blinded to clinical information (S.S.)",
+          "reasoning": "Blinding of the expert reviewer for ambiguous cases is a strong methodological safeguard against bias."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "Sleep and ictal-interictal activity were analyzed as dichotomized variables (any sleep elements vs no sleep elements; any ictal-interictal activity vs no ictal-interictal activity)",
+          "reasoning": "The dichotomization is based on the presence/absence of defined physiological features, which is standard for this type of EEG study."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "All patients received cEEG monitoring... within the first 14 days after their injury.",
+          "reasoning": "All patients were monitored in the ICU setting using the same technology (cEEG)."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "Sixty-four patients met the inclusion criteria... Table 2 summarizes the major cEEG findings.",
+          "reasoning": "PF data was available for all 64 patients included in the analysis."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "Yes",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No missing PF data was reported; therefore, imputation was not required."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The outcomes are clearly defined, but the retrospective determination of mRS from therapy notes by a single non-blinded researcher introduces a risk of subjective interpretation and bias.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "Primary outcome measures were (1) location of hospital disposition... and (2) modified Rankin Scale (mRS) at hospital discharge.",
+          "reasoning": "The outcomes and the time point (hospital discharge) are clearly stated."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Partial",
+          "evidence_snippet": "The mRS was determined retrospectively by review of physical and occupational therapy notes... To minimize potential bias, EEG data were collected at a separate time point from discharge outcomes",
+          "reasoning": "While the author attempted to separate data collection, the person assigning mRS scores was not explicitly blinded to the EEG results, and mRS was derived from notes not originally intended for mRS scoring."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "The final chart entry by the physical and/or occupational therapist... was used to determine the discharge mRS.",
+          "reasoning": "A consistent source (therapy notes) and time point (discharge) were used for all patients."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study used multivariable analysis to adjust for key confounders like GCS and ictal activity. However, it did not account for the use of sedative medications, which the authors admit could significantly influence both EEG findings and clinical state.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Partial",
+          "evidence_snippet": "Multivariable analysis... was performed using sleep, admission GCS, and ictal-interictal activity... the study did not control for the use of medications that can influence the EEG findings, including sedative, pain, and antiepileptic medications.",
+          "reasoning": "While GCS and ictal activity were included, the lack of data on sedation is a significant omission in a study of EEG and consciousness."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "GCS score at hospital presentation... ictal-interictal activity (including status epilepticus, seizures, and interictal discharges)",
+          "reasoning": "The confounders used in the model are standard clinical metrics."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "admission GCS... ictal-interictal activity on EEG",
+          "reasoning": "GCS and EEG findings are standard, reliable clinical measurements."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Demographic and patient injury characteristics were obtained from the inpatient medical record.",
+          "reasoning": "All confounder data were extracted from the same medical record system."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "Yes",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No imputation was reported; patients with unknown GCS (5%) were likely excluded from the multivariable model."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "No",
+          "evidence_snippet": "This study was a retrospective chart review",
+          "reasoning": "The study design did not include matching or stratification to control for confounding."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "Multivariable analysis... indicated that sleep features on cEEG predicted functional outcomes independent of admission Glasgow Coma Scale and ictal-interictal activity.",
+          "reasoning": "Statistical adjustment was performed for the most critical clinical confounders."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical methods are appropriate for the data type and study goals. Results are reported transparently with odds ratios and confidence intervals.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Logistic regression analysis, Student 2-tailed t tests, and Fisher exact tests were used... Multivariable analysis using STATA software",
+          "reasoning": "The statistical plan is clearly outlined."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "Multivariable analysis... was performed using sleep, admission GCS, and ictal-interictal activity with regard to functional outcomes (mRS).",
+          "reasoning": "The variables chosen (GCS and ictal activity) are the most clinically relevant factors known to influence TBI prognosis."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "Logistic regression analysis... Multivariable analysis",
+          "reasoning": "Logistic regression is appropriate for the dichotomized outcome (mRS <4 vs >=4)."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Results... Table 1... Table 2... Figure 1... Figure 2... Figure 3",
+          "reasoning": "The study reports on all primary and secondary outcomes mentioned in the methods, including non-significant results."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/6_Verboom_2025/Sandsmark_2016.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T11:09:34.188131"
+  }
+}

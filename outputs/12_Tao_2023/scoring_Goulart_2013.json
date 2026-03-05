@@ -1,0 +1,287 @@
+{
+  "paper_metadata": {
+    "title": "Predictors of long-term survival among first-ever ischemic and hemorrhagic stroke in a Brazilian stroke cohort",
+    "first_author": "Alessandra C Goulart",
+    "year": "2013",
+    "analysis_timestamp": "2023-10-27 10:15:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study uses a prospective, consecutive recruitment strategy from a well-defined geographical area (Butantan, São Paulo) with clear inclusion/exclusion criteria. The baseline characteristics are thoroughly described, and the use of a community hospital that handles 80% of local hospitalizations minimizes selection bias.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "The Hospital Universitário is located in the west area of the city of São Paulo... which includes 420,000 inhabitants.",
+          "reasoning": "The authors define the geographical and demographic source of the population clearly."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "We prospectively ascertained 665 consecutive first-ever ischemic and hemorrhagic stroke cases... who were discharged after a first hospitalization for stroke at community hospital.",
+          "reasoning": "Consecutive recruitment from a primary facility for the area reduces the risk of convenience sampling bias."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "from April 2006 to December 2010.",
+          "reasoning": "The start and end dates are explicitly stated."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "Hospital Universitário... west area of the city of São Paulo, the largest metropolitan area of South America.",
+          "reasoning": "The setting is a specific community hospital in a defined urban district."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "all consecutive first-ever stroke individuals older than 35 years of age, with a confirmed diagnosis of ischemic stroke or intracerebral haemorrhage.",
+          "reasoning": "Criteria include age, first-ever status, and specific stroke subtypes."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not explicitly state the number of eligible patients who refused to participate or the total number of eligible patients screened versus enrolled."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Mean age was 68 years (±13.3), 53.8% of participants were male, and almost 70% had less than eight years of formal education.",
+          "reasoning": "Table 1 and the results section provide a comprehensive breakdown of age, gender, race, education, and comorbidities."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study utilized multiple robust methods to track vital status (telephone, medical registers, death certificates). While specific dropout numbers aren't listed, the methodology suggests high capture of the primary outcome (death).",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "vital status during follow-up was updated through telephone contact, medical registers, and death certificates with the collaboration of the municipal and state's health offices.",
+          "reasoning": "The use of official death registries in Brazil typically ensures high follow-up for mortality outcomes."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "Yes",
+          "evidence_snippet": "Additional information including vital status during follow-up was updated through telephone contact, medical registers, and death certificates.",
+          "reasoning": "The authors describe a multi-modal approach to minimize loss to follow-up."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not explicitly list the number of patients lost to follow-up or the reasons why."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is no comparison between those who completed follow-up and those who did not."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Without data on the lost-to-follow-up group, this cannot be determined."
+        }
+      ]
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "Prognostic factors (age, education, diabetes) were measured using standardized WHO protocols and objective criteria. The use of trained interviewers and medical researchers adds to the reliability.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "We evaluated cardiovascular risk factors and sociodemographic characteristics (age, gender, race and educational level).",
+          "reasoning": "Factors are clearly listed and categorized (e.g., education levels: illiterate, 1-7 years, >8 years)."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "All information was collected by trained interviewers and medical researchers according to the STEPS Stroke Manual Instructions.",
+          "reasoning": "The use of the WHO STEPS standardized approach ensures high measurement reliability."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "age (35-59/60- 79/≥80y-old)... educational level (illiterate, 1–7 years, ≥8 years).",
+          "reasoning": "The cut-points used for age and education are standard in epidemiological research and not derived from the data itself."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "All information was collected by trained interviewers and medical researchers according to the STEPS Stroke Manual Instructions.",
+          "reasoning": "A standardized protocol was applied to the entire cohort."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "From 665 cases... 545 (82.6%) were identified as IS and 116 (17.4%) as HS.",
+          "reasoning": "The analysis includes the full cohort of 665, suggesting high data completeness for the primary PFs."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not mention how missing data for prognostic factors was handled."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The outcome (survival/death) is objective and was verified through multiple reliable sources, including official death certificates and medical records. The definition of stroke was based on standard WHO criteria and confirmed by imaging.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "For survival analyses, participants were followed-up from hospital admission until death or censoring until in 2010.",
+          "reasoning": "The outcome is clearly defined as all-cause mortality over a 4-year period."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "updated through telephone contact, medical registers, and death certificates with the collaboration of the municipal and state's health offices.",
+          "reasoning": "Death certificates are the gold standard for mortality outcomes in population studies."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Additional information including vital status during follow-up was updated through telephone contact, medical registers, and death certificates.",
+          "reasoning": "The same surveillance system was used for all participants."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "While the study adjusted for major sociodemographic factors and diabetes, it lacked data on stroke severity (e.g., NIHSS) and acute treatment (e.g., thrombolysis), which are critical confounders in stroke prognosis.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Partial",
+          "evidence_snippet": "We evaluated cardiovascular risk factors and sociodemographic characteristics... hypertension (yes/no), diabetes (yes/no).",
+          "reasoning": "Key clinical confounders like stroke severity (NIHSS) and specific acute treatments are missing."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "age (35-59/60- 79/≥80y-old), gender, race as self-reported skin color... hypertension (yes/no), diabetes (yes/no).",
+          "reasoning": "The confounders that were measured are clearly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "All information was collected by trained interviewers and medical researchers according to the STEPS Stroke Manual Instructions.",
+          "reasoning": "Standardized WHO protocols were used for measurement."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "All information was collected by trained interviewers and medical researchers.",
+          "reasoning": "Uniform data collection at baseline for all participants."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No mention of missing data handling for confounders."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The study did not use matching or stratification in the design phase."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "We performed Cox proportional hazards survival analysis... adjusting for potential confounding factors.",
+          "reasoning": "Multivariable Cox regression was used to adjust for age, race, education, marital status, and diabetes."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical methods (Cox regression, Kaplan-Meier) are appropriate for survival analysis. The authors report both univariable and multivariable results, and the strategy for model building is transparent.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "The comparison of life table survival across 4 years of follow-up was performed using the Wilcoxon test... Kaplan-Meyer curves... Cox proportional hazards survival analysis.",
+          "reasoning": "The analytical plan is standard and well-described."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "We included in the models significantly associated variables at level <0.20.",
+          "reasoning": "A standard p-value threshold was used for variable selection in the multivariable model."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "Cox proportional hazards survival analysis to investigate sociodemographic and cardiovascular risk factors associations.",
+          "reasoning": "Cox regression is the appropriate model for time-to-event data with censoring."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Table 2 Predictors of poor long term survival among 665 participants... 1-year, 2-year, 3-year, 4-year.",
+          "reasoning": "The authors report results for all time points and all pre-specified variables, including non-significant ones."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/12_Tao_2023/Goulart_2013.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T10:47:30.643348"
+  }
+}

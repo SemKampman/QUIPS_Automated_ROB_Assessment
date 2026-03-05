@@ -1,0 +1,287 @@
+{
+  "paper_metadata": {
+    "title": "Lactate Dehydrogenase and Hemorrhagic Stroke During Extracorporeal Membrane Oxygenation for COVID‑19",
+    "first_author": "Jose I. Nunez",
+    "year": "2023",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study uses a large multicenter registry with clear inclusion/exclusion criteria and well-defined baseline characteristics. While it is a retrospective analysis of a voluntary registry, the sample size is substantial and the population is representative of the target clinical group.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Adult patients with COVID-19 requiring ECMO between March 2020 and February 2022 were included.",
+          "reasoning": "The authors clearly define the target population as adults with COVID-19 requiring ECMO support during a specific timeframe."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "Data source was a voluntary registry populated by 17 participating centers located in diferent regions in the United States.",
+          "reasoning": "The use of a 17-center multicenter registry provides a broad sampling frame that reduces single-center bias."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "between March 2020 and February 2022",
+          "reasoning": "The recruitment window is explicitly stated."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "17 participating centers located in diferent regions in the United States.",
+          "reasoning": "The setting (tertiary centers capable of ECMO) and geographic scope (USA) are provided."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "All adult patients undergoing ECMO support for respiratory and/or cardiac support with COVID-19 infection... Patients with no available data on LDH were excluded.",
+          "reasoning": "Criteria are clear, including the requirement for the prognostic factor (LDH) data."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Partial",
+          "evidence_snippet": "There were 520 patients that underwent ECMO placement... and 384 had an available LDH.",
+          "reasoning": "Approximately 74% of the eligible registry patients were included. While high, 26% were excluded due to missing LDH data, which could introduce slight selection bias."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1 Baseline characteristics of adults supported with ECMO for COVID-19 stratifed by LDH levels",
+          "reasoning": "Table 1 provides exhaustive detail on demographics, comorbidities, and pre-ECMO physiological parameters."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study accounts for all patients through a 100-day follow-up period using Kaplan-Meier methods. Attrition is handled via censoring for death or weaning, which is standard for this acute, high-mortality setting.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "Patients were censored at 100 days after ECMO initiation. Censoring was done for ischemic stroke, weaning of ECMO, device upgrade, or death.",
+          "reasoning": "The study uses time-to-event analysis, ensuring all 384 patients contribute data until an event or censoring occurs."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "Yes",
+          "evidence_snippet": "Data source was a voluntary registry populated by 17 participating centers... Data entry, training and validation procedures of this registry have been published",
+          "reasoning": "The registry framework implies systematic data collection for all enrolled subjects."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Yes",
+          "evidence_snippet": "Censoring was done for ischemic stroke, weaning of ECMO, device upgrade, or death.",
+          "reasoning": "Reasons for censoring (the equivalent of loss to follow-up in this context) are explicitly defined."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not specifically compare the characteristics of those censored early versus those who reached 100 days, though this is less critical in a Cox model."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is no explicit analysis comparing 'completers' vs 'non-completers' as the study uses a survival analysis framework."
+        }
+      ]
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "While LDH is an objective lab value, the study uses a data-dependent cut-point (>750 U/L) derived from ROC analysis within the same cohort, which can lead to overestimation of the prognostic effect.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "The exposure of interest was serum LDH prior to ECMO cannulation.",
+          "reasoning": "The factor is clearly defined as the pre-cannulation serum LDH level."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "LDH values prior to ECMO placement were captured.",
+          "reasoning": "LDH is a standardized laboratory assay with high reliability."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "No",
+          "evidence_snippet": "This threshold was derived by applying receiver operating characteristics curve analysis to identify a cut-point with optimal sensitivity and specifcity for HS",
+          "reasoning": "The cut-point of 750 U/L was data-dependent (derived from the study's own ROC analysis), which is a source of bias."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "LDH values prior to ECMO placement were captured.",
+          "reasoning": "Standard clinical laboratory protocols across the 17 centers are assumed for this routine test."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Partial",
+          "evidence_snippet": "384 had an available LDH... of 520 patients",
+          "reasoning": "26% of the sample had missing PF data, which is significant but often acceptable in registry studies."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "No",
+          "evidence_snippet": "Patients with no available data on LDH were excluded",
+          "reasoning": "The study used complete case analysis (exclusion) rather than imputation for the PF."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The outcome (Hemorrhagic Stroke) is defined by objective imaging (CT), which is the gold standard, minimizing measurement bias.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "The primary outcome was occurrence of HS, evidenced via brain imaging using head computed tomography",
+          "reasoning": "The outcome is clearly defined by imaging confirmation."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "evidenced via brain imaging using head computed tomography",
+          "reasoning": "CT imaging is a highly valid and reliable method for diagnosing hemorrhagic stroke."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "as clinically indicated based on clinical judgement by the treated physician",
+          "reasoning": "While 'clinically indicated' implies some variation in timing, the diagnostic tool (CT) remains the standard across participants."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study performs robust multivariable adjustment using several models to account for demographics, disease severity (pH, lactate), and inflammation (ferritin).",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Yes",
+          "evidence_snippet": "Adjustment was performed for covariates... age, sex, prone positioning, ECMO duration, and pre-ECMO serum creatinine... pH and lactic acid... platelets and ferritin",
+          "reasoning": "The study measures and adjusts for major clinical, physiological, and inflammatory confounders."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1... BMI, kg/m2... MAP, mmHg... P:F ratio",
+          "reasoning": "Confounders are standard clinical variables with clear units and definitions."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Data source was a voluntary registry... Data entry, training and validation procedures of this registry have been published",
+          "reasoning": "The registry uses validated data entry procedures for clinical and lab data."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1... stratifed by LDH levels",
+          "reasoning": "Measurements were taken at the same clinical timepoint (pre-ECMO) for all patients."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "No",
+          "evidence_snippet": "Adjustment was performed for covariates present in>90% of patients",
+          "reasoning": "The study appears to have excluded variables with high missingness rather than using imputation."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "Partial",
+          "evidence_snippet": "retrospective cohort analysis",
+          "reasoning": "As a retrospective study, confounding was not controlled by design (e.g., matching), but rather by analysis."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "After adjustment for clinical covariates, high LDH remained associated with subsequent HS (aHR: 2.64, 95% CI 1.39–4.92).",
+          "reasoning": "Multivariable Cox regression was used appropriately to adjust for multiple sets of confounders."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical methods are appropriate for the data type (survival analysis) and the results are reported transparently, including subgroup analyses and multiple adjustment models.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Multivariable Cox proportional hazard models were used to determine the risk of HS",
+          "reasoning": "The analytical plan is clearly described in the Methods section."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "Adjustment was performed for covariates... previously known to be associated with HS and those with a univariable associated with LDH groups (P < 0.2).",
+          "reasoning": "The model building strategy combined clinical knowledge with statistical screening."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "Kaplan Meier analyses... Multivariable Cox proportional hazard models",
+          "reasoning": "Survival analysis is the correct approach for time-to-event data with censoring."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Findings were similar when restricting to patients supported by venovenous ECMO only.",
+          "reasoning": "The authors report primary, adjusted, and subgroup analyses consistently."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/14_Thiara_2024/Nunez_2023.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T10:55:02.966043"
+  }
+}

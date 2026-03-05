@@ -1,0 +1,287 @@
+{
+  "paper_metadata": {
+    "title": "Cognitive performance in older people after mild traumatic brain injury: Trauma effects and other risk factors",
+    "first_author": "Camilla Hume",
+    "year": "2023",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study clearly defines the target population (older adults ≥ 65) and uses a consecutive recruitment strategy from a major trauma center. Inclusion/exclusion criteria are explicit, and the use of both trauma and community controls strengthens the representativeness of the sample for the prognostic questions asked.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Older mTBI patients (n= 40) and older adults with mild traumatic injury but without head injury (n= 66) were compared to a noninjured community control group (n= 47).",
+          "reasoning": "The population is clearly defined by age (≥ 65) and injury status, with specific sample sizes for each subgroup."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "Trauma patients who consecutively visited The Alfred Hospital emergency department following acute injury (with or without head injury) were recruited between January 2016 and March 2019",
+          "reasoning": "Consecutive recruitment from a specific emergency department is a gold standard for limiting selection bias in prognosis studies."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "recruited between January 2016 and March 2019",
+          "reasoning": "The specific dates for the recruitment window are provided."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "The Alfred Hospital emergency department... Melbourne, Australia",
+          "reasoning": "The specific hospital and city are identified."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "Inclusion criteria for all participants were based on previous research (Kinsella et al., 2014) and included: 1) age ≥ 65 years, 2) English fluency, 3) functional independence prior to injury... Exclusion criteria were: 1) diagnosed life-threatening medical illness, 2) conditions known to affect cognition (e.g., Alzheimer's dementia)...",
+          "reasoning": "The study provides a comprehensive list of both inclusion and exclusion criteria, including pre-injury functional status and cognitive health."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Partial",
+          "evidence_snippet": "One-hundred and forty-two trauma patients agreed to participate. Fifteen participants withdrew prior to or following three month assessment, and 21 participants were excluded from analysis, leaving a total of 106 participants",
+          "reasoning": "While the flow is described, the initial number of 'eligible' patients screened vs. those who agreed is not explicitly stated, though the retention of those who agreed is reasonable (approx 75%)."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 2. Demographic and injury information for mild traumatic brain injury (mTBI), Trauma control (TC), and community control (CC) groups",
+          "reasoning": "Table 2 provides detailed baseline data including age, gender, education, comorbidities, and injury severity (ISS/GCS)."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "There is a significant difference in age between those who completed the study and those who withdrew/were excluded. Since age is a primary prognostic factor being studied, this 'informative censoring' introduces a moderate risk of bias, likely underestimating the cognitive deficits in the oldest-old.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Partial",
+          "evidence_snippet": "One-hundred and forty-two trauma patients agreed to participate... leaving a total of 106 participants",
+          "reasoning": "About 25% of the initial consenting trauma sample was lost to follow-up or excluded, which is borderline for prognosis studies."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text mentions why they left (withdrawals/exclusions) but does not describe attempts to retrieve data for those who withdrew."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Yes",
+          "evidence_snippet": "Withdrawals = participants who either were no longer able to participate (moved interstate, ill health), no longer wished to participate or incomplete data set.",
+          "reasoning": "General reasons for withdrawal are categorized in the Figure 1 note."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "Partial",
+          "evidence_snippet": "Mean age was significantly lower in the final sample, (M = 74.34 years, SD = 6.13) compared to those not included (M = 79.33 years, SD = 7.80)... In contrast, education and gender did not differ significantly",
+          "reasoning": "The authors compared age, education, and gender between completers and non-completers, but other baseline health variables were not compared."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "No",
+          "evidence_snippet": "Mean age was significantly lower in the final sample... compared to those not included",
+          "reasoning": "There was a statistically significant difference in age, which is a key characteristic in this study."
+        }
+      ]
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The prognostic factors (mTBI, GCS, age, etc.) are defined using international consensus criteria and standard medical scales. The use of GCS and neuroimaging provides objective measures of injury severity.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "Presence of mTBI was identified based on consensus criteria (Kristman et al., 2014; Lefevre-Dognin et al., 2021) outlined in Table 1.",
+          "reasoning": "The study uses a dedicated table to define the primary prognostic factor (mTBI) using GCS, LOC, and PTA parameters."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "GCS score of 13–15 by 30 min postinjury or later... AIS scores were used to calculate a total injury severity score",
+          "reasoning": "Standardized clinical tools (GCS, AIS, ISS) were used, which are the clinical standards for injury measurement."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "GCS (i.e., 15 or < 15)",
+          "reasoning": "The cut-point for GCS (15 vs <15) is a standard clinical distinction in mTBI research, not an arbitrary data-driven cut."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Patient medical records were screened for suitability.",
+          "reasoning": "All trauma patients were assessed via the same hospital record system following ED presentation."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "multiple imputation analysis was performed... (8% of the final dataset)",
+          "reasoning": "Missing data was low (8%) and handled with appropriate statistical techniques."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "Yes",
+          "evidence_snippet": "multiple imputation analysis was performed using five imputation datasets",
+          "reasoning": "Multiple imputation is a robust method for handling missingness in prognostic studies."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "Outcomes were measured using standardized, validated neuropsychological batteries. The study also included performance validity tests to ensure the data reflected true cognitive ability, and the timing of the outcome (3 months) was consistent for all participants.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "Cognitive assessment measured performances in several cognitive domains... including processing speed, attention and executive functioning, and learning and memory... Follow-up assessments were scheduled for three months postinjury",
+          "reasoning": "The outcome (cognition) and the timeframe (3 months) are explicitly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "Standard neuropsychological tasks included; i) Coding (WAIS-IV)... Trail Making Test (TMT)... CogState computerized cognitive tasks... all participants included in the final sample passed two embedded performance validity tests",
+          "reasoning": "The study uses well-validated psychometric instruments and includes validity checks to ensure data quality."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "The selected cognitive tasks were administered in the same order for all participants.",
+          "reasoning": "Standardization of administration order was maintained across the sample."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study performed multivariable hierarchical regression and moderation analyses, accounting for key confounders such as education, pre-existing depression, and physical pain. The use of a trauma control group specifically addresses the confounding effect of 'general trauma' vs. 'brain injury'.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Yes",
+          "evidence_snippet": "Preinjury variables included age, education level, gender, number of comorbidities, and self-reported previous history of depression... Postinjury variables were current levels of psychological distress... and pain",
+          "reasoning": "The study identifies and measures a comprehensive list of potential confounders relevant to geriatric TBI."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "psychological distress (Depression Anxiety Stress Scale-21 distress score...); pain (\"to what extent do you feel that physical pain prevents you from doing what you need to do?\")",
+          "reasoning": "Confounders are defined by specific scales or questions."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "DASS-21... ISS... GCS",
+          "reasoning": "Validated scales and clinical indices were used for confounding variables."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Participants completed the same telephone interview as trauma patients described above.",
+          "reasoning": "The baseline screening and follow-up protocols were standardized across groups."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "Yes",
+          "evidence_snippet": "multiple imputation analysis was performed using five imputation datasets",
+          "reasoning": "Missingness in confounders was handled via multiple imputation."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "Yes",
+          "evidence_snippet": "compared to trauma and community age-matched controls",
+          "reasoning": "The study design used age-matched control groups to account for the primary confounder of aging."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "hierarchical regression analysis identified older age, lower education, and history of depression as significant independent predictors",
+          "reasoning": "Multivariable regression was used to adjust for the influence of multiple factors simultaneously."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical approach is sophisticated, using MANOVA to control for multiple comparisons, hierarchical regression for prediction, and moderation analysis for interaction effects. Results are reported transparently, including effect sizes (Cohen's d) and p-values.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Statistical methods section describes MANOVA, ANOVA with Holm adjustments, hierarchical regression, and moderation analysis.",
+          "reasoning": "The analytical plan is detailed and follows standard statistical reporting guidelines."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "Potential predictors were grouped into 'preinjury,' 'peri-injury,' and 'postinjury' variables for ease of interpretation (see Silverberg et al., 2015).",
+          "reasoning": "The model building followed a pre-specified conceptual framework from established literature."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "hierarchical regressions were conducted... moderation regression analysis demonstrated that GCS... moderated the relationship",
+          "reasoning": "The models used (regression and moderation) directly address the prognostic and interaction questions posed by the study."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Tables 3, 5, and 6 report all subtests and composite scores, including non-significant findings.",
+          "reasoning": "The authors report both significant and non-significant results across all measured domains."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/7_Tan_2025/Hume_2022.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T11:20:28.229363"
+  }
+}

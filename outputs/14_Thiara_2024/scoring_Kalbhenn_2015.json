@@ -1,0 +1,287 @@
+{
+  "paper_metadata": {
+    "title": "Identification of acquired coagulation disorders and effects of target-controlled coagulation factor substitution on the incidence and severity of spontaneous intracranial bleeding during veno-venous ECMO therapy",
+    "first_author": "J Kalbhenn",
+    "year": "2015",
+    "analysis_timestamp": "2023-10-27 10:15:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study uses a consecutive sampling method in a single-center ICU setting, which is appropriate for the target population (severe ARDS requiring ECMO). However, the sample size is very small (n=39 total), and while baseline characteristics are provided, the retrospective nature and lack of detailed data on eligible non-participants introduce moderate risk of selection bias.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "All patients included in the study were treated in the Intensive Care Unit (ICU) at Freiburg University Medical Centre, Department of Anaesthesiology and Critical Care Medicine from 2009 till 2012.",
+          "reasoning": "The source population is clearly defined as ICU patients at a specific academic medical center."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "Nineteen consecutive patients before (control group) and twenty consecutive patients after (intervention group) the implementation of the abovementioned protocol have been included.",
+          "reasoning": "The use of consecutive sampling helps minimize selection bias within the recruitment window."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "from 2009 till 2012. A protocol for the analysis of acquired coagulation disorders in patients undergoing ECMO was introduced in the department in July 2011.",
+          "reasoning": "The dates for both the total study period and the transition between groups are explicitly stated."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "Intensive Care Unit (ICU) at Freiburg University Medical Centre, Department of Anaesthesiology and Critical Care Medicine",
+          "reasoning": "The specific department and hospital are identified."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "ECMO was implanted as a rescue therapy because of severe hypoxic failure despite conventional treatment when the mortality risk was estimated to be 80% or higher... Patients receiving veno-arterial extracorporeal support (extracorporeal life support; ECLS) were excluded.",
+          "reasoning": "The study specifies the clinical indication for inclusion and the exclusion of VA-ECMO patients."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not provide a flow diagram or the number of eligible patients who were excluded for reasons other than the VA-ECMO criteria."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "The two groups were comparable in terms of gender, age, bodyweight index and simplified acute physiology score (SAPS) II. Details are presented in Table 2.",
+          "reasoning": "Table 2 provides a comprehensive list of demographics, severity scores, and indications."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "As this is a retrospective ICU-based study with a hard endpoint (intracranial hemorrhage/death), there was no loss to follow-up reported. All patients included in the initial groups were accounted for in the final analysis.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "Nineteen consecutive patients before (control group) and twenty consecutive patients after (intervention group) the implementation of the abovementioned protocol have been included in the study.",
+          "reasoning": "The results section reports on all 39 patients initially mentioned in the methods."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "Yes",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "In this acute ICU setting, there were no dropouts; therefore, this item is satisfied by the completeness of the dataset."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Yes",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No subjects were lost to follow-up."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No subjects were lost to follow-up."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Yes",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "All participants completed the study period (until death or decannulation)."
+        }
+      ]
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The prognostic factors (coagulation markers) were measured using standardized laboratory assays and RoTEM, which are objective and reliable. The protocol clearly defined the measurement intervals and targets.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1. Target-controlled coagulation protocol... Platelets (citrate) >100 thousand/µl... Factor XIII >50 %... VWF:RCo/VWF:Ag ratio >0.6",
+          "reasoning": "The factors and their target thresholds are explicitly defined in Table 1."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Laboratory results were used to collect all the required information... RoTEM: rotational thrombelastometry",
+          "reasoning": "Standardized laboratory tests and validated RoTEM technology were used."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1. Target-controlled coagulation protocol.",
+          "reasoning": "The cut-points were pre-defined by the clinical protocol, not derived post-hoc from the data."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "All patients included in the study were treated in the Intensive Care Unit (ICU) at Freiburg University Medical Centre",
+          "reasoning": "All measurements were performed in the same clinical and laboratory setting."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Partial",
+          "evidence_snippet": "24 (88%) of all patients measured for factor XIII activity... Nineteen (79%) patients measured for AVWS",
+          "reasoning": "Not all patients were measured for every factor, particularly in the control group where the protocol was not yet active."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is no mention of imputation for missing laboratory values."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The primary outcome (intracranial hemorrhage) was diagnosed via CCT, which is the gold standard. However, the study notes that CCT was only performed when clinically indicated or possible, potentially leading to under-detection in both groups. Furthermore, there was no mention of blinded outcome adjudication.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "The only way to prove intracranial bleeding during ECMO therapy is cranial computed tomography (CCT)... All CCT scans from before, during and after the ECMO therapy have been retrospectively evaluated",
+          "reasoning": "The outcome is defined by radiographic evidence on CCT."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Partial",
+          "evidence_snippet": "All CCT scans... have been retrospectively evaluated, paying special regard to intracranial haemorrhage.",
+          "reasoning": "CCT is highly reliable, but there is no mention of whether the radiologists or investigators were blinded to the group assignment (control vs. intervention)."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "All CCT scans from before, during and after the ECMO therapy have been retrospectively evaluated",
+          "reasoning": "The diagnostic modality (CCT) was consistent across the study."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "High",
+      "risk_reasoning": "The study does not perform multivariable adjustment. A significant confounder—the target aPTT—differed significantly between the two groups (50s vs 40s), which the authors admit could independently influence the bleeding risk. The small sample size precluded statistical adjustment for this and other potential confounders like disease severity (SAPS II).",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Yes",
+          "evidence_snippet": "The two groups were comparable in terms of gender, age, bodyweight index and simplified acute physiology score (SAPS) II.",
+          "reasoning": "Key baseline severity and demographic markers were recorded."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 2. Patient characteristics... SAPS II, median (Range)... aPTT [sec]",
+          "reasoning": "Confounders like severity scores and anticoagulation levels are clearly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Electronic ICU charts, ECMO implantation reports and laboratory results were used to collect all the required information.",
+          "reasoning": "Data were sourced from objective electronic medical records."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "All patients included in the study were treated in the Intensive Care Unit (ICU) at Freiburg University Medical Centre",
+          "reasoning": "Consistent setting for all data collection."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No imputation methods described."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "No",
+          "evidence_snippet": "Nineteen consecutive patients before (control group) and twenty consecutive patients after (intervention group)",
+          "reasoning": "This was a before-and-after cohort study; there was no matching or stratification in the design."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "No",
+          "evidence_snippet": "Statistical analysis was performed... using Fisher's exact test... and the Mann-Whitney-U-test",
+          "reasoning": "Only univariable tests were used. No multivariable regression was performed to adjust for the significant difference in aPTT or SAPS II scores."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The analysis is limited by the small sample size, which resulted in the study being underpowered to detect significant differences in the primary outcome (p=0.13). While the reporting is transparent regarding the lack of significance, the lack of a multivariable model and the descriptive nature of the study limit the strength of the conclusions.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Statistical analysis was performed with GraphPad InStat®... using Fisher's exact test (incidence of intracranial bleeding) and the Mann-Whitney-U-test (consumption of blood products).",
+          "reasoning": "The tests used are clearly stated and appropriate for the data types, though limited in scope."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No statistical modeling (e.g., Cox or Logistic regression) was performed."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Partial",
+          "evidence_snippet": "A p-value of <0.05 was chosen as the level of significance.",
+          "reasoning": "While the tests were correct for simple comparisons, they were inadequate to address the confounding inherent in the before-after design."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Statistical analysis showed a p=0.13 using Fisher's exact test to check for differences in the incidence of intracranial bleeding between the groups.",
+          "reasoning": "The authors report the non-significant p-values for their primary hypothesis and mortality, rather than only highlighting the positive trends."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/14_Thiara_2024/Kalbhenn_2015.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T10:59:40.758698"
+  }
+}

@@ -1,0 +1,286 @@
+{
+  "paper_metadata": {
+    "title": "Association Between Socioeconomic Status and Functional Impairment 3 Months After Ischemic Stroke: The Berlin Stroke Register",
+    "first_author": "Maike Miriam Grube",
+    "year": "2012",
+    "analysis_timestamp": "2023-10-27 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study uses a large multicenter registry covering 80% of stroke patients in Berlin, but significant selection bias is present. Only 64.9% of screened patients provided consent, and the final analyzed sample was significantly younger and less severely affected than the general stroke population, potentially underestimating the association.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "The participating stroke units currently document ≈9000 patients per year, covering ≈80% of all stroke patients in Berlin.",
+          "reasoning": "The source population is clearly defined as stroke patients within the Berlin urban area treated at participating stroke units."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "recruitment for a 3-month follow-up of consecutively treated patients took place within 13 hospitals of the Berlin Stroke Register.",
+          "reasoning": "Consecutive recruitment from a network of 13 hospitals is described, which is a robust sampling method."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "Between June 2010 and September 2011, recruitment for a 3-month follow-up of consecutively treated patients took place",
+          "reasoning": "The specific dates for the recruitment window are provided."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "The Berlin Stroke Register is a network of stroke units in the city of Berlin",
+          "reasoning": "The setting (stroke units) and location (Berlin, Germany) are explicitly stated."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "rating": "Yes",
+          "evidence_snippet": "Data collection during acute treatment in hospital included all patients aged 18 years or older who were admitted to 1 of the participating hospitals after first or recurrent stroke or transient ischemic attack within 7 days after onset of symptoms.",
+          "reasoning": "Detailed inclusion/exclusion criteria including age, diagnosis, and time from onset are provided."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "giving a participation rate of 64.9% of patients screened.",
+          "reasoning": "A participation rate of ~65% is below the ideal 80% threshold, and the authors admit the analyzed sample differs from the general population."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1. Patient Characteristics and Functional Outcome According to Highest Educational Level",
+          "reasoning": "Table 1 provides a comprehensive breakdown of age, sex, NIHSS, and comorbidities."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "While the 3-month vital status was known for nearly all patients, 20% were lost to follow-up for the functional outcome. The authors acknowledge that those lost were likely more severely affected, which introduces a risk of attrition bias.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Partial",
+          "evidence_snippet": "Of the remaining 2349 patients with ischemic stroke, 477 patients (20.0%) were lost to follow-up.",
+          "reasoning": "An 80% follow-up rate is acceptable but on the lower end for a 3-month study."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "Yes",
+          "evidence_snippet": "Patients who did not return the questionnaire were reminded by a telephone call... Vital status of patients lost to follow-up was verified with the data registration office.",
+          "reasoning": "The study describes clear protocols for following up with non-responders and verifying vital status."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Partial",
+          "evidence_snippet": "The patients included in the present analyses were significantly younger and had less severe strokes and minor functional impairment than the total population",
+          "reasoning": "The authors discuss the impact of loss to follow-up but do not provide a granular breakdown of reasons for every dropout."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "No",
+          "evidence_snippet": "we do not have information on the education level of patients who did not agree to participate or who were either lost to follow-up",
+          "reasoning": "The authors explicitly state they lack the primary prognostic factor (education) for those lost to follow-up."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "No",
+          "evidence_snippet": "The patients included in the present analyses were significantly younger and had less severe strokes... than the total population",
+          "reasoning": "The authors confirm systematic differences between completers and the total eligible population."
+        }
+      ]
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "Education is a standard, stable proxy for SES. The measurement used validated German epidemiological standards and was applied consistently, though it was collected retrospectively at 3 months.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "Data reflecting highest educational level and vocational training qualification were summarized into the following categories according to recommendations from German epidemiological societies",
+          "reasoning": "The 5-level categorization of education is clearly defined based on national standards."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "education frequently has been reported to be the closest proxy to aggregate measures of socioeconomic status.",
+          "reasoning": "Education is a reliable self-reported metric with low recall bias compared to income."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "summarized into the following categories according to recommendations from German epidemiological societies and the Federal Statistical Office",
+          "reasoning": "The categories used are based on external standards, not data-driven optimization."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Information on patient socioeconomic status was obtained at follow-up 3 months after stroke using education",
+          "reasoning": "All participants were assessed using the same questionnaire/interview format at the same time point."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "184 patients were excluded because of missing information on education level or functional recovery",
+          "reasoning": "The proportion of missing data among those who completed follow-up is relatively low (~10%)."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "No",
+          "evidence_snippet": "184 patients were excluded because of missing information",
+          "reasoning": "The study used complete case analysis rather than imputation for missing PF data."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The Barthel Index is a validated, standard tool for functional outcome in stroke. The study used versions specifically validated for postal/telephone use, ensuring reliability across different modes of administration.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "Functional impairment 3 months after stroke was defined by the Barthel Index (BI)... score from 0 (completely dependent) to 100 (independent).",
+          "reasoning": "The outcome, timing, and scoring are explicitly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "The instrument assesses limitations in activities of daily living... validated for the use in postal and telephone follow-up studies.",
+          "reasoning": "The BI is a gold standard in stroke research and the authors used a version validated for their specific delivery methods."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Patients received standardized postal questionnaires 3 months after the index event. Patients who did not return the questionnaire were reminded by a telephone call",
+          "reasoning": "While the mode varied (postal vs telephone), the tool was standardized and validated for both."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study adjusted for the most critical clinical confounders (age, stroke severity via NIHSS, and comorbidities). While some lifestyle factors were missing, the primary clinical drivers of stroke outcome were well-accounted for in the multivariable model.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST).",
+          "rating": "Partial",
+          "evidence_snippet": "We adjusted for age, sex, prestroke dependency, stroke severity, functional deficit after stroke onset, and comorbidities",
+          "reasoning": "Major clinical confounders were measured, but lifestyle factors (smoking, diet) and acute treatments (thrombolysis) were not explicitly included in the model."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "The following comorbidities were recorded... diabetes mellitus (elevated blood glucose level or history of diabetes or medical treatment)... hypertension (systolic blood pressure of >140 mmHg...)",
+          "reasoning": "Clinical confounders were defined using standard medical criteria."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "documented by members of hospital staff during acute treatment. Stroke severity was assessed using the German version of the National Institutes of Health Stroke Scale.",
+          "reasoning": "Confounders were measured by professionals during the acute phase using validated scales (NIHSS)."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "documented by members of hospital staff during acute treatment.",
+          "reasoning": "All baseline confounders were collected in the hospital setting for all participants."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is no mention of imputation; the study appears to use complete case analysis."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The study did not use design-stage control (like matching); it relied on statistical adjustment."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "In multivariable logistic regression models, we calculated adjusted odds ratios... adjusted for age, sex, prestroke dependency, stroke severity, and comorbidities",
+          "reasoning": "The analysis used multivariable logistic regression to adjust for a comprehensive set of clinical variables."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical approach is sound, using multivariable logistic regression with checks for multicollinearity. Results are reported transparently with odds ratios and confidence intervals for all levels of the prognostic factor.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "We used multivariable logistic regression... accounted for possible collinearity between the included variables by performing a linear regression using multicollinearity diagnostic statistics",
+          "reasoning": "The analytical steps, including the handling of collinearity, are well-described."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "The initial model was adjusted for age and sex. In a second model, prestroke dependency, stroke severity, and comorbidities... were added",
+          "reasoning": "The hierarchical approach to model building is logical and based on known clinical predictors."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "multivariable logistic regression to examine the association between highest education... and functional impairment",
+          "reasoning": "Logistic regression is appropriate for the binary/categorical outcome of the Barthel Index categories used."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Table 2. Crude and Adjusted Odds Ratios for Good Functional Recovery",
+          "reasoning": "The study reports both crude and adjusted values for all categories, showing the full gradient of the effect."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/11_Gallucci_2026/Grube_2012.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T10:34:31.485766"
+  }
+}

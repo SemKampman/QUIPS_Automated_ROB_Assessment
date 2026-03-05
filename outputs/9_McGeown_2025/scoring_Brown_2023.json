@@ -1,0 +1,287 @@
+{
+  "paper_metadata": {
+    "title": "Associations between psychological resilience and metrics of white matter microstructure in pediatric concussion",
+    "first_author": "Olivier Brown",
+    "year": "2023",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study provides a detailed description of the source population, recruitment setting (ED), and clear inclusion/exclusion criteria. The use of an orthopedic injury control group helps mitigate selection bias related to the trauma of injury itself.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Children with an acute concussion or orthopedic injury were recruited from the emergency department.",
+          "reasoning": "The target population (pediatric patients with acute injury) is clearly defined by age and clinical setting."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "This was a substudy of the randomized clinical trial entitled Pediatric Concussion Assessment of Rest and Exertion (PedCARE; Ledoux et al., 2019), where a subsample of children and adolescents with a concussion received an MRI",
+          "reasoning": "Recruitment was nested within a larger RCT, providing a systematic sampling frame from the ED."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "While the timing relative to injury is described, the specific calendar dates/years of the recruitment period are not explicitly stated in this manuscript."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location) are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "recruited from the emergency department... Research Ethic Board at the Children's Hospital of Eastern Ontario.",
+          "reasoning": "The setting (ED) and the specific institution (CHEO) are identified."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "sustained a concussion within 48 h prior to the emergency department visit; were 10 through 17.99 years of age; and proficient in English.",
+          "reasoning": "Detailed criteria including age, injury window, and clinical exclusions (GCS, neurosurgery) are provided."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "A total of 129 participants qualified for the MRI portion of the PEDCare study, 95 of which were included in this study after meeting set conditions.",
+          "reasoning": "While 95/129 (73.6%) of those qualified were analyzed, the initial participation rate of all eligible ED patients is not provided."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1 Demographic data... Age, History of concussion, Sex, Handedness, Diagnostic history, Mechanism of injury",
+          "reasoning": "Comprehensive baseline data is provided in Table 1 for both groups."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "There is a significant amount of missing data for the 4-week follow-up (especially HBI scores), which required imputation. While the authors tested for 'Missing Completely at Random', the high volume of missingness in a small sample increases risk.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Partial",
+          "evidence_snippet": "A total of 20 cases of 4-week HBI data were missing within the concussion group.",
+          "reasoning": "20/66 (30%) missing data for a key clinical variable at follow-up is high for a prognosis study."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not describe specific protocols used to retain or follow up with participants who missed sessions."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The reasons for the 20 missing HBI cases or 15 missing imaging cases are not detailed."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "Unsure",
+          "evidence_snippet": "The 4-week HBI data were considered missing at random (χ 2 = 1.19[5, n = 66], p = .946)",
+          "reasoning": "The authors performed statistical tests for randomness but did not provide a descriptive table comparing dropouts to completers."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Insufficient data provided to confirm that those lost to follow-up were identical to those who remained."
+        }
+      ]
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study uses a validated, shortened version of a standard resilience scale (CD-RISC 10) and applies appropriate statistical handling (Winsorization) for outliers.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "The CD-RISC 10 (Campbell-Sills & Stein, 2007) is a 5-point Likert scale with 10 items... computes a degree of resilience in the past month.",
+          "reasoning": "The prognostic factor (resilience) is clearly defined and the tool is cited."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "The CD-RISC 10 has good internal consistency, convergence, construct and content validity",
+          "reasoning": "The authors cite psychometric validation studies for the scale."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "The computed sum of all items on the scale, completed by the participant, was used.",
+          "reasoning": "Resilience was treated as a continuous variable (sum score), avoiding arbitrary dichotomization."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "self-report data such as the... Connor– Davidson Resilience Scale 10 were collected at both 72 h and 4-weeks post-injury.",
+          "reasoning": "Standardized collection for all participants."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "A total of three cases of 4-week resilience were missing within the concussion group.",
+          "reasoning": "Missingness for the PF was very low (3/66)."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "Yes",
+          "evidence_snippet": "the expectation–maximization algorithm was applied to impute the missing 4-week resilience values",
+          "reasoning": "EM algorithm is an acceptable method for handling missing data in this context."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The outcome (DTI metrics) is an objective physiological measure. The use of standardized FSL pipelines and TFCE correction limits measurement bias.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "FA, AD, RD, and MD were all assessed from the DTI data... at <72 h (±48 h) and at 4 weeks (±5 days)",
+          "reasoning": "DTI metrics and the timing of measurement are explicitly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "Voxel-wise analyses of FA, MD, AD, and RD data were computed using tract-based spatial statistics following guidelines provided in the FMRIB software",
+          "reasoning": "Standardized, validated neuroimaging processing pipelines (FSL/TBSS) were used."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "identical sequences were used at both time points (72-h and 4-weeks post-injury).",
+          "reasoning": "Consistency in MRI parameters across all subjects and timepoints."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study identifies and adjusts for major confounders (age, sex, psychiatric history, and previous concussion) in the multivariable models.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Yes",
+          "evidence_snippet": "These sets of analyses included the following covariates: (1) age, (2) sex, (3) history of concussion, and (4) history of psychiatric illness.",
+          "reasoning": "Key demographic and clinical confounders were captured."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Partial",
+          "evidence_snippet": "Diagnostic history of depression and anxiety (i.e., history of psychiatric illness) and reported mechanism of injury was collected",
+          "reasoning": "While variables are listed, the specific criteria for 'history' (e.g., clinical diagnosis vs self-report) are slightly vague."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Partial",
+          "evidence_snippet": "reported mechanism of injury was collected during the emergency department visit",
+          "reasoning": "Relies on self-report/parent-report in the ED, which is standard but subject to recall bias."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "collected during the emergency department visit",
+          "reasoning": "Standardized collection at the point of entry for all participants."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text does not specify if any covariate data (age, sex, history) was missing or imputed."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "Yes",
+          "evidence_snippet": "The comparison group of orthopedic-injured children was also matched to the concussion group in age and sex.",
+          "reasoning": "The study used a matched control group design."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "Covariates were entered jointly across the two groups to control for differences in white matter microstructure between groups.",
+          "reasoning": "Multivariable regression (GLM) was used to adjust for confounders."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The analysis uses robust nonparametric permutation testing and TFCE to handle the non-normal distribution of DTI data and multiple comparisons.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Nonparametric permutation testing was conducted on wholebrain FA, MD, AD, and RD values using FSL's randomize command with 5000 permutations",
+          "reasoning": "The statistical pipeline is described in detail."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "The two-sample randomized pipeline was modeled to investigate the association between resilience and DTI metrics... whether group moderates the association.",
+          "reasoning": "The model tests the primary hypothesis and the interaction (moderation) as planned."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "The DTI data included in our study are inherently limited to nonparametric tests, as they do not meet the assumption of normality",
+          "reasoning": "The choice of nonparametric permutation testing is appropriate for neuroimaging data."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Analyses identified one significant inverse association... No significant associations were identified between resilience and AD.",
+          "reasoning": "Both significant and non-significant results for all DTI metrics are reported."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/9_McGeown_2025/Brown_2023.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T11:36:32.569413"
+  }
+}

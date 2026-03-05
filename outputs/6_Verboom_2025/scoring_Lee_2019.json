@@ -1,0 +1,287 @@
+{
+  "paper_metadata": {
+    "title": "Continuous Electroencephalography after Moderate to Severe Traumatic Brain Injury",
+    "first_author": "Hyunjo Lee",
+    "year": "2019",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study uses a well-defined cohort from a multicenter RCT (INTREPID2566) with clear inclusion/exclusion criteria. However, only 59% of the original cohort underwent cEEG, and the authors acknowledge that patients with cEEG appeared to have more severe injuries (higher rates of SAH and sedation) than those without, introducing potential selection bias.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Study participants included those aged 18–70 years with nonpenetrating TBI, post-resuscitation GCS 4–12, post-resuscitation hemodynamic stability, and able to randomize to study drug or placebo within 8 hours of injury.",
+          "reasoning": "The target population is clearly defined by age, injury type, and clinical severity (GCS)."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "multicenter randomized, controlled phase 2 clinical trial conducted April 2010 to January 2016 at 20 US centers",
+          "reasoning": "The recruitment from 20 US Level I trauma centers over a 6-year period is well-documented."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "conducted April 2010 to January 2016",
+          "reasoning": "The specific dates for the study period are provided."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "20 US Level I trauma centers",
+          "reasoning": "The setting and geographic scope are clearly stated."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "Exclusion criteria were spinal cord injury, significant bodily co-injuries, prior brain injury requiring hospitalization, severe comorbidities, weight >150kg, fluid resuscitation >6L prior to randomization, and those at-risk for QT prolongation.",
+          "reasoning": "Detailed inclusion and exclusion criteria are provided, including 'zero time' (within 8 hours of injury)."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "cEEG was performed in 155/261 (59%) patients.",
+          "reasoning": "Participation in the cEEG sub-study was only 59%, which is below the preferred 80% threshold, raising concerns about whether the analyzed sample represents the full eligible cohort."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 2 shows the overall patient characteristics and differences between those undergoing cEEG vs. those without cEEG.",
+          "reasoning": "Table 2 provides a comprehensive breakdown of age, gender, GCS, CT findings, and injury scores."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The follow-up rate for the primary outcome (GOSE at 3 months) was high (91% of the cEEG cohort), and the authors compared characteristics of those with and without outcome data, finding no significant differences.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "Overall, 139/152 (91%) patients had 3-month GOSE",
+          "reasoning": "A 91% follow-up rate for the primary outcome is considered excellent in TBI research."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not explicitly describe the specific methods used to track or re-contact participants who were lost to follow-up."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "While the number of lost participants is small, the specific reasons for their loss to follow-up are not detailed."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text does not provide a specific comparison table for the 13 patients missing the 3-month GOSE versus the 139 who completed it."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Yes",
+          "evidence_snippet": "Follow up at 3 months was available for 220/261 (84.3%) of patients... Both groups had similar injury severity scores.",
+          "reasoning": "The authors note that injury severity was similar between those with and without cEEG/follow-up, suggesting no major systematic bias in attrition."
+        }
+      ]
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study used standardized ACNS terminology and certified raters who were blinded to clinical data. The measurement of EEG features was rigorous and consistent across the cohort.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "Standardized terminology was used to describe IIC patterns and dominant background frequency, posterior dominant rhythm (PDR), background fast activity, and discontinuity",
+          "reasoning": "The prognostic factors (cEEG features) are defined using the ACNS Standardized Critical Care EEG Terminology."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Consensus EEG reviews were performed by raters certified in standardized cEEG terminology blinded to clinical data.",
+          "reasoning": "Blinding and the use of certified raters using a consensus approach ensure high reliability."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "Severe IIC was defined as ≥1.5 Hz lateralized rhythmic delta activity... simplified as >10% of the record consisting of attenuation or suppression",
+          "reasoning": "The study uses established ACNS cut-points rather than deriving new ones from the data."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Thirteen scalp electrodes were positioned based on the International 10–20 System... interpreted every 4 hours for the first 24 hours and daily for up to 4 subsequent days.",
+          "reasoning": "A standardized electrode montage and interpretation schedule were applied to all participants."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "three patients were excluded based on inadequate cEEG quality, yielding 152 patients",
+          "reasoning": "Only 3 out of 155 patients were excluded for data quality, indicating very high data completeness for the PF."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text does not mention imputation for missing EEG segments; it appears they used available data per patient."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The GOSE is a validated, standard outcome measure in TBI research. While the text doesn't explicitly state the GOSE assessors were blinded to the EEG, the EEG raters were blinded to the GOSE, and the GOSE was collected as part of the original RCT protocol.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "The primary outcome was the 3-month Glasgow Outcome Scale-Extended (GOSE).",
+          "reasoning": "The outcome and its timing (3 months) are clearly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "3-month GOSE, an eight-point ordinal functional outcome scale.",
+          "reasoning": "GOSE is the gold standard for functional outcome in TBI studies."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Functional outcome was dichotomized as unfavorable (GOSE 1–4... or favorable (GOSE 5–8)",
+          "reasoning": "The same scale and dichotomization were applied to all participants at the 3-month mark."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study performed multivariable adjustment using the IMPACT core model, which includes the most critical TBI confounders (age, GCS, pupils). They also adjusted for sedation and study drug allocation.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Yes",
+          "evidence_snippet": "adjusted for IMPACT clinical core model, ISS, IVH, GABAergic sedative administration and study drug allocation",
+          "reasoning": "The study accounts for major clinical, radiographic, and treatment-related confounders."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "IMPACT core linear predictor (LP), calculated using age, GCS motor score, and pupillary reactivity",
+          "reasoning": "The components of the primary confounding model (IMPACT) are explicitly listed."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "The International Mission for Prognosis and Analysis of Clinical Trials in TBI (IMPACT) model was validated across more than 15,000 patients",
+          "reasoning": "The study uses a highly validated prognostic model to capture confounding."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Clinical features were collected including demographics, TBI-specific parameters... CT classification within the first 24 hours",
+          "reasoning": "Standardized clinical and imaging data were collected for all participants."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text does not specify how missing clinical confounder data were handled, though the sample size for the final model suggests minimal missingness."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "Partial",
+          "evidence_snippet": "post-hoc analysis of the prospective, randomized controlled phase 2 multicenter INTREPID2566 study",
+          "reasoning": "While the parent study was an RCT, this specific analysis is post-hoc and observational, so it relies on statistical adjustment rather than design-based control."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "A proportional odds logistic regression model was constructed... including the IMPACT core linear predictor (LP)",
+          "reasoning": "The use of multivariable proportional odds regression is an appropriate statistical method for this data."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical methods are well-described, including the use of ROC curves and proportional odds models. The authors are transparent about the post-hoc nature of the study and the potential for being underpowered for certain analyses.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Data were analyzed using R (version 3.4.3... Statistical data were summarized as mean ±standard deviation or median (interquartile range [IQR])",
+          "reasoning": "The analytical approach is clearly laid out in the Methods section."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "Significant cEEG variables associated with unfavorable outcome were individually added to the model",
+          "reasoning": "The strategy of adding PFs to a validated base model (IMPACT) is a standard and appropriate approach for prognostic research."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "A proportional odds logistic regression model was constructed to evaluate independent predictors of the ordinal 3-month GOSE",
+          "reasoning": "Proportional odds models are ideal for ordinal outcomes like the GOSE."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "We found that severe IIC patterns... were not associated with functional outcome at 3 months",
+          "reasoning": "The authors report both significant and non-significant findings (e.g., the lack of association between IIC and outcome), suggesting no selective reporting bias."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/6_Verboom_2025/Lee_2019.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T11:10:49.292706"
+  }
+}

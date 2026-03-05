@@ -1,0 +1,294 @@
+{
+  "paper_metadata": {
+    "title": "Association of acute depressive symptoms and functional connectivity of emotional processing regions following sport-related concussion",
+    "first_author": "William T. McCuddy",
+    "year": "2018",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study uses a well-defined sample of NCAA Division I student-athletes with clear inclusion/exclusion criteria and a matched control group. The recruitment source and baseline characteristics are thoroughly described.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "A total of 94 NCAA Division I student-athletes were referred by sports medicine professionals",
+          "reasoning": "The source population is clearly identified as collegiate athletes within a specific competitive tier (NCAA Division I)."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "referred by sports medicine professionals and provided written informed consent.",
+          "reasoning": "Recruitment via sports medicine professionals is a standard and appropriate method for identifying acute concussion cases in this population."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The specific calendar years or duration of the recruitment period are not explicitly stated in the text."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "NCAA Division I student-athletes... Laureate Institute for Brain Research, Tulsa, OK",
+          "reasoning": "The setting (Division I athletics) and the geographic location of the research institute are provided."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "Concussions were diagnosed independent of the study at the time of injury by physicians trained in sports medicine following recommended guidelines (McCrory et al., 2013). No participants reported past or current mood disorders, anxiety disorders, or alcohol/substance abuse.",
+          "reasoning": "The study uses established clinical guidelines for diagnosis and provides clear psychiatric exclusion criteria."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "A total of 94 NCAA Division I student-athletes were referred... From this sample, 43 concussed athletes completed at least one visit",
+          "reasoning": "While the final sample size is clear, the total number of eligible athletes who declined to participate is not explicitly reported, making it difficult to calculate a true participation rate."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Sample characteristics are presented in Table 1. (Gender, Age, Education, Previous concussions, PTA, LOC)",
+          "reasoning": "Table 1 provides a comprehensive breakdown of demographics and injury characteristics for both groups."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "There is notable attrition across the three time points (43 at baseline to 30 at one month). While the reasons for scan exclusion (motion) are provided, the reasons for participants missing entire follow-up visits are not detailed, raising a moderate risk of attrition bias.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Partial",
+          "evidence_snippet": "43 concussed athletes completed at least one visit... 19 participated in all three visits and 36 participated in at least two visits.",
+          "reasoning": "Only 44% (19/43) of the concussed sample completed all three visits, which is relatively low for a longitudinal study."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text does not describe efforts to contact or collect data from athletes who missed follow-up visits."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Partial",
+          "evidence_snippet": "Rs-fMRI data from six concussed athletes at T1... were excluded due to poor scan quality or excessive head motion.",
+          "reasoning": "Reasons for data exclusion (technical/motion) are provided, but reasons for participant dropout (missing visits) are not."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is no comparison provided between the characteristics of those who completed the study and those who dropped out."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The study does not perform an analysis to check for systematic differences between completers and non-completers."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Attrition Summary",
+        "prompt": "Loss to follow-up (from baseline sample to study population analyzed) is not associated with key characteristics (i.e., the study data adequately represent the sample) sufficient to limit potential bias to the observed relationship between PF and outcome.",
+        "response_options": [
+          "Moderate"
+        ]
+      }
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The prognostic factor (depressive symptoms) was measured using the HAM-D, a gold-standard structured clinical interview, which is more reliable than self-report scales. The measurement was consistent across all participants.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "depressive symptoms were quantified using a structured interview for the Hamilton Depression Rating Scale (HAM-D) collected at each study visit.",
+          "reasoning": "The HAM-D is a well-defined and validated instrument for quantifying depressive symptom severity."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "structured interview for the Hamilton Depression Rating Scale (HAM-D)",
+          "reasoning": "Structured interviews are considered the gold standard for depression assessment, reducing the bias associated with simple self-report."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "Linear mixed-effects models with time as a fixed factor... to determine changes in HAM-D scores over time.",
+          "reasoning": "The study primarily treats HAM-D as a continuous variable in the main analyses, which is appropriate."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "HAM-D collected at each study visit.",
+          "reasoning": "The protocol indicates a standardized assessment for all participants at all time points."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "HAM-D: 34/34/30 (Table 1)",
+          "reasoning": "HAM-D data was available for all participants who attended the visits."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "Partial",
+          "evidence_snippet": "Linear mixed-effects models with time as a fixed factor and a random intercept",
+          "reasoning": "Mixed-effects models are appropriate for handling missing data in longitudinal designs as they use all available data points without requiring simple imputation."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The outcome (functional connectivity) was measured using standardized 3T MRI protocols and rigorous preprocessing (motion censoring, regressing white matter/CSF signals). The use of a meta-analytically derived network reduces bias in ROI selection.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "functional connectivity was calculated in a meta-analytically derived network of regions associated with emotional processing.",
+          "reasoning": "The outcome is clearly defined as Fisher-Z transformed correlation coefficients between 23 specific ROIs."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "Resting state fMRI data was collected on a 3 T scanner (TR = 2 s)... Time points with volume-to-volume head motion > 0.30 mm were censored",
+          "reasoning": "The study uses standard high-field MRI and applies rigorous motion correction and censoring to ensure data quality."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Imaging data were collected on a General Electric Healthcare Discovery MR750 3-Tesla whole body scanner",
+          "reasoning": "All participants were scanned using the same equipment and protocol."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "While the study matches for age and education and excludes prior psychiatric history, it does not explicitly adjust for other potential confounders like sleep disturbance or medication use in the multivariable models, which are common in concussion and affect both mood and connectivity.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Partial",
+          "evidence_snippet": "Age, education, or the number of self-reported prior concussions... No participants reported past or current mood disorders",
+          "reasoning": "Basic demographics and psychiatric history were measured, but acute treatments or medications post-injury were not reported."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "Age, education, or the number of self-reported prior concussions",
+          "reasoning": "The measured confounders are standard and well-defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "self-reported prior concussions... Education",
+          "reasoning": "Standard self-report for these variables is generally accepted in this population."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Sample characteristics are presented in Table 1.",
+          "reasoning": "Data collection was uniform for the study sample."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text does not mention missing data for confounders or how it was handled."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "Yes",
+          "evidence_snippet": "Fifty-one non-injured collegiate contact sport athletes served as healthy controls (HA).",
+          "reasoning": "The use of a control group from the same environment (collegiate contact sports) accounts for many environmental and physical activity confounders."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Partial",
+          "evidence_snippet": "Linear mixed-effects models with time as a fixed factor and a random intercept",
+          "reasoning": "The models account for the longitudinal nature of the data but do not explicitly list covariates (like age or sex) used in the connectivity models."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study uses sophisticated multivariate modeling (fat_mvm) which is superior to multiple univariate tests. They apply appropriate corrections for multiple comparisons at the network level and provide detailed supplementary data.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "tested using AFNI's fat_mvm python programs, where pairs of ROI were treated as simultaneous response variables",
+          "reasoning": "The statistical approach is modern, well-described, and appropriate for high-dimensional fMRI data."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "A meta-analytic approach was used to define the ROI comprising an emotional processing network.",
+          "reasoning": "The use of Neurosynth for ROI selection provides an objective, hypothesis-driven framework for the analysis."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "Linear mixed-effects models... multivariate modeling method",
+          "reasoning": "The combination of mixed-effects for behavioral data and multivariate modeling for connectivity is highly appropriate for this longitudinal design."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "A Bonferroni corrected alpha of 0.0055 was used to determine significance at the network level",
+          "reasoning": "The authors report both significant and non-significant findings across all time points and provide detailed ROI-pair tables in the supplement."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/9_McGeown_2025/McCuddy_2018.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T11:32:09.982491"
+  }
+}

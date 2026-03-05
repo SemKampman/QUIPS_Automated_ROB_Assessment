@@ -1,0 +1,327 @@
+{
+  "paper_metadata": {
+    "title": "Early detection of consciousness in patients with acute severe traumatic brain injury",
+    "first_author": "Brian L. Edlow",
+    "year": "2017",
+    "analysis_timestamp": "2023-10-27 10:00:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study used a prospective, consecutive screening process at a single academic center with clearly defined inclusion/exclusion criteria. While the sample size is small (n=16), the recruitment process and baseline characteristics are well-documented.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "We prospectively screened all patients with TBI admitted to the Neurosciences ICU, Multidisciplinary ICU, and Surgical ICU at a single academic hospital between June 2012 and November 2014.",
+          "reasoning": "The authors specify the exact units and hospital setting for the target population."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "Of 399 patients consecutively screened for eligibility, 28 patients with severe TBI met all eligibility criteria and 16... were enrolled",
+          "reasoning": "The use of consecutive screening and a clear flow from screened to enrolled patients limits selection bias."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "between June 2012 and November 2014.",
+          "reasoning": "The dates are explicitly stated."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "Neurosciences ICU, Multidisciplinary ICU, and Surgical ICU at a single academic hospital",
+          "reasoning": "The specific ICU types and the nature of the hospital (academic) are provided."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "Inclusion criteria were: (i) age 18 to 65 years; and (ii) head trauma with Glasgow Coma Scale score of 3–8 with no eye opening for at least 24 h.",
+          "reasoning": "Criteria are specific, including age, injury severity (GCS), and clinical state (no eye opening)."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Partial",
+          "evidence_snippet": "Of 399 patients consecutively screened for eligibility, 28 patients with severe TBI met all eligibility criteria and 16... were enrolled",
+          "reasoning": "While 16/28 (57%) of eligible patients were enrolled, the reasons for the 12 non-participants are not fully detailed in the main text, though the screening flow is clear."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1 Patient demographics and clinical characteristics",
+          "reasoning": "Table 1 provides age, sex, mechanism of injury, GCS, and CRS-R subscores for every participant."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study accounts for all participants from baseline to 6-month follow-up. Two deaths are clearly documented, and the remaining 14 survivors all completed the primary outcome assessment (GOSE).",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "For the 14 patients who survived, follow-up GOSE evaluation was performed... at mean - SD 6.2 - 0.9 months post-injury.",
+          "reasoning": "100% of the enrolled patients (including the 2 who died) were accounted for in the 6-month outcome analysis."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "Yes",
+          "evidence_snippet": "Patients and their surrogates were assessed either in-person at the study site or, if this was not feasible, through a validated GOSE phone questionnaire",
+          "reasoning": "The authors used multiple methods (in-person and phone) to ensure follow-up data collection."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Yes",
+          "evidence_snippet": "Two patients died in the ICU (GOSE = 1) after withholding life-sustaining therapy.",
+          "reasoning": "The only 'losses' were deaths, which are treated as the worst outcome (GOSE 1) rather than missing data."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Patient 12 died 5 days after functional MRI and EEG. One patient (Patient 14) died 2 days after functional MRI",
+          "reasoning": "The characteristics of the patients who died are fully described in Table 1 and Table 2."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Yes",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Since there was no loss to follow-up (all 16 accounted for), this bias is not applicable."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Attrition Summary",
+        "prompt": "Loss to follow-up (from baseline sample to study population analyzed) is not associated with key characteristics (i.e., the study data adequately represent the sample) sufficient to limit potential bias to the observed relationship between PF and outcome.",
+        "response_options": [
+          "Low"
+        ],
+        "rating": "Low"
+      }
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The prognostic factors (fMRI and EEG responses) were measured using standardized, objective protocols. The use of a healthy control group to establish a 'normal range' for fMRI activation and the use of automated EEG classifiers significantly reduces measurement bias.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "The blood oxygen level-dependent (BOLD) functional MRI sequence used the following parameters... EEG data were acquired using a 19-electrode clinical XLTEK EEG system",
+          "reasoning": "Technical parameters for both fMRI and EEG are described in detail."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Both EEG analysts were blind to the behavioural diagnosis and functional MRI results.",
+          "reasoning": "Blinding of analysts and use of objective data-driven classifiers (SVM for EEG) enhance reliability."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "For patients, we defined a positive response by two criteria: (i) 40% of region of interest voxels met the statistical threshold; and (ii) the percentage of activated region of interest voxels was above the 2.5th percentile of a normal range",
+          "reasoning": "Cut-points were based on healthy control data, not arbitrarily derived from the patient sample."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "All patient and healthy subject MRI scans were performed on the same scanner, and EEGs were performed using the same equipment.",
+          "reasoning": "Consistency in equipment and setting was maintained."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Partial",
+          "evidence_snippet": "EEG was completed in 86.6% (music and motor imagery) to 93.3% (language) of patients.",
+          "reasoning": "Most data were available, but some EEG data were unusable due to motion/myogenic artifacts (e.g., P4, P12)."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Missing PF data (e.g., Patient 14 missing EEG) were not imputed; these cases were simply excluded from specific analyses."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "PF Measurement Summary",
+        "prompt": "PF is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "Low"
+        ],
+        "rating": "Low"
+      }
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The outcome (GOSE) is a standard, validated tool in TBI research. Assessments were performed at a consistent time point (6 months) using validated methods (in-person or phone).",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "Functional outcome at 6 months was measured with the GOSE (Wilson et al., 1998).",
+          "reasoning": "The GOSE is a well-defined, standard scale."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Partial",
+          "evidence_snippet": "All behavioural evaluations and outcome assessments were conducted by a single investigator (B.L.E).",
+          "reasoning": "While the tool is valid, the outcome assessor was not blinded to the baseline PF results, which introduces a potential risk of bias, though the GOSE is structured to limit subjectivity."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Patients and their surrogates were assessed either in-person at the study site or, if this was not feasible, through a validated GOSE phone questionnaire",
+          "reasoning": "The methods used are standard and validated for consistency."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Outcome Measurement Summary",
+        "prompt": "Outcome of interest is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "Low"
+        ],
+        "rating": "Low"
+      }
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study acknowledges and measures key confounders like sedation and time from injury. However, due to the small sample size, multivariable adjustment was not possible, and the authors could only perform univariable tests for confounding.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Yes",
+          "evidence_snippet": "We assessed the impact of sedation on functional MRI and EEG responses by classifying sedation in four categories... time post-injury as a continuous predictor",
+          "reasoning": "Sedation and timing, the most critical confounders in ICU imaging, were measured."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "continuous infusion of low-dose anaesthetic sedatives (e.g. propofol drip rate < 150 mg/h)",
+          "reasoning": "Sedation categories were clearly defined by dosage."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "The types and doses of sedative, anxiolytic, and analgesic medications administered at the time of functional MRI and EEG are reported in Supplementary Table 4.",
+          "reasoning": "Data were collected from clinical records at the time of the test."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Standard clinical record review was used for all participants."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is no mention of missing confounder data or imputation."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "Partial",
+          "evidence_snippet": "A cohort of age- and sex-matched healthy subjects was enrolled",
+          "reasoning": "Healthy controls were matched, but the patient cohort was not stratified by injury severity or other factors due to size."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "No",
+          "evidence_snippet": "the sample size was likely too small to demonstrate the prognostic utility of these techniques.",
+          "reasoning": "No multivariable adjustment was performed; only univariable associations were tested."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Confounding Summary",
+        "prompt": "Important potential confounders are appropriately accounted for, limiting potential bias with respect to the relationship between PF and outcome.",
+        "response_options": [
+          "Moderate"
+        ],
+        "rating": "Moderate"
+      }
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical strategy is transparent and appropriate for a feasibility/pilot study. The authors report both positive and negative findings and explicitly discuss the lack of statistical power for prognostic associations.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Mann-Whitney statistics were calculated to investigate the difference between GOSE scores... P-value was calculated as the sum of all accuracies obtained from the permuted data",
+          "reasoning": "The use of non-parametric tests and permutation tests for EEG is well-described."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "We selected a priori regions of interest based upon functional MRI studies of language, music and motor imagery",
+          "reasoning": "The analysis was hypothesis-driven and used a priori ROIs."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "Mann-Whitney statistics were calculated... considered significant at P < 0.05 (two-sided).",
+          "reasoning": "Non-parametric tests are appropriate for the small sample size and ordinal outcome (GOSE)."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "GOSE scores were not associated with acute functional MRI responses... or with acute EEG responses",
+          "reasoning": "The authors clearly report the negative findings regarding the primary prognostic hypothesis."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Statistical Analysis and Presentation Summary",
+        "prompt": "The statistical analysis is appropriate for the design of the study, limiting potential for presentation of invalid or spurious results.",
+        "response_options": [
+          "Low"
+        ],
+        "rating": "Low"
+      }
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/6_Verboom_2025/Edlow_2017.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T11:14:44.099041"
+  }
+}

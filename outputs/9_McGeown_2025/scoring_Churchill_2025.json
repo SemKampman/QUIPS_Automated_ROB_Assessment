@@ -1,0 +1,287 @@
+{
+  "paper_metadata": {
+    "title": "Post-Concussion Brain Changes Relative to Pre-Injury White Matter and Cerebral Blood Flow",
+    "first_author": "Nathan W. Churchill",
+    "year": "2025",
+    "analysis_timestamp": "2025-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study uses a prospective design with a well-defined source population (varsity athletes). Recruitment was consecutive, and the baseline sample is thoroughly described. The use of a demographically matched control group from the same setting further strengthens the representativeness.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "A cohort of university-level athletes was enrolled in this study... recruited from multiple sport teams at the University of Toronto through the institutional sport medicine clinic",
+          "reasoning": "The target population is clearly defined as university-level athletes within a specific institutional setting."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "Athletes were recruited consecutively from multiple sport teams at the University of Toronto through the institutional sport medicine clinic",
+          "reasoning": "Consecutive recruitment from a centralized clinic is a high-quality sampling method that reduces selection bias."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "recruitment and data collection spanning October 2014 to November 2019.",
+          "reasoning": "The specific dates for the recruitment window are provided."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "University of Toronto through the institutional sport medicine clinic",
+          "reasoning": "The setting and specific institution are clearly identified."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "eligibility criteria, which included no history of neurologic disorders, psychiatric disease, sensory/motor impairments, or MRI contraindications... diagnosis by a staff physician trained to assess sport-related concussion",
+          "reasoning": "Both general eligibility and specific diagnostic criteria for the concussion event are detailed."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "While the study mentions 187 athletes were enrolled, it does not explicitly state the total number of eligible athletes approached versus those who declined (participation rate)."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Table Summary of Demographic and Clinical Data for Control and Concussed Participants",
+          "reasoning": "The table provides comprehensive baseline data including age, sex, concussion history, and clinical scores."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "There is notable attrition, particularly at the 1-year follow-up (from 25 concussed to 15). However, the authors performed a statistical check for 'informative censoring' and found no correlation between dropout and key demographic or clinical variables, which mitigates the risk.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Partial",
+          "evidence_snippet": "33 were later concussed... 25 were successfully imaged after their concussion... 15 [at 1 YR]",
+          "reasoning": "While the initial follow-up rate is good (25/33), the long-term follow-up (15/25) shows significant attrition."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text does not describe specific efforts made to re-engage or collect data from those who did not return for follow-up."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The specific reasons for dropout (e.g., graduation, loss of interest) are not listed."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "there were no significant correlations between dropout at YR1 and demographic variables, nor acute symptom count or severity",
+          "reasoning": "The authors explicitly compared those who dropped out with those who remained and found no systematic differences."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Yes",
+          "evidence_snippet": "all Spearman |ρ| ≤ 0.23. p ≥ 0.268",
+          "reasoning": "Statistical analysis confirmed no significant differences between completers and non-completers."
+        }
+      ]
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The prognostic factor (concussion) was diagnosed by trained physicians using standardized clinical criteria. The 'zero-time' (pre-injury baseline) is a major strength of this study design.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "diagnosis by a staff physician trained to assess sport-related concussion and confirmation that they did not exhibit gross postconcussion neurologic impairments.",
+          "reasoning": "The 'exposure' (concussion) is defined by clinical diagnosis from specialists."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "monitored by clinic staff over the course of their varsity career... diagnosis by a staff physician",
+          "reasoning": "Prospective monitoring and professional diagnosis minimize recall bias and misclassification."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "The median time to full clinical recovery was approximately 3 weeks",
+          "reasoning": "Recovery time is treated as a continuous variable (days to RTP) in the correlation analyses."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "All participants... approached during mandatory preseason baseline testing at the clinic",
+          "reasoning": "The recruitment and diagnostic setting were standardized across the cohort."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "33 were later concussed... 25 were successfully imaged",
+          "reasoning": "A high proportion (76%) of those who experienced the PF (concussion) were successfully captured for the primary analysis."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "Yes",
+          "evidence_snippet": "linear mixed modeling (LMM), which handles missing data by maximum likelihood estimation.",
+          "reasoning": "LMM is a standard and appropriate method for handling missing longitudinal data in prognosis studies."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "Outcomes (MRI measures) are objective, physiological markers. The use of standardized automated parcellation (Brainnetome and JHU atlases) and outlier detection protocols ensures high reliability and limits measurement bias.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "Primary outcomes were postconcussion changes in MRI measures of cerebral blood flow (CBF), white matter mean diffusivity (MD), and fractional anisotropy (FA)",
+          "reasoning": "The outcomes are clearly defined as specific neuroimaging metrics."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "Neuroimaging was conducted on a 3T MRI system... parcellated using the Brainnettome Atlas... and the John Hopkins University ICBM-DTI-81 white matter atlas",
+          "reasoning": "The use of 3T MRI and validated anatomical atlases provides highly reliable and objective measurement."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Neuroimaging was conducted on a 3T MRI system (Magnetom Skyra, Siemens Healthineers) with a 20-channel head coil.",
+          "reasoning": "All participants were scanned using the same hardware and protocols."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study addresses confounding through both design (within-subject pre-injury baseline) and analysis (testing age, sex, and concussion history as covariates). The within-subject design is the 'gold standard' for controlling for individual-level physiological baselines.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Yes",
+          "evidence_snippet": "demographic information was collected at baseline, including age, sex, sport type, history of concussion (HOC), number of prior concussions, time since last injury",
+          "reasoning": "Key potential confounders in concussion research were measured."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "HOC characteristics... Number, Time since last (mo.), Recovery time (dy.)",
+          "reasoning": "Confounders like concussion history were quantified with specific metrics."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "demographic information was collected at baseline",
+          "reasoning": "Baseline collection of demographics in a prospective study is generally reliable."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "For all participants, demographic information was collected at baseline",
+          "reasoning": "Standardized baseline intake was used for all participants."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "Yes",
+          "evidence_snippet": "bootstrapped multiple imputation, with linear mixed models fitted on average parameter values to simulate MRI data.",
+          "reasoning": "Multiple imputation is an appropriate method for handling missing data in the context of group comparisons."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "Yes",
+          "evidence_snippet": "control group was selected to match on sample size and demographics... prospective analyses are needed that compare baseline and postconcussion imaging within the same individuals",
+          "reasoning": "The within-subject design inherently controls for stable individual confounders, and the control group was matched."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "The effect of adding model covariates adjusting for age, sex, HOC, and collision sport participation was assessed... None of the session effects was significantly altered",
+          "reasoning": "The authors statistically tested the influence of confounders and adjusted their models accordingly."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical approach is robust, utilizing Linear Mixed Models to handle longitudinal data and bootstrap resampling to ensure the stability of estimates. The authors also corrected for multiple comparisons using FDR, which is critical in neuroimaging.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "The model included fixed-effect changes... along with random-effect subject intercepts... fitted using the Matlab's R2022a fitlme package",
+          "reasoning": "The analytical strategy is described in detail, including the specific software and model equations."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "To model postconcussion changes in CBF, FA, and MD relative to preinjury baseline... linear mixed modeling (LMM)",
+          "reasoning": "The model building follows the longitudinal nature of the study design."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "LMM... handles missing data by maximum likelihood estimation... bootstrap resampling",
+          "reasoning": "LMM with bootstrapping is highly appropriate for small-sample longitudinal neuroimaging data."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "For each session, brain regions showing significant longitudinal change were identified at FDR = 0.05",
+          "reasoning": "The use of FDR correction and reporting of both significant and non-significant findings (e.g., DTI vs control) suggests transparent reporting."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/9_McGeown_2025/Churchill_2025.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T11:47:25.072729"
+  }
+}

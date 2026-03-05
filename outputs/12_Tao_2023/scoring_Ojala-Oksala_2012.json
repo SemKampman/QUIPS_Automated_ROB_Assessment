@@ -1,0 +1,287 @@
+{
+  "paper_metadata": {
+    "title": "Educational History Is an Independent Predictor of Cognitive Deficits and Long-Term Survival in Postacute Patients With Mild to Moderate Ischemic Stroke",
+    "first_author": "Johanna Ojala-Oksala",
+    "year": "2012",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study uses a consecutive sample from a defined geographic area with clear criteria. However, there is a significant selection bias acknowledged by the authors: 11.1% died before the 3-month assessment and 12.8% refused. The resulting cohort is skewed toward mild/moderate strokes, and women are underrepresented compared to regional mortality data, which may distort the relationship between education and survival.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "The Helsinki Stroke Aging Memory (SAM) cohort comprised a consecutive series of all Finnish patients with suspected stroke admitted to Helsinki University Central Hospital (n=1622) between December 1, 1993 and March 30, 1995",
+          "reasoning": "The source population is clearly defined by geography, facility, and time period."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "A total of 642 patients fulfilled the inclusion criteria (ischemic stroke, age 55–85 years, living in Helsinki, speaking Finnish language) and were invited to a follow-up visit 3 months later.",
+          "reasoning": "The recruitment process from the initial screening to the follow-up invitation is transparently reported."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "between December 1, 1993 and March 30, 1995",
+          "reasoning": "Specific dates are provided."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "Helsinki University Central Hospital... living in Helsinki",
+          "reasoning": "The clinical setting and geographic catchment area are specified."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "ischemic stroke, age 55–85 years, living in Helsinki, speaking Finnish language",
+          "reasoning": "Criteria are explicit, though 'ischemic stroke' diagnosis details are referenced to previous papers."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "Of these, 71 died (11.1%) before the 3-month follow-up, 82 refused (12.8%), and 3 were lost (0.5%) because of undefined causes. Finally, 486 of the living patients were included in the cohort.",
+          "reasoning": "While 486/642 is a decent number, the loss of nearly 25% of the eligible sample before the 'zero time' of the prognostic study (3 months post-stroke) introduces significant selection bias, as noted by the authors regarding stroke severity."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1. Characteristics of Acute Ischemic Stroke Patients in Stroke Aging Memory Cohort",
+          "reasoning": "Table 1 provides a comprehensive list of demographics, risk factors, and stroke severity markers."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "Once the cohort was established at 3 months, the follow-up for the primary outcome (survival) was exceptionally high due to the use of national registry data, which minimizes attrition bias for the mortality outcome.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "Long-term survival data and causes of death at September 21, 2006, were obtained from Statistics Finland for all the patients.",
+          "reasoning": "Survival data was obtained for 100% of the 486 patients via national registries."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "Yes",
+          "evidence_snippet": "Long-term survival data... were obtained from Statistics Finland for all the patients.",
+          "reasoning": "The use of a national registry ensures that even those who might have 'dropped out' of clinical follow-up are captured for the primary survival outcome."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Yes",
+          "evidence_snippet": "The reasons for not performing magnetic resonance imaging in 90 patients were as follows: contraindication (27 patients); refusal (33 patients); claustrophobia (2 patients); severe illness (27 patients); and obesity (1 patient).",
+          "reasoning": "The study provides specific reasons for missing data in the MRI sub-analysis."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "There were no statistically significant differences in gender, age, NIHSS score, white matter lesions, educational history, or marital status between these and the original 486 subjects.",
+          "reasoning": "The authors compared those with and without MRI data to ensure the analyzed sub-sample was representative."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Yes",
+          "evidence_snippet": "There were no statistically significant differences in gender, age, NIHSS score, white matter lesions, educational history, or marital status",
+          "reasoning": "Statistical comparison confirms no major differences between the MRI group and the total cohort."
+        }
+      ]
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "Educational history is a stable, objective measure. The use of tertiles is a standard approach to handle such data, and the measurement was consistent across the cohort.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "total educational history consisting of basic education and occupational education (tertile 1, n=151: 0–6 years; tertile 2, n=152: 7–9 years; tertile 3, n=172: ≥10 years).",
+          "reasoning": "The prognostic factor (education) is clearly defined in years and categorized into tertiles."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "We consider history of education as a reasonable surrogate of cognitive reserve because it is easily ascertained and an objective measure.",
+          "reasoning": "Education is generally considered a reliable self-reported metric in this demographic."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "Division into tertiles was considered appropriate because it resulted in an adequate number of patients in each group, allowing sufficient statistical power.",
+          "reasoning": "Tertiles are a standard statistical method to ensure group balance, though they are somewhat data-dependent."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "A detailed medical and neurological history was performed",
+          "reasoning": "The history-taking was part of a standardized protocol for the SAM cohort."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "n=475 (from Table 1)",
+          "reasoning": "Education data was available for 475 out of 486 patients (97.7%)."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is no mention of imputation; missing cases appear to have been excluded from the specific analysis."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The primary outcome (survival) was measured using highly reliable national registry data. Secondary cognitive outcomes were measured using standardized, validated neuropsychological batteries with normative data.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "The outcome events were recurrent stroke/death attributable to stroke and death from any cause... median follow-up time was 7.4 years",
+          "reasoning": "Outcomes and follow-up duration are explicitly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "Long-term survival data and causes of death... were obtained from Statistics Finland",
+          "reasoning": "National death registries are the gold standard for survival outcomes."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "obtained from Statistics Finland for all the patients.",
+          "reasoning": "The same registry was used for the entire cohort."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study performed rigorous multivariable adjustment including key confounders like age, sex, stroke severity (NIHSS), and crucially, imaging findings (WML). They also accounted for marital status as a proxy for social support.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Yes",
+          "evidence_snippet": "adjusted for age, sex, marital status, and stroke severity... and WML",
+          "reasoning": "The study identifies and measures the most critical confounders for post-stroke prognosis."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "WML were rated according to the modified Fazekas rating scale... NIHSS scores",
+          "reasoning": "Standardized scales (Fazekas, NIHSS) were used to define confounders."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "WML were rated according to the modified Fazekas rating scale",
+          "reasoning": "Validated clinical scales were used for measurement."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "A detailed medical and neurological history was performed... Patients were subjected to magnetic resonance imaging at 3 months",
+          "reasoning": "Standardized protocols were applied to all participants at the same time point."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No imputation methods were described for missing confounder data."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "Partial",
+          "evidence_snippet": "The Helsinki Stroke Aging Memory (SAM) cohort comprised a consecutive series",
+          "reasoning": "The design was a cohort study; confounding was primarily handled in analysis rather than design (e.g., no matching)."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "Model 3: age, sex, marital status, NIHSS, WML.",
+          "reasoning": "The use of Cox and Logistic regression with three levels of adjustment is appropriate."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical methods are appropriate for the data types (Cox for survival, Logistic for binary cognitive outcomes). The reporting is transparent, including effect sizes (HR/OR) and confidence intervals.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Odds ratios (OR) for logistic and hazard ratios for Cox regression analyses are reported",
+          "reasoning": "The strategy is clearly outlined in the Methods section."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "This supports the hypothesis that the adverse clinical effects and outcome after ischemic stroke are mediated via cognitive reserve.",
+          "reasoning": "The models were built to test the cognitive reserve hypothesis, sequentially adding confounders."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "Cox regression analysis... logistic regression",
+          "reasoning": "These are the standard and correct models for time-to-event and categorical outcomes."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Educational history was not associated with recurrent strokes",
+          "reasoning": "The authors report both significant and non-significant findings (e.g., recurrent strokes)."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/12_Tao_2023/Ojala-Oksala_2012.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T10:45:03.604084"
+  }
+}

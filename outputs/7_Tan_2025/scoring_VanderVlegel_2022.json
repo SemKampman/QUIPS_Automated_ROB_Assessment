@@ -1,0 +1,332 @@
+{
+  "paper_metadata": {
+    "title": "Health care utilization and outcomes in older adults after Traumatic Brain Injury: A CENTER-TBI study",
+    "first_author": "Marjolein van der Vlegel",
+    "year": "2022",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study uses a large, multi-center prospective cohort (CENTER-TBI) with well-defined inclusion/exclusion criteria. However, the authors explicitly state that recruitment was not consecutive but influenced by logistic considerations, and the sample is limited to patients presenting to specialized university/trauma centers, which may introduce selection bias and limit generalizability to the broader TBI population.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Patients from 63 centers were invited to participate in the study from December 2014 to December 2017. Data was collected for patients with a clinical diagnosis of TBI, an indication for computed tomography (CT), who presented to a hospital within 24 hours after injury.",
+          "reasoning": "The source population is clearly defined as TBI patients presenting to specific centers within a specific timeframe with CT indications."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Partial",
+          "evidence_snippet": "Finally, the recruitment of patients was not consecutive but influenced by logistic considerations, which might introduced some bias",
+          "reasoning": "While the centers are described, the admission that recruitment was non-consecutive and based on logistics suggests potential for selection bias."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "Patients from 63 centers were invited to participate in the study from December 2014 to December 2017.",
+          "reasoning": "The dates are explicitly provided."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "prospective multi-center longitudinal observational Collaborative European NeuroTrauma Effectiveness Research in Traumatic Brain Injury (CENTER-TBI) core study... 63 centers",
+          "reasoning": "The multi-center European context is well-established."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "clinical diagnosis of TBI, an indication for computed tomography (CT), who presented to a hospital within 24 hours after injury. Patients with a severe pre-existing neurological disorder, which could confound outcome assessments, were excluded.",
+          "reasoning": "Criteria are specific regarding diagnosis, timing, and exclusions."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not provide the total number of eligible patients who declined participation (participation rate), only the number of those who were included."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Sociodemographic characteristics (including sex, age, living situation, education level), medical history and clinical and injury characteristics were assessed at the time of enrolment",
+          "reasoning": "Table 1 provides a comprehensive breakdown of the baseline sample."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "High",
+      "risk_reasoning": "There is a very high rate of attrition (only 44% completed follow-up). Crucially, the authors demonstrate that non-responders were systematically different from responders (older, higher morbidity, higher injury severity), indicating a high risk of informative censoring that likely biases the results toward better outcomes.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "No",
+          "evidence_snippet": "In total, 554 of 1254 (44%) patients completed at least one survey on outcome after injury at six-month",
+          "reasoning": "A 44% follow-up rate is generally considered inadequate in prognosis studies, especially when loss is non-random."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "Partial",
+          "evidence_snippet": "We gave centres flexibility in outcome assessment to help maximize follow-up rates and to tailor approaches to patients. The GOSE was assessed by a postal questionnaire or a structured interview",
+          "reasoning": "The study describes methods to maximize follow-up, but does not detail specific attempts to retrieve data from those who ultimately dropped out."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Partial",
+          "evidence_snippet": "Non-response could therefore be related to the inability to complete the questionnaire due to generally worse pre-injury health, cognitive impairment, or language difficulties.",
+          "reasoning": "The authors hypothesize reasons for loss to follow-up but do not provide confirmed reasons for individual dropouts."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Non-responders were older, reported higher pre-injury morbidity, ISS, and GCS and were more likely to be admitted to the ICU.",
+          "reasoning": "The authors performed a comparison between responders and non-responders in Table 1."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "No",
+          "evidence_snippet": "The median ISS was twice as high for deceased patients (26, IQR 20-43) compared to responders (13, IQR 8-21) and non-responders (13, IQR 8-25).",
+          "reasoning": "Significant differences exist between responders and non-responders/deceased, indicating high risk of bias."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Attrition Summary",
+        "prompt": "Loss to follow-up (from baseline sample to study population analyzed) is not associated with key characteristics (i.e., the study data adequately represent the sample) sufficient to limit potential bias to the observed relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "Prognostic factors (age, GCS, ISS, comorbidities) were measured using standardized, validated clinical tools (ASA-PS, GCS, AIS) at the time of enrollment. Missing data for baseline characteristics were handled using sophisticated imputation (MICE).",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "TBI severity was rated using the Glasgow Coma Scale (GCS)... The injury severity score (ISS)... Pre-injury health status was assessed with the American Society of Anaesthesiologists - physical status classification system (ASA-PS)",
+          "reasoning": "All prognostic factors are defined using standard clinical scales."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Early computed tomography (CT) assessed the presence of intracranial traumatic abnormalities. TBI severity was rated using the Glasgow Coma Scale (GCS)",
+          "reasoning": "The study uses objective clinical measurements and validated scales."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "Age was categorized into three groups... for descriptive analyses, and used as a continuous variable in regression analyses.",
+          "reasoning": "The use of continuous variables in regression prevents bias from arbitrary cut-points."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Sociodemographic characteristics... medical history and clinical and injury characteristics were assessed at the time of enrolment in the study.",
+          "reasoning": "Measurements were standardized at the point of hospital entry."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Partial",
+          "evidence_snippet": "Missing baseline characteristics were imputed using Multivariate Imputation by Chained Equation (MICE)",
+          "reasoning": "Some baseline data were missing (e.g., education 30.5%), requiring imputation."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "Yes",
+          "evidence_snippet": "missing baseline characteristics were imputed using Multivariate Imputation by Chained Equation (MICE) approach",
+          "reasoning": "MICE is a robust, standard method for handling missing prognostic data."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "PF Measurement Summary",
+        "prompt": "PF is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "Outcomes were measured using internationally recognized, validated instruments (GOSE, SF-12, QOLIBRI, PCL-5, PHQ-9, GAD-7). The study used a centralized scoring system and allowed for multiple modes of assessment (interview/postal) to maximize data capture, with evidence of good agreement between modes.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "Functional outcome was assessed at 6 months with the Glasgow Outcome Scale Extended (GOSE).",
+          "reasoning": "The primary and secondary outcomes are clearly defined with a specific 6-month timeframe."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "The ratings from interviews and questionnaires showed good agreement [27]. Interviews and questionnaires were scored centrally",
+          "reasoning": "The study uses validated tools and centralized scoring to ensure reliability."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Partial",
+          "evidence_snippet": "The GOSE was assessed by a postal questionnaire or a structured interview by a trained assessor (telephone or face to face).",
+          "reasoning": "While the tools were the same, the mode of administration varied (postal vs. interview), though the authors cite evidence of agreement between these modes."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Outcome Measurement Summary",
+        "prompt": "Outcome of interest is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study identifies and measures a wide range of potential confounders, including pre-injury health, psychiatric history, and injury severity. These were appropriately accounted for in multivariable regression models, allowing for the isolation of the effect of specific prognostic factors.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Yes",
+          "evidence_snippet": "Sociodemographic characteristics (including sex, age, living situation, education level), medical history and clinical and injury characteristics were assessed",
+          "reasoning": "A comprehensive list of potential confounders was collected."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "Pre-injury health status was assessed with the American Society of Anaesthesiologists - physical status classification system (ASA-PS)",
+          "reasoning": "Confounders like systemic disease were defined using standard clinical classifications."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "TBI severity was rated using the Glasgow Coma Scale (GCS)... ISS... AIS",
+          "reasoning": "Confounders were measured using validated clinical instruments."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "assessed at the time of enrolment in the study.",
+          "reasoning": "Confounders were measured at baseline for all participants."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "Yes",
+          "evidence_snippet": "missing baseline characteristics were imputed using Multivariate Imputation by Chained Equation (MICE)",
+          "reasoning": "MICE was used for missing confounder data."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "This was an observational cohort study; confounding was not controlled for in the design (e.g., matching), but rather in the analysis."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "The association of possible determinants with multiple outcomes following TBI was analyzed with univariable and multivariable ordinal and linear regression analyses",
+          "reasoning": "Multivariable adjustment is the appropriate statistical method for this study design."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Confounding Summary",
+        "prompt": "Important potential confounders are appropriately accounted for, limiting potential bias with respect to the relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical analysis is rigorous, utilizing ordinal and linear regression as appropriate for the data types. Model performance is transparently reported (C-statistic, R-squared). The authors also provide a clear comparison of responders vs. non-responders, which aids in interpreting the potential impact of attrition.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Ordinal and linear regression analyses were performed... missing baseline characteristics were imputed using Multivariate Imputation by Chained Equation (MICE)",
+          "reasoning": "The analytical plan is detailed and transparent."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "based on an imputation model including all baseline characteristics, auxiliary variables (years of education) and all six-month outcomes",
+          "reasoning": "The model building included relevant clinical and demographic variables."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "Ordinal and linear regression analyses were performed to identify determinants of the Glasgow Outcome Scale Extended (GOSE), health-related quality of life (HRQoL), and mental health symptoms",
+          "reasoning": "Ordinal regression is appropriate for the GOSE; linear regression is appropriate for the continuous HRQoL/mental health scores."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Table 4... multivariable regression analyses... (univariable: Supplementary Tables 4-6)",
+          "reasoning": "The authors report both univariable and multivariable results for all pre-specified outcomes."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Statistical Analysis and Presentation Summary",
+        "prompt": "The statistical analysis is appropriate for the design of the study, limiting potential for presentation of invalid or spurious results.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/7_Tan_2025/VanderVlegel_2022.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T11:20:53.673378"
+  }
+}

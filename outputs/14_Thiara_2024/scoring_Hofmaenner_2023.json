@@ -1,0 +1,332 @@
+{
+  "paper_metadata": {
+    "title": "Reduced anticoagulation strategy is associated with a lower incidence of intracerebral hemorrhage in COVID-19 patients on extracorporeal membrane oxygenation",
+    "first_author": "Daniel A. Hofmaenner",
+    "year": "2023",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study provides clear inclusion/exclusion criteria and describes the source population across three academic centers. However, the 'low anti-Xa' group was recruited later in the pandemic, introducing potential selection bias due to evolving clinical practices and viral variants, which is a significant limitation in retrospective cohort comparisons.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "This retrospective, multicenter study was conducted at the intensive care units (ICU) of the University Hospital Zurich (Switzerland), University Hospital Bonn (Germany) and Beth Israel Deaconess Medical Center (BIDMC) in Boston, MA (United States of America).",
+          "reasoning": "The authors clearly define the geographic and institutional sources of the population."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "Adult patients (>18 years) with COVID-19 ARDS requiring VV ECMO support were assessed for eligibility between March 2020 and January 2022, independent of the chosen anticoagulation strategy.",
+          "reasoning": "The study uses a clear sampling frame based on clinical requirements (VV ECMO) and time period."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "between March 2020 and January 2022",
+          "reasoning": "The specific dates for the study period are provided."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location) are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "University Hospital Zurich (Switzerland), University Hospital Bonn (Germany) and Beth Israel Deaconess Medical Center (BIDMC) in Boston, MA (United States of America).",
+          "reasoning": "Specific tertiary academic centers are named."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "Adult patients (>18 years) with COVID-19 ARDS requiring VV ECMO support... Patients were excluded if they required venoarterial ECMO or had non-heparin anticoagulation.",
+          "reasoning": "Clear inclusion and exclusion criteria are listed, including the diagnostic method for COVID-19."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not provide a flow diagram or the total number of eligible patients vs. those included, making it impossible to determine the participation rate."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1: Demographics, ICU characteristics/treatment, respiratory and laboratory parameters at ECMO initiation according to groups",
+          "reasoning": "Table 1 provides a comprehensive list of baseline characteristics including age, sex, SOFA score, and inflammatory markers."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "As a retrospective study focused on in-hospital outcomes (ICH and 90-day survival) for patients on ECMO, the data completeness is high. The analysis appropriately uses a competing risk model to handle death as a competing event for ICH.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "In total, 141 critically ill COVID-19 patients receiving VV ECMO support were included in the study and underwent analysis",
+          "reasoning": "All patients included in the study appear to have been accounted for in the primary analysis."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "Yes",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "In this acute ICU setting, 'drop out' is rare; the study tracks patients until death or 90 days, which is standard for this design."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Yes",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is no mention of loss to follow-up, which is expected for an in-hospital retrospective study of this nature."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Not applicable as no loss to follow-up was reported."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Yes",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The study implies 100% follow-up for the primary in-hospital outcomes."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Attrition Summary",
+        "prompt": "Loss to follow-up (from baseline sample to study population analyzed) is not associated with key characteristics (i.e., the study data adequately represent the sample) sufficient to limit potential bias to the observed relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The prognostic factor (anticoagulation intensity) is well-defined by both target ranges and effectively measured anti-Xa levels. The use of objective laboratory data from hospital systems minimizes measurement bias.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "Patients were divided into two cohorts based on the anticoagulation intensity as defined by the anti-Xa target corridors: higher intensity 0.3–0.4 U/mL (high anti-Xa) versus lower intensity 0.15–0.3 U/mL (low anti-Xa).",
+          "reasoning": "The prognostic factor is clearly defined by specific laboratory target ranges."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "median of effectively measured daily anti-Xa levels (as measured by the hospital laboratories)",
+          "reasoning": "Measurements were performed using standardized hospital laboratory assays, which are reliable."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "higher intensity 0.3–0.4 U/mL (high anti-Xa) versus lower intensity 0.15–0.3 U/mL (low anti-Xa).",
+          "reasoning": "The cut-points were based on clinical protocol changes, not post-hoc data-dependent selection."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "All centers utilized standard operating procedures for adjustment of anticoagulation on VV EMCO which prioritized anti-Xa activity targets",
+          "reasoning": "Standardized protocols were used across the participating centers."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "Patients with lower anticoagulation targets had consistently lower anti-Xa activity values over the first 7 ECMO days (p<0.001).",
+          "reasoning": "The analysis of daily anti-Xa levels suggests high data completeness for the PF."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text does not explicitly mention how missing anti-Xa values were handled, though linear mixed models can handle some missingness."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "PF Measurement Summary",
+        "prompt": "PF is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The outcome (ICH) is objectively defined by CT imaging. However, the lack of routine surveillance imaging means that ICH detection was dependent on clinical suspicion, which could lead to under-reporting of asymptomatic or minor cases.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "The primary outcome was the incidence of ICH, which was defined as any hemorrhage identified on CT scanning of the brain during VV ECMO support.",
+          "reasoning": "The outcome is clearly defined and categorized into major and minor events."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Partial",
+          "evidence_snippet": "When ICH or other cranial pathology was clinically suspected, cranial computed tomography (CCT) was immediately performed. No routine surveillance cranial imaging was performed at any center.",
+          "reasoning": "While CT is a gold standard, the lack of routine screening means the measurement is dependent on clinical detection, introducing potential bias."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "No routine surveillance cranial imaging was performed at any center.",
+          "reasoning": "The diagnostic strategy (symptom-triggered CT) was consistent across all centers."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Outcome Measurement Summary",
+        "prompt": "Outcome of interest is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "High",
+      "risk_reasoning": "The study is highly susceptible to confounding by time. The 'low anti-Xa' group was treated later in the pandemic when other treatments (dexamethasone, tocilizumab) and clinical experience had improved. While the authors adjusted for some factors, the significant differences in baseline characteristics (age, SOFA, inflammatory markers) and the 'era effect' remain major concerns.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Partial",
+          "evidence_snippet": "clinical data were gathered including demographics, elements of the Sequential Organ Failure Assessment (SOFA) score... anti-inflammatory treatment (dexamethasone and tocilizumab use)",
+          "reasoning": "Key confounders like age, severity, and medications were measured, but others like viral variant or specific ventilation changes were not."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Partial",
+          "evidence_snippet": "dexamethasone and tocilizumab use",
+          "reasoning": "Use was recorded, but specific doses or durations of these confounding treatments were not detailed."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Using the in-hospital patient data management systems, clinical data were gathered",
+          "reasoning": "Data from electronic health records is generally reliable for these variables."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Using the in-hospital patient data management systems",
+          "reasoning": "Standardized data collection from hospital systems was used for all."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not describe the handling of missing data for confounders."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "No",
+          "evidence_snippet": "The higher intensity group consisted of patients managed earlier in the pandemic... Lower intensity anti-Xa levels were targeted after the observation of high incidences of ICH",
+          "reasoning": "The study design (historical control) does not account for confounding; groups were not matched or stratified at assembly."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Partial",
+          "evidence_snippet": "As independent variables, anticoagulation group, dexamethasone use, tocilizumab use, SOFA score and female sex were entered",
+          "reasoning": "Multivariable adjustment was performed, but significant baseline differences (Age, CRP, Ferritin) were not all included in the final model, and the 'time' factor is difficult to fully adjust for."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Confounding Summary",
+        "prompt": "Important potential confounders are appropriately accounted for, limiting potential bias with respect to the relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical approach is robust, utilizing competing risk regression for ICH and mixed-effects models to account for center-level clustering. The reporting is transparent regarding the differences between groups.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Risk factors and influence of anticoagulation on occurrence of ICH was analyzed by means of a competing risk regression model using ICH as the primary event and death without ICH as a competing event.",
+          "reasoning": "The analytical strategy is well-described and appropriate for the data type."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "As independent variables, anticoagulation group, dexamethasone use, tocilizumab use, SOFA score and female sex were entered with center as a cluster term",
+          "reasoning": "The model includes clinically relevant variables and accounts for multicenter clustering."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "linear mixed effects model... competing risk regression model... generalized linear mixed effects model",
+          "reasoning": "The use of competing risk and mixed effects models is sophisticated and appropriate for this cohort study."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Secondary outcomes included: (1) 90-day survival; (2) the cumulative and mean daily dose of UFH... (3) the median of effectively measured daily anti-Xa levels, number of oxygenator changes and thromboembolic events.",
+          "reasoning": "The authors report on all pre-specified primary and secondary outcomes, including negative or complicated findings like oxygenator changes."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Statistical Analysis and Presentation Summary",
+        "prompt": "The statistical analysis is appropriate for the design of the study, limiting potential for presentation of invalid or spurious results.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/14_Thiara_2024/Hofmaenner_2023.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T11:00:09.453612"
+  }
+}

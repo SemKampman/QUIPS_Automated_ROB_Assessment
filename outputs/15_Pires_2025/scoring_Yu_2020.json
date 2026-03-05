@@ -1,0 +1,287 @@
+{
+  "paper_metadata": {
+    "title": "Changes in the Corticospinal Tract Beyond the Ischemic Lesion Following Acute Hemispheric Stroke: A Diffusion Kurtosis Imaging Study",
+    "first_author": "Xinfeng Yu",
+    "year": "2020",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study clearly defines the target population, recruitment setting, and specific inclusion/exclusion criteria. While it is a single-center study, the prospective recruitment and detailed baseline characteristics limit selection bias.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Patients with ischemic stroke at the acute phase (3 to 7 days after onset) were recruited prospectively from the Department of Neurology in our institution.",
+          "reasoning": "The source population is clearly defined as acute stroke patients within a specific timeframe from a neurology department."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "recruited prospectively from the Department of Neurology in our institution.",
+          "reasoning": "Prospective recruitment from a specialized department is described, though specific referral patterns are not detailed, the frame is clear."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text provides the dates of submission and acceptance (2019-2020) but does not explicitly state the calendar dates during which patients were recruited."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location) are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "The 2nd Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China",
+          "reasoning": "The specific hospital and city are clearly identified."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "Inclusion criteria were as follows: 1) first-ever ischemic stroke; 2) unilateral lesion in the anterior circulation territory; 3) supratentorial CST involved by ischemic lesion; 4) right-hand dominancy; 5) age greater than 18 years; 6) without thrombolytic or recanalization therapies; 7) no evidence of hemorrhagic infarction.",
+          "reasoning": "The study provides a comprehensive list of clinical and imaging-based inclusion/exclusion criteria."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not provide a flow diagram or the number of patients screened versus those enrolled, making it impossible to determine the participation rate."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1 summarizes the baseline patient characteristics. ... Age, mean SD, y 58.27 12.89 ... NIHSS score, mean SD 8.04 3.05",
+          "reasoning": "Table 1 provides detailed demographics, risk factors, and clinical severity scores."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study focuses on acute imaging and cross-sectional correlation with baseline deficits. While 3-month outcomes are mentioned, the primary prognostic analysis (DKI vs. motor deficits) uses the full sample of 48 patients with no reported dropouts during the acute phase.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "A total of 48 patients were included in this study.",
+          "reasoning": "The analysis includes all 48 recruited patients for the primary imaging and clinical correlation."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There were no reported dropouts for the acute phase analysis, so no such attempts were described."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Loss to follow-up is not reported for the primary analysis."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No data provided as no loss to follow-up was reported."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Yes",
+          "evidence_snippet": "A total of 48 patients were included in this study.",
+          "reasoning": "Since all patients were included in the analysis, there is no bias from differences between completers and non-completers."
+        }
+      ]
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The prognostic factor (DKI metrics) is measured using a standardized, objective MRI protocol. The technical parameters and processing steps (FSL, SPM12) are well-documented and applied consistently.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "DKI was acquired using a spinecho echo-planar imaging (EPI) sequence with 30 noncollinear diffusion directions and three b values of 0, 1000, and 2000 sec/mm2",
+          "reasoning": "The imaging parameters and the mathematical model for DKI are explicitly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Each scan of diffusion-weighted images was preprocessed using FMRIB's Software Library (FSL, v. 6.0, Oxford, UK), including correcting for signal distortions",
+          "reasoning": "Standardized software and preprocessing steps (eddy current correction) were used to ensure data quality."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "The mean values of MK, Kk, K⊥, FA, MD, λk, and λ⊥ were then extracted from each slice",
+          "reasoning": "The study uses continuous diffusion metrics rather than arbitrary cut-points."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "All subjects were imaged using a 3.0T whole body-scanner (Discovery MR750, GE Healthcare, Milwaukee, WI)",
+          "reasoning": "All participants were scanned on the same equipment with the same protocol."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "A total of 48 patients were included in this study.",
+          "reasoning": "Complete imaging data was available for all included patients."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No missing data was reported, so imputation was not required."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "Outcomes (NIHSS, BI, mRS) are standard clinical scales in stroke research. The assessor was blinded to imaging findings, which significantly reduces measurement bias.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "Neurological deficits before MRI scans were assessed by the National Institute of Health Stroke Score (NIHSS) and the Barthel index (BI).",
+          "reasoning": "Standardized clinical scales are used and their scoring ranges are defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "An experienced stroke neurologist with 10 years of experience who was blinded to the imaging findings assessed clinical scores.",
+          "reasoning": "Blinding of the clinical assessor to imaging data is a key strength for reducing bias."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Neurological deficits before MRI scans were assessed by the National Institute of Health Stroke Score (NIHSS) and the Barthel index (BI).",
+          "reasoning": "The assessment protocol was applied consistently to all patients before the MRI."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study accounts for major confounders like age, gender, and lesion load in the multivariate model. However, it excludes patients who received thrombolysis/recanalization, which limits the generalizability and potentially ignores the confounding effect of treatment response in a broader population.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Partial",
+          "evidence_snippet": "Inclusion criteria were as follows: ... 6) without thrombolytic or recanalization therapies",
+          "reasoning": "While age and lesion load are measured, the study excludes treated patients, which simplifies the model but limits the assessment of treatment as a confounder."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "CST lesion load, median, IQR, cm3 0.66 (0.14–2.85)",
+          "reasoning": "Confounders like lesion load and time from onset are clearly defined and quantified."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "the individual lesion was segmented on DWI images using a semiautomated threshold algorithm",
+          "reasoning": "Objective imaging-based methods were used to measure lesion load."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "All subjects were imaged using a 3.0T whole body-scanner",
+          "reasoning": "Confounders derived from imaging were measured using the same protocol for all."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No missing data for confounders was reported."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "Partial",
+          "evidence_snippet": "without thrombolytic or recanalization therapies",
+          "reasoning": "The study uses restriction (exclusion of treated patients) to control for treatment confounding, which is a design-stage control but limits generalizability."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "Multivariate linear regression with the stepwise method was further used to analyze the independent factor related to clinical scores",
+          "reasoning": "The analysis adjusted for age, gender, CST lesion load, and time after stroke."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical approach is robust, using both voxelwise and slicewise analyses with appropriate corrections for multiple comparisons (FWE and Bonferroni). The reporting is transparent regarding the metrics used and the results obtained.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "The significant differences in diffusion parameters between the affected CST and unaffected CST were performed using paired t-tests with age as a covariate in SPM12.",
+          "reasoning": "The analytical steps for both imaging and clinical data are well-described."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "Multivariate linear regression with the stepwise method was further used to analyze the independent factor related to clinical scores",
+          "reasoning": "A stepwise approach was used to identify independent predictors among clinically relevant variables."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "The significant differences in diffusion parameters in each slice of CST between two hemispheres were compared by a linear mixed model",
+          "reasoning": "Linear mixed models are appropriate for the hierarchical/repeated nature of slicewise data."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "No significant differences in K⊥, FA, MD, and λ⊥ were found.",
+          "reasoning": "The authors report both significant and non-significant findings for all diffusion metrics."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/15_Pires_2025/Yu_2020.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T11:02:17.464883"
+  }
+}

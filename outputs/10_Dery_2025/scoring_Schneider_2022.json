@@ -1,0 +1,332 @@
+{
+  "paper_metadata": {
+    "title": "Cognitive Outcome 1 Year After Mild Traumatic Brain Injury: Results From the TRACK-TBI Study",
+    "first_author": "Andrea L.C. Schneider",
+    "year": "2022",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study uses a large, multicenter prospective design with clearly defined inclusion/exclusion criteria (GCS 13-15, within 24h of injury). While it is a trauma-center-based sample which may limit generalizability to all mTBI, the recruitment and baseline characteristics are thoroughly described.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "patients presenting to the EDs of 18 US level 1 trauma centers within 24 hours of TBI who underwent a head CT as part of routine clinical care.",
+          "reasoning": "The source population is clearly defined as acute TBI patients at Level 1 trauma centers."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "The present analysis focused on the TRACK-TBI phase 1 cohort comprising participants ≥17 years of age enrolled at the 11 then-existing sites between February 26, 2014, and May 4, 2016.",
+          "reasoning": "Recruitment methods and the specific phase of the multicenter study are detailed."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "between February 26, 2014, and May 4, 2016.",
+          "reasoning": "Specific dates are provided."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "18 US level 1 trauma centers",
+          "reasoning": "The clinical setting and geographic scope (US) are stated."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "656 participants ≥17 years of age presenting to level 1 trauma centers within 24 hours of mTBI (Glasgow Coma Scale score 13–15)",
+          "reasoning": "Age, GCS score, and time from injury are explicitly used as criteria."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not explicitly state the total number of eligible patients who declined participation (refusal rate) at the point of initial ED recruitment."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 3: Weighted Demographics and Medical Comorbid Conditions of Patients With mTBI, Stratified by 1-Year Cognitive Status",
+          "reasoning": "Extensive baseline data including age, sex, race, education, and comorbidities are provided."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "There is significant attrition (only 57.7% of survivors had sufficient 1-year cognitive data). However, the authors used propensity weighting to adjust for this and performed a detailed comparison between included and excluded participants, identifying systematic differences in education and race.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Partial",
+          "evidence_snippet": "Of the phase 1 mTBI cohort who survived with at least some 1-year data (n = 1,136), 57.7% (n = 656) had sufficient cognitive outcomes data at 1 year to be included in our analysis.",
+          "reasoning": "The completion rate for the specific cognitive battery is relatively low (57.7%), though the authors acknowledge and address this."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "Yes",
+          "evidence_snippet": "A subset of indices assessed at the in-person visits could be performed by telephone when participants were unable to attend in-person visits",
+          "reasoning": "The authors describe using telephone follow-ups to mitigate attrition for certain measures."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Partial",
+          "evidence_snippet": "(1) low-functioning individuals may not be able to perform the assessment, and (2) high-functioning individuals may have little interest in returning for follow-up assessments.",
+          "reasoning": "The authors hypothesize reasons for loss to follow-up but do not provide specific reasons for every individual dropout."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Compared to those without sufficient cognitive outcomes data at 1 year who were excluded from the present analysis, those who were included were more likely to be White and non-Hispanic/Latino, to have more than a high school education...",
+          "reasoning": "A clear comparison of characteristics between those included and those lost to follow-up is provided."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "No",
+          "evidence_snippet": "those who were included were more likely to be White and non-Hispanic/Latino, to have more than a high school education",
+          "reasoning": "The authors explicitly state that there were significant demographic differences between completers and non-completers."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Attrition Summary",
+        "prompt": "Loss to follow-up (from baseline sample to study population analyzed) is not associated with key characteristics (i.e., the study data adequately represent the sample) sufficient to limit potential bias to the observed relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "Prognostic factors (baseline clinical variables) were measured using standardized TBI Common Data Elements (CDEs) and clinical tools like the GCS and CT scans, which are reliable in acute settings.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "The following TBI-related variables were assessed: Glasgow Coma Scale (GCS; 13, 14, 15)... Rotterdam CT score (severity of intracranial trauma score with range 1-6...)",
+          "reasoning": "Predictors are clearly defined using standard clinical scales."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "defined according to the TBI CDE Neuroimaging Working Group expert consensus recommendations",
+          "reasoning": "The study uses validated Common Data Elements (CDEs) for measurement."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "ED blood glucose (>200 mg/dL, ≤200 mg/dL...)",
+          "reasoning": "Clinical cut-points (e.g., for hyperglycemia) are standard and not derived from the study data itself."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "enrolled patients presenting to the EDs of 18 US level 1 trauma centers within 24 hours of TBI",
+          "reasoning": "All participants were assessed in the same acute ED setting using the same protocol."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "Unweighted number missing data by variable: race n = 5; ethnicity n = 6; education n = 13...",
+          "reasoning": "Missingness for baseline prognostic factors is very low."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "Partial",
+          "evidence_snippet": "Propensity weights were derived from boosted logistic regression models predicting complete (versus noncomplete) 1-year cognitive outcome data",
+          "reasoning": "The authors used propensity weighting for outcomes, but for missing PF data, they primarily report the counts of missingness rather than multiple imputation."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "PF Measurement Summary",
+        "prompt": "PF is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The outcome is a composite of validated neuropsychological tests. The use of Reliable Change Indices (RCI) and demographically adjusted norms (9th percentile) provides a robust, clinically relevant definition of cognitive outcome.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "Poor 1-year cognitive outcome was defined as cognitive impairment (below the ninth percentile of normative data on ≥2 cognitive tests), cognitive decline (change score... exceeding the 90% reliable change index on ≥2 cognitive tests), or both.",
+          "reasoning": "The outcome is precisely defined with specific thresholds and timing."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "The battery included 5 scores... RAVLT... Trail Making Test... Processing Speed Index... consistent with TBI Common Data Elements (CDEs).",
+          "reasoning": "Standardized, validated neuropsychological tests were used."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Participants underwent neuropsychological testing at up to 3 in-person cognitive assessments",
+          "reasoning": "Standardized in-person assessments were used for the cognitive battery across the cohort."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Outcome Measurement Summary",
+        "prompt": "Outcome of interest is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study accounts for a wide range of confounders including socioeconomic status, pre-injury mental health, and injury severity. Multivariable logistic regression with backward elimination was used to adjust for these factors.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Yes",
+          "evidence_snippet": "age, sex, race, ethnicity, education, employment status, annual family income, health insurance, military service, hypertension, diabetes, prior TBI, depression, anxiety...",
+          "reasoning": "A comprehensive list of demographic and clinical confounders was collected."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "ED blood glucose (>200 mg/dL, ≤200 mg/dL...), Rotterdam CT score (severity of intracranial trauma score with range 1-6)",
+          "reasoning": "Confounders are defined using clear clinical categories."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "self-reported variables... Laboratory variables included ED blood glucose... head CT scan positive for acute intracranial injury",
+          "reasoning": "Uses a mix of self-report and objective clinical/lab data."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "enrolled patients presenting to the EDs of 18 US level 1 trauma centers",
+          "reasoning": "Confounders were measured at the same baseline time point in the same setting."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text does not specify how missing baseline confounder data were handled in the multivariable models (e.g., complete case analysis vs imputation)."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "Yes",
+          "evidence_snippet": "156 demographically similar healthy controls enrolled",
+          "reasoning": "The study included a demographically similar control group for comparison."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "backward elimination logistic regression was used to build a prediction model.",
+          "reasoning": "Multivariable adjustment was performed to identify independent predictors."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Confounding Summary",
+        "prompt": "Important potential confounders are appropriately accounted for, limiting potential bias with respect to the relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical approach is rigorous, using propensity weighting to handle attrition and backward elimination for model building. Results are reported transparently, including AUC and 95% CIs.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "All analyses were performed with propensity weighting to account for missing outcome data/study attrition.",
+          "reasoning": "The analytical strategy is clearly described."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "we included all variables that differed between patients with mTBI with good vs poor cognitive outcome at a p < 0.2 level in univariable analyses; and (2) we applied backward stepwise regression (α = 0.05)",
+          "reasoning": "A standard statistical approach for prognostic model building was followed."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "weighted logistic regression prediction models",
+          "reasoning": "Logistic regression is appropriate for the binary outcome defined."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "The final multivariable prediction model included education, health insurance, preinjury depression, hyperglycemia, and Rotterdam CT score ≥3 and achieved an area under the curve of 0.69",
+          "reasoning": "The authors report both univariable and multivariable results, including non-significant findings."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Statistical Analysis and Presentation Summary",
+        "prompt": "The statistical analysis is appropriate for the design of the study, limiting potential for presentation of invalid or spurious results.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/10_Dery_2025/Schneider_2022.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T10:29:00.218643"
+  }
+}

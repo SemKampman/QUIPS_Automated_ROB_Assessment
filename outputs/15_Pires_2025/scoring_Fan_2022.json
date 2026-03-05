@@ -1,0 +1,287 @@
+{
+  "paper_metadata": {
+    "title": "Altered Microstructural Changes Detected by Diffusion Kurtosis Imaging in Patients With Cognitive Impairment After Acute Cerebral Infarction",
+    "first_author": "Liting Fan",
+    "year": "2022",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study provides a clear description of the target population, recruitment setting (tertiary hospital), and specific inclusion/exclusion criteria. A sample size calculation was performed, and baseline characteristics were comparable across groups, minimizing selection bias.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "A total of 70 patients with acute cerebral infarction were enrolled in this study in a tertiary hospital, including 35 patients with cognitive impairment (VCI group, the mean age was 66.3 years, 17 males and 18 females), and 35 patients without cognitive impairment (N-VCI group, the mean age was 63.1 years, 15 males and 20 females).",
+          "reasoning": "The authors clearly define the source (tertiary hospital) and provide demographic details for the groups."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "A total of 70 patients with acute cerebral infarction were enrolled in this study in a tertiary hospital... Simultaneously, 36 healthy individuals (control group, the mean age was 61.1 years, 21 males and 15 females) with similar age were selected.",
+          "reasoning": "The recruitment of both patients and healthy controls is described, and a sample size calculation was used to ensure adequacy."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The specific calendar dates or duration of the recruitment period are not mentioned in the text."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "Second Affiliated Hospital of Dalian Medical University, Dalian, China",
+          "reasoning": "The specific hospital and city are identified in the author affiliations and methods."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "The inclusion criteria were as follows: acute onset within 7 days of cerebral infarction; symptoms of local neurological deficits... The exclusion criteria were as follows: patients with dementia or severe cognitive impairment before the onset of stroke...",
+          "reasoning": "Detailed clinical and imaging criteria are provided for both inclusion and exclusion."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not report the number of eligible patients who declined to participate or the total number screened, making it impossible to calculate a participation rate."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Baseline data on age, sex, education level, hypertension, diabetes, smoking, and alcohol consumption history were collected from all subjects.",
+          "reasoning": "Table 1 provides a comprehensive list of baseline characteristics and statistical comparisons between groups."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study appears to have a cross-sectional design regarding the primary outcome (DKI parameters vs MMSE at one time point). The sample size calculation accounted for 'shedding' (attrition), and the final analyzed numbers match the target enrollment.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "35 VCI patients, 35 N-VCI patients and 36 healthy individuals were finally included.",
+          "reasoning": "The final numbers match the intended sample size, suggesting no significant loss to follow-up for the primary analysis."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is no mention of dropouts or attempts to follow up with them, likely because the data collection was performed shortly after admission."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No subjects were reported as lost to follow-up."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No data provided for non-completers."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Since no dropouts were reported or analyzed, a comparison cannot be made."
+        }
+      ]
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The prognostic factor (DKI parameters) is measured using a standardized 3.0T MRI protocol. The use of two experienced radiologists and blinding of technicians further reduces measurement bias.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "DKI parameters include both diffusion parameters [fractional anisotropy (FA), mean diffusion (MD), axial diffusion (Da), and radial diffusion (Dr)] and kurtosis parameters [fractional anisotropy kurtosis (FAK), mean kurtosis (MK), axial kurtosis (Ka) and radial kurtosis (Kr)]",
+          "reasoning": "The parameters are explicitly defined and the mathematical basis (cumulant expansion) is provided."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Two radiologists (YD and CY, with 10 years and 17 years of experience in neuroimaging, respectively), assessed the images, drew ROIs and checked them.",
+          "reasoning": "The use of two experienced radiologists and a consensus model for ROI drawing ensures reliability."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Partial",
+          "evidence_snippet": "at the optimal cut-off MD value (0.9915), sensitivity was 91.4%, specificity 100%",
+          "reasoning": "While continuous data are used for correlations, the ROC analysis uses an 'optimal' cut-off which is by definition data-dependent."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "All subjects underwent DKI scans within 4-7 days of admission... using a GE MR750W 3.0T magnetic resonance scanner.",
+          "reasoning": "Standardized equipment and timing were used for all participants."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "35 VCI patients, 35 N-VCI patients and 36 healthy individuals were finally included.",
+          "reasoning": "The full sample size was available for the final analysis."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Missing data handling is not discussed, though the final N suggests no missing data."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The outcome (cognitive impairment) was measured using the MMSE, a validated and widely used clinical tool. The evaluators were professionally trained, and the criteria for impairment were pre-specified.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "MMSE scores were used to evaluate overall cognitive function, where an MMSE score < 27 was considered objective cognitive impairment",
+          "reasoning": "The outcome is clearly defined using a validated scale and a specific cut-off score."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "All subjects were assessed by two professionally trained neuropsychological evaluators using a neuropsychological scale during the visit.",
+          "reasoning": "The use of trained evaluators and a validated scale (MMSE) supports reliability."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "All subjects were assessed by two professionally trained neuropsychological evaluators using a neuropsychological scale during the visit.",
+          "reasoning": "The protocol was applied consistently to all groups."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study measured a wide range of potential confounders (age, education, vascular risk factors, stroke severity) and found no significant differences between groups. However, the analysis relied primarily on univariable correlations and ANOVA rather than multivariable modeling to adjust for these factors simultaneously.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Yes",
+          "evidence_snippet": "Baseline data on age, sex, education level, hypertension, diabetes, smoking, and alcohol consumption history were collected from all subjects.",
+          "reasoning": "A comprehensive list of clinical and demographic confounders was collected."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Partial",
+          "evidence_snippet": "Infarction areas were grouped according to the Adams classification method (12)... < 1.5 cm2, lacunar infarction group...",
+          "reasoning": "Stroke characteristics are well-defined, but others (like 'hypertension') are binary without severity/duration data."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "All subjects underwent venous blood sampling... for routine blood biochemistry... NIHSS and the MRS were applied to assess stroke severity.",
+          "reasoning": "Objective laboratory tests and validated clinical scales were used."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "All subjects underwent venous blood sampling from the middle elbow on an empty stomach in the morning",
+          "reasoning": "Standardized procedures were used for all participants."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No mention of missing confounder data or imputation."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "Yes",
+          "evidence_snippet": "36 healthy individuals (control group, the mean age was 61.1 years, 21 males and 15 females) with similar age were selected.",
+          "reasoning": "The study used a control group with similar age and sex to account for these primary confounders."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "No",
+          "evidence_snippet": "One-way analysis of variance was used to assess quantitative differences across the three study groups. Correlations... were analyzed using Pearson correlation analysis.",
+          "reasoning": "The study did not use multivariable regression to adjust for confounders; it only checked for baseline differences."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The statistical methods are generally appropriate for the data type, but the reliance on Pearson correlations and the lack of multivariable adjustment (e.g., linear regression) limits the strength of the prognostic conclusions. The ROC analysis is well-reported.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Statistical analyses were performed using SPSS 11.0... One-way analysis of variance was used... Pearson correlation analysis.",
+          "reasoning": "The analytical plan is clearly laid out in the methods section."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Partial",
+          "evidence_snippet": "Correlations between MMSE score and the DKI diffusivity and kurtosis parameters were analyzed using Pearson correlation analysis.",
+          "reasoning": "The study focuses on individual correlations rather than building a multivariable prognostic model."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Partial",
+          "evidence_snippet": "One-way analysis of variance was used to assess quantitative differences across the three study groups.",
+          "reasoning": "ANOVA is appropriate for group comparisons, but does not allow for adjustment of continuous confounders."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "VCI patients had significantly higher diffusivity metrics and significantly lower kurtosis metrics in most ROIs... however, some ROIs did not conform to this pattern",
+          "reasoning": "The authors report both significant and non-significant findings across all 28 ROIs."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/15_Pires_2025/Fan_2022.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T11:00:34.950381"
+  }
+}

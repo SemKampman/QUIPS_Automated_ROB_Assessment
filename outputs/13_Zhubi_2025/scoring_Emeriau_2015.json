@@ -1,0 +1,332 @@
+{
+  "paper_metadata": {
+    "title": "Parenchymal FLAIR hyperintensity before thrombolysis is a prognostic factor of ischemic stroke outcome at 3 Tesla",
+    "first_author": "Samuel Emeriau",
+    "year": "2015",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study provides clear inclusion/exclusion criteria and describes the baseline characteristics of the sample. However, it is a retrospective single-center study with a significant exclusion rate (37.7%), including a large portion (25.2%) lost due to lack of follow-up, which may introduce selection bias.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "patients who were treated for acute ischemic stroke in the MCA territory in our institution between November 2007 and March 2012.",
+          "reasoning": "The source population is clearly defined as patients with MCA territory stroke at a specific institution over a defined period."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "All patients were listed in the stroke unit registry of our institution.",
+          "reasoning": "The use of a formal stroke unit registry for identification is a standard and reliable method for identifying the sampling frame."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "between November 2007 and March 2012.",
+          "reasoning": "The dates are explicitly stated."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "Department of neuroradiology, hôpital Maison-Blanche, CHU de Reims, Reims university, 45, rue Cognacq-Jay, 51092 Reims cedex, France",
+          "reasoning": "The specific hospital and department are identified."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "Patients were included if they had undergone 3 Tesla MRI with DWI and FLAIR sequences, and were treated, after their MRI, by intravenous fibrinolysis... exclusion criteria were: unknown time of stroke onset, presence of major artifacts precluding FLAIR images analyses, and the absence of medical follow-up at 3 months",
+          "reasoning": "Criteria are explicit regarding imaging requirements, treatment, and data availability."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "135 patients met the inclusion criteria... 51 (37.7%) patients were excluded.",
+          "reasoning": "A high percentage of potentially eligible patients were excluded, primarily due to missing follow-up data, which raises concerns about whether the final sample is representative."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Patient data collected included demographics (gender and age), NIHSS at admission, systolic and diastolic blood pressure at admission, glycemia at admission, duration of hospitalization, and stroke symptom onset time",
+          "reasoning": "Table 1 and 2 provide comprehensive baseline data for the analyzed groups."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "High",
+      "risk_reasoning": "There is a high rate of attrition (25.2% specifically due to lack of 3-month follow-up). Crucially, the authors report significant differences in baseline characteristics (age, NIHSS, delays) between those with and without follow-up, suggesting informative censoring.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "No",
+          "evidence_snippet": "34 of 135 patients (25.2%) did not have medical follow-up at 3 months.",
+          "reasoning": "A loss of over 25% of the eligible sample for the primary outcome is generally considered high risk in prognosis studies."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not describe any attempts (e.g., phone calls, registry searches) to retrieve missing 3-month mRS data."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Partial",
+          "evidence_snippet": "It could possibly be explain by the fact that those patients could be less inclined to their medical follow-up by the neurologist. But we demonstrated that patients without follow-up were older and with higher neurological impairment suggesting that they could be followed in reeducation centers.",
+          "reasoning": "The authors speculate on reasons but do not provide confirmed reasons for each individual lost."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1: Group comparison of included patients and excluded patients because of the lack of medical follow-up",
+          "reasoning": "The authors provide a detailed comparison of baseline characteristics for the lost-to-follow-up group."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "No",
+          "evidence_snippet": "The 34 patients excluded from the study because of lack of medical follow-up were significantly younger, have larger delays between stroke onset and MRI... had higher NIHSS at admission and at discharge",
+          "reasoning": "The text explicitly states that there were significant differences between the groups, indicating a high risk of bias."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Attrition Summary",
+        "prompt": "Loss to follow-up (from baseline sample to study population analyzed) is not associated with key characteristics (i.e., the study data adequately represent the sample) sufficient to limit potential bias to the observed relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The prognostic factor (FLAIR hyperintensity) is well-defined and measured using standardized 3T MRI protocols. While the reading was unblinded to clinical data, the use of two expert readers and a consensus method for a relatively objective imaging finding limits bias.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "determine if the stroke lesions were FLAIR positive or not... focusing their analysis on the parenchymal FLAIR signal.",
+          "reasoning": "The prognostic factor is clearly defined as the presence of parenchymal hyperintensity on FLAIR sequences."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Partial",
+          "evidence_snippet": "They were unblinded of the clinical information and the DWI images to better evaluate the lesion of interest... interobserver agreement... was of 82% and κ = 0.63",
+          "reasoning": "The measurement is based on expert radiologist review with good inter-observer agreement, but the lack of blinding to clinical data is a minor limitation."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "visual classification of parenchymal FLAIR lesions was based on dichotomization between positive and negative groups",
+          "reasoning": "The dichotomization is a standard clinical approach for this specific imaging marker (mismatch concept)."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "The MRI study was performed on a 3T whole body clinical scanner with a 16-channel head coil. The protocol included the following 2 sequences...",
+          "reasoning": "A standardized MRI protocol was used for all patients."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "Fifteen of the 135 patients (11.1%) had major artifacts on FLAIR images",
+          "reasoning": "Most patients had interpretable FLAIR images; exclusions due to artifacts were relatively low."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No imputation was used; patients with missing or unreadable PF data were excluded."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "PF Measurement Summary",
+        "prompt": "PF is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The outcomes (NIHSS and mRS) are standard, validated scales in stroke research. They were assessed by neurologists at appropriate time points.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "Neurologic functional outcomes were defined as the NIHSS at discharge and mRS at 3 months",
+          "reasoning": "Standard clinical scales and timeframes are used."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "both of which were assessed by a neurologist",
+          "reasoning": "Assessment by a neurologist using validated scales (NIHSS/mRS) is the gold standard in stroke trials."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "mRS outcomes at 3 months were considered good if it was < 2... and poor if it was ≥ 2",
+          "reasoning": "The same criteria and scales were applied to all participants."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Outcome Measurement Summary",
+        "prompt": "Outcome of interest is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study accounts for several key confounders (age, NIHSS at admission, delays) in a multivariable logistic regression. However, some potential confounders like collateral status or recanalization success were not included in the model.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Partial",
+          "evidence_snippet": "Patient data collected included demographics (gender and age), NIHSS at admission, systolic and diastolic blood pressure at admission, glycemia at admission... stroke-to-treatment delays.",
+          "reasoning": "Most clinical confounders are measured, but imaging-based confounders like recanalization status are missing."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "Stroke etiology was classified by subtype using the Trial of ORG 10172 in Acute Stroke Treatment (TOAST) criteria",
+          "reasoning": "Standardized definitions (TOAST, NIHSS, Fazekas) are used for confounders."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "estimated the presence of leukoaraiosis on FLAIR images, according to the Fazekas scale... estimated the DWI-ASPECTS Score",
+          "reasoning": "Validated scales were used for clinical and radiological confounders."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "The same reader also estimated the DWI-ASPECTS Score... Patient data collected included...",
+          "reasoning": "Data collection was uniform for the cohort."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No imputation was mentioned; patients with missing data were excluded."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "No",
+          "evidence_snippet": "We retrospectively evaluated data",
+          "reasoning": "The retrospective design did not involve matching or stratification."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "Logistic regression analysis was performed to identify independent predictors... The explanatory variables were identified by an univariate test",
+          "reasoning": "Multivariable adjustment was performed for variables that were significant in univariate analysis."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Confounding Summary",
+        "prompt": "Important potential confounders are appropriately accounted for, limiting potential bias with respect to the relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical methods are appropriate for the study design, including univariate screening followed by multivariable logistic regression. Results are reported with confidence intervals.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Logistic regression analysis was performed to identify independent predictors... P < 0.2 was considered statistically significant for univariate test... P < 0.05... for other tests",
+          "reasoning": "The strategy for variable selection and the software used are clearly described."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "The explanatory variables were identified by an univariate test... We finally estimated the predictive values (sensibility, specificity...)",
+          "reasoning": "The model building followed a standard statistical approach (univariate to multivariate)."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "Logistic regression analysis was performed",
+          "reasoning": "Logistic regression is appropriate for the binary outcomes (mRS <2 vs >=2)."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Table 3... Table 4... Predictive values",
+          "reasoning": "The authors report results for both the primary outcome (mRS) and the secondary outcome (NIHSS difference), including non-significant findings."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Statistical Analysis and Presentation Summary",
+        "prompt": "The statistical analysis is appropriate for the design of the study, limiting potential for presentation of invalid or spurious results.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/13_Zhubi_2025/Emeriau_2015.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T10:52:31.506711"
+  }
+}

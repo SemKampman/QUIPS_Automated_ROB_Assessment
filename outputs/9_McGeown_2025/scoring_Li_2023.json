@@ -1,0 +1,332 @@
+{
+  "paper_metadata": {
+    "title": "Thalamocortical coherence predicts persistent postconcussive symptoms",
+    "first_author": "Yi-Tien Li",
+    "year": "2023",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study provides a clear description of the target population, recruitment source (TMUH), and explicit inclusion/exclusion criteria (GCS score, loss of consciousness duration, CT results). Baseline characteristics are well-documented in Table 1, and the sample is demographically matched to controls.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Patients with concussion (defined by the following criteria: closedhead injury (CHI), loss of consciousness lasting < 30 min, initial Glasgow Coma Scale score > 13, and normal head CT results) and demographically matched healthy controls (HCs) were recruited from Taipei Medical University Hospital (TMUH)",
+          "reasoning": "The authors define the clinical criteria for concussion and the specific hospital setting."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "recruited from Taipei Medical University Hospital (TMUH) between September 2015 and September 2021 (Table 1).",
+          "reasoning": "The recruitment source and timeframe are explicitly stated."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "between September 2015 and September 2021",
+          "reasoning": "The specific dates for recruitment are provided."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "Taipei Medical University Hospital (TMUH)",
+          "reasoning": "The specific medical center is identified."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "The exclusion criteria were any history of prior brain injury, coexisting or previous neurological or psychiatric illness, and contraindication for MRI.",
+          "reasoning": "Both inclusion (GCS, LOC) and exclusion criteria are clearly listed."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not report the total number of eligible patients screened versus those who consented (participation rate), making it difficult to assess selection bias."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1. Demographic, Clinical, and Cognitive Characteristics... Age, Sex, Education, GOSE, MMSE, PSQI, PCSQ, BAI, BDI.",
+          "reasoning": "Table 1 provides a comprehensive breakdown of baseline characteristics for both patients and controls."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "High",
+      "risk_reasoning": "There is a very high rate of attrition over the 2-year follow-up (75.7% loss). While the authors acknowledge this and compare baseline characteristics of completers vs. non-completers, the high loss to follow-up significantly increases the risk of attrition bias, as those with persistent symptoms might be more likely to remain in the study.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "No",
+          "evidence_snippet": "The follow-up rates at 1 and 2 years for the patients were 42.9% (n = 30) and 24.3% (n = 17), respectively",
+          "reasoning": "A follow-up rate of 24.3% at 2 years is well below the standard threshold for low risk (usually >80%)."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "Partial",
+          "evidence_snippet": "The main reasons for patient dropout in the follow-up visits included unresponsiveness to phone calls or emails and change in address or job.",
+          "reasoning": "The authors mention the reasons for dropout but do not describe specific intensive efforts to retrieve data from those lost."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Yes",
+          "evidence_snippet": "unresponsiveness to phone calls or emails and change in address or job.",
+          "reasoning": "Reasons are explicitly stated in the Figure 1 caption."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "Partial",
+          "evidence_snippet": "the results can also be explained by attrition bias, meaning that perhaps only patients who still felt uncomfortable after 1 or 2 years continued participating in this study.",
+          "reasoning": "The authors discuss the potential bias but do not provide a full table comparing all baseline characteristics of those lost vs. those retained."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper lacks a formal statistical comparison of baseline characteristics between the 70 initial patients and the 17 who completed the 2-year follow-up."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Attrition Summary",
+        "prompt": "Loss to follow-up (from baseline sample to study population analyzed) is not associated with key characteristics (i.e., the study data adequately represent the sample) sufficient to limit potential bias to the observed relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The prognostic factors (thalamocortical coherence and within-thalamic connectivity) are measured using standardized, objective MRI protocols. The methodology for calculating coherence is well-defined and applied consistently across the sample.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "The averaged within-thalamic functional connectivity and the averaged thalamocortical coherence measure were treated as the connectome biomarkers.",
+          "reasoning": "The prognostic factors are clearly defined as specific fMRI-derived metrics."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "MRI data were obtained using a 3 T MR scanner (Siemens MAGNE-TOM Prisma... magnitude-squared thalamocortical functional coherence (Sun et al., 2004) was calculated",
+          "reasoning": "The study uses objective imaging and established mathematical formulas for coherence."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "The averaged within-thalamic functional connectivity and the averaged thalamocortical coherence measure were treated as the connectome biomarkers.",
+          "reasoning": "The PFs are treated as continuous variables in the correlation and regression analyses."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "MRI data were obtained using a 3 T MR scanner (Siemens MAGNE-TOM Prisma, Erlangen, Germany) equipped with a 20-channel head coil.",
+          "reasoning": "All participants in the primary cohort were scanned using the same equipment and protocol."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "In total, 70 patients with mTBI... and 70 demographically matched HCs... were recruited",
+          "reasoning": "PF data appears complete for the analyzed sample at each time point."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The study does not appear to use imputation; it uses available-case analysis for the longitudinal follow-ups."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "PF Measurement Summary",
+        "prompt": "PF is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "Outcomes are measured using validated clinical scales (PCSQ, PSQI, BDI) administered by clinical psychologists. The definition of 'persistent' symptoms is based on established literature cut-offs.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "further divides the symptom-resolved and symptom-prolonged patients according to a published cut-off score (PCSQ ≥ 3)",
+          "reasoning": "The outcome (persistent PCS) is clearly defined using a validated scale and specific cut-off."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "Neuropsychological assessments, including Pittsburgh sleep quality index (PSQI), Rivermead Post Concussion Symptoms Questionnaire (PCSQ)... were administered by a clinical psychologist",
+          "reasoning": "Standardized, validated questionnaires were used, administered by trained professionals."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "administered on the same day as the initial and follow-up scans.",
+          "reasoning": "The protocol for outcome assessment was consistent for all participants."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Outcome Measurement Summary",
+        "prompt": "Outcome of interest is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study adjusts for age and sex in the GLM and machine learning models. However, other potential confounders like baseline symptom severity, litigation status, or pre-existing comorbidities (beyond the exclusion criteria) were not explicitly included in the multivariable models.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Partial",
+          "evidence_snippet": "controlling for confounds such as age and sex.",
+          "reasoning": "Age and sex are accounted for, but other factors like psychological resilience or treatment received during the 2-year interval are not mentioned."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1. Demographic... Characteristics",
+          "reasoning": "Age and sex are standard and clearly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "demographically matched healthy controls (HCs)",
+          "reasoning": "Basic demographic confounders were reliably collected."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "administered on the same day as the initial and follow-up scans.",
+          "reasoning": "Data collection was uniform."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No imputation was performed for missing confounder data."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "Yes",
+          "evidence_snippet": "70 demographically matched healthy controls (HCs)",
+          "reasoning": "The study used a matched control group design."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Partial",
+          "evidence_snippet": "using a generalized linear model (GLM), while controlling for confounds such as age and sex.",
+          "reasoning": "While age and sex were adjusted for, the high attrition rate introduces potential confounding that was not fully addressed in the analysis."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Confounding Summary",
+        "prompt": "Important potential confounders are appropriately accounted for, limiting potential bias with respect to the relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical approach is robust, utilizing GLMs, machine learning with cross-validation, and external validation in a separate cohort. The use of FDR correction for multiple comparisons reduces the risk of spurious findings.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "The statistical tests were all corrected by controlling the false discovery rate (FDR) at q = 0.01... support vector machine regressor with leave–one–out cross–validation",
+          "reasoning": "The analytical steps, including software and specific tests, are well-documented."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "The connectome biomarkers obtained through baseline measurement... along with patient's age and sex were treated as the possible features",
+          "reasoning": "The model is based on the hypothesized pathogenetic mechanism of TRN injury."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "machine learning-based predictive model was trained using the baseline quantitative thalamocortical coherence measures and long-term PCS estimates, and validated with external cohort data",
+          "reasoning": "The use of SVM and external validation is appropriate for a predictive biomarker study."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "The models explained 45.3% of the variance... and 66.7% of the variance... respectively.",
+          "reasoning": "The authors report both internal and external validation results, including R-squared values and p-values."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Statistical Analysis and Presentation Summary",
+        "prompt": "The statistical analysis is appropriate for the design of the study, limiting potential for presentation of invalid or spurious results.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/9_McGeown_2025/Li_2023.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T11:37:56.231590"
+  }
+}

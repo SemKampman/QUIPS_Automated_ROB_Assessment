@@ -1,0 +1,287 @@
+{
+  "paper_metadata": {
+    "title": "Amplitude-Integrated Electroencephalography Predicts Outcome in Patients with Coma After Acute Brain Injury",
+    "first_author": "Wendong You",
+    "year": "2018",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study used a prospective, consecutive enrollment strategy with clearly defined inclusion/exclusion criteria and a well-described baseline population. The participation rate was high, and the source population (NICU patients) is representative of the target group.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "From January 2013 to January 2016, 128 coma patients after acute brain injury were prospectively enrolled and monitored with aEEG.",
+          "reasoning": "The study specifies the timeframe, setting (NICU of Renji Hospital), and the nature of the brain injuries (TBI, stroke, cardiac arrest)."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "consecutive patients with coma after acute brain injury admitted to the NICU were screened for eligibility.",
+          "reasoning": "Consecutive recruitment is the gold standard for limiting selection bias in prognostic studies."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "From January 2013 to January 2016",
+          "reasoning": "The three-year recruitment window is explicitly stated."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "NICU of Renji Hospital affiliated with Shanghai Jiao Tong University School of Medicine.",
+          "reasoning": "The specific hospital and department are identified."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "The inclusion criteria were: (1) age of 18 years or older; (2) a clear history of acute brain injury... (3) a GCS score of B 8 on admission; and (4) a prolonged state of acute coma ([7 days).",
+          "reasoning": "Criteria are specific, including age, diagnosis, severity (GCS), and a clear 'zero time' (7 days post-onset)."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Yes",
+          "evidence_snippet": "179 patients... were screened... 143 eligible patients, 11 were lost to followup and 4 died of non-neurological diseases. Thus, 128 patients were included",
+          "reasoning": "The participation rate of eligible patients (128/143) is approximately 89.5%, which exceeds the 80% threshold for low risk."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "The characteristics of the participants are shown in Table 1. The mean age of the study population was 48.3 ± 11.3 years, and 85 patients (66.4%) were male.",
+          "reasoning": "Table 1 provides a comprehensive breakdown of age, sex, etiology, and GCS scores."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The attrition rate was low (7.7% lost to follow-up), and the reasons for exclusion/loss were clearly documented in a flowchart. The final sample size remained robust for the primary analysis.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "Of the 143 eligible patients, 11 were lost to followup and 4 died of non-neurological diseases. Thus, 128 patients were included in the final data set.",
+          "reasoning": "A follow-up rate of ~90% is considered excellent in critical care prognosis studies."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text mentions they were lost to follow-up but does not describe specific attempts (e.g., number of phone calls) to reach them."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Partial",
+          "evidence_snippet": "11 were lost to followup and 4 died of non-neurological diseases.",
+          "reasoning": "While 'lost to follow-up' is a category, the specific reasons why those 11 could not be reached are not detailed."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is no comparison table or list describing the characteristics of the 11 patients lost to follow-up versus those who completed the study."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Because the characteristics of the dropouts were not reported, it is impossible to determine if they differed systematically from the completers."
+        }
+      ]
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The prognostic factor (aEEG) was measured using a standardized protocol, interpreted by blinded investigators using established classification systems, and had no missing data.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "aEEG background patterns were classified into five types (Fig. 1) according to the modified criteria of Hellstro¨m-Westas et al. and Toet et al.",
+          "reasoning": "The study uses well-defined, established voltage and pattern criteria for aEEG classification."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Two investigators blinded to the patients' identity and clinical status visually examined the aEEG traces.",
+          "reasoning": "Blinding of the PF assessors to the clinical status is a strong safeguard against measurement bias."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "classified aEEG data were then subdivided into unfavorable (CLV, BS, or FT), intermediate (DNV), and favorable patterns (CNV) [[29, 30]].",
+          "reasoning": "The cut-points used were based on previous literature (citations 29, 30) rather than being derived from the current dataset."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "All patients were monitored with aEEG 7 days after coma onset using the NicoletOne Monitor... 10-electrode aEEG protocol.",
+          "reasoning": "A standardized technical protocol was applied to all participants."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "aEEG monitoring was technically successful in all patients",
+          "reasoning": "There was 100% data completion for the prognostic factor in the analyzed sample."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "Yes",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Imputation was not required as there was no missing data for the PF."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The outcome (CPC scale) is a validated tool in neuro-prognostication, and the assessors were blinded to the aEEG results, minimizing the risk of detection bias.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "neurological outcome was assessed at 6 months using the 5-point Glasgow-Pittsburgh Cerebral Performance Category (CPC) scale",
+          "reasoning": "The outcome measure and the 6-month time point are clearly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "assessed via out-patient follow-up or telephone interview by investigators who were blinded to the aEEG patterns.",
+          "reasoning": "Blinding of outcome assessors to the prognostic factor is a key requirement for low risk of bias."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "The outcomes were assessed via out-patient follow-up or telephone interview",
+          "reasoning": "Standardized assessment methods were used for the cohort."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "While the study controlled for sedation (a major confounder in EEG) by withdrawing drugs 6 hours prior, it did not perform multivariable adjustment to account for other potential confounders like age or specific injury severity markers beyond GCS.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Partial",
+          "evidence_snippet": "GCS scores... age... causes of coma... sedative drugs were used, they were withdrawn",
+          "reasoning": "Key clinical variables were measured, but other potential confounders like pupillary light reflex or specific neuro-imaging markers were not explicitly included in a confounding model."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "GCS scores of patients were also assessed at the time of aEEG recording, at least 6 h after interruption of sedation.",
+          "reasoning": "The measurement of the primary clinical confounder (GCS) and the management of sedation are well-defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "GCS score measured was reliable.",
+          "reasoning": "GCS is a standard, reliable clinical tool, and the timing relative to sedation withdrawal ensures its validity."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "GCS scores of patients were also assessed at the time of aEEG recording",
+          "reasoning": "Standardized timing for confounder assessment was used for all patients."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "Yes",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No missing data for confounders was reported."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "Partial",
+          "evidence_snippet": "sedative drugs... were withdrawn 6 h before the aEEG recording.",
+          "reasoning": "The design accounts for sedation, but does not use matching or stratification for other variables."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "No",
+          "evidence_snippet": "The v2 test was used to analyze categorical data... ROC curves of aEEG and GCS are shown",
+          "reasoning": "The study relied on univariable comparisons and ROC analysis. It did not perform multivariable logistic regression to adjust the aEEG effect for age, etiology, or GCS."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical methods were appropriate for the study's aims (predictive accuracy), and the results were reported transparently, including sensitivity, specificity, and AUC.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "The sensitivity, specificity, positive predictive value (PPV), and negative predictive value (NPV) of aEEG patterns and GCS scores were calculated.",
+          "reasoning": "The analytical plan is standard for a diagnostic/prognostic accuracy study."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "To compare the prognostic value of GCS and aEEG, the area under the receiver operator characteristic (ROC) curve was assessed.",
+          "reasoning": "The comparison between a clinical standard (GCS) and the new tool (aEEG) is a conceptually sound approach."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "SPSS version 17.0... MedCalc version 11.5.1",
+          "reasoning": "ROC analysis and Chi-square tests are appropriate for the categorical nature of the PF and outcome."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "The aEEG patterns and 6-month neurological outcomes based on different etiologies are shown in Table 4.",
+          "reasoning": "The authors reported results for all aEEG categories (including the 'intermediate' DNV group which had poor predictive value) and across all etiologies."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/6_Verboom_2025/You_2018.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T11:08:20.806507"
+  }
+}

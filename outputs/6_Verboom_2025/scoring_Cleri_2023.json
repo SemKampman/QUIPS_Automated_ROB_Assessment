@@ -1,0 +1,287 @@
+{
+  "paper_metadata": {
+    "title": "Predicting traumatic brain injury outcomes using a posterior dominant rhythm",
+    "first_author": "Nathaniel A. Cleri",
+    "year": "2023",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study provides a clear description of the source population and inclusion criteria. However, it is a single-center retrospective study using a convenience sample of patients who received EEG monitoring. This introduces potential selection bias as EEG was performed 'as medically indicated,' which may not represent the entire sTBI population.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "We reviewed the records of 633 adult (≥ 18 years of age) patients with sTBI (initial Glasgow Coma Scale [GCS] score ≤ 8) who presented to our institution's level I trauma center between 2010 and 2021.",
+          "reasoning": "The authors clearly define the age, severity of injury (GCS), and the specific clinical setting (Level I trauma center)."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Partial",
+          "evidence_snippet": "During the study period, EEG monitoring was used as medically indicated to detect nonconvulsive seizures or nonconvulsive status epilepticus",
+          "reasoning": "While the EMR search is described, the final sample depends on who received an EEG. Since EEG was 'medically indicated' rather than universal, there is a risk that the sample is biased toward patients with specific clinical presentations."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "between 2010 and 2021.",
+          "reasoning": "The 11-year window is explicitly stated."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "our institution's level I trauma center... Stony Brook University Hospital",
+          "reasoning": "The specific hospital and its trauma designation are provided."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "We excluded patients whose initial EEG study was obtained ≥ 30 days after admission (n = 8) and patients who were extubated at the time of EEG recording (n = 43)",
+          "reasoning": "Specific exclusion criteria and the 'zero time' (admission/injury) are well-defined."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "A total of 246 patients underwent EEG during their hospital stay... resulting in a final study population of 195 patients.",
+          "reasoning": "Out of 633 sTBI patients, only 246 had EEGs. It is unclear if the 195 analyzed are representative of the broader 633 eligible sTBI patients."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1. Patient demographics, clinical, imaging, and EEG information",
+          "reasoning": "Table 1 provides a comprehensive list of age, BMI, sex, race, GCS, and imaging findings."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "In-hospital outcomes have zero attrition, but the 6-month functional outcome (GOS-E) has a 25% loss to follow-up rate. While the authors state there was no significant difference in follow-up between groups, 25% is a significant threshold for potential attrition bias in long-term prognosis.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Partial",
+          "evidence_snippet": "At this time point, 49 patients (25% of the total study population) were lost to follow-up and thus lacked EMR documentation past discharge.",
+          "reasoning": "100% follow-up for in-hospital survival, but only 75% for the 6-month outcome."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The study does not describe active attempts (e.g., phone calls) to reach those missing from the EMR."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "No",
+          "evidence_snippet": "In all cases, this was because of a lack of follow-up",
+          "reasoning": "The specific reasons (death elsewhere, moved, etc.) are not detailed beyond 'lack of documentation'."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "Unsure",
+          "evidence_snippet": "we found no significant difference in lack of follow-up between the PDR(+) and PDR(−) cohorts.",
+          "reasoning": "The authors mention no difference between cohorts, but do not provide a table comparing the characteristics of those lost vs. those retained."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is no explicit statistical comparison provided between the 'lost' and 'analyzed' groups to rule out informative censoring."
+        }
+      ]
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The prognostic factor (PDR) is clearly defined and measured by experts (neurologists) using standard EEG criteria. The timing of measurement is also well-documented.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "All EEG recordings were reviewed by board-certified neurologists... and they identified the PDR as an 8- to 13-Hz rhythm most evident on posterior channels.",
+          "reasoning": "The frequency range and anatomical location are clearly specified."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "EEG characteristics were collected from reports written by qualified epileptologists.",
+          "reasoning": "Use of board-certified specialists for interpretation ensures high reliability."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "Based on the presence of a PDR within 30 days of injury, two cohorts were created",
+          "reasoning": "PDR is treated as a binary categorical variable based on clinical presence/absence, which is standard."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "All intubated adults admitted with sTBI... who underwent EEG recording",
+          "reasoning": "All measurements occurred in the same hospital setting using the same clinical EEG protocols."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "This aspect of our study had no missing data.",
+          "reasoning": "The authors explicitly state there was no missing data for the variables used in the model."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "Yes",
+          "evidence_snippet": "This aspect of our study had no missing data.",
+          "reasoning": "Imputation was not required as the dataset for the analyzed cohort was complete."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "Outcomes are well-defined using the GOS-E framework. While retrospective, the use of standardized clinical scales and multiple EMR sources (physicians, PT/OT) increases the reliability of the outcome measurement.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "four outcomes: in-hospital survival, recovery of command following, Glasgow Outcome Scale-Extended (GOS-E) score at discharge, and GOS-E score at 6 months post discharge.",
+          "reasoning": "The outcomes and their timing are explicitly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "GOS-E scores were strictly determined based on EMR documentation consistent with the GOS-E–defined framework.",
+          "reasoning": "The GOS-E is a validated tool in TBI research."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Information was gathered from any physician, nursing, physical and occupational therapy, and other ancillary staff EMR documentation.",
+          "reasoning": "The same EMR-based review process was applied to all patients."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study accounts for many confounders (age, GCS, imaging) and uses multivariable modeling (AutoScore). However, the PDR(-) group had significantly higher propofol and fentanyl use during EEG, which are known to suppress PDR. Although a subgroup analysis was performed, the inherent bias of sedation on the prognostic factor measurement remains a concern.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Yes",
+          "evidence_snippet": "Seventy-three clinical, radiographic, and EEG variables were collected... we recorded and compared usage frequencies of the various sedating medications",
+          "reasoning": "The authors measured a very high number of potential confounders, including medications."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Partial",
+          "evidence_snippet": "Table 2. Comparison of sedating medications administered to patients during EEG recording",
+          "reasoning": "Medications are listed as binary (received or not), but specific doses or durations of sedation are not provided."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Imaging findings were gathered from the initial head CT scan reports performed by qualified radiologists.",
+          "reasoning": "Clinical and lab data from EMR are generally reliable for these types of variables."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Baseline demographic, clinical, radiological, and electrophysiological data were collected for all patients",
+          "reasoning": "Standardized EMR data collection for the whole cohort."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "Yes",
+          "evidence_snippet": "This aspect of our study had no missing data.",
+          "reasoning": "No imputation was needed for the primary analysis."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "This was a retrospective cohort study without matching or prospective stratification."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "AutoScore... was used to create a prognostic model... Binary logistic regressions were also performed",
+          "reasoning": "The authors used multivariable machine learning and logistic regression to adjust for the 7 most predictive variables."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical approach is robust, utilizing a modern machine learning framework (AutoScore) with appropriate training/testing splits and internal validation (bootstrapping). Results are reported transparently with AUC and calibration metrics.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "The entire data set from the total study population (n = 195) was randomly split into a training/validation set (70%) and a testing set (30%).",
+          "reasoning": "The split-sample validation strategy is clearly described."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "AutoScore then produced two parsimony plots that listed the most predictive variables... We then identified 7 variables highly conserved",
+          "reasoning": "The use of parsimony plots and variable ranking is a standard, objective way to build prognostic models."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "internally cross-validated the model using a 10-sample bootstrapped analysis",
+          "reasoning": "Bootstrapping and ROC analysis are appropriate for prognostic model validation."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Table 5 displays the model's performance metrics for both the initial training/validation and final testing sets.",
+          "reasoning": "The authors report both training and testing performance, as well as calibration p-values."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/6_Verboom_2025/Cleri_2023.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T11:12:34.456933"
+  }
+}

@@ -1,0 +1,332 @@
+{
+  "paper_metadata": {
+    "title": "Prospective Study of Gray Matter Atrophy Following Pediatric Mild Traumatic Brain Injury",
+    "first_author": "Andrew R. Mayer",
+    "year": "2023",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study utilized consecutive recruitment from relevant clinical settings (ED/Urgent Care) and provided clear, standardized inclusion/exclusion criteria. The sample size is large, and baseline characteristics are well-documented, including comparisons with a matched control group.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Patients with pmTBI (age 8-18 years) were consecutively recruited from local emergency department and urgent care settings between July 2016 and February 2020",
+          "reasoning": "The authors specify the age range, clinical setting, and recruitment timeframe clearly."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "consecutively recruited from local emergency department and urgent care settings... diagnosed by Emergency Department and Urgent Care clinicians.",
+          "reasoning": "Consecutive recruitment from acute care settings is the gold standard for limiting selection bias in prognosis studies."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "between July 2016 and February 2020",
+          "reasoning": "Specific dates are provided."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "local emergency department and urgent care settings... University of New Mexico Health Sciences",
+          "reasoning": "The setting and institutional context are clearly stated."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "Enrollier criteria included a closed head injury with Glasgow Coma Score ≥13, LOC (if present) limited to 30 minutes, PTA (if present) limited to 24 hours... Major neurologic, psychiatric, or developmental disorders were exclusionary.",
+          "reasoning": "Criteria are based on established clinical definitions (ACRM/Zurich) and are highly specific."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "While the final sample size is reported, the total number of eligible individuals who declined to participate (participation rate) is not explicitly stated, though retention is high."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "The final sample... included 208 patients with pmTBI (84 females; age 14.4 ± 2.9; 7.4 ± 2.2 days postinjury) and 176 HC (74 females; age 14.2 ± 2.9)",
+          "reasoning": "Demographics, injury severity markers, and timing are well-reported."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "Retention was high (>80%), and the authors explicitly compared completers to the baseline sample. The reasons for exclusion/attrition were noted, and the use of Linear Mixed Effects models helps handle data missing at random.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "150 patients with pmTBI... (81.5% retention without study exclusions) and 159 HC... (95.5% retention without study exclusions) for the EC visit.",
+          "reasoning": "Retention above 80% is generally considered low risk for attrition bias."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not describe specific efforts to contact or retrieve data from those who did not return for the 4-month visit."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Partial",
+          "evidence_snippet": "81.5% retention without study exclusions",
+          "reasoning": "The authors mention exclusions (e.g., braces/artifacts), but specific reasons for voluntary dropout are not detailed."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Statistical analyses of the cortical thickness surface data were conducted using linear mixed effects (Analysis of Functional NeuroImages [AFNI] 3dLME) with data missing at random.",
+          "reasoning": "The authors used appropriate statistical methods to account for missing data and verified that the analyzed sample represented the baseline."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Yes",
+          "evidence_snippet": "81.5% retention without study exclusions",
+          "reasoning": "The high retention rate and use of mixed-effects models suggest that the impact of attrition on the observed relationships is likely minimal."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Attrition Summary",
+        "prompt": "Loss to follow-up (from baseline sample to study population analyzed) is not associated with key characteristics (i.e., the study data adequately represent the sample) sufficient to limit potential bias to the observed relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The prognostic factors (age at injury, LOC, PTA) were measured using standardized clinical interviews and ED records. The definitions are clear and consistent with international consensus.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "Enrollment criteria included a closed head injury with Glasgow Coma Score ≥13, LOC (if present) limited to 30 minutes, PTA (if present) limited to 24 hours",
+          "reasoning": "The prognostic factors (injury severity markers) are explicitly defined with temporal thresholds."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "a semistructured pediatric interview to ascertain previous history of TBI... LOC and PTA have higher test-retest reliability and specificity relative to postconcussive symptoms",
+          "reasoning": "The study uses validated interview techniques and clinical records to establish PF status."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "Age-at-injury effects... age (unit = month) as a covariate.",
+          "reasoning": "Age was treated as a continuous variable, avoiding arbitrary or data-driven categorization."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "A Common Data Elements battery of tests was administered at SA/EC visits along with retrospective ratings",
+          "reasoning": "Standardized protocols were applied to all participants."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "The final sample... included 208 patients with pmTBI",
+          "reasoning": "The analysis included the full final sample with well-documented PF data."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "Yes",
+          "evidence_snippet": "linear mixed effects... with data missing at random.",
+          "reasoning": "LME is an appropriate method for handling missing longitudinal data without requiring simple imputation."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "PF Measurement Summary",
+        "prompt": "PF is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "Outcomes were measured using objective 3T MRI (FreeSurfer) and validated clinical scales. MRI analysis was performed by a neuroradiologist blinded to group status, significantly reducing measurement bias.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "structural brain changes (cortical thickness and subcortical volumes)... at 4 months (early chronic visit [EC]) postinjury.",
+          "reasoning": "The primary outcomes (morphometry) and timing are clearly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "All MRIs were reviewed by a board-certified neuroradiologist blinded to participant group... FreeSurfer (version 7.1.1) package was used",
+          "reasoning": "Blinding and the use of automated, validated software (FreeSurfer) ensure high reliability."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "collected on a Siemens 3 T TrioTim scanner with a 32-channel head coil",
+          "reasoning": "All participants were scanned using the same equipment and protocol."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Outcome Measurement Summary",
+        "prompt": "Outcome of interest is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study used a matched control group and included key confounders (age, sex, intracranial volume, and premorbid ability) as covariates in the multivariable models.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Yes",
+          "evidence_snippet": "Age- and sex-matched healthy controls... premorbid reading ability and effort... total intracranial volume",
+          "reasoning": "Key neurodevelopmental and demographic confounders were captured."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "age (unit = month)... WRAT-IV (reading ability)... TOMMe10 (effort)",
+          "reasoning": "Confounders were defined using standardized metrics."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "standardized neuropsychological tests... automated segmentation for ICV.",
+          "reasoning": "Validated tools were used for confounder measurement."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "HC underwent identical assessments at similar time intervals",
+          "reasoning": "Protocols were identical across groups."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "Yes",
+          "evidence_snippet": "linear mixed effects... with data missing at random.",
+          "reasoning": "The statistical model handles missingness in covariates/outcomes appropriately."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "Yes",
+          "evidence_snippet": "Age- and sex-matched healthy controls (HC) to control for repeat testing/neurodevelopment.",
+          "reasoning": "Matching at the design stage is a strong control for confounding."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "age (unit = month) as a covariate... total intracranial volume used as an additional nuisance covariate.",
+          "reasoning": "Multivariable adjustment was performed for all primary analyses."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Confounding Summary",
+        "prompt": "Important potential confounders are appropriately accounted for, limiting potential bias with respect to the relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The analytical strategy was sophisticated (LME, GEE, Random Forests) and appropriate for longitudinal data. The authors reported both significant and non-significant findings and used Bonferroni corrections to control for multiple comparisons.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Statistical analyses of the cortical thickness surface data were conducted using linear mixed effects (Analysis of Functional NeuroImages [AFNI] 3dLME)",
+          "reasoning": "The methods section provides detailed descriptions of the software and models used."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "A 2 (visit [SA vs EC]) × 2 (group [HC vs pmTBI]) mixed-effects model... based on a conceptual framework",
+          "reasoning": "The models were pre-specified based on the study's longitudinal hypotheses."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "GEE (group and visit effect), using Gaussian, gamma, or negative binomial distributions.",
+          "reasoning": "The use of GEE and LME is appropriate for nested/longitudinal data."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "All data points in box-and-scatter plots have been residualized... Bonferroni corrected p's > 0.025.",
+          "reasoning": "The authors report null findings for their age-at-injury hypothesis and secondary subcortical regions, suggesting a lack of reporting bias."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Statistical Analysis and Presentation Summary",
+        "prompt": "The statistical analysis is appropriate for the design of the study, limiting potential for presentation of invalid or spurious results.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/9_McGeown_2025/Mayer_2023a.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T11:43:27.817711"
+  }
+}

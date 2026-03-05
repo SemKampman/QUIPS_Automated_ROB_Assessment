@@ -1,0 +1,287 @@
+{
+  "paper_metadata": {
+    "title": "Prognosis of comatose patients with reduced EEG montage by combining quantitative EEG features in various domains",
+    "first_author": "Tao Tao",
+    "year": "2023",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study provides clear inclusion/exclusion criteria and describes the baseline characteristics of the 81 patients. However, it is a retrospective study using a convenience sample from a single center. The authors explicitly acknowledge a 'bias risk of subject selection' because the decision to perform EEG was left to the treating physician rather than a standardized protocol.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Comatose patients with ABIs admitted to the ICU of the First People's Hospital of Kunshan from 29 October 2019 to 7 April 2021, who underwent multichannel EEG monitoring, were considered.",
+          "reasoning": "The source population (ICU patients with ABI at a specific hospital) and the timeframe are clearly defined."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Partial",
+          "evidence_snippet": "In this study, the determination of conducting quantitative EEG monitoring was given by each patient's physician, instead of our study purpose.",
+          "reasoning": "While the recruitment source is clear, the selection was not consecutive or random; it was based on physician discretion, which introduces potential selection bias."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "from 29 October 2019 to 7 April 2021",
+          "reasoning": "Specific dates for the recruitment period are provided."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "ICU of the First People's Hospital of Kunshan",
+          "reasoning": "The specific hospital and department are identified."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "Inclusion criteria were: (1) The patients were in coma, i.e., GCS≤7 with E = 1, V ≤2, and M ≤4; (2) EEG monitoring was conducted within 4weeks after admission... (3) EEG monitoring was initiated at or later than 24 h after sedating medications",
+          "reasoning": "Detailed clinical and procedural inclusion/exclusion criteria are listed, including GCS scores and timing."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not provide a flow diagram or the total number of eligible patients during that period, so the participation rate of eligible individuals cannot be calculated."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "The baseline characteristics consist of sex, age, GCS evaluated during EEG recording, etiology, timing of EEG recording after brain injury, and occurrence of epileptic discharges.",
+          "reasoning": "Table 1 provides a comprehensive breakdown of baseline characteristics for both outcome groups."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study reports on all 81 patients included in the cohort for the primary outcome (60-day GOS). Because the outcome is definitive (death or disability level) and obtained via follow-up, and the study is retrospective based on completed records, attrition bias is minimal.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "According to the above criteria, a total of 81 comatose patients were included in the study cohort, and their 60-day GOS scores were obtained in follow-up.",
+          "reasoning": "All 81 patients included in the cohort had their primary outcome measured."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "Yes",
+          "evidence_snippet": "60-day Glasgow outcome scale (GOS; Jennett and Bond, 1975) of the patient could be obtained by follow-up",
+          "reasoning": "The study implies 100% follow-up for the included cohort; no dropouts are reported."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Yes",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Rating is 'Yes' (as in 'Adequate') because there were no losses to follow-up reported for the 81 patients."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Not applicable as there was no loss to follow-up."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Yes",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Not applicable as all participants completed the study."
+        }
+      ]
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The prognostic factors (EEG features) are measured using automated, objective algorithms (MATLAB/EEGLAB), which eliminates subjective interpretation bias. The technical parameters (sampling rate, montage, filtering) are well-defined.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "For each epoch, 8 temporal features, 16 frequency features, and 24 spatial features were calculated... BSR was defined as the ratio of duration of EEG in suppression state (≤5μV) to the total duration in one epoch",
+          "reasoning": "The paper provides mathematical and technical definitions for all EEG features used."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "EEG preprocessing and feature extraction were performed using MATLAB 2022a and the EEGLAB toolbox.",
+          "reasoning": "The use of standardized software and automated algorithms ensures high reliability and eliminates inter-rater variability."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "Temporal-, frequency-, and spatial-domain features were automatically extracted for comparison... Logistic regression was used to establish prognosis models",
+          "reasoning": "The study treats the EEG features as continuous variables in the logistic regression models."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Quantitative EEG monitoring was conducted using a multi-lead EEG device (Cadwell Industries, Kennewick, WA, United States). A limited frontoparietal EEG montage was used",
+          "reasoning": "All patients were monitored using the same device and montage in the same ICU setting."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "EEG recording lasted for at least 30 min... The features among all reserved epochs were averaged to give the final variables",
+          "reasoning": "The study used continuous recordings and averaged epochs, ensuring complete data for the analyzed cohort."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "Yes",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No missing PF data were reported; therefore, imputation was not required."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The outcome (GOS) is a standard, validated scale in neuroprognostication. While the paper does not explicitly state that the GOS assessors were blinded to the EEG results, the GOS is a relatively objective functional assessment at 60 days.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "The 60-day Glasgow outcome scale (GOS; Jennett and Bond, 1975) of the patient could be obtained by follow-up; (5) The patient was not diagnosed as brain dead... Ranked from 1 to 5, the GOS provides a measurement of postcoma outcome",
+          "reasoning": "The outcome is clearly defined using a validated scale (GOS) at a specific time point (60 days)."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "the 60-day GOS scores were obtained in follow-up... by telephone interview",
+          "reasoning": "GOS is a standard and reliable tool for this population."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "follow-up by telephone interview was waived [for consent]... 60-day GOS scores were obtained in follow-up",
+          "reasoning": "The follow-up method (telephone interview at 60 days) was consistent for the cohort."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study accounts for some confounders (age, sex, etiology, GCS) and finds no significant differences between groups. However, it does not adjust for these baseline clinical variables in the final multivariable logistic regression model, which only includes EEG features. The impact of sedation is discussed but not statistically adjusted for.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Partial",
+          "evidence_snippet": "The baseline characteristics consist of sex, age, GCS evaluated during EEG recording, etiology, timing of EEG recording after brain injury, and occurrence of epileptic discharges.",
+          "reasoning": "Key clinical confounders were measured, but others like specific ICU interventions or comorbidities were not detailed."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Partial",
+          "evidence_snippet": "we used a combination regimen of short-acting low-dose remifentanil and low-dose dexmedetomidine for all patients.",
+          "reasoning": "Sedation protocol is described, but individual doses/durations for other confounders are not provided."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "GCS evaluated during EEG recording",
+          "reasoning": "Standard clinical tools (GCS) were used to measure baseline severity."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "The baseline characteristics consist of... [Table 1]",
+          "reasoning": "Baseline data were collected uniformly from medical records."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "Yes",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No missing confounder data were reported."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The study did not use matching or stratification in its design to control for confounders."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Partial",
+          "evidence_snippet": "Multiple logistic regression for all four features was also performed... BSR and PLI (F3, P4) were reserved in the final prediction model",
+          "reasoning": "The multivariable analysis adjusted for other EEG features but did not include clinical confounders (age, etiology) in the model to see if EEG features remained independent predictors."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical strategy is sound, using partial correlation to handle collinearity (specifically with RMS/voltage) and K-fold cross-validation to assess model generalizability. Results are reported transparently with AUC and 95% CIs.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Partial correlation analysis was applied to eliminate redundant factors... Multiple correspondence analysis was used... Logistic regression was used to establish prognosis models",
+          "reasoning": "The analytical pipeline is clearly described and appropriate for the data type."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "likelihood ratio test was used to include or exclude variables. BSR and PLI (F3, P4) were reserved in the final prediction model",
+          "reasoning": "The authors used a statistical selection method (likelihood ratio) and a conceptual framework (frontoparietal network) to guide model building."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "K-fold cross-validation was performed. The involved 81 comatose patients were uniformly partitioned into K= 3 folds",
+          "reasoning": "Logistic regression with cross-validation is an appropriate choice for a prognostic factor study of this size."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Table 2 [lists all 48 features]... Table 5 lists the results of single EEG feature-based unfavorable outcome predictors.",
+          "reasoning": "The study reports on a wide range of extracted features, including those that were not significant, suggesting no selective reporting."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/6_Verboom_2025/Tao_2023.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T11:10:00.170097"
+  }
+}

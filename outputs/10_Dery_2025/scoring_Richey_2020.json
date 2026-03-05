@@ -1,0 +1,287 @@
+{
+  "paper_metadata": {
+    "title": "Age differences in outcome after mild traumatic brain injury: results from the HeadSMART study",
+    "first_author": "Lisa N. Richey",
+    "year": "2019",
+    "analysis_timestamp": "2023-10-27 10:15:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study provides a clear description of the source population, recruitment setting (two EDs), and specific inclusion criteria (VA/DoD mTBI criteria). Baseline characteristics are well-documented and compared between age groups.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "A sample of 447 adults meeting VA/DoD criteria for mTBI was dichotomized by age into older (≥ 65 years; n=88) and younger (<65 years; n=359) sub-groups.",
+          "reasoning": "The population is clearly defined by age and clinical diagnostic criteria."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "HeadSMART was a prospective cohort study recruiting from two Johns Hopkins emergency departments in Baltimore, MD",
+          "reasoning": "The recruitment setting and prospective nature are explicitly stated."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "Recruitment for HeadSMART occurred between April 2014 and April 2017.",
+          "reasoning": "Specific dates for the recruitment window are provided."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "recruiting from two Johns Hopkins emergency departments in Baltimore, MD",
+          "reasoning": "The specific medical centers and city are identified."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "All participants presented to the emergency department within 24 hours of sustaining a head injury... met VA/DoD criteria for mTBI... those with moderate and severe head injury were excluded",
+          "reasoning": "The study uses standardized clinical criteria (VA/DoD) and a specific time-from-injury window."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not report the total number of eligible patients who declined participation (participation rate), making it difficult to assess selection bias."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Detailed information on participant characteristics is displayed in Table 1. There were significant differences across age groups for marital status (p ¼ 0.024) as well as employment status, race, and sex (p < 0.001).",
+          "reasoning": "Table 1 provides a comprehensive breakdown of demographics and clinical history."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "There is a notable drop-off from the baseline sample (n=447) to the 6-month follow-up (n=291), representing approximately 35% attrition. While the analysis uses Mixed Effects models to handle missing data, the characteristics of those lost to follow-up are not explicitly compared to completers.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Partial",
+          "evidence_snippet": "One month... 160/258 [Younger]... Six months... 131/225 [Younger]... 14/66 [Older]",
+          "reasoning": "The follow-up rate at 6 months is roughly 65% (291/447), which is below the preferred 80% threshold for low risk."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text does not describe specific protocols for re-engaging lost participants."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not state why participants dropped out (e.g., moved, recovered, too ill)."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is no table or text comparing the baseline characteristics of those who completed the study versus those who did not."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "The Missing at Random (MAR) assumption was used for missing data.",
+          "reasoning": "The authors assume data are missing at random for the model, but do not provide empirical evidence that dropouts were similar to completers."
+        }
+      ]
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The primary prognostic factor (Age) is an objective continuous variable dichotomized at a standard clinical threshold (65 years). Measurement is consistent across the cohort.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "dichotomized by age into older (≥ 65 years; n=88) and younger (<65 years; n=359) sub-groups.",
+          "reasoning": "Age is clearly defined and the cut-off is specified."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Collection of demographic (Table 1) and injury-related clinical information occurred at the enrolment visit",
+          "reasoning": "Age is a standard demographic variable with high reliability."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "The age cut-off of 65 years was chosen due to its common occurrence in the ageing literature as well as being an American College of Emergency Physicians (ACEP) criterion",
+          "reasoning": "The cut-point was based on clinical guidelines, not data-driven optimization (p-hacking)."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Collection of demographic (Table 1) and injury-related clinical information occurred at the enrolment visit in the emergency department",
+          "reasoning": "Standardized intake for all participants."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "359 younger (median age ¼ 37.2) and 88 older (median age ¼ 75.5) participants met criteria for mTBI and were included",
+          "reasoning": "Age was available for all included participants."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "Yes",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Not applicable as there was no missing data for the primary PF (Age)."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study uses validated, standard instruments (GOSE, PHQ-9, RPQ) for TBI outcomes. While the assessments were via telephone/in-person (subjective), they are the gold standard for these constructs.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "outcomes were assessed at 1-, 3-, and 6-month intervals. Depressive symptoms were assessed using the Patient Health Questionnaire–9 (PHQ-9), post-concussive symptoms (PCS) were ascertained with the Rivermead Post-Concussion Questionnaire (RPQ), and functional recovery from the Extended Glasgow Outcome Scale (GOSE).",
+          "reasoning": "All outcomes and follow-up windows are explicitly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "The Extended Glasgow Outcome Scale (GOSE) (Jennett & Bond, 1975) ascertains an individual's level of functional recovery... PHQ-9... has been found to produce adequate reliability and validity in detecting depression following TBI",
+          "reasoning": "The study uses well-validated scales with citations for their psychometric properties in TBI."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Outcome data were collected 1-, 3-, and 6-months after enrolment via telephone interview or in-person assessment.",
+          "reasoning": "The protocol was standardized for the whole cohort."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "High",
+      "risk_reasoning": "The study identifies significant baseline differences between age groups (Mechanism of injury, Sex, Race, Employment) but the primary longitudinal analysis (Mixed effects logistic regression) does not appear to adjust for these confounders. The authors admit this as a limitation.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Partial",
+          "evidence_snippet": "we did not evaluate for cognition or medication use here... This study did not include data on pre-morbid medical problems, frequency and length of hospitalization",
+          "reasoning": "While demographics and injury mechanism were measured, several critical geriatric confounders (comorbidities, meds) were missed."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "Detailed information on participant characteristics is displayed in Table 1.",
+          "reasoning": "Measured confounders like 'Mechanism of Injury' and 'Prior Concussion' are clearly categorized."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Partial",
+          "evidence_snippet": "Data were ascertained through self-report.",
+          "reasoning": "Prior concussions and psychiatric history rely on participant recall, which may be biased."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Collection of demographic (Table 1) and injury-related clinical information occurred at the enrolment visit",
+          "reasoning": "Standardized baseline collection."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text does not specify how missing baseline confounder data was handled."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "No",
+          "evidence_snippet": "Older adults in this sample were disproportionately affected by falls, vs motor vehicle/traffic accidents being the most common mechanism of injury for younger individuals.",
+          "reasoning": "The groups were naturally occurring and significantly different at baseline; no matching or stratification was used."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "No",
+          "evidence_snippet": "Longitudinal mixed effects logistic regression models were then estimated to evaluate odds of each outcome over time as a function of age.",
+          "reasoning": "The models described in Table 4 only include Age, Time, and Age*Time. There is no evidence of multivariable adjustment for the significant baseline differences (Sex, Race, Mechanism)."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical methods are appropriate for longitudinal data (Mixed effects models). Results are reported transparently with odds ratios and confidence intervals for all primary outcomes.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Longitudinal mixed effects logistic regression models were then estimated... The Missing at Random (MAR) assumption was used",
+          "reasoning": "The strategy is clearly outlined."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "evaluate odds of each outcome over time as a function of age.",
+          "reasoning": "The model directly tests the primary hypothesis regarding age-related trajectories."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "Mixed effects logistic regression models",
+          "reasoning": "Mixed effects models are the standard for handling longitudinal data with missing observations."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Figures 2-4 are visual representations of outcome trajectory across all time points for both age groups.",
+          "reasoning": "All three pre-specified outcome domains are reported across all time points, regardless of significance."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/10_Dery_2025/Richey_2020.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T10:29:47.667724"
+  }
+}

@@ -1,0 +1,287 @@
+{
+  "paper_metadata": {
+    "title": "Neural oscillations track recovery of consciousness in acute traumatic brain injury patients",
+    "first_author": "Joel Frohlich",
+    "year": "2022",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study clearly defines the target population (moderate-to-severe TBI in ICU), recruitment setting (UCLA Neuroscience/Trauma ICU), and explicit inclusion/exclusion criteria based on GCS and CT evidence. While it is a convenience sample from a single center, the clinical characteristics are well-described.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "41 patients admitted at the Ronald Reagan UCLA Medical Center Neuroscience/Trauma ICU from December 2015 to February 2020 following moderate-to-severe TBI.",
+          "reasoning": "The authors specify the clinical setting, timeframe, and the specific condition (TBI severity)."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "The sample size was determined by patient availability and was not set a priori.",
+          "reasoning": "Recruitment was based on consecutive availability in a specialized ICU setting, which is standard for acute TBI prognosis studies."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "from December 2015 to February 2020",
+          "reasoning": "The specific dates for the recruitment window are provided."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "Ronald Reagan UCLA Medical Center Neuroscience/Trauma ICU",
+          "reasoning": "The specific hospital and unit are identified."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "inclusion criteria were as follows: patients were retained if they demonstrated an admission Glasgow Coma Scale (GCS; Teasdale & Jennett, 1974) score ≤8 or an admission GCS score of 9–14 with computed tomography (CT) evidence of intracranial bleeding.",
+          "reasoning": "Criteria are based on validated clinical scales (GCS) and objective imaging (CT)."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not provide a flow diagram or the number of eligible patients who were not enrolled (e.g., due to lack of consent), making it impossible to calculate a participation rate."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 2 Patient details and demographics... Age at injury, Sex, Mean GCS, GOSe",
+          "reasoning": "A detailed table provides individual-level data on age, sex, and baseline injury severity."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "While the acute analysis has low attrition, the chronic outcome (GOSe) is missing for several patients (approx 10%). The reasons for missingness are partially explained (e.g., death), but a systematic comparison between those with and without 6-month follow-up is missing.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Partial",
+          "evidence_snippet": "320 EEG observations across 38 patients... Four patients missing GOSe score were excluded",
+          "reasoning": "38/41 patients were analyzed for acute outcomes (92%), but 4/38 (10.5%) were missing the primary chronic outcome."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text does not describe specific protocols for re-contacting patients who were lost to follow-up."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Partial",
+          "evidence_snippet": "Patient deceased... missing GOSe score",
+          "reasoning": "Death is noted for one patient, but specific reasons for the other 3 missing GOSe scores are not detailed."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 2... IDs 18, 29, 30, 37... Excluded from prediction of chronic outcome",
+          "reasoning": "Baseline data (Age, Sex, GCS) are provided for the patients who did not complete the GOSe follow-up."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The study does not provide a statistical comparison between the follow-up group and the lost-to-follow-up group."
+        }
+      ]
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The prognostic factor (EEG ABCD model) is measured using an automated, objective algorithm described in detail. This eliminates the subjectivity of manual scoring and ensures consistency across the sample.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "EEG types, labeled A–D (hence, ABCD model) are summarized in Table 1... automated methods based on quantitative EEG criteria.",
+          "reasoning": "The ABCD types are defined by specific spectral peak combinations (Theta, Alpha, Beta)."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "we spline-interpolated channel-level power spectral densities (PSDs)... identified local maxima... determined the ABCD type using criteria in Table 1.",
+          "reasoning": "The use of an automated algorithm (MATLAB findpeaks) ensures high reliability and removes observer bias."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "EEG frequency bands were defined as follows... delta, 1–4 Hz; theta, 4–8 Hz; alpha, 8–12 Hz; beta, 12–35 Hz.",
+          "reasoning": "Standard clinical frequency band definitions were used."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "clinical EEG was recorded continuously for multiple days using a sparse montage with 13–17 channels (Cz reference).",
+          "reasoning": "The recording protocol was standardized across the ICU cohort."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Partial",
+          "evidence_snippet": "10.6% could not be classified according to the ABCD model due to peak combinations that did not fit any ABCD type",
+          "reasoning": "While most data were usable, a significant minority (10.6%) of observations were unclassifiable by the primary model."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "No",
+          "evidence_snippet": "Instances of unclassifiable ABCD type were treated as missing data.",
+          "reasoning": "No imputation was performed; unclassifiable data were simply excluded from the LMMs."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "Outcomes were measured using the GCS and GOSe, which are the gold standards in TBI research. While GOSe was sometimes collected via phone, this is a validated method for this scale.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "Glasgow Outcome Scale Extended (GOSe... administered approximately 6 months (190 ± 33 days, mean ± SD) postinjury",
+          "reasoning": "The outcome and the timing of assessment are clearly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "behavioral assessments were performed several times daily using the GCS... GOSe... administered... in-person or by phone",
+          "reasoning": "GCS and GOSe are validated, standard instruments for TBI outcome assessment."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "GCS scores were selected corresponding to the day/time of each patient's randomly resampled EEG observation.",
+          "reasoning": "The temporal linking of EEG and GCS was consistent for all participants."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study performed sophisticated adjustment for confounders, including age, sex, and most importantly, a PCA-based reduction of complex ICU medication data (sedatives/analgesics), which is a major strength in this setting.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Yes",
+          "evidence_snippet": "categorized medications... into one of five classes: propofol, opioids, benzodiazepines, barbiturates, and dissociatives... AGE... SEX",
+          "reasoning": "Key demographic and treatment-related confounders (sedation) were captured."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Partial",
+          "evidence_snippet": "categorized medications from each EEG observation into one of five classes",
+          "reasoning": "Medications were treated as binary (present/absent) during the observation, rather than precise dosages."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "logistic PCA to the resultant matrix of observations medication classes",
+          "reasoning": "The use of logistic PCA is a robust way to handle binary medication data in a statistical model."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Patients in our study were administered a very large number of medications in the ICU. To appropriately account for medications, we first categorized medications from each EEG observation",
+          "reasoning": "The medication tracking was standardized across the cohort."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "No",
+          "evidence_snippet": "additional patient with missing medication data [excluded]",
+          "reasoning": "Imputation was not used; the patient with missing confounder data was excluded."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The study did not use matching or stratification in the design phase (it was a cohort study)."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "GCS ~ 1 + EEG + AGE + SEX + PC1 + PC2 + (1|PATIENT)",
+          "reasoning": "Multivariable Linear Mixed Models were used to adjust for age, sex, and medication PCs."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical approach was rigorous, using Linear Mixed Models to account for the longitudinal nature of the data and resampling to handle the unbalanced design for chronic outcomes. Multiple testing corrections were applied.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "we used linear mixed models (LMMs) with random intercepts... formula GCS ~ 1 + EEG + AGE + SEX + PC1 + PC2 + (1|PATIENT)",
+          "reasoning": "The model formulas and software used are explicitly stated."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "Our study tested four hypotheses... based on the mesocircuit model",
+          "reasoning": "The analysis was hypothesis-driven based on the established Schiff mesocircuit theory."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "LMMs with random intercepts... resampling approach that randomly sampled one EEG observation per patient with replacement",
+          "reasoning": "The authors correctly identified that LMMs are needed for repeated measures and resampling is needed for the static GOSe outcome."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "we corrected for the four hypothesis tests... using a Bonferroni correction",
+          "reasoning": "The authors reported both significant and non-significant results (e.g., GOSe) and applied strict alpha corrections."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/6_Verboom_2025/Frohlich_2022.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T11:06:59.553034"
+  }
+}

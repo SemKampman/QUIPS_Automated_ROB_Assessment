@@ -1,0 +1,287 @@
+{
+  "paper_metadata": {
+    "title": "Risk factors for intracranial hemorrhage and mortality in adult patients with severe respiratory failure managed using veno-venous extracorporeal membrane oxygenation",
+    "first_author": "Xiaojing Wu",
+    "year": "2022",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study provides clear inclusion/exclusion criteria and describes the source population (single-center ICU). However, it is a retrospective convenience sample with a relatively small N (77), and there is no mention of the total number of eligible patients versus those included, making it difficult to assess the participation rate or potential selection bias from the 309 total ECMO patients screened.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "We identified patients admitted to the 4th Department of Pulmonary and Critical Care Medicine of the China-Japan Friendship Hospital and supported with VV-ECMO for SRF from July 2013 to May 2019.",
+          "reasoning": "The authors specify the department, hospital, and clinical condition (SRF) clearly."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Partial",
+          "evidence_snippet": "Overall, we identified 309 patients supported with ECMO from July 2013 to May 2019... Ultimately, we included 77 patients with SRF managed with VV-ECMO.",
+          "reasoning": "While the flow from 309 to 77 is shown in Figure 1, the specific method of identification (e.g., database search vs. prospective log) is not explicitly detailed."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "from July 2013 to May 2019.",
+          "reasoning": "The dates are clearly defined."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "4th Department of Pulmonary and Critical Care Medicine of the China-Japan Friendship Hospital",
+          "reasoning": "The specific hospital and department are named."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "The clinical indications of VV-ECMO for SRF included a ratio of partial pressure of arterial oxygen (PaO2) to the fraction of inspired oxygen (FiO2) <50 mm Hg for >3 h... Patients were excluded for the following conditions: being supported with veno-arterial (VA) or veno-veno-arterial...",
+          "reasoning": "Detailed physiological thresholds and exclusion types are provided."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not state how many eligible patients were missed or refused, though it implies all patients meeting criteria in that period were included."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Demographical data, laboratory indices, imaging characteristics, and other clinical information were collected.",
+          "reasoning": "Table 1 provides a comprehensive list of baseline characteristics including age, BMI, and severity scores."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "As a retrospective study of ICU records for a short-term acute intervention (ECMO), the 'loss to follow-up' is virtually zero for the primary in-hospital outcomes. All 77 patients were accounted for in the analysis.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "Ultimately, we included 77 patients with SRF managed with VV-ECMO. Of these, 11 (14.3%) suffered from ICH and 36 (46.8%) survived",
+          "reasoning": "The denominator remains consistent throughout the results; no patients were lost during the hospital stay."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "Yes",
+          "reasoning": "Not applicable as there were no dropouts in this acute clinical setting, but the data collection from records was complete.",
+          "evidence_snippet": "Not found in text"
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Yes",
+          "reasoning": "There was no loss to follow-up reported.",
+          "evidence_snippet": "Not found in text"
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "reasoning": "Not applicable; 100% follow-up for the in-hospital period.",
+          "evidence_snippet": "Not found in text"
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Yes",
+          "reasoning": "All participants completed the study.",
+          "evidence_snippet": "Not found in text"
+        }
+      ]
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The prognostic factors (Diabetes, Fibrinogen, etc.) are standard clinical variables measured using objective laboratory and historical methods. The timing of measurements (e.g., minimum during ECMO) is clearly defined.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "The diagnosis of diabetes was based on the patient's medical history... fibrinogen concentration during ECMO (including activated partial thromboplastin time [APTT], prothrombin time, fibringen, and D-Dimer, which were tested every 4-6 h during ECMO)",
+          "reasoning": "Definitions for diabetes and the frequency of lab testing are provided."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "anticoagulation and fibrinolysis indices... were tested every 4-6 h during ECMO",
+          "reasoning": "Laboratory tests are objective and standardized."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "minimum fibrinogen concentration during ECMO (aOR: 2.557, 95% CI: 1.244–5.252, P = 0.011)",
+          "reasoning": "Fibrinogen was treated as a continuous variable in the regression, avoiding arbitrary cut-points."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "All patients were treated using percutaneous, single-site, double-lumen catheterization... APTT was measured every 6 to 8 h.",
+          "reasoning": "The management protocol was standardized for the cohort."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "We analyzed the clinical data of 77 patients... Demographical data, laboratory indices... were collected.",
+          "reasoning": "No mention of missing data for the primary PFs in the final model."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not explicitly state how missing data were handled, though it implies complete case analysis."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The primary outcomes (ICH and Mortality) are objective. ICH was confirmed by CT scan and reviewed by a radiologist, which is the gold standard.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "The presence of ICH was determined by computed tomography (CT) of the head... Survivors were defined as those who survived until hospital discharge.",
+          "reasoning": "Outcomes are clearly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "All scans were reviewed by a radiologist for confirmation of diagnosis and categorization of hemorrhage.",
+          "reasoning": "Radiologist review of CT scans ensures high reliability."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "When there were clinical indications of ICH... CT of the head was performed within 3 h.",
+          "reasoning": "The protocol for triggering a CT scan was consistent across the cohort."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study used multivariable logistic regression to adjust for confounders. However, the small number of events (11 ICH events) limits the number of variables that can be safely included in the model without overfitting. Some potential confounders (like blood product use) were explicitly omitted from the analysis.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Partial",
+          "evidence_snippet": "most of our patients received blood products, but their impact on ICH and mortality was not included in the analysis.",
+          "reasoning": "The authors admit that blood product impact was not analyzed, which is a known confounder in ECMO coagulation studies."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "Acute hepatic failure was defined as total bilirubin ≥102 µmol/L... CO2 retention was defined as PaCO2 ≥50 mmHg.",
+          "reasoning": "Clear clinical definitions are provided for adjusted variables."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "rating": "Yes",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable.",
+          "evidence_snippet": "laboratory indices... were tested every 4-6 h during ECMO",
+          "reasoning": "Confounders were measured using standard hospital lab equipment."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "All patients were treated using percutaneous, single-site, double-lumen catheterization.",
+          "reasoning": "Standardized care setting."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No mention of imputation methods."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "No",
+          "evidence_snippet": "We analyzed the clinical data of 77 patients... Multivariable logistic regression analyses were performed",
+          "reasoning": "The study did not use matching or stratification in the design phase; it relied solely on post-hoc statistical adjustment."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Partial",
+          "evidence_snippet": "Variables with a P value <0.05 upon univariable analysis were included in a multivariable, logistic, backward stepwise model.",
+          "reasoning": "While multivariable adjustment was performed, the low event rate (11 ICH cases) makes the model for ICH (adjusting for 5 variables initially) potentially overfitted."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The statistical methods are standard, but the use of a p-value threshold (p<0.05) for variable selection in a small sample size is prone to missing important confounders or including spurious ones. The wide confidence interval for Diabetes (95% CI: 1.129–146.188) suggests significant instability in the model.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Univariable and multivariable logistic regression analyses were performed... backward stepwise model.",
+          "reasoning": "The strategy is clearly described."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Partial",
+          "evidence_snippet": "Variables with a P value <0.05 upon univariable analysis were included",
+          "reasoning": "The strategy relied on p-value driven selection rather than a purely clinical conceptual framework, which is risky in small samples."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "Multivariable logistic regression analyses were performed to identify risk factors",
+          "reasoning": "Logistic regression is appropriate for binary outcomes like ICH and mortality."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Table 2... Table 3...",
+          "reasoning": "The authors report both univariable and multivariable results for all significant findings."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/14_Thiara_2024/Wu_2021.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T10:56:38.647126"
+  }
+}

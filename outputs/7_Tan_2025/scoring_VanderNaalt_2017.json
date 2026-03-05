@@ -1,0 +1,332 @@
+{
+  "paper_metadata": {
+    "title": "Early predictors of outcome after mild traumatic brain injury (UPFRONT): an observational cohort study",
+    "first_author": "Joukje van der Naalt",
+    "year": "2017",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study provides a clear description of the target population, recruitment settings (three level-1 trauma centers), and explicit inclusion/exclusion criteria. The sample size is large (n=1151 at baseline), and the recruitment process is well-documented.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Patients were recruited on arrival at the emergency department of three level-1 trauma centres in the Netherlands (Groningen, Enschede, and Tilburg)",
+          "reasoning": "The geographic and clinical setting is clearly defined."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "Patients were recruited on arrival at the emergency department... by the attending physician or (in the case of admission) by the physician at the ward.",
+          "reasoning": "The recruitment method is systematic and covers both ED arrivals and admitted patients."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "This prospective, observational cohort study was done between Jan 25, 2013, and Jan 6, 2015",
+          "reasoning": "Specific dates for the recruitment window are provided."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "three level-1 trauma centres in the Netherlands (Groningen, Enschede, and Tilburg)",
+          "reasoning": "Specific hospitals and cities are named."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "Patients with mTBI, defined by a GCS score of 13–15, with posttraumatic amnesia lasting less than 24 h or loss of consciousness for less than 30 min were included. Patients were excluded if they were younger than 16 years, had history of drug or alcohol misuse, or had a major psychiatric or neurological disorder",
+          "reasoning": "Detailed clinical and demographic criteria are provided."
+        },
+        {
+          "label": "Adequate study participation",
+          "rating": "Yes",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "evidence_snippet": "we identified 1555 patients who met inclusion criteria, of whom 1151 gave consent and had baseline data recorded",
+          "reasoning": "A participation rate of 74% (1151/1555) is high for a prospective observational study."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1: Demographics and baseline clinical characteristics",
+          "reasoning": "Table 1 provides comprehensive data on age, sex, GCS, injury cause, and CT findings."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "While the study started with 1151 patients, only 671 (58%) were available for the primary outcome analysis at 6 months. The authors acknowledge that non-completers were younger, which could introduce bias, although they argue that injury severity did not differ between groups.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Partial",
+          "evidence_snippet": "From 671 (58%) of 1151 patients, outcome scores were available at the 6-month timepoint",
+          "reasoning": "A 58% follow-up rate is relatively low and poses a risk of attrition bias."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text does not describe specific efforts (e.g., phone calls, reminders) to re-engage dropouts."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Partial",
+          "evidence_snippet": "it can be difficult to motivate patients with an overall good outcome to participate in extensive follow-up",
+          "reasoning": "The authors speculate on the reasons but do not provide specific data on why individuals left."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "These patients were older (46·5 years) than those who did not complete the questionnaire (39·6 years; table 1). Neither severity of injury nor age differed between patients who filled out the 2-week and 6-month questionnaire",
+          "reasoning": "The authors compared age and injury severity between completers and non-completers."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "No",
+          "evidence_snippet": "These patients were older (46·5 years) than those who did not complete the questionnaire (39·6 years)",
+          "reasoning": "There was a statistically significant difference in age between those who completed the 2-week questionnaire and those who did not."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Attrition Summary",
+        "prompt": "Loss to follow-up (from baseline sample to study population analyzed) is not associated with key characteristics (i.e., the study data adequately represent the sample) sufficient to limit potential bias to the observed relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study uses validated and standardized instruments (HADS, IES, UCL, HISC) to measure psychological prognostic factors. The timing of measurement (2 weeks) is consistent for all participants.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "Anxiety and depression were assessed using the Hospital Anxiety and Depression Scale (HADS)... Coping Style was investigated using the Utrecht Coping List (UCL)",
+          "reasoning": "All prognostic factors are defined by specific, validated scales."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "HADS... a 14-item questionnaire that measures anxiety (HADS-A) and depression (HADS-D) separately... UCL... a 47-item questionnaire with seven subscales",
+          "reasoning": "The study uses internationally recognized, validated psychometric tools."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "with cutoff values of seven for being considered clinically anxious or depressed... cutoff score of 19 defining post-traumatic stress disorder.",
+          "reasoning": "The study uses established clinical cutoffs rather than data-driven ones."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "At 2 weeks after recruitment... information... was obtained by use of a questionnaire (web-based or printed, depending on the preference of the participant).",
+          "reasoning": "The protocol was standardized for all participants at the 2-week mark."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "Missing values in the predictors at the time of admission and 2 weeks after injury were imputed using single imputation",
+          "reasoning": "The authors addressed missingness in predictors using imputation to maintain the sample size."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "Yes",
+          "evidence_snippet": "imputed using single imputation with the aregImpute function of the Hmisc package.",
+          "reasoning": "A standard statistical approach for imputation was employed."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "PF Measurement Summary",
+        "prompt": "PF is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The outcome (GOSE) is the gold standard for TBI recovery research. It was measured at a pre-specified time point (6 months) using a structured approach.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "At 6 months after injury, recovery was assessed with the Glasgow Outcome Scale Extended (GOSE)",
+          "reasoning": "The outcome and timing are explicitly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "GOSE... measures functional outcome on an eight-point scale",
+          "reasoning": "The GOSE is a highly validated tool in neurotrauma."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "At 6 months after injury, recovery was assessed with the Glasgow Outcome Scale Extended (GOSE)",
+          "reasoning": "The assessment was uniform for the cohort."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Outcome Measurement Summary",
+        "prompt": "Outcome of interest is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study used multivariable logistic regression to adjust for a wide range of potential confounders, including demographics, injury severity, and pre-injury mental health. They also explored interactions (age and education).",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Yes",
+          "evidence_snippet": "comprising injury severity (GCS score, post-traumatic amnesia, and CT abnormalities), demographics (age, gender, educational level, pre-injury mental health, and previous brain injury), and physical conditions",
+          "reasoning": "A comprehensive list of clinical and demographic confounders was included."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "presence of pre-injury mental health problems was defined by psychiatric or psychological symptoms necessitating treatment... educational level that was indicated on a Dutch 7-point scale",
+          "reasoning": "Confounders like mental health and education were specifically defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "obtained from digital medical records... CT scan was done on admission... classified... by a boardcertified radiologist.",
+          "reasoning": "Medical records and professional radiologist reviews provide reliable data."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "The presence of post-traumatic amnesia, loss of consciousness, and GCS score were assessed at the emergency department by the attending physician.",
+          "reasoning": "Standardized ED assessment for all participants."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "Yes",
+          "evidence_snippet": "Missing values in the predictors... were imputed using single imputation",
+          "reasoning": "Imputation was applied to confounders/predictors."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "No",
+          "evidence_snippet": "observational cohort study",
+          "reasoning": "As an observational study, confounding was not controlled by design (e.g., matching) but by analysis."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "We used logistic regression analyses... including all main effects and the two-way interactions of age with educational level and gender",
+          "reasoning": "Multivariable adjustment was the primary method for handling confounding."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Confounding Summary",
+        "prompt": "Important potential confounders are appropriately accounted for, limiting potential bias with respect to the relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical analysis is robust, using bootstrapping for internal validation and restricted cubic splines to account for non-linear relationships. The reporting is transparent, including AUC and Nagelkerke R2 values.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "We used logistic regression analyses... We estimated the optimism for all measures by internal validation using 500 bootstrap samples.",
+          "reasoning": "The analytical plan is detailed and follows best practices for prognostic modeling."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "we considered the prognosis predictors in two blocks... based on a-priori expectations",
+          "reasoning": "The block-wise entry and interaction testing are theoretically grounded."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "Logistic regressions analyses were done with recovery (ie, GOSE≤7 or GOSE=8) as the dependent variable",
+          "reasoning": "Logistic regression is appropriate for the dichotomized GOSE outcome."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Table 2: Potential associations between predictors in three models and outcomes",
+          "reasoning": "The study reports univariable and multivariable results for all tested predictors."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Statistical Analysis and Presentation Summary",
+        "prompt": "The statistical analysis is appropriate for the design of the study, limiting potential for presentation of invalid or spurious results.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/7_Tan_2025/VanderNaalt_2017.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T11:18:19.964518"
+  }
+}

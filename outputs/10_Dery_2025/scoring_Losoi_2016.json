@@ -1,0 +1,332 @@
+{
+  "paper_metadata": {
+    "title": "Recovery from Mild Traumatic Brain Injury in Previously Healthy Adults",
+    "first_author": "Heidi Losoi",
+    "year": "2016",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study uses a consecutive sampling frame from a major emergency department and provides exceptionally detailed inclusion/exclusion criteria. By excluding pre-existing conditions, they created a highly homogeneous sample, which reduces noise in the prognostic relationship, though it limits generalizability to the 'average' TBI patient.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "All consecutive patients with head computed tomography (CT) because of acute head injury (n = 3023) served as the initial cohort, and they were screened to obtain a sample of working aged adults without preinjury medical, psychiatric, or neurological problems",
+          "reasoning": "The authors clearly define the source (ED patients with CT) and the specific subset of interest (previously healthy working-age adults)."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "Participants were prospectively enrolled from consecutive cases at the emergency department (ED) of the Tampere University Hospital between August 2010 and July 2012.",
+          "reasoning": "Consecutive recruitment from a primary ED setting is the gold standard for limiting selection bias in prognosis studies."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "between August 2010 and July 2012.",
+          "reasoning": "Specific dates are provided."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "emergency department (ED) of the Tampere University Hospital",
+          "reasoning": "The specific hospital and department are identified."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "Subjects were included in the study if they: (1) met MTBI criteria of the World Health Organization's Collaborating Centre for Neurotrauma Task Force, (2) were aged between 18 and 60 years, and (3) were residents of the hospital district.",
+          "reasoning": "Criteria are explicit, including the use of validated WHO diagnostic standards for MTBI."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Yes",
+          "evidence_snippet": "they declined to participate in the study (n=105, 3.5%).",
+          "reasoning": "The refusal rate was very low (3.5%), suggesting the sample is highly representative of the eligible pool."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "The characteristics of the patients with MTBI and the controls are described in Table 1. There were no statistically significant differences between the MTBI group and controls in age, education (in years), or sex.",
+          "reasoning": "Table 1 provides a comprehensive breakdown of demographics and injury severity markers (GCS, LOC, PTA, MRI findings)."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "While attrition reached nearly 20% by 12 months, the authors performed a robust analysis comparing dropouts to completers across multiple baseline variables and found no systematic differences, mitigating the risk of informative censoring.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Partial",
+          "evidence_snippet": "There was some loss of participants during the 12-month followup (n=14, 18.9%) in patients with MTBI and n=11, 25.6% in controls).",
+          "reasoning": "An 18.9% loss is acceptable but approaches the 20% threshold often used to flag potential bias."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text describes the loss but does not detail specific efforts (e.g., repeated phone calls, registry searches) to re-engage those who dropped out."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The study notes the number of dropouts but does not provide specific reasons (e.g., moved away, recovered, too ill)."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "The possible effects of attrition were examined using demographic (age, sex, and education) and trauma-related (GCS, and presence of loss of consciousness [LOC]) variables, self-reported symptoms... at 1 month, and RTW.",
+          "reasoning": "The authors explicitly compared the baseline and 1-month data of dropouts vs. completers."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Yes",
+          "evidence_snippet": "No systematic bias was found because of attrition. None of the dropouts, however, had traumatic lesions on MRI (vs. n = 15 of nondropouts, p = 0.059).",
+          "reasoning": "Statistical testing confirmed no significant differences, although the MRI finding was borderline."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Attrition Summary",
+        "prompt": "Loss to follow-up (from baseline sample to study population analyzed) is not associated with key characteristics (i.e., the study data adequately represent the sample) sufficient to limit potential bias to the observed relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The primary prognostic factor (MTBI vs. Control) is defined using international standards and confirmed with objective neuroimaging (3T MRI) and clinical assessment. Measurement was standardized across all participants.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "met MTBI criteria of the World Health Organization's Collaborating Centre for Neurotrauma Task Force",
+          "reasoning": "The study uses a validated, standard definition for the prognostic factor."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "The presence and duration of retrograde-and post-traumatic amnesia were evaluated using the Rivermead PTA Protocol and the Galveston Orientation and Amnesia Test (GOAT).",
+          "reasoning": "Validated clinical tools and 3T MRI were used to confirm the diagnosis and severity."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "The indications for acute head CT were based on the Scandinavian guidelines... GCS scores were collected from the ambulance",
+          "reasoning": "Standard clinical cut-points (GCS 14-15 for MTBI) were utilized."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "All patients with MTBI and controls underwent 3T MRI of the brain (Siemens Trio...)",
+          "reasoning": "The diagnostic workup was standardized for the cohort."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "All the patients with MTBI scored 80 points or greater on the GOAT, and their GCS was 14-15.",
+          "reasoning": "Baseline prognostic data appears complete for the enrolled sample."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is no mention of imputation; however, PF data (injury severity) is usually collected at baseline and was likely complete."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "PF Measurement Summary",
+        "prompt": "PF is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study uses a multi-dimensional battery of validated instruments (RPCSQ, GOS-E, BDI-II, etc.) and objective neuropsychological testing. The use of an orthopedic control group measured in the same way is a major strength that accounts for non-specific symptom reporting.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "Outcome measures included cognition, post-concussion symptoms, depression, traumatic stress, quality of life, satisfaction with life, resilience, and return to work.",
+          "reasoning": "Multiple domains are defined with specific scales and follow-up intervals (1, 6, 12 months)."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "The Rivermead Post-Concussion Symptom Questionnaire (RPCSQ)... The Barrow Neurological Institute Fatigue Scale (BNIFS)... reliable and valid",
+          "reasoning": "The authors cite the reliability and validity of the chosen instruments."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Participants filled out self-report questionnaires... on an internet-based platform at 1, 6, and 12 months post-injury.",
+          "reasoning": "The data collection method was standardized for both MTBI and control groups."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Outcome Measurement Summary",
+        "prompt": "Outcome of interest is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study effectively controls for pre-injury confounders through strict exclusion criteria (the 'previously healthy' design). However, the primary analysis relies on group comparisons (Mann-Whitney/t-tests) rather than multivariable modeling that could adjust for acute injury characteristics (e.g., MRI findings, pain levels) simultaneously.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Partial",
+          "evidence_snippet": "The assessment included a thorough interview of past health, diagnosed medical conditions, medication use, head injury history, alcohol consumption, and drug and narcotics abuse history.",
+          "reasoning": "While pre-injury factors were used to exclude participants, acute confounders like 'pain' and 'injury severity' were measured but not always adjusted for in a multivariable model."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "The overall severity of physical injuries was assessed using the Injury Severity Score (ISS).",
+          "reasoning": "Confounders like physical injury severity are defined using standard scales."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "The overall severity of physical injuries was assessed using the Injury Severity Score (ISS).",
+          "reasoning": "The ISS is a standard, validated tool for trauma research."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Control subjects were orthopedically injured patients evaluated in the same ED as the MTBI sample.",
+          "reasoning": "Both groups were recruited and assessed in the same clinical environment."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No mention of missing confounder data or imputation methods."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "Yes",
+          "evidence_snippet": "Control subjects were enrolled in an age and sex stratified manner",
+          "reasoning": "The study used stratification to ensure the control group was comparable to the MTBI group."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Partial",
+          "evidence_snippet": "The proportions were compared with the Fisher exact test, and continuous variables were tested with Mann-Whitney or t tests.",
+          "reasoning": "The analysis relies on univariable comparisons. While the groups were balanced by design, multivariable adjustment for factors like ISS or pain would have been more robust."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Confounding Summary",
+        "prompt": "Important potential confounders are appropriately accounted for, limiting potential bias with respect to the relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical approach is transparent and appropriate for the descriptive and comparative goals of the study. The authors report both p-values and effect sizes (Cohen's d), which allows for a better interpretation of clinical significance beyond mere statistical significance.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "The proportions were compared with the Fisher exact test, and continuous variables were tested with Mann-Whitney or t tests. Cohen d was used as an effect size measure",
+          "reasoning": "The strategy is clearly laid out in the 'Data analyses' section."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Partial",
+          "evidence_snippet": "Further exploratory analyses were conducted with subgroups who had PCS or remained on sick leave at the 1-year follow-up.",
+          "reasoning": "The study is primarily descriptive/comparative rather than predictive modeling. The exploratory subgroup analysis is logical but not a formal 'model building' process."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "The statistical analyses were conducted using the IBM SPSS Statistics for Windows, Version 22.0.",
+          "reasoning": "Non-parametric and parametric tests were used appropriately based on the data distribution."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "The self-reported outcome measures are plotted over time in Figure 1.",
+          "reasoning": "The authors report on all domains mentioned in the methods, including non-significant findings and negative results in the control group."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Statistical Analysis and Presentation Summary",
+        "prompt": "The statistical analysis is appropriate for the design of the study, limiting potential for presentation of invalid or spurious results.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/10_Dery_2025/Losoi_2016.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T10:25:04.266207"
+  }
+}

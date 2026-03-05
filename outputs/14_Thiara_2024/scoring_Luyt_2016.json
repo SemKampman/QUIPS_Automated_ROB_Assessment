@@ -1,0 +1,287 @@
+{
+  "paper_metadata": {
+    "title": "Brain injury during venovenous extracorporeal membrane oxygenation",
+    "first_author": "Charles-Edouard Luyt",
+    "year": "2016",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study uses a consecutive sample of patients from a tertiary referral center with clearly defined inclusion/exclusion criteria and comprehensive baseline descriptions. The sample is representative of the target population (severe ARDS requiring VV-ECMO).",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "All patients admitted to our intensive care unit (ICU) from 2006 to 2012 who received VV-ECMO support were included.",
+          "reasoning": "The authors define the source as patients in their specific ICU requiring VV-ECMO for ARDS."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "Among 135 consecutive patients who had received VV-ECMO...",
+          "reasoning": "The use of a consecutive sample in a tertiary referral center minimizes selection bias."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "from 2006 to 2012",
+          "reasoning": "The dates are explicitly stated."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location) are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "conducted in a tertiary referral center... Service de Réanimation, Institut de Cardiologie, ICAN, Groupe Hospitalier Pitié-Salpêtrière, Assistance Publique-Hôpitaux de Paris",
+          "reasoning": "The specific hospital and department are identified."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "we excluded patients who had received VA-ECMO (peripheral or central), a left ventricle assist device (VAD), a BiVAD, or a total artificial heart before, during, or after VV-ECMO run.",
+          "reasoning": "Clear exclusion criteria are provided to isolate the VV-ECMO population."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Yes",
+          "evidence_snippet": "135 patients required VV-ECMO support. Table 1 reports their baseline characteristics.",
+          "reasoning": "As a retrospective analysis of all consecutive patients, the participation rate of the eligible cohort is 100%."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1 reports their baseline characteristics. [Includes Age, Sex, BMI, SAPS II, Comorbidities, Organ failure, Gas exchange values]",
+          "reasoning": "Comprehensive clinical and demographic data are provided in Table 1."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "While the total sample is accounted for, 17% of the cohort (23/135) could not be assessed for the primary outcome because they died before examination. This represents a form of informative censoring that may underestimate the true incidence of the prognostic outcome.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Partial",
+          "evidence_snippet": "For 23 of those 135 patients, a cerebral event could not be ruled out because they died before neurological examination could be performed",
+          "reasoning": "A significant minority (17%) could not be fully assessed for the outcome."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "Yes",
+          "evidence_snippet": "Three of those 25 were clinically brain dead, confirmed by electroencephalogram, and did not undergo cerebral imaging",
+          "reasoning": "The authors attempted to categorize even those who could not undergo imaging."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Yes",
+          "evidence_snippet": "died before neurological examination could be performed or had pre-existing neurological disease.",
+          "reasoning": "Reasons for the 'missing' data in the 23 patients are explicitly stated."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not provide a comparative table of characteristics for the 23 patients who could not be assessed versus the 112 who were."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Without the data on the 23 excluded patients, it is impossible to determine if they differed systematically from the analyzed group."
+        }
+      ]
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "Prognostic factors (PaCO2, PaO2, Renal failure) were measured using standard clinical laboratory and blood gas methods. The timing (pre- and post-ECMO) was strictly defined.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "All patients had a blood gas analysis in the 2 h preceding ECMO start (blood gas analysis pre-ECMO) and in the 2 h following ECMO start (blood gas analysis post-ECMO).",
+          "reasoning": "The timing and nature of the blood gas measurements are clearly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Clinical information on medical history, clinical and biological parameters at ICU admission and during the stay was collected prospectively.",
+          "reasoning": "Standard ICU laboratory and blood gas monitoring are highly reliable."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Partial",
+          "evidence_snippet": "For dichotomous variables, the median value was chosen for the cutoff to separate the variable into two categories.",
+          "reasoning": "Using the median as a cutoff is data-dependent, which can introduce bias, though continuous data were also analyzed."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "All patients had a blood gas analysis in the 2 h preceding ECMO start... and in the 2 h following ECMO start",
+          "reasoning": "The protocol was standardized for the entire cohort."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1 reports their baseline characteristics.",
+          "reasoning": "The data tables suggest near-complete capture of baseline and initiation blood gases."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is no mention of imputation; missing data appear to have been handled by exclusion from specific analyses."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The outcome (brain injury) was defined by clinical symptoms followed by imaging. However, imaging was not systematic (only performed if symptoms appeared), potentially missing subclinical events. Blinding of the radiologists to the prognostic factors (like PaCO2 change) was not mentioned.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "We defined clinical neurological complication as any clinical event occurring during the ECMO course... categorized according to the presence or not of brain injury on brain imaging",
+          "reasoning": "The outcome is clearly defined by clinical signs and imaging confirmation."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Partial",
+          "evidence_snippet": "Once a neurologic symptom was observed... a cerebral CT scan was performed within 6 h.",
+          "reasoning": "CT/MRI are valid, but the lack of systematic imaging for all patients (only symptomatic ones) and lack of mentioned blinding for radiologists increases risk."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Daily routine neurologic examinations were performed in our patients by the physicians and the nurses in charge of the patient.",
+          "reasoning": "The monitoring protocol was standardized for all patients."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study used multivariable Cox regression to adjust for key confounders including renal failure and gas exchange changes. Sensitivity analyses were performed for hemostasis disorders.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Yes",
+          "evidence_snippet": "The final model included renal failure on admission, PaO2 change, and PaCO2 change. In a sensitivity analysis, lowest platelets count, lowest fibrinogen level, and lowest prothrombin time were added",
+          "reasoning": "Major clinical confounders and hemostasis parameters were included."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "Organ failure was deemed present when the corresponding sepsis-related organ failure assessment score was >2",
+          "reasoning": "Standardized definitions (SOFA) were used for confounders like renal failure."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Clinical information... was collected prospectively.",
+          "reasoning": "Prospective collection of objective lab data ensures reliability."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "All patients had the same protocol for anticoagulation... Daily routine neurologic examinations were performed",
+          "reasoning": "Standardized ICU protocols were applied to all."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No imputation methods were described."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "This was an observational cohort study; no matching or stratification was used in the design phase."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "multivariable analysis with a Cox regression model compared the factors that were significant in the univariable analysis.",
+          "reasoning": "Statistical adjustment was performed for significant univariable predictors."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical methods are appropriate for the study design, including the use of Cox regression for time-to-event data and sensitivity analyses. Results are reported transparently.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "To examine the univariable impact... a logistic regression model tested each characteristic. Thereafter, multivariable analysis with a Cox regression model...",
+          "reasoning": "The strategy is clearly outlined."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "Risk factors achieving P ≤ 0.10 in our univariable analysis and parameters previously reported to be strongly associated with intracranial bleeding were entered into the model.",
+          "reasoning": "The model building combined statistical significance with clinical knowledge."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "Cox regression model compared the factors",
+          "reasoning": "Cox regression is appropriate for analyzing risk factors in a cohort with varying follow-up/event times."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Table 3 reports the factors associated with intracranial bleeding.",
+          "reasoning": "The authors report both significant and non-significant findings (e.g., hemostasis parameters)."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/14_Thiara_2024/Luyt_2016.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T10:57:56.380517"
+  }
+}

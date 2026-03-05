@@ -1,0 +1,332 @@
+{
+  "paper_metadata": {
+    "title": "Income differences in stroke mortality: A 12-year follow-up study of the Swedish working population",
+    "first_author": "Susanna Toivanen",
+    "year": "2011",
+    "analysis_timestamp": "2023-10-27 10:00:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study uses a total population register-based approach, including nearly 3 million individuals (the entire Swedish working population aged 30-64). This eliminates selection bias inherent in convenience sampling and ensures the sample is highly representative of the target population.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "All people in Sweden who were 30-64 years of age in 1990 and had a job (employees and self-employed) at the time of the census were included (N = 2,991,973).",
+          "reasoning": "The source population is clearly defined as the total working population of Sweden within a specific age range."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "The database compiles several national registers provided by Statistics Sweden, including the Total Population Register (TPR), National Population and Housing Censuses, and the Longitudinal Database on Education, Income and Employment (LOUISE)",
+          "reasoning": "The use of national registers provides a comprehensive sampling frame that minimizes recruitment bias."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "All people in Sweden who were 30-64 years of age in 1990 and had a job... at the time of the census were included",
+          "reasoning": "The recruitment is tied to the 1990 census date."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "Sweden",
+          "reasoning": "The geographic location is the entire country of Sweden."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "People were excluded from the analyses if they had a prior stroke diagnosis in the Hospital Discharge Register in 1980–1990 (n = 4167) and if they had emigrated during the follow up... Persons with missing values on central variables, as well as those with zero registered annual income from work, were excluded.",
+          "reasoning": "Exclusion criteria for prior illness, emigration, and missing data are explicitly stated."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Yes",
+          "evidence_snippet": "The final cohort consisted of 2,825,117 people (49.5% women).",
+          "reasoning": "As a register-based study of the total population, participation is near-universal for the eligible frame."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Table I and II provide baseline characteristics including Age, Marital status, Foreign born, Education, Occupational class, Job control, and Working full time.",
+          "reasoning": "Extensive baseline data is provided and stratified by income quartile and gender."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "Attrition is minimal and well-tracked through national registers. Emigration was the primary cause of loss to follow-up and was accounted for in the exclusion/censoring process. The use of person-years in Cox regression appropriately handles censoring.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "The final cohort consisted of 2,825,117 people... followed-up for mortality from stroke by record linkage to the Cause of Death Register for the period 1991–2002.",
+          "reasoning": "The vast majority of the identified population was followed until death or the end of the study period."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "Yes",
+          "evidence_snippet": "if they had emigrated during the follow up as recorded in the TPR (n = 41,898).",
+          "reasoning": "Dropouts (emigrants) were identified using the Total Population Register."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Yes",
+          "evidence_snippet": "emigrated during the follow up",
+          "reasoning": "Emigration is the stated reason for loss to follow-up."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not provide a specific table comparing the characteristics of emigrants versus those who remained, though the number is small relative to the total N."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "While the attrition rate is very low (~1.4%), the study does not explicitly test for differences between those lost to follow-up and those who completed it."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Attrition Summary",
+        "prompt": "Loss to follow-up (from baseline sample to study population analyzed) is not associated with key characteristics (i.e., the study data adequately represent the sample) sufficient to limit potential bias to the observed relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The prognostic factor (income) is measured using objective, taxable income data from national registers, which eliminates recall bias and provides a highly reliable measurement.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "Income was measured in 1990 as individual income from work, which comprises taxable annual income including wages, self-employed income, and taxable income transfers",
+          "reasoning": "The definition of income is precise and includes specific components."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "income was based on an objective register-based measure that was not influenced by self-report bias.",
+          "reasoning": "Register-based taxable income is considered the gold standard for socioeconomic research in Scandinavia."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "The income measure was classified into four groups by quartile values of the income distribution",
+          "reasoning": "Quartiles are standard, non-data-dependent cut-points."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "The database compiles several national registers provided by Statistics Sweden... all of which were used in the present analyses.",
+          "reasoning": "All data came from the same national administrative source."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "Persons with missing values on central variables... were excluded.",
+          "reasoning": "The final N is very close to the initial N, suggesting minimal missingness."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "No",
+          "evidence_snippet": "Persons with missing values on central variables... were excluded.",
+          "reasoning": "Complete case analysis was used rather than imputation, but given the large sample size, this is unlikely to introduce significant bias."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "PF Measurement Summary",
+        "prompt": "PF is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "Outcomes were obtained from the national Cause of Death Register using standardized ICD codes. Validation studies cited in the text support the reliability of this register for stroke mortality.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "Mortality from stroke was defined by the following underlying causes of death: intracerebral haemorrhage (ICH: ICD-9, 431; ICD-10, I61), cerebral (brain) infarction (BI: ICD-9–434; ICD-10, I63), and undetermined pathological type (UND: ICD-9, 436; ICD-10, I64).",
+          "reasoning": "Specific ICD codes for stroke subtypes are provided."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "A validation study from Sweden... concluded that official mortality statistics give a reasonably good estimate of fatal stroke events in the population [27].",
+          "reasoning": "The author cites external validation of the registry's accuracy."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "The cohort was followed-up for mortality from stroke by record linkage to the Cause of Death Register",
+          "reasoning": "A single national register was used for all participants."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Outcome Measurement Summary",
+        "prompt": "Outcome of interest is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "While the study adjusts for major sociodemographic and work-related factors (education, occupation, job control), it lacks data on clinical/lifestyle confounders such as smoking, BMI, and blood pressure, which are known to be associated with both income and stroke.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Partial",
+          "evidence_snippet": "One shortcoming of register data is the lack of information on traditional risk factors for stroke.",
+          "reasoning": "The study adjusts for socioeconomic confounders but misses biological/lifestyle risk factors."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "Covariates section describes Age, Marital status, Country of birth, Educational level, Occupational class, Job control, and Work time.",
+          "reasoning": "The measured confounders are well-defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "The database compiles several national registers provided by Statistics Sweden",
+          "reasoning": "Confounders are measured via objective national registers."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "All these variables were measured at the baseline in 1990.",
+          "reasoning": "Uniform measurement at baseline for the entire cohort."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "No",
+          "evidence_snippet": "Persons with missing values on central variables... were excluded.",
+          "reasoning": "No imputation was used."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "Yes",
+          "evidence_snippet": "Gender-specific analyses were performed... Age-standardised mortality rates... were calculated",
+          "reasoning": "The study uses stratification by gender and age-standardization."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "Model 2: adjusted for age, marital status, foreign born, educational level, occupational class, job control, and working full time.",
+          "reasoning": "Multivariable Cox regression was used to adjust for measured confounders."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Confounding Summary",
+        "prompt": "Important potential confounders are appropriately accounted for, limiting potential bias with respect to the relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical methods (Cox regression) are appropriate for survival analysis. The results are reported transparently with confidence intervals and p-values for trends. The strategy for model building is clearly explained.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Hazard ratios (HR) with 95% confidence intervals (95% CI) were calculated using Cox proportional hazards models",
+          "reasoning": "The analytical approach is standard and well-described."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "adjusted for age in the base model, and for demographic... socioeconomic... and work-related factors... in the subsequent model.",
+          "reasoning": "The hierarchical approach to adjustment is logically structured."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "Cox proportional hazards models with length of follow up as the time variable",
+          "reasoning": "Cox regression is the appropriate model for time-to-event data in a large cohort."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Table IV reports results for Any stroke, ICH, and BI for both genders across two models.",
+          "reasoning": "All pre-specified outcomes and subtypes are reported for both genders."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Statistical Analysis and Presentation Summary",
+        "prompt": "The statistical analysis is appropriate for the design of the study, limiting potential for presentation of invalid or spurious results.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/12_Tao_2023/Toivanen_2011.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T10:46:17.640682"
+  }
+}

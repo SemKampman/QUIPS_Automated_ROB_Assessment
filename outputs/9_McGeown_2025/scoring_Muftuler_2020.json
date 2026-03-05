@@ -1,0 +1,287 @@
+{
+  "paper_metadata": {
+    "title": "Serial Diffusion Kurtosis Magnetic Resonance Imaging Study during Acute, Subacute, and Recovery Periods after Sport-Related Concussion",
+    "first_author": "L. Tugan Muftuler",
+    "year": "2020",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study uses a large, well-defined prospective cohort of American football players. Recruitment from multiple schools and clear inclusion/exclusion criteria (including 'zero time' within 48h) minimize selection bias. Baseline characteristics are thoroughly reported and balanced between groups.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "American football athletes from four high schools and four colleges in southeastern Wisconsin were enrolled for this study between June 2015 and December 2017.",
+          "reasoning": "The population is clearly defined by sport, level (high school/college), and geographic location."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "A total of 1174 athletes were enrolled at pre-season baseline, and completed clinical assessments; 106 of those subjects sustained concussion and were scanned within the first 48 h",
+          "reasoning": "The study uses a prospective design starting from a large baseline pool, which is the gold standard for identifying incident cases."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "enrolled for this study between June 2015 and December 2017.",
+          "reasoning": "Specific dates are provided."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "four high schools and four colleges in southeastern Wisconsin",
+          "reasoning": "The setting and location are explicitly stated."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "The definition of concussion proposed by Centers for Disease Control and Prevention HEADS UP educational initiative was used... Participants were excluded... if they reported their injuries outside the 48-h window, had a current diagnosis of psychotic disorder...",
+          "reasoning": "Detailed clinical definitions and specific exclusion criteria (comorbidities, timing) are provided."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Yes",
+          "evidence_snippet": "106 of those subjects sustained concussion and were scanned... 91 control subjects were matched... Ten data sets from the concussed group and nine data sets from the control group were discarded after failing image quality controls",
+          "reasoning": "The study successfully retained the vast majority of eligible concussed athletes from the baseline pool, with minimal loss due to technical factors."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Demographic information is shown in Table 1. [Age, Race, Height, Weight, ADHD, Learning disability, SES, previous concussions]",
+          "reasoning": "Table 1 provides a comprehensive list of relevant demographic and clinical baseline variables."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study reports high completion rates. While specific reasons for individual dropouts at later time points aren't listed in a flow diagram, the sample sizes remain consistent (n=96 and n=82) across the 45-day period, suggesting minimal attrition bias.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "leaving a total of 96 athletes with SRC and 82 matched controls.",
+          "reasoning": "The final analyzed sample represents ~90% of the initially identified concussed/control subjects after quality control."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text does not explicitly describe efforts to follow up with those who did not complete all visits, though the overall retention appears high."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Partial",
+          "evidence_snippet": "Reason to exclude a data set were either too much head motion, operator error, equipment failure (e.g. radiofrequency [RF] coil channel failure), or a similar problem.",
+          "reasoning": "Reasons for technical exclusion are provided, but specific reasons for any participant withdrawal (if any) are not detailed."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is no comparison between the characteristics of those excluded for image quality and those included."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Chi-square tests did not show a significant difference between the SRC and control groups in exclusions caused by subpar image quality",
+          "reasoning": "While exclusions were balanced between groups, the text doesn't explicitly compare the characteristics of excluded vs. included individuals."
+        }
+      ]
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The prognostic factor (SRC) is defined using standardized CDC criteria and diagnosed by trained professionals. The 'zero time' is strictly controlled (<48h).",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "The definition of concussion proposed by Centers for Disease Control and Prevention HEADS UP educational initiative was used in this study",
+          "reasoning": "A standardized, recognized clinical definition is used."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Clinical diagnosis of concussion was determined by certified athletic trainers or team physicians trained in sports medicine at each institution",
+          "reasoning": "Diagnosis by trained medical professionals using standardized criteria is a reliable method."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "scanned within the first 48 h (32.47 ± 14.19 h)",
+          "reasoning": "The timing of the PF (injury to scan) is reported as a continuous mean with SD."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "All participants were scanned on a GE MR750 whole body 3T MRI scanner (Waukesha, WI) equipped with a 32-channel head coil.",
+          "reasoning": "Standardized equipment and settings were used for all subjects."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "leaving a total of 96 athletes with SRC and 82 matched controls.",
+          "reasoning": "The vast majority of the sample had complete PF and imaging data."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "Yes",
+          "evidence_snippet": "The robust option was used, which detects and removes outliers using an iterative algorithm during the model fitting.",
+          "reasoning": "While not imputation for missing subjects, the study used robust statistical methods to handle data quality issues."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "Outcomes (DKI metrics) are objective physiological measures. The study uses standardized, automated processing pipelines (FSL, TBSS) which limits subjective bias. Reliability (CCC) was pre-tested.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "derive maps of kurtosis fractional anisotropy (KFA), mean kurtosis (MK), and radial and axial kurtosis (Krad and Kax, respectively).",
+          "reasoning": "The outcomes are clearly defined physical/mathematical constructs from MRI."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "Average CCC was 0.91 for MD, 0.86 for Krad, and 0.85 for Kax in non-skeletonized DKI maps.",
+          "reasoning": "The authors explicitly report test-retest reliability coefficients for their primary outcomes."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "All participants were scanned on a GE MR750 whole body 3T MRI scanner... Diffusion weighted images for DKI were obtained using a single-shot spin-echo echo-planar imaging (EPI) sequence",
+          "reasoning": "The protocol was identical for all participants."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study uses a matched control group (contact-sport athletes) and adjusts for key confounders (age, prior concussions) in the multivariable linear mixed models.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Yes",
+          "evidence_snippet": "age and prior concussion included as covariates... matched on demographics and baseline neurocognitive test performance",
+          "reasoning": "Key confounders for brain structure (age, history) and baseline performance were accounted for."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "Total number of previous concussions... Age (years)... Hollingshead SES score.",
+          "reasoning": "Confounders are clearly defined and quantified."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Partial",
+          "evidence_snippet": "History of previous concussions reported by the players.",
+          "reasoning": "Prior concussion history relies on self-report, which is subject to recall bias, though standard in this field."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "All clinical assessments were administered before the season to establish a baseline",
+          "reasoning": "Baseline measurements were standardized for all athletes."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text does not mention missing confounder data or specific imputation for it."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "Yes",
+          "evidence_snippet": "91 control subjects were matched on demographics and baseline neurocognitive test performance",
+          "reasoning": "Matching was used in the design phase."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "Linear mixed effects models with... age and prior concussion included as covariates",
+          "reasoning": "Statistical adjustment was performed for key variables."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The analysis uses appropriate longitudinal modeling (Linear Mixed Effects) and rigorous voxel-wise corrections (FWE, TFCE). Results are reported for all measured DKI metrics, including those that were non-significant (DTI metrics).",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Randomise was run with 2000 permutations and the threshold-free cluster enhancement (TFCE) option. Each statistical test was corrected for multiple comparisons using a familywise error (FWE) rate",
+          "reasoning": "The statistical methods are described in high detail."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "Linear mixed effects models with visit as within-subject variable, group as between-subject factor, the group-by-visit interaction",
+          "reasoning": "The model correctly accounts for the longitudinal nature of the data."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "Randomise function in FSL, which employs a non-parametric approach... corrected for multiple comparisons",
+          "reasoning": "Non-parametric permutation testing is appropriate for neuroimaging data to avoid assumptions of normality."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "There were no significant differences in FA, MD, RD, or AD between the two groups... Kax was significantly higher... Krad was lower...",
+          "reasoning": "The authors report both significant and non-significant findings across all DTI and DKI metrics."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/9_McGeown_2025/Muftuler_2020.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T11:27:40.413131"
+  }
+}

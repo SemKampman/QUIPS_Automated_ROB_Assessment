@@ -1,0 +1,337 @@
+{
+  "paper_metadata": {
+    "title": "Study on frequency and predictors of dementia after ischemic stroke The Chongqing Stroke Study",
+    "first_author": "David H. D. Zhou",
+    "year": "2003",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study used a consecutive recruitment strategy of hospitalized patients in a defined geographic area (Chongqing). Inclusion and exclusion criteria are explicitly defined, and the baseline characteristics are well-described. The participation rate of 79.5% is very close to the 80% threshold generally considered low risk.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "The catchment area of our hospital included about 1 million urban habitants, who can be considered to represent the urban population of China in demographic characters.",
+          "reasoning": "The authors define the geographic and demographic context of the source population clearly."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "From May 8,1999,to December 31,2000,the consecutive patients with ischemic stroke admitted to Daping hospital were registered.",
+          "reasoning": "Consecutive recruitment in a specific hospital setting is a standard method to reduce selection bias."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "From May 8,1999,to December 31,2000",
+          "reasoning": "Specific dates are provided."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "consecutive patients with ischemic stroke admitted to Daping hospital... Chongqing, China",
+          "reasoning": "The hospital and city are clearly identified."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "Eligibility requirements included 1) the acute onset of ischemic stroke within 48 hours, 2) aged 55 years and over... We excluded from the study patients 1) presence of a concomitant neurological disorder...",
+          "reasoning": "Detailed inclusion and exclusion criteria are listed, including the 'zero time' (within 48 hours of onset)."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Yes",
+          "evidence_snippet": "A total of 546 patients were registered in this study, 434 (79.5 %) were examined 3 months after stroke",
+          "reasoning": "A participation rate of nearly 80% is considered high and sufficient to limit bias."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1 shows the comparison of demographic data... Table 2 indicates the vascular risk factors... Table 3, stroke features... Table 4, neurological status",
+          "reasoning": "Extensive baseline data including age, sex, education, and clinical stroke features are provided."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study accounts for all patients from the initial registration to the 3-month follow-up. Reasons for dropout are clearly categorized (death, refusal, moving, etc.). The follow-up rate is high (79.5%), and the reasons for loss do not suggest a systematic bias that would invalidate the prognostic findings.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "434 (79.5 %) were examined 3 months after stroke",
+          "reasoning": "The retention rate is approximately 80%, which is acceptable for a 3-month follow-up in an elderly stroke population."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "Partial",
+          "evidence_snippet": "a remaining 112 (20.5 %) patients were excluded: 23 (4.2 %) died, 21 (3.8 %) had severe dysphasia... 63 (11.5 %) refused examination or follow-up, 5 (0.9 %) moved away.",
+          "reasoning": "The authors tracked the reasons for dropout, though they did not perform a formal sensitivity analysis on the missing data."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Yes",
+          "evidence_snippet": "23 (4.2 %) died, 21 (3.8 %) had severe dysphasia, hearing and visual impairment, and worsening illness precluding evaluation, 63 (11.5 %) refused examination or follow-up, 5 (0.9 %) moved away.",
+          "reasoning": "Specific reasons for attrition are clearly listed."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not provide a table comparing the baseline characteristics of those who completed the study versus those lost to follow-up."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Because the characteristics of the dropouts were not reported, it is impossible to definitively determine if they differed from the completers."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Attrition Summary",
+        "prompt": "Loss to follow-up (from baseline sample to study population analyzed) is not associated with key characteristics (i.e., the study data adequately represent the sample) sufficient to limit potential bias to the observed relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ],
+        "rating": "Low"
+      }
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "Prognostic factors (age, education, drinking, etc.) were measured using standardized definitions and validated tools (e.g., IQCODE for prestroke cognition). The measurement was consistent across the cohort.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "cigarette smoking (never smoking, past smoking, and current smoking), alcohol drinking (everyday drinking, every week drinking, every month drinking, and occasionally drinking)... hypertension (previously diagnosed and treated or systolic pressure > 160 mm Hg...)",
+          "reasoning": "The authors provide specific thresholds and categories for the prognostic factors."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "cognitive status before index stroke was assessed by inquiring close relatives of patients using a Chinese version of the Informant Questionnaire on Cognitive Decline in the Elderly (IQCODE),previously validated in the Chinese population",
+          "reasoning": "The use of validated tools like IQCODE and standardized clinical criteria (NIHSS, imaging) supports reliability."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "low educational level (≤ 6 years)",
+          "reasoning": "The cut-points used (e.g., for education) are standard in the context of the Chinese population studied."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "During admission, all patients underwent a structured demographic data, medical history, neurological examinations and head imaging.",
+          "reasoning": "All baseline PF measurements were conducted during the initial hospitalization."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "434 (79.5 %) were examined 3 months after stroke",
+          "reasoning": "The analysis was conducted on the full cohort of 434 patients who completed the follow-up."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is no mention of imputation; the study appears to use complete-case analysis."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "PF Measurement Summary",
+        "prompt": "PF is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ],
+        "rating": "Low"
+      }
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The outcome (dementia) was defined using international standards (DSM-IV) and measured using a comprehensive, validated neuropsychological battery. The assessment was performed by specialists, and inter-rater reliability was high.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "Dementia was diagnosed based on criteria modified from the Diagnostic and Statistical Manual of Mental Disorders, 4th edition (DSM-IV)",
+          "reasoning": "The study uses the gold-standard DSM-IV criteria for the outcome definition."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "The K statistic reflecting interviewer reliability was estimated to be 0.91... The clinical diagnosis of dementia was made by senior neurologists and psychiatrists",
+          "reasoning": "High inter-rater reliability (Kappa 0.91) and the use of specialists ensure measurement validity."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Partial",
+          "evidence_snippet": "362 were assessed at the hospital, and 72 at home. The neuropsychological battery was the same as that used during admission.",
+          "reasoning": "While the battery was the same, the setting differed (hospital vs. home) for a subset of patients, which could theoretically influence performance."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Outcome Measurement Summary",
+        "prompt": "Outcome of interest is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ],
+        "rating": "Low"
+      }
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study used multivariable logistic regression to adjust for a wide range of potential confounders identified in univariate analysis. Key variables like age, education, and stroke severity were included in the models.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Yes",
+          "evidence_snippet": "age, sex, handedness, educational level, cigarette smoking... alcohol drinking, prior stroke, prior transient ischemic attack (TIA), hypertension, diabetes mellitus, atrial fibrillation, heart failure, stroke severity (NIH Stroke Scale)",
+          "reasoning": "A comprehensive list of vascular and demographic confounders was collected."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "hypertension (previously diagnosed and treated or systolic pressure > 160 mm Hg and/or diastolic pressure > 90 mm Hg persistently observed during admission...)",
+          "reasoning": "Clinical confounders are defined with specific diagnostic thresholds."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "The diagnosis of ischemic stroke was established on both clinical grounds... and brain CT or MRI.",
+          "reasoning": "Objective measures (imaging, blood glucose, BP) were used for most confounders."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "During admission, all patients underwent a structured demographic data, medical history, neurological examinations and head imaging.",
+          "reasoning": "Confounders were measured uniformly during the index admission."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Imputation was not mentioned."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The study did not use matching or stratification in the design phase; it relied on statistical adjustment."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "All the variables with statistical significance (p < 0.05) in the univariate analyses were introduced into logistic regression analyses",
+          "reasoning": "Multivariable logistic regression is an appropriate method for adjusting for multiple confounders."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Confounding Summary",
+        "prompt": "Important potential confounders are appropriately accounted for, limiting potential bias with respect to the relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ],
+        "rating": "Low"
+      }
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical methods are standard and appropriate for the study design. The authors report both univariate and multivariate results, including Odds Ratios and 95% Confidence Intervals. There is no evidence of selective reporting.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "The Chi-square test was used for categorical variables and Student's t test for quantitative variables... logistic regression analyses with a backward procedure",
+          "reasoning": "The analytical plan is clearly described."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "All the variables with statistical significance (p < 0.05) in the univariate analyses were introduced into logistic regression analyses",
+          "reasoning": "The use of univariate screening followed by multivariable modeling is a standard, though purely statistical, approach."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "Logistic regression analysis was used to find the predictors of poststroke dementia.",
+          "reasoning": "Logistic regression is appropriate for a binary outcome (dementia vs. no dementia)."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Table 5 Predictors of dementia after stroke in Multiple Logistic Regression",
+          "reasoning": "The authors report results for three different models (Poststroke, Stroke-related, and First-ever stroke), showing consistency and transparency."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Statistical Analysis and Presentation Summary",
+        "prompt": "The statistical analysis is appropriate for the design of the study, limiting potential for presentation of invalid or spurious results.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ],
+        "rating": "Low"
+      }
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/12_Tao_2023/Zhou_2004.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T10:39:11.572699"
+  }
+}

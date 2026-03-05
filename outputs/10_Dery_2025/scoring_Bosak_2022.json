@@ -1,0 +1,287 @@
+{
+  "paper_metadata": {
+    "title": "Brain Connectivity Predicts Chronic Pain in Acute Mild Traumatic Brain Injury",
+    "first_author": "Noam Bosak",
+    "year": "2022",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study provides a clear description of the target population (mTBI following MVC), recruitment setting (Emergency Department), and explicit inclusion/exclusion criteria. The sample size is adequate for the analysis performed.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Individuals suffering from an MVC-induced direct or indirect head and neck injury within the 24 hours preceding visiting the emergency department were recruited",
+          "reasoning": "The source population is clearly defined as patients presenting to the ED after motor vehicle collisions with specific injury types."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "recruited as part of a recently completed study.[45] Participants provided written informed consent prior to any data collection.",
+          "reasoning": "Recruitment was conducted through an Emergency Department setting following a specific traumatic event (MVC)."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "While the timing relative to the injury is described (<72 hours), the specific calendar dates or years of the recruitment period are not explicitly stated in the provided text."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "institutional review board of Rambam Health Care Campus (RHCC)... emergency department",
+          "reasoning": "The setting is a specific medical center (RHCC) emergency department."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "Included participants (18–70 years old) reported head and/or neck pain and fulfilled the criteria for mTBI (Glasgow Coma Scale score ≥ 13... Exclusion criteria included Hebrew illiteracy, pregnancy, traumatic brain findings on computed tomography...",
+          "reasoning": "Detailed clinical and demographic inclusion/exclusion criteria are provided, including GCS scores and specific comorbidities."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text does not provide the total number of eligible individuals screened versus those who consented, making it impossible to calculate a participation rate."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "The study population is summarized in Figure 1 and Table 1.",
+          "reasoning": "Table 1 provides comprehensive baseline data including age, gender, education, salary, and clinical injury features."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "While the study accounts for all 105 participants at the 12-month endpoint, there was a high exclusion rate (18.9%) specifically for the imaging analysis due to motion artifacts, which is common in acute pain studies but introduces potential bias if those with higher pain moved more.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "Participants were classified according to pain ratings provided at 12-months post-collision into chronic pain... and recovery... groups",
+          "reasoning": "The study reports outcomes for the full cohort of 105 participants at 12 months."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "Yes",
+          "evidence_snippet": "in cases of low compliance, the information was collected via a telephone call.",
+          "reasoning": "The authors describe proactive measures (phone calls) to ensure follow-up data collection."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Yes",
+          "evidence_snippet": "Participants (25 [18.9%]) with less than 5 minutes of rs-fMRI after censoring were excluded.",
+          "reasoning": "The study explains that exclusions were due to technical imaging quality (motion), not loss to clinical follow-up."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "Partial",
+          "evidence_snippet": "Excluded due to excessive motion, n (proportion) 13 (0.23) [Chronic] 12 (0.16) [Recovery] p=0.36",
+          "reasoning": "The authors compare the proportion of excluded participants between groups but do not provide a full characteristic breakdown of the excluded vs. included participants."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Yes",
+          "evidence_snippet": "the groups only differed in the number of frames after censoring, with the chronic pain group having less volumes.",
+          "reasoning": "Statistical comparison showed no significant difference in exclusion rates between the future chronic pain and recovery groups."
+        }
+      ]
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The prognostic factors (Functional Connectivity) were measured using standardized, objective fMRI protocols with rigorous preprocessing and motion correction. The ROIs were predefined based on prior literature.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "resting-state functional magnetic resonance imaging (fMRI)... To estimate FC, resting-state functional magnetic resonance imaging (fMRI) of 105 participants... was acquired within 72 hours",
+          "reasoning": "The prognostic factor (FC) is clearly defined and the measurement timing is specified."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Imaging was carried out on a 3T MRI (MR 750, SIGNA 20; GE Medical Systems... Preprocessing was performed following conventional methods",
+          "reasoning": "Standardized 3T MRI protocols and established FSL/SPM preprocessing pipelines were used."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "NAc was defined as a 6-mm radius sphere around the center of gravity coordinates of the relevant subcortical Harvard-Oxford structural atlas mask",
+          "reasoning": "ROIs were predefined based on anatomical atlases rather than being derived from the current study's data."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Imaging was carried out on a 3T MRI (MR 750, SIGNA 20; GE Medical Systems, Milwaukee, WI) with a 16-channel head/neck/spine coil.",
+          "reasoning": "All participants were scanned using the same equipment and protocol."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Partial",
+          "evidence_snippet": "Participants (25 [18.9%]) with less than 5 minutes of rs-fMRI after censoring were excluded.",
+          "reasoning": "A significant minority (nearly 20%) was excluded due to data quality, though this is justified by the technical requirements of fMRI."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The study used a listwise exclusion (complete case analysis) for imaging data rather than imputation."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The outcome (chronic pain at 12 months) was measured using a standard Numerical Pain Scale. While subjective, the use of a 12-month endpoint and a clear threshold for 'chronic pain' (>=30/100) is standard in the field.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "chronic pain (head/neck pain ≥ 30/100, n = 44) and recovery (n = 61) groups... at 12-months post-collision",
+          "reasoning": "The outcome is clearly defined by both intensity (NPS >= 30) and timing (12 months)."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "numerical pain scale of 0 to 100... reported these ratings once a month for 12 months, using a smartphone application",
+          "reasoning": "The Numerical Pain Scale is a validated tool for pain intensity measurement."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Participants were asked to report these ratings once a month for 12 months, using a smartphone application",
+          "reasoning": "A uniform reporting method (app-based) was used for all participants."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study rigorously accounted for major confounders including age, gender, and baseline pain intensity in the multivariable models. They also controlled for head motion, a critical confounder in fMRI studies.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Yes",
+          "evidence_snippet": "questionnaires regarding demographic details, clinical background, and pain-related psychological assessment... age, gender, motion, and baseline pain ratings",
+          "reasoning": "Key demographic and clinical confounders were collected."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "average and maximal pain intensity during the preceding 24 hours... numerical pain scale of 0 to 100",
+          "reasoning": "Confounders like baseline pain are clearly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "average relative root mean square of motion, calculated from 3 rotation and 3 translation parameters",
+          "reasoning": "Motion (a major fMRI confounder) was measured using objective, high-precision parameters."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "An experimental session was scheduled within 72 hours after injury, during which participants completed questionnaires",
+          "reasoning": "All confounder data were collected during the same standardized baseline session."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text does not specify how missing questionnaire data (if any) were handled."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The study did not use matching or stratification in the design phase; it relied on statistical adjustment."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "Age, gender, motion, and baseline pain ratings were entered as regressors in the design matrices of the generalized linear models (GLMs)",
+          "reasoning": "The statistical analysis explicitly adjusted for the most relevant confounders."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical approach is robust, using sequential logistic regression to demonstrate the incremental value of brain connectivity over clinical variables. They used appropriate FWE corrections for multiple comparisons in the imaging analysis.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Fisher's r-to-z transformation was applied... statistically thresholded at the cluster level for family-wise error (FWE) correction of p < 0.05",
+          "reasoning": "The imaging and statistical pipelines are described in detail."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "sequential logistic-regression model was constructed... The first model included... motion; the second... baseline pain; the third... main brain parameters",
+          "reasoning": "The sequential approach allows for testing the independent prognostic value of the new biomarkers."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "logistic-regression model... receiver operating characteristic (ROC) curve was calculated",
+          "reasoning": "Logistic regression and ROC analysis are appropriate for binary classification (Chronic vs. Recovered)."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "The procedure was repeated for baseline and endpoint pain ratings. The significance level of each analysis was the false discovery rate (FDR) corrected",
+          "reasoning": "The authors report both significant and non-significant findings (e.g., thalamic links not adding value) and use appropriate corrections."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/10_Dery_2025/Bosak_2022.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T10:26:51.499939"
+  }
+}

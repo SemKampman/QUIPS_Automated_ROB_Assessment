@@ -1,0 +1,332 @@
+{
+  "paper_metadata": {
+    "title": "Occupational class differences in outcomes after ischemic stroke: a prospective observational study",
+    "first_author": "Yinwei Zhu",
+    "year": "2021",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study uses a large multicenter prospective cohort (IIPAIS) with clear inclusion/exclusion criteria and well-defined recruitment across multiple regions in China. Baseline characteristics are thoroughly described.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "It recruited a total of 1711 patients aged ≥40 years with first-ever ischemic stroke from June 2011 to December 2013 in 25 hospitals of five provinces (Jilin, Liaoning, Jiangsu, Hebei and Henan) and two autonomous regions (Inner Mongolia and Ningxia) across China.",
+          "reasoning": "The authors specify age, disease status, time frame, and geographic distribution of the source population."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "All included ischemic stroke patients were confirmed by computed tomography or magnetic resonance imaging of the brain within 72 h of symptom onset.",
+          "reasoning": "Recruitment was hospital-based across 25 centers with objective diagnostic confirmation."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "from June 2011 to December 2013",
+          "reasoning": "Specific dates are provided."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "25 hospitals of five provinces (Jilin, Liaoning, Jiangsu, Hebei and Henan) and two autonomous regions (Inner Mongolia and Ningxia) across China.",
+          "reasoning": "The multicenter hospital setting and specific regions are listed."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "IIPAIS excluded patients with subarachnoid hemorrhage, transient ischemic attack, cerebral hemorrhage, or hemorrhage caused by tumor or hematologic diseases, along with pregnant women.",
+          "reasoning": "Clear clinical exclusion criteria are provided to ensure a homogenous ischemic stroke sample."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not report the total number of eligible patients screened versus those who consented, making it impossible to determine the participation rate."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1 presents the baseline characteristics of participants according to occupational class. ... age, sex, education, residence, employment, baseline National Institutes of Health Stroke Scale score, history of hyperlipidemia and history of diabetes mellitus.",
+          "reasoning": "Table 1 provides a comprehensive breakdown of demographics, clinical features, and comorbidities."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The attrition rate is very low (2.3%), which is well within the acceptable threshold for longitudinal studies to minimize bias.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "excluding 40 patients (2.3%) who lost 1-year follow-up",
+          "reasoning": "A follow-up rate of 97.7% is excellent and minimizes the risk of attrition bias."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text does not describe specific protocols for tracing lost participants."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper simply states they were 'lost', without specific reasons (e.g., moved, withdrew consent)."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is no comparison provided between the 40 lost patients and the 1484 analyzed patients."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Because characteristics of the lost participants are not reported, this cannot be verified, though the low percentage (2.3%) makes significant bias unlikely."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Attrition Summary",
+        "prompt": "Loss to follow-up (from baseline sample to study population analyzed) is not associated with key characteristics (i.e., the study data adequately represent the sample) sufficient to limit potential bias to the observed relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The prognostic factor (occupation) is self-reported and based on 'longest-held' status, which is prone to recall bias. However, the classification system used is standardized.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "we classified occupation into three groups: white-collar workers including office workers, managers and professional technician; blue-collar workers including technicians and machine operators; and farmers.",
+          "reasoning": "The categories are clearly defined based on the Labor Law of the People's Republic of China."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Partial",
+          "evidence_snippet": "Study participants self-reported their longest-held occupations",
+          "reasoning": "Self-reporting is a standard but subjective method; 'longest-held' helps reliability but is still subject to recall bias."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "classification was based on Labor Law of the People's Republic of China.",
+          "reasoning": "The categories are based on legal/standardized definitions rather than being derived from the study's own data distribution."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "We used a standard questionnaire to collect baseline data",
+          "reasoning": "All participants were assessed using the same questionnaire at enrollment."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Partial",
+          "evidence_snippet": "excluding ... 187 patients whose occupation information could not accord with the inclusion criteria",
+          "reasoning": "About 11% of the sample was excluded due to occupation classification issues (homemakers/freelance), which is a significant but explained portion."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "No",
+          "evidence_snippet": "excluding ... 187 patients whose occupation information could not accord with the inclusion criteria",
+          "reasoning": "Missing or non-conforming PF data resulted in exclusion rather than imputation."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "PF Measurement Summary",
+        "prompt": "PF is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "Outcomes were adjudicated by an independent committee using standardized criteria (ALLHAT), and assessors were blinded to the treatment/exposure status.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "Cardiovascular events included recurrent stroke, myocardial infarction, heart failure, pulmonary embolism and peripheral arterial disease... followed up in person for 12 months",
+          "reasoning": "The composite outcome and follow-up duration are explicitly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "The outcome assessment committee reviewed and adjudicated vascular events based on the criteria established in the Antihypertensive and Lipid-Lowering Treatment to Prevent Heart Attack Trial (ALLHAT)",
+          "reasoning": "Use of an adjudication committee and standardized ALLHAT criteria ensures high validity."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Participants were followed up in person for 12 months after onset or hospital discharge by trained neurologists who were unaware of treatment assignment.",
+          "reasoning": "Standardized follow-up protocol and blinding of assessors were applied to all participants."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Outcome Measurement Summary",
+        "prompt": "Outcome of interest is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study adjusted for a very comprehensive list of potential confounders in Model 3, including clinical severity (NIHSS), comorbidities, and acute treatments.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Yes",
+          "evidence_snippet": "Model 3 included ... current cigarette smoking, current alcohol drinking, time from stroke onset to hospitalization, ischemic stroke subtype, baseline NIHSS score, diastolic blood pressure, high-density lipoprotein cholesterol, fasting plasma glucose, medical history ... treatment during hospitalization",
+          "reasoning": "The list of measured confounders is extensive and covers demographic, clinical, and therapeutic factors."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "Trained neurologists applied the National Institutes of Health Stroke Scale (NIHSS) ... Trial of Org 10,172 in Acute Stroke Treatment (TOAST) criteria was used to classify the ischemic stroke subtypes",
+          "reasoning": "Standardized clinical scales and criteria were used to define confounders."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "The blood pressure (BP) was measured by trained nurses ... according to a standard protocol adapted from procedures recommended by the American Heart Association",
+          "reasoning": "Measurements like BP and NIHSS followed established clinical protocols."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "At admission, all participants took routine serologic tests ... in corresponding participating hospital.",
+          "reasoning": "Baseline data collection was uniform across the cohort."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "Yes",
+          "evidence_snippet": "Multiple imputation for missing data was performed using the Markov chain Monten Carlo method.",
+          "reasoning": "MCMC is a robust and appropriate method for handling missing covariate data."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "No",
+          "evidence_snippet": "prospective observational study",
+          "reasoning": "The study did not use matching or stratification in the design phase; it relied on statistical adjustment."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "Multivariate adjusted hazard ratio ... Model 3 included the factors in model 2 as well as ...",
+          "reasoning": "The use of Cox proportional hazard models with extensive adjustment is appropriate for this study design."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Confounding Summary",
+        "prompt": "Important potential confounders are appropriately accounted for, limiting potential bias with respect to the relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical methods are well-described, including the use of Cox models, Kaplan-Meier curves, and subgroup analyses. Results are reported transparently for all outcomes.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "We performed 3 Cox proportional hazard models. Model 1 was an unadjusted model. Model 2 only adjusted for age, sex. Model 3 included...",
+          "reasoning": "The stepwise approach to modeling is clearly explained."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "Model 3 included the factors in model 2 as well as ... education, urban and employed.",
+          "reasoning": "The model includes relevant socioeconomic and clinical factors known to influence stroke outcomes."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "We applied Cox proportional hazard model to evaluate the associations",
+          "reasoning": "Cox models are the standard for time-to-event data in prospective cohorts."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Table 2 Association with occupational class and prognosis during 12-month follow-up",
+          "reasoning": "Results for both cardiovascular events and all-cause mortality are reported across all models, regardless of significance."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Statistical Analysis and Presentation Summary",
+        "prompt": "The statistical analysis is appropriate for the design of the study, limiting potential for presentation of invalid or spurious results.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/12_Tao_2023/Zhu_2021.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T10:42:57.979426"
+  }
+}

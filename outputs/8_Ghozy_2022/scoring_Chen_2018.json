@@ -1,0 +1,287 @@
+{
+  "paper_metadata": {
+    "title": "Neutrophil to Lymphocyte Ratio as a Novel Predictor of Outcome in Patients With Severe Traumatic Brain Injury",
+    "first_author": "Weiqiang Chen",
+    "year": "2017",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study provides a very clear description of the source population, recruitment period, and highly specific inclusion/exclusion criteria. The baseline characteristics are extensively detailed in Table 1.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "855 patients with severe TBI from January 2007 to April 2012... first affiliated hospital of Shantou University Medical College and Fuzhou General Hospital of Xiamen University Medical College.",
+          "reasoning": "The authors specify the clinical setting (ICUs of two specific hospitals) and the disease severity (severe TBI)."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "This retrospective study was conducted from January 2007 to April 2012. The inclusion criteria were (1) isolated head trauma, (2) a posttrauma GCS score 8 or less, and (3) time from injury to admission 6 hours or less.",
+          "reasoning": "The recruitment process is clearly defined by time frame and clinical presentation."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "January 2007 to April 2012.",
+          "reasoning": "Specific dates are provided."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location) are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "first affiliated hospital of Shantou University Medical College and Fuzhou General Hospital of Xiamen University Medical College.",
+          "reasoning": "Specific tertiary care centers in China are named."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "The inclusion criteria were (1) isolated head trauma, (2) a posttrauma GCS score 8 or less, and (3) time from injury to admission 6 hours or less. The exclusion criteria were (1) age less than 18 years... (7) presence of prior systemic diseases including uremia, liver cirrhosis, malignancy, chronic heart or lung disease, diabetes mellitus, and hypertension.",
+          "reasoning": "Criteria are explicit and comprehensive, including a 'zero time' (admission within 6 hours)."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Yes",
+          "evidence_snippet": "During the study period, 855 patients with a diagnosis of isolated head trauma were admitted... 94 were excluded... A total of 688 were included in the analysis.",
+          "reasoning": "The flow chart and numbers suggest a high rate of inclusion for those meeting criteria (80.4% of the initial screen)."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Patient demographics, clinical characteristics, CT scan results, medication treatment, and laboratory examination are compared by unfavorable outcome and survival status in Table 1.",
+          "reasoning": "Table 1 provides a comprehensive list of baseline variables including age, sex, GCS, blood pressure, glucose, and CT findings."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "While the study accounts for the initial 855 patients, there is a discrepancy between the 761 patients remaining after exclusion and the 688 patients in the final analysis. This implies a loss of 73 patients (approx 9.6%) during follow-up that is not explicitly detailed in terms of characteristics.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Partial",
+          "evidence_snippet": "The final analysis included 688 patients.",
+          "reasoning": "Starting with 855 and excluding 94 leaves 761. The final N of 688 suggests some loss to follow-up, though the rate (>90%) is generally acceptable."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "Yes",
+          "evidence_snippet": "If the outcome was not recorded in the medical chart, telephone interviews were performed by 1 doctor who was blinded to clinical information.",
+          "reasoning": "The authors describe using telephone interviews to minimize attrition."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text does not explicitly state why the 73 patients were missing from the final analysis compared to the post-exclusion count."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is no comparison between those who completed the 1-year follow-up and those who did not."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Because characteristics of dropouts are not reported, it is impossible to determine if attrition was informative."
+        }
+      ]
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The PF (NLR) is an objective laboratory value. The measurement method is standardized, and the researchers were blinded to patient outcomes during data collection.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "The NLR was calculated as neutrophil count divided by lymphocyte count.",
+          "reasoning": "The definition is standard and clear."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Venous blood was withdrawn on admission... The blood samples were run in duplicate. Researchers who collected data and dealt with data were blinded to all patient details.",
+          "reasoning": "Duplicate testing and blinding of laboratory/data personnel ensure high reliability."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Partial",
+          "evidence_snippet": "based on the best threshold of 13.05 for the NLR",
+          "reasoning": "The authors used ROC analysis to determine the 'best threshold,' which is a data-dependent cut-point, though they also report NLR as a continuous variable in the logistic regression."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Venous blood was withdrawn on admission... The method and setting of measurement of PF is the same for all study participants.",
+          "reasoning": "Standardized protocol for all patients on admission."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "The final analysis included 688 patients.",
+          "reasoning": "The analysis was performed on the full cohort of included patients."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text does not mention how missing laboratory data were handled, though the large sample size suggests complete cases were used."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The outcome (GOS) is a validated tool in TBI research. The assessment was performed at a standardized time point (1 year) by a blinded assessor.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "Functional outcome was based on the Glasgow Outcome Scale (GOS) score... Patients were followed up until death or until 1 year after head trauma.",
+          "reasoning": "GOS is clearly defined and the 1-year timeframe is explicit."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "telephone interviews were performed by 1 doctor who was blinded to clinical information and the NLR",
+          "reasoning": "Blinding of the outcome assessor to the prognostic factor (NLR) is a key strength."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Functional outcome was based on the Glasgow Outcome Scale (GOS) score... GOS scores were divided into favorable (GOS 4-5) and unfavorable (GOS 1-3).",
+          "reasoning": "Standardized criteria applied to all participants."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "While the authors adjusted for several variables, the multivariate models for unfavorable outcome only included age and NLR. Many other significant univariate predictors (GCS, CT findings, glucose) were not included in the final multivariate model, potentially leaving residual confounding.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Yes",
+          "evidence_snippet": "The index data obtained included age; GCS score on admission; ... blood glucose level; ... CT classification; ... mechanical ventilation; intracranial surgery.",
+          "reasoning": "A wide array of clinically relevant confounders were measured at baseline."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "Shock was defined as a systolic blood pressure of less than 90 mm Hg, and hypoxia was defined as blood oxygen saturation less than 85%.",
+          "reasoning": "Clinical confounders are given specific, standard definitions."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Investigators who read the scans were blinded to clinical information. CT classification was performed using Traumatic Coma Data Bank criteria.",
+          "reasoning": "Blinded assessment of CT scans and use of standardized criteria (TCDB) enhance reliability."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "The index data obtained included... [list of variables]... on admission.",
+          "reasoning": "All confounders were measured at the same time point (admission) for all patients."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No mention of handling missing data for confounding variables."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "No",
+          "evidence_snippet": "Design: Retrospective.",
+          "reasoning": "The retrospective design did not allow for matching or stratification at the design stage."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Partial",
+          "evidence_snippet": "Three variables—age, temperature, and the NLR on admission—that were significantly associated with 1-year unfavorable outcome were put into multivariate model analysis.",
+          "reasoning": "The multivariate model for unfavorable outcome omitted several critical TBI prognostic factors (like GCS and CT grade) that were significant in Table 1, which is a major limitation in adjustment."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical methods are appropriate for the study design, including logistic regression and ROC analysis. Results are reported transparently with CIs and P-values.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Statistical analysis was performed with SPSS 13.0... Continuous variables were expressed as mean ± standard deviation... multivariate logistic regression model analysis was performed.",
+          "reasoning": "The strategy is clearly outlined and standard for this type of study."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Partial",
+          "evidence_snippet": "selection: forward [method = Wald]",
+          "reasoning": "The use of automated forward selection is common but can be criticized compared to theory-driven model building."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "A multivariate logistic regression model analysis was performed for identifying the association of 1-year (unfavorable) outcome and mortality.",
+          "reasoning": "Logistic regression is the correct choice for binary outcomes (favorable/unfavorable)."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Results were presented as odds ratio (OR), 95% confidence intervals (95% CIs), and corresponding model summary statistics.",
+          "reasoning": "The authors report on both primary outcomes (unfavorable outcome and mortality) as planned."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/8_Ghozy_2022/Chen_2018.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T11:24:15.096961"
+  }
+}

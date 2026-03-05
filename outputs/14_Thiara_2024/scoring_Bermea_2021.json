@@ -1,0 +1,287 @@
+{
+  "paper_metadata": {
+    "title": "INCREASED INTRACRANIAL HEMORRHAGE AMID ELEVATED INFLAMMATORY MARKERS IN THOSE WITH COVID-19 SUPPORTED WITH EXTRACORPOREAL MEMBRANE OXYGENATION",
+    "first_author": "Rene S. Bermea",
+    "year": "2021",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study clearly defines the target population (COVID-19 ARDS requiring ECMO) and provides detailed inclusion criteria, recruitment periods, and baseline characteristics for two academic centers. The sample is representative of the specific clinical niche described.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "adult patients with COVID-19 who required VV-ECMO support at the Massachusetts General Hospital (Boston, Mass) and the Hospital of the University of Pennsylvania (Philadelphia, Pa)",
+          "reasoning": "The source population is clearly defined by clinical condition and geographic/institutional location."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "We studied adult patients with COVID-19 who required VV-ECMO support... between March 12, 2020 and July 21, 2020.",
+          "reasoning": "The study uses a consecutive series of patients meeting specific criteria during a defined timeframe at two major centers."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "between March 12, 2020 and July 21, 2020.",
+          "reasoning": "Specific dates are provided."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "Massachusetts General Hospital (Boston, Mass) and the Hospital of the University of Pennsylvania (Philadelphia, Pa)",
+          "reasoning": "Specific academic medical centers are named."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "adult patients with COVID-19 who required VV-ECMO support... for acute respiratory distress syndrome (ARDS)",
+          "reasoning": "Inclusion is based on a specific diagnosis and the requirement for a specific intervention (ECMO)."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Yes",
+          "evidence_snippet": "During the study period, 33 patients required ECMO support",
+          "reasoning": "The study appears to include all patients who met the criteria during the window, minimizing selection bias within the centers."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1. Baseline characteristics... Age, median (IQR)... Male gender... BMI... Hypertension... Diabetes mellitus...",
+          "reasoning": "Comprehensive baseline data including demographics, comorbidities, and lab values are provided in Table 1."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study accounts for all 33 patients. While 4 patients were still hospitalized at the time of censorship, their ECMO status and primary outcomes (ICH) were known, and the analysis used Kaplan-Meier methods to handle censoring appropriately.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "During the study period, 33 patients required ECMO support; 16 (48.5%) were discharged alive, 13 died (39.4%), and 4 (12.1%) had ongoing care.",
+          "reasoning": "All patients are accounted for in the final analysis."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "Yes",
+          "evidence_snippet": "At the time of data censorship to complete this analysis, four patients (12.1%) remained hospitalized.",
+          "reasoning": "There were no dropouts in the traditional sense; patients were followed until death, discharge, or the study end date."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Yes",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There was no loss to follow-up; all patients were tracked through their hospital course."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Not applicable as there was no loss to follow-up."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Yes",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The entire cohort was analyzed; the 4 patients with ongoing care were included in the survival analysis."
+        }
+      ]
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The prognostic factors (inflammatory markers and aPTT) were measured using standard laboratory assays. The study used peak values and mean values, which are objective and consistent across the cohort.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "The highest laboratory values for interleukin-6 (IL-6), C-reactive protein (CRP), procalcitonin, ferritin, and D-dimer during the hospital stay were recorded",
+          "reasoning": "The PFs are clearly defined as peak laboratory values during the stay."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "aPTT was recorded every 6 h after a dose change or bolus... peak values of five inflammatory markers",
+          "reasoning": "Standardized clinical laboratory measurements were used, which are highly reliable."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "Categorical variables were analyzed using the Fisher exact test... Continuous variables were compared using either the Mann-Whitney U test... or the two-tailed Student's t test",
+          "reasoning": "Variables were treated as continuous in the primary comparison of ICH vs. non-ICH groups."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "The most recent laboratory values prior to cannulation were noted... highest laboratory values... during the hospital stay were recorded",
+          "reasoning": "Standardized protocols for lab collection were used across both academic ICUs."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1 and Figure 3",
+          "reasoning": "The data presentation suggests complete or near-complete capture of the primary laboratory PFs for the cohort."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text does not explicitly mention how missing laboratory data were handled, though the small N suggests minimal missingness."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "While most ICH cases were confirmed by objective imaging (CT/MRI), one case was diagnosed clinically (fixed pupils), and the retrospective nature means imaging was likely symptom-driven rather than universal screening, potentially missing subclinical ICH.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "Intracranial hemorrhage was identified by imaging... In one patient, ICH was identified clinically via neurological examination",
+          "reasoning": "The outcome (ICH) is defined by imaging or clear clinical signs."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Partial",
+          "evidence_snippet": "In one patient... ICH was diagnosed clinically on the basis of the sudden onset of fixed, dilated pupils... an imaging study was not performed.",
+          "reasoning": "Most outcomes were validated by imaging, but the inclusion of a purely clinical diagnosis introduces a small risk of misclassification."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Partial",
+          "evidence_snippet": "Intracranial hemorrhage was identified by imaging... In one patient, ICH was identified clinically",
+          "reasoning": "The method was not identical for all; one patient lacked imaging confirmation."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study identifies and measures key confounders (age, sex, comorbidities, ARDS severity). However, due to the small sample size (N=33), the authors could not perform multivariable adjustment to independently confirm the prognostic value of inflammatory markers while controlling for all other factors.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Yes",
+          "evidence_snippet": "Demographic data and comorbidities were reported... COVID-19-directed therapies, ICU therapies, and anticoagulatory agents administered were also included",
+          "reasoning": "A wide range of potential confounders (clinical and therapeutic) were captured."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1 and Table 2",
+          "reasoning": "Standard clinical definitions and units are used for all measured confounders."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Confounders were extracted from electronic health records, which is standard for retrospective studies."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Data were collected from the same two clinical settings using the same retrospective chart review protocol."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No mention of missing data handling for confounders."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "Partial",
+          "evidence_snippet": "The patients were propensity-score matched with the COVID patients by age and sex",
+          "reasoning": "Propensity matching was used for the historical comparison (COVID vs. non-COVID), but not for the internal analysis of ICH risk factors."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "No",
+          "evidence_snippet": "Categorical variables were analyzed using the Fisher exact test... Continuous variables were compared using either the Mann-Whitney U test... or the two-tailed Student's t test",
+          "reasoning": "The study relies on univariable comparisons. No multivariable regression was performed to adjust for confounding in the primary analysis of ICH risk factors."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical methods are appropriate for the small sample size. The use of Kaplan-Meier for survival and propensity matching for the historical control adds rigor. Results are reported transparently, including non-significant findings.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Statistical analysis section",
+          "reasoning": "The methods section clearly outlines the tests used for different data types."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Partial",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No multivariable model was built; however, the selection of variables for univariable comparison was based on clinical relevance."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "Survival free of ICH... was estimated using the Kaplan–Meier method and compared using the log-rank test.",
+          "reasoning": "The use of non-parametric tests and Kaplan-Meier analysis is appropriate for this small, retrospective cohort."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1, 2, and 3",
+          "reasoning": "The authors report all measured variables, including those that did not reach statistical significance (e.g., D-dimer, ferritin)."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/14_Thiara_2024/Bermea_2021.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T10:54:40.734923"
+  }
+}

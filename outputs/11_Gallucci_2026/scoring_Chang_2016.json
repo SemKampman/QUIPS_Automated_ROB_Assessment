@@ -1,0 +1,296 @@
+{
+  "paper_metadata": {
+    "title": "Predictors of functional level and quality of life at 6 months after a first-ever stroke: the KOSCO study",
+    "first_author": "Won Hyuk Chang",
+    "year": "2016",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study uses a large, multicenter prospective cohort (KOSCO) covering nine distinct areas in Korea. The participation rate (78.3%) is near the ideal threshold, and inclusion/exclusion criteria are clearly defined.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "The Korean Stroke Cohort for Functioning and Rehabilitation (KOSCO) is a cohort of all acute first-ever stroke patients who were admitted to representative hospitals in nine distinct areas of Korea.",
+          "reasoning": "The text explicitly defines the source population geographically and clinically (first-ever stroke)."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "Patients who were recruited to the KOSCO study group from August 2012 to October 2014 were analyzed in this study.",
+          "reasoning": "The recruitment process through representative hospitals in multiple regions is described."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "August 2012 to October 2014",
+          "reasoning": "Specific dates are provided."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "nine participating hospitals in Korea.",
+          "reasoning": "The multicenter nature across Korea is specified."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "While ischemic and hemorrhagic strokes are included, transient ischemic attacks are excluded.",
+          "reasoning": "The study specifies first-ever stroke and excludes TIA."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Yes",
+          "evidence_snippet": "participation rate of 78.3 % of the patients assessed for eligibility",
+          "reasoning": "A participation rate of nearly 80% is generally considered high enough to limit selection bias."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "The basic characteristics of the patients are presented in Table 1.",
+          "reasoning": "Table 1 provides comprehensive data on age, sex, BMI, smoking, education, and comorbidities."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "While the study accounts for the flow of participants, there is a significant drop from the 8,521 consented to the 3,002 who completed the 6-month follow-up. The authors acknowledge missing information as a limitation but do not fully compare characteristics of those lost to follow-up versus completers.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Partial",
+          "evidence_snippet": "Between August 2012 and October 2014, 8521 patients provided informed consent... Of 3002 stroke patients who completed the 6-month follow-up, 145 (4.8 %) were excluded due to missing information.",
+          "reasoning": "Only about 35% of the consented cohort reached the 6-month analysis point in this interim report, which is a significant loss, though common in long-term cohorts."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text does not describe specific efforts to reach those who did not complete the 6-month follow-up."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Partial",
+          "evidence_snippet": "We excluded cases of death in the analysis of factors that influenced functional outcome and QOL.",
+          "reasoning": "Death is mentioned as an exclusion, but other reasons for the large drop from 8,521 to 3,002 are not detailed."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is no table or description comparing the characteristics of dropouts to the analyzed sample."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Although it could lead to a bias in the results, this approach resulted in a more accurate analysis.",
+          "reasoning": "The authors admit potential bias but do not provide the data to confirm if differences exist."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Attrition Summary",
+        "prompt": "Loss to follow-up (from baseline sample to study population analyzed) is not associated with key characteristics (i.e., the study data adequately represent the sample) sufficient to limit potential bias to the observed relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study used standardized, validated tools (NIHSS, GCS, FMA, etc.) and implemented a rigorous training and certification program for raters to ensure reliability.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "Initial stroke severity was recorded... based on the National Institute of Health Stroke Scale (NIHSS) and Glasgow Coma Scale (GCS)... Functional assessments were carried out using... K-MMSE, FMA, FAC, ASHA-NOMS, and Short K-FAST.",
+          "reasoning": "All prognostic factors are defined by established clinical scales."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "all raters in the KOSCO study underwent standardized training program... only rater who passed the standardized examination... could participate in the data collection.",
+          "reasoning": "The use of a standardized training program and certification for raters strongly supports reliability."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "The candidate predictors with a significance level of P<0.20 identified in univariate ordinal logistic regression were entered into the generalized linear mixed models.",
+          "reasoning": "Variables were treated appropriately in the regression models."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "At discharge from hospitalization, the stroke severity of all patients was assessed using face-to-face methods.",
+          "reasoning": "The protocol was standardized across the multicenter sites."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "145 (4.8 %) were excluded due to missing information.",
+          "reasoning": "The exclusion rate due to missing PF data is very low (under 5%)."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "No",
+          "evidence_snippet": "We included only completed data for most variables",
+          "reasoning": "The study used complete case analysis rather than imputation, which is acceptable given the low percentage of missing data."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "Outcomes (FIM and EQ-5D) are well-validated instruments in stroke research and were collected via face-to-face assessments by trained raters.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "functional outcome at 6 months after stroke was defined using the functional independence measure (FIM)... In addition, the Euro Quality of Life (EQ)-5D was analyzed",
+          "reasoning": "Outcomes and the 6-month time point are clearly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "The FIM assesses limitations in daily living activities... EQ-5D scores were grouped into five categories",
+          "reasoning": "The study uses internationally recognized, validated scales."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "2857 patients who completed face-to-face assessments",
+          "reasoning": "All participants underwent the same face-to-face assessment protocol."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study accounted for a wide range of potential confounders, including demographics, comorbidities, and clinical complications, using multivariate regression (Generalized Linear Mixed Models).",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Yes",
+          "evidence_snippet": "Data on clinical characteristics such as comorbidity and data on demographic characteristics such as age group, sex, number of years of education, and prestroke dependency were documented",
+          "reasoning": "A comprehensive list of confounders (age, sex, BMI, smoking, alcohol, education, comorbidities, complications) was included."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "Comorbidity was assessed using the combined condition- and age-related score in the Charlson comorbidity index (CCAS).",
+          "reasoning": "Standardized definitions for hypertension, diabetes, etc., are provided in the Methods."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "documented by members of the hospital staff during acute treatment.",
+          "reasoning": "Data were collected from medical records and clinical assessment during the acute phase."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "The following comorbidities were recorded during admission to the hospital",
+          "reasoning": "Standardized data collection occurred for all patients during the index admission."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Imputation was not used; complete case analysis was performed."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "Partial",
+          "evidence_snippet": "prospective multicenter design",
+          "reasoning": "The design is a cohort study; confounding is primarily addressed in the analysis phase rather than design (e.g., no matching)."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "Multivariate analysis with generalized linear mixed models was used for ordinal outcomes.",
+          "reasoning": "The use of GLMM with a P<0.20 entry criterion is a standard and appropriate method for adjusting for multiple confounders."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical methods are appropriate for the data type (ordinal outcomes) and the multicenter design. Results are reported transparently for both ischemic and hemorrhagic subgroups.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "The ordinal logistic regression model was used to identify the predictors... Multivariate analysis with generalized linear mixed models was used",
+          "reasoning": "The analytical plan is clearly described and matches the data structure."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "The candidate predictors with a significance level of P<0.20 identified in univariate ordinal logistic regression were entered into the generalized linear mixed models.",
+          "reasoning": "The strategy uses a standard statistical threshold for variable inclusion in the multivariate model."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "generalized linear mixed models was used for ordinal outcomes.",
+          "reasoning": "GLMM is appropriate for multicenter data (accounting for site clusters) and ordinal outcomes (FIM/EQ-5D groups)."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "The results from univariate and multivariate logistic regression analysis are summarized in Table 2 [and 3].",
+          "reasoning": "The tables show both univariate and multivariate results for all tested predictors, indicating transparent reporting."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/11_Gallucci_2026/Chang_2016.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T10:36:39.775794"
+  }
+}

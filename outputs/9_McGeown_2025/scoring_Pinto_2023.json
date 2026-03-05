@@ -1,0 +1,332 @@
+{
+  "paper_metadata": {
+    "title": "Use of Support Vector Machines Approach via ComBat Harmonized Diffusion Tensor Imaging for the Diagnosis and Prognosis of Mild Traumatic Brain Injury: A CENTER-TBI Study",
+    "first_author": "Maíra Siqueira Pinto",
+    "year": "2023",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study uses a large, well-described prospective multicenter cohort (CENTER-TBI). Inclusion/exclusion criteria are explicit, and baseline characteristics are thoroughly reported for both patients and controls.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "All eligible subjects were included from the prospective observational study Collaborative European Neuro-Trauma Effectiveness Research in Traumatic Brain Injury (CENTER-TBI)",
+          "reasoning": "The source is a major European prospective cohort with defined demographics provided in Table 2."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "CENTER-TBI was accessed using the Neurobot platform (RRID/SCR_017004, core data, version 3.0; International Neuroinformatics Coordinating Facility; released November 24, 2020).",
+          "reasoning": "The recruitment uses a standardized platform and multi-center approach described in the methods."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "December 19, 2014, to December 17, 2017",
+          "reasoning": "Specific dates for the recruitment window are provided."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "15 scanners, 10 sites... Collaborative European Neuro-Trauma Effectiveness Research in Traumatic Brain Injury (CENTER-TBI)",
+          "reasoning": "The multi-center European setting is clearly stated."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "Inclusion criteria for this analysis were being ≥16 years of age who had sustained an mTBI (defined as Glasgow Coma Score [GCS] on presentation of 13-15), requiring a head CT according to local criteria on initial presentation, and having had an MRI within 21 days of the injury.",
+          "reasoning": "Criteria include age, GCS range, clinical requirement for CT, and a specific 'zero time' window for MRI."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "While the final N is reported, the total number of eligible individuals who declined participation (participation rate) is not explicitly stated in this specific sub-study text."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Demographic data are listed in Table 2. The cohort consists of 85 controls and 179 mTBI patients... Age, Sex, GCS, Scan time, Mechanism of injury, GOSE, Intracranial abnormalities.",
+          "reasoning": "Table 2 provides a comprehensive breakdown of the study sample."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study reports a high follow-up rate for the primary outcome (GOSE at 6 months) and uses standardized methods to maximize data collection. Reasons for exclusion (imaging artifacts) are clearly documented.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "The initial cohort consisting of 194 eligible patients... The final data cohort consisted of 179 patients",
+          "reasoning": "The attrition from the eligible imaging cohort to the final analysis is low (~7.7%) and primarily due to technical quality control."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "Yes",
+          "evidence_snippet": "To maximize the follow-up rate, postal and Web-based questionnaires and administration by telephone were also allowed.",
+          "reasoning": "The authors describe multi-modal efforts to ensure outcome data collection."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Yes",
+          "evidence_snippet": "two mTBI patients and one control were excluded because of blurring... 13 mTBI patients and three controls were excluded based on [ZNCC <0.8].",
+          "reasoning": "Exclusions are justified by technical imaging quality requirements."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not provide a comparison of baseline characteristics between those included in the final analysis and those excluded due to artifacts/registration failure."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Insufficient data provided to determine if excluded patients differed systematically from included ones."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Attrition Summary",
+        "prompt": "Loss to follow-up (from baseline sample to study population analyzed) is not associated with key characteristics (i.e., the study data adequately represent the sample) sufficient to limit potential bias to the observed relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The prognostic factors (FA and MD) are measured using standardized DTI protocols and a rigorous, automated pre-processing pipeline. The use of ComBat harmonization specifically addresses the risk of measurement bias across different scanners.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "Fractional anisotropy (FA) and mean diffusivity (MD) are the most commonly used diffusion parameters... Base values of DTI were 2-mm isotropic voxels, 32 non-collinear directions, and a b value of 1000 sec/mm2.",
+          "reasoning": "Technical parameters and definitions of the DTI metrics are explicitly provided."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "All DTI data were corrected for noise, Gibbs ringing artifacts, head motion and eddy current artifacts, and inhomogeneities in the magnetic field.",
+          "reasoning": "Extensive automated pre-processing and quality control (ZNCC) ensure measurement reliability."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "FA and MD maps were registered to a common space... each FA and MD voxel intensity within the atlas served as individual features.",
+          "reasoning": "The study uses continuous voxel-wise and ROI-wise data rather than arbitrary clinical cut-offs."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "underwent MRI at 3 Tesla with each scanner using similar acquisition protocols.",
+          "reasoning": "Standardized protocols were used across all sites, and ComBat was used to harmonize remaining variance."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "The final data cohort consisted of 179 patients... maximizing the number of subjects for the present study.",
+          "reasoning": "The majority of the eligible cohort had complete imaging data available for analysis."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "Yes",
+          "evidence_snippet": "We therefore had to restrict the covariates in our model to data that were available for all patients.",
+          "reasoning": "The authors opted for a complete-case analysis for the ML model rather than imputation, which is appropriate for this high-dimensional data."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "PF Measurement Summary",
+        "prompt": "PF is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The outcome (GOSE) is a standard, validated measure in TBI research. Assessors were blinded to the imaging results, and the dichotomization (complete vs. incomplete recovery) is a standard approach.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "Outcome at 6 months was measured using the Extended Glasgow Outcome Scale (GOSE)... dichotomize between complete (GOSE=8) and incomplete (GOSE <8) recovery.",
+          "reasoning": "The outcome and its timing (6 months) are clearly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "raters were blinded to the neuroimaging results... different methods for assessment of GOSE were found to have good agreement",
+          "reasoning": "Blinding was maintained, and the GOSE is a validated tool."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "The preferred method for assessment was by interview in person. However... postal and Web-based questionnaires and administration by telephone were also allowed.",
+          "reasoning": "While methods varied (interview vs. phone), the study notes these methods have good agreement in the CENTER-TBI dataset."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Outcome Measurement Summary",
+        "prompt": "Outcome of interest is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "While age and sex were included in the models, other potential confounders like education, pre-injury mental health, and extracranial injury were not accounted for due to missing data constraints in the ML framework.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Partial",
+          "evidence_snippet": "we did not include the scan time post-injury, severity of extracranial injury, education, or a history of mental health problems as variables in our model",
+          "reasoning": "The authors acknowledge that several important prognostic factors were not included in the final model."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "Sex and age were included as they have previously been shown to affect both the quantitative metrics... as well as outcome",
+          "reasoning": "Age and sex are clearly defined and used."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Age (mean–SD) 42.9 – 11.7... Sex Male/Female",
+          "reasoning": "Standard demographic variables are reliably measured."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "CENTER-TBI was accessed using the Neurobot platform... core data",
+          "reasoning": "Standardized data collection via the CENTER-TBI protocol."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "No",
+          "evidence_snippet": "We therefore had to restrict the covariates in our model to data that were available for all patients.",
+          "reasoning": "No imputation was used; cases with missing confounder data were likely excluded or the variables themselves were dropped."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "Partial",
+          "evidence_snippet": "85 controls (12 scanners, 9 sites; comparable age and sex)",
+          "reasoning": "Controls were comparable in age and sex, but the patient groups (complete vs. incomplete) differed significantly in age."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "The linearSVCs were either trained on the voxel- or ROI-wise FA and MD images... combined with age and sex.",
+          "reasoning": "The ML model explicitly includes age and sex as features to account for their influence."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Confounding Summary",
+        "prompt": "Important potential confounders are appropriately accounted for, limiting potential bias with respect to the relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study uses sophisticated ML techniques with appropriate cross-validation and feature selection (RFE). The reporting is transparent, following TRIPOD guidelines, and includes comparisons of different harmonization strategies.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "To estimate the linearSVCs generalizability, a stratified fourfold cross-validation (CV) was performed... Recursive feature elimination (RFE) was used",
+          "reasoning": "The ML pipeline is described in detail, including CV and feature selection."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "Sex and age were included as they have previously been shown to affect both the quantitative metrics... as well as outcome",
+          "reasoning": "Variable selection was based on established biological relevance."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "Support vector machines (SVMs) are popular ML models that have demonstrated considerable potential for robustly identifying neuroimaging biomarkers",
+          "reasoning": "SVM is appropriate for high-dimensional neuroimaging classification tasks."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Reporting of this study follows Transparent Reporting of a Multivariable Prediction Model for Individual Prognosis or Diagnosis (TRIPOD).",
+          "reasoning": "Adherence to TRIPOD and reporting of all performance metrics (AUC, F1, etc.) suggests low risk of selective reporting."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Statistical Analysis and Presentation Summary",
+        "prompt": "The statistical analysis is appropriate for the design of the study, limiting potential for presentation of invalid or spurious results.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/9_McGeown_2025/Pinto_2023.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T11:31:19.404815"
+  }
+}

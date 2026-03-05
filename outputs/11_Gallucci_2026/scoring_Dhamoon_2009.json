@@ -1,0 +1,332 @@
+{
+  "paper_metadata": {
+    "title": "Long-term functional recovery after first ischemic stroke: The Northern Manhattan Study",
+    "first_author": "Mandip S. Dhamoon",
+    "year": "2009",
+    "analysis_timestamp": "2023-10-27 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study uses a well-defined population-based cohort (NOMAS) with clear inclusion/exclusion criteria and active surveillance to capture non-hospitalized cases, minimizing selection bias.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "The race-ethnic mixture of the northern Manhattan community at the time of the study consisted of 63% Hispanic, 20% black, and 15% white residents.",
+          "reasoning": "The target population is clearly defined by geography and ethnicity."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "Over 80% of patients with acute ischemic stroke in northern Manhattan are hospitalized at the Columbia University Medical Center (CUMC). Subjects hospitalized at other local hospitals were identified through active surveillance...",
+          "reasoning": "The study used multiple methods (hospital records, active surveillance, physician agreements) to ensure a representative sample."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "Case ascertainment occurred between July 1993 and June 1996, and assessments were completed in August 2001.",
+          "reasoning": "Specific dates for recruitment and follow-up completion are provided."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "In the population-based Northern Manhattan Study, incident ischemic stroke patients... resided in Northern Manhattan for ≥3 months in a household with a telephone.",
+          "reasoning": "The geographic setting is explicitly defined."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "ischemic stroke patients were enrolled if they: (1) were diagnosed with a first stroke; (2) were age ≥40 years, and (3) resided in Northern Manhattan for ≥3 months",
+          "reasoning": "Criteria are explicit and include age, geography, and disease status."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "While the recruitment methods are robust, the exact number of eligible individuals who declined to participate is not explicitly stated to calculate a participation rate."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1 lists baseline and demographic information for study participants.",
+          "reasoning": "Comprehensive baseline data including age, sex, ethnicity, and risk factors are provided."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study accounts for all participants, provides reasons for loss to follow-up (death, recurrence), and statistically confirms that dropout was not related to functional status.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "Of 655 patients enrolled... 525 patients were thus available for this analysis.",
+          "reasoning": "80% of the enrolled cohort was available for analysis; most exclusions were due to early death or recurrence, which were censored appropriately."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "Yes",
+          "evidence_snippet": "An ongoing surveillance system of admissions to the CUMC and other local hospitals... was also used to identify study participants who experienced recurrent stroke, MI, hospitalization, or death.",
+          "reasoning": "The study used active surveillance to track outcomes even for those not attending clinic."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Yes",
+          "evidence_snippet": "No follow-up functional data was available for participants who died within 6 months (n= 83)... Twenty-four participants had recurrent stroke before first functional assessment... 4 participants... were categorized as lost to follow-up.",
+          "reasoning": "Detailed breakdown of reasons for exclusion and loss to follow-up is provided."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "Partial",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "While reasons for loss are given, a table comparing baseline characteristics of those lost vs. those followed is not explicitly provided, though statistical testing was done."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Yes",
+          "evidence_snippet": "There was no significant difference in functional status when those with shorter follow-up were compared to those with relatively longer follow-up, confirming that differential follow-up does not depend on functional status.",
+          "reasoning": "The authors performed a specific sensitivity analysis to rule out attrition bias."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Attrition Summary",
+        "prompt": "Loss to follow-up (from baseline sample to study population analyzed) is not associated with key characteristics (i.e., the study data adequately represent the sample) sufficient to limit potential bias to the observed relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "Prognostic factors (insurance, stroke severity, etc.) were measured using standardized scales (NIHSS) and validated questionnaires, with clear definitions provided.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "Insurance status was characterized as Medicare/private insurance versus Medicaid/no insurance.",
+          "reasoning": "The primary prognostic factor of interest (insurance) is clearly categorized."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Stroke severity was assessed using the NIHSS score derived from a standardized neurological examination",
+          "reasoning": "Standardized, validated clinical scales were used for measurement."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "Stroke severity was assessed using the NIHSS score... categorized into mild (<6), moderate (6–13), and severe (≥14). This categorization was based on previous analyses...",
+          "reasoning": "Cut-points were based on prior literature, not data-driven for this specific study."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Data were collected through interviews by trained research assistants, and physical and neurological examinations were conducted by study neurologists",
+          "reasoning": "Standardized protocols were applied to all participants."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1 lists baseline and demographic information... (n=525 unless otherwise noted).",
+          "reasoning": "Missing data for prognostic factors was minimal (e.g., n=513 for education out of 525)."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The study does not mention using imputation; it appears to use complete case analysis for the GEE models."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "PF Measurement Summary",
+        "prompt": "PF is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The Barthel Index is a validated tool for functional status, and its reliability via telephone (used in this study) has been previously established.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "functional status as measured by the Barthel index (BI)... favorable (BI ≥95) versus unfavorable (BI<95) functional status",
+          "reasoning": "The outcome and its thresholds are explicitly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "Previous research has demonstrated the reliability of phone assessments of functional status using the BI.",
+          "reasoning": "The authors cite evidence for the reliability of their chosen measurement method."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Evaluations were conducted at the medical center or by telephone interaction with the patient, family member, or caregiver.",
+          "reasoning": "While settings varied (clinic vs phone), the tool and protocol were standardized."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Outcome Measurement Summary",
+        "prompt": "Outcome of interest is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study adjusted for a comprehensive list of potential confounders, including demographics, medical risk factors, and stroke-specific characteristics using multivariable GEE models.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Partial",
+          "evidence_snippet": "adjusting for demographic (age, sex, race/ ethnicity, education level, marital status, insurance status) and medical (HTN, coronary artery disease... DM, hypercholesterolemia, smoking, physical activity) risk factors",
+          "reasoning": "Most major confounders were measured, though the authors admit lack of detailed rehabilitation data."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "HTN was defined as a systolic blood pressure recording≥160 mmHg... DM was defined by a fasting blood glucose level ≥126 mg/dL",
+          "reasoning": "Clinical definitions for comorbidities are clearly stated."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "we used laboratory and blood pressure measurements and information about prescription medications to capture risk factors",
+          "reasoning": "Objective measures were used to supplement self-report, increasing reliability."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Data were collected through interviews by trained research assistants, and physical and neurological examinations were conducted by study neurologists",
+          "reasoning": "Standardized baseline evaluation for all."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No imputation methods described."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "This was an observational cohort; confounding was handled in analysis rather than design."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "Multivariate models were constructed in a backward stepwise manner using those variables that were significant at p<0.10.",
+          "reasoning": "Multivariable GEE was used to adjust for a wide range of covariates."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Confounding Summary",
+        "prompt": "Important potential confounders are appropriately accounted for, limiting potential bias with respect to the relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The use of GEE is appropriate for longitudinal data. The authors tested for linearity and interactions, and reported results for multiple thresholds of the outcome.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "We used Generalized Estimating Equations (GEE) to assess the relationship between several predictor variables... GEE with binary outcome and logistic link function provided parameter estimates",
+          "reasoning": "The statistical approach is well-documented and appropriate for the data structure."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "adjusting for demographic... and medical risk factors, as well as stroke characteristics known to be associated with functional recovery in previous studies",
+          "reasoning": "Variable selection was based on established clinical knowledge."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "The advantage of GEE is that it accounts for within-subject correlation and produces unbiased and more efficient regression estimates in studies that have a longitudinal, repeated-measures design.",
+          "reasoning": "GEE is the gold standard for analyzing repeated measures in prognosis studies."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Table 2 reports the fully adjusted results... Results for the cutoff of BI≥60 showed more marked declines",
+          "reasoning": "The authors report on multiple outcomes (BI 95 and BI 60) and provide both adjusted and unadjusted estimates."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Statistical Analysis and Presentation Summary",
+        "prompt": "The statistical analysis is appropriate for the design of the study, limiting potential for presentation of invalid or spurious results.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/11_Gallucci_2026/Dhamoon_2009.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T10:32:53.680784"
+  }
+}

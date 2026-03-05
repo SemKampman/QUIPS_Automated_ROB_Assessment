@@ -1,0 +1,287 @@
+{
+  "paper_metadata": {
+    "title": "The effect of cognitive impairment on functional outcome after stroke: A cross sectional study",
+    "first_author": "Alia Saberi",
+    "year": "2020",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study uses a consecutive sampling method from a single outpatient clinic, which is clearly described. However, the cross-sectional nature and the high rate of cognitive impairment (92.7%) suggest a potentially highly selected sample that may not represent the broader chronic stroke population. Participation rates of eligible vs. non-eligible patients are not reported.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "outpatient stroke clinic of our university hospital from June to September 2017",
+          "reasoning": "The setting and timeframe are clearly defined."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "206 patients were consecutively recruited to the study. Stroke diagnosis was made by a neurologist based on the standard clinical and magnetic resonance imaging (MRI) characteristics.",
+          "reasoning": "Consecutive recruitment is a strong method to reduce selection bias."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "from June to September 2017",
+          "reasoning": "Specific months and year are provided."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "outpatient stroke clinic of our university hospital... Guilan University of Medical Sciences, Rasht, Iran.",
+          "reasoning": "The specific hospital and city are identified."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "Patients who had the following criteria were excluded from the study; hemorrhagic stroke or prior ischemic stroke confirmed by MRI, history of seizure, functional disability prior to stroke, aphasia, neglect, dementia, psychiatric disorders...",
+          "reasoning": "Detailed exclusion criteria are provided to define the study population."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper does not report how many patients were screened versus how many were eligible and eventually participated (no flow diagram or participation rate)."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Demographic characteristics of the subjects are presented in table 1.",
+          "reasoning": "Table 1 provides age, gender, marital status, education, job, and comorbidities."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "As this is a cross-sectional study where measurements were taken at a single point in time (at least 6 months post-stroke), traditional longitudinal attrition is not applicable. The analysis includes all 206 recruited patients.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "206 patients were prospectively included in this study... Statistical analysis was performed to find significant association...",
+          "reasoning": "The full recruited sample appears to have been analyzed."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The study does not mention any dropouts or attempts to follow up with those who did not complete the assessment."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No information on loss to follow-up is provided."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No description of lost participants is provided."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Without data on non-participants or dropouts, this cannot be determined."
+        }
+      ]
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The prognostic factor (Cognitive Impairment) was measured using the MoCA, a validated and reliable tool. The method was standardized for all participants.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "The Montreal Cognitive Assessment (MoCA) test was used for cognition evaluation",
+          "reasoning": "The tool is clearly specified."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "MoCA is also shown to be an accurate tool in assessment of executive function deficits... MoCA is the most valuable and clinically applicable test in stroke survivors",
+          "reasoning": "The authors justify the validity of the MoCA for this population."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "patients who score ≥26 are considered cognitively normal.",
+          "reasoning": "The study uses the standard, non-data-dependent cut-off for the MoCA."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Both cognition and functional dependence evaluation were performed at least six months after the first stroke attack.",
+          "reasoning": "Standardized timing and tools were used for all."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "N=15 of patients were cognitively intact and N=191 were cognitively impaired.",
+          "reasoning": "Data is available for the full sample of 206."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Missing data is not mentioned, suggesting complete case analysis."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The outcome (Functional Outcome) was measured using the Barthel Index, which is a gold standard for ADL assessment in stroke. The cut-off used was pre-specified based on literature.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "Using the Barthel Index (BI), patients were divided into two groups of functionally independent (N=146) and dependent (N=60).",
+          "reasoning": "The outcome and its categorization are clearly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "Barthel index is a useful instrument to evaluate patient's independence... and is a valid and reliable method for stroke patients.",
+          "reasoning": "The authors cite the validity of the BI."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Both cognition and functional dependence evaluation were performed at least six months after the first stroke attack.",
+          "reasoning": "Standardized timing and setting."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study adjusted for several important confounders (age, sex, education, NIHSS) in a logistic regression. However, it did not account for the amount or type of rehabilitation received, which the authors admit is a limitation that could influence functional outcomes.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Partial",
+          "evidence_snippet": "demographic variables including age, gender, marital and job status, years of education, side of lesion and comorbidities",
+          "reasoning": "While many clinical and demographic factors were measured, treatment/rehabilitation was not."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1. Demographic characteristics of the subjects",
+          "reasoning": "Confounders are clearly categorized in the tables."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Mean NIHSS score was 2.5±2.5",
+          "reasoning": "Standardized tools like NIHSS were used for clinical severity."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Statistical analysis was performed to find significant association between MoCA scores and demographic variables",
+          "reasoning": "Data collection was uniform for the cohort."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No imputation methods described."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "No",
+          "evidence_snippet": "cross sectional study",
+          "reasoning": "The design did not involve matching or stratification."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "After controlling for other variables, total MoCA score contributed significantly to the prediction of dependence using logistic regression.",
+          "reasoning": "Multivariable logistic regression was used to adjust for age, sex, education, and NIHSS."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical methods (t-tests, Chi-square, and Logistic Regression) are appropriate for the cross-sectional design. Results are reported transparently with p-values and Odds Ratios.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Statistical analysis was made using Statistical Package for Social Sciences (SPSS v.18).",
+          "reasoning": "The strategy is clearly outlined in the Methods section."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "Logistic regression analysis revealed the predictors of functional dependency.",
+          "reasoning": "The model included variables known to affect stroke outcome (age, NIHSS, etc.)."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "logistic regression method was used for total MoCA scores.",
+          "reasoning": "Logistic regression is appropriate for the binary outcome (dependent vs. independent)."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "Table 2 showed the MoCA subtests and total score... Table 3 showed the detailed information on this analysis.",
+          "reasoning": "All subtests and the full regression model are reported."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/11_Gallucci_2026/Saberi_2020.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T10:34:04.717071"
+  }
+}

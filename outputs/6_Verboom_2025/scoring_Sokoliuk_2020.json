@@ -1,0 +1,287 @@
+{
+  "paper_metadata": {
+    "title": "Covert Speech Comprehension Predicts Recovery From Acute Unresponsive States",
+    "first_author": "Rodika Sokoliuk",
+    "year": "2021",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study provides a clear description of the target population (acute TBI in ICU), detailed inclusion/exclusion criteria, and a transparent screening process (139 screened, 28 consented). Baseline characteristics are well-documented in Table 1.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "We screened all 139 patients with severe TBI admissions to the intensive care unit of the Queen Elizabeth Hospital, Birmingham (England), between April 2018 and October 2019.",
+          "reasoning": "The source population is clearly defined as severe TBI patients in a specific ICU setting."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "We screened all 139 patients with severe TBI admissions... Of the 139 screened patients, 28 patients were consented onto the study, and 21 patients met all inclusion/exclusion criteria at the time of EEG",
+          "reasoning": "The recruitment flow is transparently reported, showing how the final sample was derived from the total admissions."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "between April 2018 and October 2019.",
+          "reasoning": "The dates for recruitment are explicitly stated."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "intensive care unit of the Queen Elizabeth Hospital, Birmingham (England)",
+          "reasoning": "The specific hospital and unit are identified."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "Inclusion criteria of this study required patients to have a GCS motor score below 6 (ie, not obeying commands), to be aged over 18 years, and to be receiving care as a result of a TBI. Exclusion criteria were: patients moribund, those with a history of moderate or severe TBI...",
+          "reasoning": "Comprehensive criteria including clinical scores, age, and specific neurological exclusions are provided."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "Of the 139 screened patients, 28 patients were consented onto the study",
+          "reasoning": "While the flow is described, the text does not specify how many of the 139 were actually eligible versus how many refused consent, making it difficult to determine the exact participation rate among eligible candidates."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "For each patient, gender, age, GCS score... days after injury, CT Marshall Grade... (for patients' characteristics, see Table 1).",
+          "reasoning": "Table 1 provides granular, patient-level baseline data."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The study reports high follow-up rates (17/21 at 3 months), but there is a lack of detailed comparison between those who completed the study and those lost to follow-up, and the reasons for loss (other than 'available for assessment') are not fully detailed.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "Seventeen and 16 patients were available for assessment with the Glasgow Outcome Scale Extended (GOSE) at 3 months and 6 months, respectively.",
+          "reasoning": "17 out of 21 eligible patients (81%) is generally considered an adequate follow-up rate."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text does not describe specific efforts to re-contact or gather data on the 4 patients missing from the 3-month follow-up."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The paper states they were 'not available' but does not specify if this was due to death (outside the GOSE score), withdrawal, or loss to contact."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is no specific table or list comparing the characteristics of the dropouts to the completers."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Without a comparison of dropouts, it is impossible to determine if attrition was informative (biased)."
+        }
+      ]
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The prognostic factor (EEG cortical tracking) is measured using a highly standardized, objective protocol. The technical details of the EEG acquisition and the mathematical calculation of ITPC are clearly defined.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "Inter-trial phase coherence (ITPC) was used as a measure to quantify the extent to which patients' EEG oscillated in synchrony with the words/phrases/sentences.",
+          "reasoning": "The PF is defined both conceptually and mathematically."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "A clinical electrophysiologist recorded the EEG data... using a 19-electrode clinically certified EEG system... Data quality was monitored during acquisition and in subsequent offline artifact correction.",
+          "reasoning": "The use of clinically certified equipment and expert recording supports reliability."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "ITPC values for phrases and sentences into one 'comprehension' rate... results remain qualitatively similar if using phrase and sentence ITPC separately",
+          "reasoning": "The study primarily treats ITPC as a continuous variable in correlations and regressions."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "Patients heard a series of isochronous mono-syllabic words presented at a rate of 3.125 Hz via earphones (Etymotic ER-1).",
+          "reasoning": "The protocol was standardized across the cohort."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "After excluding data from 2 patients due to artifacts/technical issues, 17 patients... were available",
+          "reasoning": "Only 2 patients were excluded due to PF measurement issues, which is acceptable."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "Yes",
+          "evidence_snippet": "Finally, noisy channels were interpolated by using data of their neighbors... before the data were re-referenced to average.",
+          "reasoning": "Standard EEG interpolation methods were used for missing channel data."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The outcome (GOSE) is a validated tool, and the assessors were explicitly blinded to the EEG results, which significantly reduces the risk of measurement bias.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "We assessed outcome with the extended version of the Glasgow Outcome Scale via telephone conversation... GOSE scores could reach a minimum of 1 and a maximum of 8",
+          "reasoning": "The GOSE scale and its levels are clearly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "All outcome assessors were blind to the EEG results of the respective patients.",
+          "reasoning": "Blinding of outcome assessors is a key strength for reducing bias."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "We conducted phone-call follow-ups at 3 months and 6 months to assess the patients' outcome via the Glasgow Outcome Scale Extended (GOSE).",
+          "reasoning": "A consistent telephone-based assessment was used for all participants."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study used multivariable linear regression to account for key clinical confounders (age, GCS, CT grade), demonstrating that the PF provides independent prognostic value.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Yes",
+          "evidence_snippet": "standard clinical prognostic parameters, taken from clinical notes: age, GCS score at time of EEG recording... number of days between the injury and the EEG recording, CT Marshall grade",
+          "reasoning": "Major clinical prognostic factors for TBI were included."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "GCS score (eye response [E]: 1 = no response to 4 = spontaneous...); CT Marshall Grade (grade I = no visible intracranial pathology to grade VI = high or mixed-density lesion, not surgical)",
+          "reasoning": "The scales for confounders are explicitly defined in the Table 1 legend."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "standard clinical prognostic parameters, taken from clinical notes",
+          "reasoning": "Confounders were derived from standard clinical records, which is standard practice for these variables."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "standard clinical prognostic parameters, taken from clinical notes",
+          "reasoning": "Data were collected systematically from the clinical records of the same ICU."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text does not mention missing confounder data or imputation methods for them."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "Partial",
+          "evidence_snippet": "We recruited 28 patients with acute traumatic brain injury who were 2 to 7 days sedation-free and failed to obey commands.",
+          "reasoning": "The study used a specific cohort design to limit heterogeneity, but did not use matching or stratification."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "To test the prognostic value of ITPC beyond clinical characteristics, we computed separate backward multiple linear regressions",
+          "reasoning": "Multivariable regression is the appropriate statistical method to adjust for measured confounders."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical approach is robust, using both correlation and multivariable regression. The authors also used bootstrapping to ensure the specificity of their findings and followed STROBE reporting guidelines.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Results of this study are reported according to the STrengthening the Reporting of OBservational studies in Epidemiology (STROBE) statement",
+          "reasoning": "The analytical steps, from pre-processing to regression, are detailed."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "The regression analysis was performed using the backward method, which entails initial simultaneous entering of all predictors and stepwise removal of those predictors, which are less informative (p > 0.1)",
+          "reasoning": "Backward elimination is a standard, though sometimes criticized, method for model building; however, it was based on a clear set of pre-defined clinical predictors."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "Linear regressions revealed that the strength of this comprehension response... significantly improved the accuracy of prognoses relative to clinical characteristics alone",
+          "reasoning": "Linear regression is appropriate for the continuous/ordinal nature of the GOSE (after normalization)."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "All data, stimuli, and analysis scripts are shared via the sharing platform OSF",
+          "reasoning": "Open data practices and reporting of non-significant results (e.g., word-rate tracking) suggest low risk of selective reporting."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/6_Verboom_2025/Sokoliuk_2020.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T11:09:09.153195"
+  }
+}

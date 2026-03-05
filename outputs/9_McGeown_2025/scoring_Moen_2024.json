@@ -1,0 +1,332 @@
+{
+  "paper_metadata": {
+    "title": "The prognostic importance of traumatic axonal injury on early MRI: the Trondheim TAI-MRI grading and quantitative models",
+    "first_author": "Kent Gøran Moen",
+    "year": "2024",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study uses three large prospective cohorts with well-defined inclusion/exclusion criteria and clear descriptions of the target population across the TBI severity spectrum. Baseline characteristics are thoroughly reported.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Four-hundred sixty-three patients (8–70 years) with mild (n = 158), moderate (n = 129), or severe (n = 176) TBI and early MRI were prospectively included.",
+          "reasoning": "The study clearly defines the age range and injury severity distribution of the participants."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "This study consisted of 463 patients (8–70 years) with TBI from three separate prospective cohorts (2004–2017, Fig. 1): (1) the Trondheim mild (m)TBI cohort [14], (2) the Trondheim moderate-severe (ms)TBI cohort [15], and (3) the Oslo severe TBI cohort [16].",
+          "reasoning": "Recruitment is based on established prospective cohorts from specific neurosurgical centers."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "three separate prospective cohorts (2004–2017, Fig. 1)",
+          "reasoning": "The years of recruitment are explicitly stated."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "Trondheim mild (m)TBI cohort... Trondheim moderate-severe (ms)TBI cohort... Oslo severe TBI cohort",
+          "reasoning": "The geographic locations (Trondheim and Oslo, Norway) are specified."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "We defined severe TBI by admission GCS scores ≤ 8, moderate TBI by scores of 9–13, and mTBI by scores of 14–15... MRI scans were scored... within 6 weeks.",
+          "reasoning": "Criteria are based on standard GCS scores and timing of MRI."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "While the final sample size is large, the total number of eligible patients who declined or were not approached is not explicitly detailed in the provided text."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1 Demographics, injury and imaging variables, and outcome by TBI severity groups (n = 463)",
+          "reasoning": "Table 1 provides comprehensive data on age, sex, injury mechanism, GCS, and pupil dilation."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "Attrition is minimal (3.5% missing outcome data), and the authors used appropriate statistical methods (EM algorithm) to handle missingness, minimizing potential bias.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "Sixteen patients had missing GOSE scores",
+          "reasoning": "Only 16 out of 463 patients (3.5%) were missing outcome data, which is very low."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text does not describe specific efforts to re-contact those missing, though the rate is low."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Specific reasons for the 16 missing cases are not listed."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "No",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There is no comparison table between completers and non-completers."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Unsure",
+          "evidence_snippet": "we performed an imputation using the expectation-maximisation (EM) algorithm",
+          "reasoning": "The use of EM algorithm suggests the authors addressed missingness, but they do not explicitly state that no differences existed."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Attrition Summary",
+        "prompt": "Loss to follow-up (from baseline sample to study population analyzed) is not associated with key characteristics (i.e., the study data adequately represent the sample) sufficient to limit potential bias to the observed relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The prognostic factors (TAI lesions) were measured using standardized MRI protocols, manual segmentation (gold standard), and blinded radiologists with high inter-rater reliability.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "TAI presence, numbers, and volumes at predefined locations were registered on fluid-attenuated inversion recovery (FLAIR) and diffusion-weighted imaging, and presence and numbers on T2*GRE/SWI.",
+          "reasoning": "The prognostic factors are clearly defined by MRI sequence and location."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "The MRI readings and segmentations were all performed blinded and quality-checked in inter-rateranalyses with good inter-rater-agreement",
+          "reasoning": "Blinding and high inter-rater reliability (ICC >= 0.78) support measurement validity."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "Volumes of TAI on FLAIR and DWI were manually annotated using the 3D Slicer software package",
+          "reasoning": "The study uses continuous volumetric data rather than arbitrary cut-points."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Partial",
+          "evidence_snippet": "Patients were scanned at 3 Tesla (n=171), 1.5 Tesla (n=287), or 1 Tesla (n=5)",
+          "reasoning": "While the protocol was standardized, different magnet strengths were used, which the authors acknowledge as a limitation."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "prompt": "Adequate proportion of the study sample has complete data for PF variable.",
+          "rating": "Yes",
+          "evidence_snippet": "If one or more of these three MRI sequences were missing, the patient was excluded",
+          "reasoning": "The study used a complete-case approach for the MRI sequences, ensuring full PF data for analyzed subjects."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "No",
+          "evidence_snippet": "outcome analyses were performed with a complete case approach",
+          "reasoning": "Missing PF data led to exclusion rather than imputation."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "PF Measurement Summary",
+        "prompt": "PF is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The GOSE is a validated, standard tool for TBI outcome. Measurement was standardized, though the timing varied slightly between cohorts (3 vs 6 vs 12 months).",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "Outcome was assessed with the Glasgow Outcome Scale Extended (GOSE) [19, 20] at 3 months in mTBI and 6 months in msTBI.",
+          "reasoning": "The outcome measure and timing are clearly defined."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Yes",
+          "evidence_snippet": "Outcome was assessed with the Glasgow Outcome Scale Extended (GOSE)",
+          "reasoning": "GOSE is the gold standard for TBI outcome assessment."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Partial",
+          "evidence_snippet": "at 3 months in mTBI and 6 months in msTBI. In the Oslo severe TBI cohort, GOSE was administered at 3 and 12 months, and for these patients, the 6-month GOSE score was calculated as a weighted mean.",
+          "reasoning": "There is some variation in timing and calculation of the outcome across the different cohorts."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Outcome Measurement Summary",
+        "prompt": "Outcome of interest is adequately measured in study participants to sufficiently limit potential bias.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study rigorously adjusted for established prognostic factors (IMPACT core variables: age, GCS, pupils) and CT findings in multivariable models.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Yes",
+          "evidence_snippet": "adjusted analyses in msTBI included the core variables (age, GCS score, and pupil dilation) and the Marshall CT score as covariates",
+          "reasoning": "The study includes the most critical clinical and radiological confounders for TBI."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "We defined severe TBI by admission GCS scores ≤ 8... worst computed tomography (CT) scans were scored according to the Marshall CT classification",
+          "reasoning": "Confounders are defined using standard clinical scales."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "The worst computed tomography (CT) scans were scored according to the Marshall CT classification",
+          "reasoning": "Standardized, validated scales were used for confounders."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "admission GCS scores... worst computed tomography (CT) scans",
+          "reasoning": "Confounders were measured at the same clinical timepoint (admission) for all."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text mentions imputation for outcomes but does not explicitly detail imputation for confounders."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "Yes",
+          "evidence_snippet": "We analysed the patients with msTBI jointly as well as splitting into groups with different injury severities.",
+          "reasoning": "Stratification by severity was used in the design/analysis."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "adjusted analyses in msTBI included the core variables (age, GCS score, and pupil dilation) and the Marshall CT score as covariates",
+          "reasoning": "Multivariable regression was used to adjust for key confounders."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Study Confounding Summary",
+        "prompt": "Important potential confounders are appropriately accounted for, limiting potential bias with respect to the relationship between PF and outcome.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical approach is sophisticated, using multivariable logistic regression, elastic-net penalty for variable selection, and cross-validation. Results are reported transparently with effect sizes and CIs.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Multivariable logistic and elastic-net regression analyses were performed... McFadden's pseudo R2, the Akaike information criterion (AIC), and the Bayesian information criterion (BIC) were used",
+          "reasoning": "The analytical plan is detailed and follows best practices for prognostic modeling."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "To comply with the IMPACT models, adjusted analyses in msTBI included the core variables... elastic-net penalty, to investigate the combined prognostic effect",
+          "reasoning": "Model building was based on the established IMPACT framework and used penalized regression to handle multicollinearity."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "multivariable proportional odds ordinal logistic regressions with the inverted GOSE score as the response variable.",
+          "reasoning": "Ordinal regression is appropriate for the quasi-continuous GOSE scale."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "We present two models: One with only TAI location... and one that also includes TAI number and volume variables",
+          "reasoning": "The authors report both clinical and quantitative models, including non-significant findings in milder TBI."
+        }
+      ],
+      "risk_of_bias_assessment": {
+        "label": "Statistical Analysis and Presentation Summary",
+        "prompt": "The statistical analysis is appropriate for the design of the study, limiting potential for presentation of invalid or spurious results.",
+        "response_options": [
+          "High",
+          "Moderate",
+          "Low"
+        ]
+      }
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/9_McGeown_2025/Moen_2024.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T11:38:21.418774"
+  }
+}

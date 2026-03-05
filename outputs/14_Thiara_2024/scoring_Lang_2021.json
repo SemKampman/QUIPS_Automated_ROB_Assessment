@@ -1,0 +1,286 @@
+{
+  "paper_metadata": {
+    "title": "Intracerebral Hemorrhage in COVID-19 Patients with Pulmonary Failure: A Propensity Score-Matched Registry Study",
+    "first_author": "Corinna N. Lang",
+    "year": "2021",
+    "analysis_timestamp": "2024-05-22 14:30:00"
+  },
+  "quips_assessment": [
+    {
+      "domain_number": 1,
+      "domain_name": "Study Participation",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study clearly defines the source population (tertiary center), recruitment period, and inclusion/exclusion criteria. While it is a single-center retrospective study, the use of ICD-10 codes and consecutive enrollment of COVID-19 patients minimizes selection bias within that setting.",
+      "items": [
+        {
+          "label": "Source of target population",
+          "prompt": "The source population or population of interest is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "University Hospital of Freiburg, Germany... a tertiary treatment center for ARDS and ECMO-therapy",
+          "reasoning": "The setting and nature of the center are explicitly stated."
+        },
+        {
+          "label": "Method used to identify population",
+          "prompt": "The sampling frame and recruitment are adequately described, including methods to identify the sample sufficient to limit potential bias (number and type used, e.g., referral patterns in health care)",
+          "rating": "Yes",
+          "evidence_snippet": "Patients with non-COVID-19 ARDS (ICD-10 code J80.01; J80.02; J80.03; J80.03; J80.09) were extracted from the hospital data system",
+          "reasoning": "The use of specific ICD-10 codes for the control group and PCR confirmation for the COVID group is a robust identification method."
+        },
+        {
+          "label": "Recruitment period",
+          "prompt": "Period of recruitment is adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "from 01/01/2018 to 05/31/2020 (non-COVID-19 group). Critically ill patients with PCR-confrmed SARS-CoV-2 infection and ARDS were enrolled from 03/2020 to 05/2020",
+          "reasoning": "Specific dates are provided for both cohorts."
+        },
+        {
+          "label": "Place of recruitment",
+          "prompt": "Place of recruitment (setting and geographic location)  are adequately described",
+          "rating": "Yes",
+          "evidence_snippet": "University Hospital of Freiburg, Germany",
+          "reasoning": "The specific institution and location are named."
+        },
+        {
+          "label": "Inclusion and exclusion criteria",
+          "prompt": "Inclusion and exclusion criteria are adequately described (e.g., including explicit diagnostic criteria or “zero time” description).",
+          "rating": "Yes",
+          "evidence_snippet": "We excluded patients younger than 18 years and with an intensive care unit (ICU) stay of less than 24 h. Also, patients with mild ARDS according to the Berlin defnition were excluded.",
+          "reasoning": "Clear age, duration of stay, and disease severity criteria are listed."
+        },
+        {
+          "label": "Adequate study participation",
+          "prompt": "There is adequate participation in the study by eligible individuals",
+          "rating": "Yes",
+          "evidence_snippet": "enrolling all patients with ARDS from 01/2018 to 05/2020.",
+          "reasoning": "The study claims to enroll 'all' patients meeting criteria, suggesting a consecutive sample."
+        },
+        {
+          "label": "Baseline characteristics",
+          "prompt": "The baseline study sample (i.e., individuals entering the study) is adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Table 1 Baseline characteristics... Age, Female gender, BMI, SOFA Score, paO2/FiO2",
+          "reasoning": "Comprehensive baseline data is provided in Table 1."
+        }
+      ]
+    },
+    {
+      "domain_number": 2,
+      "domain_name": "Study Attrition",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "As a retrospective ICU registry study with a defined endpoint (ICU survival/death or end of study period), the follow-up is complete for the primary outcome. The study accounts for all 163 patients initially identified.",
+      "items": [
+        {
+          "label": "Proportion of baseline sample available for analysis",
+          "prompt": "Response rate (i.e., proportion of study sample completing the study and providing outcome data) is adequate.",
+          "rating": "Yes",
+          "evidence_snippet": "Both groups were followed until 06/13/2020... 163 ARDS patients were included",
+          "reasoning": "The study reports on the full sample identified; there is no mention of lost subjects."
+        },
+        {
+          "label": "Attempts to collect information on participants who dropped out",
+          "prompt": "Attempts to collect information on participants who dropped out of the study are described.",
+          "rating": "Yes",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "In this retrospective ICU setting, 'drop out' is generally not applicable as patients are followed until discharge or death."
+        },
+        {
+          "label": "Reasons and potential impact of subjects lost to follow-up",
+          "prompt": "Reasons for loss to follow-up are provided.",
+          "rating": "Yes",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "No loss to follow-up was reported; the cohort appears complete for the hospital stay."
+        },
+        {
+          "label": "Outcome and prognostic factor information on those lost to follow-up",
+          "prompt": "Participants lost to follow-up are adequately described for key characteristics (LIST).",
+          "rating": "Yes",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "Not applicable as no loss to follow-up occurred."
+        },
+        {
+          "label": "",
+          "prompt": "There are no important differences between key characteristics (LIST) and outcomes in participants who completed the study and those who did not.",
+          "rating": "Yes",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The study analyzed the entire eligible cohort."
+        }
+      ]
+    },
+    {
+      "domain_number": 3,
+      "domain_name": "Prognostic Factor Measurement",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The primary prognostic factor (COVID-19 status) is objectively measured via PCR. Other factors like VV-ECMO and anticoagulation are well-documented in clinical records.",
+      "items": [
+        {
+          "label": "Definition of the PF",
+          "prompt": "A clear definition or description of 'PF' is provided (e.g., including dose, level, duration of exposure, and clear specification of the method of measurement).",
+          "rating": "Yes",
+          "evidence_snippet": "PCR-positive SARS-CoV-2 patients with ARDS were allocated to the COVID-19 group.",
+          "reasoning": "The prognostic factor (COVID-19) is clearly defined by PCR status."
+        },
+        {
+          "label": "Valid and Reliable Measurement of PF",
+          "prompt": "Method of PF measurement is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "PCR-confrmed SARS-CoV-2 infection",
+          "reasoning": "PCR is the gold standard for COVID-19 diagnosis."
+        },
+        {
+          "label": "",
+          "prompt": "Continuous variables are reported or appropriate cut-points (i.e., not data-dependent) are used.",
+          "rating": "Yes",
+          "evidence_snippet": "Age [years] 60±15 (24–92)... SOFA Score 10±4 (2–19)",
+          "reasoning": "Continuous variables are reported with means and standard deviations."
+        },
+        {
+          "label": "Method and Setting of PF Measurement",
+          "prompt": "The method and setting of measurement of PF is the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "extracted from the hospital data system of the University Hospital of Freiburg",
+          "reasoning": "All data came from the same hospital system using standardized clinical protocols."
+        },
+        {
+          "label": "Proportion of data on PF available for analysis",
+          "rating": "Yes",
+          "evidence_snippet": "163 ARDS patients were included... 47 (28.8%) in the COVID-19 group",
+          "reasoning": "PF status was known for all included patients."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods of imputation are used for missing 'PF' data.",
+          "rating": "Yes",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "There was no missing data for the primary PF (COVID status)."
+        }
+      ]
+    },
+    {
+      "domain_number": 4,
+      "domain_name": "Outcome Measurement",
+      "risk_of_bias": "Moderate",
+      "risk_reasoning": "The outcome (ICH) was measured using objective imaging (CT/MRI). However, imaging was only performed in 58.3% of patients based on clinical suspicion, which introduces a risk of missing asymptomatic or 'clinically silent' ICH cases, potentially underestimating the incidence.",
+      "items": [
+        {
+          "label": "Definition of the Outcome",
+          "prompt": "A clear definition of outcome is provided, including duration of follow-up and level and extent of the outcome construct.",
+          "rating": "Yes",
+          "evidence_snippet": "ICH was detected using cerebral computed tomography (CT) or magnetic resonance imaging (MRI).",
+          "reasoning": "The outcome is clearly defined by imaging findings."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Outcome",
+          "prompt": "The method of outcome measurement used is adequately valid and reliable to limit misclassification bias (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and confirmation of outcome with valid and reliable test).",
+          "rating": "Partial",
+          "evidence_snippet": "An experienced radiologist and neurologist reviewed the scans in detail",
+          "reasoning": "While expert review was used, there is no mention of blinding the radiologist to the COVID-19 status."
+        },
+        {
+          "label": "Method and Setting of Outcome Measurement",
+          "prompt": "The method and setting of outcome measurement is the same for all study participants.",
+          "rating": "Partial",
+          "evidence_snippet": "Cerebral imaging was done in patients suspected of a cerebral pathology or in cases of prolonged awakening.",
+          "reasoning": "The criteria for imaging were consistent, but not all patients were imaged (58.3%), which is a limitation noted by the authors."
+        }
+      ]
+    },
+    {
+      "domain_number": 5,
+      "domain_name": "Study Confounding",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The study used Propensity Score Matching (PSM) to account for key confounders including age, VV-ECMO, and bleeding risk (HAS-BLED). This is a robust method for addressing observed confounding in observational data.",
+      "items": [
+        {
+          "label": "Important Confounders Measured",
+          "prompt": "All important confounders, including treatments (key variables in conceptual model: LIST), are measured.",
+          "rating": "Yes",
+          "evidence_snippet": "matched for predetermined items including age, VV-ECMO treatment, and bleeding risk (HAS-BLED score)",
+          "reasoning": "Key clinical confounders for ICH in this population were identified and measured."
+        },
+        {
+          "label": "Definition of the confounding factor",
+          "prompt": "Clear definitions of the important confounders measured are provided (e.g., including dose, level, and duration of exposures).",
+          "rating": "Yes",
+          "evidence_snippet": "The HAS-Bled score is a well-validated risk score for major bleeding",
+          "reasoning": "Standardized scores and clinical definitions were used."
+        },
+        {
+          "label": "Valid and Reliable Measurement of Confounders",
+          "prompt": "Measurement of all important confounders is adequately valid and reliable (e.g., may include relevant outside sources of information on measurement properties, also characteristics, such as blind measurement and limited reliance on recall).",
+          "rating": "Yes",
+          "evidence_snippet": "Clinical data reported in this study was obtained from our hospital data system",
+          "reasoning": "Data was sourced from electronic health records, which is generally reliable for these variables."
+        },
+        {
+          "label": "Method and Setting of Confounding Measurement",
+          "prompt": "The method and setting of confounding measurement are the same for all study participants.",
+          "rating": "Yes",
+          "evidence_snippet": "The method and setting of measurement of PF is the same for all study participants.",
+          "reasoning": "Standardized ICU monitoring and data entry were used for all."
+        },
+        {
+          "label": "Method used for missing data",
+          "prompt": "Appropriate methods are used if imputation is used for missing confounder data.",
+          "rating": "Unsure",
+          "evidence_snippet": "Not found in text",
+          "reasoning": "The text does not explicitly state how missing values for confounders were handled, though the sample size suggests minimal missingness."
+        },
+        {
+          "label": "Appropriate Accounting for Confounding",
+          "prompt": "Important potential confounders are accounted for in the study design (e.g., matching for key variables, stratification, or initial assembly of comparable groups).",
+          "rating": "Yes",
+          "evidence_snippet": "Propensity score matching (1:1) was performed",
+          "reasoning": "Matching was used to create comparable groups."
+        },
+        {
+          "label": "",
+          "prompt": "Important potential confounders are accounted for in the analysis (i.e., appropriate adjustment).",
+          "rating": "Yes",
+          "evidence_snippet": "Propensity score matching confirmed similar rates of ICH in both groups",
+          "reasoning": "The analysis specifically focused on the matched cohort to report the primary finding."
+        }
+      ]
+    },
+    {
+      "domain_number": 6,
+      "domain_name": "Statistical Analysis and Reporting",
+      "risk_of_bias": "Low",
+      "risk_reasoning": "The statistical methods (t-tests, Chi-square, PSM) are appropriate for the study design. Results are reported transparently, including both unmatched and matched analyses.",
+      "items": [
+        {
+          "label": "Presentation of analytical strategy",
+          "prompt": "There is sufficient presentation of data to assess the adequacy of the analysis.",
+          "rating": "Yes",
+          "evidence_snippet": "Values of non-COVID-19 patients and COVID-19 patients were compared using Student's t-test, Pearson´s Chi-square test, or Fisher´s exact test.",
+          "reasoning": "The statistical plan is clearly laid out."
+        },
+        {
+          "label": "Model development strategy",
+          "prompt": "The strategy for model building (i.e., inclusion of variables in the statistical model) is appropriate and is based on a conceptual framework or model.",
+          "rating": "Yes",
+          "evidence_snippet": "matched for predetermined items including age, VV-ECMO treatment, and bleeding risk (HAS-BLED score)",
+          "reasoning": "Variables for matching were selected based on clinical relevance to the outcome."
+        },
+        {
+          "label": "",
+          "prompt": "The selected statistical model is adequate for the design of the study.",
+          "rating": "Yes",
+          "evidence_snippet": "Propensity score matching (1:1) was performed... optimal matching algorithm with a caliper of 0.1",
+          "reasoning": "PSM is an appropriate technique for this type of registry study."
+        },
+        {
+          "label": "Reporting of results",
+          "prompt": "There is no selective reporting of results.",
+          "rating": "Yes",
+          "evidence_snippet": "We found no statistically signifcant diference between the two groups evaluating any ICH or fatal ICH in the unmatched cohort",
+          "reasoning": "The authors report both significant and non-significant findings across multiple outcomes."
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "source_file": "data_md_converted/14_Thiara_2024/Lang_2021.md",
+    "model": "google/gemini-3-flash-preview",
+    "processed_at": "2026-03-05T10:55:27.189283"
+  }
+}
