@@ -1,0 +1,308 @@
+Journal of Neurotrauma 39:1318-1328 (October 2022) Mary Ann Liebert, Inc. DOI: 10.1089/neu.2021.0408
+
+Open camera or QR reader and scan code to access this article and other resources online.
+
+**ORIGINAL ARTICLE** 
+
+**IMAGING** 
+
+# Diffusion Tensor Imaging Reveals Elevated Diffusivity of White Matter Microstructure that Is Independently Associated with Long-Term Outcome after Mild **Traumatic Brain Injury:** A TRACK-TBI Study
+
+Eva M. Palacios, Esther L. Yuh, Christine L. Mac Donald, Ioanna Bourla, Jamie Wren-Jarvis, Xiaoying Sun,<sup>4</sup> Mary J. Vassar,<sup>2,5</sup> Ramon Diaz-Arrastia,<sup>6</sup> Joseph T. Giacino,<sup>7,8</sup> David O. Okonkwo,<sup>9</sup> Claudia S. Robertson, Murray B. Stein, Analy Temkin, Michael A. McCrea, Harvey S. Levin, Michael A. McCrea, Levin, Michael A. McCrea, Levin, Michael A. McCrea, Michael A. McCrea, Levin, Michael A. McCrea, Levin, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. McCrea, Michael A. Amy J. Markowitz,<sup>3,4,\*</sup> Sonia Jain,<sup>4</sup> Geoffrey T. Manley,<sup>3,4</sup> and Pratik Mukherjee<sup>1,2,14,\*</sup>; on behalf of the TRACK-TBI Investigators\*
+
+#### **Abstract**
+
+Diffusion tensor imaging (DTI) literature on single-center studies contains conflicting results regarding acute effects of mild traumatic brain injury (mTBI) on white matter (WM) microstructure and the prognostic significance. This larger-scale multi-center DTI study aimed to determine how acute mTBI affects WM microstructure over time and how early WM changes affect long-term outcome. From Transforming Research and Clinical Knowledge in Traumatic Brain Injury (TRACK-TBI), a cohort study at 11 United States level 1 trauma centers, a total of 391 patients with acute mTBI ages 17 to 60 years were included and studied at two weeks and six months post-injury. Demographically matched friends or family of the participants were the control group (n = 148). Axial diffusivity (AD), fractional anisotropy (FA), mean diffusivity (MD), and radial diffusivity (RD) were the measures of WM microstructure. The primary outcome was the Glasgow Outcome Scale Extended (GOSE) score of injury-related functional limitations across broad life domains at six months post-injury. The AD, MD, and RD were higher and FA was lower in mTBI versus friend control (FC) at both two weeks and six months
+
+Departments of <sup>1</sup>Radiology and Biomedical Imaging, <sup>5</sup>Neurological Surgery, and <sup>14</sup>Bioengineering and Therapeutic Sciences, UCSF, San Francisco, California, USA.
+
+<sup>&</sup>lt;sup>2</sup>Brain and Spinal Cord Injury Center, Zuckerberg San Francisco General Hospital and Trauma Center, San Francisco, California, USA.
+
+<sup>&</sup>lt;sup>3</sup>Department of Neurological Surgery, University of Washington, Seattle, Washington, USA.
+
+<sup>&</sup>lt;sup>4</sup>Biostatistics Research Center, Herbert Wertheim School of Public Health and Human Longevity Science, 11 Department of Psychiatry, University of California, San Diego, La Jolla, California, USA.
+
+Department of Neurology, University of Pennsylvania, Philadelphia, Pennsylvania, USA.
+
+<sup>&</sup>lt;sup>7</sup>Department of Physical Medicine and Rehabilitation, Spaulding Rehabilitation Hospital, Charlestown, Massachusetts, USA.
+
+<sup>&</sup>lt;sup>8</sup>Department of Physical Medicine and Rehabilitation, Harvard Medical School, Boston, Massachusetts, USA.
+
+<sup>&</sup>lt;sup>9</sup>Department of Neurological Surgery, University of Pittsburgh Medical Center, Pittsburgh, Pennsylvania, USA. Departments of <sup>10</sup>Neurosurgery and <sup>13</sup>Neurology, Baylor College of Medicine, Houston, Texas, USA.
+
+<sup>&</sup>lt;sup>12</sup>Departments of Neurosurgery and Neurology, Medical College of Wisconsin, Milwaukee, Wisconsin, USA.
+
+<sup>\*\*</sup>The TRACK-TBI Investigators may be found at the end of the article.
+
+<sup>\*</sup>Address correspondence to: Pratik Mukherjee, MD, PhD, Department of Radiology and Biomedical Imaging, Bioengineering and Therapeutic Sciences, University of California, San Francisco, Box 0946, 185 Berry Street, San Francisco, CA, 94143-0946, USA E-mail: pratik.mukherjee@ucsf.edu or Amy J. Markowitz, JD, Brain and Spinal Injury Center, University of California, San Francisco, Zuckerberg San Francisco, General Hospital and Trauma Center, 1001 Potrero Avenue, Building 1, Room 101, Box 0899, San Francisco, CA 94143, USA E-mail: amv.markowitz@ucsf.edu
+
+<sup>©</sup> Eva M. Palacios et al., 2022; Published by Mary Ann Liebert, Inc. This Open Access article is distributed under the terms of the Creative Commons Attribution Noncommercial License (CC-BY-NC) (http://creativecommons.org/licenses/by-nc/4.0/) which permits any noncommercial use, distribution, and reproduction in any medium, provided the original author(s) and the source are credited.
+
+post-injury throughout most major WM tracts of the cerebral hemispheres. In the mTBI group, AD and, to a lesser extent, MD decreased in WM from two weeks to six months post-injury. At two weeks post-injury, global WM AD and MD were both independently associated with six-month incomplete recovery (GOSE <8 vs = 8) even after accounting for demographic, clinical, and other imaging factors. DTI provides reliable imaging biomarkers of dynamic WM microstructural changes after mTBI that have utility for patient selection and treatment response in clinical trials. Continued technological advances in the sensitivity, specificity, and precision of diffusion magnetic resonance imaging hold promise for routine clinical application in mTBI.
+
+Keywords: concussion; diffusion tensor imaging; Glasgow Outcome Scale; MRI; traumatic brain injury
+
+### Introduction
+
+Traumatic brain injury (TBI) is a major cause of death and disability worldwide, with more than 13 million people estimated to live with disabilities related to TBI in Europe and the United States,<sup>1</sup> most classified as mild (mTBI) according to admission Glasgow Coma Scale (GCS) score of 13–15.2 The ''mild'' terminology is increasingly recognized as a misnomer, given accumulating evidence that acute mTBI causes somatic symptoms, cognitive dysfunction, and disability that can persist for months or years after head trauma, and higher mortality rate.3–5 Pre-clinical models show that mTBI causes axonal shearing injury of white matter (WM) microstructure that can affect long-term cognitive and behavioral function.6 The absence of objective tools to non-invasively measure microstructural pathology remains a barrier to clinical care.7,8
+
+Diffusion tensor imaging (DTI) is the most extensively used technique to study microstructural properties of WM *in vivo.*9,10 Single-center DTI of acute mTBI reports microstructural WM disruption leading to neurocognitive and behavioral deficits.11–15 Fractional anisotropy (FA), the most commonly reported DTI measure, provides a summary metric of diffusion directionality thought to be linked to WM microstructure. Previous DTI studies, however, have produced conflicting results: some articles report abnormally reduced WM FA in acute mTBI and others find elevations or no change in FA.16
+
+Contributors to this discordance include small effect sizes of FA changes, cross-sectional studies of small samples (*n* < 40), and the dynamic nature of microstructural WM alterations after acute mTBI. Hence, there are no definitive conclusions regarding progression of WM microstructural injury over time and the relationship of early WM microstructural damage to long-term outcome after mTBI.<sup>17</sup>
+
+Leveraging the large, multi-center Transforming Research and Clinical Knowledge in TBI (TRACK-TBI) study, we aimed to establish the longitudinal DTI changes of WM microstructure after mTBI, from two weeks post-injury to six months later, when acute and subacute head trauma effects have largely stabilized. We also investigated the association of early WM microstructure (at two weeks) with six-month incomplete recovery using the Glasgow Outcome Scale Extended (GOSE), the most frequently selected primary outcome of efficacy in clinical trials of TBI.
+
+The objective is to clarify previous contradictory results and generalize findings across multiple sites with heterogeneous populations, magnetic resonance (MR) scanner manufacturers and models, and magnetic resonance imaging (MRI) software versions, all of which are known to affect DTI results.18 To achieve this, we used a standardized MR scan protocol, including DTI pulse sequence parameters, with quantitative precision across centers verified using both an ice water diffusion phantom developed by the National Institute of Standards and Technology (NIST) and also a traveling human volunteer.19
+
+Given previous inconsistent results with the FA metric, we also measured its two principal diffusivities: axial diffusivity (AD) and radial diffusivity (RD), as well as the mean diffusivity (MD) metric for a more comprehensive investigation of WM microstructural changes of mTBI.
+
+### Methods
+
+### Participants
+
+Participants were enrolled at 11 academic level 1 trauma centers in the United States within 24 h of injury, after evaluation in the Emergency Department (ED) or hospital inpatient unit for TBI; all received head computed tomography (CT) per order of the evaluating physician. <sup>20</sup> Exclusion criteria are specified in the Supplementary Material. Written consent was obtained from all subjects and the protocol was approved by the University of California, San Francisco and all enrollment site Institutional Review Boards.
+
+A total of 1132 patients with mTBI met inclusion criteria of admission GCS 13–15, had clinical head CT scans, and were enrolled within 24 h of injury (Fig. 1). Of these mTBI participants, 592 underwent MRI at both two weeks (range: 10–18 days) and six months post-injury (range: 160–203 days). Children age <17 years and adults >60 years were excluded because of known rapid WM microstructural changes of, respectively, development and aging. Of 484 participants with mTBI in the target age range, 93 were excluded for incomplete DTI scans at one or both time points—e.g., excessive motion during
+
+**FIG. 1.** CONSORT diagram for inclusion of enrolled TRACK-TBI patients into this analysis. TBI, traumatic brain injury; MRI, magnetic resonance imaging; DTI, diffusion tensor imaging; GCS, Glasgow Coma Scale; QC, quality control.
+
+scan and/or visible image artifacts. Accordingly, 391 patients were available for analysis, of whom 367 had GOSE scores recorded at six-month follow-up.
+
+Friends or family of the TBI-injured participants, demographically matched by age, sex, and education, served as the "friend control" (FC) group (n = 148) and underwent 3T MRI including DTI.
+
+### Demographic, clinical, and outcome measures
+
+Within 24 h of injury, we collected demographic data, clinical characteristics, and cause of injury, categorized as incidental falls, road traffic incidents, violence/assaults, and other causes. The GCS score was acquired on presentation to the ED. The six-month follow-up GOSE was administered to capture disability related to the TBI only, with exclusion of disability associated with co-occurring polytrauma (e.g., orthopedic injuries). The GOSE was dichotomized as <8 (incomplete recovery) versus = 8 (complete recovery) as the primary outcome for the analysis, because incomplete recovery is common in mTBI but is not reliably predicted by clinical injury severity factors such as the GCS or by conventional CT or MRI findings.
+
+### MRI acquisition
+
+The MRI with DTI was conducted at the 11 level 1 trauma centers in the United States using 3T MR scanners. Standardization of DTI measures across all 13 MR scanners at the 11 sites was achieved using both an
+
+isotropic diffusion phantom developed at the NIST and a traveling volunteer, as reported previously, <sup>19</sup> and as given in more detail in the Supplementary Material.
+
+Whole-brain DTI acquisition was performed with a multi-slice single-shot spin echo echoplanar pulse sequence using 64 diffusion-encoding directions, isotropically distributed over the surface of a sphere with electrostatic repulsion, acquired at b=1300 s/mm², eight acquisitions at b=0 s/mm², slices of 2.7-mm thickness each with no gap between slices, a  $128\times128$  matrix, and a field of view (FOV) of  $350\times350$  mm, resulting in 2.7-mm isotropic voxels. The remainder of the MRI protocol and DTI pre-processing and post-processing details are given in the Supplementary Material.
+
+### Statistical analysis
+
+Tract-Based Spatial Statistics (TBSS) in FSL<sup>24</sup> was used to skeletonize and register the diffusion maps for each subject to perform data-driven whole-brain voxelwise group analysis and tract-specific region of interest (ROI) measurements along the white matter skeleton using 14 WM tracts from the Johns Hopkins University (JHU) ICBM-DTI-81 White-Matter Labeled Atlas<sup>25</sup> (Table 1), previously reported to be commonly injured in mTBI.<sup>16</sup> Further details of the TBSS analysis<sup>26,27</sup> are provided in the Supplementary Material.
+
+### Radiological analysis
+
+The CT and MRI scans were interpreted by a board-certified neuroradiologist blinded to the patients' clinical information using the National Institutes of Health Common Data Elements (CDEs) for TBI pathoanatomical classification of intracranial lesions such as contusions, axonal injury, and subdural hematomas. Patients with acute abnormal CT or MRI findings related to the recent injury were categorized as "CT+" or "MRI+," respectively. Because the study was limited to patients with mTBI, the final dataset did not include patients with large, deep anatomic lesions that could meaningfully interfere with DTI measurements within the skeletonized core of major WM tracts.
+
+# Association analysis with GOSE at six months post-injury
+
+Demographics, clinical, and initial CT characteristics were compared between mTBI participants with incomplete (GOSE < 8) versus complete (GOSE = 8) recovery at six months post-injury. Between-group comparisons used the Wilcoxon Rank Sum test for continuous variables and the Fisher exact test for categorical variables. Bivariate and multi-variable (adjusting for demographic and other known risk factors such as history of psychiatric illness, previous TBI, and CT imaging results) associations between individual tract-specific DTI metrics at
+
+Table 1. Two-Week Cross-Sectional Diffusion Tensor Imaging of Patients with Mild Traumatic Brain Injury and Controls
+
+|        |                   |                       |          |                   |                          |          |                   | 20-3                                       | 7        |                   | 20-3                            | 2,       |
+|--------|-------------------|-----------------------|----------|-------------------|--------------------------|----------|-------------------|--------------------------------------------|----------|-------------------|---------------------------------|----------|
+|        | Fra               | Fractional Anisotropy |          | Axial Diff        | Diffusivity 10 - mm=/sec | /sec     | Mean Di           | Mean Diffusivity 10 - mm <sup>-</sup> /sec | /sec     | Kadial Di         | Kadial Diffusivity 10 - mm=/sec | _/sec    |
+| Tract  | mTBI              | Controls              | Cohen d  | mTBI              | Controls                 | Cohen d  | mTBI              | Controls                                   | Cohen d  | mTBI              | Controls                        | Cohen d  |
+| Global | $0.430\pm0.026$   | $0.434 \pm 0.026$     | 0.164    | $1.105 \pm 0.046$ | $1.086\pm0.050$          | -0.394** | $0.732 \pm 0.030$ | $0.715 \pm 0.037$                          | -0.537** | $0.545 \pm 0.029$ | $0.531 \pm 0.035$               | -0.442** |
+| CCC    | $0.676 \pm 0.039$ | $0.656 \pm 0.049$     | -0.437** | $1.519\pm0.071$   | $1.451 \pm 0.083$        | -0.878** | $0.769 \pm 0.049$ | $0.754 \pm 0.046$                          | -0.328** | $0.399 \pm 0.055$ | $0.404 \pm 0.057$               | 0.101    |
+| BCC    | $0.642 \pm 0.037$ | $0.646 \pm 0.041$     | 0.110    | $1.566 \pm 0.062$ | $1.496 \pm 0.078$        | -0.995** | $0.831 \pm 0.047$ | $0.796 \pm 0.049$                          | -0.712** | $0.467 \pm 0.055$ | $0.441 \pm 0.055$               | -0.465** |
+| SCC    | $0.757 \pm 0.034$ | $0.753 \pm 0.033$     | -0.119   | $1.530 \pm 0.054$ | $1.474 \pm 0.067$        | -0.917** | $0.719 \pm 0.042$ | $0.699 \pm 0.039$                          | -0.513** | $0.315\pm0.050$   | $0.309 \pm 0.044$               | -0.109   |
+| ALIC   | $0.549 \pm 0.033$ | $0.545 \pm 0.033$     | -0.125   | $1.224 \pm 0.067$ | $1.147 \pm 0.077$        | -1.066** | $0.716 \pm 0.040$ | $0.681 \pm 0.034$                          | -0.947** | $0.467 \pm 0.041$ | $0.444 \pm 0.028$               | -0.655** |
+| PLIC   | $0.666 \pm 0.031$ | $0.678 \pm 0.032$     | 0.367**  | $1.305 \pm 0.075$ | $1.236\pm0.075$          | -0.926** | $0.681 \pm 0.038$ | $0.643 \pm 0.039$                          | **866.0- | $0.372\pm0.035$   | $0.342 \pm 0.036$               | -0.843** |
+| ACR    | $0.461 \pm 0.032$ | $0.457 \pm 0.032$     | -0.125   | $1.139\pm0.060$   | $1.094 \pm 0.067$        | -0.694** | $0.727 \pm 0.037$ | $0.706 \pm 0.038$                          | -0.543** | $0.525 \pm 0.038$ | $0.509 \pm 0.035$               | -0.435** |
+| SCR    | $0.481 \pm 0.027$ | $0.486 \pm 0.027$     | 0.173    | $1.101 \pm 0.060$ | $1.039 \pm 0.060$        | -1.019** | $0.691 \pm 0.036$ | $0.657 \pm 0.035$                          | -0.965** | $0.490 \pm 0.035$ | $0.462 \pm 0.032$               | -0.869** |
+| PTR    | $0.570 \pm 0.040$ | $0.581 \pm 0.036$     | 0.294*   | $1.328\pm0.054$   | $1.278 \pm 0.067$        | -0.812** | $0.768 \pm 0.039$ | $0.736 \pm 0.043$                          | -0.780** | $0.489 \pm 0.047$ | $0.461 \pm 0.045$               | -0.615** |
+| EC     | $0.406 \pm 0.037$ | $0.398 \pm 0.034$     | -0.247   | $1.139 \pm 0.047$ | $1.075 \pm 0.059$        | -1.209** | $0.771 \pm 0.031$ | $0.739 \pm 0.036$                          | -0.944** | $0.590 \pm 0.040$ | $0.567 \pm 0.038$               | -0.591** |
+| CGC    | $0.509 \pm 0.044$ | $0.504 \pm 0.042$     | -0.109   | $1.221 \pm 0.065$ | $1.151 \pm 0.080$        | -0.953** | $0.746 \pm 0.041$ | $0.711 \pm 0.044$                          | -0.816** | $0.511 \pm 0.048$ | $0.488 \pm 0.046$               | -0.495** |
+| SLF    | $0.478 \pm 0.029$ | $0.480 \pm 0.028$     | 0.079    | $1.104 \pm 0.042$ | $1.054 \pm 0.052$        | -1.040** | $0.701 \pm 0.026$ | $0.673 \pm 0.031$                          | -0.951** | $0.502 \pm 0.032$ | $0.479 \pm 0.032$               | -0.705** |
+| SFO    | $0.445 \pm 0.036$ | $0.454 \pm 0.035$     | 0.268*   | $1.040 \pm 0.068$ | $0.983 \pm 0.076$        | -0.798** | $0.671 \pm 0.045$ | $0.637 \pm 0.044$                          | **0′.    | $0.492 \pm 0.045$ | $0.459 \pm 0.040$               | -0.762** |
+| PCR    | $0.467 \pm 0.029$ | $0.471 \pm 0.030$     | 0.133    | $1.179 \pm 0.043$ | $1.127 \pm 0.063$        | **696.0- | $0.755 \pm 0.031$ | $0.726 \pm 0.042$                          | -0.812** | $0.546 \pm 0.035$ | $0.521 \pm 0.041$               | -0.655** |
+| SS     | $0.515 \pm 0.036$ | $0.522 \pm 0.036$     | 0.183    | $1.271 \pm 0.055$ | $1.219\pm0.068$          | -0.845** | $0.777 \pm 0.033$ | $0.746 \pm 0.039$                          | -0.874** | $0.533 \pm 0.040$ | $0.505 \pm 0.041$               | -0.678** |
+|        |                   |                       |          |                   |                          |          |                   |                                            |          |                   |                                 |          |
+
+mTBI, mild traumatic brain injury; GCC, genu of the corpus callosum; BCC, body of the corpus callosum; SCC, splenium of the corpus callosum; ALIC, anterior limb of the internal capsule; PLIC, posterior limb of the internal capsule; ACR, anterior corona radiata; SCR, superior corona radiata PTR, posterior thalamic radiation; EC, external capsule; CGC, dorsal cingulate bundle; SLF, superior longitudinal fasciculus; SFO mean ± standard deviation; Cohen d is positive for Controls > mild traumatic brain injury superior fronto-occipital fasciculus; PCR, posterior corona radiata; SS, sagittal stratum. Diffusion tensor imaging metric values: **Bold**: p < 0.05; \*p < 0.01; \*\*p < 0.001
+
+two weeks post-injury and incomplete recovery (GOSE <8 vs. =8) at six months post-injury were assessed using logistic regression models.
+
+Standardized score for each DTI measure was calculated using its mean and standard deviation from the analysis sample. This way, we could better compare the effect across the different DTI measures. The Benjamini-Hochberg (BH) method was used to adjust for multiple testing. <sup>29</sup> Statistical analyses were performed in R version 3.6.1.
+
+#### **Results**
+
+# Demographic, clinical
+
+### and CT/MRI characteristics
+
+There were no significant group differences in age (mTBI:  $34.6\pm12.5$  years; FC:  $33.6\pm11.4$  years; p=0.35), sex (mTBI: 132 women, 259 men; FC: 48 women, 100 men; p=0.77), or years of education (mTBI:  $14.2\pm2.8$ ; FC:  $14.3\pm2.8$ ; p=0.80). Sex distribution and educational levels of both groups were representative of the larger population of >1000 enrolled TRACK-TBI mTBI participants, including those who did not undergo MRI; however, the average age was lower than the TRACK-TBI mTBI population average of 40.9 years because of the use of an age ceiling of 60 years in this analysis.
+
+Of the 367 mTBI patients with six-month GOSE outcome, 28.4% had CT findings indicative of recent trauma on day of injury, and 46.9% had such findings on two-week post-injury 3T MRI (and see Supplementary Table S1). The Marshall CT severity scores at the time of entry at the ED and Injury Scoring Scale peripheral injury scores are provided in Supplementary Tables S1 and S2, respectively.
+
+# Cross-sectional and longitudinal DTI analysis of mTBI versus FCs
+
+The initial 3T MRI with DTI was acquired at two weeks after injury (14.4±2.2 days; range 9–19 days). At this first time point, voxelwise TBSS analysis showed that the mTBI group had significantly higher AD, MD, and RD than the FC group, with more extensive involvement of the cerebral hemispheres than of the brainstem or cerebellum (Fig. 2). *Post hoc* ROI measurements confirmed significantly higher levels of AD, MD, and RD in all 14 major WM tracts examined (Table 1), with the exception of the genu and splenium of the corpus callosum (GCC and SCC, respectively) for RD.
+
+Effect sizes for the group difference globally for the WM of the whole brain were d=0.39 for AD, d=0.54 for MD and d=0.40 for RD. The largest effect sizes for individual tracts, with Cohen d values approaching or exceeding 1.0 for AD, were found in the body of the corpus callosum (BCC), in long association fasciculi, specifically the superior longitudinal fasciculus (SLF), and the
+
+FIG. 2. Diffusion tensor imaging (DTI) of patients with mild traumatic brain injury (mTBI) (n = 391) at two weeks post-injury versus demographically matched controls (n = 148). For each DTI metric, 30 representative axial images are shown with the right side of the image corresponding to the left side of the brain. The red to yellow color scale indicates significantly greater DTI metric of mTBI compared with controls ( p < 0.05) with brighter yellow colors denoting a greater level of statistical significance. The blue to light blue color scale denotes significantly lower DTI metric of mTBI compared with controls ( p < 0.05), with lighter blue colors denoting a greater level of statistical significance. While higher axial diffusivity (AD), mean diffusivity (MD), and radial diffusivity (RD) are widespread, the lower fractional anisotropy (FA) in mTBI versus the control group (FC) is less extensive. The posterior fossa showed group FA differences in the left posterior cerebral peduncle and at the decussation of the superior cerebellar peduncles.
+
+external capsule (EC), as well as anterior and superior projection fasciculi of the anterior limb of the internal capsule (ALIC) and superior corona radiata (SCR).
+
+Voxelwise TBSS analysis at two weeks post-injury showed significantly lower FA in the mTBI group compared with the FC group (Fig. 2), primarily in association tracts such as the EC and the superior fronto-occipital fasciculus (SFO) and commissural fibers of the GCC (Table 1).
+
+Longitudinal TBSS voxelwise comparison of twoweek versus six-month DTI of the mTBI cohort showed significant decreases over time in AD and, to a lesser extent, MD (Fig. 3). No significant longitudinal changes were observed for FA or RD. As a result, although AD, MD, and RD remained significantly higher and FA remained significantly lower for mTBI versus FC at the six-month time point (Supplementary Fig. S1), the effect sizes of the tract-specific group differences in AD and, to a lesser extent, MD were less than at two weeks postinjury (Supplementary Table S3).
+
+The largest effect sizes were again observed for AD in the commissural fibers of the BCC, the long association tracts of the SLF and EC, as well as projection fasciculi of the ALIC and SCR.
+
+FIG. 3. Diffusion tensor imaging (DTI) of mild traumatic brain injury (mTBI) (n = 391) at two weeks versus six months after head trauma. Conventions are as in Figure 2. The blue to light blue color scale indicates a significantly lower DTI metric at the second time point compared with the first time point ( p < 0.05), with lighter blue colors denoting a greater level of statistical significance. While lowered axial diffusivity (AD) over time is widespread, there is lowered mean diffusivity (MD) over time primarily in projection and commissural tracts. The posterior fossa also shows decreasing MD over time particularly in the midbrain including the decussation of the superior cerebellar peduncles. Fractional anisotropy (FA) and radial diffusivity (RD) showed no statistically significant longitudinal changes.
+
+# Long-term outcome of mTBI: demographics, clinical characteristics, structural CT, and MRI
+
+The mTBI cohort was nearly evenly split at the six-month time point between GOSE = 8 (*n* = 173) and GOSE <8 (*n* = 194) (and see Supplementary Fig, S2 for GOSE score distribution). Consistent with mTBI literature and a previous TRACK-TBI analysis, female sex and history of previous TBI were both significantly more represented in the group with incomplete recovery (Supplementary Table S1).<sup>3</sup>
+
+A greater proportion of CT scans were positive for recent trauma in the GOSE <8 group (32.6% vs. 23.7%), but this difference did not reach statistical significance. There was no difference between groups in the proportion of 3T MR scans that were positive for trauma (47.4% vs. 46.2%), despite the higher rate of positive findings on MR (46.9%) than CT (28.4%).
+
+### Long-term outcome of mTBI: DTI
+
+Voxelwise TBSS analysis of DTI acquired at two weeks post-injury demonstrated that AD and, to a lesser extent, MD was significantly higher in the six-month GOSE score = 8 group versus GOSE score <8 (Fig. 4). No significant group differences were found for FA or RD.
+
+Confirming the group-level voxelwise TBSS findings, bivariate association analysis of patient-specific measurements globally over the entire WM of the brain at two weeks post- injury showed higher global AD was significantly associated with reduced odds of GOSE score <8 at six-month follow-up (odds ratio [OR] = 0.75; confidence interval [CI] = 0.61–0.92) per SD higher in global AD; raw *p* = 0.006, Benjamini-Hochberg (BH)-adjusted *p* = 0.03). The AD of eight of the 14 WM tracts examined showed the same significant bivariate association as global AD at BH-adjusted *p* < 0.05, with the strongest effects observed in long association tracts such as the SLF (OR= 0.69 [CI = 0.56-0.85]; raw *p* < 0.001, BHadjusted *p* = 0.015) and SFO (OR= 0.73 [CI = 0.59-0.90]; *p* = 0.004, BH-adjusted *p* = 0.03).
+
+The association of two-week AD with six-month GOSE was consistently stronger for the left-sided tract than the right. In multi-variable models of six-month GOSE <8 versus GOSE= 8 outcome, global AD remained significantly associated with outcome (OR = 0.77 [CI = 0.61–0.96]; *p* = 0.023), independent of demographic, clinical, and CT factors (Table 2). This was also true of AD in the SLF (OR = 0.73 [CI = 0.58–0.92]; *p* = 0.007) and the SFO (OR = 0.77 [CI = 0.61–0.97]; *p* = 0.027). Left-sided tracts were more strongly correlated with six-month GOSE than right-sided tracts.
+
+We checked VIF for the final multi-variable logistic regression models, and there was no multi-collinearity issue. The C-index for the final model with global AD (i.e., Table 2) is 0.677 compared with the model without
+
+FIG. 4. Diffusion tensor imaging (DTI) of mild traumatic brain injury (mTBI) with Glasgow Outcome Scale Extended (GOSE) = 8 at six months post-injury (n = 173) versus those with GOSE <8 at six months (n = 194). Conventions are as in Figure 2. The red to yellow color scale indicates a significantly higher DTI metric in the GOSE = 8 group compared with the GOSE <8 group ( p < 0.05), with lighter yellow colors denoting a greater degree of statistical significance. The axial diffusivity (AD) is significantly higher throughout much of the white matter, especially the long association and projection tracts, in the GOSE = 8 group compared with the GOSE <8 group. In the posterior fossa, there was particular involvement of the superior cerebellar peduncles centered at their decussation. The significantly higher level of mean diffusivity (MD) in the GOSE = 8 versus GOSE <8 groups primarily involves long association and projection tracts, although with a left hemispheric predominance.
+
+the DTI predictor (C-index = 0.665); the improvement in area under the curve was not significant at the *p* < 0.05 threshold.
+
+Global FA, MD, and RD at two weeks did not show significant bivariate associations with six-month GOSE.
+
+Table 2. Two-Week Global White Matter Axial Diffusivity Is Independently Associated with Incomplete Recovery (GOSE <8 vs. = 8 at Six Months Post-Injury (n = 356)
+
+|                                                              | Odds<br>ratio | 95% CI       | Wald<br>Chisq | p     |
+|--------------------------------------------------------------|---------------|--------------|---------------|-------|
+| Age                                                          | 1.01          | (0.99, 1.03) | 0.28          | 0.59  |
+| Sex (Female vs. Male)                                        | 2.05          | (1.25, 3.39) | 7.94          | 0.005 |
+| Race                                                         |               |              | 2.08          | 0.35  |
+| Black vs. White                                              | 0.74          | (0.40, 1.36) |               |       |
+| Other vs. White                                              | 0.60          | (0.27, 1.37) |               |       |
+| Ethnicity (Hispanic vs.                                      | 1.21          | (0.63, 2.34) | 0.32          | 0.57  |
+| Non-Hispanic)                                                |               |              |               |       |
+| Years of education                                           | 0.94          | (0.85, 1.03) | 1.88          | 0.17  |
+| Injury mechanism (Assault/                                   | 1.74          | (0.67, 4.50) | 1.28          | 0.26  |
+| violence vs. accidental)<br>Psychiatric history (Yes vs. No) | 1.90          | (1.03, 3.50) | 4.24          | 0.040 |
+| Prior TBI (Yes vs. No)                                       | 1.86          | (1.16, 2.99) | 6.55          | 0.010 |
+| Head CT (Positive vs. Negative)                              | 1.54          | (0.93, 2.55) | 2.83          | 0.09  |
+| Global AD (standardized)                                     | 0.77          | (0.61, 0.96) | 5.20          | 0.023 |
+
+GOSE, Glasgow Outcome Scale Extended; CI, confidence interval; WM, white matter; Wald Chisq,, Wald chi square; TBI, traumatic brain injury; CT, computed tomography; AD, axial diffusivity.
+
+\*C–index of the model = 0.677, compared with the model without global axial diffusivity (C-index = 0.655); the improvement was not significant.
+
+There were strong trends toward significant bivariate associations of two-week MD with six-month GOSE in the SLF (OR = 0.76 [CI = 0.62–0.94]; raw *p* = 0.011, BH-adjusted *p* value = 0.06) and SFO (OR= 0.75 [CI = 0.61–0.93]; raw *p* = 0.007, BH-adjusted *p* value = 0.06).
+
+As indicated by the voxelwise TBSS results, the association of MD with six-month GOSE was consistently stronger for the left-sided tract—e.g., SLF-L (OR = 0.73 [CI = 0.58–0.91) than the right; e.g., SLF-R (OR = 0.84 [CI = 0.69–1.03]). In multi-variable models of six-month GOSE <8 versus GOSE = 8, MD in the SLF (OR = 0.78 [CI = 0.63–0.98]; *p* = 0.035) and the SFO (OR = 0.77 [CI = 0.61–0.98]; *p* = 0.030) remained significant independent correlates. As with AD, MD of left-sided tracts was more strongly associated with GOSE than rightsided tracts.
+
+# Discussion
+
+In this prospective longitudinal multi-center study of DTI in mTBI, to our knowledge the largest to date, we demonstrate widespread higher WM levels of AD, MD, and RD, and lower levels of FA, at two weeks after trauma compared with matched controls. The changes in MD, and especially AD, partially resolve by six months post-injury, whereas those of FA and RD do not. Higher AD and MD at two weeks are both independently associated with better long-term outcome, even after accounting for demographic, clinical, and CT factors. This prognostic discrimination of DTI was strongest in long association tracts such as the SLF, SFO and EC, especially those of the left cerebral hemisphere.
+
+These results, generalized over 11 enrollment sites, bring clarity to the DTI of mTBI literature. Although the reduced FA of mTBI versus controls at two weeks post-injury agrees with the preponderance of the DTI literature, the focus of previous studies on the FA metric was limiting in that FA showed the smallest effect sizes of the four DTI metrics for cross-sectional analysis, longitudinal analysis, and relationship to long-term outcome.11,13–16 Given these modest effect sizes for FA, it is not surprising that small single-center studies of mTBI, each employing different scanner types, imaging protocols, and post-injury latencies to scanning, might reach inconsistent conclusions.
+
+Here, the metric least reported in previous articles, specifically AD, showed the greatest effect sizes for all comparisons. Our results are consistent with a previous single-center longitudinal DTI study of 12 patients with moderate to severe TBI that also showed WM elevation of AD, MD, and RD, with reduction of FA, at the subacute phase of TBI that partially improves at the chronic phase six or more months after trauma.30 The effect size of these WM changes would be expected to be much larger in moderate-severe TBI compared with mTBI and therefore detectable with many fewer patients.
+
+The biological interpretation of DTI metrics remains challenging31; therefore, diffusion MRI is progressing toward biophysical modeling. Because basic DTI metrics have not yet been validated in larger cohorts from multisite studies with long-term outcomes, however, a foundational study of DTI could have a more immediate and realistic translational impact in clinical settings.
+
+We do not make any definitive interpretation of AD and RD in terms of the WM microstructure. The aim was to show how these DTI metrics change in patients with mTBI over time and how they relate to outcome. A possible explanation, however, arises from biophysical compartment modeling of multi-shell diffusion MRI, specifically neurite orientation dispersion and density imaging (NODDI).32
+
+The results of a recent DTI and NODDI investigation of mTBI in two independent single-center cohorts,<sup>14</sup> each requiring a longer two-shell (i.e., two different high b values) acquisition than the single-shell DTI obtained in this study, may help elucidate the underlying basis for the WM changes we observe. Palacios and associates<sup>14</sup> found that the two-week post-injury elevation of MD and reduction of FA in mTBI versus controls was associated with higher free water measured by NODDI, likely reflecting vasogenic edema, which decreased at the six-month time point.
+
+There was also NODDI evidence, however, of decreasing WM axonal density from the two-week to six-month time points, suggesting Wallerian degeneration. These two dynamic pathophysiological processes, evolving over different time scales in mTBI<sup>33</sup> help explain our findings. Early higher free water would increase diffusivity in all directions while also reducing FA, and these initial changes would be expected to resolve over time with the edema.
+
+The more delayed and protracted changes of Wallerian degeneration should lead to more specific elevation of RD and reduction of FA between the two-week and six-month time points, with little change to AD. This may explain the lack of statistically significant longitudinal changes of FA and RD, because resolving edema and progressive axonal degeneration have opposing, and roughly canceling, effects on these two metrics, whereas the unopposed effects of reduced free water would lead to larger reductions of AD. The MD should show a smaller longitudinal effect than AD, because it is a weighted average of AD and RD.
+
+To explain higher AD at two weeks had the strongest association with better outcome, we offer this speculation: MD, AD, and RD might be higher because of vasogenic edema. Because of acute axonal injury, however, there is a counteracting effect that reduces AD from axonal beading and axonal misalignment. Hence, those patients with higher AD early after mTBI may have less axonal injury, translating into better outcome. This hypothesis would need to be further investigated using more sensitive and specific methods such as NODDI that can separately measure free water from vasogenic edema and neurite density that is more closely related to axonal injury.
+
+These group-level, cross-sectional differences and longitudinal changes over time may obscure spatial heterogeneity among patterns of WM injury, which may reflect biomechanical variability in the magnitude, direction, and number of impact(s) as well as differing proportions of rotational versus linear translational acceleration forces.34,35
+
+To better characterize individual risk, patient-specific DTI metrics in WM tracts or averaged across the global WM of the brain were incorporated with demographic, clinical, and CT imaging data into a long-term outcome model. This showed that global AD, as well as AD and MD in specific WM tracts of the SLF and SFO, more commonly in the left hemisphere, were independent correlates of ''complete recovery'' (GOSE = 8) versus incomplete recovery (GOSE <8).
+
+In multi-variable models, AD and MD were as significant as the two best demographic, clinical, or CT correlates: sex and history of previous TBI. This suggests that DTI has utility as an imaging biomarker for patient selection and to monitor treatment response in clinical
+
+trials, especially those targeting pathophysiological mechanisms—e.g., neuroinflammatory vasogenic edema and/or secondary axonal degeneration, which can be directly or indirectly measured using diffusion MRI techniques.
+
+The left-sided predominance of tracts associated with GOSE outcome might possibly be related to language lateralization and the importance of language processing to cognition and activities of daily living, since the great majority of people are left-dominant for language function. Most people are also right-handed, so left-sided cerebral WM damage might be expected to impact motor function of the dominant limb; however, clinical motor deficits are not commonly observed in patients with mTBI. This observation of left-sided asymmetry of WM tracts associated with mTBI outcome remains an area for future research.
+
+One limitation of the study is that DTI assumes an ellipsoidal model with a single fiber orientation per voxel; hence, all DTI metrics have issues in WM regions with crossing fibers. To address this, we tailored our investigation to focus on ROI within the skeletonized core of major WM tracts, using TBSS in combination with the JHU WM Atlas, where the problem of crossing fibers is minimized. This is a very common methodology in the modern DTI literature. Further, although DTI of crossing fibers remains a valid theoretical concern, the empirical evidence in this study shows a significant relationship between AD and patient outcome that can still be exploited clinically.
+
+Another limitation of the study is that only about half of enrolled patients with mTBI could be imaged with research MRI scans (Fig. 1), which reflects the reality of available research funding for expensive procedures. This remains the largest DTI study of acute mTBI to date, to our knowledge, however. The characteristics of the imaged patients with mTBI are comparable to that of the entire enrolled sample, as previously published in Nelson and coworkers,4 (2019), with 53% of the imaged patients and 53% of the entire cohort manifesting GOSE <8 at long-term outcome. Therefore, there does not appear to be a major selection bias for the MRI sample.
+
+Because of the focus on obtaining the highest quality DTI data, approximately 20% of imaged patients had to be excluded, largely because of motion artifacts. We expect this attrition to improve in the future as more rapid diffusion MRI pulse sequences such as those based on multi-band echoplanar imaging are adopted that enable faster scanning.
+
+Unfortunately, only about 10% of the overall TRACK-TBI cohort is >60 years old. Given the rapid WM microstructural changes of aging and the high rate of comorbid WM diseases of the elderly, this was too small a sample size to draw meaningful conclusions as a separate cohort and would greatly add to the interindividual variability of the overall adult cohort. Therefore, we chose to exclude this important population from the current study; however, geriatric TBI remains a major focus of future investigation as more patients of advanced age are enrolled into longitudinal studies.
+
+To establish diffusion MRI as a routine clinical tool for diagnosis and prognosis in mTBI will require greater attention to protocol standardization and image quality assurance and quality control in non-research settings, using tools such as quantitative diffusion phantoms and the validation and dissemination of novel machine learning techniques for intersite harmonization of diffusion data.19,36
+
+More advanced metrics from biophysical modeling approaches such as NODDI show promise in surpassing the sensitivity and specificity of DTI for mTBI diagnosis and prognosis.14 Continuous improvements in the speed and capability of MR scanner hardware and software should enable such advanced diffusion MRI to be accomplished in a clinically feasible scan time during the present decade.
+
+### Data Sharing
+
+All demographic, clinical and imaging data reported in this study has been deposited with the NIH-supported Federal Inter-Agency TBI Research (FITBIR) repository (<https://fitbir.nih.gov/>) for public data sharing.
+
+# Author's Contributions
+
+Palacios: literature search, figures, data analysis, data interpretation, writing. Yuh: study design, data analysis, data interpretation, writing. Mac Donald: study design, data collection, data analysis, data interpretation. Bourla: figures, data analysis, data interpretation. Sun: figures, data analysis, data interpretation. Wren-Jarvis: figures, data analysis, data interpretation. Vassar: data collection, data analysis, data interpretation. Diaz-Arrastia: literature search, study design, data collection, data interpretation, writing. Giacino: literature search, study design, data collection, data interpretation, writing. Okonkwo: literature search, study design, data collection, data interpretation, writing. Robertson: literature search, study design, data collection, data interpretation, writing. Stein: literature search, study design, data collection, data interpretation, writing. Temkin: literature search, study design, data collection, data interpretation, writing. McCrea: literature search, study design, data collection, data interpretation, writing. Levin: literature search, study design, data collection, data interpretation, writing. Markowitz: writing. Jain: study design, data analysis, data interpretation, writing. Manley: literature search, study design, data collection, data interpretation, writing. Mukherjee: literature search, figures, study design, data collection, data analysis, data interpretation, writing.
+
+# Funding Information
+
+This work was supported by the following grants: NINDS 1U01NS086090-01, 3U01NS086090-02S1, 3U01NS086090-02S2, 3U01NS086090-03S1, 5U01NS 086090-02, 5U01NS086090-03; US DOD W81XWH-13-1-0441, US DOD W81XWH-14-2-0176. Funders were not involved in writing of this manuscript or submission for publication. No authors were paid to write this article by a pharmaceutical company or other agency. The authors had full access to all data in the study and had final responsibility for the decision to submit for publication.
+
+## Author Disclosure Statement
+
+Dr. Yuh had a patent for USPTO No. 62/269,778 pending. Dr. Manley received grants from the NINDS during the conduct of the study; research funding from the US Department of Energy, grants from the DoD, research funding from Abbott Laboratories, grants from the National Football League Scientific Advisory Board, and research funding from One Mind outside the submitted work; in addition, Dr. Manley had a patent for Interpretation and Quantification of Emergency Features on Head Computed Tomography issued. He served for 2 seasons as an unaffiliated neurologic consultant for home games of the Oakland Raiders; he was compensated \$1500 per game for six games during the 2017 season but received no compensation for this work during the 2018 season. Dr. Stein received personal fees from Aptinyx, Bionomics, Janssen, and Neurocrine; as well as personal fees and stock options from Oxeia Biopharmaceuticals outside the submitted work. Dr. Diaz-Arrastia received personal fees and research funding from Neural Analytics Inc and travel reimbursement from Brain Box Solutions Inc outside the submitted work. Dr. Goldman received personal fees from Amgen, Avanir Pharmaceuticals, Acadia Pharmaceuticals, Aspen Health Strategy Group, and Celgene outside the submitted work. Dr. Kreitzer received personal fees from Portola outside the submitted work. Dr. Mukherjee received grants from GE Healthcare and non-financial support from GE-NFL Head Health Initiative outside the submitted work; in addition, Dr. Mukherjee had a patent for USPTO No. 62/269,778 pending. Dr. Rosand received personal fees from Boehringer Ingelheim and New Beta Innovations outside the submitted work. Dr. Zafonte received royalties from Oakstone for an educational CD (Physical Medicine and Rehabilitation: a Comprehensive Review) and Demos publishing for serving as coeditor of Brain Injury Medicine. Dr. Zafonte serves or served on the scientific advisory boards of Myomo, Oxeia Biopharma, Biodirection, and Elminda. He also evaluates patients in the MGH Brain and Body-TRUST Program, which is funded by the National Football League Players Association. Dr. Zafonte served on the Mackey White Committee. The other authors have no disclosures
+
+## The TRACK-TBI Investigators
+
+Opeolu Adeoye, University of Cincinnati; Neeraj Badjatia, University of Maryland; Kim Boase, University of Washington; Jason Barber, University of Washington; Yelena Bodien, Massachusetts General Hospital; M. Ross Bullock, University of Miami; Randall Chesnut, University of Washington; John D. Corrigan, Ohio State University; Karen Crawford, University of Southern California; Sureyya Dikmen, University of Washington; Ann-Christine Duhaime, MassGeneral Hospital for Children; Richard Ellenbogen, University of Washington; V Ramana Feeser, Virginia Commonwealth University; Adam R. Ferguson, University of California, San Francisco; Brandon Foreman, University of Cincinnati; Raquel Gardner, University of California, San Francisco; Etienne Gaudette, University of Southern California; Dana Goldman, University of Southern California; Luis Gonzalez, TIRR Memorial Hermann; Shankar Gopinath, Baylor College of Medicine; Rao Gullapalli, University of Maryland; J. Claude Hemphill, University of California, San Francisco; Gillian Hotz, University of Miami; C. Dirk Keene, University of Washington; Frederick K. Korley, University of Michigan; Joel Kramer, University of California, San Francisco; Natalie Kreitzer, University of Cincinnati; Chris Lindsell, Vanderbilt University; Joan Machamer, University of Washington; Christopher Madden, UT Southwestern; Geoffrey T. Manley, University of California, San Francisco; Alastair Martin, University of California, San Francisco; Thomas McAllister, Indiana University; Randall Merchant, Virginia Commonwealth University; Lindsay Nelson, Medical College of Wisconsin; Laura B. Ngwenya, University of Cincinnati; Florence Noel, Baylor College of Medicine; Amber Nolan, University of California, San Francisco; Daniel Perl, Uniformed Services University; Ava Puccio, University of Pittsburgh; Miri Rabinowitz, University of Pittsburgh; Jonathan Rosand, Massachusetts General Hospital; Angelle Sander, Baylor College of Medicine; Gabriella Satris, University of California, San Francisco; David Schnyer, UT Austin; Seth Seabury, University of Southern California; Mark Sherer, TIRR Memorial Hermann; Sabrina Taylor, University of California, San Francisco; Arthur Toga, University of Southern California; Alex Valadka, Virginia Commonwealth University; Paul Vespa, University of California, Los Angeles; Kevin Wang, University of Florida; John K. Yue, University of California, San Francisco; Esther Yuh, University of California, San Francisco; Ross Zafonte, Harvard Medical School.
+
+### Supplementary Material
+
+Supplementary Research in Context Supplementary Figure S1
+
+Supplementary Figure S2 Supplementary Table S1 Supplementary Table S2 Supplementary Table S3
+
+### References
+
+- 1. Roozenbeek, B., Maas, A.I., and Menon, D.K. (2013). Changing patterns in the epidemiology of traumatic brain injury. Nat. Rev. Neurol. 9, 231–236.
+- 2. Taylor, C.A., Bell, J.M., Breiding, M.J., and Xu, L. (2017). Traumatic brain injury-related emergency department visits, hospitalizations, and deaths – United States, 2007 and 2013. MMWR Surveill. Summ. 66, 1–16.
+- 3. Carroll, L.J., Cassidy, J.D., Cancelliere, C., Coˆte´, P., Hincapie´, C.A., Kristman, V.L., Holm, L.W., Borg, J., Nygren-de Boussard, C., and Hartvigsen, J. (2014). Systematic review of the prognosis after mild traumatic brain injury in adults: cognitive, psychiatric, and mortality outcomes: results of the International Collaboration on Mild Traumatic Brain Injury Prognosis. Arch. Phys. Med. Rehabil. 95, Suppl., S152–S173.
+- 4. Nelson, L.D., Temkin, N.R., Dikmen, S., Barber, J., Giacino, J.T., Yuh, E., Levin, H.S., McCrea, M.A., Stein, M.B., Mukherjee, P. and Okonkwo, D.O., Robertson, T.S., Diaz-Arrastia, Geoffrey T. Manley, and the TRACK-TBI Investigators. (2019). Recovery after mild traumatic brain injury in patients presenting to US level I trauma centers: a Transforming Research And Clinical Knowledge In Traumatic Brain injury (TRACK-TBI) study. JAMA Neurol. 76, 1049–1059.
+- 5. McMillan, T.M., Weir, C.J., and Wainman-Lefley, J. (2014). Mortality and morbidity 15 years after hospital admission with mild head injury: a prospective case-controlled population study. J. Neurol. Neurosurg. Psychiatry 85, 1214–1220.
+- 6. Bodnar, C.N., Roberts, K.N., Higgins, E.K., and Bachstetter, A.D. (2019). A systematic review of closed head injury models of mild traumatic brain injury in mice and rats. J. Neurotrauma 36, 1683–1706.
+- 7. Bigler, ED. (2013). Neuroimaging biomarkers in mild traumatic brain injury (mTBI). Neuropsychol. Rev. 23, 169–209.
+- 8. Levin, H.S., and Diaz-Arrastia, R.R. (2015). Diagnosis, prognosis, and clinical management of mild traumatic brain injury. Lancet Neurol. 14, 506– 517.
+- 9. Basser, P.J., and Jones, D.K. (2002). Diffusion-tensor MRI: theory, experimental design and data analysis – a technical review. NMR Biomed. 15, 456–467.
+- 10. Mukherjee, P., Berman, J.I., Chung, S.W., Hess, C.P., and Henry, R.G. (2008). Diffusion tensor MR imaging and fiber tractography: theoretic underpinnings. AJNR Am. J. Neuroradiol. 29, 632–641.
+- 11. Niogi, S.N., and Mukherjee, P. (2010). Diffusion tensor imaging of mild traumatic brain injury. J. Head Trauma Rehabil. 25, 241–255.
+- 12. Croall, I.D., Cowie, C.J., He, J., Peel, A., Wood, J., Aribisala, B.S., Mitchell, P., Mendelow, A.D., Smith, F.E., Millar, D., Kelly, T., and Blamire, A.M. (2014). White matter correlates of cognitive dysfunction after mild traumatic brain injury. Neurology 83, 494–501.
+- 13. Oehr, L., and Anderson, J. (2017). Diffusion-tensor imaging findings and cognitive function following hospitalized mixed-mechanism mild traumatic brain injury: a systematic review and meta-analysis. Arch. Phys. Med. Rehabil. 98, 2308–2319.
+- 14. Palacios, E.M., Owen, J.P., Yuh, E.L., Wang, M.B., Vassar, M.J., Ferguson, A.R., Diaz-Arrastia, R., Giacino, J.T., Okonkwo, D.O., Robertson, C.S., Stein, M.B., Temkin, N., Jain, S., McCrea, M., MacDonald, C.L., Levin, H.S., Manley, G.T., Mukhrjee, P., and TRACK-TBI Investigators. (2020). The evolution of white matter microstructural changes after mild traumatic brain injury: a longitudinal DTI and NODDI study. Sci. Adv. 6. eaaz6892.
+- 15. Yuh, E.L., Cooper, S.R., Mukherjee, P., Yue, J.K., Lingsma, H.F., Gordon, W.A., Valadka, A.B., Okonkwo, D.O., Schnyer, D.M., Vassar, M.J., and Maas, A.I., Manley, G.T., and TRACK-TBI Investigators. (2014). Diffusion tensor imaging for outcome prediction in mild traumatic brain injury: a TRACK-TBI study. J. Neurotrauma 31, 1457–1477.
+- 16. Eierud, C., Craddock, R.C., Fletcher, S., Aulakh, M., King-Casas, B., Kuehl, D., and LaConte, S.M. (2014). Neuroimaging after mild traumatic brain injury: review and meta-analysis. NeuroImage Clin. 4, 283–294.
+- 17. Lindsey HM, Hodges CB, Greer KM, Wilde, E.A., and Merkley, T.L. (2021). Diffusion-weighted imaging in mild traumatic brain injury: a systematic review of the literature. Neuropsychol Rev. Epub ahead of print.
+- 18. Lerma-Usabiaga, G., Mukherjee, P., Ren, Z., Perry, M.L., and Wandell, B.A. (2019) Replication and generalization in applied neuroimaging. NeuroImage 202, 116048.
+
+- 19. Palacios, E.M., Martin, A.J., Boss, M.A., Ezekiel, F., Chang, Y.S., Yuh, E.L., Vassar, M.J., Schnyer, D.M., MacDonald, C.L., Crawford, K.L., and Irimia, A. (2017). Toward precision and reproducibility of diffusion tensor imaging: a multicenter diffusion phantom and traveling volunteer study. AJNR Am. J. Neuroradiol. 38, 537–545.
+- 20. Yue, J.K., Vassar, M.J., Lingsma, H.F., Cooper, S.R., Okonkwo, D.O., Valadka, A.B., Gordon, W.A., Maas, A.I., Mukherjee, P., Yuh, E.L., Puccio, A.M., Schnyer, D.M, Manley, G.T., and TRACT-TBI Investigators. (2013). Transforming research and clinical knowledge in traumatic brain injury pilot: multicenter implementation of the common data elements for traumatic brain injury. J. Neurotrauma 30, 1831–1844.
+- 21. Ranson, J., Magnus, B.E., Temkin, N., Dikmen, S., Giacino, J.T., Okonkwo, D.O., Valadka, A.B., Manley, G.T., Nelson, L.D., and TRACK-TBI Investigators. (2019). Diagnosing the GOSE: structural and psychometric properties using item response theory, a TRACK-TBI Pilot Study. J. Neurotrauma 36, 2493–2505.
+- 22. Boase, K., Machamer, J., Temkin, N.R., Dikmen, S., Wilson, L., Nelson, L.D., Barber, J., Bodien, Y.G., Giacino, J.T., Markowitz, A.J., McCrea, M.A., Saris, G., Stein, M.B., Taylor, S.R., Manley, G.T., and TRACK-TBI Investigators. (2021). Central curation of Glasgow Outcome Scale-Extended data: lessons learned from TRACK-TBI. J. Neurotrauma 38, 2419–2434.
+- 23. Wilson, L., Boase, K., Nelson, L.D,. Temkin, N.R., Giacino, J.T., Markowitz, A.J., Maas, A., Menon, D.K., Teasdale, G., Manley, G.T. (2021). A Manual for the Glasgow Outcome Scale-Extended Interview. J. Neurotrauma 38, 2435–2446.
+- 24. Smith, S.M., Jenkinson, M., Johansen-Berg, H., Rueckert, D., Nichols, T.E., Mackay, C.E., Watkins, K.E., Ciccarelli, O., Cader, M.Z., Matthews, P.M., and Behrens, T.E. (2006). Tract-based spatial statistics: voxelwise analysis of multi-subject diffusion data. NeuroImage 31, 1487–1505.
+- 25. Mori, S., Wakana, S., van Zijl, P.C.M., and Nagae-Poetscher, L.M. MRI Atlas of Human White Matter, 1st Edition; Elsevier (2005), eBook ISBN: 9780080456164.
+- 26. Nichols, T.E., and Holmes, A.P. (2002). Nonparametric permutation tests for functional neuroimaging: a primer with examples. Hum. Brain Mapp, 15, 1–25.
+- 27. Smith, S.M., Nichols, T.E. (2009). Threshold-free cluster enhancement: addressing problems of smoothing, threshold dependence and localisation in cluster inference. NeuroImage 44, 83–98.
+- 28. Yuh, E.L., Mukherjee, P., Lingsma, H.F., Yue, J.K., Ferguson, A.R., Gordon, W.A., Valadka, A.B., Schnyer, D.M., Okonkwo, D.O., Maas, A.I., and Manley, G.T. (2013). Magnetic resonance imaging improves 3-month outcome prediction in mild traumatic brain injury. Ann. Neurol. 73, 224–235.
+- 29. Benjamini, Y., and Hochberg, Y. (1995). Controlling the false discovery rate: a practical and powerful approach to multiple testing. J. Royal Statistical Society Series B 57, 289–300.
+- 30. Newcombe, V.F., Correia, M.M., Ledig, C., Abate, M.G., Outtrim, J.G., Chatfield, D., Geeraerts, T., Manktelow, A.E., Garyfallidis, E., Pickard, J.D., and Sahakian, B.J. (2016). Dynamic changes in white matter abnormalities correlate with late improvement and deterioration following TBI: a diffusion tensor imaging study. Neurorehabil. Neural Repair 30, 49–62.
+- 31. Wheeler-Kingshott, C.A., and Cercignani, M. (2009). About ''axial'' and ''radial'' diffusivities. Magn. Res. Med. 61, 1255–1260.
+- 32. Zhang, H., Schneider, T., Wheeler-Kingshott, C.A., and Alexander, D.C. (2012). NODDI: practical in vivo neurite orientation dispersion and density imaging of the human brain. NeuroImage 61, 1000–1016.
+- 33. Bigler ED. (2015). Frontiers in neuroengineering. neuropathology of mild traumatic brain injury: correlation to neurocognitive and neurobehavioral findings, in: Brain Neurotrauma: Molecular, Neuropsychological, and Rehabilitation Aspects. F.H. Kobeissy (ed). CRC Press/Taylor & Francis: Boca Raton, FL.
+- 34. Hernandez, F., Wu, L.C., Yip, M.C., Laksari, K., Hoffman, A.R., Lopez, J.R., Grant, G.A., Kleiven, S., and Camarillo, D.B. (2015). Six Degree-offreedom measurements of human mild traumatic brain injury. Ann. Biomed. Eng. 43, 1918–1934.
+- 35. Zhao, W., Ford, J.C., Flashman, L.A., McAllister, T.W., and Ji, S. (2016) White matter injury susceptibility via fiber strain evaluation using whole-brain tractography. J. Neurotrauma 33, 1834–1847.
+- 36. Karayumak, S.C., Bouix, S., Ning, L., James, A., Crow, T., Shenton, M., Kubicki, M., and Rathi, Y. (2019). Retrospective harmonization of multisite diffusion MRI data acquired with different acquisition parameters. NeuroImage 184, 180–200.
