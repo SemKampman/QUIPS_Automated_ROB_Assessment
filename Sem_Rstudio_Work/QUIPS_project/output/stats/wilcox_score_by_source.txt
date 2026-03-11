@@ -1,10 +1,10 @@
 # A tibble: 7 × 9
-  Risk_Score   .y.       group1 group2    n1    n2 statistic           p p_readable
-  <chr>        <chr>     <chr>  <chr>  <int> <int>     <dbl>       <dbl> <chr>     
-1 D1_Risk      Score_num 0      1         94    94      580. 0.28        0.280     
-2 D2_Risk      Score_num 0      1         47    94      395  0.000485    < 0.001   
-3 D3_Risk      Score_num 0      1         94    94     1087  0.000000168 < 0.001   
-4 D4_Risk      Score_num 0      1         94    94      500. 0.312       0.312     
-5 D5_Risk      Score_num 0      1         74    94      453  0.293       0.293     
-6 D6_Risk      Score_num 0      1         94    94      838  0.00000232  < 0.001   
-7 Overall_Risk Score_num 0      1         94    94      916  0.119       0.119     
+  Risk_Score   .y.       group1 group2    n1    n2 statistic        p p_readable
+  <chr>        <chr>     <chr>  <chr>  <int> <int>     <dbl>    <dbl> <chr>     
+1 D1_Risk      Score_num human  llm      298   298     6513  3.53e- 1 0.353     
+2 D2_Risk      Score_num human  llm      251   251    11862  2.34e-11 < 0.001   
+3 D3_Risk      Score_num human  llm      297   297     4394. 1.64e-11 < 0.001   
+4 D4_Risk      Score_num human  llm      297   297     4030. 9.35e- 3 < 0.01    
+5 D5_Risk      Score_num human  llm      278   278     7281  2.83e- 1 0.283     
+6 D6_Risk      Score_num human  llm      298   298     7724. 6.01e- 8 < 0.001   
+7 Overall_Risk Score_num human  llm      245   245     9844  6.09e-10 < 0.001   
