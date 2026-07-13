@@ -1,8 +1,0 @@
-# A tibble: 5 × 5
-  Review    mean_kappa sd_kappa min_kappa max_kappa
-  <chr>          <dbl>    <dbl>     <dbl>     <dbl>
-1 Adan          0.298     0.254   -0.103      0.621
-2 Arfaie      NaN        NA      NaN        NaN    
-3 Giuliano      0.0727    0.173   -0.106      0.314
-4 Wassenaar     0.0235    0.147   -0.143      0.298
-5 West          0.0855    0.143   -0.0417     0.371
